@@ -46,7 +46,7 @@ const KeyFeatures = () => {
             className="bg-[#1F2835CC] border-[2.97px] border-[#303945] px-[12px] py-[10px] rounded-[26.71px] text-center"
             style={{ backdropFilter: "blur(29.689451217651367px)" }}
           >
-            <div className="px-[17px] py-[37px] border-[1.78px] border-[#38DCC8] h-full w-full rounded-[13.35px] flex flex-col items-center justify-center">
+            <div className="px-[17px] py-[37px] border-[1.78px] border-primaryColor h-full w-full rounded-[13.35px] flex flex-col items-center justify-center">
               <div
                 className="bg-[#FFFFFF33] rounded-[14.74px] md:min-h-[78.25px] md:min-w-[85.06px] min-h-[65.71px] min-w-[71.43px] flex items-center justify-center mb-[16px]"
                 style={{

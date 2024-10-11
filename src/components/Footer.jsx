@@ -1,5 +1,5 @@
 import { AiFillInstagram } from "react-icons/ai";
-import { BsInstagram, BsTwitterX } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -36,9 +36,9 @@ const Footer = () => {
               className={({ isActive }) =>
                 `px-[2px] py-[6px] transition ${
                   isActive
-                    ? "text-[#38DCC8] font-[700]"
+                    ? "text-primaryColor font-[700]"
                     : "text-white font-[400]"
-                } hover:text-[#38DCC8]`
+                } hover:text-primaryColor`
               }
             >
               {item.name}
@@ -124,7 +124,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="py-[15px] px-4 bg-[#38DCC8]">
+      <div className="py-[15px] px-4 bg-primaryColor">
         <div className="max-w-[1280px] w-full mx-auto flex items-center justify-between md:flex-row flex-col gap-5">
           <h3 className="md:order-1 order-2 text-black text-[18.04px] leading-[30px] font-medium">
             © 2024, All rights reserved.

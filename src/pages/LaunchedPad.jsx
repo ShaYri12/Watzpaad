@@ -1,6 +1,6 @@
 import React from "react";
-import LaunchedPadHero from "../components/LaunchedPadHero";
-import Tabs from "../components/Tabs";
+import LaunchedPadHero from "../components/LaunchedPad/LaunchedPadHero";
+import Tabs from "../components/LaunchedPad/Tabs";
 
 const LaunchedPad = () => {
   return (

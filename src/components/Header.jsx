@@ -40,9 +40,9 @@ const Header = () => {
               className={({ isActive }) =>
                 `px-[10px] py-[6px] transition ${
                   isActive
-                    ? "text-[#38DCC8] font-[700]"
+                    ? "text-primaryColor font-[700]"
                     : "text-white font-[400]"
-                } hover:text-[#38DCC8]`
+                } hover:text-primaryColor`
               }
             >
               {item.name}
@@ -51,7 +51,7 @@ const Header = () => {
         </nav>
         <div className="hidden lg:block">
           <button
-            className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-[#38DCC8] hover:text-white transition"
+            className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
@@ -91,9 +91,9 @@ const Header = () => {
                   className={({ isActive }) =>
                     `py-2 px-4 transition ${
                       isActive
-                        ? "text-[#38DCC8] font-[700]"
+                        ? "text-primaryColor font-[700]"
                         : "text-white font-[400]"
-                    } hover:text-[#38DCC8]`
+                    } hover:text-primaryColor`
                   }
                   onClick={toggleDrawer} // Close drawer on link click
                 >
@@ -101,7 +101,7 @@ const Header = () => {
                 </NavLink>
               ))}
               <button
-                className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-[#38DCC8] hover:text-white transition mt-2"
+                className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
                 style={{
                   background:
                     "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
