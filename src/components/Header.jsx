@@ -74,7 +74,7 @@ const Header = () => {
             <button className="text-white " onClick={toggleDrawer}>
               <IoMdClose size={24} />
             </button>
-            <nav className="flex flex-col items-center justify-center">
+            <nav className="flex flex-col items-center justify-start overflow-y-auto h-full pb-[35px]">
               {[
                 { name: "Home", path: "/" },
                 { name: "Launchpad", path: "/launchpad" },
@@ -100,6 +100,16 @@ const Header = () => {
                   {item.name}
                 </NavLink>
               ))}
+              <button
+                className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-[#38DCC8] hover:text-white transition mt-2"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
+                  boxShadow: "0px 4px 22.6px 0px #38DCC88C",
+                }}
+              >
+                Go to App
+              </button>
             </nav>
           </>
         )}
