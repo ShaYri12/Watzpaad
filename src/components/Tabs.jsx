@@ -12,13 +12,13 @@ const Tabs = () => {
   return (
     <div className="bg-[#09121D] text-white min-h-screen">
       {/* Navbar */}
-      <div className="py-[33.77px] px-[22px] bg-[#111D2D]">
-        <ul className="max-w-[1280px] mx-auto flex justify-center items-center gap-[23px]">
+      <div className="py-[20px] md:py-[33.77px] px-[22px] bg-[#111D2D]">
+        <ul className="max-w-[1280px] mx-auto flex justify-center items-center gap-[23px] flex-wrap">
           {["About", "IDO Projects", "Levels", "IDO Stacking", "FAQs"].map(
             (tab) => (
               <li
                 key={tab}
-                className={`px-4 py-[9.73px] w-[181.8px] rounded-full cursor-pointer flex items-center justify-center transition text-[19.79px] text-[#38DCC8] ${
+                className={`px-4 md:py-[9.73px] py-[5.31px] md:w-[181.8px] w-[105px] rounded-full cursor-pointer flex items-center justify-center transition md:text-[19.79px] text-[11.45px] text-[#38DCC8] border-[#38DCC8] border ${
                   activeTab === tab
                     ? "bg-[#38DCC8] text-black"
                     : "hover:bg-teal-600 hover:text-black"
@@ -33,7 +33,7 @@ const Tabs = () => {
       </div>
 
       {/* Tab Content */}
-      <div className="py-[84px] px-[22px]">
+      <div className="md:py-[84px] py-[40px] px-[22px]">
         {activeTab === "About" && (
           <>
             <KeyFeatures /> {/* First Section (Key Features) */}

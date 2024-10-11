@@ -2,25 +2,25 @@ const KeyFeatures = () => {
   const features = [
     {
       title: "Fair and Transparent",
-      icon: "🌐",
+      imageUrl: "feature-1.svg",
       description:
         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
     },
     {
       title: "Rug-Proof Mechanisms",
-      icon: "🔒",
+      imageUrl: "feature-2.svg",
       description:
         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
     },
     {
       title: "",
-      icon: "💎",
+      imageUrl: "feature-3.svg",
       description:
         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
     },
     {
       title: "High-Quality Projects",
-      icon: "💎",
+      imageUrl: "feature-4.svg",
       description:
         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
     },
@@ -29,25 +29,39 @@ const KeyFeatures = () => {
   return (
     <div className="text-white pb-[55px] max-w-[1280px] mx-auto">
       <div className="max-w-[769px] text-center mx-auto">
-        <h2 className="text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
+        <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
           MataAltPad Key Features
         </h2>
-        <p className="text-center text-white md:text-[17px] mt-[22px] font-[300]">
+        <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
           Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um
           sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um
           semper. r.
         </p>
       </div>
 
-      <div className="flex justify-center gap-[27px] mt-[56px]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-[27px] md:mt-[56px] mt-[40px] flex-wrap">
         {features.map((feature, index) => (
           <div
             key={index}
             className="bg-[#1F2835CC] border-[2.97px] border-[#303945] px-[12px] py-[10px] rounded-[26.71px] text-center"
             style={{ backdropFilter: "blur(29.689451217651367px)" }}
           >
-            <div className="px-[17px] py-[37px] border-[1.78px] border-[#38DCC8] h-full w-full rounded-[13.35px]">
-              <div className="mb-[16px]">{feature.icon}</div>
+            <div className="px-[17px] py-[37px] border-[1.78px] border-[#38DCC8] h-full w-full rounded-[13.35px] flex flex-col items-center justify-center">
+              <div
+                className="bg-[#FFFFFF33] rounded-[14.74px] md:min-h-[78.25px] md:min-w-[85.06px] min-h-[65.71px] min-w-[71.43px] flex items-center justify-center mb-[16px]"
+                style={{
+                  boxShadow: `-1.71px 1.71px 1.71px 0px #FFFFFF63 inset, 
+                            1.14px -1.14px 11.34px 0px #D6D6D62B inset, 
+                            0px 4px 40px 0px #92FFF233`,
+                }}
+              >
+                <div className="md:min-h-[50px] md:min-w-[50px] min-h-[42px] min-w-[42px]">
+                  <img
+                    src={`/assets/icons/${feature.imageUrl}`}
+                    className="md:w-[50px] md:h-[50px] w-[42px] h-[42px]"
+                  />
+                </div>
+              </div>
               {feature.title && (
                 <h3 className="text-[17.62px] font-[700]">{feature.title}</h3>
               )}
