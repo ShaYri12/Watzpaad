@@ -53,7 +53,7 @@ export default function Earnings() {
 
       <div className="md:px-[22px] px-[12px]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex flex-col gap-[44px] py-[80px]">
+          <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
             <RewardSection
               titleWhite="Presale"
               titleColor="Rewards"

@@ -113,7 +113,7 @@ export default function Marketplace() {
                   onChange={(e) => setStage(e.target.value)}
                   className="appearance-none bg-[#1F2835] text-primaryColor text-[12px] leading-[13.8px] font-[400] w-[92.11px] md:w-[168px] cursor-pointer rounded-full py-[15.4px] px-[15.23px] focus:outline-none focus:ring-1 focus:ring-primaryColor"
                 >
-                  <option>Stage</option>
+                  <option>All NFTs</option>
                   <option>Option 1</option>
                   <option>Option 2</option>
                 </select>
@@ -128,7 +128,7 @@ export default function Marketplace() {
                   onChange={(e) => setRound(e.target.value)}
                   className="appearance-none bg-[#1F2835] text-primaryColor text-[12px] leading-[13.8px] font-[400] w-[92.11px] md:w-[168px] cursor-pointer rounded-full py-[15.4px] px-[15.23px] focus:outline-none focus:ring-2 focus:ring-primaryColor"
                 >
-                  <option>Round</option>
+                  <option>Smart Filter</option>
                   <option>Option 1</option>
                   <option>Option 2</option>
                 </select>
@@ -156,7 +156,7 @@ export default function Marketplace() {
             {filteredCards.map((card, index) => (
               <div
                 key={index}
-                className="bg-[#1F2835CC] rounded-[10.39px] flex flex-col md:p-[7.79px] p-[4.28px]"
+                className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
               >
                 <div className="md:p-[14px] p-[8px] rounded-[10.39px] border border-primaryColor flex flex-col sm:gap-[5.54px] gap-[7px]">
                   <div className="rounded-[10.39px] mb-[7.27px] md:mb-[13.34px] flex items-center justify-center h-[137px] md:h-[249.34px] overflow-hidden border-[2.6px] border-primaryColor">
