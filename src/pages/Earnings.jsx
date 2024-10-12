@@ -51,7 +51,7 @@ export default function Earnings() {
         <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)]"></div>
       </div>
 
-      <div className="px-[22px]">
+      <div className="md:px-[22px] px-[12px]">
         <div className="max-w-[1280px] mx-auto">
           <div className="flex flex-col gap-[44px] py-[80px]">
             <RewardSection
