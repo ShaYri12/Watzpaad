@@ -30,7 +30,7 @@ const Header = () => {
             { name: "Earnings", path: "/earnings" },
             { name: "Marketplace", path: "/marketplace" },
             { name: "Vault", path: "/vault" },
-            { name: "Staking", path: "/staking" },
+            { name: "Stacking", path: "/stacking" },
             { name: "Win $1M", path: "/win" },
             { name: "Whitepaper", path: "/whitepaper" },
           ].map((item, index) => (
@@ -81,7 +81,7 @@ const Header = () => {
                 { name: "Earnings", path: "/earnings" },
                 { name: "Marketplace", path: "/marketplace" },
                 { name: "Vault", path: "/vault" },
-                { name: "Staking", path: "/staking" },
+                { name: "Stacking", path: "/stacking" },
                 { name: "Win $1M", path: "/win" },
                 { name: "Whitepaper", path: "/whitepaper" },
               ].map((item, index) => (

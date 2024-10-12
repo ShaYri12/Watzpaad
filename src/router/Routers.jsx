@@ -11,6 +11,7 @@ import Layout from "../layout/Layout"; // Import your layout
 import Earnings from "../pages/Earnings";
 import Marketplace from "../pages/Marketplace";
 import Vault from "../pages/Vault";
+import Stacking from "../pages/Stacking";
 
 const Routers = () => {
   return (
@@ -53,6 +54,14 @@ const Routers = () => {
         element={
           <Layout>
             <Vault />
+          </Layout>
+        }
+      />
+      <Route
+        path="/stacking"
+        element={
+          <Layout>
+            <Stacking />
           </Layout>
         }
       />
