@@ -5,6 +5,7 @@ import LaunchedPad from "../pages/LaunchedPad";
 import TermsAndConditions from "../pages/TermsAndConditions";
 import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Bridging from "../pages/Bridging";
 
 const Routers = () => {
   return (
@@ -15,6 +16,7 @@ const Routers = () => {
       <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       <Route path="/cookie-policy" element={<CookiePolicy />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/bridging" element={<Bridging />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
