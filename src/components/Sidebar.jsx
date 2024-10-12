@@ -12,7 +12,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="bg-gray-900 fixed top-0 left-0 text-white h-screen w-64 flex flex-col items-center ">
+    <div className="bg-gray-900 hidden fixed top-0 left-0 text-white h-screen w-64 md:flex flex-col items-center ">
       <div className="relative w-full py-6 text-center">
         <div
           style={{

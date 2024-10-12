@@ -4,10 +4,10 @@ import Sidebar from "../components/Sidebar";
 const Bridging = () => {
   return (
     <div className="flex justify-end items-end">
-      <div className="w-[17%]">
+      <div className="hidden md:block md:w-[17%]">
         <Sidebar />
       </div>
-      <div className="md:w-[83%] space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto md:py-[83px] px-[30px] md:px-[80px] py-[57px] ">
+      <div className="w-full md:w-[83%] space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto md:py-[83px] px-[30px] md:px-[80px] py-[57px] ">
         <div className="h-[336px] md:h-[360px] lg:h-[400px] w-full overflow-hidden border-2 border-[#303945] rounded-[12px]">
           <img
             src="/assets/bridging-lg.png"
