@@ -1,6 +1,6 @@
 import { useState } from "react";
-import KeyFeatures from "../components/KeyFeatures";
-import CrossChainIntegration from "../components/CrossChainIntegeration";
+import KeyFeatures from "./KeyFeatures";
+import CrossChainIntegration from "./CrossChainIntegeration";
 import IDOProjects from "./IDOProjects";
 import Levels from "./Levels";
 import FAQSection from "../FAQSection";

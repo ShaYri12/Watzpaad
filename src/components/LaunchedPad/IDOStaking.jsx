@@ -4,116 +4,144 @@ export default function IDOStaking() {
   const [stakeAmount, setStakeAmount] = useState("");
   const [unstakeAmount, setUnstakeAmount] = useState("");
 
+  const handleMaxStake = () => {
+    // Set the max stakable amount (for demo, let's assume it's 100 MAP)
+    setStakeAmount("100");
+  };
+
+  const handleMaxUnstake = () => {
+    // Set the max unstakable amount (for demo, let's assume it's 50 MAP)
+    setUnstakeAmount("50");
+  };
+
   return (
-    <div className="flex flex-col md:flex-row gap-6 p-6 bg-gray-900 text-gray-100 min-h-screen">
-      <div className="flex-1 bg-gray-800 border border-gray-700 rounded-lg overflow-hidden">
-        <div className="p-6">
-          <h2 className="text-2xl font-bold mb-4">
-            Stake For IDO Participation
-          </h2>
-          <p className="text-sm mb-4">
-            Once staked, you need to register for every IDO, so we can calculate
-            the guaranteed allocation. Once registered, we lock your tokens, but
-            you still can participate in other IDOs.
-          </p>
-          <div className="space-y-2 mb-4">
-            <p>Level: none</p>
-            <p>Staked:</p>
-            <p>0 MAP</p>
-            <p>Your tokens are unlocked</p>
-          </div>
-          <div className="flex gap-4 mb-4">
-            <div className="flex-1">
-              <p className="mb-2">Balance: 0 MAP</p>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  placeholder="0"
-                  value={stakeAmount}
-                  onChange={(e) => setStakeAmount(e.target.value)}
-                  className="flex-1 bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-teal-500"
-                />
-                <button className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-4 rounded">
-                  Max
-                </button>
-              </div>
+    <div className="flex flex-col md:flex-row gap-[31px] text-white mx-auto max-w-[1280px]">
+      <div className="flex-1 bg-[#1F2835CC] border-[3px] border-[#303945] rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px]">
+        <h2 className="text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
+          Stake For IDO Participation
+        </h2>
+        <p className="text-[13.52px] md:text-[16px] mb-[18px]">
+          Once staked, you need to register for every IDO, so we can calculate
+          the guaranteed allocation. Once registered, we lock your tokens, but
+          you still can participate in other IDOs.
+        </p>
+        <p className="text-[13.52px] md:text-[16px] mb-[25px] md:mb-[32px] flex flex-col">
+          <span>Level: none</span>
+          <span>Staked:</span>
+          <span>0 MAP</span>
+          <span>Your tokens are unlocked</span>
+        </p>
+        {/* Input sections */}
+        <div className="flex justify-between gap-[13px] flex-wrap">
+          {/* Stake Input */}
+          <div className="relative flex-1 bg-[#121C29] px-[14px] md:px-[16px] py-[12px] rounded-lg flex items-center border border-primaryColor text-[11.83px] md:text-[14px] justify-between">
+            <div className="flex gap-[4px] md:gap-[6px] items-center">
+              Balance:
+              <input
+                type="number"
+                className="bg-transparent text-right text-white w-[35px] md:w-[40px] outline-none"
+                value={stakeAmount}
+                onChange={(e) => setStakeAmount(e.target.value)}
+                placeholder="0"
+              />
+              MAP
             </div>
-            <div className="flex-1">
-              <p className="mb-2">Balance: 0 MAP</p>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  placeholder="0"
-                  value={unstakeAmount}
-                  onChange={(e) => setUnstakeAmount(e.target.value)}
-                  className="flex-1 bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-teal-500"
-                />
-                <button className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-2 px-4 rounded">
-                  Max
-                </button>
-              </div>
+            <div className="flex md:gap-[12px] gap-[10px] items-center">
+              <button
+                className="bg-primaryColor px-[16px] py-[5px] rounded-[5px] text-black"
+                onClick={handleMaxStake}
+              >
+                Max
+              </button>
+              <span className="text-white">MAP</span>
             </div>
           </div>
-          <div className="space-y-2">
-            <button className="w-full bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-3 px-4 rounded">
-              Approve
-            </button>
-            <button className="w-full bg-transparent hover:bg-gray-700 text-white font-bold py-3 px-4 rounded border border-gray-600">
-              Unstake
-            </button>
+
+          {/* Unstake Input */}
+          <div className="relative flex-1 bg-[#121C29] px-[14px] md:px-[16px] py-[12px] rounded-lg flex items-center border border-primaryColor text-[11.83px] md:text-[14px] justify-between">
+            <div className="flex gap-[4px] md:gap-[6px] items-center">
+              Balance:
+              <input
+                type="number"
+                className="bg-transparent text-right text-white w-[35px] md:w-[40px] outline-none"
+                value={unstakeAmount}
+                onChange={(e) => setUnstakeAmount(e.target.value)}
+                placeholder="0"
+              />
+              MAP
+            </div>
+            <div className="flex gap-[12px] items-center">
+              <button
+                className="bg-primaryColor px-[16px] py-[5px] rounded-[5px] text-black"
+                onClick={handleMaxUnstake}
+              >
+                Max
+              </button>
+              <span className="text-white">MAP</span>
+            </div>
           </div>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="flex gap-[13px] mt-[15px] flex-wrap">
+          <button className="flex-grow bg-primaryColor hover:bg-teal-300 min-w-[235px] text-[19px] md:text-[24px] transition text-black py-[11px] px-4 rounded-full">
+            Approve
+          </button>
+          <button className="flex-grow bg-transparent hover:bg-gray-700 text-white min-w-[235px] text-[19px] md:text-[24px] transition py-[11px] px-4 rounded-full border border-white">
+            Unstake
+          </button>
         </div>
       </div>
 
-      <div className="flex-1 bg-gray-800 border border-gray-700 rounded-lg overflow-hidden">
-        <div className="p-6">
-          <h2 className="text-2xl font-bold mb-4">$MAP Levels</h2>
-          <p className="text-sm mb-4">
-            To be eligible for any of the tiers you are required to stake the
-            following:
-          </p>
-          <ul className="space-y-2 text-sm mb-4">
-            <li>
-              <span className="text-teal-400">MAP Of $200</span> for chance (10%
-              lottery) 5 days
-            </li>
-            <li>
-              <span className="text-teal-400">MAP Of $500</span> for prospect
-              (25% lottery) 5 days
-            </li>
-            <li>
-              <span className="text-teal-400">MAP Of $1000</span> for affiliate
-              (50% lottery) 5 days
-            </li>
-            <li>
-              <span className="text-teal-400">MAP Of $2000</span> for member 5
-              days
-            </li>
-            <li>
-              <span className="text-teal-400">MAP Of $5000</span> for club 5
-              days
-            </li>
-            <li>
-              <span className="text-teal-400">MAP Of $10000</span> for associate
-              5 days
-            </li>
-          </ul>
-          <p className="text-teal-400 font-semibold mb-4">
-            You need to register for an IDO after you staked.
-          </p>
-          <p className="text-sm mb-4">
-            When IDO registration period starts (usually 24h before the IDO
-            start), you need to open the Pools page and click the "Register"
-            button in the pool card.
-          </p>
-          <p className="text-sm">
-            When you register for an IDO, your level is recorded (for this
-            specific IDO). There's no way to change it to a higher level after
-            registration. So make sure you are on the level you want before
-            registering. You will be able to stake more and register for other
-            IDOs with a higher level though.
-          </p>
-        </div>
+      <div className="flex-1 bg-[#1F2835CC] border-[3px] border-[#303945] rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px]">
+        <h2 className="text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
+          $MAP Levels
+        </h2>
+        <p className="text-[13.68px] md:text-[16px] mb-[25px]">
+          To be eligible for any of the tiers you are required to stake the
+          following:
+        </p>
+        <ul className="text-[13.68px] md:text-[16px] mb-[25px]">
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $200</span>{" "}
+            for chance (10% lottery) 5 days
+          </li>
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $500</span>{" "}
+            for prospect (25% lottery) 5 days
+          </li>
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $1000</span>{" "}
+            for affiliate (50% lottery) 5 days
+          </li>
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $2000</span>{" "}
+            for member 5 days
+          </li>
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $5000</span>{" "}
+            for club 5 days
+          </li>
+          <li>
+            <span className="text-primaryColor font-[700]">MAP Of $10000</span>{" "}
+            for associate 5 days
+          </li>
+        </ul>
+        <p className="text-primaryColor text-[13.68px] md:text-[16px] font-[700] mb-[5px]">
+          You need to register for an IDO after you staked.
+        </p>
+        <p className="text-[11.97px] md:text-[14px] mb-4">
+          When IDO registration period starts (usually 24h before the IDO
+          start), you need to open the Pools page and click the "Register"
+          button in the pool card.
+        </p>
+        <p className="text-[11.97px] md:text-[14px]">
+          When you register for an IDO, your level is recorded (for this
+          specific IDO). There's no way to change it to a higher level after
+          registration. So make sure you are on the level you want before
+          registering. You will be able to stake more and register for other
+          IDOs with a higher level though.
+        </p>
       </div>
     </div>
   );
