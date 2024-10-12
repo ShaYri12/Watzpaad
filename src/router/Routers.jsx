@@ -10,7 +10,7 @@ import BridgingConverter from "../pages/BridgingConvertor";
 import Layout from "../layout/Layout"; // Import your layout
 import Earnings from "../pages/Earnings";
 import Marketplace from "../pages/Marketplace";
-import Vaults from "../pages/Vaults";
+import Vault from "../pages/Vault";
 
 const Routers = () => {
   return (
@@ -52,7 +52,7 @@ const Routers = () => {
         path="/vault"
         element={
           <Layout>
-            <Vaults />
+            <Vault />
           </Layout>
         }
       />

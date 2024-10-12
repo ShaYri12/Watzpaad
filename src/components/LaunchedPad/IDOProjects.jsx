@@ -9,7 +9,7 @@ export default function IDOProjects() {
   return (
     <div className="">
       <div className="max-w-[1280px] mx-auto">
-        <div className="flex md:gap-[54px] gap-[40px] mb-[42px] items-center justify-center">
+        <div className="flex md:gap-[54px] gap-[20px] mb-[42px] items-center justify-center flex-wrap">
           {tabs.map((tab, index) => (
             <button
               key={index}
@@ -18,7 +18,7 @@ export default function IDOProjects() {
                 activeTab === tab
                   ? "text-primaryColor font-[700] border-b-[3px] border-primaryColor"
                   : "font-[400] text-white"
-              } text-[22px] pb-[14px] px-[5px] transition`}
+              } text-[14.95px] md:text-[22px] pb-[14px] px-[5px] transition`}
             >
               {tab} {tab === "Upcoming" && "[3]"}
             </button>
