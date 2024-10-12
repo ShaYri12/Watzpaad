@@ -8,6 +8,7 @@ import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Bridging from "../pages/Bridging";
 import BridgingConverter from "../pages/BridgingConvertor";
 import Layout from "../layout/Layout"; // Import your layout
+import Earnings from "../pages/Earnings";
 
 const Routers = () => {
   return (
@@ -26,6 +27,14 @@ const Routers = () => {
         element={
           <Layout>
             <LaunchedPad />
+          </Layout>
+        }
+      />
+      <Route
+        path="/earnings"
+        element={
+          <Layout>
+            <Earnings />
           </Layout>
         }
       />

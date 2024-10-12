@@ -144,19 +144,13 @@ const Footer = () => {
             </Link>
             <Link
               href="/"
-              className="hover:underline text-black text-[12.03px] md:flex hidden"
-            >
-              policy to Cookies
-            </Link>
-            <Link
-              href="/"
-              className="hover:underline text-black text-[12.03px] md:hidden flex"
+              className="hover:underline text-black text-[12.03px]"
             >
               Cancellation and Refund Policy
             </Link>
             <Link
               href="/"
-              className="hover:underline text-black text-[12.03px] md:hidden flex"
+              className="hover:underline text-black text-[12.03px]"
             >
               Careers
             </Link>
