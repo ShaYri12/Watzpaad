@@ -5,7 +5,9 @@ import Sidebar from "../components/Sidebar";
 const BridgingConverter = () => {
   return (
     <div className="flex">
-      <Sidebar />
+      <div className="w-[20%]">
+        <Sidebar />
+      </div>
       <div className="bg-gray-800 text-white flex-grow p-10">
         <header className="flex justify-between items-center mb-10">
           <div className="text-lg font-semibold">BNB</div>

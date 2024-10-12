@@ -12,49 +12,51 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="bg-gray-900 relative text-white h-screen w-64 flex flex-col items-center py-6">
-      <div
-        style={{
-          background:
-            "linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          fontSize: "1.25rem",
-          fontWeight: "600",
-          marginBottom: "2rem",
-        }}
-      >
-        LOGO HERE
+    <div className="bg-gray-900 fixed top-0 left-0 text-white h-screen w-64 flex flex-col items-center ">
+      <div className="relative w-full py-6 text-center">
+        <div
+          style={{
+            background:
+              "linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            fontSize: "1.25rem",
+            fontWeight: "600",
+            marginBottom: "2rem",
+          }}
+        >
+          LOGO HERE
+        </div>
+        <span
+          style={{
+            display: "block",
+            height: "1px",
+            border: "1px solid transparent",
+            borderImageSource:
+              "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
+            borderImageSlice: 1,
+            width: "100%",
+            position: "absolute",
+            top: "3.9rem",
+            left: "0",
+          }}
+        ></span>
+        <span
+          style={{
+            display: "block",
+            height: "1px",
+            border: "1px solid transparent",
+            borderImageSource:
+              "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
+            borderImageSlice: 1,
+            width: "100%",
+            position: "absolute",
+            top: "4.9rem",
+            left: "0",
+          }}
+        ></span>
       </div>
-      <span
-        style={{
-          display: "block",
-          height: "1px",
-          border: "1px solid transparent",
-          borderImageSource:
-            "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
-          borderImageSlice: 1,
-          width: "100%",
-          position: "absolute",
-          top: "3.9rem",
-          left: "0",
-        }}
-      ></span>
-      <span
-        style={{
-          display: "block",
-          height: "1px",
-          border: "1px solid transparent",
-          borderImageSource:
-            "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
-          borderImageSlice: 1,
-          width: "100%",
-          position: "absolute",
-          top: "4.9rem",
-          left: "0",
-        }}
-      ></span>
-      <ul className="space-y-4 mt-6">
+      <ul className="space-y-4 ">
         {menuItems.map((item, index) => (
           <li
             key={index}
