@@ -7,9 +7,7 @@ import Routers from "./router/Routers";
 function App() {
   return (
     <div className="App bg-[#09121D]">
-      <Header />
       <Routers />
-      <Footer />
     </div>
   );
 }

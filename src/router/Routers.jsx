@@ -6,18 +6,55 @@ import TermsAndConditions from "../pages/TermsAndConditions";
 import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Bridging from "../pages/Bridging";
+import BridgingConverter from "../pages/BridgingConvertor";
+import Layout from "../layout/Layout"; // Import your layout
 
 const Routers = () => {
   return (
     <Routes>
       <Route path="/home" element={<Navigate to="/" />} />
-      <Route path="/" element={<Home />} />
-      <Route path="/launchpad" element={<LaunchedPad />} />
-      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-      <Route path="/cookie-policy" element={<CookiePolicy />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route
+        path="/"
+        element={
+          <Layout>
+            <Home />
+          </Layout>
+        }
+      />
+      <Route
+        path="/launchpad"
+        element={
+          <Layout>
+            <LaunchedPad />
+          </Layout>
+        }
+      />
+      <Route
+        path="/terms-and-conditions"
+        element={
+          <Layout>
+            <TermsAndConditions />
+          </Layout>
+        }
+      />
+      <Route
+        path="/cookie-policy"
+        element={
+          <Layout>
+            <CookiePolicy />
+          </Layout>
+        }
+      />
+      <Route
+        path="/privacy-policy"
+        element={
+          <Layout>
+            <PrivacyPolicy />
+          </Layout>
+        }
+      />
       <Route path="/bridging" element={<Bridging />} />
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route path="/bridging-convertor" element={<BridgingConverter />} />
     </Routes>
   );
 };
