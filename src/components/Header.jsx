@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
+import Logo from '../../public/assets/Logo.svg'
+import LanguageDropdown from "./LanguageDropdown";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // State for drawer visibility
@@ -12,12 +14,12 @@ const Header = () => {
   };
 
   return (
-    <header className="py-4 px-[22px] relative z-20">
-      <div className="max-w-[1280px] mx-auto flex justify-between items-center bg-transparent">
+    <header className=" px-[22px] z-20 sticky top-0">
+      <div className="max-w-[1280px] mx-auto flex justify-between  items-center">
         <div className="flex items-center">
-          <h1 className="text-white text-[32px] font-[600]">Logo</h1>
+          <img src={Logo} alt="logo"  className="md:w-[233px] w-[180px] lg:mb-2"/>
         </div>
-        <div className="lg:hidden">
+        <div className="lg:hidden mt-2">
           <button onClick={toggleDrawer} className="text-white">
             <FiMenu size={30} /> {/* Burger icon */}
           </button>
@@ -35,12 +37,12 @@ const Header = () => {
             { name: "Whitepaper", path: "/whitepaper" },
           ].map((item, index) => (
             <NavLink
-              key={index}
+              key={index} 
               to={item.path}
               className={({ isActive }) =>
-                `px-[10px] py-[6px] transition ${
+                `px-[10px] py-[6px] transition text-[16px] ${
                   isActive
-                    ? "text-primaryColor font-[700]"
+                    ? "text-primaryColor font-[700] "
                     : "text-white font-[400]"
                 } hover:text-primaryColor`
               }
@@ -49,9 +51,13 @@ const Header = () => {
             </NavLink>
           ))}
         </nav>
+        {/* Language Dropdown */}
+        <div>
+          <LanguageDropdown/>
+        </div>
         <div className="hidden lg:block">
           <button
-            className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition"
+            className="text-black text-[18px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
