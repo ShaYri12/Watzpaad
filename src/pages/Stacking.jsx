@@ -37,32 +37,22 @@ const Stacking = () => {
 
   return (
     <div className="bg-[#09121D]">
-      <div className="relative w-full md:h-[500px] h-[362px]">
-        <img
-          src="/assets/vaults.png"
-          className="w-full h-full object-cover absolute top-0 left-0"
-        />
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col text-center items-center justify-center">
-          <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] font-[700]">
+      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
+          <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
             Stacking
           </h1>
+          <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
+          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
+            Stake Tokens to earn with Automatic Compounding. Users can stake Any
+            Token to earn MAP. Refer your friends to earn 5% on their extra
+            rewards.
+          </p>
         </div>
-        <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b  to-[rgba(9, 18, 29, 0)] from-[#09121D]"></div>
-        <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)]"></div>
       </div>
 
       <div className="md:px-[22px] px-[12px]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex flex-col items-center justify-center pt-[25px]">
-            <h2 className="text-[33.63px] md:text-[50px] font-[700] text-white text-center">
-              Welcome to Staking
-            </h2>
-            <p className="mt-[14.8px] text-[#798DA3] text-[12px] md:text-[18px] font-[300] text-center">
-              Stake Tokens to earn with Automatic Compounding. Users can stake
-              Any Token to earn MAP. Refer your friends to earn 5% on their
-              extra rewards.
-            </p>
-          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[25px] md:py-[80px] py-[57px]">
             {cardData.map((card) => (
               <div

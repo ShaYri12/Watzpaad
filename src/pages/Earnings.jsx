@@ -7,7 +7,7 @@ const RewardSection = ({
 }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row items-center justify-between rounded-[10px] border border-primaryColor p-[11px] md:gap-[20px] gap-[33px] ${
+      className={`flex flex-col md:flex-row items-center justify-between rounded-[10px] border border-primaryColor py-[22.9px] px-[11px] md:gap-[20px] gap-[33px] ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
@@ -37,21 +37,21 @@ const RewardSection = ({
 export default function Earnings() {
   return (
     <div className="bg-[#09121D]">
-      <div className="relative w-full md:h-[500px] h-[362px]">
-        <img
-          src="/assets/earnings.png"
-          className="w-full h-full object-cover absolute top-0 left-0"
-        />
-        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-          <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] font-[700]">
+      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
+          <h1 className="text-center text-primaryColor text-[39.52px] md:text-[65px] font-[700]">
             Earnings
           </h1>
+          <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
+          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
+            In publishing and graphic design, Lorem ipsum is a placeholder text
+            commonly used to demonstrate the visual form of a document or a
+            typeface without relying on meaningful content
+          </p>
         </div>
-        <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b  to-[rgba(9, 18, 29, 0)] from-[#09121D]"></div>
-        <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)]"></div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
+      <div className="md:px-[22px] px-[18px]">
         <div className="max-w-[1280px] mx-auto">
           <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
             <RewardSection
