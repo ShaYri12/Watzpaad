@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-dark-blue text-white p-4">
+    <section className="w-full bgimage text-white p-4">
       <div className="max-w-[1280px] mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="text-left lg:w-1/2">

@@ -85,8 +85,8 @@ const FAQItem = ({ item }) => {
 
 export default function FAQSection() {
   return (
-    <div className="flex items-center justify-center">
-      <div className="w-full max-w-[1150px]">
+    <div className="w-full flex items-center justify-center">
+      <div className="w-full max-w-[1150px] mx-auto">
         {faqData.map((item, index) => (
           <FAQItem key={index} item={item} />
         ))}
