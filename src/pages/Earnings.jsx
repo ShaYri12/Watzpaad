@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const RewardSection = ({
   titleWhite,
   titleColor,
@@ -35,6 +37,12 @@ const RewardSection = ({
 };
 
 export default function Earnings() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="bg-[#09121D]">
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">

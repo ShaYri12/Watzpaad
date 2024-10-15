@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { GoPlus } from "react-icons/go";
 import { LuMinus } from "react-icons/lu";
 
 const Stacking = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const [renQ, setRenQ] = useState(0);
   const cardData = [
     {

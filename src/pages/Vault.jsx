@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsCalculatorFill } from "react-icons/bs";
 import { MdOutlineAutorenew } from "react-icons/md";
 
 const Vault = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const cardData = [
     {
       id: 1,

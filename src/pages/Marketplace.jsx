@@ -1,11 +1,16 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { FaSearch } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function Marketplace() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const [search, setSearch] = useState("");
   const [stage, setStage] = useState("Stage");
   const [round, setRound] = useState("Round");

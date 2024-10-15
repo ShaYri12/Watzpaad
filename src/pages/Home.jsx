@@ -12,7 +12,7 @@ const Home = () => {
           FAQs
         </h2>
         <FAQSection />
-        <Background/>
+        <Background />
       </div>
     </div>
   );

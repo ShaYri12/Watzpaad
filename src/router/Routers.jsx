@@ -12,6 +12,7 @@ import Earnings from "../pages/Earnings";
 import Marketplace from "../pages/Marketplace";
 import Vault from "../pages/Vault";
 import Stacking from "../pages/Stacking";
+import Win from "../pages/Win";
 
 const Routers = () => {
   return (
@@ -62,6 +63,14 @@ const Routers = () => {
         element={
           <Layout>
             <Stacking />
+          </Layout>
+        }
+      />
+      <Route
+        path="/Win"
+        element={
+          <Layout>
+            <Win />
           </Layout>
         }
       />
