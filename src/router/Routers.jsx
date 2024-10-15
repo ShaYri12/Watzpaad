@@ -13,6 +13,7 @@ import Marketplace from "../pages/Marketplace";
 import Vault from "../pages/Vault";
 import Stacking from "../pages/Stacking";
 import Win from "../pages/Win";
+import TradingMarket from "../pages/TradingMarket";
 
 const Routers = () => {
   return (
@@ -47,6 +48,14 @@ const Routers = () => {
         element={
           <Layout>
             <Marketplace />
+          </Layout>
+        }
+      />
+      <Route
+        path="/trading-market/:id"
+        element={
+          <Layout>
+            <TradingMarket />
           </Layout>
         }
       />
