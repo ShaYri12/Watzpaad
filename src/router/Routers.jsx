@@ -14,6 +14,7 @@ import Vault from "../pages/Vault";
 import Stacking from "../pages/Stacking";
 import Win from "../pages/Win";
 import TradingMarket from "../pages/TradingMarket";
+import BridgingConverter2 from "../pages/BridgingConvertorStep2";
 
 const Routers = () => {
   return (
@@ -109,6 +110,7 @@ const Routers = () => {
       />
       <Route path="/bridging" element={<Bridging />} />
       <Route path="/bridging-convertor" element={<BridgingConverter />} />
+      <Route path="/bridging-convertor-2" element={<BridgingConverter2 />} />
     </Routes>
   );
 };
