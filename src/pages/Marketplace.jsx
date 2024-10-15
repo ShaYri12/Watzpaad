@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export default function Marketplace() {
   useEffect(() => {
@@ -159,7 +160,8 @@ export default function Marketplace() {
           </header>
           <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[11px] md:gap-[20px]">
             {filteredCards.map((card, index) => (
-              <div
+              <Link
+                to={`/trading-market/${card.id}`}
                 key={index}
                 className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
               >
@@ -211,7 +213,7 @@ export default function Marketplace() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
