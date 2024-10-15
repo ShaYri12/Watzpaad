@@ -18,7 +18,7 @@ const LanguageDropdown = () => {
     const handleLanguageSelect = (language) => {
         setSelectedLanguage(language.code);
         setIsOpen(false);
-        console.log(`Selected language: ${language.name}`);
+        console.log(`Selected language: ${language.names}`);   
     };
 
     return (
