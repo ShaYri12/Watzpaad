@@ -46,7 +46,7 @@ export default function TradingMarket() {
 
       <div className="flex flex-col md:flex-row md:gap-[19px] gap-[38px]">
         <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[15px] px-[13px] md:py-[16px] py-[9px] flex items-center flex-1">
-          <div className="md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full gap-[51px] gap-[7px]">
+          <div className="md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full xl:gap-[51px] md:gap-[40px] gap-[23px]">
             <div className="rounded-[10.39px] flex items-center justify-center h-[198.18px] md:h-[249.34px] md:max-w-[249.34px] max-w-[198.18px] w-full overflow-hidden xl:ms-[50px] border-[2.6px] border-[#CAF813]">
               <img
                 src="/assets/marketplace-card.png"
