@@ -14,8 +14,8 @@ const Header = () => {
   };
 
   return (
-    <header className=" px-[22px] z-20 sticky top-0">
-      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 bg-[#09121D] shadow-lg">
+    <header className=" z-20 sticky top-0">
+      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 bg-[#09121D] shadow-lg px-[22px]">
         <div className="flex items-center my-auto">
           <img
             src={Logo}
