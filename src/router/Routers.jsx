@@ -15,6 +15,7 @@ import Stacking from "../pages/Stacking";
 import Win from "../pages/Win";
 import TradingMarket from "../pages/TradingMarket";
 import BridgingConverter2 from "../pages/BridgingConvertorStep2";
+import MetaAltPad from "../pages/MetaAltPad";
 
 const Routers = () => {
   return (
@@ -77,10 +78,18 @@ const Routers = () => {
         }
       />
       <Route
-        path="/Win"
+        path="/win"
         element={
           <Layout>
             <Win />
+          </Layout>
+        }
+      />
+      <Route
+        path="/metaAltPad"
+        element={
+          <Layout>
+            <MetaAltPad />
           </Layout>
         }
       />
