@@ -1,5 +1,5 @@
 import React from "react";
-import { RiTokenSwapLine } from "react-icons/ri";
+import { FaMinus, FaPlus } from "react-icons/fa";
 
 const Stacking = () => {
   const cardData = [
@@ -57,49 +57,75 @@ const Stacking = () => {
             {cardData.map((card) => (
               <div
                 key={card.id}
-                className="bg-primaryColor rounded-2xl shadow-lg overflow-hidden"
+                className="bg-[#1F2835CC] rounded-[13.09px] border-[2.6px] border-[#303945] flex flex-col sm:p-[11px] p-[9.28px]"
               >
-                <div className="bg-primaryColor p-[25px] flex items-center">
-                  <RiTokenSwapLine className="text-4xl text-orange-400 mr-3" />
-                  <div>
-                    <h2 className="text-white text-xl font-bold">Stake RenQ</h2>
-                    <p className="text-white text-sm">
-                      Stake RenQ - {card.days} days
-                    </p>
-                  </div>
-                </div>
-                <div className="px-[35px] py-[19px] bg-[#1F2835] rounded-t-3xl">
-                  <div className="bg-primaryColor bg-opacity-[0.1] rounded-lg p-3 mb-4 flex justify-between">
+                <div className="rounded-[6.55px] border border-primaryColor flex flex-col sm:gap-[28px] px-[12px] gap-[23.62px]">
+                  <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] pt-[49px] px-[28px]">
+                    <div className="w-[90px] h-[90px]">
+                      <img
+                        src="/assets/icons/r-logo.png"
+                        alt=""
+                        className="w-[90px] h-[90px]"
+                      />
+                    </div>
                     <div>
-                      <p className="text-primaryColor">APY</p>
-                      <p className="text-primaryColor">Time</p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-primaryColor">{card.apy}%</p>
-                      <p className="text-primaryColor">{card.days} days</p>
-                    </div>
-                  </div>
-                  <div className="mb-4">
-                    <p className="text-gray-300 mb-1">Staked RenQ</p>
-                    <div className="flex justify-between items-center">
-                      <p className="text-xl text-white font-bold">0 RenQ</p>
-                      <button className="bg-primaryColor bg-opacity-[0.1] text-primaryColor rounded-full w-8 h-8 flex items-center justify-center font-bold text-xl">
-                        +
-                      </button>
+                      <h2 className="text-primaryColor text-[27.61px] md:leading-[31.75px] font-[700]">
+                        Stake RenQ
+                      </h2>
+                      <p className="text-[#798DA3] md:text-[18px]">
+                        Stake RenQ -Flexible
+                      </p>
                     </div>
                   </div>
-                  <div className="mb-4">
-                    <p className="text-gray-300 mb-1">EARNED RenQ</p>
-                    <div className="flex justify-between items-center">
-                      <p className="text-xl text-white font-bold">0 RenQ</p>
-                      <button className="bg-primaryColor text-black rounded-full px-6 py-2 font-bold">
-                        Claim
-                      </button>
+
+                  <div className="flex flex-col sm:gap-[28px] gap-[23.62px] sm:px-[25px] px-[21px] py-[7px]">
+                    <div
+                      className="bg-[#1F2835CC] rounded-[10px] px-[22.5px] py-[17px] gap-1"
+                      style={{
+                        boxShadow:
+                          "-3.33px 3.33px 3.33px 0px #FFFFFF63 inset, 2.22px -2.22px 22.08px 0px #D6D6D62B inset",
+                        backdropFilter: "blur(82.17px)",
+                      }}
+                    >
+                      <div className="flex justify-between text-[#798DA3] md:text-[18px] md:leading-[20.7px] mb-1">
+                        <span>APY</span>
+                        <span>Time</span>
+                      </div>
+                      <div className="flex justify-between text-white">
+                        <span>12%</span>
+                        <span>Flexible</span>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex justify-between text-gray-300">
-                    <p>Total staked</p>
-                    <p>0</p>
+
+                    <div className="flex gap-1 justify-between items-center">
+                      <div className="">
+                        <p className="text-gray-400 text-sm mb-1">
+                          Staked RenQ
+                        </p>
+                        <p className="text-primaryColor text-2xl font-bold">
+                          0 RenQ
+                        </p>
+                      </div>
+
+                      <div className="flex flex-col items-center gap-[15px]  h-[109px]">
+                        <div className="flex gap-2 w-full justify-between items-center">
+                          <button className="w-12 h-12 bg-primaryColor rounded-full flex items-center justify-center">
+                            <FaPlus className="text-gray-900" />
+                          </button>
+                          <button className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center">
+                            <FaMinus className="text-gray-400" />
+                          </button>
+                        </div>
+                        <button className="bg-primaryColor text-gray-900 font-bold py-3 px-6 rounded-full">
+                          Claim
+                        </button>
+                      </div>
+                    </div>
+
+                    <div className="flex gap-1 justify-between items-center">
+                      <p className="text-gray-400 text-sm mb-1">Total Staked</p>
+                      <p className="text-white text-lg">45,614,253.41</p>
+                    </div>
                   </div>
                 </div>
               </div>
