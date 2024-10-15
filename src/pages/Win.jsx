@@ -26,7 +26,7 @@ export default function Win() {
       </div>
 
       <div className="md:px-[22px] px-[12px]">
-        <div className="max-w-[1280px] mx-auto py-[84px]">
+        <div className="max-w-[1280px] mx-auto pb-[84px] pt-[50px]">
           <div
             className="bg-[#1F2835CC] text-white px-[7px] md:px-[15px] md:py-[12px] py-[13px] rounded-[12.84px] md:mb-[73px] mb-[100px] border-[3.21px] border-[#303945]"
             style={{
