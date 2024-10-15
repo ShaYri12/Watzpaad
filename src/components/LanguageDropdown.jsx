@@ -18,7 +18,7 @@ const LanguageDropdown = () => {
     const handleLanguageSelect = (language) => {
         setSelectedLanguage(language.code);
         setIsOpen(false);
-        console.log(`Selected language: ${language.names}`);   
+        console.log(`Selected language: ${language.name}`);
     };
 
     return (
@@ -52,7 +52,7 @@ const LanguageDropdown = () => {
                                 className="flex items-center w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 role="menuitem"
                             >
-                                {/* <img src={language.flag} alt={language.name} className="w-5 h-5 mr-2" /> */}
+                                <img src={language.flag} alt={language.name} className="w-5 h-5 mr-2" />
                             </button>
                         ))}
                     </div>
