@@ -1,39 +1,53 @@
-import React from "react";
-import { FaMinus, FaPlus } from "react-icons/fa";
+import React, { useState } from "react";
+import { GoPlus } from "react-icons/go";
+import { LuMinus } from "react-icons/lu";
 
 const Stacking = () => {
+  const [renQ, setRenQ] = useState(0);
   const cardData = [
     {
       id: 1,
-      days: "30",
-      apy: "30%",
+      time: "Flexible",
+      apy: "12%",
+      totalStacked: "45,614,253.41",
     },
     {
       id: 2,
-      days: "180",
+      time: "Flexible",
       apy: "75%",
+      totalStacked: "85,000,000.01",
     },
     {
       id: 3,
-      days: "365",
+      time: "Flexible",
       apy: "150%",
+      totalStacked: "120,000,000",
     },
     {
       id: 4,
-      days: "365",
+      time: "Flexible",
       apy: "150%",
+      totalStacked: "96,000,000.23",
     },
     {
       id: 5,
-      days: "30",
+      time: "Flexible",
       apy: "30%",
+      totalStacked: "55,000,000",
     },
     {
       id: 6,
-      days: "180",
+      time: "Flexible",
       apy: "75%",
+      totalStacked: "68,000,000.82",
     },
   ];
+
+  const handleRenQMinus = () => {
+    if (renQ > 0) {
+      setRenQ(renQ - 1);
+    }
+  };
 
   return (
     <div className="bg-[#09121D]">
@@ -53,78 +67,93 @@ const Stacking = () => {
 
       <div className="md:px-[22px] px-[12px]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[25px] md:py-[80px] py-[57px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[25px] md:py-[80px] py-[57px]">
             {cardData.map((card) => (
               <div
                 key={card.id}
                 className="bg-[#1F2835CC] rounded-[13.09px] border-[2.6px] border-[#303945] flex flex-col sm:p-[11px] p-[9.28px]"
               >
-                <div className="rounded-[6.55px] border border-primaryColor flex flex-col sm:gap-[28px] px-[12px] gap-[23.62px]">
-                  <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] pt-[49px] px-[28px]">
-                    <div className="w-[90px] h-[90px]">
+                <div className="rounded-[6.55px] border border-primaryColor flex flex-col sm:gap-[28px] md:px-[12px] px-[10.12px] gap-[23.62px]">
+                  <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px]">
+                    <div className="md:min-w-[90px] min-w-[75.91px] md:min-h-[90px] min-h-[75.91px]">
                       <img
                         src="/assets/icons/r-logo.png"
                         alt=""
-                        className="w-[90px] h-[90px]"
+                        className="md:w-[90px] w-[75.91px] md:h-[90px] h-[75.91px]"
                       />
                     </div>
                     <div>
-                      <h2 className="text-primaryColor text-[27.61px] md:leading-[31.75px] font-[700]">
+                      <h2 className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
                         Stake RenQ
                       </h2>
-                      <p className="text-[#798DA3] md:text-[18px]">
+                      <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
                         Stake RenQ -Flexible
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex flex-col sm:gap-[28px] gap-[23.62px] sm:px-[25px] px-[21px] py-[7px]">
+                  <div className="flex flex-col sm:gap-[28px] gap-[23.62px] sm:px-[25px] px-[15px] md:py-[7px]">
                     <div
-                      className="bg-[#1F2835CC] rounded-[10px] px-[22.5px] py-[17px] gap-1"
+                      className="bg-[#1F2835CC] md:rounded-[10px] rounded-[8.43px] md:px-[22.5px] px-[18.91px] md:py-[17px] py-[15.05px]"
                       style={{
                         boxShadow:
                           "-3.33px 3.33px 3.33px 0px #FFFFFF63 inset, 2.22px -2.22px 22.08px 0px #D6D6D62B inset",
                         backdropFilter: "blur(82.17px)",
                       }}
                     >
-                      <div className="flex justify-between text-[#798DA3] md:text-[18px] md:leading-[20.7px] mb-1">
+                      <div className="flex justify-between text-[#798DA3] md:text-[18px] md:leading-[20.7px] w-full font-[400]">
                         <span>APY</span>
-                        <span>Time</span>
+                        <span>{card.apy}</span>
                       </div>
-                      <div className="flex justify-between text-white">
-                        <span>12%</span>
-                        <span>Flexible</span>
+                      <div className="flex justify-between text-[#798DA3] w-full font-[400]">
+                        <span>Time</span>
+                        <span>{card.time}</span>
                       </div>
                     </div>
 
                     <div className="flex gap-1 justify-between items-center">
                       <div className="">
-                        <p className="text-gray-400 text-sm mb-1">
+                        <p className="text-[#798DA3] text-[15.18px] md:text-[18px] md:leading-[20.7px]">
                           Staked RenQ
                         </p>
-                        <p className="text-primaryColor text-2xl font-bold">
-                          0 RenQ
+                        <p className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
+                          {renQ} RenQ
                         </p>
                       </div>
 
-                      <div className="flex flex-col items-center gap-[15px]  h-[109px]">
+                      <div className="flex flex-col items-center gap-[12.65px] md:gap-[15px] md:w-[109px] w-[91.93px]">
                         <div className="flex gap-2 w-full justify-between items-center">
-                          <button className="w-12 h-12 bg-primaryColor rounded-full flex items-center justify-center">
-                            <FaPlus className="text-gray-900" />
+                          <button
+                            onClick={() => setRenQ(renQ + 1)}
+                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
+                          >
+                            <GoPlus className="text-black text-[20px]" />
                           </button>
-                          <button className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center">
-                            <FaMinus className="text-gray-400" />
+                          <button
+                            onClick={handleRenQMinus}
+                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                          >
+                            <LuMinus className="text-white text-[18px]" />
                           </button>
                         </div>
-                        <button className="bg-primaryColor text-gray-900 font-bold py-3 px-6 rounded-full">
+                        <button
+                          className="bg-primaryColor text-black text-[12px] md:text-[14px] font-[400] py-3 px-[28px] w-full rounded-full"
+                          style={{
+                            boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
+                          }}
+                        >
                           Claim
                         </button>
                       </div>
                     </div>
 
-                    <div className="flex gap-1 justify-between items-center">
-                      <p className="text-gray-400 text-sm mb-1">Total Staked</p>
-                      <p className="text-white text-lg">45,614,253.41</p>
+                    <div className="flex gap-1 justify-between items-center md:pb-[39px] pb-[33.73px]">
+                      <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
+                        Total Staked
+                      </p>
+                      <p className="text-primaryColor text-[15.18px] md:text-[18px]">
+                        {card.totalStacked}
+                      </p>
                     </div>
                   </div>
                 </div>
