@@ -53,7 +53,7 @@ const Header = () => {
         </nav>
         {/* Language Dropdown */}
         <div>
-          <LanguageDropdown/>
+          {/* <LanguageDropdown/> */}
         </div>
         <div className="hidden lg:block">
           <button
