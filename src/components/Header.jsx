@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
-import Logo from '../../public/assets/logo.svg'
+import Logo from "../../public/assets/logo.svg";
 import LanguageDropdown from "./LanguageDropdown";
 
 const Header = () => {
@@ -15,17 +15,23 @@ const Header = () => {
 
   return (
     <header className=" px-[22px] z-20 sticky top-0">
-      <div className="max-w-[1280px] mx-auto flex justify-between  items-center">
-        <div className="flex items-center">
-          <img src={Logo} alt="logo"  className="md:w-[233px] w-[180px] lg:mb-2"/>
+      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 bg-[#09121D] shadow-lg">
+        <div className="flex items-center my-auto">
+          <img
+            src={Logo}
+            alt="logo"
+            className="xl:w-[233px] lg:w-[200px] md:w-[233px] w-[170px] lg:mb-2"
+          />
         </div>
-        <div className="lg:hidden mt-2">
+        <div className="lg:hidden flex gap-2">
+          <LanguageDropdown />
+
           <button onClick={toggleDrawer} className="text-white">
             <FiMenu size={30} /> {/* Burger icon */}
           </button>
         </div>
         {/* Nav links */}
-        <nav className="hidden lg:flex gap-[7px] py-[19px]">
+        <nav className="hidden lg:flex xl:gap-[7px] gap-[4px] py-[19px]">
           {[
             { name: "Home", path: "/" },
             { name: "Launchpad", path: "/launchpad" },
@@ -37,10 +43,10 @@ const Header = () => {
             { name: "Whitepaper", path: "/whitepaper" },
           ].map((item, index) => (
             <NavLink
-              key={index} 
+              key={index}
               to={item.path}
               className={({ isActive }) =>
-                `px-[10px] py-[6px] transition text-[16px] ${
+                `px-[10px] py-[6px] transition xl:text-[16px] text-[14px] ${
                   isActive
                     ? "text-primaryColor font-[700] "
                     : "text-white font-[400]"
@@ -51,13 +57,9 @@ const Header = () => {
             </NavLink>
           ))}
         </nav>
-        {/* Language Dropdown */}
-        <div>
-          <LanguageDropdown/>
-        </div>
         <div className="hidden lg:block">
           <button
-            className="text-black text-[18px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
+            className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
