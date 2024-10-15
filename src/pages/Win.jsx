@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BsGlobe2 } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
 
 export default function Win() {
   useEffect(() => {
