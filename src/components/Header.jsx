@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
 import Logo from '../../public/assets/Logo.svg'
-import LanguageDropdown from "./LanguageDropdown";
+// import LanguageDropdown from "./LanguageDropdown";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // State for drawer visibility
