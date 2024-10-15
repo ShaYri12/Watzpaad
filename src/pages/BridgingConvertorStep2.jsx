@@ -5,11 +5,11 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const BridgingConverter2 = () => {
   return (
-    <div className="flex min-h-screen">
-      <div className="w-[20%]">
+    <div className="flex min-h-screen justify-end items-end">
+      <div className="hidden lg:block md:w-[17%]">
         <Sidebar />
       </div>
-      <div className="ml-[5%] w-full flex flex-col items-center justify-center p-4">
+      <div className="w-full md:w-[80%]  flex flex-col items-center justify-center p-4">
         {/* Token Icon and Balance */}
         <div className="text-center mb-8">
           <div>
@@ -47,44 +47,52 @@ const BridgingConverter2 = () => {
 
         {/* Swap Form */}
         <div className=" flex justify-center w-full max-w-[950px]  items-center ">
-          <div className=" p-8 rounded-lg bg-gray-800 w-full text-white shadow-lg">
-            <h2 className="text-[35px] leading-[40px] font-semibold text-center mb-8">
+          <div className=" p-3 md:p-6 lg:p-8 rounded-lg bg-gray-800 w-full text-white shadow-lg">
+            <h2 className="text-[24px] lg:text-[35px] leading-[28px] lg:leading-[40px] font-semibold text-center mb-8">
               Ponders Suggested Route
             </h2>
 
             {/* ETH to BNB Conversion Section */}
             <div className="flex justify-between items-center mb-6">
-              <div className="flex items-center bg-gray-700 p-4 rounded-lg">
+              <div className="flex items-center bg-gray-700 p-2 lg:p-4 rounded-lg">
                 <img
-                  src="/assets/icons/eth.png"
+                  src="/assets/icons//ETH with bg.svg"
                   alt="ETH"
-                  className="w-10 h-10 mr-3"
+                  className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
                 />
                 <div>
-                  <p className="text-lg font-semibold">2.000 ETH</p>
-                  <p className="text-sm text-gray-400">Ethereum chain</p>
+                  <p className="text-[14px] lg:text-lg font-semibold">
+                    2.000 ETH
+                  </p>
+                  <p className="text-[10px] lg:text-sm text-gray-400">
+                    Ethereum chain
+                  </p>
                 </div>
               </div>
 
               <div className="text-center">
-                <div className="bg-[#38DCC8] p-3 rounded-full">
+                <div className="bg-[#38DCC8] p-1.5 lg:p-3 rounded-full">
                   <img
                     src="/assets/icons/recycle.png"
                     alt=""
-                    className="h-6 w-6"
+                    className="h-4 lg:h-6 w-4 lg:w-6"
                   />
                 </div>
               </div>
 
-              <div className="flex items-center bg-gray-700 p-4 rounded-lg">
+              <div className="flex items-center bg-gray-700 p-2 lg:p-4 rounded-lg">
                 <img
                   src="/assets/icons/bnb.png"
                   alt="BNB"
-                  className="w-10 h-10 mr-3"
+                  className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
                 />
                 <div>
-                  <p className="text-lg font-semibold">8.6951 BNB</p>
-                  <p className="text-sm text-gray-400">BSC Chain</p>
+                  <p className="text-[14px] lg:text-lg font-semibold">
+                    8.6951 BNB
+                  </p>
+                  <p className="text-[10px] lg:text-sm text-gray-400">
+                    BSC Chain
+                  </p>
                 </div>
               </div>
             </div>
@@ -95,11 +103,9 @@ const BridgingConverter2 = () => {
             </p>
 
             {/* Step and Fees Section */}
-            <div className="flex justify-between items-center bg-gray-700 p-6 rounded-lg mb-6">
+            <div className="flex flex-col lg:flex-row justify-between items-center bg-gray-700 p-6 rounded-lg mb-6">
               <div>
-                <p className="text-[25px] leading-[29px] font-semibold ">
-                  Step 1
-                </p>
+                <p className="text-[25px] leading-[29px]  ">Step 1</p>
                 <div className="flex gap-3 mt-3">
                   <img
                     src="/assets/icons/ETH with bg.svg"
@@ -116,9 +122,7 @@ const BridgingConverter2 = () => {
                 </div>
               </div>
               <div>
-                <p className="text-[25px] leading-[29px] font-semibold ">
-                  Fees
-                </p>
+                <p className="text-[25px] leading-[29px]  ">Fees</p>
                 <div className="flex gap-3 mt-3">
                   <img
                     src="/assets/icons/ETH with bg.svg"
@@ -138,13 +142,13 @@ const BridgingConverter2 = () => {
 
             {/* No Funds Message */}
             <div>
-              <p className="bg-[#38DCC8] w-fit mx-auto text-center text-black text-[18px] leading-[23px] py-[10px] px-[20px] rounded-lg font-[400]">
+              <p className="bg-[#38DCC8] w-fit mx-auto text-center text-black text-[11px] leading-[14px] lg:text-[18px] lg:leading-[23px] py-[10px] px-[20px] rounded-lg font-[400]">
                 You do not have funds to complete the transaction
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center gap-[22px] mt-4">
+        <div className="flex flex-wrap justify-center gap-[22px] mt-4 text-[14px] lg:text-[17px]">
           <button className="border border-[#38DCC8] text-[#38DCC8]  duration-200 px-[45px] py-[10px] rounded-full">
             Back
           </button>

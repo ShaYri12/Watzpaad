@@ -6,11 +6,11 @@ import Dropdown from "../shared/Dropdown";
 
 const BridgingConverter = () => {
   return (
-    <div className="flex min-h-screen">
-      <div className="w-[20%]">
+    <div className="flex min-h-screen justify-end items-end">
+      <div className="hidden lg:block md:w-[17%]">
         <Sidebar />
       </div>
-      <div className="ml-[10%]  flex flex-col items-center justify-center p-4">
+      <div className="w-full md:w-[80%] flex flex-col items-center justify-center p-4">
         {/* Token Icon and Balance */}
         <div className="text-center mb-8">
           <div>
@@ -47,7 +47,7 @@ const BridgingConverter = () => {
         </div>
 
         {/* Swap Form */}
-        <div className="bg-gray-800 h-full p-6 rounded-xl shadow-lg text-white w-full max-w-2xl">
+        <div className="bg-gray-800 h-full p-6 rounded-xl shadow-lg text-white w-full max-w-[950px]">
           <div className="flex items-center  flex-wrap justify-center gap-2 space-y-3 ">
             {/* Swap/Bridge Dropdown */}
             <span className="text-lg"> </span>
