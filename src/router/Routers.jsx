@@ -15,6 +15,7 @@ import Stacking from "../pages/Stacking";
 import Win from "../pages/Win";
 import TradingMarket from "../pages/TradingMarket";
 import BridgingConverter2 from "../pages/BridgingConvertorStep2";
+import EarningsManager from "../pages/EarningManager";
 import MetaAltPad from "../pages/MetaAltPad";
 
 const Routers = () => {
@@ -117,6 +118,7 @@ const Routers = () => {
           </Layout>
         }
       />
+      <Route path="/bridging-manager" element={<EarningsManager />} />
       <Route path="/bridging" element={<Bridging />} />
       <Route path="/bridging-convertor" element={<BridgingConverter />} />
       <Route path="/bridging-convertor-2" element={<BridgingConverter2 />} />
