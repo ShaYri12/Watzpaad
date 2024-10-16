@@ -131,19 +131,19 @@ const Footer = () => {
           </h3>
           <div className="md:order-2 order-1 flex items-center gap-5 md:gap-10 flex-wrap md:justify-end justify-center">
             <Link
-              href="/"
+              href="/terms-and-conditions"
               className="hover:underline text-black text-[12.03px]"
             >
               Terms of service
             </Link>
             <Link
-              href="/"
+              href="/privacy-policy"
               className="hover:underline text-black text-[12.03px]"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/"
+              href="/cookie-policy"
               className="hover:underline text-black text-[12.03px]"
             >
               Cancellation and Refund Policy
