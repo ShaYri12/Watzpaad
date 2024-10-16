@@ -12,6 +12,11 @@ import Earnings from "../pages/Earnings";
 import Marketplace from "../pages/Marketplace";
 import Vault from "../pages/Vault";
 import Stacking from "../pages/Stacking";
+import Win from "../pages/Win";
+import TradingMarket from "../pages/TradingMarket";
+import BridgingConverter2 from "../pages/BridgingConvertorStep2";
+import EarningsManager from "../pages/EarningManager";
+import MetaAltPad from "../pages/MetaAltPad";
 
 const Routers = () => {
   return (
@@ -50,6 +55,14 @@ const Routers = () => {
         }
       />
       <Route
+        path="/trading-market/:id"
+        element={
+          <Layout>
+            <TradingMarket />
+          </Layout>
+        }
+      />
+      <Route
         path="/vault"
         element={
           <Layout>
@@ -62,6 +75,22 @@ const Routers = () => {
         element={
           <Layout>
             <Stacking />
+          </Layout>
+        }
+      />
+      <Route
+        path="/win"
+        element={
+          <Layout>
+            <Win />
+          </Layout>
+        }
+      />
+      <Route
+        path="/metaAltPad"
+        element={
+          <Layout>
+            <MetaAltPad />
           </Layout>
         }
       />
@@ -89,8 +118,10 @@ const Routers = () => {
           </Layout>
         }
       />
+      <Route path="/bridging-manager" element={<EarningsManager />} />
       <Route path="/bridging" element={<Bridging />} />
       <Route path="/bridging-convertor" element={<BridgingConverter />} />
+      <Route path="/bridging-convertor-2" element={<BridgingConverter2 />} />
     </Routes>
   );
 };

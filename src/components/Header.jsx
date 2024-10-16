@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
 import Logo from "../../public/assets/logo.svg";
@@ -14,15 +14,15 @@ const Header = () => {
   };
 
   return (
-    <header className=" z-20 sticky top-0">
-      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 bg-[#09121D] shadow-lg px-[22px]">
-        <div className="flex items-center my-auto">
+    <header className="z-20 sticky top-0 px-[22px] bg-[#09121D]">
+      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 shadow-lg">
+        <Link to="/" className="flex items-center my-auto">
           <img
             src={Logo}
             alt="logo"
             className="xl:w-[233px] lg:w-[200px] md:w-[233px] w-[170px] lg:mb-2"
           />
-        </div>
+        </Link>
         <div className="lg:hidden flex gap-2">
           <LanguageDropdown />
 

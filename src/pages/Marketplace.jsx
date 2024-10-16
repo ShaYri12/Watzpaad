@@ -1,75 +1,23 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { FaSearch } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Link } from "react-router-dom";
+import { MarketData } from "../assets/MarketData";
 
 export default function Marketplace() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   const [search, setSearch] = useState("");
   const [stage, setStage] = useState("Stage");
   const [round, setRound] = useState("Round");
 
-  const cards = [
-    {
-      id: "1035365",
-      unlock: "28D",
-      price: "1.000 BNB",
-      salePrice: "$635,000",
-      parValue: "18,600,000.0000",
-    },
-    {
-      id: "2037462",
-      unlock: "15D",
-      price: "0.850 BNB",
-      salePrice: "$523,000",
-      parValue: "14,500,000.0000",
-    },
-    {
-      id: "3084573",
-      unlock: "60D",
-      price: "2.300 BNB",
-      salePrice: "$1,470,000",
-      parValue: "30,000,000.0000",
-    },
-    {
-      id: "4025389",
-      unlock: "90D",
-      price: "0.750 BNB",
-      salePrice: "$475,000",
-      parValue: "13,200,000.0000",
-    },
-    {
-      id: "5096471",
-      unlock: "45D",
-      price: "1.500 BNB",
-      salePrice: "$950,000",
-      parValue: "21,000,000.0000",
-    },
-    {
-      id: "6023587",
-      unlock: "30D",
-      price: "0.980 BNB",
-      salePrice: "$621,000",
-      parValue: "18,500,000.0000",
-    },
-    {
-      id: "7094365",
-      unlock: "10D",
-      price: "0.600 BNB",
-      salePrice: "$385,000",
-      parValue: "11,000,000.0000",
-    },
-    {
-      id: "8053926",
-      unlock: "20D",
-      price: "1.200 BNB",
-      salePrice: "$760,000",
-      parValue: "19,800,000.0000",
-    },
-  ];
-
-  const filteredCards = cards.filter(
+  const filteredMarketData = MarketData.filter(
     (card) =>
       card.id.includes(search) ||
       card.price.toLowerCase().includes(search.toLowerCase()) ||
@@ -153,8 +101,9 @@ export default function Marketplace() {
             </div>
           </header>
           <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[11px] md:gap-[20px]">
-            {filteredCards.map((card, index) => (
-              <div
+            {filteredMarketData.map((card, index) => (
+              <Link
+                to={`/trading-market/${card.id}`}
                 key={index}
                 className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
               >
@@ -188,11 +137,11 @@ export default function Marketplace() {
                           className="w-[14.2px] md:w-[20px]"
                         />{" "}
                         <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
-                          {card.price}
+                          {card.price} BNB
                         </p>
                       </div>
                       <p className="w-full text-right text-[#798DA3] text-[10.28px] md:text-[14.03px]">
-                        {card.salePrice}
+                        ${card.salePrice}
                       </p>
                     </div>
                   </div>
@@ -206,7 +155,7 @@ export default function Marketplace() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
