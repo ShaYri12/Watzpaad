@@ -1,0 +1,58 @@
+export const MarketData = [
+  {
+    id: "1035365",
+    unlock: "28D",
+    price: "1.000",
+    salePrice: "635.000",
+    parValue: "18,600,000.0000",
+  },
+  {
+    id: "2037462",
+    unlock: "15D",
+    price: "0.850",
+    salePrice: "523.000",
+    parValue: "14,500,000.0000",
+  },
+  {
+    id: "3084573",
+    unlock: "60D",
+    price: "2.300",
+    salePrice: "1,470.000",
+    parValue: "30,000,000.0000",
+  },
+  {
+    id: "4025389",
+    unlock: "90D",
+    price: "0.750",
+    salePrice: "475.000",
+    parValue: "13,200,000.0000",
+  },
+  {
+    id: "5096471",
+    unlock: "45D",
+    price: "1.500",
+    salePrice: "950.000",
+    parValue: "21,000,000.0000",
+  },
+  {
+    id: "6023587",
+    unlock: "30D",
+    price: "0.980",
+    salePrice: "621.000",
+    parValue: "18,500,000.0000",
+  },
+  {
+    id: "7094365",
+    unlock: "10D",
+    price: "0.600",
+    salePrice: "385.000",
+    parValue: "11,000,000.0000",
+  },
+  {
+    id: "8053926",
+    unlock: "20D",
+    price: "1.200",
+    salePrice: "760.000",
+    parValue: "19,800,000.0000",
+  },
+];
