@@ -8,7 +8,6 @@ const SidebarLayout = ({ children }) => {
       <div className="hidden md:block md:w-[17%]">
         <Sidebar />
       </div>
-
       <Outlet />
     </div>
   );
