@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(null);
   const [isOpen, setIsOpen] = useState(false); // State for controlling sidebar visibility
-  const location = useLocation(); // Get the current URL
+  const location = useLocation();
+  const sidebarRef = useRef(null);
 
   const menuItems = [
     {
@@ -34,6 +35,19 @@ const Sidebar = () => {
     },
   ];
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [sidebarRef]);
+
   return (
     <>
       {/* Overlay behind the sidebar */}
@@ -41,7 +55,7 @@ const Sidebar = () => {
 
       {/* Menu icon to toggle sidebar */}
       <div
-        className="menu-icon md:hidden flex fixed top-[15px] right-[14px] w-[34px] h-[34px] cursor-pointer z-50"
+        className="menu-icon md:hidden flex fixed top-[12px] right-[14px] w-[34px] h-[34px] cursor-pointer z-50"
         onClick={() => setIsOpen(!isOpen)} // Toggle sidebar visibility
       >
         <img
@@ -53,7 +67,8 @@ const Sidebar = () => {
 
       {/* Mobile Sidebar with transition */}
       <div
-        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out ${
+        ref={sidebarRef}
+        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ backdropFilter: "blur(120px)" }}
