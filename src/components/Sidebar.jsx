@@ -1,95 +1,218 @@
-// Sidebar.jsx
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { IoClose } from "react-icons/io5";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(null);
+  const [isOpen, setIsOpen] = useState(false); // State for controlling sidebar visibility
+  const location = useLocation(); // Get the current URL
 
   const menuItems = [
     {
       name: "Dashboard",
-      icon: "/assets/icons/dashboard.svg",
+      icon: "/assets/icons/dashboard.svg", // Default icon
+      activeIcon: "/assets/icons/dashboard-white-icon.svg", // Icon when active
       link: "/dashboard",
     },
     {
       name: "Bridge & Swap AI",
-      icon: "/assets/icons/bridge.png",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
       link: "/bridging",
     },
-    { name: "Marketplace", icon: "/assets/icons/marketplace.png" },
-    { name: "Vault", icon: "/assets/icons/vault.png" },
+    {
+      name: "Marketplace",
+      icon: "/assets/icons/marketplace-black-icon.svg",
+      activeIcon: "/assets/icons/marketplace.png",
+      link: "/marketplace",
+    },
+    {
+      name: "Vault",
+      icon: "/assets/icons/vault-black-icon.svg",
+      activeIcon: "/assets/icons/vault.svg",
+      link: "/vault",
+    },
   ];
 
   return (
-    <div className="bg-gray-900 hidden fixed top-0 left-0 text-white h-screen w-64 md:flex flex-col items-center ">
-      <div className="relative w-full py-6 text-center">
-        <div
-          style={{
-            background:
-              "linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            fontSize: "1.25rem",
-            fontWeight: "600",
-            marginBottom: "2rem",
-          }}
-        >
-          LOGO HERE
-        </div>
-        <span
-          style={{
-            display: "block",
-            height: "1px",
-            border: "1px solid transparent",
-            borderImageSource:
-              "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
-            borderImageSlice: 1,
-            width: "100%",
-            position: "absolute",
-            top: "3.9rem",
-            left: "0",
-          }}
-        ></span>
-        <span
-          style={{
-            display: "block",
-            height: "1px",
-            border: "1px solid transparent",
-            borderImageSource:
-              "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
-            borderImageSlice: 1,
-            width: "100%",
-            position: "absolute",
-            top: "4.9rem",
-            left: "0",
-          }}
-        ></span>
+    <>
+      {/* Overlay behind the sidebar */}
+      <div className="sidebar-behind xl:w-[264px] lg:w-[236px] w-[220px] hidden md:block"></div>
+
+      {/* Menu icon to toggle sidebar */}
+      <div
+        className="menu-icon md:hidden flex fixed top-[15px] right-[14px] w-[34px] h-[34px] cursor-pointer z-50"
+        onClick={() => setIsOpen(!isOpen)} // Toggle sidebar visibility
+      >
+        <img
+          src="/assets/icons/menu.svg"
+          className="w-[34px] h-[34px]"
+          alt="Menu"
+        />
       </div>
-      <ul className="space-y-4 ">
-        {menuItems.map((item, index) => (
-          <li key={index}>
-            <Link
-              to={item.link}
-              className={`flex items-center space-x-4 w-full px-6 py-2 rounded-lg cursor-pointer ${
-                selected === index
-                  ? "bg-[#38DCC8] text-black"
-                  : "hover:bg-[#84faed]/40"
-              }`}
-              onClick={() => setSelected(index)}
+
+      {/* Mobile Sidebar with transition */}
+      <div
+        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+        style={{ backdropFilter: "blur(120px)" }}
+      >
+        <div className="relative w-full md:py-6 py-2 text-center">
+          <div className="md:hidden flex justify-end items-center mb-[10px] mt-[4px]">
+            <button
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              className="w-fit h-fit"
             >
-              <div
-                className={`h-[30px] w-[30px] rounded-[5px] p-2 ${
-                  selected === index ? "bg-black text-white" : "bg-[#38DCC8]"
+              <IoClose size={26} />
+            </button>
+          </div>
+          <div
+            className="mb-[2rem] font-[600] text-[1.25rem]"
+            style={{
+              background:
+                "linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            LOGO HERE
+          </div>
+          <span
+            className={`w-full absolute md:top-[4.9rem] top-[5.6rem] left-0`}
+            style={{
+              display: "block",
+              height: "1px",
+              border: "1px solid transparent",
+              borderImageSource:
+                "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
+              borderImageSlice: 1,
+            }}
+          ></span>
+        </div>
+        <ul className="space-y-4 w-full">
+          {menuItems.map((item, index) => (
+            <li key={index}>
+              <Link
+                to={item.link}
+                className={`flex items-center lg:space-x-[15px] space-x-[10px] w-full px-[11px] py-[12px] rounded-lg cursor-pointer ${
+                  location.pathname === item.link ||
+                  (item.link === "/bridging" &&
+                    location.pathname.includes("bridging"))
+                    ? "bg-[#38DCC8] text-black"
+                    : "hover:bg-[#84faed]/40"
                 }`}
+                onClick={() => {
+                  setSelected(index);
+                  setIsOpen(false);
+                }}
               >
-                <img src={item.icon} alt="" />
-              </div>
-              <span>{item.name}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+                <div
+                  className={`h-[30px] w-[30px] rounded-[5px] px-[5px] py-[7px] ${
+                    location.pathname === item.link ||
+                    (item.link === "/bridging" &&
+                      location.pathname.includes("bridging"))
+                      ? "bg-black"
+                      : "bg-[#38DCC8]"
+                  }`}
+                >
+                  <img
+                    src={
+                      location.pathname === item.link ||
+                      (item.link === "/bridging" &&
+                        location.pathname.includes("bridging"))
+                        ? item.activeIcon
+                        : item.icon
+                    }
+                    alt={item.name}
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <span className="md:text-[14px] text-[13px]">{item.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Static sidebar for larger screens */}
+      <div
+        className="hidden md:block bg-[#1F2835CC] border-r-[3px] border-[#303945] fixed top-0 left-0 text-white h-screen xl:w-[264px] md:flex flex-col items-center lg:px-[22px] px-[15px]"
+        style={{ backdropFilter: "blur(120px)" }}
+      >
+        <div className="relative w-full py-6 text-center">
+          <div
+            style={{
+              background:
+                "linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              fontSize: "1.25rem",
+              fontWeight: "600",
+              marginBottom: "2rem",
+            }}
+          >
+            LOGO HERE
+          </div>
+          <span
+            style={{
+              display: "block",
+              height: "1px",
+              border: "1px solid transparent",
+              borderImageSource:
+                "linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%)",
+              borderImageSlice: 1,
+              width: "100%",
+              position: "absolute",
+              top: "4.9rem",
+              left: "0",
+            }}
+          ></span>
+        </div>
+        <ul className="space-y-4 w-full">
+          {menuItems.map((item, index) => (
+            <li key={index}>
+              <Link
+                to={item.link}
+                className={`flex items-center lg:space-x-[15px] w-max space-x-[10px] w-full px-[11px] py-[12px] rounded-lg cursor-pointer ${
+                  location.pathname === item.link ||
+                  (item.link === "/bridging" &&
+                    location.pathname.includes("bridging"))
+                    ? "bg-[#38DCC8] text-black"
+                    : "hover:bg-[#84faed]/40"
+                }`}
+                onClick={() => setSelected(index)}
+              >
+                <div
+                  className={`h-[30px] w-[30px] rounded-[5px] px-[5px] py-[7px] ${
+                    location.pathname === item.link ||
+                    (item.link === "/bridging" &&
+                      location.pathname.includes("bridging"))
+                      ? "bg-black"
+                      : "bg-[#38DCC8]"
+                  }`}
+                >
+                  <img
+                    src={
+                      location.pathname === item.link ||
+                      (item.link === "/bridging" &&
+                        location.pathname.includes("bridging"))
+                        ? item.activeIcon
+                        : item.icon
+                    }
+                    alt={item.name}
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <span>{item.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };
 

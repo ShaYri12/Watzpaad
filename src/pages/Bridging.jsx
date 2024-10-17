@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Bridging = () => {
   return (
-    <div className="w-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto md:py-[83px] px-[30px] md:px-[80px] py-[57px] ">
+    <div className="w-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] pt-[100px] pb-[61px]">
       <div className="h-[336px] md:h-[360px] lg:h-[400px] w-full overflow-hidden border-2 border-[#303945] rounded-[12px]">
         <img
           src="/assets/bridging-lg.png"
@@ -29,9 +30,11 @@ const Bridging = () => {
         </p>
       </div>
       <div className="flex items-center justify-center">
-        <button className="text-[18px] leading-[24px] px-[50px] py-[14px] bg-[#38DCC8] rounded-[30px]">
-          Let's Go
-        </button>
+        <Link to="/bridging-convertor">
+          <button className="text-[18px] leading-[24px] px-[50px] py-[14px] bg-[#38DCC8] rounded-[30px]">
+            Let's Go
+          </button>
+        </Link>
       </div>
     </div>
   );
