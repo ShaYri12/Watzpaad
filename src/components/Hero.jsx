@@ -8,7 +8,7 @@ const Hero = () => {
   const dropdownOptions1 = ["USDT", "USDT", "USDT"];
   const dropdownOptions2 = ["USDT", "USDT", "USDT"];
   return (
-    <section className="w-full text-white py-[50px] px-6">
+    <section className="w-full text-white py-[50px] px-6 bgimage-one">
       <div className="max-w-[1280px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
           <h1 className="text-[#38DCC8] text-[50px] md:text-[95px] font-bold md:leading-[109px]">

@@ -7,6 +7,7 @@ import ExclusiveBenefits from "../components/ExclusiveBenefits";
 import PoweredBy from "../components/PoweredBy";
 import Tokenomics from "../components/Tokenomics";
 import JoinIdos from "../components/JoinIdos";
+import BuyPresale from "../components/BuyPresale";
 
 const Home = () => {  
   return (
@@ -20,6 +21,8 @@ const Home = () => {
       <JoinIdos/>
 
       <ExclusiveBenefits/>
+
+      <BuyPresale/>
 
       <Tokenomics/>
 

@@ -7,13 +7,13 @@ import Center from "../assets/center-mage.png";
 const ExclusiveBenefits = () => {
   return (
     <div className="overflow-hidden bg-image px-6 py-10 w-full relative">
-      <div className="text-white w-full absolute min-h-[300px] -bottom-5">
+      <div className="text-white z-20 w-full absolute left-0 h-[300px] -bottom-5">
         <img src={BG} alt="bg" />
       </div>
-      <div className="text-white w-full absolute min-h-[300px] top-0">
+      <div className="text-white  w-full absolute min-h-[300px] top-0">
         <img src={BGOne} alt="bg" />
       </div>
-      <div className="text-white h-[300px] w-[900px] rounded-full -top-32 left-[15%] absolute ">
+      <div className="text-white  h-[300px] w-[900px] rounded-full -top-32 left-[15%] absolute ">
         <img src={Center} alt="bg" className="rounded-full" />
       </div>
 

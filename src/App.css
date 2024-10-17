@@ -12,8 +12,8 @@
 }
 
 /* Hero CSS */
-.bgimage {
-  background-image: url("../public/assets/home-hero-bg.png");
+.bgimage-one {
+  background-image: url("./assets/home-hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,8 +32,6 @@
 
 .bg-custom-one {
   background: linear-gradient(355.36deg, #012021 0.55%, #004B4C 113.27%);
-  /* border: 1px solid; */
-  /* border-image-source: linear-gradient(357.41deg, #38DCC8 10.8%, #666666 115.24%); */
 }
 
 
@@ -56,3 +54,55 @@
 
   box-shadow: 1.53px -1.53px 15.23px 0px #d6d6d62b inset;
 }
+
+.text-custom {
+  background: linear-gradient(90deg, #09121D 0%, #8bafdb 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Make text color transparent */
+}
+
+
+/* timeline */
+.container-timeline {
+  position: relative;
+
+}
+
+.rightbox {
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  border-left: 1px dashed #38DCC8;
+  padding: 0px 50px 100px 50px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -8px;
+  top: -5px;
+  background:transparent;
+  content: "";
+  border: 10px solid #38DCC8;
+  border-radius: 500%;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.item-title {
+  color: #fff;
+}
+
+
+
