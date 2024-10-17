@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { useParams } from "react-router-dom";
 import { MarketData } from "../assets/MarketData";
 
-export default function TradingMarket() {
+export default function TradingMarket({ dashboard = false }) {
   const { id } = useParams(); // Get the ID from the URL
   const [item, setItem] = useState(null);
 
@@ -32,9 +32,16 @@ export default function TradingMarket() {
   }
 
   return (
-    <div className="min-h-screen bg-[#09121D] px-[22px] md:pb-[100px] pb-[62px] md:pt-[160px] pt-[90px]">
+    <div
+      className={`min-h-screen bg-[#09121D] ${
+        !dashboard &&
+        "px-[22px] md:pb-[100px] pb-[62px] md:pt-[160px] pt-[90px]"
+      }`}
+    >
       <div className="max-w-[1280px] mx-auto">
-        <div className="mb-[43px]">
+        <div
+          className={` ${dashboard ? "mb:mb-[43px] mb-[39px]" : "mb-[43px]"}`}
+        >
           <h1 className="text-[20.11px] md:text-[30px] text-[#798DA3] flex items-center md:gap-[18px] gap-[12px]">
             Trading Market{" "}
             <MdKeyboardArrowRight
@@ -45,17 +52,31 @@ export default function TradingMarket() {
           </h1>
         </div>
 
-        <div className="flex flex-col md:flex-row md:gap-[19px] gap-[38px]">
+        <div
+          className={`flex flex-col ${
+            dashboard ? "lg:flex-row" : "md:flex-row"
+          } md:gap-[19px] gap-[38px]`}
+        >
           <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[15px] px-[13px] md:py-[16px] py-[9px] flex items-center flex-1">
-            <div className="md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full xl:gap-[51px] md:gap-[40px] gap-[23px]">
-              <div className="rounded-[10.39px] flex items-center justify-center h-[198.18px] md:h-[249.34px] md:max-w-[249.34px] max-w-[198.18px] w-full overflow-hidden xl:ms-[50px] border-[2.6px] border-[#CAF813]">
+            <div
+              className={`md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full ${
+                dashboard
+                  ? "md:gap-[20px] gap-[21px]"
+                  : "xl:gap-[51px] md:gap-[40px] gap-[23px]"
+              }`}
+            >
+              <div
+                className={`rounded-[10.39px] flex items-center justify-center h-[198.18px] md:h-[249.34px] md:max-w-[249.34px] max-w-[198.18px] w-full overflow-hidden ${
+                  !dashboard && "xl:ms-[50px]"
+                } border-[2.6px] border-[#CAF813]`}
+              >
                 <img
                   src="/assets/marketplace-card.png"
                   alt="Pixel Cat"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="flex-1 xl:pe-[50px]">
+              <div className={`flex-1 ${!dashboard && "xl:pe-[50px]"}`}>
                 <h2 className="text-[23.84px] md:text-[30px] md:leading-[34.5px] leading-[27.42px] text-white font-[700] mb-[4px]">
                   #{item.id}
                 </h2>
@@ -100,7 +121,13 @@ export default function TradingMarket() {
                     />
                   </button>
                 </div>
-                <div className="md:mt-[16px] mt-[16px] xl:px-[30px] sm:px-[20px]">
+                <div
+                  className={`md:mt-[16px] mt-[16px] ${
+                    dashboard
+                      ? "xl:px-[30px] sm:px-[20px]"
+                      : "xl:px-[30px] sm:px-[20px]"
+                  }`}
+                >
                   <button className="px-[16.93px] md:px-[35.5px] py-[11.92px] md:py-[15px] md:text-[18px] text-[14.31px] font-[400] rounded-full border border-primaryColor text-primaryColor w-full">
                     Connect Wallet
                   </button>
@@ -109,7 +136,11 @@ export default function TradingMarket() {
             </div>
           </div>
 
-          <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[18px] px-[13px] md:py-[16px] py-[9px] flex items-center md:w-[34%]">
+          <div
+            className={`bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[18px] px-[13px] md:py-[16px] py-[9px] flex items-center ${
+              dashboard ? "lg:w-[34%]" : "md:w-[34%]"
+            }`}
+          >
             <div className="md:px-[18px] md:py-[32px] py-[40px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex flex-col flex-1 w-full h-full md:gap-[31px] gap-[24.55px]">
               <h2 className="text-[24.36px] md:text-[30px] font-[700] text-white">
                 On-Chain Data
@@ -161,7 +192,9 @@ export default function TradingMarket() {
         </div>
 
         <button
-          className="mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]"
+          className={`${
+            dashboard && "hidden"
+          } mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]`}
           style={{
             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
           }}
@@ -170,7 +203,9 @@ export default function TradingMarket() {
         </button>
 
         <div
-          className="border-[3px] border-[#303945] flex flex-col md:gap-[34px] gap-[31px] md:py-[50px] py-[24.47px] md:px-[46px] px-[27px] md:mt-[66px] mt-[71px] rounded-[26.71px]"
+          className={`border-[3px] border-[#303945] flex flex-col md:gap-[34px] gap-[31px] md:py-[50px] py-[24.47px] md:px-[46px] px-[27px] md:mt-[66px] ${
+            dashboard ? "md:mt-[31px] mt-[33px]" : "mt-[71px]"
+          } rounded-[26.71px]`}
           style={{ backdropFilter: "blur(29.689451217651367px)" }}
         >
           <h4 className="text-white text-[27.82px] md:text-[30px] font-[700]">
@@ -187,6 +222,17 @@ export default function TradingMarket() {
             Reward to all NFT holders 5% to the Marketing Wallet.
           </p>
         </div>
+
+        <button
+          className={`${
+            !dashboard && "hidden"
+          } mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]`}
+          style={{
+            boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
+          }}
+        >
+          Back
+        </button>
       </div>
     </div>
   );

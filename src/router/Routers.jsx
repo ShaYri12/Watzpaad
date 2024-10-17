@@ -18,6 +18,8 @@ import BridgingConverter2 from "../pages/BridgingConvertorStep2";
 import EarningsManager from "../pages/EarningManager";
 import MetaAltPad from "../pages/MetaAltPad";
 import SidebarLayout from "../layout/SidebarLayout";
+import DashboardMarketPlace from "../pages/DashboardMarketPlace";
+import DashboardTradingMarket from "../pages/DashboardTradingMarket";
 
 const Routers = () => {
   return (
@@ -51,6 +53,14 @@ const Routers = () => {
           <Route
             path="/bridging-convertor-2"
             element={<BridgingConverter2 />}
+          />
+          <Route
+            path="/dashboard-marketplace"
+            element={<DashboardMarketPlace />}
+          />
+          <Route
+            path="/dashboard-marketplace/trading-market/:id"
+            element={<DashboardTradingMarket />}
           />
         </Route>
       </Routes>

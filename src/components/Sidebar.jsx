@@ -25,13 +25,13 @@ const Sidebar = () => {
       name: "Marketplace",
       icon: "/assets/icons/marketplace-black-icon.svg",
       activeIcon: "/assets/icons/marketplace.png",
-      link: "/marketplace",
+      link: "/dashboard-marketplace",
     },
     {
       name: "Vault",
       icon: "/assets/icons/vault-black-icon.svg",
       activeIcon: "/assets/icons/vault.svg",
-      link: "/vault",
+      link: "/dashboard-vault",
     },
   ];
 
@@ -55,7 +55,7 @@ const Sidebar = () => {
 
       {/* Menu icon to toggle sidebar */}
       <div
-        className="menu-icon md:hidden flex fixed top-[12px] right-[14px] w-[34px] h-[34px] cursor-pointer z-50"
+        className="menu-icon md:hidden flex fixed top-[12px] right-[14px] w-[34px] h-[34px] cursor-pointer z-[9998]"
         onClick={() => setIsOpen(!isOpen)} // Toggle sidebar visibility
       >
         <img
@@ -68,7 +68,7 @@ const Sidebar = () => {
       {/* Mobile Sidebar with transition */}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto ${
+        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto z-[9999] ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ backdropFilter: "blur(120px)" }}

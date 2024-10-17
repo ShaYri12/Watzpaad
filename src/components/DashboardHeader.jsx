@@ -48,7 +48,7 @@ const DashboardHeader = () => {
   }, [searchRef]);
 
   return (
-    <div className="lg:ps-[30px] lg:pe-[30px] md:ps-[15px] md:pe-[15px] ps-[19px] pe-[55px] md:py-[25px] py-[10px] md:bg-transparent bg-[#1B2430] md:relative fixed top-0 left-0 w-full md:block flex items-center justify-between shadow-lg">
+    <div className="lg:ps-[30px] lg:pe-[30px] md:ps-[15px] md:pe-[15px] ps-[19px] pe-[55px] md:py-[25px] py-[10px] md:bg-transparent bg-[#1B2430] md:relative fixed top-0 left-0 w-full md:block flex items-center justify-between shadow-lg z-[999]">
       <div className="md:hidden block">
         <h3 className="text-[16.83px] leading-[19.35px] text-white">
           LOREM
