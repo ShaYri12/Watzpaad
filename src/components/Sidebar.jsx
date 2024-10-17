@@ -51,7 +51,7 @@ const Sidebar = () => {
   return (
     <>
       {/* Overlay behind the sidebar */}
-      <div className="sidebar-behind xl:w-[264px] lg:w-[236px] w-[220px] hidden md:block"></div>
+      <div className="sidebar-behind xl:w-[264px] lg:w-[222px] w-[220px] hidden md:block"></div>
 
       {/* Menu icon to toggle sidebar */}
       <div

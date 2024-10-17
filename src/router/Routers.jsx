@@ -20,6 +20,7 @@ import MetaAltPad from "../pages/MetaAltPad";
 import SidebarLayout from "../layout/SidebarLayout";
 import DashboardMarketPlace from "../pages/DashboardMarketPlace";
 import DashboardTradingMarket from "../pages/DashboardTradingMarket";
+import DashboardVault from "../pages/DashboardVault";
 
 const Routers = () => {
   return (
@@ -62,6 +63,7 @@ const Routers = () => {
             path="/dashboard-marketplace/trading-market/:id"
             element={<DashboardTradingMarket />}
           />
+          <Route path="/dashboard-vault" element={<DashboardVault />} />
         </Route>
       </Routes>
     </BrowserRouter>
