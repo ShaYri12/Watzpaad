@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Bridging = () => {
   return (
-    <div className="w-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] pt-[100px] pb-[61px]">
+    <div className="mt-20 md:mt-0 w-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] pt-[100px] pb-[61px]">
       <div className="h-[336px] md:h-[360px] lg:h-[400px] w-full overflow-hidden border-2 border-[#303945] rounded-[12px]">
         <img
           src="/assets/bridging-lg.png"

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const BridgingConvertor = () => {
   return (
-    <div className="w-full flex-1 flex flex-col items-center justify-center p-4">
+    <div className="mt-20 md:mt-0 w-full flex-1 flex flex-col items-center justify-center p-4">
       {/* Token Icon and Balance */}
       <div className="text-center mb-8">
         <div>
