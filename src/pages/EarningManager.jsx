@@ -57,7 +57,7 @@ const EarningsManager = () => {
       </div>
 
       {/* Ethereum Info Section */}
-      <div className="bg-gray-800 p-8 rounded-lg text-center space-y-[20px] w-full">
+      <div className="bg-gray-800 p-3 lg:p-8 rounded-lg text-center space-y-[20px] w-full">
         <div className="flex justify-center mb-6">
           <div className=" rounded-full">
             <img
@@ -67,7 +67,7 @@ const EarningsManager = () => {
             />
           </div>
         </div>
-        <h2 className="text-[30px] leading-[34px] text-[#38DCC8] font-semibold ">
+        <h2 className="text-[24px] px-4 md:text-[30px] leading-[34px] text-[#38DCC8] font-semibold ">
           Total Rewards Paid To $MAP Holders
         </h2>
         <div className="flex justify-center items-center space-x-4 ">
@@ -76,22 +76,24 @@ const EarningsManager = () => {
               background:
                 "linear-gradient(126.97deg, #09121D 28.26%, rgba(9, 18, 29, 0.2) 91.2%)",
             }}
-            className="text-3xl font-bold px-12 py-6 rounded-[18px]"
+            className="text-[16px] lg:text-3xl font-bold px-4 lg:px-12 py-2 lg:py-6 rounded-[18px]"
           >
             84.00 ETH
           </p>
-          <p className="text-2xl font-semibold text-[#38DCC8]">=</p>
+          <p className="text-[16px] lg:text-2xl font-semibold text-[#38DCC8]">
+            =
+          </p>
           <p
             style={{
               background:
                 "linear-gradient(126.97deg, #09121D 28.26%, rgba(9, 18, 29, 0.2) 91.2%)",
             }}
-            className="text-3xl font-bold px-12 py-6 rounded-[18px]"
+            className="text-[16px] lg:text-3xl font-bold px-4 lg:px-12 py-2 lg:py-6 rounded-[18px]"
           >
             $250,364
           </p>
         </div>
-        <p className="text-gray-400 text-[20px] ">
+        <p className="text-gray-400 text-[12px] lg:text-[20px] ">
           Estimations are based on a default of the last 24h of trading volume.
           Change the volume to predict earnings based on other figures.
         </p>
@@ -101,19 +103,21 @@ const EarningsManager = () => {
           Trading Volume = $
         </p>
 
-        <div
-          style={{
-            background:
-              "linear-gradient(126.97deg, #09121D 28.26%, rgba(9, 18, 29, 0.2) 91.2%)",
-          }}
-          className="flex w-fit p-2 px-5 text-[18px]   mx-auto justify-center bg-gray-700 rounded-[18px]  items-center space-x-2"
-        >
-          <p>$</p>
-          <input
-            type="text"
-            placeholder="01"
-            className=" text-start pl-3 text-white bg-transparent outline-none"
-          />
+        <div>
+          <div
+            style={{
+              background:
+                "linear-gradient(126.97deg, #09121D 28.26%, rgba(9, 18, 29, 0.2) 91.2%)",
+            }}
+            className="flex w-fit p-1 lg:p-2 px-3 lg:px-5 text-[18px]   mx-auto justify-center bg-gray-700 rounded-[18px]  items-center space-x-2"
+          >
+            <p>$</p>
+            <input
+              type="text"
+              placeholder="01"
+              className=" text-start pl-3 text-white bg-transparent outline-none"
+            />
+          </div>
         </div>
       </div>
 
@@ -124,25 +128,25 @@ const EarningsManager = () => {
             <img
               src="/assets/icons/dollar.png" // Replace with your image path
               alt="Stack of Money"
-              style={{
-                boxShadow: "0px 4.28px 53.55px 0px rgba(56, 220, 200, 0.5)",
-                // mixBlendMode: "difference", // or 'screen', depending on your desired effect
-              }}
+              // style={{
+              //   boxShadow: "0px 4.28px 53.55px 0px rgba(56, 220, 200, 0.5)",
+              //   // mixBlendMode: "difference", // or 'screen', depending on your desired effect
+              // }}
               className="w-auto h-[110px] object-contain"
             />
           </div>
           <div className="space-y-[22px] mt-6">
-            <h3 className="text-[26px] text-center leading-[27px] font-[700]  text-[#38DCC8] ">
+            <h3 className="text-[20px] lg:text-[26px] text-center leading-[27px] font-[700]  text-[#38DCC8] ">
               Your 0 $MAP Earns:
             </h3>
-            <div className="space-y-1 text-center text-[20px] leading-[29px] font-[700]">
+            <div className="space-y-1 text-center text-[18px] lg:text-[20px] leading-[29px] font-[700]">
               {/* Earnings List */}
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
             </div>
-            <p className="text-[#38DCC8] text-[21px] font-[25px]">
+            <p className="text-[#38DCC8] text-[14px] lg:text-[21px] font-[25px]">
               Estimations are based on $1 trading volume
             </p>
           </div>
@@ -153,25 +157,25 @@ const EarningsManager = () => {
             <img
               src="/assets/icons/dollar.png" // Replace with your image path
               alt="Stack of Money"
-              style={{
-                boxShadow: "0px 4.28px 53.55px 0px rgba(56, 220, 200, 0.5)",
-                // mixBlendMode: "difference", // or 'screen', depending on your desired effect
-              }}
+              // style={{
+              //   boxShadow: "0px 4.28px 53.55px 0px rgba(56, 220, 200, 0.5)",
+              //   // mixBlendMode: "difference", // or 'screen', depending on your desired effect
+              // }}
               className="w-auto h-[110px] object-contain"
             />
           </div>
           <div className="space-y-[22px] mt-6">
-            <h3 className="text-[26px] text-center leading-[27px] font-[700]  text-[#38DCC8] ">
+            <h3 className="text-[20px] lg:text-[26px] text-center leading-[27px] font-[700]  text-[#38DCC8] ">
               Your 0 $MAP Earns:
             </h3>
-            <div className="space-y-1 text-center text-[20px] leading-[29px] font-[700]">
+            <div className="space-y-1 text-center text-[18px] lg:text-[20px] leading-[29px] font-[700]">
               {/* Earnings List */}
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
               <p className="text-white ">0.00 ETH ($0.00) Per Day</p>
             </div>
-            <p className="text-[#38DCC8] text-[21px] font-[25px]">
+            <p className="text-[#38DCC8] text-[14px] lg:text-[21px] font-[25px]">
               Estimations are based on $1 trading volume
             </p>
           </div>
