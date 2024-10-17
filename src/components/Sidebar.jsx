@@ -94,10 +94,10 @@ const Sidebar = () => {
         </div>
         <ul className="space-y-4 w-full">
           {menuItems.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="w-full">
               <Link
                 to={item.link}
-                className={`flex items-center lg:space-x-[15px] space-x-[10px] w-full px-[11px] py-[12px] rounded-lg cursor-pointer ${
+                className={`flex items-center lg:space-x-[15px] space-x-[10px] flex-grow px-[11px] py-[12px] rounded-lg cursor-pointer ${
                   location.pathname === item.link ||
                   (item.link === "/bridging" &&
                     location.pathname.includes("bridging"))
@@ -173,10 +173,10 @@ const Sidebar = () => {
         </div>
         <ul className="space-y-4 w-full">
           {menuItems.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="w-full">
               <Link
                 to={item.link}
-                className={`flex items-center lg:space-x-[15px] w-max space-x-[10px] w-full px-[11px] py-[12px] rounded-lg cursor-pointer ${
+                className={`flex items-center lg:space-x-[15px] space-x-[10px] w-full px-[11px] py-[12px] rounded-lg cursor-pointer ${
                   location.pathname === item.link ||
                   (item.link === "/bridging" &&
                     location.pathname.includes("bridging"))
@@ -206,7 +206,9 @@ const Sidebar = () => {
                     className="h-full w-full object-contain"
                   />
                 </div>
-                <span>{item.name}</span>
+                <span className="w-max md:text-[14px] text-[13px]">
+                  {item.name}
+                </span>
               </Link>
             </li>
           ))}

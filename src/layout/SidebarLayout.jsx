@@ -1,12 +1,16 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import { Outlet } from "react-router-dom";
+import DashboardHeader from "../components/DashboardHeader";
 
 const SidebarLayout = () => {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
-      <Outlet />
+      <div className="flex-1 flex flex-col">
+        <DashboardHeader />
+        <Outlet />
+      </div>
     </div>
   );
 };
