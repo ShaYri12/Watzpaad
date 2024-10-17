@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="max-w-[1280px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
           <h1 className="text-[#38DCC8] text-[50px] md:text-[95px] font-bold md:leading-[109px]">
-            {t("hero-title")}
+            {t("hero-title")} 
           </h1>
           <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3"></div>
           <h3 className="text-white font-bold sm:leading-[48px] text-[22px] sm:text-[40px]">
