@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="z-20 sticky top-0 px-[22px] bg-[#09121D]">
+    <header className="z-20 sticky top-0 px-4 py-2.5 sm:px-[22px] bg-[#09121D] ">
       <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 shadow-lg">
         <Link to="/" className="flex items-center my-auto">
           <img

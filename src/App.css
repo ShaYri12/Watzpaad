@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   margin: 0; /* Remove margin from all elements */
   padding: 0; /* Remove padding from all elements */
@@ -20,8 +22,20 @@
   background-image: url("./assets/bgimage-one.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
+.bg-tokenomics-image{
+  background-image: url("./assets/tokenomics-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-custom-one {
+  background: linear-gradient(355.36deg, #012021 0.55%, #004B4C 113.27%);
+  /* border: 1px solid; */
+  /* border-image-source: linear-gradient(357.41deg, #38DCC8 10.8%, #666666 115.24%); */
+}
+
 
 .border-custom {
   border: 2.07px solid;
@@ -41,14 +55,4 @@
   backdrop-filter: blur(56.66706848144531px);
 
   box-shadow: 1.53px -1.53px 15.23px 0px #d6d6d62b inset;
-}
-
-
-@keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
-.animate-marquee {
-  animation: marquee 15s linear infinite;
 }

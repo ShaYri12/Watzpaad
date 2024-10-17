@@ -5,6 +5,8 @@ import MarqueeSlider from "../components/MarqueeSlider";
 import EcosystemsUtilities from "../components/EcosystemsUtilities";
 import ExclusiveBenefits from "../components/ExclusiveBenefits";
 import PoweredBy from "../components/PoweredBy";
+import Tokenomics from "../components/Tokenomics";
+import JoinIdos from "../components/JoinIdos";
 
 const Home = () => {  
   return (
@@ -15,7 +17,11 @@ const Home = () => {
 
       <EcosystemsUtilities/>
 
+      <JoinIdos/>
+
       <ExclusiveBenefits/>
+
+      <Tokenomics/>
 
       <PoweredBy/>
 
