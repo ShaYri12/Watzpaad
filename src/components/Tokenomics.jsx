@@ -1,4 +1,5 @@
 import React from 'react'
+import TokenomicsChart from '../assets/tokenoms-hart.svg'
 
 const Tokenomics = () => {
   return (
@@ -65,8 +66,8 @@ const Tokenomics = () => {
         <div className='mt-1 bg-tokenomics-image'>
             <h1 className='pt-10 sm:pt-20 text-[35px] sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[735px] mx-auto text-center'>Tokenomics</h1>
 
-            <div className='py-20'>
-                <h2 className='text-[30px] text-center text-white'>Tokenonics Image</h2>
+            <div className='py-5 md:py-20 w-full max-w-[888px] mx-auto'>
+                <img src={TokenomicsChart} alt="tokenoms-chart" />
             </div>
 
             <div className='flex flex-col items-center'>

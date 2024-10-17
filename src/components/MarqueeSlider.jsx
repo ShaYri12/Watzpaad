@@ -28,7 +28,7 @@ const MarqueeSlider = () => {
         initialSlide: 1           // Start on the second slide
     };
     return (
-        <div className="marquee-wrapper overflow-hidden my-4">
+        <div className="marquee-wrapper overflow-hidden my-4 mt-10">
             <Slider className="slick marquee " {...settings}>
                 <img src={SliderOne} alt="Bitcoinst" className=" aspect-auto h-10 mx-6 inline-block" />
                 <img src={SliderTwo} alt="News BTC" className="h-10 mx-6 inline-block" />

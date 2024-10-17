@@ -3,38 +3,50 @@ import Audit from "../assets/audit-icons.svg";
 import Bitcoin from "../assets/bitcoin.svg";
 import Slider from "./Slider";
 import HomeDropdown from "./HomeDropdown";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
   const dropdownOptions1 = ["USDT", "USDT", "USDT"];
   const dropdownOptions2 = ["USDT", "USDT", "USDT"];
+
+  const { t } = useTranslation("homepage");
   return (
     <section className="w-full text-white py-[50px] px-6 bgimage-one">
       <div className="max-w-[1280px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
           <h1 className="text-[#38DCC8] text-[50px] md:text-[95px] font-bold md:leading-[109px]">
-            WATZPAAD
+            {t("hero-title")}
           </h1>
           <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3"></div>
           <h3 className="text-white font-bold sm:leading-[48px] text-[22px] sm:text-[40px]">
-            Unique web3 crowdfunding ecosystem
+            {t("hero-title-two")}
           </h3>
           <p className="text-[14px] sm:text-[18px] font-normal font-space mt-5 sm:mt-[27px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. 
+            {t("description")}
           </p>
           <div className="mt-[29px] flex items-center gap-4 sm:gap-[29px]">
             <button
               className="bg-[#38DCC8] text-black font-normal text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5"
               style={{ boxShadow: "0px 4px 22.6px 0px #38DCC88C" }}
             >
-              <img src={Audit} alt="audit" width={35} height={35} className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]" /> Audit
+              <img
+                src={Audit}
+                alt="audit"
+                width={35}
+                height={35}
+                className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"
+              />{" "}
+              Audit
             </button>
             <button className=" text-white font-normal text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5">
-              <img src={Audit} alt="audit" width={35} height={35}  className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"/> Audit
+              <img
+                src={Audit}
+                alt="audit"
+                width={35}
+                height={35}
+                className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"
+              />{" "}
+              Audit
             </button>
           </div>
         </div>
