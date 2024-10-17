@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import LaunchedPad from "../pages/LaunchedPad";
 import TermsAndConditions from "../pages/TermsAndConditions";
@@ -7,7 +7,7 @@ import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Bridging from "../pages/Bridging";
 import BridgingConverter from "../pages/BridgingConvertor";
-import Layout from "../layout/Layout"; // Import your layout
+import UserLayout from "../layout/Layout"; // Assuming 'Layout' is actually 'UserLayout'
 import Earnings from "../pages/Earnings";
 import Marketplace from "../pages/Marketplace";
 import Vault from "../pages/Vault";
@@ -17,112 +17,44 @@ import TradingMarket from "../pages/TradingMarket";
 import BridgingConverter2 from "../pages/BridgingConvertorStep2";
 import EarningsManager from "../pages/EarningManager";
 import MetaAltPad from "../pages/MetaAltPad";
+import SidebarLayout from "../layout/SidebarLayout";
 
 const Routers = () => {
   return (
-    <Routes>
-      <Route path="/home" element={<Navigate to="/" />} />
-      <Route
-        path="/"
-        element={
-          <Layout>
-            <Home />
-          </Layout>
-        }
-      />
-      <Route
-        path="/launchpad"
-        element={
-          <Layout>
-            <LaunchedPad />
-          </Layout>
-        }
-      />
-      <Route
-        path="/earnings"
-        element={
-          <Layout>
-            <Earnings />
-          </Layout>
-        }
-      />
-      <Route
-        path="/marketplace"
-        element={
-          <Layout>
-            <Marketplace />
-          </Layout>
-        }
-      />
-      <Route
-        path="/trading-market/:id"
-        element={
-          <Layout>
-            <TradingMarket />
-          </Layout>
-        }
-      />
-      <Route
-        path="/vault"
-        element={
-          <Layout>
-            <Vault />
-          </Layout>
-        }
-      />
-      <Route
-        path="/stacking"
-        element={
-          <Layout>
-            <Stacking />
-          </Layout>
-        }
-      />
-      <Route
-        path="/win"
-        element={
-          <Layout>
-            <Win />
-          </Layout>
-        }
-      />
-      <Route
-        path="/metaAltPad"
-        element={
-          <Layout>
-            <MetaAltPad />
-          </Layout>
-        }
-      />
-      <Route
-        path="/terms-and-conditions"
-        element={
-          <Layout>
-            <TermsAndConditions />
-          </Layout>
-        }
-      />
-      <Route
-        path="/cookie-policy"
-        element={
-          <Layout>
-            <CookiePolicy />
-          </Layout>
-        }
-      />
-      <Route
-        path="/privacy-policy"
-        element={
-          <Layout>
-            <PrivacyPolicy />
-          </Layout>
-        }
-      />
-      <Route path="/bridging-manager" element={<EarningsManager />} />
-      <Route path="/bridging" element={<Bridging />} />
-      <Route path="/bridging-convertor" element={<BridgingConverter />} />
-      <Route path="/bridging-convertor-2" element={<BridgingConverter2 />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        {/* User Layout Routes */}
+        <Route element={<UserLayout />}>
+          <Route path="/home" element={<Navigate to="/" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/launchpad" element={<LaunchedPad />} />
+          <Route path="/earnings" element={<Earnings />} />
+          <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/trading-market/:id" element={<TradingMarket />} />
+          <Route path="/vault" element={<Vault />} />
+          <Route path="/stacking" element={<Stacking />} />
+          <Route path="/win" element={<Win />} />
+          <Route path="/metaAltPad" element={<MetaAltPad />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditions />}
+          />
+          <Route path="/cookie-policy" element={<CookiePolicy />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Route>
+
+        {/* Bridging Layout Routes */}
+        <Route element={<SidebarLayout />}>
+          <Route path="/dashboard" element={<EarningsManager />} />
+          <Route path="/bridging" element={<Bridging />} />
+          <Route path="/bridging-convertor" element={<BridgingConverter />} />
+          <Route
+            path="/bridging-convertor-2"
+            element={<BridgingConverter2 />}
+          />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

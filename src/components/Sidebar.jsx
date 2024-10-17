@@ -1,12 +1,21 @@
 // Sidebar.jsx
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(null);
 
   const menuItems = [
-    { name: "Dashboard", icon: "/assets/icons/dashboard.svg" },
-    { name: "Bridge & Swap AI", icon: "/assets/icons/bridge.png" },
+    {
+      name: "Dashboard",
+      icon: "/assets/icons/dashboard.svg",
+      link: "/dashboard",
+    },
+    {
+      name: "Bridge & Swap AI",
+      icon: "/assets/icons/bridge.png",
+      link: "/bridging",
+    },
     { name: "Marketplace", icon: "/assets/icons/marketplace.png" },
     { name: "Vault", icon: "/assets/icons/vault.png" },
   ];
@@ -58,23 +67,25 @@ const Sidebar = () => {
       </div>
       <ul className="space-y-4 ">
         {menuItems.map((item, index) => (
-          <li
-            key={index}
-            className={`flex items-center space-x-4 w-full px-6 py-2 rounded-lg cursor-pointer ${
-              selected === index
-                ? "bg-[#38DCC8] text-black"
-                : "hover:bg-[#84faed]/40"
-            }`}
-            onClick={() => setSelected(index)} // Set selected item on click
-          >
-            <div
-              className={`h-[30px] w-[30px] rounded-[5px] p-2 ${
-                selected === index ? "bg-black text-white" : "bg-[#38DCC8]"
+          <li key={index}>
+            <Link
+              to={item.link}
+              className={`flex items-center space-x-4 w-full px-6 py-2 rounded-lg cursor-pointer ${
+                selected === index
+                  ? "bg-[#38DCC8] text-black"
+                  : "hover:bg-[#84faed]/40"
               }`}
+              onClick={() => setSelected(index)}
             >
-              <img src={item.icon} alt="" />
-            </div>
-            <span>{item.name}</span>
+              <div
+                className={`h-[30px] w-[30px] rounded-[5px] p-2 ${
+                  selected === index ? "bg-black text-white" : "bg-[#38DCC8]"
+                }`}
+              >
+                <img src={item.icon} alt="" />
+              </div>
+              <span>{item.name}</span>
+            </Link>
           </li>
         ))}
       </ul>
