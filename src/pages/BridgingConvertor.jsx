@@ -2,6 +2,7 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa6";
 import Dropdown from "../shared/Dropdown";
+import { Link } from "react-router-dom";
 
 const BridgingConvertor = () => {
   return (
@@ -75,9 +76,11 @@ const BridgingConvertor = () => {
         {/* Submit Button */}
       </div>
       <div className="flex justify-center mt-4">
-        <button className="bg-[#38DCC8] hover:bg-teal-500 duration-200 px-[45px] py-[10px] rounded-full">
-          Let’s Go
-        </button>
+        <Link to="/bridging-convertor-2">
+          <button className="bg-[#38DCC8] hover:bg-teal-500 duration-200 px-[45px] py-[10px] rounded-full">
+            Let’s Go
+          </button>
+        </Link>
       </div>
     </div>
   );
