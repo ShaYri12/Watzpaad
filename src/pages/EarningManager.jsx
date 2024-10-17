@@ -14,7 +14,7 @@ const EarningsManager = () => {
           placeholder="Please enter your address above"
           className="w-full max-w-[350px] p-3 rounded-full bg-gray-800 text-white placeholder-gray-400 outline-none"
         />
-        <button className="bg-teal-400 hover:bg-teal-500 text-black font-semibold py-3 px-9 rounded-full">
+        <button className="bg-teal-400 hover:bg-teal-500 text-black font-semibold py-3 px-9 rounded-full min-w-[140px]">
           Buy BBT
         </button>
       </div>
