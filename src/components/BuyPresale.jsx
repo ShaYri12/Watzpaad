@@ -23,12 +23,12 @@ const BuyPresale = () => {
     },
   ];
   return (
-    <div className="px-4 pt-10">
-      <div className="max-w-[1280px] m-auto w-full">
+    <div className="px-4 pt-10 w-full">
+      <div className="max-w-[1280px]  m-auto w-full">
         <h1 className="text-[35px] sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[600px] mx-auto text-center">
           How to buy in Presale?
         </h1>
-        <div className="w-full flex items-center justify-between lg:flex-row flex-col">
+        <div className="w-full flex lg:items-center justify-between lg:flex-row flex-col">
           <div className="w-full mt-20 relative max-w-[450px] mx-auto ">
             {/* Vertical line */}
 
@@ -43,16 +43,16 @@ const BuyPresale = () => {
                 </div>
 
                 {/* Number in background */}
-                <div className="absolute left-[50px]  text-custom opacity-10 text-[96px] font-bold">
+                <div className="absolute left-[30px] sm:left-[50px] text-custom opacity-10 text-[80px] sm:text-[96px] font-bold">
                   {`0${item.id}`}
                 </div>
 
                 {/* Content */}
-                <div className="flex-grow ml-[140px] mt-4 z-20 ">
-                  <h3 className="text-[28px] mb-2 font-bold text-white">
+                <div className="flex-grow ml-[100px] sm:ml-[140px] mt-4">
+                  <h3 className="text-[20px] sm:text-[28px] mb-2 font-bold text-white">
                     {item.title}
                   </h3>
-                  <p className="text-[#798DA3] text-[16px] font-space font-normal">
+                  <p className="text-[#798DA3] text-[14px] sm:text-[16px] font-space font-normal">
                     {item.description}
                   </p>
                 </div>
@@ -60,8 +60,8 @@ const BuyPresale = () => {
             ))}
           </div>
 
-          <div className="w-full flex items-end justify-end mt-10">
-            <img src={Presale} alt="Presale" />
+          <div className="w-full lg:flex items-end justify-end mt-10">
+            <img src={Presale} alt="Presale" className="" />
           </div>
         </div>
       </div>

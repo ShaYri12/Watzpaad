@@ -23,8 +23,8 @@ const Header = () => {
             className="xl:w-[233px] lg:w-[200px] md:w-[233px] w-[170px] lg:mb-2"
           />
         </Link>
+         
         <div className="lg:hidden flex gap-2">
-          <LanguageDropdown />
 
           <button onClick={toggleDrawer} className="text-white">
             <FiMenu size={30} /> {/* Burger icon */}
@@ -57,6 +57,9 @@ const Header = () => {
             </NavLink>
           ))}
         </nav>
+        <div>
+        <LanguageDropdown />
+        </div>
         <div className="hidden lg:block">
           <button
             className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"

@@ -8,30 +8,35 @@ import PoweredBy from "../components/PoweredBy";
 import Tokenomics from "../components/Tokenomics";
 import JoinIdos from "../components/JoinIdos";
 import BuyPresale from "../components/BuyPresale";
+import RoadMap from "../components/RoadMap";
+import { useTranslation } from "react-i18next";
 
-const Home = () => {  
+const Home = () => {
+  const { t } = useTranslation("faq");
   return (
     <div>
       <Hero />
 
-      <MarqueeSlider/>
+      <MarqueeSlider />
 
-      <EcosystemsUtilities/>
+      <EcosystemsUtilities />
 
-      <JoinIdos/>
+      <JoinIdos />
 
-      <ExclusiveBenefits/>
+      <ExclusiveBenefits />
 
-      <BuyPresale/>
+      <BuyPresale />
 
-      <Tokenomics/>
+      <RoadMap />
 
-      <PoweredBy/>
+      <Tokenomics />
+
+      <PoweredBy />
 
       {/* FAQ */}
       <div className="max-w-[1280px] mx-auto md:py-[83px] py-[57px]">
         <h2 className="mb-[62px] md:text-[50px] text-[35px] font-[700] md:leading-[57.5px] leading-[40.25px] text-white text-center px-[22px]">
-          FAQs
+          {t("faq_title")}
         </h2>
         <FAQSection />
       </div>
