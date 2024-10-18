@@ -46,28 +46,30 @@ const KeyFeatures = () => {
             className="bg-[#1F2835CC] border-[2.97px] border-[#303945] px-[12px] py-[10px] rounded-[26.71px] text-center"
             style={{ backdropFilter: "blur(29.689451217651367px)" }}
           >
-            <div className="px-[17px] py-[37px] border-[1.78px] border-primaryColor h-full w-full rounded-[13.35px] flex flex-col items-center justify-center">
-              <div
-                className="bg-[#FFFFFF33] rounded-[14.74px] md:min-h-[78.25px] md:min-w-[85.06px] min-h-[65.71px] min-w-[71.43px] flex items-center justify-center mb-[16px]"
-                style={{
-                  boxShadow: `-1.71px 1.71px 1.71px 0px #FFFFFF63 inset, 
+            <div className="px-[17px] py-[37px] card-border h-full w-full rounded-[13.35px]">
+              <div className="flex flex-col items-center justify-center relative z-[1] h-full w-full">
+                <div
+                  className="bg-[#FFFFFF33] rounded-[14.74px] md:min-h-[78.25px] md:min-w-[85.06px] min-h-[65.71px] min-w-[71.43px] flex items-center justify-center mb-[16px]"
+                  style={{
+                    boxShadow: `-1.71px 1.71px 1.71px 0px #FFFFFF63 inset, 
                             1.14px -1.14px 11.34px 0px #D6D6D62B inset, 
                             0px 4px 40px 0px #92FFF233`,
-                }}
-              >
-                <div className="md:min-h-[50px] md:min-w-[50px] min-h-[42px] min-w-[42px]">
-                  <img
-                    src={`/assets/icons/${feature.imageUrl}`}
-                    className="md:w-[50px] md:h-[50px] w-[42px] h-[42px]"
-                  />
+                  }}
+                >
+                  <div className="md:min-h-[50px] md:min-w-[50px] min-h-[42px] min-w-[42px]">
+                    <img
+                      src={`/assets/icons/${feature.imageUrl}`}
+                      className="md:w-[50px] md:h-[50px] w-[42px] h-[42px]"
+                    />
+                  </div>
                 </div>
+                {feature.title && (
+                  <h3 className="text-[17.62px] font-[700]">{feature.title}</h3>
+                )}
+                <p className="text-gray-400 text-[10.57px] mt-[7px]">
+                  {feature.description}
+                </p>
               </div>
-              {feature.title && (
-                <h3 className="text-[17.62px] font-[700]">{feature.title}</h3>
-              )}
-              <p className="text-gray-400 text-[10.57px] mt-[7px]">
-                {feature.description}
-              </p>
             </div>
           </div>
         ))}

@@ -21,6 +21,7 @@ import SidebarLayout from "../layout/SidebarLayout";
 import DashboardMarketPlace from "../pages/DashboardMarketPlace";
 import DashboardTradingMarket from "../pages/DashboardTradingMarket";
 import DashboardVault from "../pages/DashboardVault";
+import Border from "../pages/Border";
 
 const Routers = () => {
   return (
@@ -44,6 +45,7 @@ const Routers = () => {
           />
           <Route path="/cookie-policy" element={<CookiePolicy />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/border" element={<Border />} />
         </Route>
 
         {/* Bridging Layout Routes */}
