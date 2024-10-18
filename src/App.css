@@ -148,7 +148,7 @@
     rgba(56, 220, 200, 0) 89.18%
   );
   z-index: -2; /* Ensure it's behind the card-border content */
-  animation: border 4s linear infinite; /* Optional gradient animation */
+  animation: border 8s linear infinite; /* Optional gradient animation */
 }
 
 @keyframes border {
