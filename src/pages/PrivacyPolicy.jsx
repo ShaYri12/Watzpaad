@@ -26,35 +26,186 @@ const PrivacyPolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("children_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
-          {t("children_description")}
-        </p>
+        {t("children_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
       </div>
 
       <div className="space-y-[34px]">
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("personal_info_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
-          {t("personal_info_description")}
-        </p>
+        {t("personal_info_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
       </div>
 
       <div className="space-y-[34px]">
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("how_we_use_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
-          {t("how_we_use_description")}
-        </p>
+        {t("how_we_use_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
       </div>
 
       <div className="space-y-[34px]">
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("choices_title")}
         </h1>
+        {t("choices_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("who_we_share_title")}
+        </h1>
+        {t("who_we_share_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("security_title")}
+        </h1>
+        {t("security_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("where_we_process_title")}
+        </h1>
+        {t("where_we_process_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("how_long_we_store_title")}
+        </h1>
+        {t("how_long_we_store_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("your_rights_title")}
+        </h1>
+        {t("your_rights_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("california_privacy_rights_title")}
+        </h1>
         <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
-          {t("choices_description")}
+          {t("california_privacy_rights_description")}
+        </p>
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("brazil_privacy_rights_title")}
+        </h1>
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          {t("brazil_privacy_rights_description")}
+        </p>
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("contact_title")}
+        </h1>
+        {t("contact_description", { returnObjects: true }).map(
+          (item, index) => (
+            <p
+              key={index}
+              className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+            >
+              {item}
+            </p>
+          )
+        )}
+      </div>
+
+      <div className="space-y-[34px]">
+        <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
+          {t("changes_title")}
+        </h1>
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          {t("changes_description")}
         </p>
       </div>
     </div>

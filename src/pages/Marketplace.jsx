@@ -19,9 +19,9 @@ export default function Marketplace() {
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document or a
-            typeface without relying on meaningful content
+            BlockBoost having it’s unique NFT Marketplace features allows the
+            digital artist to sell their art in any cryptocurrency also allows
+            to place Auction, Trades and Many other ways to earn.
           </p>
           <div className="flex flex-wrap gap-[16.43px] md:gap-[23px] relative z-[3] max-w-[587px] mx-auto md:mt-[26px] mt-[24px]">
             <button className="flex-grow bg-primaryColor hover:bg-teal-300 w-[121.8px] md:w-[170.51px] text-[11.36px] md:text-[15.9px] transition py-[9.4px] md:py-[13px] text-black px-4 rounded-full">

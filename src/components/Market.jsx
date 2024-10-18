@@ -36,7 +36,7 @@ export default function Market({ dashboard = false }) {
           Market
         </h1>
         <div className="flex flex-wrap gap-[13px] md:gap-[25px]">
-          <div className="relative">
+          {/* <div className="relative">
             <select
               value={stage}
               onChange={(e) => setStage(e.target.value)}
@@ -65,7 +65,7 @@ export default function Market({ dashboard = false }) {
               size={19}
               className="absolute right-[15.23px] top-1/2 transform -translate-y-1/2 text-primaryColor"
             />
-          </div>
+          </div> */}
           <div className="relative">
             <input
               type="text"
@@ -117,10 +117,10 @@ export default function Market({ dashboard = false }) {
                 </p>
                 <div className="flex flex-col gap-[5.54px] text-right flex-grow">
                   <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
-                    <img
+                    {/* <img
                       src="/assets/icons/integeration-logo-3.png"
                       className="w-[14.2px] md:w-[20px]"
-                    />{" "}
+                    />{" "} */}
                     <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
                       {card.price} BNB
                     </p>
@@ -135,7 +135,7 @@ export default function Market({ dashboard = false }) {
                   Par Value
                 </p>
                 <p className="text-white text-[12px] md:text-[17.14px] w-max">
-                  {card.parValue} <span className="text-primaryColor">MAP</span>
+                  {card.parValue} <span className="text-primaryColor">BBT</span>
                 </p>
               </div>
             </div>

@@ -1,0 +1,33 @@
+{
+  "earnings": {
+    "title": "Earnings",
+    "description": "BlockBoost Ecosystem allows earning passive income through many ways..."
+  },
+  "rewards": {
+    "presale": {
+      "titleWhite": "Presale Referral",
+      "titleColor": "Rewards",
+      "description": "Participate in the early stage of presale..."
+    },
+    "trading": {
+      "titleWhite": "Trading Referral",
+      "titleColor": "Rewards",
+      "description": "After launch of $BBT token..."
+    },
+    "holding": {
+      "titleWhite": "Holding",
+      "titleColor": "Rewards",
+      "description": "Hold $BBT and earn passive income..."
+    },
+    "staking": {
+      "titleWhite": "Staking",
+      "titleColor": "Rewards",
+      "description": "Stake $BBT to earn rewards..."
+    },
+    "vault": {
+      "titleWhite": "Vault Staking",
+      "titleColor": "Rewards",
+      "description": "Stake any tokens to earn with automatic compounding..."
+    }
+  }
+}

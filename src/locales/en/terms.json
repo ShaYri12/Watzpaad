@@ -1,13 +1,61 @@
 {
   "terms_and_conditions_title": "Terms and Conditions",
-  "terms_and_conditions_description": "You should read these Terms because they contain our legal commitments to you and a number of DOs and DON'Ts which you need to be aware of when you use our Services. Please read these Terms carefully to make sure you understand them. By using our Services, you are automatically deemed to agree to accept and be legally bound by these Terms. For the avoidance of doubt if you do not agree with the Terms, you should not proceed to access or use our Services. \n\nYou should also read our Privacy Policy. The Privacy Policy explains how we use your personal data. If you think that there is a mistake in these terms or have any queries, please contact us to discuss. If we have to contact you, we will do so by writing to you at the email address you have provided to us. It is therefore very important that you confirm you have provided a legitimate email address that is used by you personally and by proceeding with use of our Services you warrant that you have done so. We will only contact you if you have given explicit consent for us to do so. The only other time you will receive emails is where you have registered to receive our newsletter and updates. \n\nWhen we use the words 'writing' or 'written' in these terms, this includes emails.",
+  "terms_and_conditions_description": "You should read these Terms because they contain our legal commitments to you and a number of DOs and DON'Ts which you need to be aware of when you use our Services. Please read these Terms carefully to make sure you understand them. By using our Services, you are automatically deemed to agree to accept and be legally bound by these Terms. For the avoidance of doubt if you do not agree with the Terms, you should not proceed to access or use our Services.\n\nYou should also read our Privacy Policy. The Privacy Policy explains how we use your personal data. If you think that there is a mistake in these terms or have any queries, please contact us to discuss. If we have to contact you, we will do so by writing to you at the email address you have provided to us. It is therefore very important that you confirm you have provided a legitimate email address that is used by you personally and by proceeding with use of our Services you warrant that you have done so. We will only contact you if you have given explicit consent for us to do so. The only other time you will receive emails is where you have registered to receive our newsletter and updates. When we use the words \"writing\" or \"written\" in these terms, this includes emails.",
+
+  "changes_to_terms_title": "Changes to Terms",
+  "changes_to_terms_description": "We can update and change these Terms from time to time and the most current version of these Terms will be posted on the website and relevant app. You may be invited to review and accept the revised Terms in order to continue using the Services. We suggest all users regularly check the terms on the website and in-app where any changes will be posted. You can print and save a copy of these Terms for your future reference. We may require you to update software to be able to use the Services, provided that the Services will continue to match the description of it that we provided to you before. The associated software may be upgraded to reflect changes in an operating system. By continuing to use the Services you will be deemed to have accepted the Terms as varied from time to time.",
 
   "buying_coins_title": "Using Our Service / Buying Coins",
   "buying_coins_description": "To use our service, you will need to have a virtual wallet. We draw your attention that wallets are third-party services, and we advise you to read their terms of use.",
 
   "security_title": "Security",
-  "security_description": "Security is important to Rexas, and you therefore agree not to share your wallet access with any other user or third party, or knowingly carry out any activity which enables a third party to access or use your account. If we believe, acting in our discretion, that your account is used inappropriately, we reserve the right to suspend or terminate or cease to support your account without liability.\n\nWe cannot check the identities of people using our Services and will not be liable if your wallet connection or account is used by someone else. If you become aware of any unauthorised use of your login, you should notify us immediately by contacting us at admin@rexas.com, using 'Security Breach' as the subject line. Please note that we may need to verify your identity and validate ownership of the account. Be alert for other websites and services which may pretend to be us or to be associated with us.",
+  "security_description": "Security is important to BlockBoost, and you therefore agree not to share your wallet access with any other user or third party, or knowingly carry out any activity which enables a third party to access or use your account. If we believe, acting in our discretion, that your account is used inappropriately, we reserve the right to suspend or terminate or cease to support your account without liability.\n\nWe cannot check the identities of people using our Services and will not be liable if your wallet connection or account is used by someone else. If you become aware of any unauthorised use of your login, you should notify us immediately by contacting us at inq@BlockBoost.io, using 'Security Breach' as the subject line. Please note that we may need to verify your identity and validate ownership of the account. Be alert for other websites and services which may pretend to be us or to be associated with us.",
 
   "removing_data_title": "Removing Data",
-  "removing_data_description": "If you would like us to delete any data we may hold on you, please contact us by emailing admin@rexas.com. Whereas we do not require personal or identifiable information upon signing up to use our service, we may still hold details for you if you have provided an email address to us or given us permission to contact you. If you wish for your data to be removed, you must specify this in your email. If you do not request deletion, we will hold this information as outlined in our Privacy Policy."
+  "removing_data_description": "If you would like us to delete any data we may hold on you, please contact us by emailing inq@BlockBoost.io. Whereas we do not require personal or identifiable information upon signing up to use our service, we may still hold details for you if you have provided an email address to us or given us permission to contact you. If you wish for your data to be removed, you must specify this in your email. If you do not request deletion, we will hold this information as outlined in our Privacy Policy.",
+
+  "rules_of_use_title": "Rules of Use",
+  "rules_of_use_description": "You undertake and agree to adhere to the following rules:",
+  "rules_of_use_list": [
+    "Do not engage in personal attacks on other individuals.",
+    "Do not harass, bully, or stalk any other user of our Services.",
+    "Do not post vulgar, obscene, or sexually explicit language or images.",
+    "Do not promote or advocate illegal activities or discussions with the intent to commit them.",
+    "Do not violate the intellectual property or privacy rights of any third party.",
+    "Do not introduce viruses or other harmful components.",
+    "Do not impersonate others or misrepresent your identity.",
+    "Do not engage in spamming, trolling, or other antisocial behaviour.",
+    "Do not promote or generate money for yourself or a third party without permission."
+  ],
+
+  "violation_of_rules_title": "Violation of Rules",
+  "violation_of_rules_description": "If you believe that another user is violating these Rules, please let us know by emailing inq@BlockBoost.io. We cannot guarantee that other users will comply with these Rules, and we will not be responsible for any other user's lack of compliance. You and other users are responsible for your own actions.",
+
+  "service_interruption_title": "Service Interruption",
+  "service_interruption_description": "BlockBoost does not guarantee that the Services will always be available, uninterrupted, timely, secure, or free from bugs or viruses. There may be times when the Services are unavailable due to maintenance or technical issues. We may also change, suspend, or discontinue certain Services without giving you prior notice. We will take reasonable steps to ensure that our Services are free from viruses and other malicious software, but we also recommend you use applicable antivirus software as relevant.",
+
+  "prohibited_person_title": "Prohibited Person",
+  "prohibited_person_description": "\"Prohibited Person\" refers to individuals or legal entities that are subject to specific sanctions under the laws of the United States, United Nations, European Union, or other relevant authorities. We will not engage in any dealings with Prohibited Persons.",
+
+  "third_parties_title": "Third Parties",
+  "third_parties_description": "Some pages may link to third-party websites or services. These links are provided for convenience, and BlockBoost is not responsible for any third-party content. If you visit any third-party website, please be aware that it may have its own terms of use and privacy policy.",
+
+  "agreeing_to_terms_title": "Agreeing to Terms",
+  "agreeing_to_terms_description": "By using our Services, you agree to be legally bound by these Terms. If you do not agree, you should not access or use our Services.",
+
+  "children_title": "Children",
+  "children_description": "Our services are not available for use by children under the age of 18 years old or 21 years old in some jurisdictions. Please refer to your country's laws for age-related guidance.",
+
+  "content_and_ip_rights_title": "Content and IP Rights",
+  "content_and_ip_rights_description": "All content and information contained in the Services are owned or licensed by BlockBoost and are protected by intellectual property rights. You may not use, copy, reverse engineer, or modify any content without explicit permission.",
+
+  "additional_important_information_title": "Additional Important Information",
+  "additional_important_information_description": "You are responsible for ensuring that all persons who access our site or app through your connection comply with these terms. You must also ensure that your access and use of our Services comply with applicable laws and regulations.",
+  "additional_important_information_list": [
+    "The content on our site is for general information and is not intended as advice.",
+    "You should seek professional financial advice before making any financial decisions.",
+    "We make no guarantees regarding the accuracy, completeness, or timeliness of the content on our site.",
+    "You are responsible for ensuring your own virus protection when accessing our site.",
+    "You must not misuse our site by introducing viruses, trojans, or other malicious software."
+  ]
 }
