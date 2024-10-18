@@ -33,11 +33,17 @@ export default function TradingMarket({ dashboard = false }) {
 
   return (
     <div
-      className={`min-h-screen bg-[#09121D] ${
+      className={`min-h-screen bg-[#09121D] relative ${
         !dashboard &&
         "px-[22px] md:pb-[100px] pb-[62px] md:pt-[160px] pt-[90px]"
       }`}
     >
+      <img
+        src="/assets/marketplace-bg-shade.png"
+        className={`w-full h-full absolute top-0 left-0 z-[1 ${
+          dashboard && "hidden"
+        }]`}
+      />
       <div className="max-w-[1280px] mx-auto">
         <div
           className={` ${dashboard ? "mb:mb-[43px] mb-[39px]" : "mb-[43px]"}`}
