@@ -63,59 +63,6 @@
 /* timeline */
 
 /* Animated border */
-.card {
-  --border-size: 2px;
-  position: relative;
-  width: 200px;
-  margin: 2rem;
-  border-radius: 13.34px;
-  display: grid;
-  place-content: center;
-  padding: 3rem 2rem;
-  isolation: isolate;
-  background-color: #1f2835cc;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;
-  overflow: hidden;
-}
-
-.card::before,
-.card::after {
-  content: "";
-  position: absolute;
-}
-
-.card::before {
-  content: ""; /* Create content for the pseudo-element */
-  position: absolute;
-  width: 180%;
-  height: 100%;
-  background: linear-gradient(
-    0deg,
-    rgba(56, 220, 200, 0) 13.7%,
-    rgba(56, 220, 200, 0.4) 27.55%,
-    #02695d 36.4%,
-    #38dcc8 53.88%,
-    rgba(56, 220, 200, 0) 89.18%
-  );
-  z-index: -2; /* Ensure it's behind the card content */
-  animation: border 5s linear infinite; /* Optional gradient animation */
-}
-
-@keyframes border {
-  to {
-    transform: rotateZ(-360deg);
-  }
-}
-
-.card::after {
-  background-color: #09121d;
-  inset: 2px;
-  border-radius: 13.34px;
-}
-
-/* Animated border */
 .card-border {
   position: relative;
   width: 100%;
@@ -137,10 +84,10 @@
 .card-border::before {
   content: ""; /* Create content for the pseudo-element */
   position: absolute;
-  width: 180%;
-  height: 100%;
+  width: 100%;
+  height: 180%;
   background: linear-gradient(
-    0deg,
+    86deg,
     rgba(56, 220, 200, 0) 13.7%,
     rgba(56, 220, 200, 0.4) 27.55%,
     #02695d 36.4%,
@@ -158,6 +105,114 @@
 }
 
 .card-border::after {
+  background-color: #1f2835;
+  inset: 2px;
+  border-radius: 13.34px;
+}
+
+/* Animated border */
+.card-border-wide {
+  position: relative;
+  width: 100%;
+  border-radius: 13.34px;
+  isolation: isolate;
+  background-color: #1f2835cc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-border-wide::before,
+.card-border-wide::after {
+  content: "";
+  position: absolute;
+}
+
+.card-border-wide::before {
+  content: "";
+  position: absolute;
+  width: 180%;
+  height: 130%;
+  background: linear-gradient(
+    0deg,
+    rgba(56, 220, 200, 0) 13.7%,
+    rgba(56, 220, 200, 0.4) 27.55%,
+    #02695d 36.4%,
+    #38dcc8 53.88%,
+    rgba(56, 220, 200, 0) 89.18%
+  );
+  z-index: -2;
+  animation: border-wide 8s linear infinite;
+}
+
+@keyframes border-wide {
+  0% {
+    transform: rotateZ(0deg);
+    animation-timing-function: ease-in; /* Speed up at the start */
+  }
+  10% {
+    transform: rotateZ(-36deg); /* Faster rotation in the first 10% */
+    animation-timing-function: linear; /* Maintain normal speed afterward */
+  }
+  90% {
+    transform: rotateZ(-324deg); /* Normal speed between 10% and 90% */
+    animation-timing-function: ease-out; /* Start speeding up at the end */
+  }
+  100% {
+    transform: rotateZ(-360deg); /* Complete rotation, speed up */
+  }
+}
+
+.card-border-wide::after {
+  background-color: #1f2835;
+  inset: 2px;
+  border-radius: 13.34px;
+}
+
+/* Animated border2 */
+.card-border2 {
+  position: relative;
+  width: 100%;
+  border-radius: 13.34px;
+  isolation: isolate;
+  background-color: #1f2835cc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-border2::before,
+.card-border2::after {
+  content: "";
+  position: absolute;
+}
+
+.card-border2::before {
+  content: ""; /* Create content for the pseudo-element */
+  position: absolute;
+  width: 200%;
+  height: 50%;
+  background: linear-gradient(
+    0deg,
+    rgba(122, 165, 0, 0) 13.7%,
+    rgba(122, 165, 0, 0.4) 27.55%,
+    #7aa500 36.4%,
+    #bafc00 53.88%,
+    rgba(186, 252, 0, 0) 89.18%
+  );
+  z-index: -2; /* Ensure it's behind the card-border2 content */
+  animation: border-orange 8s linear infinite; /* Optional gradient animation */
+}
+
+@keyframes border-orange {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.card-border2::after {
   background-color: #1f2835;
   inset: 2px;
   border-radius: 13.34px;

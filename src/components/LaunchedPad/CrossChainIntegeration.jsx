@@ -18,28 +18,22 @@ const CrossChainIntegration = () => {
     <div className="text-white pt-[55px] max-w-[1280px] mx-auto">
       <div className="max-w-[769px] text-center mx-auto lg:px-0 px-[22px]">
         <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
-        Cross-Chain Integration
+          Cross-Chain Integration
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
-        This integration allows projects to launch their IDO/IGO simultaneously on both Solana and Binance Smart Chain for example.
+          This integration allows projects to launch their IDO/IGO
+          simultaneously on both Solana and Binance Smart Chain for example.
         </p>
       </div>
 
       <div className="lg:flex hidden justify-center xl:gap-[72px] gap-[12px] mt-[48px] lg:px-0 px-[22px] w-full">
         {logos.map((logo, index) => (
-          <div
-            key={index}
-            className="p-[0.86px] rounded-[8.56px]"
-            style={{
-              background:
-                "linear-gradient(161.06deg, rgba(122, 165, 0, 0) 13.7%, rgba(122, 165, 0, 0.4) 27.55%, #7AA500 36.4%, #BAFC00 53.88%, rgba(186, 252, 0, 0) 89.18%)", // Removed the semicolon here
-            }}
-          >
-            <div className="bg-[#1F2835] w-[189.1px] h-[182.25px] flex items-center justify-center rounded-[8.56px]">
-              <div className="h-[182.25px] w-[182.25px]">
+          <div key={index} className="card-border2 p-[0.86px] overflow-hidden">
+            <div className="bg-[#1F2835] w-[189.1px] h-[182.25px] flex items-center justify-center rounded-[8.56px] relative z-[2] overflow-hidden">
+              <div className="max-h-[182.25px] max-w-[182.25px] h-full w-full">
                 <img
                   src={`/assets/icons/${logo}`}
-                  className="h-[182.25px] w-[182.25px]"
+                  className="h-[182.25px] w-[182.25px] h-full w-full"
                 />
               </div>
             </div>
@@ -121,14 +115,8 @@ const LogoSlider = () => {
       >
         {logos.map((logo, index) => (
           <div key={index} className="px-[15px]">
-            <div
-              className="p-[0.86px] rounded-[8.56px]"
-              style={{
-                background:
-                  "linear-gradient(161.06deg, rgba(122, 165, 0, 0) 13.7%, rgba(122, 165, 0, 0.4) 27.55%, #7AA500 36.4%, #BAFC00 53.88%, rgba(186, 252, 0, 0) 89.18%)", // Removed the semicolon here
-              }}
-            >
-              <div className="bg-[#1F2835] sm:w-[147px] w-[78.26px] sm:h-[140px] h-[75.43px] flex items-center justify-center rounded-[8.56px]">
+            <div className="card-border2 p-[0.86px]">
+              <div className="bg-[#1F2835] sm:w-[147px] w-[78.26px] sm:h-[140px] h-[75.43px] flex items-center justify-center rounded-[8.56px] relative z-[2]">
                 <div className="sm:h-[140px] h-[75.43px] sm:w-[140px] w-[75.43px]">
                   <img
                     src={`/assets/icons/${logo}`}
