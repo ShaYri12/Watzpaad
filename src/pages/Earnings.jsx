@@ -44,7 +44,11 @@ export default function Earnings() {
     });
   }, []);
   return (
-    <div className="bg-[#09121D]">
+    <div className="bg-[#09121D] relative">
+      <img
+        src="/assets/earning-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0"
+      />
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[39.52px] md:text-[65px] font-[700]">
