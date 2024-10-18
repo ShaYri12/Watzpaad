@@ -33,8 +33,14 @@ export default function Marketplace() {
           </div>
         </div>
       </div>
-      <div className="px-[20px] md:py-[83px] py-[57px]">
-        <Market />
+      <div className="px-[20px] md:py-[83px] py-[57px] relative">
+        <img
+          src="/assets/marketplace-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="relative z-[2]">
+          <Market />
+        </div>
       </div>
     </div>
   );
