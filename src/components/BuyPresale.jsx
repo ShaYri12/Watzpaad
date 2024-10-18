@@ -5,28 +5,28 @@ const BuyPresale = () => {
   const timelineData = [
     {
       id: 1,
-      title: "Connect wallet",
+      title: "CONNECT WALLET",
       description:
-        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
+        "Use Metamask or Trust Wallet to connect your wallet in seconds.",
     },
     {
       id: 2,
-      title: "Connect wallet",
+      title: "CONFIRM TRANSACTION",
       description:
-        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
+        "You can buy $BBT with USDT, ETH, and BNB.",
     },
     {
       id: 3,
-      title: "Connect wallet",
+      title: "CLAIM TOKEN",
       description:
-        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate",
+        "Congratulations! You can claim your $BBT after the pre-sale ends.",
     },
   ];
   return (
     <div className="px-4 pt-10 w-full">
       <div className="max-w-[1280px]  m-auto w-full">
-        <h1 className="text-[35px] sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[600px] mx-auto text-center">
-          How to buy in Presale?
+        <h1 className="text-[35px] capitalize sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[600px] mx-auto text-center">
+        How to buy in Presale?
         </h1>
         <div className="w-full flex lg:items-center justify-between lg:flex-row flex-col">
           <div className="w-full mt-20 relative max-w-[450px] mx-auto ">
@@ -60,7 +60,7 @@ const BuyPresale = () => {
             ))}
           </div>
 
-          <div className="w-full lg:flex items-end justify-end mt-10">
+          <div className="w-full flex items-center justify-center lg:items-end lg:justify-end mt-10">
             <img src={Presale} alt="Presale" className="" />
           </div>
         </div>

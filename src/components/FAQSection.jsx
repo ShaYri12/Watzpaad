@@ -4,39 +4,39 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 const faqData = [
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "What is blockboost token?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "Unique WEB3 Crowdfunding Ecosystem with unique rewards systems.",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "Where can I purchase the Blockboost Token and when I will receive it?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "During the presale you can purchase $BBT tokens from our official website www.blockboost.io you can claim your tokens from presale page after presale ends.",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "Will my rewards always paid hourly?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "Yes, you have to claim the reward from our official dapp via connecting your wallet.",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "How can I eligible for the presale rewards?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "You can get your referral link from presale page and purchase made through it will be auto credited to your account on presale page. You can check it via connecting wallet to presale page.",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "How many stage are there in presale?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "There are 10 stages in presale and the price of $BBT will increase at each stage.",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe",
+      "Is there staking on $BBT and when it will be available to stake?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempe.",
+      "Yes, please see the staking page for complete information on staking pools and rewards.",
   },
 ];
 
@@ -52,7 +52,7 @@ const FAQItem = ({ item }) => {
           backdropFilter: "blur(33.34968948364258px)",
         }}
       >
-        <span className="text-[#798DA3] md:text-[16px] text-[14.04px]">
+        <span className="text-[#798DA3] md:text-[18px] text-[14.04px]">
           {item.question}
         </span>
         <div
