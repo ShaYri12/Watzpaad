@@ -12,12 +12,12 @@ export default function Win() {
     <div className="bg-[#09121D] relative">
       <img
         src="/assets/win-bg-shade.png"
-        className="w-full h-full absolute top-0 left-0 z-[1]"
+        className="w-full h-full absolute top-0 left-0 "
       />
-      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block relative z-[2]">
+      <div className=" z-20 w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block relative">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
-            Rexas Millionaire Giveaway
+            BlockBoost Giveaway
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
@@ -28,7 +28,7 @@ export default function Win() {
         </div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
+      <div className="md:px-[22px] px-[12px] ">
         <div className="max-w-[1280px] mx-auto pb-[84px] pt-[50px]">
           <div
             className="bg-[#1F2835CC] text-white px-[7px] md:px-[15px] md:py-[12px] py-[13px] rounded-[12.84px] md:mb-[73px] mb-[100px] border-[3.21px] border-[#303945]"
@@ -39,30 +39,29 @@ export default function Win() {
             <div className="border border-primaryColor rounded-[6.42px] md:px-4 px-[8px] md:py-[32px] py-[45px]">
               <div className="flex flex-col md:gap-[24px] gap-[17px] max-w-[956px] mx-auto">
                 <h1 className="text-[17.43px] md:text-[24.65px] font-[400] md:leading-[32.86px] leading-[23.24px] text-center text-primaryColor">
-                  🎉 Rexas Finance $1,000,000 Giveaway 🎁
+                  🎉 BlockBoost $1,000,000 Giveaway 🎁
                 </h1>
                 <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
-                  We're excited to announce the launch of Rexas Finance with an
-                  amazing chance for 20 lucky winners to win $50,000 USDT each!
-                  🌟
+                  We're excited to announce the launch of Block Boost with an
+                  amazing chance for 20 lucky winners to win $5000 USDT each! 🌟
                 </p>
                 <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
                   ✨ Join now and share with your friends for a chance to win!
                   ✨
                 </p>
                 <p className="text-center text-primaryColor md:text-[20px] text-[14.14px] font-[700]">
-                  Note: A minimum $100 participation in the Rexas Finance
-                  Presale is required to be eligible.
+                Note: A minimum $100 participation in the BlockBoost Presale is required to be eligible.
+
                 </p>
                 <p className="text-center text-white md:text-[24.65px] text-[17.43px] md:leading-[32.86px] leading-[23.24px] font-[700]">
-                  👉 Join now and secure your spot among the winners! 🚀
+                  👉 Join now and secure your spot among the winners!  🚀
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col md:gap-[37px] gap-[43px]">
-            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-[38px] bg-[#0A0F19]">
+          <div className="relative z-20 flex flex-col md:gap-[37px] gap-[43px]">
+            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-[38px] ">
               {/* Step 1 */}
               <div className="flex flex-col items-center text-center text-white sm:max-w-[305.54px] max-w-[262.46px]">
                 <div
@@ -164,9 +163,9 @@ export default function Win() {
               >
                 <BsGlobe2 className="text-primaryColor md:text-[37px] text-[29px]" />
               </div>
-              <span className="text-[#798DA3] md:text-[30.62px] text-[24.02px]">
-                www.xyz.com
-              </span>
+              <a href="https://gleam.io/GmQLU/rexas-millionaire-giveaway" className="text-[#798DA3] md:text-[30.62px] text-[24.02px]">
+              https://gleam.io/GmQLU/rexas-millionaire-giveaway
+              </a>
             </div>
           </div>
         </div>

@@ -60,13 +60,11 @@ const Stacking = () => {
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
-            Stacking
+          Staking
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
-            Stake Tokens to earn with Automatic Compounding. Users can stake Any
-            Token to earn MAP. Refer your friends to earn 5% on their extra
-            rewards.
+          Stake your $BBT to earn high yield APY through the active pools and claim it before pool time expires.
           </p>
         </div>
       </div>
@@ -135,13 +133,13 @@ const Stacking = () => {
                         <div className="flex gap-2 w-full justify-between items-center">
                           <button
                             onClick={() => setRenQ(renQ + 1)}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px]  max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
                           >
                             <GoPlus className="text-black text-[20px]" />
                           </button>
                           <button
                             onClick={handleRenQMinus}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
                           >
                             <LuMinus className="text-white text-[18px]" />
                           </button>

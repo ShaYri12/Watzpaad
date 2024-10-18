@@ -18,9 +18,8 @@ const Vault = () => {
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[7px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
-            Stake Tokens to earn with Automatic Compounding. Users can stake Any
-            Token to earn MAP. Refer your friends to earn 5% on their extra
-            rewards.
+          Stake any crypto assets to earn with auto compounding. Users can choose to stake any assets from various pools listed to earn $BBT. Refer your friends to earn 5% on their extra rewards.
+
           </p>
         </div>
       </div>

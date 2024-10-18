@@ -9,7 +9,7 @@ const RewardSection = ({
 }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row items-center justify-between rounded-[10px] border border-primaryColor py-[22.9px] px-[11px] md:gap-[20px] gap-[33px] ${
+      className={`flex flex-col md:flex-row items-center justify-between bg-[#D9D9D90F] relative z-10 rounded-[10px] border border-primaryColor py-[22.9px] px-4 md:px-[40px] md:gap-[20px] gap-[33px] ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
@@ -52,13 +52,11 @@ export default function Earnings() {
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[39.52px] md:text-[65px] font-[700]">
-            Earnings
+          Earnings
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document or a
-            typeface without relying on meaningful content
+          BlockBoost Ecosystem allows earn passive income throughout many ways like Presale rewards,Trading rewards, Holding rewards, Staking rewards and Vault staking Rewards.
           </p>
         </div>
       </div>
@@ -67,35 +65,35 @@ export default function Earnings() {
         <div className="max-w-[1280px] mx-auto">
           <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
             <RewardSection
-              titleWhite="Presale"
+              titleWhite="Presale Referral "
               titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              description="Participate in early stage of presale to get $BBT at lower price because each stages of presales price are getting increased. Also, you can refer your friends to earn both 5% as an rewards of their invested amount during presale. There are no limits of referring to earn passive reward of their investments. "
               imageUrl="/assets/presale-rewards.png"
             />
             <RewardSection
-              titleWhite="Trading"
+              titleWhite="Trading Referral "
               titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              description="After launch of $BBT token still you can refer and earn through your unique referral link from our dashboard app and earn the 2% trading rewards of your referrals trading activities lifetime whenever they buy or sell the $BBT tokens. "
               imageUrl="/assets/trading-rewards.png"
               reverse
             />
             <RewardSection
-              titleWhite="Vault Stacking"
+              titleWhite="Holding "
               titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              description="Hold the $BBT and earn passive income. Just seat and relax to get share of your holding rewards from traded volume of $BBT and claim it through our dashboard app every hour. If you missed to claim it will be available at anytime to reclaim all remaining rewards of your wallet address."
               imageUrl="/assets/vault-stacking-rewards.png"
             />
             <RewardSection
-              titleWhite="Stacking"
+              titleWhite="Staking "
               titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              description="Stake $BBT to earn reward and get guaranteed allocation for the launchpad. It will be rewarded from staking supply of our ecosystem. Even after you are eligible for getting the holding rewards which are distributed from trading volumes of $BBT tokens."
               imageUrl="/assets/stacking-rewards.png"
               reverse
             />
             <RewardSection
-              titleWhite="Referral"
+              titleWhite="Vault Staking "
               titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              description="Stake any tokens to earn with automatic compounding system. You can stake any token to earn $BBT as an auto compounding rewards. It will be rewarded from vault supply of our ecosystem. You can unlock the your tokens anytime with your compounded rewards in $BBT tokens."
               imageUrl="/assets/referral-rewards.png"
             />
           </div>

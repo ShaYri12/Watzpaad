@@ -38,13 +38,13 @@ export default function TradingMarket({ dashboard = false }) {
         "px-[22px] md:pb-[100px] pb-[62px] md:pt-[160px] pt-[90px]"
       }`}
     >
-      <img
+      {/* <img
         src="/assets/marketplace-bg-shade.png"
-        className={`w-full h-full absolute top-0 left-0 z-[1 ${
+        className={`w-full h-full absolute top-0 left-0 z-[1]${
           dashboard && "hidden"
         }]`}
-      />
-      <div className="max-w-[1280px] mx-auto">
+      /> */}
+      <div className="relative z-20 max-w-[1280px] mx-auto">
         <div
           className={` ${dashboard ? "mb:mb-[43px] mb-[39px]" : "mb-[43px]"}`}
         >
@@ -63,7 +63,7 @@ export default function TradingMarket({ dashboard = false }) {
             dashboard ? "lg:flex-row" : "md:flex-row"
           } md:gap-[19px] gap-[38px]`}
         >
-          <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[15px] px-[13px] md:py-[16px] py-[9px] flex items-center flex-1">
+          <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[15px] px-[13px] md:py-[16px] py-[9px]  items-center flex-1">
             <div
               className={`md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] border border-primaryColor flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full ${
                 dashboard
@@ -143,7 +143,7 @@ export default function TradingMarket({ dashboard = false }) {
           </div>
 
           <div
-            className={`bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[18px] px-[13px] md:py-[16px] py-[9px] flex items-center ${
+            className={`bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[18px] px-[13px] md:py-[16px] py-[9px]  items-center ${
               dashboard ? "lg:w-[34%]" : "md:w-[34%]"
             }`}
           >
@@ -218,14 +218,11 @@ export default function TradingMarket({ dashboard = false }) {
             Market Rules
           </h4>{" "}
           <p className="text-[16.69px] md:text-[18px] font-[400] text-[#798DA3]">
-            1.NFT can be purchased in the NFT market with MAP or BNB
+            1.NFTs can be purchased with $BBT or Any other Choice of  Coins as per users listing criteria.
             <br />
-            2.After NFT is listed in the trading market, operations such as
-            transfer, auction, and stake mining are not allowed;
+            2.After NFT is listed in the trading market, operations such as transfer, auction, and staking are not allowed.
             <br />
-            3.The market will charge 15% of the seller’s revenue as a service
-            fee, of which 5% is send to original Minter. 5% Will transfer to the
-            Reward to all NFT holders 5% to the Marketing Wallet.
+            3.The market will charge 15% of the seller's revenue as a service fee, of which 5% is send to original Minter. 5% Will transfer to the Reward to all NFT holders 5% to the Marketing Wallet.
           </p>
         </div>
 
