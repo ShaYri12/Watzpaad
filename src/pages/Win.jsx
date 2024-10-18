@@ -9,8 +9,12 @@ export default function Win() {
     });
   }, []);
   return (
-    <div className="bg-[#09121D]">
-      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block">
+    <div className="bg-[#09121D] relative">
+      <img
+        src="/assets/win-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 z-[1]"
+      />
+      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block relative z-[2]">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
             Rexas Millionaire Giveaway

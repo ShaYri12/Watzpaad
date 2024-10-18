@@ -71,8 +71,12 @@ const Stacking = () => {
         </div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
-        <div className="max-w-[1280px] mx-auto">
+      <div className="md:px-[22px] px-[12px] relative">
+        <img
+          src="/assets/stacking-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="max-w-[1280px] mx-auto relative z-[2]">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[25px] md:py-[80px] py-[57px]">
             {cardData.map((card) => (
               <div
