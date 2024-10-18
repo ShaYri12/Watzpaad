@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BsTwitter } from "react-icons/bs";
 import { FaGlobe, FaTelegramPlane } from "react-icons/fa";
 import { IoMdMegaphone } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export default function IDOProjects() {
   const [activeTab, setActiveTab] = useState("Upcoming");
@@ -25,7 +26,8 @@ export default function IDOProjects() {
           ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[29px]">
-          <div
+          <Link
+            to="/metaaltpad"
             className="p-[1px] rounded-[13.09px]"
             style={{
               background:
@@ -116,7 +118,7 @@ export default function IDOProjects() {
                 This IDO requires Whitelist to Participate.
               </p>
             </div>
-          </div>
+          </Link>
           <Skeleton />
           <Skeleton />
         </div>

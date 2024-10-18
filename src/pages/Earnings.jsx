@@ -82,6 +82,13 @@ export default function Earnings() {
               imageUrl="/assets/vault-stacking-rewards.png"
             />
             <RewardSection
+              titleWhite="Stacking"
+              titleColor="Rewards"
+              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              imageUrl="/assets/stacking-rewards.png"
+              reverse
+            />
+            <RewardSection
               titleWhite="Referral"
               titleColor="Rewards"
               description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "

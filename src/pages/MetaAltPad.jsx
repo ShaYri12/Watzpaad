@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaCalendar,
   FaTelegramPlane,
@@ -7,8 +7,16 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import { BsUnlock } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 export default function MetaAltPad() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen bg-[#09121D] px-[17.5px] md:pb-[100px] pb-[62px] md:pt-[140px] pt-[90px] text-white">
       <div className="max-w-[1280px] mx-auto">
@@ -262,6 +270,7 @@ export default function MetaAltPad() {
           style={{
             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
           }}
+          onClick={() => navigate(-1)} // Go back to the previous page
         >
           Go Back
         </button>
