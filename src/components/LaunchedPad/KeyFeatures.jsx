@@ -27,7 +27,7 @@ const KeyFeatures = () => {
   ];
 
   return (
-    <div className="text-white pb-[55px] max-w-[1280px] mx-auto">
+    <div className="text-white pb-[55px] max-w-[1280px] mx-auto lg:px-0 px-[22px]">
       <div className="max-w-[769px] text-center mx-auto">
         <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
           MataAltPad Key Features

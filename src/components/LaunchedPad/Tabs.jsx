@@ -37,22 +37,25 @@ const Tabs = () => {
       </div>
 
       {/* Tab Content */}
-      <div className="md:py-[84px] py-[40px] px-[22px]">
+      <div className="md:py-[84px] py-[40px] lg:px-[22px]">
         {activeTab === "About" && (
           <>
             <KeyFeatures />
             <CrossChainIntegration />
           </>
         )}
-
-        {activeTab === "IDO Projects" && <IDOProjects />}
-
-        {activeTab === "Levels" && <Levels />}
-
-        {activeTab === "IDO Stacking" && <IDOStaking />}
-
-        {activeTab === "FAQs" && <FAQSection />}
       </div>
+      {activeTab !== "About" && (
+        <div className="md:py-[84px] py-[40px] px-[22px]">
+          {activeTab === "IDO Projects" && <IDOProjects />}
+
+          {activeTab === "Levels" && <Levels />}
+
+          {activeTab === "IDO Stacking" && <IDOStaking />}
+
+          {activeTab === "FAQs" && <FAQSection />}
+        </div>
+      )}
     </div>
   );
 };
