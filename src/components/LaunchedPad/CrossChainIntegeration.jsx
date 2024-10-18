@@ -24,13 +24,19 @@ const CrossChainIntegration = () => {
         {logos.map((logo, index) => (
           <div
             key={index}
-            className="bg-[#1F2835] sm:px-[40px] px-[20px] sm:py-[37px] py-[20px] rounded-[8.56px] text-center"
+            className="p-[0.86px]"
+            style={{
+              background:
+                "linear-gradient(161.06deg, rgba(122, 165, 0, 0) 13.7%, rgba(122, 165, 0, 0.4) 27.55%, #7AA500 36.4%, #BAFC00 53.88%, rgba(186, 252, 0, 0) 89.18%);",
+            }}
           >
-            <div className="sm:min-h-[108px] min-h-[39px] min-w-[39px] sm:min-w-[108px]">
-              <img
-                src={`/assets/icons/${logo}`}
-                className="sm:w-[108px] sm:h-[108px] w-[39px] h-[39px]"
-              />
+            <div className="bg-[#1F2835] sm:px-[40px] px-[20px] sm:py-[37px] py-[20px] rounded-[8.56px] text-center">
+              <div className="sm:min-h-[108px] min-h-[39px] min-w-[39px] sm:min-w-[108px]">
+                <img
+                  src={`/assets/icons/${logo}`}
+                  className="sm:w-[108px] sm:h-[108px] w-[39px] h-[39px]"
+                />
+              </div>
             </div>
           </div>
         ))}

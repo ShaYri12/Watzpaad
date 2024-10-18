@@ -84,8 +84,10 @@ export default function Market({ dashboard = false }) {
       <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[11px] md:gap-[20px]">
         {filteredMarketData.map((card, index) => (
           <Link
-            to={`${dashboard && "/dashboard-marketplace"}/trading-market/${
-              card.id
+            to={`${
+              dashboard
+                ? `/dashboard-marketplace/trading-market/${card.id}`
+                : `/trading-market/${card.id}`
             }`}
             key={index}
             className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
