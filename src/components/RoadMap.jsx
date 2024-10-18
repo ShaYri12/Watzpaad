@@ -4,7 +4,7 @@ const RoadMap = () => {
   const phases = [
     {
       title: "PHASE 1",
-      descriptionOne:"Project Initiation",
+      descriptionOne: "Project Initiation",
       descriptionTwo: "Smart Contract Development",
       descriptionThree: "Website Launch",
       descriptionFour: "Release Whitepaper",
@@ -12,21 +12,21 @@ const RoadMap = () => {
     },
     {
       title: "PHASE 2",
-      descriptionOne:"Presale Launch ",
+      descriptionOne: "Presale Launch ",
       descriptionTwo: "Huge Marketing Campaign",
       descriptionThree: "Presale Stages 1-5 on blockboost.io",
       descriptionFour: "Beta Testing of launchpad",
     },
     {
       title: "PHASE 3",
-      descriptionOne:"Security Audits for Launchpad",
+      descriptionOne: "Security Audits for Launchpad",
       descriptionTwo: "Launchpad to Launch Legit Projects",
       descriptionThree: "Presale stages 6-10",
       descriptionFour: "Partnership with Dapps for Vault",
     },
     {
       title: "PHASE 4",
-      descriptionOne:"NFT Marketplace Launch",
+      descriptionOne: "NFT Marketplace Launch",
       descriptionTwo: "Launch of $BBT",
       descriptionThree: "Listing on Top Tier exchanges",
       descriptionFour: "Updated Roadmap",
@@ -34,8 +34,12 @@ const RoadMap = () => {
   ];
 
   return (
-    <div className="text-white px-4 md:px-6 mt-10 py-10">
-      <div className="max-w-[1280px] m-auto w-full">
+    <div className="text-white px-4 md:px-6 mt-10 py-10 relative">
+      <img
+        src="/assets/road-map-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 z-[1]"
+      />
+      <div className="max-w-[1280px] m-auto w-full relative z-[2]">
         <h1 className="text-[35px] md:text-[50px] md:leading-[57.5px] text-white font-bold max-w-[500px] mx-auto text-center">
           Road Map
         </h1>
