@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { GoPlus } from "react-icons/go";
 import { LuMinus } from "react-icons/lu";
+import { useTranslation } from "react-i18next";
 
 const Stacking = () => {
+  const { t } = useTranslation(); // Hook for translations
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -60,13 +62,11 @@ const Stacking = () => {
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
-            Stacking
+            {t("title")}
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
-            Stake Tokens to earn with Automatic Compounding. Users can stake Any
-            Token to earn MAP. Refer your friends to earn 5% on their extra
-            rewards.
+            {t("subtitle")}
           </p>
         </div>
       </div>
@@ -97,7 +97,7 @@ const Stacking = () => {
                         Stake RenQ
                       </h2>
                       <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
-                        Stake RenQ -Flexible
+                        Stake RenQ - {card.time}
                       </p>
                     </div>
                   </div>
@@ -112,11 +112,11 @@ const Stacking = () => {
                       }}
                     >
                       <div className="flex justify-between text-[#798DA3] md:text-[18px] md:leading-[20.7px] w-full font-[400]">
-                        <span>APY</span>
+                        <span>{t("apy")}</span>
                         <span>{card.apy}</span>
                       </div>
                       <div className="flex justify-between text-[#798DA3] w-full font-[400]">
-                        <span>Time</span>
+                        <span>{t("time")}</span>
                         <span>{card.time}</span>
                       </div>
                     </div>
@@ -124,7 +124,7 @@ const Stacking = () => {
                     <div className="flex gap-1 justify-between items-center">
                       <div className="">
                         <p className="text-[#798DA3] text-[15.18px] md:text-[18px] md:leading-[20.7px]">
-                          Staked RenQ
+                          {t("stakedRenQ")}
                         </p>
                         <p className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
                           {renQ} RenQ
@@ -135,13 +135,13 @@ const Stacking = () => {
                         <div className="flex gap-2 w-full justify-between items-center">
                           <button
                             onClick={() => setRenQ(renQ + 1)}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px]  max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
                           >
                             <GoPlus className="text-black text-[20px]" />
                           </button>
                           <button
                             onClick={handleRenQMinus}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
                           >
                             <LuMinus className="text-white text-[18px]" />
                           </button>
@@ -152,14 +152,14 @@ const Stacking = () => {
                             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
                           }}
                         >
-                          Claim
+                          {t("claim")}
                         </button>
                       </div>
                     </div>
 
                     <div className="flex gap-1 justify-between items-center md:pb-[39px] pb-[33.73px]">
                       <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
-                        Total Staked
+                        {t("totalStaked")}
                       </p>
                       <p className="text-primaryColor text-[15.18px] md:text-[18px]">
                         {card.totalStacked}

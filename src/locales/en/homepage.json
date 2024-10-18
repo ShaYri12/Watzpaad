@@ -1,5 +1,14 @@
 {
-  "hero-title": "WATZPAAD",
-  "hero-title-two": "Unique web3 crowdfunding ecosystem",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Unique WEB3 Crowdfunding Ecosystem",
+    "description1": "Are you ready to access some of the most exclusive and promising crypto startups? Blockboost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted.",
+    "description2": "There are many other advantages of being a part of the Blockboost Crowdfunding Ecosystem with unique features like Launchpad, Bridge & Swap AI, Earning system, Vault, Marketplace, and Staking.",
+    "usdtRaised": "USDT Raised: $361,590.14 / $605,467",
+    "target": "TARGET: $250000",
+    "listingPrice": "Listing Price",
+    "nextPrice": "Next Price",
+    "availablePaymentMethods": "AVAILABLE PAYMENT METHOD",
+    "connectWallet": "Connect Wallet"
+  }
 }

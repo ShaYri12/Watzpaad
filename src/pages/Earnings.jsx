@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const RewardSection = ({
   titleWhite,
@@ -39,65 +40,64 @@ const RewardSection = ({
 };
 
 export default function Earnings() {
+  const { t } = useTranslation();
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   }, []);
+
   return (
-    <div className="bg-[#09121D] relative">
-      <img
-        src="/assets/earning-bg-shade.png"
-        className="w-full h-full absolute top-0 left-0"
-      />
+    <div className="bg-[#09121D]">
+      {/* Earnings Section */}
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[39.52px] md:text-[65px] font-[700]">
-            Earnings
+            {t("earnings.title")}
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
-            In publishing and graphic design, Lorem ipsum is a placeholder text
-            commonly used to demonstrate the visual form of a document or a
-            typeface without relying on meaningful content
+            {t("earnings.description")}
           </p>
         </div>
       </div>
 
+      {/* Reward Sections */}
       <div className="md:px-[22px] px-[18px]">
         <div className="max-w-[1280px] mx-auto">
           <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
             <RewardSection
-              titleWhite="Presale"
-              titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              titleWhite={t("rewards.presale.titleWhite")}
+              titleColor={t("rewards.presale.titleColor")}
+              description={t("rewards.presale.description")}
               imageUrl="/assets/presale-rewards.png"
             />
             <RewardSection
-              titleWhite="Trading"
-              titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              titleWhite={t("rewards.trading.titleWhite")}
+              titleColor={t("rewards.trading.titleColor")}
+              description={t("rewards.trading.description")}
               imageUrl="/assets/trading-rewards.png"
               reverse
             />
             <RewardSection
-              titleWhite="Vault Stacking"
-              titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              titleWhite={t("rewards.holding.titleWhite")}
+              titleColor={t("rewards.holding.titleColor")}
+              description={t("rewards.holding.description")}
               imageUrl="/assets/vault-stacking-rewards.png"
             />
             <RewardSection
-              titleWhite="Stacking"
-              titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              titleWhite={t("rewards.staking.titleWhite")}
+              titleColor={t("rewards.staking.titleColor")}
+              description={t("rewards.staking.description")}
               imageUrl="/assets/stacking-rewards.png"
               reverse
             />
             <RewardSection
-              titleWhite="Referral"
-              titleColor="Rewards"
-              description="Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. r. "
+              titleWhite={t("rewards.vault.titleWhite")}
+              titleColor={t("rewards.vault.titleColor")}
+              description={t("rewards.vault.description")}
               imageUrl="/assets/referral-rewards.png"
             />
           </div>

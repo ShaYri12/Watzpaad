@@ -1,11 +1,11 @@
 import React from "react";
 import Audit from "../assets/audit-icons.svg";
 import AuditOne from "../assets/audit.svg";
-import Tether from "../assets/tether.svg.svg";
+import Tether from "../assets/tether.svg";
 import Bitcoin from "../assets/bitcoin.svg";
 import Eth from "../assets/eth.svg";
-import BNB from "../assets/bnb.png.svg";
-import VISA from "../assets/visa.svg.svg";
+import BNB from "../assets/bnb.svg";
+import VISA from "../assets/visa.svg";
 import Slider from "./Slider";
 import HomeDropdown from "./HomeDropdown";
 import { useTranslation } from "react-i18next";
