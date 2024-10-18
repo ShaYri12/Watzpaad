@@ -49,37 +49,33 @@ const Footer = () => {
           <h3 className="text-[#F8F8F8] text-[16px] sm:text-[18.92px] font-[700] tracking-[-1%] mb-4">
             Help
           </h3>
-          <Link
-            to="#"
-            className="text-white text-[14px] px-[2px] py-[6px] sm:text-[16px]"
-          >
-            Stacking
-          </Link>
-          <Link
-            to="#"
-            className="text-white text-[14px] px-[2px] py-[6px] sm:text-[16px]"
-          >
-            Win $1M
-          </Link>
-          <Link
-            to="#"
-            className="text-white text-[14px] px-[2px] py-[6px] sm:text-[16px]"
-          >
-            Whitepaper
-          </Link>
-          <Link
-            to="#"
-            className="text-white text-[14px] px-[2px] py-[6px] sm:text-[16px]"
-          >
-            Go To App
-          </Link>
+          {[
+            { name: "Stacking", path: "/stacking" },
+            { name: "Win $1M", path: "/win" },
+            { name: "Whitepaper", path: "/whitepaper" },
+            { name: "Go To App", path: "/app" },
+          ].map((item, index) => (
+            <NavLink
+              key={index}
+              to={item.path}
+              className={({ isActive }) =>
+                `px-[2px] py-[6px] transition ${
+                  isActive
+                    ? "text-primaryColor font-[700]"
+                    : "text-white font-[400]"
+                } hover:text-primaryColor`
+              }
+            >
+              {item.name}
+            </NavLink>
+          ))}
         </ul>
         <ul className="md:w-[30%]">
           <h3 className="text-[#F8F8F8] text-[14px] sm:text-[16px] leading-[24px] tracking-[-1%] font-bold mb-[15px]">
             Social
           </h3>
           <div className="flex items-center gap-[8px] mb-[15px]">
-            <Link href="/" className="min-h-[30px] min-w-[30px]">
+            <Link to="#" className="min-h-[30px] min-w-[30px]">
               <img
                 src="/assets/icons/telegram.png"
                 alt="telegram"
@@ -87,20 +83,20 @@ const Footer = () => {
               />
             </Link>
             <Link
-              href="/"
+              to="#"
               className="rounded-full w-[30px] h-[30px] min-h-[30px] min-w-[30px] bg-[#060B13] text-white flex items-center justify-center"
             >
               <span className="text-[18px] font-[800]">M</span>
             </Link>
             <Link
-              href="/"
+              to="#"
               className="rounded-full w-[30px] h-[30px] min-h-[30px] min-w-[30px] bg-[#303945] text-white flex items-center justify-center"
             >
               <span className="text-[16px]">
                 <BsTwitterX />
               </span>
             </Link>
-            <Link href="/" className="relative min-h-[30px] min-w-[30px]">
+            <Link to="#" className="relative min-h-[30px] min-w-[30px]">
               <img
                 src="/assets/icons/facebook.png"
                 alt="Facebook"
@@ -109,7 +105,7 @@ const Footer = () => {
               <div className="absolute bottom-[1px] left-[1px] w-[25px] h-[25px] bg-white rounded-full z-[0]"></div>
             </Link>
             <Link
-              href="/"
+              to="#"
               className="rounded-full w-[30px] h-[30px] min-h-[30px] min-w-[30px] bg-[#D62F84] text-white flex items-center justify-center"
             >
               <span className="text-[16px]">
@@ -131,27 +127,24 @@ const Footer = () => {
           </h3>
           <div className="md:order-2 order-1 flex items-center gap-5 md:gap-10 flex-wrap md:justify-end justify-center">
             <Link
-              href="/terms-and-conditions"
+              to="/terms-and-conditions"
               className="hover:underline text-black text-[12.03px]"
             >
               Terms of service
             </Link>
             <Link
-              href="/privacy-policy"
+              to="/privacy-policy"
               className="hover:underline text-black text-[12.03px]"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/cookie-policy"
+              to="/cookie-policy"
               className="hover:underline text-black text-[12.03px]"
             >
               Cancellation and Refund Policy
             </Link>
-            <Link
-              href="/"
-              className="hover:underline text-black text-[12.03px]"
-            >
+            <Link to="/" className="hover:underline text-black text-[12.03px]">
               Careers
             </Link>
           </div>

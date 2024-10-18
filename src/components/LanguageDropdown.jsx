@@ -9,7 +9,7 @@ const languages = [
   { code: "fr", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
   { code: "de", name: "German", flag: "https://flagcdn.com/w320/de.png" },
   { code: "ru", name: "Russian", flag: "https://flagcdn.com/w320/ru.png" },
-  { code: "ja", name: "Japanese", flag: "https://flagcdn.com/w320/jp.png" }, 
+  { code: "ja", name: "Japanese", flag: "https://flagcdn.com/w320/jp.png" },
   { code: "it", name: "Italian", flag: "https://flagcdn.com/w320/it.png" },
   { code: "uk", name: "Ukrainian", flag: "https://flagcdn.com/w320/ua.png" },
   { code: "pl", name: "Polish", flag: "https://flagcdn.com/w320/pl.png" },
