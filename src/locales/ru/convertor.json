@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "Token Icon",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Start",
+    "summary": "Summary",
+    "ponder": "Ponder"
+  },
+  "form": {
+    "want_to": "I want to",
+    "from": "from",
+    "chain_my": "Chain, my",
+    "to": "to",
+    "chain": "chain",
+    "tokens": "tokens"
+  },
+  "swap_bridge": "SWAP/BRIDGE",
+  "ethereum": "Ethereum",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "Let’s Go"
+}

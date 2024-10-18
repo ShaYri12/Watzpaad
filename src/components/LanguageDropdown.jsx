@@ -3,8 +3,27 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const languages = [
-  { code: "en", name: "En", flag: "https://flagcdn.com/w320/us.png" },
-  { code: "ar", name: "Ar", flag: "https://flagcdn.com/w320/sa.png" },
+  { code: "en", name: "English", flag: "https://flagcdn.com/w320/us.png" },
+  { code: "es", name: "Spanish", flag: "https://flagcdn.com/w320/es.png" },
+  { code: "zh", name: "Chinese", flag: "https://flagcdn.com/w320/cn.png" },
+  { code: "fr", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
+  { code: "de", name: "German", flag: "https://flagcdn.com/w320/de.png" },
+  { code: "ru", name: "Russian", flag: "https://flagcdn.com/w320/ru.png" },
+  { code: "ja", name: "Japanese", flag: "https://flagcdn.com/w320/jp.png" },
+  { code: "it", name: "Italian", flag: "https://flagcdn.com/w320/it.png" },
+  { code: "uk", name: "Ukrainian", flag: "https://flagcdn.com/w320/ua.png" },
+  { code: "pl", name: "Polish", flag: "https://flagcdn.com/w320/pl.png" },
+  { code: "ar", name: "Arabic", flag: "https://flagcdn.com/w320/sa.png" },
+  { code: "hi", name: "Hindi", flag: "https://flagcdn.com/w320/in.png" },
+  { code: "pt", name: "Portuguese", flag: "https://flagcdn.com/w320/pt.png" },
+  { code: "bn", name: "Bengali", flag: "https://flagcdn.com/w320/bd.png" },
+  { code: "pa", name: "Punjabi", flag: "https://flagcdn.com/w320/pk.png" },
+  { code: "jv", name: "Javanese", flag: "https://flagcdn.com/w320/id.png" },
+  { code: "ko", name: "Korean", flag: "https://flagcdn.com/w320/kr.png" },
+  { code: "vi", name: "Vietnamese", flag: "https://flagcdn.com/w320/vn.png" },
+  { code: "ta", name: "Tamil", flag: "https://flagcdn.com/w320/in.png" },
+  { code: "tr", name: "Turkish", flag: "https://flagcdn.com/w320/tr.png" },
+  { code: "th", name: "Thai", flag: "https://flagcdn.com/w320/th.png" },
 ];
 
 const LanguageDropdown = () => {
@@ -34,9 +53,8 @@ const LanguageDropdown = () => {
             alt={`${currentLang.name} flag`}
             className="min-w-7 min-h-7 max-w-7 max-h-7 rounded-full bg-contain"
           />
-          {/* {currentLang.name} */}
           <svg
-            className="-mr-1 ml-[0.5px] h-6 w-6"
+            className="-mr-1 ml-2 h-6 w-6"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
@@ -53,9 +71,10 @@ const LanguageDropdown = () => {
 
       {/* Dropdown menu */}
       {isOpen && (
-        <div className="absolute right-0 z-10 mt-2 w-20 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="absolute right-0 z-10 mt-2 w-40 max-h-60 overflow-hidden rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div
-            className="py-1"
+            className="py-1 overflow-y-auto"
+            style={{ maxHeight: "15rem" }} // Set max height for dropdown content
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="options-menu"
