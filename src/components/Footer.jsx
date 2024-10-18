@@ -144,9 +144,6 @@ const Footer = () => {
             >
               Cancellation and Refund Policy
             </Link>
-            <Link to="/" className="hover:underline text-black text-[12.03px]">
-              Careers
-            </Link>
           </div>
         </div>
       </div>
