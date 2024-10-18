@@ -13,8 +13,12 @@ export default function Win() {
   }, []);
 
   return (
-    <div className="bg-[#09121D]">
-      <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block">
+    <div className="bg-[#09121D] relative">
+      <img
+        src="/assets/win-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 "
+      />
+      <div className=" z-20 w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block relative">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
             {t("blockBoostTitle")}
@@ -26,7 +30,7 @@ export default function Win() {
         </div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
+      <div className="md:px-[22px] px-[12px] ">
         <div className="max-w-[1280px] mx-auto pb-[84px] pt-[50px]">
           <div
             className="bg-[#1F2835CC] text-white px-[7px] md:px-[15px] md:py-[12px] py-[13px] rounded-[12.84px] md:mb-[73px] mb-[100px] border-[3.21px] border-[#303945]"
@@ -58,8 +62,8 @@ export default function Win() {
             </div>
           </div>
 
-          <div className="flex flex-col md:gap-[37px] gap-[43px]">
-            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-[38px] bg-[#0A0F19]">
+          <div className="relative z-20 flex flex-col md:gap-[37px] gap-[43px]">
+            <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-[38px] ">
               {/* Step 1 */}
               <div className="flex flex-col items-center text-center text-white sm:max-w-[305.54px] max-w-[262.46px]">
                 <div

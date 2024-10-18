@@ -18,12 +18,10 @@ const CrossChainIntegration = () => {
     <div className="text-white pt-[55px] max-w-[1280px] mx-auto">
       <div className="max-w-[769px] text-center mx-auto lg:px-0 px-[22px]">
         <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
-          Cross-Chain Integration
+        Cross-Chain Integration
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
-          Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um
-          sempeLorem ipsum dolor sit amet consectetur. Congue eu arcu neque um
-          semper. r.
+        This integration allows projects to launch their IDO/IGO simultaneously on both Solana and Binance Smart Chain for example.
         </p>
       </div>
 

@@ -71,8 +71,12 @@ const Stacking = () => {
         </div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
-        <div className="max-w-[1280px] mx-auto">
+      <div className="md:px-[22px] px-[12px] relative">
+        <img
+          src="/assets/stacking-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="max-w-[1280px] mx-auto relative z-[2]">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[25px] md:py-[80px] py-[57px]">
             {cardData.map((card) => (
               <div
@@ -131,13 +135,13 @@ const Stacking = () => {
                         <div className="flex gap-2 w-full justify-between items-center">
                           <button
                             onClick={() => setRenQ(renQ + 1)}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px]  max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
                           >
                             <GoPlus className="text-black text-[20px]" />
                           </button>
                           <button
                             onClick={handleRenQMinus}
-                            className="md:w-[37.7px] md:min-w-[37.7px] min-w-[31.79px] w-[31.79px] h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                            className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
                           >
                             <LuMinus className="text-white text-[18px]" />
                           </button>

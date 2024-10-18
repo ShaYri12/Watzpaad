@@ -12,8 +12,7 @@ const BuyPresale = () => {
     {
       id: 2,
       title: "CONFIRM TRANSACTION",
-      description:
-        "You can buy $BBT with USDT, ETH, and BNB.",
+      description: "You can buy $BBT with USDT, ETH, and BNB.",
     },
     {
       id: 3,
@@ -23,10 +22,14 @@ const BuyPresale = () => {
     },
   ];
   return (
-    <div className="px-4 pt-10 w-full">
+    <div className="px-4 pt-10 w-full relative">
+      <img
+        src="/assets/buy-in-presale-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 z-[1]"
+      />
       <div className="max-w-[1280px]  m-auto w-full">
         <h1 className="text-[35px] capitalize sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[600px] mx-auto text-center">
-        How to buy in Presale?
+          How to buy in Presale?
         </h1>
         <div className="w-full flex lg:items-center justify-between lg:flex-row flex-col">
           <div className="w-full mt-20 relative max-w-[450px] mx-auto ">

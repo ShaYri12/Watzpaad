@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   margin: 0; /* Remove margin from all elements */
   padding: 0; /* Remove padding from all elements */
@@ -19,22 +17,21 @@
   background-position: left;
 }
 
-.bg-image{
+.bg-image {
   background-image: url("./assets/bgimage-one.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-tokenomics-image{
+.bg-tokenomics-image {
   background-image: url("./assets/tokenomics-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-custom-one {
-  background: linear-gradient(355.36deg, #012021 0.55%, #004B4C 113.27%);
+  background: linear-gradient(355.36deg, #012021 0.55%, #004b4c 113.27%);
 }
-
 
 .border-custom {
   border: 2.07px solid;
@@ -57,14 +54,111 @@
 }
 
 .text-custom {
-  background: linear-gradient(90deg, #09121D 0%, #8bafdb 100%);
+  background: linear-gradient(90deg, #09121d 0%, #8bafdb 100%);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
   color: transparent; /* Make text color transparent */
 }
 
-
 /* timeline */
 
+/* Animated border */
+.card {
+  --border-size: 2px;
+  position: relative;
+  width: 200px;
+  margin: 2rem;
+  border-radius: 13.34px;
+  display: grid;
+  place-content: center;
+  padding: 3rem 2rem;
+  isolation: isolate;
+  background-color: #1f2835cc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  overflow: hidden;
+}
 
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+}
 
+.card::before {
+  content: ""; /* Create content for the pseudo-element */
+  position: absolute;
+  width: 180%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(56, 220, 200, 0) 13.7%,
+    rgba(56, 220, 200, 0.4) 27.55%,
+    #02695d 36.4%,
+    #38dcc8 53.88%,
+    rgba(56, 220, 200, 0) 89.18%
+  );
+  z-index: -2; /* Ensure it's behind the card content */
+  animation: border 5s linear infinite; /* Optional gradient animation */
+}
+
+@keyframes border {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.card::after {
+  background-color: #09121d;
+  inset: 2px;
+  border-radius: 13.34px;
+}
+
+/* Animated border */
+.card-border {
+  position: relative;
+  width: 100%;
+  border-radius: 13.34px;
+  isolation: isolate;
+  background-color: #1f2835cc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-border::before,
+.card-border::after {
+  content: "";
+  position: absolute;
+}
+
+.card-border::before {
+  content: ""; /* Create content for the pseudo-element */
+  position: absolute;
+  width: 180%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(56, 220, 200, 0) 13.7%,
+    rgba(56, 220, 200, 0.4) 27.55%,
+    #02695d 36.4%,
+    #38dcc8 53.88%,
+    rgba(56, 220, 200, 0) 89.18%
+  );
+  z-index: -2; /* Ensure it's behind the card-border content */
+  animation: border 8s linear infinite; /* Optional gradient animation */
+}
+
+@keyframes border {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.card-border::after {
+  background-color: #1f2835;
+  inset: 2px;
+  border-radius: 13.34px;
+}

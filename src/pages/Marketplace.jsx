@@ -14,8 +14,8 @@ export default function Marketplace() {
     <div className="bg-[#09121D]">
       <div className="relative w-full md:pb-[90px] md:pt-[200px] pt-[140px] pb-[50px] md:min-h-[380px] min-h-[270px]">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
-          <h1 className="text-primaryColor text-[35px] text-center md:text-[65px] md:leading-[74.74px] leading-[40.25px] font-[700] relative z-[3] max-w-[587px] mx-auto">
-            BlockBoost Marketplace
+          <h1 className="text-primaryColor text-[35px] text-center md:text-[65px] md:leading-[74.74px] leading-[40.25px] font-[700] relative z-[3] mx-auto">
+          BlcokBoost Marketplace
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
@@ -33,8 +33,14 @@ export default function Marketplace() {
           </div>
         </div>
       </div>
-      <div className="px-[20px] md:py-[83px] py-[57px]">
-        <Market />
+      <div className="px-[20px] md:py-[83px] py-[57px] relative">
+        <img
+          src="/assets/marketplace-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="relative z-[2]">
+          <Market />
+        </div>
       </div>
     </div>
   );

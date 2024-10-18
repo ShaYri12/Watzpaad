@@ -29,8 +29,14 @@ const Vault = () => {
         </div>
       </div>
 
-      <div className="md:px-[22px] px-[12px]">
-        <VaultCards />
+      <div className="md:px-[22px] px-[12px] relative">
+        <img
+          src="/assets/vaults-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="relative z-[2]">
+          <VaultCards />
+        </div>
       </div>
     </div>
   );

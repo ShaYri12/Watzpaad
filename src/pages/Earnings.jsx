@@ -10,7 +10,7 @@ const RewardSection = ({
 }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row items-center justify-between rounded-[10px] border border-primaryColor py-[22.9px] px-[11px] md:gap-[20px] gap-[33px] ${
+      className={`flex flex-col md:flex-row items-center justify-between bg-[#D9D9D90F] relative z-10 rounded-[10px] border border-primaryColor py-[22.9px] px-4 md:px-[40px] md:gap-[20px] gap-[33px] ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
