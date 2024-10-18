@@ -5,30 +5,28 @@ export default function IDOStaking() {
   const [unstakeAmount, setUnstakeAmount] = useState("");
 
   const handleMaxStake = () => {
-    // Set the max stakable amount (for demo, let's assume it's 100 MAP)
+    // Set the max stakable amount (for demo, let's assume it's 100 BBT )
     setStakeAmount("100");
   };
 
   const handleMaxUnstake = () => {
-    // Set the max unstakable amount (for demo, let's assume it's 50 MAP)
+    // Set the max unstakable amount (for demo, let's assume it's 50 BBT )
     setUnstakeAmount("50");
   };
 
   return (
     <div className="flex flex-col md:flex-row gap-[31px] text-white mx-auto max-w-[1280px]">
       <div className="flex-1 bg-[#1F2835CC] border-[3px] border-[#303945] rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px]">
-        <h2 className="text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
-          Stake For IDO Participation
+        <h2 className=" capitalize text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
+        Stake for IDO Participation
         </h2>
         <p className="text-[13.52px] md:text-[16px] mb-[18px]">
-          Once staked, you need to register for every IDO, so we can calculate
-          the guaranteed allocation. Once registered, we lock your tokens, but
-          you still can participate in other IDOs.
+        Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.
         </p>
         <p className="text-[13.52px] md:text-[16px] mb-[25px] md:mb-[32px] flex flex-col">
           <span>Level: none</span>
           <span>Staked:</span>
-          <span>0 MAP</span>
+          <span>0 BBT </span>
           <span>Your tokens are unlocked</span>
         </p>
         {/* Input sections */}
@@ -44,7 +42,7 @@ export default function IDOStaking() {
                 onChange={(e) => setStakeAmount(e.target.value)}
                 placeholder="0"
               />
-              MAP
+              BBT 
             </div>
             <div className="flex md:gap-[12px] gap-[10px] items-center">
               <button
@@ -53,7 +51,7 @@ export default function IDOStaking() {
               >
                 Max
               </button>
-              <span className="text-white">MAP</span>
+              <span className="text-white">BBT </span>
             </div>
           </div>
 
@@ -68,7 +66,7 @@ export default function IDOStaking() {
                 onChange={(e) => setUnstakeAmount(e.target.value)}
                 placeholder="0"
               />
-              MAP
+              BBT 
             </div>
             <div className="flex gap-[12px] items-center">
               <button
@@ -77,7 +75,7 @@ export default function IDOStaking() {
               >
                 Max
               </button>
-              <span className="text-white">MAP</span>
+              <span className="text-white">BBT </span>
             </div>
           </div>
         </div>
@@ -95,7 +93,7 @@ export default function IDOStaking() {
 
       <div className="flex-1 bg-[#1F2835CC] border-[3px] border-[#303945] rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px]">
         <h2 className="text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
-          $MAP Levels
+          $BBT Levels
         </h2>
         <p className="text-[13.68px] md:text-[16px] mb-[25px]">
           To be eligible for any of the tiers you are required to stake the
@@ -103,27 +101,27 @@ export default function IDOStaking() {
         </p>
         <ul className="text-[13.68px] md:text-[16px] mb-[25px]">
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $200</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $200</span>{" "}
             for chance (10% lottery) 5 days
           </li>
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $500</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $500</span>{" "}
             for prospect (25% lottery) 5 days
           </li>
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $1000</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $1000</span>{" "}
             for affiliate (50% lottery) 5 days
           </li>
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $2000</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $2000</span>{" "}
             for member 5 days
           </li>
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $5000</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $5000</span>{" "}
             for club 5 days
           </li>
           <li>
-            <span className="text-primaryColor font-[700]">MAP Of $10000</span>{" "}
+            <span className="text-primaryColor font-[700]">BBT Of $10000</span>{" "}
             for associate 5 days
           </li>
         </ul>

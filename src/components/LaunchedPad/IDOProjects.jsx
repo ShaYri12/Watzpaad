@@ -57,15 +57,14 @@ export default function IDOProjects() {
                 </div>
 
                 <h2 className="md:text-[21.01px] font-[700] md:leading-[20px] mt-[24px]">
-                  MataAltPad Sale
+                Blockboost sale
                 </h2>
                 <p className="text-primaryColor md:text-[18.89px] md:leading-[28.34px]">
-                  Map / BNB
+                BBT/ETH
                 </p>
                 <p className="text-[#798DA3] text-center mt-[8px]">
-                  In publishing and graphic design, Lorem ipsum is a placeholder
-                  text commonly used to demonstrate the visual form of a
-                  document
+                Unique WEB3 Crowdfunding Ecosystem
+
                 </p>
                 <div className="flex space-x-2 mt-[20px]">
                   <button className="bg-[#38DCC840] w-[34px] h-[34px] flex items-center justify-center rounded-full">
@@ -84,11 +83,11 @@ export default function IDOProjects() {
               </div>
               <div className="mt-[18px]">
                 <p className="text-primaryColor text-[15.28px]">Swap Rate:</p>
-                <p className="text-[17.19px] font-[400]">0122231252134555</p>
+                <p className="text-[17.19px] font-[400]">452000000 $BBT per 1 ETH</p>
               </div>
               <div className="mt-[8.5px]">
                 <p className="text-primaryColor text-[15.28px]">Start:</p>
-                <p className="text-[17.19px] font-[400]">0122231252134555</p>
+                <p className="text-[17.19px] font-[400]">17th Oct 2024</p>
               </div>
               <div className="slider-container w-full mt-10">
                 <span className="flex w-full justify-end mb-[-2px] text-primaryColor text-[28.43px]">
@@ -114,9 +113,9 @@ export default function IDOProjects() {
                   $25000
                 </p>
               </div>
-              <p className="text-[17.19px] text-white mt-[18px]">
+              {/* <p className="text-[17.19px] text-white mt-[18px]">
                 This IDO requires Whitelist to Participate.
-              </p>
+              </p> */}
             </div>
           </Link>
           <Skeleton />
