@@ -11,6 +11,10 @@ import Center from "../assets/center-mage.png";
 const ExclusiveBenefits = () => {
   return (
     <div className="overflow-hidden bg-image px-6 py-10 w-full relative">
+      <img
+        src="/assets/exclusive-benefit-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 z-[1]"
+      />
       <div className="text-white  z-20 w-full absolute left-0 h-[300px] -bottom-5">
         <img src={BG} alt="bg" className="lg:block hidden" />
       </div>

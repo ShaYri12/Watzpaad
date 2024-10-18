@@ -19,9 +19,15 @@ const Home = () => {
 
       <MarqueeSlider />
 
-      <EcosystemsUtilities />
+      <div className="relative">
+        <img
+          src="/assets/ecosystem-idos-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <EcosystemsUtilities />
 
-      <JoinIdos />
+        <JoinIdos />
+      </div>
 
       <ExclusiveBenefits />
 
