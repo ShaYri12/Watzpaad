@@ -1,9 +1,8 @@
 // components/Dropdown.jsx
 import React, { useState } from 'react';
 import { FaCaretDown } from 'react-icons/fa'; // Icon for the dropdown arrow
-import Audit from "../assets/audit-icons.svg";
 
-const HomeDropdown = ({ label, options }) => {
+const HomeDropdown = ({ label, options, image }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -23,7 +22,8 @@ const HomeDropdown = ({ label, options }) => {
                     className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white  border border-[#798DA3] rounded-lg "
                 >
                     <span className="flex items-center">
-                        <img src={Audit} alt="audit" width={20} height={20} />
+                        <img src={image} alt="audit" width={20} height={20} />
+                        {/* <img src={image1} alt="audit" width={20} height={20} /> */}
                         <span className="ml-2">{label}</span> 
                     </span>
                     <FaCaretDown className="text-[#38DCC8] text-[20px]"/>

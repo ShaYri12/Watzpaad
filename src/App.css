@@ -11,9 +11,10 @@
 
 /* Hero CSS */
 .bgimage-one {
-  background-image: url("./assets/home-hero-bg.png");
+  background-image: url("../public/assets/circles.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: left;
 }
 
 .bg-image {

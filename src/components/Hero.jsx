@@ -1,6 +1,11 @@
 import React from "react";
 import Audit from "../assets/audit-icons.svg";
+import AuditOne from "../assets/audit.svg";
+import Tether from "../assets/tether.svg.svg";
 import Bitcoin from "../assets/bitcoin.svg";
+import Eth from "../assets/eth.svg";
+import BNB from "../assets/bnb.png.svg";
+import VISA from "../assets/visa.svg.svg";
 import Slider from "./Slider";
 import HomeDropdown from "./HomeDropdown";
 import { useTranslation } from "react-i18next";
@@ -10,19 +15,27 @@ const Hero = () => {
   const dropdownOptions2 = ["USDT", "USDT", "USDT"];
 
   const { t } = useTranslation("homepage");
+
   return (
     <section className="w-full text-white py-[50px] px-6 bgimage-one">
-      <div className="max-w-[1280px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
+      <div className="max-w-[1400px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
-          <h1 className="text-[#38DCC8] text-[50px] md:text-[95px] font-bold md:leading-[109px]">
-            {t("hero-title")} 
+          <h1 className="text-[#38DCC8] text-[50px] md:text-[75px] font-bold">
+            BLOCKBOOST
           </h1>
-          <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3"></div>
+          <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3 mb-6"></div>
           <h3 className="text-white font-bold sm:leading-[48px] text-[22px] sm:text-[40px]">
-            {t("hero-title-two")}
+            Unique WEB3 Crowdfunding Ecosystem
           </h3>
           <p className="text-[14px] sm:text-[18px] font-normal font-space mt-5 sm:mt-[27px]">
-            {t("description")}
+            Are you ready to access some of the most exclusive and promising
+            crypto startups? block boost is your gateway to early-stage
+            investment opportunities, which our team has thoroughly vetted.
+          </p>
+          <p className="text-[14px] sm:text-[18px] font-normal font-space mt-5 sm:mt-[27px]">
+            There are many other advantages of being a part of Block boost
+            Crowdfunding Ecosystem with the unique features like Launchpad,
+            Bridge & Swap AI, Earning system, Vault, Marketplace and Staking.
           </p>
           <div className="mt-[29px] flex items-center gap-4 sm:gap-[29px]">
             <button
@@ -38,9 +51,9 @@ const Hero = () => {
               />{" "}
               Audit
             </button>
-            <button className=" text-white font-normal text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5">
+            <button className=" text-white font-normal bg-[#111B28] text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5">
               <img
-                src={Audit}
+                src={AuditOne}
                 alt="audit"
                 width={35}
                 height={35}
@@ -135,13 +148,23 @@ const Hero = () => {
                   USD : $ 0
                 </h4>
                 <div className="flex items-center gap-2 mt-2">
-                  <img src={Audit} alt="audit" width={16} height={16} />
-                  <h3 className="text-[#9CA3AF] text-[14px] leading-[14px] font-normal">
-                    1 - 50,000
-                  </h3>
+                  <img
+                    src={Tether}
+                    alt="audit"
+                    className="min-w-[16px] min-h-[16px]"
+                  />
+                  <input
+                    type="text"
+                    placeholder="1 - 50,000"
+                    className="text-[#9CA3AF] text-[14px] leading-[14px] font-normal outline-none bg-transparent w-[100px]"
+                  />
                 </div>
               </div>
-              <HomeDropdown label="USDT" options={dropdownOptions1} />
+              <HomeDropdown
+                label="USDT"
+                options={dropdownOptions1}
+                image={Tether}
+              />
             </div>
 
             <div className="mt-2 max-w-[350px] mx-auto rounded-[14px] bg-[#161F2C] w-full py-3 px-4 flex items-center justify-between">
@@ -150,13 +173,23 @@ const Hero = () => {
                   Receive
                 </h4>
                 <div className="flex items-center gap-2 mt-2">
-                  <img src={Audit} alt="audit" width={16} height={16} />
-                  <h3 className="text-[#9CA3AF] text-[14px] leading-[14px] font-normal">
-                    1 - 50,000
-                  </h3>
+                  <img
+                    src={Bitcoin}
+                    alt="Bitcoin"
+                    className="min-w-[16px] min-h-[16px] max-w-[18px] max-h-[18px]"
+                  />
+                  <input
+                    type="text"
+                    placeholder="1 - 50,000"
+                    className="text-[#9CA3AF] text-[14px] leading-[14px] font-normal outline-none bg-transparent w-[100px]"
+                  />
                 </div>
               </div>
-              <HomeDropdown label="USDT" options={dropdownOptions2} />
+              <HomeDropdown
+                label="USDT"
+                options={dropdownOptions2}
+                image={Bitcoin}
+              />
             </div>
 
             <p className="text-[#798DA3] text-[14px] leading-[14px] font-normal text-center py-5">
@@ -165,15 +198,15 @@ const Hero = () => {
 
             <div className="mb-5 flex items-center gap-2">
               <button className="flex items-center gap-2 justify-center py-2 w-full bg-[#161F2CD6] rounded-lg border border-[#38DCC8]">
-                <img src={Bitcoin} alt="bitcoin" width={22} height={22} />
+                <img src={Eth} alt="bitcoin" width={22} height={22} />
                 ETH
               </button>
               <button className="flex items-center gap-2 justify-center py-2 w-full bg-[#161F2CD6] rounded-lg border border-[#38DCC8]">
-                <img src={Bitcoin} alt="bitcoin" width={22} height={22} />
+                <img src={BNB} alt="bitcoin" width={22} height={22} />
                 BNB
               </button>
               <button className="flex items-center gap-2 justify-center py-2 w-full bg-[#161F2CD6] rounded-lg border border-[#38DCC8]">
-                <img src={Bitcoin} alt="bitcoin" width={22} height={22} />
+                <img src={VISA} alt="bitcoin" width={22} height={22} />
                 CARD
               </button>
             </div>
