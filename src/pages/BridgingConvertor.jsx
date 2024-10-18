@@ -1,10 +1,12 @@
-// BridgingConverter.jsx
 import React from "react";
 import { FaChevronDown } from "react-icons/fa6";
 import Dropdown from "../shared/Dropdown";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next"; // Import i18next for translations
 
 const BridgingConvertor = () => {
+  const { t } = useTranslation("convertor"); // Set up translations for the bridgingConvertor namespace
+
   return (
     <div className="mt-20 md:mt-0 w-full flex-1 flex flex-col items-center justify-center p-4">
       {/* Token Icon and Balance */}
@@ -12,7 +14,7 @@ const BridgingConvertor = () => {
         <div>
           <img
             src="/public/assets/icons/bnb.png"
-            alt="Token Icon"
+            alt={t("token_icon_alt")} // Translated alt text
             className="w-[96px] h-[96px]"
           />
         </div>
@@ -29,56 +31,70 @@ const BridgingConvertor = () => {
             </option>
           </select>
         </div>
-
-        <p className="text-gray-400 text-xs">000000000000</p>
+        <p className="text-gray-400 text-xs">{t("balance_placeholder")}</p>{" "}
+        {/* Translated placeholder */}
       </div>
 
       {/* Progress Steps */}
       <div className="flex justify-center mb-8">
         <div className="flex items-center space-x-8">
-          <div className="text-green-400">Start</div>
-          <div className="text-gray-400">Summary</div>
-          <div className="text-gray-400">Ponder</div>
+          <div className="text-green-400">{t("progress.start")}</div>{" "}
+          {/* Translated steps */}
+          <div className="text-gray-400">{t("progress.summary")}</div>
+          <div className="text-gray-400">{t("progress.ponder")}</div>
         </div>
       </div>
 
       {/* Swap Form */}
       <div className="bg-gray-800 h-full p-6 rounded-xl shadow-lg text-white w-full max-w-[950px]">
-        <div className="flex items-center  flex-wrap justify-center gap-2 space-y-3 ">
+        <div className="flex items-center flex-wrap justify-center gap-2 space-y-3 ">
           {/* Swap/Bridge Dropdown */}
           <span className="text-lg"> </span>
-          <span className="text-lg">I want to </span>
+          <span className="text-lg">{t("form.want_to")}</span>{" "}
+          {/* Translated label */}
           <Dropdown
-            options={["SWAP/BRIDGE", "SWAP/BRIDGE", "SWAP/BRIDGE"]}
-            defaultOption="SWAP/BRIDGE"
+            options={[t("swap_bridge"), t("swap_bridge"), t("swap_bridge")]} // Translated dropdown options
+            defaultOption={t("swap_bridge")}
           />
           {/* From Chain Dropdown */}
-          <span className="text-lg">from</span>
+          <span className="text-lg">{t("form.from")}</span>{" "}
+          {/* Translated label */}
           <Dropdown
-            options={["Ethereum", "Ethereum", "Ethereum"]}
-            defaultOption="Ethereum"
+            options={[t("ethereum"), t("ethereum"), t("ethereum")]} // Translated dropdown options
+            defaultOption={t("ethereum")}
           />
-          <span className="text-lg">Chain, my</span>
+          <span className="text-lg">{t("form.chain_my")}</span>{" "}
+          {/* Translated label */}
           <br />
           {/* Token Dropdown */}
-          <Dropdown options={["Eth", "Eth", "Eth"]} defaultOption="Eth" />
-          <span className="text-lg">token, to</span>
+          <Dropdown
+            options={[t("eth_token"), t("eth_token"), t("eth_token")]} // Translated dropdown options
+            defaultOption={t("eth_token")}
+          />
+          <span className="text-lg">{t("form.to")}</span>{" "}
+          {/* Translated label */}
           {/* To Chain Dropdown */}
-          <Dropdown options={["BCS", "BCS", "BCS"]} defaultOption="BCS" />
-          <span className="text-lg">chain</span>
+          <Dropdown
+            options={[t("bcs_chain"), t("bcs_chain"), t("bcs_chain")]} // Translated dropdown options
+            defaultOption={t("bcs_chain")}
+          />
+          <span className="text-lg">{t("form.chain")}</span>{" "}
+          {/* Translated label */}
           {/* To Token Dropdown */}
-
-          <Dropdown options={["BNB", "BNB", "BNB"]} defaultOption="BNB" />
-
-          <span className="text-lg">tokens</span>
+          <Dropdown
+            options={[t("bnb_token"), t("bnb_token"), t("bnb_token")]} // Translated dropdown options
+            defaultOption={t("bnb_token")}
+          />
+          <span className="text-lg">{t("form.tokens")}</span>{" "}
+          {/* Translated label */}
         </div>
-
-        {/* Submit Button */}
       </div>
+
+      {/* Submit Button */}
       <div className="flex justify-center mt-4">
         <Link to="/bridging-convertor-2">
           <button className="bg-[#38DCC8] hover:bg-teal-500 duration-200 px-[45px] py-[10px] rounded-full">
-            Let’s Go
+            {t("submit_button")} {/* Translated button text */}
           </button>
         </Link>
       </div>

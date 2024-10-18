@@ -1,0 +1,16 @@
+{
+  "cookie_policy_title": "Cookie 政策",
+  "cookie_policy_description": "根据本 Cookie 政策，\"我们\"、\"我们的\"指的是 \"Rexas\"。本 Cookie 政策适用于以下 \"服务\": rexas.com 以及我们通过应用程序或网站提供的其他专用网站、应用程序、产品、论坛和服务，或我们不时提供的其他专用网站或服务。\n\n您可以随时通过隐私设置更改您的 Cookie 偏好或撤回同意。",
+
+  "what_is_cookie_title": "1. 什么是 cookie？",
+  "what_is_cookie_description": "Cookies 是包含少量信息的文本文件，当您访问网站时，这些信息会存储在您的设备上。它们广泛用于使网站工作或更高效地工作，同时向网站所有者提供信息，以改进用户体验，例如记住您的偏好或向您提供个性化内容和广告。\n\nCookie 通常执行的功能还可以通过其他类似技术实现，例如日志文件、像素标签、Web 信标、透明 GIF 和设备 ID。在本 Cookie 政策中，我们将统称这些为 \"Cookies\"。",
+
+  "how_we_use_cookie_title": "2. 我们如何使用 Cookies？",
+  "how_we_use_cookie_description": "我们可能会使用 Cookies 来：\n- 验证登录信息并允许用户查找使用服务的朋友；\n- 跟踪与服务相关的流量和旅行模式；\n- 持续了解服务的用户总数和设备类型；\n- 监控服务的性能以不断改进；\n- 定制和增强您的在线体验；\n- 向您提供客户服务；\n- 以及在我们的服务中提供第三方广告。",
+
+  "types_of_cookie_title": "3. 我们使用的 cookie 类型是什么？",
+  "types_of_cookie_description": "我们及其合作伙伴在服务中使用的 Cookie 类型可分为以下类别：\"必要 Cookies\"、\"功能 Cookies\"、\"分析 Cookies\" 和 \"广告及跟踪 Cookies\"。我们在下面提供了有关每个类别、目的和持续时间的进一步信息。您可以随时通过隐私设置禁用 Cookies，但这可能会影响服务的功能。\n- 必要 Cookies：启用核心功能，如安全性、网络管理和可访问性。\n- 功能 Cookies：记录您做出的选择，并允许我们根据您的需求调整服务。\n- 分析 Cookies：分析我们服务的访问、使用或表现，以提供更好的用户体验，并维护、运营和持续改进服务。\n- 广告和跟踪 Cookies：可能由我们的广告合作伙伴通过我们的服务设置，以在其他网站上向您显示相关广告。",
+
+  "control_or_delete_cookie_title": "4. 如何控制或删除 Cookies",
+  "control_or_delete_cookie_description": "您可以通过以下方式控制我们如何使用您的信息：\n您有权随时通过隐私设置或调整应用程序设置控制我们对 Cookies 和其他类似技术的使用。但是，请注意，如果您拒绝 Cookies，您可能无法使用服务的全部功能。\n此外，大多数浏览器允许您通过其设置更改对 Cookies 的偏好。您通常可以在 \"选项\" 或 \"偏好\" 菜单中找到这些设置。以下链接可能对您理解这些设置有帮助：\n- Chrome 中的 Cookie 设置\n- Safari 中的 Cookie 设置\n- Firefox 中的 Cookie 设置\n- Internet Explorer 中的 Cookie 设置\n要选择退出 Google Analytics 的跨站点跟踪，请访问以下链接：\n- Google Analytics 退出"
+}
