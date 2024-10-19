@@ -1,23 +1,23 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "Icône de jeton",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "Démarrer",
+    "summary": "Résumé",
+    "ponder": "Réfléchir"
   },
   "form": {
-    "want_to": "I want to",
-    "from": "from",
-    "chain_my": "Chain, my",
-    "to": "to",
-    "chain": "chain",
-    "tokens": "tokens"
+    "want_to": "Je veux",
+    "from": "de",
+    "chain_my": "chaîne, ma",
+    "to": "à",
+    "chain": "chaîne",
+    "tokens": "jetons"
   },
-  "swap_bridge": "SWAP/BRIDGE",
+  "swap_bridge": "ÉCHANGER/BRIDGE",
   "ethereum": "Ethereum",
   "eth_token": "Eth",
   "bcs_chain": "BCS",
   "bnb_token": "BNB",
-  "submit_button": "Let’s Go"
+  "submit_button": "Allons-y"
 }

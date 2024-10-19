@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "टोकन आइकन",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "शुरू करें",
+    "summary": "सारांश",
+    "ponder": "विचार करें"
+  },
+  "suggested_route_title": "विचार करने के लिए सुझाया गया मार्ग",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "एथेरियम श्रृंखला"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "बीएससी श्रृंखला"
+  },
+  "total_fees": "कुल शुल्क: 00000000000000",
+  "step": "कदम 1",
+  "fees": "शुल्क",
+  "no_funds_message": "आपके पास लेनदेन पूरा करने के लिए धन नहीं है",
+  "back": "वापस",
+  "more_results": "और परिणाम",
+  "accept": "स्वीकार करें"
+}

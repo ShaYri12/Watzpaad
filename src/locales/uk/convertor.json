@@ -1,23 +1,23 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "Іконка токена",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "Почати",
+    "summary": "Резюме",
+    "ponder": "Роздумувати"
   },
   "form": {
-    "want_to": "I want to",
-    "from": "from",
-    "chain_my": "Chain, my",
-    "to": "to",
-    "chain": "chain",
-    "tokens": "tokens"
+    "want_to": "Я хочу",
+    "from": "з",
+    "chain_my": "ланцюг, мій",
+    "to": "до",
+    "chain": "ланцюг",
+    "tokens": "токени"
   },
-  "swap_bridge": "SWAP/BRIDGE",
-  "ethereum": "Ethereum",
+  "swap_bridge": "ЗАМІНА/МОСТ",
+  "ethereum": "Ефір",
   "eth_token": "Eth",
   "bcs_chain": "BCS",
   "bnb_token": "BNB",
-  "submit_button": "Let’s Go"
+  "submit_button": "Поїхали"
 }

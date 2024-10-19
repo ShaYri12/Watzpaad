@@ -1,25 +1,25 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "トークンアイコン",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "開始",
+    "summary": "概要",
+    "ponder": "考える"
   },
-  "suggested_route_title": "Ponders Suggested Route",
+  "suggested_route_title": "提案されたルート",
   "eth_to_bnb": {
     "amount": "2.000 ETH",
-    "chain": "Ethereum chain"
+    "chain": "イーサリアムチェーン"
   },
   "bnb": {
     "amount": "8.6951 BNB",
-    "chain": "BSC Chain"
+    "chain": "BSCチェーン"
   },
-  "total_fees": "Total Fees: 00000000000000",
-  "step": "Step 1",
-  "fees": "Fees",
-  "no_funds_message": "You do not have funds to complete the transaction",
-  "back": "Back",
-  "more_results": "More Results",
-  "accept": "Accept"
+  "total_fees": "合計手数料：00000000000000",
+  "step": "ステップ 1",
+  "fees": "手数料",
+  "no_funds_message": "取引を完了するための資金がありません",
+  "back": "戻る",
+  "more_results": "さらに結果",
+  "accept": "受け入れる"
 }

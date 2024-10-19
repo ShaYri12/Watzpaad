@@ -1,20 +1,20 @@
 {
-  "token_icon_alt": "Icono del token",
+  "token_icon_alt": "Ícone do token",
   "balance_placeholder": "000000000000",
   "progress": {
     "start": "Iniciar",
-    "summary": "Resumen",
-    "ponder": "Reflexionar"
+    "summary": "Resumo",
+    "ponder": "Refletir"
   },
   "form": {
-    "want_to": "Quiero",
+    "want_to": "Eu quero",
     "from": "de",
-    "chain_my": "cadena, mi",
-    "to": "a",
-    "chain": "cadena",
+    "chain_my": "cadeia, minha",
+    "to": "para",
+    "chain": "cadeia",
     "tokens": "tokens"
   },
-  "swap_bridge": "INTERCAMBIAR/PONTE",
+  "swap_bridge": "TROCAR/PONTE",
   "ethereum": "Ethereum",
   "eth_token": "Eth",
   "bcs_chain": "BCS",

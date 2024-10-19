@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "Biểu tượng token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Bắt đầu",
+    "summary": "Tóm tắt",
+    "ponder": "Suy nghĩ"
+  },
+  "form": {
+    "want_to": "Tôi muốn",
+    "from": "từ",
+    "chain_my": "chuỗi, của tôi",
+    "to": "đến",
+    "chain": "chuỗi",
+    "tokens": "token"
+  },
+  "swap_bridge": "ĐỔI/BRIDGE",
+  "ethereum": "Ethereum",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "Đi nào"
+}

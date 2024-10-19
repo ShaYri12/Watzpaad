@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "أيقونة الرمز",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "ابدأ",
+    "summary": "ملخص",
+    "ponder": "تأمل"
+  },
+  "suggested_route_title": "الطريق المقترح للتأمل",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "سلسلة الإيثيريوم"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "سلسلة BSC"
+  },
+  "total_fees": "إجمالي الرسوم: 00000000000000",
+  "step": "الخطوة 1",
+  "fees": "الرسوم",
+  "no_funds_message": "ليس لديك أموال لإتمام المعاملة",
+  "back": "عودة",
+  "more_results": "المزيد من النتائج",
+  "accept": "قبول"
+}

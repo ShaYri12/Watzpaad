@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "토큰 아이콘",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "시작",
+    "summary": "요약",
+    "ponder": "고민하다"
+  },
+  "form": {
+    "want_to": "하고 싶습니다",
+    "from": "에서",
+    "chain_my": "체인, 내",
+    "to": "로",
+    "chain": "체인",
+    "tokens": "토큰"
+  },
+  "swap_bridge": "스왑/브릿지",
+  "ethereum": "이더리움",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "가자"
+}

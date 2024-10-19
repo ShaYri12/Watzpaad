@@ -1,13 +1,61 @@
 {
-  "terms_and_conditions_title": "Términos y Condiciones",
-  "terms_and_conditions_description": "Debe leer estos Términos porque contienen nuestros compromisos legales hacia usted y una serie de cosas que debe y no debe hacer cuando utilice nuestros Servicios. Lea estos Términos detenidamente para asegurarse de que los comprende. Al utilizar nuestros Servicios, se considerará automáticamente que acepta y queda legalmente obligado por estos Términos. Para evitar dudas, si no está de acuerdo con los Términos, no debe continuar accediendo ni utilizando nuestros Servicios.\n\nTambién debe leer nuestra Política de Privacidad. La Política de Privacidad explica cómo utilizamos sus datos personales. Si cree que hay un error en estos términos o tiene alguna consulta, contáctenos para discutir. Si tenemos que contactarlo, lo haremos por escrito a la dirección de correo electrónico que nos haya proporcionado. Por lo tanto, es muy importante que confirme que ha proporcionado una dirección de correo electrónico legítima que utiliza personalmente y, al continuar usando nuestros Servicios, garantiza que lo ha hecho. Solo lo contactaremos si nos ha dado su consentimiento expreso para hacerlo. La única otra vez que recibirá correos electrónicos es si se ha registrado para recibir nuestro boletín y actualizaciones.\n\nCuando usamos las palabras 'escrito' o 'por escrito' en estos términos, esto incluye correos electrónicos.",
+  "terms_and_conditions_title": "Términos y condiciones",
+  "terms_and_conditions_description": "Debería leer estos términos, ya que contienen nuestras obligaciones legales hacia usted y una serie de DOs y DON'Ts que debe tener en cuenta al utilizar nuestros servicios. Le recomendamos que lea estos términos cuidadosamente para asegurarse de que los entiende. Al utilizar nuestros servicios, se considera automáticamente que está de acuerdo y legalmente obligado a estos términos. Para mayor claridad, si no está de acuerdo con los términos, no debe continuar accediendo a nuestros servicios o utilizándolos.\n\nTambién debería leer nuestra política de privacidad. La política de privacidad explica cómo utilizamos sus datos personales. Si cree que hay un error en estos términos o tiene preguntas, contáctenos para discutirlo. Si necesitamos comunicarnos con usted, lo haremos por escrito a la dirección de correo electrónico que haya proporcionado. Por lo tanto, es muy importante que confirme que ha proporcionado una dirección de correo electrónico válida que use personalmente y al continuar utilizando nuestros servicios, garantiza que lo ha hecho. Solo nos pondremos en contacto con usted si nos ha dado expresamente su consentimiento para hacerlo. La única otra ocasión en la que recibirá correos electrónicos es si se ha suscrito a nuestro boletín y actualizaciones. Si utilizamos las palabras \"por escrito\" o \"escrito\" en estos términos, esto también incluye correos electrónicos.",
 
-  "buying_coins_title": "Uso de Nuestro Servicio / Compra de Monedas",
-  "buying_coins_description": "Para usar nuestro servicio, necesitará una billetera virtual. Le llamamos la atención sobre el hecho de que las billeteras son servicios de terceros, y le aconsejamos que lea sus términos de uso.",
+  "changes_to_terms_title": "Cambios en los términos",
+  "changes_to_terms_description": "Podemos actualizar y modificar estos términos de vez en cuando, y la versión más reciente de estos términos se publicará en el sitio web y en la aplicación correspondiente. Es posible que se le pida que revise y acepte los términos revisados para poder seguir utilizando los servicios. Recomendamos a todos los usuarios que revisen regularmente los términos en el sitio web y en la aplicación, donde se publicarán los cambios. Puede imprimir y guardar una copia de estos términos para su referencia futura. Es posible que deba actualizar el software para utilizar los servicios, siempre que los servicios sigan siendo como se describió anteriormente. El software asociado puede actualizarse para reflejar cambios en un sistema operativo. Al continuar utilizando los servicios, se considera que está de acuerdo con los términos que se cambian de vez en cuando.",
+
+  "buying_coins_title": "Uso de nuestro servicio / Compra de monedas",
+  "buying_coins_description": "Para poder utilizar nuestro servicio, necesita una billetera virtual. Queremos señalar que las billeteras son servicios de terceros, y le aconsejamos que lea sus términos de uso.",
 
   "security_title": "Seguridad",
-  "security_description": "La seguridad es importante para Rexas, y por lo tanto, usted acepta no compartir el acceso a su billetera con ningún otro usuario o tercero, ni realizar conscientemente ninguna actividad que permita a un tercero acceder o utilizar su cuenta. Si creemos, a nuestro criterio, que su cuenta se está utilizando de manera inapropiada, nos reservamos el derecho de suspender, cancelar o dejar de admitir su cuenta sin responsabilidad alguna.\n\nNo podemos verificar las identidades de las personas que utilizan nuestros Servicios y no seremos responsables si alguien más utiliza su conexión a la billetera o cuenta. Si se da cuenta de cualquier uso no autorizado de su inicio de sesión, debe notificarnos de inmediato contactándonos en admin@rexas.com, usando 'Violación de Seguridad' como asunto. Tenga en cuenta que es posible que necesitemos verificar su identidad y validar la propiedad de la cuenta. Esté atento a otros sitios web y servicios que puedan hacerse pasar por nosotros o estar asociados con nosotros.",
+  "security_description": "La seguridad es importante para BlockBoost, y por lo tanto usted acepta no compartir el acceso a su billetera con otros usuarios o terceros, ni realizar actividades de manera consciente que permitan a terceros acceder o utilizar su cuenta. Si creemos, a nuestra discreción, que su cuenta se está utilizando de manera inapropiada, nos reservamos el derecho de suspender, cancelar o dejar de brindar soporte a su cuenta sin responsabilidad.\n\nNo podemos verificar la identidad de las personas que utilizan nuestros servicios y no seremos responsables si su conexión de billetera o cuenta es utilizada por otra persona. Si se entera de un uso no autorizado de su inicio de sesión, debe comunicarse con nosotros de inmediato enviando un correo electrónico a inq@BlockBoost.io y utilizando “Incidente de seguridad” como asunto. Tenga en cuenta que es posible que debamos verificar su identidad y validar la propiedad de la cuenta. Tenga cuidado con otros sitios y servicios que pueden pretender ser nosotros o estar relacionados con nosotros.",
 
-  "removing_data_title": "Eliminación de Datos",
-  "removing_data_description": "Si desea que eliminemos cualquier dato que podamos tener sobre usted, comuníquese con nosotros enviando un correo electrónico a admin@rexas.com. Aunque no requerimos información personal o identificable al registrarse para utilizar nuestro servicio, aún podemos tener sus datos si nos ha proporcionado una dirección de correo electrónico o nos ha dado permiso para contactarlo. Si desea que se eliminen sus datos, debe especificarlo en su correo electrónico. Si no solicita la eliminación, conservaremos esta información según lo indicado en nuestra Política de Privacidad."
+  "removing_data_title": "Eliminar datos",
+  "removing_data_description": "Si desea que eliminemos los datos que podemos tener sobre usted, contáctenos enviando un correo electrónico a inq@BlockBoost.io. Aunque no requerimos información personal o identificable al registrarse para utilizar nuestro servicio, es posible que aún tengamos datos sobre usted si nos ha proporcionado una dirección de correo electrónico o nos ha dado permiso para contactarlo. Si desea que se eliminen sus datos, debe especificarlo en su correo electrónico. Si no solicita una eliminación, conservaremos esta información de acuerdo con nuestra política de privacidad.",
+
+  "rules_of_use_title": "Reglas de uso",
+  "rules_of_use_description": "Usted se compromete y acepta cumplir con las siguientes reglas:",
+  "rules_of_use_list": [
+    "No participar en ataques personales a otras personas.",
+    "No acosar, intimidar o perseguir a ningún otro usuario de nuestros servicios.",
+    "No publicar lenguaje o imágenes vulgares, obscenas o sexualmente explícitas.",
+    "No promover ni abogar por actividades ilegales o discusiones con la intención de llevarlas a cabo.",
+    "No violar los derechos de propiedad intelectual o privacidad de terceros.",
+    "No introducir virus u otros componentes dañinos.",
+    "No hacerse pasar por otros o tergiversar su identidad.",
+    "No participar en spam, trolling u otro comportamiento antisocial.",
+    "No promover ni generar dinero para usted o terceros sin permiso."
+  ],
+
+  "violation_of_rules_title": "Violación de las reglas",
+  "violation_of_rules_description": "Si cree que otro usuario está violando estas reglas, háganoslo saber enviando un correo electrónico a inq@BlockBoost.io. No podemos garantizar que otros usuarios cumplan con estas reglas y no somos responsables por el incumplimiento de otros usuarios. Usted y otros usuarios son responsables de su propia conducta.",
+
+  "service_interruption_title": "Interrupción del servicio",
+  "service_interruption_description": "BlockBoost no garantiza que los servicios estén siempre disponibles, ininterrumpidos, oportunos, seguros o libres de errores o virus. Puede haber momentos en los que los servicios no estén disponibles debido a mantenimiento o problemas técnicos. También podemos cambiar, suspender o descontinuar ciertos servicios sin aviso previo. Tomaremos medidas razonables para garantizar que nuestros servicios estén libres de virus y otro software malicioso, pero también recomendamos usar el software antivirus correspondiente.",
+
+  "prohibited_person_title": "Persona prohibida",
+  "prohibited_person_description": "\"Persona prohibida\" se refiere a personas o entidades que están sujetas a ciertas sanciones bajo las leyes de Estados Unidos, las Naciones Unidas, la Unión Europea u otras autoridades relevantes. No haremos negocios con personas prohibidas.",
+
+  "third_parties_title": "Terceras partes",
+  "third_parties_description": "Algunas páginas pueden contener enlaces a sitios web o servicios de terceros. Estos enlaces se proporcionan para su conveniencia, y BlockBoost no es responsable del contenido de terceros. Si visita un sitio web de un tercero, tenga en cuenta que puede tener sus propios términos de uso y políticas de privacidad.",
+
+  "agreeing_to_terms_title": "Aceptación de los términos",
+  "agreeing_to_terms_description": "Al utilizar nuestros servicios, acepta estar legalmente obligado a estos términos. Si no está de acuerdo, no debe acceder a nuestros servicios o utilizarlos.",
+
+  "children_title": "Niños",
+  "children_description": "Nuestros servicios no están disponibles para el uso por parte de niños menores de 18 años o 21 años en algunas jurisdicciones. Por favor, consulte las leyes de su país con respecto a las políticas relacionadas con la edad.",
+
+  "content_and_ip_rights_title": "Derechos de contenido e IP",
+  "content_and_ip_rights_description": "Todo el contenido e información contenida en los servicios son propiedad o están licenciados a BlockBoost y están protegidos por derechos de propiedad intelectual. No debe usar, copiar, hacer ingeniería inversa o modificar contenido sin el permiso expreso.",
+
+  "additional_important_information_title": "Información adicional importante",
+  "additional_important_information_description": "Usted es responsable de asegurarse de que todas las personas que acceden a nuestro sitio web o aplicación a través de su conexión cumplan con estos términos. También debe asegurarse de que su acceso y uso de nuestros servicios cumpla con las leyes y regulaciones aplicables.",
+  "additional_important_information_list": [
+    "El contenido en nuestro sitio web es solo para fines informativos generales y no está destinado a ser asesoramiento.",
+    "Debe buscar asesoramiento financiero profesional antes de tomar decisiones financieras.",
+    "No garantizamos la exactitud, integridad o actualidad del contenido en nuestro sitio web.",
+    "Usted es responsable de garantizar su propia protección contra virus al acceder a nuestro sitio web.",
+    "No debe abusar de nuestro sitio web introduciendo virus, troyanos u otro software malicioso."
+  ]
 }

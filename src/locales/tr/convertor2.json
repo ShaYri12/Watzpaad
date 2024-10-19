@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Token İkonu",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Başla",
+    "summary": "Özet",
+    "ponder": "Düşün"
+  },
+  "suggested_route_title": "Düşünme için Önerilen Rota",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Ethereum zinciri"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "BSC Zinciri"
+  },
+  "total_fees": "Toplam Ücretler: 00000000000000",
+  "step": "Adım 1",
+  "fees": "Ücretler",
+  "no_funds_message": "İşlemi tamamlamak için yeterli fonunuz yok",
+  "back": "Geri",
+  "more_results": "Daha Fazla Sonuç",
+  "accept": "Kabul Et"
+}

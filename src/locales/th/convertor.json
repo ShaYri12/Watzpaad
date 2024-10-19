@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "ไอคอนโทเคน",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "เริ่ม",
+    "summary": "สรุป",
+    "ponder": "คิด"
+  },
+  "form": {
+    "want_to": "ฉันต้องการ",
+    "from": "จาก",
+    "chain_my": "เชน, ของฉัน",
+    "to": "ไปยัง",
+    "chain": "เชน",
+    "tokens": "โทเคน"
+  },
+  "swap_bridge": "สลับ/สะพาน",
+  "ethereum": "อีเธอเรียม",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "ไปกันเถอะ"
+}

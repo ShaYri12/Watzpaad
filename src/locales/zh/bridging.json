@@ -1,6 +1,6 @@
 {
-  "title": "What is bridging?",
-  "description": "A blockchain bridge is essentially a mechanism that allows assets or information to move between two different blockchain networks. This is important because various blockchains may have their own protocols, consensus mechanisms, and native assets, making direct interaction challenging. Bridging solutions aim to facilitate seamless communication and transactions between these separate blockchains. It's also worth noting that the crypto space is dynamic and rapidly evolving, so new terminologies and technologies may emerge. If there have been significant developments or changes since my last update, you might want to check more recent sources for the latest information on crypto bridging.",
-  "button_text": "Let's Go",
-  "button_aria_label": "Navigate to bridging convertor"
+  "title": "什么是桥接？",
+  "description": "区块链桥接基本上是一种机制，允许资产或信息在两个不同的区块链网络之间移动。这一点很重要，因为各种区块链可能有自己的协议、共识机制和本地资产，使得直接交互变得具有挑战性。桥接解决方案旨在促进这些独立区块链之间的无缝通信和交易。还值得注意的是，加密空间是动态的，快速发展的，因此可能会出现新的术语和技术。如果自我最后一次更新以来发生了重大进展或变化，您可能希望查看更新的来源以获取有关加密桥接的最新信息。",
+  "button_text": "我们走吧",
+  "button_aria_label": "导航到桥接转换器"
 }

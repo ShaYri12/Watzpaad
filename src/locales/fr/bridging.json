@@ -1,6 +1,6 @@
 {
-  "title": "What is bridging?",
-  "description": "A blockchain bridge is essentially a mechanism that allows assets or information to move between two different blockchain networks. This is important because various blockchains may have their own protocols, consensus mechanisms, and native assets, making direct interaction challenging. Bridging solutions aim to facilitate seamless communication and transactions between these separate blockchains. It's also worth noting that the crypto space is dynamic and rapidly evolving, so new terminologies and technologies may emerge. If there have been significant developments or changes since my last update, you might want to check more recent sources for the latest information on crypto bridging.",
-  "button_text": "Let's Go",
-  "button_aria_label": "Navigate to bridging convertor"
+  "title": "Qu'est-ce que le bridging ?",
+  "description": "Un pont blockchain est essentiellement un mécanisme qui permet de déplacer des actifs ou des informations entre deux réseaux blockchain différents. Cela est important car différentes blockchains peuvent avoir leurs propres protocoles, mécanismes de consensus et actifs natifs, rendant l'interaction directe difficile. Les solutions de bridging visent à faciliter la communication et les transactions sans faille entre ces blockchains séparées. Il convient également de noter que l'espace crypto est dynamique et en rapide évolution, donc de nouveaux termes et technologies peuvent émerger. S'il y a eu des développements ou des changements significatifs depuis ma dernière mise à jour, vous voudrez peut-être consulter des sources plus récentes pour obtenir les dernières informations sur le bridging crypto.",
+  "button_text": "Allons-y",
+  "button_aria_label": "Naviguer vers le convertisseur de bridging"
 }

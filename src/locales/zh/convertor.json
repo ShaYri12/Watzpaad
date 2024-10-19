@@ -1,23 +1,23 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "代币图标",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "开始",
+    "summary": "摘要",
+    "ponder": "思考"
   },
   "form": {
-    "want_to": "I want to",
-    "from": "from",
-    "chain_my": "Chain, my",
-    "to": "to",
-    "chain": "chain",
-    "tokens": "tokens"
+    "want_to": "我想",
+    "from": "从",
+    "chain_my": "链，我的",
+    "to": "到",
+    "chain": "链",
+    "tokens": "代币"
   },
-  "swap_bridge": "SWAP/BRIDGE",
-  "ethereum": "Ethereum",
+  "swap_bridge": "交换/桥接",
+  "ethereum": "以太坊",
   "eth_token": "Eth",
   "bcs_chain": "BCS",
   "bnb_token": "BNB",
-  "submit_button": "Let’s Go"
+  "submit_button": "我们走"
 }

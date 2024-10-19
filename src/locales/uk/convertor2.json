@@ -1,25 +1,25 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "Іконка токена",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "Почати",
+    "summary": "Резюме",
+    "ponder": "Розмірковувати"
   },
-  "suggested_route_title": "Ponders Suggested Route",
+  "suggested_route_title": "Запропонований маршрут для роздумів",
   "eth_to_bnb": {
     "amount": "2.000 ETH",
-    "chain": "Ethereum chain"
+    "chain": "Ethereum мережа"
   },
   "bnb": {
     "amount": "8.6951 BNB",
-    "chain": "BSC Chain"
+    "chain": "BSC мережа"
   },
-  "total_fees": "Total Fees: 00000000000000",
-  "step": "Step 1",
-  "fees": "Fees",
-  "no_funds_message": "You do not have funds to complete the transaction",
-  "back": "Back",
-  "more_results": "More Results",
-  "accept": "Accept"
+  "total_fees": "Загальні збори: 00000000000000",
+  "step": "Крок 1",
+  "fees": "Збори",
+  "no_funds_message": "У вас немає коштів для завершення транзакції",
+  "back": "Назад",
+  "more_results": "Більше результатів",
+  "accept": "Прийняти"
 }

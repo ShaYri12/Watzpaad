@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Biểu tượng Token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Bắt đầu",
+    "summary": "Tóm tắt",
+    "ponder": "Suy ngẫm"
+  },
+  "suggested_route_title": "Tuyến đường được đề xuất để suy ngẫm",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Chuỗi Ethereum"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "Chuỗi BSC"
+  },
+  "total_fees": "Tổng phí: 00000000000000",
+  "step": "Bước 1",
+  "fees": "Phí",
+  "no_funds_message": "Bạn không có đủ tiền để hoàn tất giao dịch",
+  "back": "Quay lại",
+  "more_results": "Thêm kết quả",
+  "accept": "Chấp nhận"
+}

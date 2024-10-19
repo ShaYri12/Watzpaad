@@ -1,25 +1,25 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "Ícono del Token",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "Iniciar",
+    "summary": "Resumen",
+    "ponder": "Reflexionar"
   },
-  "suggested_route_title": "Ponders Suggested Route",
+  "suggested_route_title": "Ruta Sugerida para Reflexionar",
   "eth_to_bnb": {
     "amount": "2.000 ETH",
-    "chain": "Ethereum chain"
+    "chain": "Cadena Ethereum"
   },
   "bnb": {
     "amount": "8.6951 BNB",
-    "chain": "BSC Chain"
+    "chain": "Cadena BSC"
   },
-  "total_fees": "Total Fees: 00000000000000",
-  "step": "Step 1",
-  "fees": "Fees",
-  "no_funds_message": "You do not have funds to complete the transaction",
-  "back": "Back",
-  "more_results": "More Results",
-  "accept": "Accept"
+  "total_fees": "Total de Comisiones: 00000000000000",
+  "step": "Paso 1",
+  "fees": "Comisiones",
+  "no_funds_message": "No tienes fondos para completar la transacción",
+  "back": "Atrás",
+  "more_results": "Más Resultados",
+  "accept": "Aceptar"
 }
