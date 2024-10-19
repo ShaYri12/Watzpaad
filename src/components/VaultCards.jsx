@@ -103,7 +103,7 @@ const VaultCards = ({ dashboard = false }) => {
             className="bg-[#1F2835CC] rounded-[13.09px] border-[2.6px] border-[#303945] flex flex-col sm:p-[11px] p-[9.28px]"
           >
             <div className="card-border p-[1.96px] w-full">
-              <div className="sm:px-[25px] px-[21px] sm:py-[35px] py-[32px] rounded-[6.55px] flex flex-col sm:gap-[27px] gap-[22.77px] relative z-[2]">
+              <div className="sm:px-[25px] px-[21px] sm:py-[35px] py-[32px] rounded-[6.55px] flex flex-col sm:gap-[27px] gap-[22.77px] relative z-[2] w-full">
                 <div className="flex justify-between items-center ">
                   <h2 className="text-[25.3px] sm:text-[30px] font-[700] text-white">
                     {card.currency}
