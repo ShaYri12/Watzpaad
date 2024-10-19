@@ -8,6 +8,7 @@ import { I18nextProvider } from "react-i18next";
 
 // Import translation files
 import homepage_en from "./locales/en/homepage.json";
+import win_en from "./locales/en/win.json";
 import faq_en from "./locales/en/faq.json";
 import bridging_en from "./locales/en/bridging.json";
 import convertor_en from "./locales/en/convertor.json";
@@ -101,6 +102,7 @@ i18n.init({
       earning: earning_en,
       vaults: vaults_en,
       stacking: stacking_en,
+      win: win_en,
     },
     de: {
       homepage: homepage_de,
