@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Ícone do Token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Iniciar",
+    "summary": "Resumo",
+    "ponder": "Refletir"
+  },
+  "suggested_route_title": "Rota Sugerida para Refletir",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Rede Ethereum"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "Rede BSC"
+  },
+  "total_fees": "Total de Taxas: 00000000000000",
+  "step": "Passo 1",
+  "fees": "Taxas",
+  "no_funds_message": "Você não tem fundos para completar a transação",
+  "back": "Voltar",
+  "more_results": "Mais Resultados",
+  "accept": "Aceitar"
+}

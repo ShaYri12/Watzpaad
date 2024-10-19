@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "토큰 아이콘",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "시작",
+    "summary": "요약",
+    "ponder": "생각하다"
+  },
+  "suggested_route_title": "제안된 경로",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "이더리움 체인"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "BSC 체인"
+  },
+  "total_fees": "총 수수료: 00000000000000",
+  "step": "1단계",
+  "fees": "수수료",
+  "no_funds_message": "거래를 완료할 자금이 없습니다",
+  "back": "뒤로",
+  "more_results": "더 많은 결과",
+  "accept": "수락"
+}

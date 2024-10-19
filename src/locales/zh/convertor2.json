@@ -1,25 +1,25 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "代币图标",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "开始",
+    "summary": "摘要",
+    "ponder": "思考"
   },
-  "suggested_route_title": "Ponders Suggested Route",
+  "suggested_route_title": "建议的思考路线",
   "eth_to_bnb": {
     "amount": "2.000 ETH",
-    "chain": "Ethereum chain"
+    "chain": "以太坊链"
   },
   "bnb": {
     "amount": "8.6951 BNB",
-    "chain": "BSC Chain"
+    "chain": "BSC链"
   },
-  "total_fees": "Total Fees: 00000000000000",
-  "step": "Step 1",
-  "fees": "Fees",
-  "no_funds_message": "You do not have funds to complete the transaction",
-  "back": "Back",
-  "more_results": "More Results",
-  "accept": "Accept"
+  "total_fees": "总费用：00000000000000",
+  "step": "步骤 1",
+  "fees": "费用",
+  "no_funds_message": "您没有足够的资金来完成交易",
+  "back": "返回",
+  "more_results": "更多结果",
+  "accept": "接受"
 }

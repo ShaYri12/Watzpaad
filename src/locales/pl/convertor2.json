@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Ikona tokena",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Zacznij",
+    "summary": "Podsumowanie",
+    "ponder": "Zastanów się"
+  },
+  "suggested_route_title": "Zasugerowana trasa do zastanowienia",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Łańcuch Ethereum"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "Łańcuch BSC"
+  },
+  "total_fees": "Całkowite opłaty: 00000000000000",
+  "step": "Krok 1",
+  "fees": "Opłaty",
+  "no_funds_message": "Nie masz środków, aby zakończyć transakcję",
+  "back": "Wstecz",
+  "more_results": "Więcej wyników",
+  "accept": "Akceptuj"
+}
