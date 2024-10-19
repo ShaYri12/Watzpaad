@@ -1,0 +1,33 @@
+{
+  "earnings": {
+    "title": "Ganancias",
+    "description": "El ecosistema de BlockBoost permite obtener ingresos pasivos a través de varias maneras, como recompensas por preventa, recompensas por comercio, recompensas por mantener, recompensas por staking y recompensas por staking en la bóveda."
+  },
+  "rewards": {
+    "presale": {
+      "titleWhite": "Recomendación de Preventa",
+      "titleColor": "Recompensas",
+      "description": "Participa en la etapa temprana de la preventa para obtener $BBT a un precio más bajo, ya que en cada etapa el precio de la preventa aumenta. Además, puedes referir a tus amigos y ganar el 5% de la cantidad que inviertan durante la preventa como recompensa. No hay límites para las referencias y así puedes ganar recompensas pasivas de sus inversiones."
+    },
+    "trading": {
+      "titleWhite": "Recomendación de Comercio",
+      "titleColor": "Recompensas",
+      "description": "Después del lanzamiento del token $BBT, aún puedes referir y ganar a través de tu enlace de referencia único desde nuestra aplicación del panel de control y ganar el 2% de recompensas comerciales de las actividades comerciales de tus referidos de por vida, siempre que compren o vendan tokens $BBT."
+    },
+    "holding": {
+      "titleWhite": "Mantener",
+      "titleColor": "Recompensas",
+      "description": "Mantén $BBT y obtén ingresos pasivos. Simplemente siéntate y relájate para recibir tu parte de las recompensas por mantener del volumen comercial de $BBT y reclámalo cada hora a través de nuestra aplicación del panel de control. Si olvidaste reclamar, las recompensas estarán disponibles en cualquier momento para que puedas recuperar todas las recompensas restantes de la dirección de tu billetera."
+    },
+    "staking": {
+      "titleWhite": "Staking",
+      "titleColor": "Recompensas",
+      "description": "Haz staking de $BBT para ganar recompensas y obtener una asignación garantizada para la plataforma de lanzamiento. Las recompensas se otorgarán a partir del suministro de staking de nuestro ecosistema. Incluso después de eso, seguirás siendo elegible para recibir las recompensas por mantener que se distribuyen a partir de los volúmenes comerciales de los tokens $BBT."
+    },
+    "vault": {
+      "titleWhite": "Staking en la Bóveda",
+      "titleColor": "Recompensas",
+      "description": "Haz staking de cualquier token para ganar con un sistema de auto-compounding. Puedes hacer staking de cualquier token para ganar $BBT como recompensas de auto-compounding. Las recompensas se otorgarán del suministro de la bóveda de nuestro ecosistema. Puedes desbloquear tus tokens en cualquier momento junto con las recompensas compuestas en tokens $BBT."
+    }
+  }
+}

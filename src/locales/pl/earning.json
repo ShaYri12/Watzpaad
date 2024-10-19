@@ -1,0 +1,33 @@
+{
+  "earnings": {
+    "title": "Zyski",
+    "description": "Ekosystem BlockBoost pozwala na uzyskanie pasywnego dochodu na wiele sposobów, takich jak nagrody za przedsprzedaż, nagrody za handel, nagrody za trzymanie, nagrody za stakowanie i nagrody za stakowanie w skarbcu."
+  },
+  "rewards": {
+    "presale": {
+      "titleWhite": "Program poleceń przedsprzedaży",
+      "titleColor": "Nagrody",
+      "description": "Weź udział w wczesnej fazie przedsprzedaży, aby uzyskać $BBT po niższej cenie, ponieważ każda faza przedsprzedaży ma wyższą cenę. Możesz również polecać swoich znajomych, aby zarabiać 5% nagrody od ich zainwestowanej kwoty podczas przedsprzedaży. Nie ma ograniczeń co do liczby poleceń, aby zarabiać pasywne nagrody z ich inwestycji."
+    },
+    "trading": {
+      "titleWhite": "Program poleceń handlu",
+      "titleColor": "Nagrody",
+      "description": "Po uruchomieniu tokena $BBT możesz nadal polecać i zarabiać dzięki unikalnemu linkowi polecającemu w naszej aplikacji panelu oraz otrzymywać 2% nagród handlowych od aktywności handlowych swoich poleconych przez całe życie, za każdym razem, gdy kupują lub sprzedają tokeny $BBT."
+    },
+    "holding": {
+      "titleWhite": "Trzymanie",
+      "titleColor": "Nagrody",
+      "description": "Trzymaj $BBT i zarabiaj pasywny dochód. Po prostu usiądź i zrelaksuj się, aby otrzymać część nagród za trzymanie z wolumenu handlowego $BBT i zgłaszaj to za pośrednictwem naszej aplikacji co godzinę. Jeśli przegapisz zgłoszenie, nagrody będą dostępne w każdej chwili do ponownego zgłoszenia ze swojego adresu portfela."
+    },
+    "staking": {
+      "titleWhite": "Stakowanie",
+      "titleColor": "Nagrody",
+      "description": "Stakuj $BBT, aby zdobyć nagrody i otrzymać gwarantowaną alokację na launchpad. Nagrody będą pochodziły z podaży stakowanej w naszym ekosystemie. Nawet po uzyskaniu uprawnień do otrzymania nagród za trzymanie, które są dystrybuowane z wolumenu handlowego tokenów $BBT."
+    },
+    "vault": {
+      "titleWhite": "Stakowanie w skarbcu",
+      "titleColor": "Nagrody",
+      "description": "Stakuj dowolne tokeny, aby zarabiać w systemie automatycznego kapitalizowania. Możesz stakować dowolny token, aby zarabiać $BBT jako automatyczne nagrody z kapitalizacji. Nagrody będą pochodziły z podaży w skarbcu naszego ekosystemu. Możesz odblokować swoje tokeny w dowolnym momencie wraz z nagrodami z kapitalizacji w tokenach $BBT."
+    }
+  }
+}

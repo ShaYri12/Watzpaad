@@ -16,6 +16,7 @@ import cookie_en from "./locales/en/cookie.json";
 import privacy_en from "./locales/en/privacy.json";
 import terms_en from "./locales/en/terms.json";
 import launchedpad_en from "./locales/en/launchedpad.json";
+import earning_en from './locales/en/earning.json'
 import homepage_de from "./locales/de/homepage.json";
 import faq_de from "./locales/de/faq.json";
 import bridging_de from "./locales/de/bridging.json";
@@ -95,6 +96,7 @@ i18n.init({
       convertor: convertor_en,
       convertor2: convertor2_en,
       launchedpad: launchedpad_en,
+      earning: earning_en,
     },
     de: {
       homepage: homepage_de,
