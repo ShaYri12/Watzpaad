@@ -144,9 +144,9 @@ const BridgingConvertor = () => {
       </div>
 
       {/* Submit Button */}
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center md:mt-[60px] mt-[36px] pb-4">
         <Link to="/bridging-convertor-2">
-          <button className="bg-[#38DCC8] hover:bg-teal-500 duration-200 px-[45px] py-[10px] rounded-full">
+          <button className="bg-[#38DCC8] hover:bg-teal-500 duration-200 md:px-[66px] px-[45.5px] md:py-[14.5px] py-[9.74px]  rounded-full md:text-[18px] text-[12.39px]">
             {t("submit_button")} {/* Translated button text */}
           </button>
         </Link>
