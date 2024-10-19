@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
 import Dropdown from "../shared/Dropdown";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import i18next for translations
 
 const BridgingConvertor = () => {
-  const { t } = useTranslation("convertor"); // Set up translations for the bridgingConvertor namespace
+  const { t } = useTranslation("convertor");
+  const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
+
+  const handleResize = () => {
+    setIsNarrow(window.innerWidth < 500);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className="mt-20 md:mt-0 w-full flex-1 flex flex-col items-center justify-center p-4">
@@ -46,47 +60,55 @@ const BridgingConvertor = () => {
       </div>
 
       {/* Swap Form */}
-      <div className="bg-gray-800 h-full p-6 rounded-xl shadow-lg text-white w-full max-w-[950px]">
-        <div className="flex items-center flex-wrap justify-center gap-2 space-y-3 ">
-          {/* Swap/Bridge Dropdown */}
-          <span className="text-lg"> </span>
-          <span className="text-lg">{t("form.want_to")}</span>{" "}
-          {/* Translated label */}
-          <Dropdown
-            options={[t("swap_bridge"), t("swap_bridge"), t("swap_bridge")]} // Translated dropdown options
-            defaultOption={t("swap_bridge")}
-          />
-          {/* From Chain Dropdown */}
-          <span className="text-lg">{t("form.from")}</span>{" "}
-          {/* Translated label */}
-          <Dropdown
-            options={[t("ethereum"), t("ethereum"), t("ethereum")]} // Translated dropdown options
-            defaultOption={t("ethereum")}
-          />
-          <span className="text-lg">{t("form.chain_my")}</span>{" "}
-          {/* Translated label */}
-          <br />
-          {/* Token Dropdown */}
-          <Dropdown
-            options={[t("eth_token"), t("eth_token"), t("eth_token")]} // Translated dropdown options
-            defaultOption={t("eth_token")}
-          />
-          <span className="text-lg">{t("form.to")}</span>{" "}
-          {/* Translated label */}
-          {/* To Chain Dropdown */}
-          <Dropdown
-            options={[t("bcs_chain"), t("bcs_chain"), t("bcs_chain")]} // Translated dropdown options
-            defaultOption={t("bcs_chain")}
-          />
-          <span className="text-lg">{t("form.chain")}</span>{" "}
-          {/* Translated label */}
-          {/* To Token Dropdown */}
-          <Dropdown
-            options={[t("bnb_token"), t("bnb_token"), t("bnb_token")]} // Translated dropdown options
-            defaultOption={t("bnb_token")}
-          />
-          <span className="text-lg">{t("form.tokens")}</span>{" "}
-          {/* Translated label */}
+      <div className="bg-gray-800 h-full md:p-[11px] p-[10px] rounded-[13.09px] border-[3.27px] border-[#303945] shadow-lg text-white w-full max-w-[950px]">
+        <div
+          className={`${
+            isNarrow ? "card-border" : "card-border-wide"
+          } p-[1.96px] w-full h-full`}
+        >
+          <div className="md:py-[48px] py-[12px] md:px-6 px-[11px] relative z-[2]">
+            <div className="flex items-center flex-wrap justify-center gap-2 space-y-3 ">
+              {/* Swap/Bridge Dropdown */}
+              <span className="text-lg"> </span>
+              <span className="text-lg">{t("form.want_to")}</span>{" "}
+              {/* Translated label */}
+              <Dropdown
+                options={[t("swap_bridge"), t("swap_bridge"), t("swap_bridge")]} // Translated dropdown options
+                defaultOption={t("swap_bridge")}
+              />
+              {/* From Chain Dropdown */}
+              <span className="text-lg">{t("form.from")}</span>{" "}
+              {/* Translated label */}
+              <Dropdown
+                options={[t("ethereum"), t("ethereum"), t("ethereum")]} // Translated dropdown options
+                defaultOption={t("ethereum")}
+              />
+              <span className="text-lg">{t("form.chain_my")}</span>{" "}
+              {/* Translated label */}
+              <br />
+              {/* Token Dropdown */}
+              <Dropdown
+                options={[t("eth_token"), t("eth_token"), t("eth_token")]} // Translated dropdown options
+                defaultOption={t("eth_token")}
+              />
+              <span className="text-lg">{t("form.to")}</span>{" "}
+              {/* Translated label */}
+              {/* To Chain Dropdown */}
+              <Dropdown
+                options={[t("bcs_chain"), t("bcs_chain"), t("bcs_chain")]} // Translated dropdown options
+                defaultOption={t("bcs_chain")}
+              />
+              <span className="text-lg">{t("form.chain")}</span>{" "}
+              {/* Translated label */}
+              {/* To Token Dropdown */}
+              <Dropdown
+                options={[t("bnb_token"), t("bnb_token"), t("bnb_token")]} // Translated dropdown options
+                defaultOption={t("bnb_token")}
+              />
+              <span className="text-lg">{t("form.tokens")}</span>{" "}
+              {/* Translated label */}
+            </div>
+          </div>
         </div>
       </div>
 
