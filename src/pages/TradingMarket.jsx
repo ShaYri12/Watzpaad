@@ -7,6 +7,20 @@ import { MarketData } from "../assets/MarketData";
 export default function TradingMarket({ dashboard = false }) {
   const { id } = useParams(); // Get the ID from the URL
   const [item, setItem] = useState(null);
+  const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
+
+  const handleResize = () => {
+    setIsNarrow(window.innerWidth < 500);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     window.scrollTo({
@@ -64,7 +78,11 @@ export default function TradingMarket({ dashboard = false }) {
           } md:gap-[19px] gap-[38px]`}
         >
           <div className="bg-[#1F2835CC] rounded-[26.71px] border-[2.6px] border-[#303945] flex md:px-[15px] px-[13px] md:py-[16px] py-[9px]  items-center flex-1">
-            <div className="md:card-border-wide card-border w-full p-[2px]">
+            <div
+              className={
+                isNarrow ? "card-border" : "card-border-wide w-full p-[2px]"
+              }
+            >
               <div
                 className={`md:px-[18px] md:py-[32px] py-[39.28px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] flex lg:flex-row flex-col flex-1 lg:items-center w-full h-full relative z-[2]  ${
                   dashboard
@@ -149,7 +167,13 @@ export default function TradingMarket({ dashboard = false }) {
               dashboard ? "lg:w-[34%]" : "md:w-[34%]"
             }`}
           >
-            <div className="lg:card-border md:card-border-wide card-border-wide w-full h-full p-[2px]">
+            <div
+              className={
+                isNarrow
+                  ? "card-border"
+                  : "card-border-wide w-full p-[2px] h-full"
+              }
+            >
               <div className="md:px-[18px] md:py-[32px] py-[40px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] flex flex-col flex-1 w-full h-full md:gap-[31px] gap-[24.55px] relative z-[2]">
                 <h2 className="text-[24.36px] md:text-[30px] font-[700] text-white">
                   On-Chain Data
