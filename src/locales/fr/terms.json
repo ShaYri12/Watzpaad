@@ -1,13 +1,61 @@
 {
-  "terms_and_conditions_title": "Conditions Générales",
-  "terms_and_conditions_description": "Vous devez lire ces Conditions car elles contiennent nos engagements légaux envers vous ainsi qu'un certain nombre de choses à faire et à ne pas faire lors de l'utilisation de nos Services. Veuillez lire attentivement ces Conditions pour vous assurer de bien les comprendre. En utilisant nos Services, vous êtes automatiquement réputé accepter et être juridiquement lié par ces Conditions. Pour éviter tout doute, si vous n'acceptez pas ces Conditions, vous ne devez pas accéder ni utiliser nos Services.\n\nVous devez également lire notre Politique de Confidentialité. La Politique de Confidentialité explique comment nous utilisons vos données personnelles. Si vous pensez qu'il y a une erreur dans ces termes ou si vous avez des questions, veuillez nous contacter pour en discuter. Si nous devons vous contacter, nous le ferons par écrit à l'adresse e-mail que vous nous avez fournie. Il est donc très important que vous confirmiez avoir fourni une adresse e-mail légitime que vous utilisez personnellement, et en continuant à utiliser nos Services, vous garantissez l'avoir fait. Nous ne vous contacterons que si vous nous avez donné votre consentement explicite. La seule autre fois où vous recevrez des e-mails sera si vous vous êtes inscrit pour recevoir notre newsletter et nos mises à jour.\n\nLorsque nous utilisons les mots 'écrit' ou 'par écrit' dans ces termes, cela inclut les e-mails.",
+  "terms_and_conditions_title": "Conditions générales",
+  "terms_and_conditions_description": "Vous devriez lire ces conditions, car elles contiennent nos obligations légales envers vous ainsi qu'une série de DOs et de DON'Ts à garder à l'esprit lors de l'utilisation de nos services. Nous vous recommandons de lire attentivement ces conditions pour vous assurer de les comprendre. En utilisant nos services, vous êtes automatiquement considéré comme ayant accepté et étant légalement lié par ces conditions. Pour plus de clarté, si vous n'acceptez pas les termes, vous ne devez pas continuer à accéder à nos services ou les utiliser.\n\nVous devriez également lire notre politique de confidentialité. La politique de confidentialité explique comment nous utilisons vos données personnelles. Si vous pensez qu'il y a une erreur dans ces conditions ou si vous avez des questions, veuillez nous contacter pour en discuter. Si nous devons communiquer avec vous, nous le ferons par écrit à l'adresse e-mail que vous avez fournie. Il est donc très important que vous confirmiez avoir fourni une adresse e-mail valide que vous utilisez personnellement, et en continuant à utiliser nos services, vous garantissez que vous l'avez fait. Nous ne vous contacterons que si vous nous avez expressément donné votre consentement pour le faire. L'autre occasion où vous recevrez des e-mails est si vous vous êtes abonné à notre newsletter et à nos mises à jour. Si nous utilisons les mots « par écrit » ou « écrit » dans ces conditions, cela inclut également les e-mails.",
 
-  "buying_coins_title": "Utiliser Nos Services / Acheter des Pièces",
-  "buying_coins_description": "Pour utiliser nos services, vous aurez besoin d'un portefeuille virtuel. Nous attirons votre attention sur le fait que les portefeuilles sont des services tiers, et nous vous conseillons de lire leurs conditions d'utilisation.",
+  "changes_to_terms_title": "Modifications des conditions",
+  "changes_to_terms_description": "Nous pouvons mettre à jour et modifier ces conditions de temps à autre, et la version la plus récente de ces conditions sera publiée sur le site web et dans l'application correspondante. Il se peut que l'on vous demande de revoir et d'accepter les conditions révisées pour pouvoir continuer à utiliser les services. Nous recommandons à tous les utilisateurs de consulter régulièrement les conditions sur le site web et dans l'application, où les modifications seront publiées. Vous pouvez imprimer et conserver une copie de ces conditions pour vos références futures. Vous devrez peut-être mettre à jour le logiciel pour utiliser les services, tant que les services restent comme décrit précédemment. Le logiciel associé peut être mis à jour pour refléter les changements dans un système d'exploitation. En continuant à utiliser les services, vous êtes considéré comme ayant accepté les conditions qui sont modifiées de temps à autre.",
+
+  "buying_coins_title": "Utilisation de notre service / Achat de pièces",
+  "buying_coins_description": "Pour pouvoir utiliser notre service, vous avez besoin d'un portefeuille virtuel. Nous tenons à signaler que les portefeuilles sont des services tiers, et nous vous conseillons de lire leurs conditions d'utilisation.",
 
   "security_title": "Sécurité",
-  "security_description": "La sécurité est importante pour Rexas, et vous acceptez donc de ne pas partager l'accès à votre portefeuille avec un autre utilisateur ou un tiers, ou d'effectuer sciemment une activité permettant à un tiers d'accéder à ou d'utiliser votre compte. Si nous estimons, à notre discrétion, que votre compte est utilisé de manière inappropriée, nous nous réservons le droit de suspendre, de résilier ou de cesser de soutenir votre compte sans responsabilité.\n\nNous ne pouvons pas vérifier l'identité des personnes utilisant nos Services et ne serons pas responsables si quelqu'un d'autre utilise votre connexion au portefeuille ou votre compte. Si vous prenez conscience d'une utilisation non autorisée de votre connexion, vous devez nous en informer immédiatement en nous contactant à admin@rexas.com, en indiquant 'Violation de Sécurité' dans l'objet. Veuillez noter que nous pourrions avoir besoin de vérifier votre identité et de valider la propriété du compte. Soyez vigilant quant aux autres sites Web et services qui pourraient prétendre être nous ou être associés à nous.",
+  "security_description": "La sécurité est importante pour BlockBoost, et par conséquent, vous acceptez de ne pas partager l'accès à votre portefeuille avec d'autres utilisateurs ou tiers, ni d'effectuer des activités de manière consciente qui permettraient à des tiers d'accéder ou d'utiliser votre compte. Si nous pensons, à notre discrétion, que votre compte est utilisé de manière inappropriée, nous nous réservons le droit de suspendre, annuler ou cesser de fournir un support à votre compte sans responsabilité.\n\nNous ne pouvons pas vérifier l'identité des personnes qui utilisent nos services et nous ne serons pas responsables si votre connexion de portefeuille ou votre compte est utilisé par une autre personne. Si vous apprenez qu'un accès non autorisé a été fait à votre connexion, vous devez nous contacter immédiatement par e-mail à inq@BlockBoost.io et utiliser \"Incident de sécurité\" comme sujet. Veuillez noter que nous devrons peut-être vérifier votre identité et valider la propriété du compte. Faites attention aux autres sites et services qui pourraient prétendre être nous ou être associés à nous.",
 
-  "removing_data_title": "Suppression des Données",
-  "removing_data_description": "Si vous souhaitez que nous supprimions toutes les données que nous pouvons détenir à votre sujet, veuillez nous contacter en envoyant un e-mail à admin@rexas.com. Bien que nous ne demandions pas d'informations personnelles ou identifiables lors de l'inscription à l'utilisation de notre service, nous pourrions encore détenir des informations vous concernant si vous nous avez fourni une adresse e-mail ou donné la permission de vous contacter. Si vous souhaitez que vos données soient supprimées, vous devez le spécifier dans votre e-mail. Si vous ne demandez pas la suppression, nous conserverons ces informations comme décrit dans notre Politique de Confidentialité."
+  "removing_data_title": "Suppression des données",
+  "removing_data_description": "Si vous souhaitez que nous supprimions les données que nous pourrions avoir sur vous, contactez-nous par e-mail à inq@BlockBoost.io. Bien que nous ne demandions pas d'informations personnelles ou identifiables lors de l'inscription pour utiliser notre service, nous pourrions tout de même avoir des données sur vous si vous avez fourni une adresse e-mail ou nous avez donné la permission de vous contacter. Si vous souhaitez que vos données soient supprimées, vous devez le spécifier dans votre e-mail. Si vous ne demandez pas une suppression, nous conserverons ces informations conformément à notre politique de confidentialité.",
+
+  "rules_of_use_title": "Règles d'utilisation",
+  "rules_of_use_description": "Vous vous engagez et acceptez de respecter les règles suivantes :",
+  "rules_of_use_list": [
+    "Ne pas s'engager dans des attaques personnelles contre d'autres personnes.",
+    "Ne pas harceler, intimider ou traquer un autre utilisateur de nos services.",
+    "Ne pas publier de langage ou d'images vulgaires, obscènes ou sexuellement explicites.",
+    "Ne pas promouvoir ni plaider pour des activités illégales ou des discussions avec l'intention de les mener.",
+    "Ne pas violer les droits de propriété intellectuelle ou la vie privée des tiers.",
+    "Ne pas introduire de virus ou d'autres composants nuisibles.",
+    "Ne pas se faire passer pour d'autres ou tromper sur son identité.",
+    "Ne pas s'engager dans le spam, le trolling ou d'autres comportements antisociaux.",
+    "Ne pas promouvoir ou générer des bénéfices pour vous ou des tiers sans autorisation."
+  ],
+
+  "violation_of_rules_title": "Violation des règles",
+  "violation_of_rules_description": "Si vous pensez qu'un autre utilisateur viole ces règles, veuillez nous le faire savoir en envoyant un e-mail à inq@BlockBoost.io. Nous ne pouvons pas garantir que d'autres utilisateurs respecteront ces règles et nous ne sommes pas responsables de l'infraction par d'autres utilisateurs. Vous et les autres utilisateurs êtes responsables de votre propre comportement.",
+
+  "service_interruption_title": "Interruption du service",
+  "service_interruption_description": "BlockBoost ne garantit pas que les services seront toujours disponibles, ininterrompus, opportuns, sécurisés ou exempts d'erreurs ou de virus. Il peut y avoir des moments où les services ne sont pas disponibles en raison de maintenance ou de problèmes techniques. Nous pouvons également modifier, suspendre ou cesser certains services sans préavis. Nous prendrons des mesures raisonnables pour garantir que nos services sont exempts de virus et d'autres logiciels malveillants, mais nous vous recommandons également d'utiliser le logiciel antivirus approprié.",
+
+  "prohibited_person_title": "Personne interdite",
+  "prohibited_person_description": "\"Personne interdite\" désigne les personnes ou entités qui sont soumises à certaines sanctions en vertu des lois des États-Unis, des Nations Unies, de l'Union européenne ou d'autres autorités pertinentes. Nous ne ferons pas affaire avec des personnes interdites.",
+
+  "third_parties_title": "Tiers",
+  "third_parties_description": "Certaines pages peuvent contenir des liens vers des sites web ou des services tiers. Ces liens sont fournis pour votre commodité, et BlockBoost n'est pas responsable du contenu des tiers. Si vous visitez un site web tiers, veuillez noter qu'il peut avoir ses propres conditions d'utilisation et politiques de confidentialité.",
+
+  "agreeing_to_terms_title": "Acceptation des conditions",
+  "agreeing_to_terms_description": "En utilisant nos services, vous acceptez d'être légalement lié par ces conditions. Si vous n'êtes pas d'accord, vous ne devez pas accéder à nos services ou les utiliser.",
+
+  "children_title": "Enfants",
+  "children_description": "Nos services ne sont pas disponibles pour une utilisation par des enfants de moins de 18 ans ou 21 ans dans certaines juridictions. Veuillez consulter les lois de votre pays concernant les politiques liées à l'âge.",
+
+  "content_and_ip_rights_title": "Droits de contenu et IP",
+  "content_and_ip_rights_description": "Tout le contenu et les informations contenues dans les services sont la propriété ou sont licenciés à BlockBoost et sont protégés par des droits de propriété intellectuelle. Vous ne devez pas utiliser, copier, rétroconcevoir ou modifier le contenu sans l'autorisation expresse.",
+
+  "additional_important_information_title": "Informations supplémentaires importantes",
+  "additional_important_information_description": "Vous êtes responsable de vous assurer que toutes les personnes qui accèdent à notre site web ou à notre application via votre connexion respectent ces conditions. Vous devez également vous assurer que votre accès et votre utilisation de nos services respectent les lois et règlements applicables.",
+  "additional_important_information_list": [
+    "Le contenu de notre site web est uniquement à des fins d'information générale et n'est pas destiné à constituer un conseil.",
+    "Vous devez demander un conseil financier professionnel avant de prendre des décisions financières.",
+    "Nous ne garantissons pas l'exactitude, l'exhaustivité ou l'actualité du contenu de notre site web.",
+    "Vous êtes responsable de garantir votre propre protection contre les virus lors de l'accès à notre site web.",
+    "Vous ne devez pas abuser de notre site web en introduisant des virus, des chevaux de Troie ou d'autres logiciels malveillants."
+  ]
 }
