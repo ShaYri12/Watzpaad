@@ -102,73 +102,78 @@ const VaultCards = ({ dashboard = false }) => {
             key={card.id}
             className="bg-[#1F2835CC] rounded-[13.09px] border-[2.6px] border-[#303945] flex flex-col sm:p-[11px] p-[9.28px]"
           >
-            <div className="sm:px-[25px] px-[21px] sm:py-[35px] py-[32px] rounded-[6.55px] border border-primaryColor flex flex-col sm:gap-[27px] gap-[22.77px]">
-              <div className="flex justify-between items-center ">
-                <h2 className="text-[25.3px] sm:text-[30px] font-[700] text-white">
-                  {card.currency}
-                </h2>
-                <div className="flex items-center gap-1 bg-primaryColor text-black text-[13.06px] sm:text-[15.48px]  px-[9.5px] py-[3px] rounded-full">
-                  <span className="rounded-full w-[17px] h-[17px] flex items-center justify-center border border-black">
-                    <MdOutlineAutorenew size={12} className="rotate-[90deg]" />
-                  </span>
-                  Auto
-                </div>
-              </div>
-              <div className="flex items-center gap-1 justify-between">
-                <div className="sm:w-[96px] w-[80.97px] sm:h-[96px] h-[80.97px] rounded-full flex items-center justify-center">
-                  <img src={card.imgSrc} alt={card.currency} />
-                </div>
-                <div className="flex flex-col gap-[2px]">
-                  <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
-                    Compounded
-                  </p>
-                  <p className="text-primaryColor text-[23.29px] sm:text-[27.61px] font-[700]">
-                    {card.compounded}
-                  </p>
-                  <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
-                    ~{card.compoundedUSD}
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col md:gap-[12px] gap-[10.12px]">
-                <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                  <span className="text-[#798DA3]">APY</span>
-                  <span className="flex items-center text-white font-[700]">
-                    <BsCalculatorFill
-                      size={20}
-                      className="md:mr-2 mr-1 text-primaryColor"
-                    />
-                    {card.apy}
-                  </span>
-                </div>
-                <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                  <span className="text-[#798DA3]">Pending Earnings</span>
-                  <span className="flex flex-col text-white font-[700]">
-                    {card.pendingEarnings}
-                    <span className="text-[#798DA3] font-[400]">
-                      ~{card.pendingEarningsUSD}
+            <div className="card-border p-[1.96px] w-full">
+              <div className="sm:px-[25px] px-[21px] sm:py-[35px] py-[32px] rounded-[6.55px] flex flex-col sm:gap-[27px] gap-[22.77px] relative z-[2]">
+                <div className="flex justify-between items-center ">
+                  <h2 className="text-[25.3px] sm:text-[30px] font-[700] text-white">
+                    {card.currency}
+                  </h2>
+                  <div className="flex items-center gap-1 bg-primaryColor text-black text-[13.06px] sm:text-[15.48px]  px-[9.5px] py-[3px] rounded-full">
+                    <span className="rounded-full w-[17px] h-[17px] flex items-center justify-center border border-black">
+                      <MdOutlineAutorenew
+                        size={12}
+                        className="rotate-[90deg]"
+                      />
                     </span>
-                  </span>
+                    Auto
+                  </div>
                 </div>
-                <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                  <span className="text-[#798DA3]">Auto Compound In</span>
-                  <span className="text-white font-[700]">
-                    {card.autoCompoundIn}
-                  </span>
+                <div className="flex items-center gap-1 justify-between">
+                  <div className="sm:w-[96px] w-[80.97px] sm:h-[96px] h-[80.97px] rounded-full flex items-center justify-center">
+                    <img src={card.imgSrc} alt={card.currency} />
+                  </div>
+                  <div className="flex flex-col gap-[2px]">
+                    <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
+                      Compounded
+                    </p>
+                    <p className="text-primaryColor text-[23.29px] sm:text-[27.61px] font-[700]">
+                      {card.compounded}
+                    </p>
+                    <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
+                      ~{card.compoundedUSD}
+                    </p>
+                  </div>
                 </div>
-                <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap">
-                  <span className="text-primaryColor">BNB Staked</span>
-                  <span className="flex flex-col text-white font-[700]">
-                    {card.staked}
-                    <span className="text-[#798DA3] font-[400]">
-                      ~{card.stakedUSD}
+                <div className="flex flex-col md:gap-[12px] gap-[10.12px]">
+                  <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
+                    <span className="text-[#798DA3]">APY</span>
+                    <span className="flex items-center text-white font-[700]">
+                      <BsCalculatorFill
+                        size={20}
+                        className="md:mr-2 mr-1 text-primaryColor"
+                      />
+                      {card.apy}
                     </span>
-                  </span>
+                  </div>
+                  <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
+                    <span className="text-[#798DA3]">Pending Earnings</span>
+                    <span className="flex flex-col text-white font-[700]">
+                      {card.pendingEarnings}
+                      <span className="text-[#798DA3] font-[400]">
+                        ~{card.pendingEarningsUSD}
+                      </span>
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
+                    <span className="text-[#798DA3]">Auto Compound In</span>
+                    <span className="text-white font-[700]">
+                      {card.autoCompoundIn}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap">
+                    <span className="text-primaryColor">BNB Staked</span>
+                    <span className="flex flex-col text-white font-[700]">
+                      {card.staked}
+                      <span className="text-[#798DA3] font-[400]">
+                        ~{card.stakedUSD}
+                      </span>
+                    </span>
+                  </div>
                 </div>
+                <button className="w-full bg-transparent hover:bg-primaryColor text-primaryColor hover:text-black sm:p-[15px] p-[12.65px] border border-primaryColor hover:border-transparent rounded-full transition duration-300 sm:text-[18px] text-[15.18px]">
+                  Connect Wallet
+                </button>
               </div>
-              <button className="w-full bg-transparent hover:bg-primaryColor text-primaryColor hover:text-black sm:p-[15px] p-[12.65px] border border-primaryColor hover:border-transparent rounded-full transition duration-300 sm:text-[18px] text-[15.18px]">
-                Connect Wallet
-              </button>
             </div>
           </div>
         ))}

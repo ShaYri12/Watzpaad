@@ -1,9 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BsGlobe2 } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 export default function Win() {
   const { t } = useTranslation();
+  const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
+
+  const handleResize = () => {
+    setIsNarrow(window.innerWidth < 500);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     window.scrollTo({
@@ -38,26 +52,32 @@ export default function Win() {
               backdropFilter: "blur(32.1074104309082px)",
             }}
           >
-            <div className="border border-primaryColor rounded-[6.42px] md:px-4 px-[8px] md:py-[32px] py-[45px]">
-              <div className="flex flex-col md:gap-[24px] gap-[17px] max-w-[956px] mx-auto">
-                <h1 className="text-[17.43px] md:text-[24.65px] font-[400] md:leading-[32.86px] leading-[23.24px] text-center text-primaryColor">
-                  {t("joinNow")}
-                </h1>
-                <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
-                  {t("minParticipation")}
-                </p>
-                <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
-                  {t("secureSpot")}
-                </p>
-                <p className="text-center text-primaryColor md:text-[20px] text-[14.14px] font-[700]">
-                  {t("embedLink")}
-                </p>
-                <a
-                  href="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
-                  className="text-center text-white md:text-[24.65px] text-[17.43px] md:leading-[32.86px] leading-[23.24px] font-[700]"
-                >
-                  {t("linkText")}
-                </a>
+            <div
+              className={`${
+                isNarrow ? "card-border" : "card-border-wide"
+              } p-[1.93px] w-full h-full`}
+            >
+              <div className="rounded-[6.42px] md:px-4 px-[8px] md:py-[32px] py-[45px] relative z-[2]">
+                <div className="flex flex-col md:gap-[24px] gap-[17px] max-w-[956px] mx-auto">
+                  <h1 className="text-[17.43px] md:text-[24.65px] font-[400] md:leading-[32.86px] leading-[23.24px] text-center text-primaryColor">
+                    {t("joinNow")}
+                  </h1>
+                  <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
+                    {t("minParticipation")}
+                  </p>
+                  <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
+                    {t("secureSpot")}
+                  </p>
+                  <p className="text-center text-primaryColor md:text-[20px] text-[14.14px] font-[700]">
+                    {t("embedLink")}
+                  </p>
+                  <a
+                    href="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
+                    className="text-center text-white md:text-[24.65px] text-[17.43px] md:leading-[32.86px] leading-[23.24px] font-[700]"
+                  >
+                    {t("linkText")}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
