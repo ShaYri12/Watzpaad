@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const languages = [
+  { code: "en", name: "English", flag: "https://flagcdn.com/w320/us.png" },
   { code: "ar", name: "Arabic", flag: "https://flagcdn.com/w320/sa.png" },
   { code: "de", name: "German", flag: "https://flagcdn.com/w320/de.png" },
-  { code: "en", name: "English", flag: "https://flagcdn.com/w320/us.png" },
   { code: "es", name: "Spanish", flag: "https://flagcdn.com/w320/es.png" },
   { code: "fr", name: "French", flag: "https://flagcdn.com/w320/fr.png" },
   { code: "hi", name: "Hindi", flag: "https://flagcdn.com/w320/in.png" },
