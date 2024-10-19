@@ -66,46 +66,77 @@ const BridgingConvertor = () => {
             isNarrow ? "card-border" : "card-border-wide"
           } p-[1.96px] w-full h-full`}
         >
-          <div className="md:py-[48px] py-[12px] md:px-6 px-[11px] relative z-[2]">
-            <div className="flex items-center flex-wrap justify-center gap-2 space-y-3 ">
+          <div className="md:py-[48px] py-[12px] md:px-6 px-[11px] relative z-[2] md:w-fit w-full">
+            <div className="flex md:flex-row flex-col items-center flex-wrap justify-center gap-x-[9px] md:gap-y-[30px] gap-y-[10px]">
               {/* Swap/Bridge Dropdown */}
-              <span className="text-lg"> </span>
-              <span className="text-lg">{t("form.want_to")}</span>{" "}
-              {/* Translated label */}
-              <Dropdown
-                options={[t("swap_bridge"), t("swap_bridge"), t("swap_bridge")]} // Translated dropdown options
-                defaultOption={t("swap_bridge")}
-              />
-              {/* From Chain Dropdown */}
-              <span className="text-lg">{t("form.from")}</span>{" "}
-              {/* Translated label */}
-              <Dropdown
-                options={[t("ethereum"), t("ethereum"), t("ethereum")]} // Translated dropdown options
-                defaultOption={t("ethereum")}
-              />
-              <span className="text-lg">{t("form.chain_my")}</span>{" "}
-              {/* Translated label */}
-              <br />
-              {/* Token Dropdown */}
-              <Dropdown
-                options={[t("eth_token"), t("eth_token"), t("eth_token")]} // Translated dropdown options
-                defaultOption={t("eth_token")}
-              />
-              <span className="text-lg">{t("form.to")}</span>{" "}
-              {/* Translated label */}
-              {/* To Chain Dropdown */}
-              <Dropdown
-                options={[t("bcs_chain"), t("bcs_chain"), t("bcs_chain")]} // Translated dropdown options
-                defaultOption={t("bcs_chain")}
-              />
-              <span className="text-lg">{t("form.chain")}</span>{" "}
-              {/* Translated label */}
-              {/* To Token Dropdown */}
-              <Dropdown
-                options={[t("bnb_token"), t("bnb_token"), t("bnb_token")]} // Translated dropdown options
-                defaultOption={t("bnb_token")}
-              />
-              <span className="text-lg">{t("form.tokens")}</span>{" "}
+              <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:normal-case	capitalize">
+                  {t("form.want_to")}
+                </span>{" "}
+                {/* Translated label */}
+                <Dropdown
+                  options={[
+                    t("swap_bridge"),
+                    t("swap_bridge"),
+                    t("swap_bridge"),
+                  ]} // Translated dropdown options
+                  defaultOption={t("swap_bridge")}
+                />
+              </div>
+              <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">
+                {/* From Chain Dropdown */}
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:normal-case	capitalize">
+                  {t("form.from")}
+                </span>{" "}
+                {/* Translated label */}
+                <Dropdown
+                  options={[t("ethereum"), t("ethereum"), t("ethereum")]} // Translated dropdown options
+                  defaultOption={t("ethereum")}
+                />
+              </div>
+              <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[73px] md:normal-case	capitalize">
+                  {t("form.chain_my")}
+                </span>{" "}
+                {/* Translated label */}
+                <br />
+                {/* Token Dropdown */}
+                <Dropdown
+                  options={[t("eth_token"), t("eth_token"), t("eth_token")]} // Translated dropdown options
+                  defaultOption={t("eth_token")}
+                />
+              </div>
+              <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:normal-case	capitalize md:flex hidden">
+                  {t("form.to")}
+                </span>{" "}
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:normal-case	capitalize md:hidden flex">
+                  {t("form.chain")}
+                </span>{" "}
+                {/* Translated label */}
+                {/* To Chain Dropdown */}
+                <Dropdown
+                  options={[t("bcs_chain"), t("bcs_chain"), t("bcs_chain")]} // Translated dropdown options
+                  defaultOption={t("bcs_chain")}
+                />
+              </div>
+              <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:normal-case	capitalize md:flex hidden">
+                  {t("form.chain")}
+                </span>{" "}
+                <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:hidden flex capitalize">
+                  {t("form.tokens")}
+                </span>{" "}
+                {/* Translated label */}
+                {/* To Token Dropdown */}
+                <Dropdown
+                  options={[t("bnb_token"), t("bnb_token"), t("bnb_token")]} // Translated dropdown options
+                  defaultOption={t("bnb_token")}
+                />
+              </div>
+              <span className="md:text-[34.21px] md:min-w-fit min-w-[78px] md:flex hidden">
+                {t("form.tokens")}
+              </span>{" "}
               {/* Translated label */}
             </div>
           </div>

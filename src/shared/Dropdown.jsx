@@ -13,10 +13,10 @@ const Dropdown = ({ options, defaultOption, onSelect }) => {
   };
 
   return (
-    <div className="relative inline-block w-fit">
+    <div className="relative inline-block md:w-fit w-full">
       <button
         onClick={toggleDropdown}
-        className="bg-transparent border-2 border-teal-400 text-teal-400 px-6 py-2 rounded-full focus:outline-none cursor-pointer flex items-center justify-between w-full"
+        className="bg-transparent border-2 border-primaryColor text-primaryColor md:px-[18.83px] px-[14px] md:py-[11.65px] py-[5.5px] rounded-full focus:outline-none cursor-pointer flex items-center justify-between w-full md:text-[13.98px] text-[10px]"
       >
         {selectedOption}
         <svg
@@ -38,7 +38,7 @@ const Dropdown = ({ options, defaultOption, onSelect }) => {
       </button>
 
       {isOpen && (
-        <ul className="absolute left-0 w-fit mt-2 bg-gray-900 text-teal-400 border border-teal-400 rounded-lg shadow-lg z-10">
+        <ul className="absolute left-0 w-fit mt-2 bg-gray-900 text-primaryColor border border-primaryColor rounded-lg shadow-lg z-10">
           {options.map((option, index) => (
             <li
               key={index}
