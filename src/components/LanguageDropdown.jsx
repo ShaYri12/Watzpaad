@@ -24,7 +24,7 @@ const languages = [
   // { code: "pa", name: "Punjabi", flag: "https://flagcdn.com/w320/pk.png" },
   // { code: "jv", name: "Javanese", flag: "https://flagcdn.com/w320/id.png" },
   // { code: "ta", name: "Tamil", flag: "https://flagcdn.com/w320/in.png" },
-];
+];  
 
 const LanguageDropdown = () => {
   const { i18n } = useTranslation();

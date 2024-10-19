@@ -1,6 +1,6 @@
 {
-  "title": "What is bridging?",
-  "description": "A blockchain bridge is essentially a mechanism that allows assets or information to move between two different blockchain networks. This is important because various blockchains may have their own protocols, consensus mechanisms, and native assets, making direct interaction challenging. Bridging solutions aim to facilitate seamless communication and transactions between these separate blockchains. It's also worth noting that the crypto space is dynamic and rapidly evolving, so new terminologies and technologies may emerge. If there have been significant developments or changes since my last update, you might want to check more recent sources for the latest information on crypto bridging.",
-  "button_text": "Let's Go",
-  "button_aria_label": "Navigate to bridging convertor"
+  "title": "ブリッジングとは何ですか？",
+  "description": "ブロックチェーンブリッジは、基本的に2つの異なるブロックチェーンネットワーク間で資産や情報を移動させるためのメカニズムです。これは、さまざまなブロックチェーンがそれぞれ独自のプロトコル、コンセンサスメカニズム、およびネイティブ資産を持っている可能性があり、直接の相互作用が困難であるため、重要です。ブリッジングソリューションは、これらの分離されたブロックチェーン間でシームレスなコミュニケーションとトランザクションを促進することを目指しています。また、暗号空間はダイナミックで急速に進化しているため、新しい用語や技術が出現する可能性があります。私の最後の更新以降に重要な進展や変更があった場合、最新の情報を得るために、より最近の情報源を確認することをお勧めします。",
+  "button_text": "行こう",
+  "button_aria_label": "ブリッジングコンバーターに移動"
 }
