@@ -1,5 +1,151 @@
 {
-  "hero-title": "WATZPAAD",
-  "hero-title-two": "Unique web3 crowdfunding ecosystem",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "独特的 WEB3 众筹生态系统",
+    "description1": "您准备好访问一些最独特和最有前景的加密创业公司了吗？Blockboost 是您进入早期投资机会的门户，我们的团队对此进行了彻底审查。",
+    "description2": "成为 Blockboost 众筹生态系统的一部分还有许多其他优势，拥有独特的功能，如 Launchpad、Bridge & Swap AI、收益系统、Vault、Marketplace 和 Staking。",
+    "usdtRaised": "已筹集 USDT: $361,590.14 / $605,467",
+    "target": "目标: $250,000",
+    "listingPrice": "上市价格",
+    "receive": "接收",
+    "nextPrice": "下一个价格",
+    "availablePaymentMethods": "可用支付方式",
+    "connectWallet": "连接钱包",
+    "audit": "审计",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost 生态系统",
+    "box-one-title": "Launchpad",
+    "box-one-description": "决定您的等级，质押 $BBT，并参与我们以保证方式为您提供的所有代币发行。",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "通过连接不同的区块链，您可以在几个点击内将您的代币交换到不同的区块链网络。",
+    "box-three-title": "收益系统",
+    "box-three-description": "通过各种功能（如推荐奖励、质押奖励、Vault 奖励、NFT 销售）赚取被动收入。",
+    "box-four-title": "Vault",
+    "box-four-description": "通过选择各种 Vault 质押您的加密资产来赚取高收益 APY。"
+  },
+
+  "join-idos": {
+    "title": "轻松通过 3 个步骤加入 IDOs",
+    "box-one-title": "连接钱包",
+    "box-one-description": "购买 $BBT 代币并将您的钱包连接到 Launchpad 生态系统以参与。",
+    "box-two-title": "质押 $BBT 代币",
+    "box-two-description": "Block Boost 将展示一个基于质押代币数量的固定等级系统。",
+    "box-three-title": "参与销售",
+    "box-three-description": "通过我们的质押等级系统赢得确认的彩票，以参与 IDOs。"
+  },
+
+  "exclusive-benefits": {
+    "title": "在预售中购买 $WZP 的独特好处",
+    "box-one-title": "预售推荐奖励",
+    "box-one-description": "参与预售的早期阶段，以获得比发售价格更高的投资价值。此外，您可以推荐您的朋友，并在预售期间赚取 5% 的奖金。",
+    "box-two-title": "交易推荐奖励",
+    "box-two-description": "在成功发售后，您仍然可以通过我们仪表板应用程序中的唯一推荐链接进行推荐，并赚取您推荐的交易活动的 2% 交易奖励。",
+    "box-three-title": "持有奖励",
+    "box-three-description": "持有 $BBT 并赚取被动收入。只需坐下来放松，从交易量中获取您的持有奖励，并通过我们的 dapp 每小时领取。",
+    "box-four-title": "质押奖励",
+    "box-four-description": "质押 $BBT 以获得奖励并确保在 Launchpad 中的分配。它将从我们生态系统的质押供应中获得奖励。",
+    "box-five-title": "Vault 质押奖励",
+    "box-five-description": "质押任何代币以自动复利获利。您可以质押任何代币以获得 $BBT 作为复利奖励。它将从我们生态系统的 Vault 供应中获得奖励。"
+  },
+
+  "buy-presale": {
+    "title": "如何在预售中购买？",
+    "timeline": {
+      "connectWallet": {
+        "title": "连接钱包",
+        "description": "使用 Metamask 或 Trust Wallet 在几秒钟内连接您的钱包。"
+      },
+      "confirmTransaction": {
+        "title": "确认交易",
+        "description": "您可以使用 USDT、ETH 和 BNB 购买 $BBT。"
+      },
+      "claimToken": {
+        "title": "领取代币",
+        "description": "恭喜！您可以在预售结束后领取您的 $BBT。"
+      }
+    }
+  },
+
+  "roadmap": {
+    "title": "路线图",
+    "phases": {
+      "phase1": {
+        "title": "阶段 1",
+        "descriptionOne": "项目启动",
+        "descriptionTwo": "智能合约开发",
+        "descriptionThree": "网站上线",
+        "descriptionFour": "发布白皮书",
+        "descriptionFive": "与 Coinsult 进行合约审计"
+      },
+      "phase2": {
+        "title": "阶段 2",
+        "descriptionOne": "预售启动",
+        "descriptionTwo": "大型营销活动",
+        "descriptionThree": "blockboost.io 上的预售阶段 1-5",
+        "descriptionFour": "Launchpad 的 Beta 测试"
+      },
+      "phase3": {
+        "title": "阶段 3",
+        "descriptionOne": "Launchpad 的安全审计",
+        "descriptionTwo": "Launchpad 启动合法项目",
+        "descriptionThree": "预售阶段 6-10",
+        "descriptionFour": "与 Dapps 合作进行 Vault"
+      },
+      "phase4": {
+        "title": "阶段 4",
+        "descriptionOne": "NFT 市场上线",
+        "descriptionTwo": "$BBT 上线",
+        "descriptionThree": "在顶级交易所上市",
+        "descriptionFour": "更新的路线图"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "代币详情",
+    "title-two": "代币经济学",
+    "description": "代币的分配将在预售结束后进行。您将能够从我们的预售页面领取购买的 $BBT 代币。",
+    "name": "名称",
+    "boost-token": "Block Boost 代币",
+    "symbol": "符号",
+    "supply": "供应",
+    "billion": "十亿",
+    "tax": "税",
+    "buy-sell": "买/卖",
+    "type": "类型",
+    "token-contract-address": "代币合约地址",
+    "empty": "空",
+    "decimal": "小数",
+    "presale-details": "预售详情",
+    "live": "预售正在进行中",
+    "current-price": "当前 $BBT 价格",
+    "listing-price": "交易所上市价格",
+    "total-supply": "总供应量"
+  },
+
+  "powered-by": {
+    "title": "由...提供支持"
+  },
+
+  "faq": {
+    "title": "常见问题",
+    "question-one": "什么是 Blockboost？",
+    "answer-one": "Blockboost 是一个独特的众筹生态系统，专注于加密创业公司。",
+    "question-two": "我可以在哪里购买 Blockboost 代币，以及何时会收到它？",
+    "answer-two": "在预售期间，您可以从我们的官方网站 www.blockboost.io 购买 $BBT 代币；您可以在预售结束后从预售页面领取您的代币。",
+    "question-three": "我的奖励会每小时支付吗？",
+    "answer-three": "是的，您需要通过连接您的钱包从我们的官方 dapp 中领取奖励。",
+    "question-four": "我如何才能有资格获得预售奖励？",
+    "answer-four": "您可以从预售页面获取您的推荐链接，通过它进行的购买将自动记入您在预售页面上的帐户。您可以通过将钱包连接到预售页面进行检查。",
+    "question-five": "预售有多少个阶段？",
+    "answer-five": "预售分为 10 个阶段，$BBT 的价格将在每个阶段上升。",
+    "question-six": "是否有 $BBT 的质押？何时可以质押？",
+    "answer-six": "是的，请查看质押页面以获取有关质押池和奖励的完整信息。"
+  }
 }

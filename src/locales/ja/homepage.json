@@ -1,5 +1,151 @@
 {
-  "hero-title": "WATZPAAD",
-  "hero-title-two": "Unique web3 crowdfunding ecosystem",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "ユニークなWEB3クラウドファンディングエコシステム",
+    "description1": "最も独占的で有望な暗号スタートアップにアクセスする準備はできていますか？ブロックブーストは、私たちのチームが徹底的に審査した初期段階の投資機会へのゲートウェイです。",
+    "description2": "Launchpad、Bridge & Swap AI、収益システム、Vault、マーケットプレイス、ステーキングなどのユニークな機能を持つBlockboostクラウドファンディングエコシステムの一部になることには多くの利点があります。",
+    "usdtRaised": "USDT調達額: $361,590.14 / $605,467",
+    "target": "目標: $250,000",
+    "listingPrice": "上場価格",
+    "receive": "受け取る",
+    "nextPrice": "次の価格",
+    "availablePaymentMethods": "利用可能な支払い方法",
+    "connectWallet": "ウォレットを接続",
+    "audit": "監査",
+    "days": "日",
+    "hours": "時間",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boostエコシステム",
+    "box-one-title": "ローンチパッド",
+    "box-one-description": "$BBTをステークして、自分のティアを決定し、私たちが保証する方法で提供するすべてのトークンローンチに参加してください。",
+    "box-two-title": "ブリッジ & スワップAI",
+    "box-two-description": "異なるブロックチェーンに接続することで、数回のクリックでトークンを異なるブロックチェーンネットワークにスワップできます。",
+    "box-three-title": "収益システム",
+    "box-three-description": "紹介報酬、ステーキング報酬、ボールト報酬、NFT販売などのさまざまな機能を通じてパッシブインカムを得ることができます。",
+    "box-four-title": "ボールト",
+    "box-four-description": "さまざまなボールトを選択することで、暗号資産をステークして高い利回りAPYを得ることができます。"
+  },
+
+  "join-idos": {
+    "title": "3ステップで簡単にIDOに参加",
+    "box-one-title": "ウォレットを接続",
+    "box-one-description": "$BBTトークンを購入し、ローンチパッドエコシステムとウォレットを接続して参加してください。",
+    "box-two-title": "$BBTトークンをステーク",
+    "box-two-description": "Block Boostは、ステークしたトークンの数に基づいて固定ティアシステムを表示します。",
+    "box-three-title": "セールに参加",
+    "box-three-description": "私たちのステーキングティアシステムを通じて、IDOに参加するための確認済みの宝くじ券を獲得してください。"
+  },
+
+  "exclusive-benefits": {
+    "title": "$WZPをプレセールで購入する独占的な特典",
+    "box-one-title": "プレセール紹介報酬",
+    "box-one-description": "プレセールの初期段階に参加して、開始価格と比較して投資の評価を高めてください。また、友人を紹介して、プレセール中に5%のボーナスを獲得することもできます。",
+    "box-two-title": "取引紹介報酬",
+    "box-two-description": "成功したローンチ後も、ダッシュボードアプリのユニークな紹介リンクを通じて紹介し、紹介者の取引活動の2%の報酬を得ることができます。",
+    "box-three-title": "保有報酬",
+    "box-three-description": "$BBTを保有してパッシブインカムを得ます。座ってリラックスするだけで、$BBTの取引量から保有報酬の一部を受け取り、毎時間私たちのdappを通じて請求してください。",
+    "box-four-title": "ステーキング報酬",
+    "box-four-description": "$BBTをステークして報酬を獲得し、ローンチパッドの保証された配分を受け取ります。これは、私たちのエコシステムのステーキング供給から報酬されます。",
+    "box-five-title": "ボールトステーキング報酬",
+    "box-five-description": "任意のトークンをステークして自動的に複利で得ることができます。任意のトークンをステークして$BBTを複利報酬として獲得できます。これは私たちのエコシステムのボールト供給から報酬されます。"
+  },
+
+  "buy-presale": {
+    "title": "プレセールでの購入方法は？",
+    "timeline": {
+      "connectWallet": {
+        "title": "ウォレットを接続",
+        "description": "数秒でMetamaskまたはTrust Walletを使用してウォレットを接続します。"
+      },
+      "confirmTransaction": {
+        "title": "トランザクションを確認",
+        "description": "$BBTをUSDT、ETH、BNBで購入できます。"
+      },
+      "claimToken": {
+        "title": "トークンを請求",
+        "description": "おめでとうございます！プレセールが終了した後に$BBTを請求できます。"
+      }
+    }
+  },
+
+  "roadmap": {
+    "title": "ロードマップ",
+    "phases": {
+      "phase1": {
+        "title": "フェーズ 1",
+        "descriptionOne": "プロジェクト開始",
+        "descriptionTwo": "スマートコントラクトの開発",
+        "descriptionThree": "ウェブサイトのローンチ",
+        "descriptionFour": "ホワイトペーパーのリリース",
+        "descriptionFive": "Coinsultによる契約監査"
+      },
+      "phase2": {
+        "title": "フェーズ 2",
+        "descriptionOne": "プレセールの開始",
+        "descriptionTwo": "大規模なマーケティングキャンペーン",
+        "descriptionThree": "blockboost.ioでのプレセールステージ1-5",
+        "descriptionFour": "ローンチパッドのベータテスト"
+      },
+      "phase3": {
+        "title": "フェーズ 3",
+        "descriptionOne": "ローンチパッドのセキュリティ監査",
+        "descriptionTwo": "合法的なプロジェクトを立ち上げるためのローンチパッド",
+        "descriptionThree": "プレセールステージ6-10",
+        "descriptionFour": "ボールトのためのDappsとのパートナーシップ"
+      },
+      "phase4": {
+        "title": "フェーズ 4",
+        "descriptionOne": "NFTマーケットプレイスのローンチ",
+        "descriptionTwo": "$BBTのローンチ",
+        "descriptionThree": "トップティアの取引所への上場",
+        "descriptionFour": "更新されたロードマップ"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "トークンの詳細",
+    "title-two": "トークノミクス",
+    "description": "トークンの配分はプレセール終了後に行われます。購入した$BBTトークンをプレセールページから請求できます。",
+    "name": "名前",
+    "boost-token": "ブロックブーストトークン",
+    "symbol": "シンボル",
+    "supply": "供給",
+    "billion": "十億",
+    "tax": "税",
+    "buy-sell": "購入/販売",
+    "type": "タイプ",
+    "token-contract-address": "トークン契約アドレス",
+    "empty": "空",
+    "decimal": "小数",
+    "presale-details": "プレセールの詳細",
+    "live": "プレセールはライブです",
+    "current-price": "現在の$BBT価格",
+    "listing-price": "取引所の上場価格",
+    "total-supply": "総供給量"
+  },
+
+  "powered-by": {
+    "title": "Powered by"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "question-one": "Blockboostとは何ですか？",
+    "answer-one": "Blockboostは、暗号スタートアップのためのユニークなクラウドファンディングエコシステムです。",
+    "question-two": "Blockboostトークンはどこで購入でき、いつ受け取りますか？",
+    "answer-two": "プレセール中に、公式ウェブサイトwww.blockboost.ioから$BBTトークンを購入できます。プレセール終了後、プレセールページからトークンを請求できます。",
+    "question-three": "報酬は常に毎時支払われますか？",
+    "answer-three": "はい、公式dappからウォレットを接続して報酬を請求する必要があります。",
+    "question-four": "プレセール報酬の対象となるにはどうすればよいですか？",
+    "answer-four": "プレセールページから紹介リンクを取得し、それを通じて行われた購入は自動的にプレセールページのアカウントにクレジットされます。ウォレットをプレセールページに接続して確認できます。",
+    "question-five": "プレセールには何段階ありますか？",
+    "answer-five": "プレセールには10段階あり、$BBTの価格は各段階で上昇します。",
+    "question-six": "$BBTでステーキングはありますか？いつステーキング可能になりますか？",
+    "answer-six": "はい、ステーキングプールと報酬に関する完全な情報は、ステーキングページを参照してください。"
+  }
 }

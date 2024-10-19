@@ -1,5 +1,151 @@
 {
-  "hero-title": "WATZPAAD",
-  "hero-title-two": "Unique web3 crowdfunding ecosystem",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Einzigartiges WEB3 Crowdfunding-Ökosystem",
+    "description1": "Sind Sie bereit, auf einige der exklusivsten und vielversprechendsten Krypto-Startups zuzugreifen? Blockboost ist Ihr Tor zu frühen Investitionsmöglichkeiten, die unser Team gründlich geprüft hat.",
+    "description2": "Es gibt viele weitere Vorteile, Teil des Blockboost Crowdfunding-Ökosystems zu sein, mit einzigartigen Funktionen wie Launchpad, Bridge & Swap AI, Verdienstsystem, Vault, Marktplatz und Staking.",
+    "usdtRaised": "USDT gesammelt: $361.590,14 / $605.467",
+    "target": "ZIEL: $250.000",
+    "listingPrice": "Listenpreis",
+    "receive": "Erhalten",
+    "nextPrice": "Nächster Preis",
+    "availablePaymentMethods": "VERFÜGBARE ZAHLUNGSMETHODE",
+    "connectWallet": "Wallet verbinden",
+    "audit": "Prüfung",
+    "days": "Tage",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "seconds": "Sekunden"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost Ecosysteme",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Bestimmen Sie Ihre Stufe, setzen Sie $BBT ein und nehmen Sie an allen Token-Starts teil, die wir Ihnen auf garantierte Weise bringen.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "Durch die Verbindung mit verschiedenen Blockchains können Sie Ihre Tokens mit wenigen Klicks auf verschiedene Blockchain-Netzwerke tauschen.",
+    "box-three-title": "Verdienstsystem",
+    "box-three-description": "Verdienen Sie passives Einkommen durch verschiedene Funktionen wie Empfehlungsbelohnungen, Staking-Belohnungen, Vault-Belohnungen und NFT-Verkäufe.",
+    "box-four-title": "Vault",
+    "box-four-description": "Sie können eine hohe Rendite APY durch das Staking Ihrer Krypto-Assets erzielen, indem Sie die verschiedenen Vaults auswählen."
+  },
+
+  "join-idos": {
+    "title": "Einfacher Beitritt zu IDOs in 3 Schritten",
+    "box-one-title": "Wallet verbinden",
+    "box-one-description": "Kaufen Sie $BBT-Token und verbinden Sie Ihre Wallet mit dem Launchpad-Ökosystem, um teilzunehmen.",
+    "box-two-title": "$BBT-Token staken",
+    "box-two-description": "Block Boost wird ein festes Stufensystem basierend auf der Anzahl der gestakten Tokens präsentieren.",
+    "box-three-title": "An einem Verkauf teilnehmen",
+    "box-three-description": "Gewinnen Sie bestätigte Lotterietickets, um über unser Staking-Stufensystem an IDOs teilzunehmen."
+  },
+
+  "exclusive-benefits": {
+    "title": "Exklusive Vorteile beim Kauf von $WZP im Vorverkauf",
+    "box-one-title": "Belohnungen für Vorverkaufsreferenzen",
+    "box-one-description": "Nehmen Sie in der frühen Phase des Vorverkaufs teil, um eine höhere Bewertung Ihrer Investition im Vergleich zum Startpreis zu erhalten. Außerdem können Sie Ihre Freunde werben und sowohl 5% Bonus während des Vorverkaufs verdienen.",
+    "box-two-title": "Handelsreferenzbelohnungen",
+    "box-two-description": "Nach dem erfolgreichen Start können Sie weiterhin über Ihren einzigartigen Empfehlungslink aus unserer Dashboard-App werben und die 2% Handelsbelohnungen für die Handelsaktivitäten Ihrer Empfehlungen verdienen.",
+    "box-three-title": "Haltungsbelohnungen",
+    "box-three-description": "Halten Sie $BBT und verdienen Sie passives Einkommen. Setzen Sie sich einfach zurück und entspannen Sie sich, um Ihren Anteil an den Haltungsbelohnungen aus dem Handelsvolumen von $BBT zu erhalten und fordern Sie es über unsere Dapp jede Stunde an.",
+    "box-four-title": "Staking-Belohnungen",
+    "box-four-description": "Stake $BBT, um Belohnungen zu verdienen und eine garantierte Zuteilung für das Launchpad zu erhalten. Es wird aus dem Staking-Angebot unseres Ökosystems belohnt.",
+    "box-five-title": "Vault-Staking-Belohnungen",
+    "box-five-description": "Stake beliebige Tokens, um mit automatischem Zinseszins zu verdienen. Sie können jeden Token staken, um $BBT als Zinseszinsbelohnung zu verdienen. Es wird aus dem Vault-Angebot unseres Ökosystems belohnt."
+  },
+
+  "buy-presale": {
+    "title": "Wie kaufe ich im Vorverkauf?",
+    "timeline": {
+      "connectWallet": {
+        "title": "WALLET VERBINDEN",
+        "description": "Verwenden Sie Metamask oder Trust Wallet, um Ihre Wallet in Sekundenschnelle zu verbinden."
+      },
+      "confirmTransaction": {
+        "title": "TRANSAKTION BESTÄTIGEN",
+        "description": "Sie können $BBT mit USDT, ETH und BNB kaufen."
+      },
+      "claimToken": {
+        "title": "TOKEN ANFORDERN",
+        "description": "Herzlichen Glückwunsch! Sie können Ihre $BBT nach dem Ende des Vorverkaufs anfordern."
+      }
+    }
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "phases": {
+      "phase1": {
+        "title": "PHASE 1",
+        "descriptionOne": "Projektinitiierung",
+        "descriptionTwo": "Entwicklung des Smart Contracts",
+        "descriptionThree": "Launch der Website",
+        "descriptionFour": "Veröffentlichung des Whitepapers",
+        "descriptionFive": "Vertragsprüfung mit Coinsult"
+      },
+      "phase2": {
+        "title": "PHASE 2",
+        "descriptionOne": "Start des Vorverkaufs",
+        "descriptionTwo": "Große Marketingkampagne",
+        "descriptionThree": "Vorverkaufsphasen 1-5 auf blockboost.io",
+        "descriptionFour": "Beta-Test des Launchpads"
+      },
+      "phase3": {
+        "title": "PHASE 3",
+        "descriptionOne": "Sicherheitsaudits für das Launchpad",
+        "descriptionTwo": "Launchpad zum Start legitimer Projekte",
+        "descriptionThree": "Vorverkaufsphasen 6-10",
+        "descriptionFour": "Partnerschaft mit Dapps für Vault"
+      },
+      "phase4": {
+        "title": "PHASE 4",
+        "descriptionOne": "Start des NFT-Marktplatzes",
+        "descriptionTwo": "Launch von $BBT",
+        "descriptionThree": "Listing an führenden Börsen",
+        "descriptionFour": "Aktualisierte Roadmap"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Token-Details",
+    "title-two": "Tokenomics",
+    "description": "Die Verteilung des Tokens erfolgt nach Abschluss des Vorverkaufs. Sie können die gekauften $BBT-Tokens von unserer Vorverkaufsseite anfordern.",
+    "name": "Name",
+    "boost-token": "Block Boost Token",
+    "symbol": "Symbol",
+    "supply": "Angebot",
+    "billion": "Milliarde",
+    "tax": "Steuer",
+    "buy-sell": "Kaufen/Verkaufen",
+    "type": "Typ",
+    "token-contract-address": "Token-Vertragsadresse",
+    "empty": "leer",
+    "decimal": "Dezimal",
+    "presale-details": "Details zum Vorverkauf",
+    "live": "Der Vorverkauf ist live",
+    "current-price": "Aktueller $BBT-Preis",
+    "listing-price": "Börsenlistenpreis",
+    "total-supply": "Gesamtangebot"
+  },
+
+  "powered-by": {
+    "title": "Powered by"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "question-one": "Was ist Blockboost?",
+    "answer-one": "Blockboost ist ein einzigartiges Crowdfunding-Ökosystem für Krypto-Startups.",
+    "question-two": "Wo kann ich den Blockboost-Token kaufen und wann werde ich ihn erhalten?",
+    "answer-two": "Während des Vorverkaufs können Sie $BBT-Token von unserer offiziellen Website www.blockboost.io kaufen; Sie können Ihre Tokens nach Abschluss des Vorverkaufs von der Vorverkaufsseite anfordern.",
+    "question-three": "Werden meine Belohnungen immer stündlich ausgezahlt?",
+    "answer-three": "Ja, Sie müssen die Belohnung von unserer offiziellen Dapp anfordern, indem Sie Ihre Wallet verbinden.",
+    "question-four": "Wie kann ich für die Vorverkaufsbelohnungen berechtigt werden?",
+    "answer-four": "Sie können Ihren Empfehlungslink von der Vorverkaufsseite erhalten, und Einkäufe, die über diesen Link getätigt werden, werden automatisch Ihrem Konto auf der Vorverkaufsseite gutgeschrieben. Sie können dies überprüfen, indem Sie Ihre Wallet mit der Vorverkaufsseite verbinden.",
+    "question-five": "Wie viele Phasen gibt es im Vorverkauf?",
+    "answer-five": "Es gibt 10 Phasen im Vorverkauf, und der Preis von $BBT wird in jeder Phase steigen.",
+    "question-six": "Gibt es Staking auf $BBT und wann wird es verfügbar sein?",
+    "answer-six": "Ja, bitte sehen Sie sich die Staking-Seite für vollständige Informationen zu Staking-Pools und Belohnungen an."
+  }
 }
