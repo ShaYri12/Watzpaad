@@ -70,19 +70,23 @@ const BridgingConverter2 = () => {
 
               {/* ETH to BNB Conversion Section */}
               <div className="flex justify-between items-center mb-6">
-                <div className="flex items-center bg-gray-700 p-2 lg:p-4 rounded-lg">
-                  <img
-                    src="/assets/icons//ETH with bg.svg"
-                    alt="ETH"
-                    className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
-                  />
-                  <div>
-                    <p className="text-[14px] lg:text-lg font-semibold">
-                      2.000 ETH
-                    </p>
-                    <p className="text-[10px] lg:text-sm text-gray-400">
-                      Ethereum chain
-                    </p>
+                <div className="">
+                  <div className="card-border-wide h-full p-[1px]">
+                    <div className="flex items-center bg-[#161F2C] p-2 lg:p-4 rounded-[20px] relative z-[2]">
+                      <img
+                        src="/assets/icons//ETH with bg.svg"
+                        alt="ETH"
+                        className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
+                      />
+                      <div>
+                        <p className="text-[14px] lg:text-lg font-semibold">
+                          2.000 ETH
+                        </p>
+                        <p className="text-[10px] lg:text-sm text-gray-400">
+                          Ethereum chain
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -96,19 +100,23 @@ const BridgingConverter2 = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center bg-gray-700 p-2 lg:p-4 rounded-lg">
-                  <img
-                    src="/assets/icons/bnb.png"
-                    alt="BNB"
-                    className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
-                  />
-                  <div>
-                    <p className="text-[14px] lg:text-lg font-semibold">
-                      8.6951 BNB
-                    </p>
-                    <p className="text-[10px] lg:text-sm text-gray-400">
-                      BSC Chain
-                    </p>
+                <div className="">
+                  <div className="card-border-wide h-full p-[1px]">
+                    <div className="flex items-center bg-[#161F2C] p-2 lg:p-4 rounded-[20px] relative z-[2]">
+                      <img
+                        src="/assets/icons/bnb.png"
+                        alt="BNB"
+                        className="w-6 lg:w-10 h-6 lg:h-10 mr-3"
+                      />
+                      <div>
+                        <p className="text-[14px] lg:text-lg font-semibold">
+                          8.6951 BNB
+                        </p>
+                        <p className="text-[10px] lg:text-sm text-gray-400">
+                          BSC Chain
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -119,38 +127,42 @@ const BridgingConverter2 = () => {
               </p>
 
               {/* Step and Fees Section */}
-              <div className="flex flex-col lg:flex-row justify-between items-center xl:gap-[96px] md:gap-[30px] gap-[12px] bg-gray-700 p-6 rounded-lg mb-6">
-                <div>
-                  <p className="text-[25px] leading-[29px]  ">Step 1</p>
-                  <div className="flex gap-3 mt-3">
-                    <img
-                      src="/assets/icons/ETH with bg.svg"
-                      alt=""
-                      className="h-8 w-8"
-                    />
-
+              <div className="md:mb-6 mb-[20px]">
+                <div className="card-border-wide h-full p-[1px]">
+                  <div className="flex flex-col lg:flex-row justify-between items-center xl:gap-[96px] md:gap-[30px] gap-[12px] bg-[#161F2C] p-6 rounded-[20px] relative z-[2]">
                     <div>
-                      <p className="text-gray-400">
-                        n publishing and graphic design
-                      </p>
-                      <p className="text-gray-400">00000000000000</p>
+                      <p className="text-[25px] leading-[29px]  ">Step 1</p>
+                      <div className="flex gap-3 mt-3">
+                        <img
+                          src="/assets/icons/ETH with bg.svg"
+                          alt=""
+                          className="h-8 w-8"
+                        />
+
+                        <div>
+                          <p className="text-gray-400">
+                            n publishing and graphic design
+                          </p>
+                          <p className="text-gray-400">00000000000000</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div>
-                  <p className="text-[25px] leading-[29px]  ">Fees</p>
-                  <div className="flex gap-3 mt-3">
-                    <img
-                      src="/assets/icons/ETH with bg.svg"
-                      alt=""
-                      className="h-8 w-8"
-                    />
-
                     <div>
-                      <p className="text-gray-400">
-                        n publishing and graphic design
-                      </p>
-                      <p className="text-gray-400">00000000000000</p>
+                      <p className="text-[25px] leading-[29px]  ">Fees</p>
+                      <div className="flex gap-3 mt-3">
+                        <img
+                          src="/assets/icons/ETH with bg.svg"
+                          alt=""
+                          className="h-8 w-8"
+                        />
+
+                        <div>
+                          <p className="text-gray-400">
+                            n publishing and graphic design
+                          </p>
+                          <p className="text-gray-400">00000000000000</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -158,7 +170,7 @@ const BridgingConverter2 = () => {
             </div>
 
             {/* No Funds Message */}
-            <div>
+            <div className="md:pb-0 pb-2">
               <p className="bg-[#38DCC8] w-fit mx-auto text-center text-black text-[11px] leading-[14px] lg:text-[18px] lg:leading-[23px] py-[10px] px-[20px] rounded-lg font-[400]">
                 You do not have funds to complete the transaction
               </p>

@@ -84,7 +84,7 @@ const Stacking = () => {
                 className="bg-[#1F2835CC] rounded-[13.09px] border-[2.6px] border-[#303945] flex flex-col sm:p-[11px] p-[9.28px]"
               >
                 <div className="card-border p-[1.96px] w-full">
-                  <div className="rounded-[6.55px] flex flex-col sm:gap-[28px] md:px-[12px] px-[10.12px] gap-[23.62px] relative z-[2]">
+                  <div className="rounded-[6.55px] flex flex-col sm:gap-[28px] md:px-[12px] px-[10.12px] gap-[23.62px] relative z-[2] w-full">
                     <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px]">
                       <div className="md:min-w-[90px] min-w-[75.91px] md:min-h-[90px] min-h-[75.91px]">
                         <img

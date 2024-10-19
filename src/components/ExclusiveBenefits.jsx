@@ -36,74 +36,84 @@ const ExclusiveBenefits = () => {
             className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="p-[18px] flex items-center flex-col text-center border-[1.56px] border-[#38DCC866] rounded-md">
-              <img src={PresaleRewards} alt="launchpad" />
-              <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
-              {t("exclusive-benefits.box-one-title")}
-              </h2>
-              <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
-              {t("exclusive-benefits.box-one-description")}
-              </p>
+            <div className="card-border w-full h-full p-[2px]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+                <img src={PresaleRewards} alt="launchpad" />
+                <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
+                  {t("exclusive-benefits.box-one-title")}
+                </h2>
+                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                  {t("exclusive-benefits.box-one-description")}
+                </p>
+              </div>
             </div>
           </div>
           <div
             className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="p-[18px] flex items-center flex-col text-center border-[1.56px] border-[#38DCC866] rounded-md">
-              <img src={ReferralRewards} alt="launchpad" />
-              <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
-              {t("exclusive-benefits.box-two-title")}
-              </h2>
-              <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
-              {t("exclusive-benefits.box-two-description")}
-              </p>
+            <div className="card-border w-full h-full p-[2px]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+                <img src={ReferralRewards} alt="launchpad" />
+                <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
+                  {t("exclusive-benefits.box-two-title")}
+                </h2>
+                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                  {t("exclusive-benefits.box-two-description")}
+                </p>
+              </div>
             </div>
           </div>
           <div
             className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="p-[18px] flex items-center flex-col text-center border-[1.56px] border-[#38DCC866] rounded-md">
-              <img src={TradingRewards} alt="launchpad" />
-              <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
-              {t("exclusive-benefits.box-three-title")}
-              </h2>
-              <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
-              {t("exclusive-benefits.box-three-description")}
-              </p>
+            <div className="card-border w-full h-full p-[2px]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+                <img src={TradingRewards} alt="launchpad" />
+                <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
+                  {t("exclusive-benefits.box-three-title")}
+                </h2>
+                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                  {t("exclusive-benefits.box-three-description")}
+                </p>
+              </div>
             </div>
           </div>
           <div
             className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="p-[18px] flex items-center flex-col text-center border-[1.56px] border-[#38DCC866] rounded-md">
-              <img
-                src={VaultStackingRewards}
-                alt="launchpad"
-                className="mb-1"
-              />
-              <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
-              {t("exclusive-benefits.box-four-title")}
-              </h2>
-              <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
-              {t("exclusive-benefits.box-four-description")}
-              </p>
+            <div className="card-border w-full h-full p-[2px]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+                <img
+                  src={VaultStackingRewards}
+                  alt="launchpad"
+                  className="mb-1"
+                />
+                <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
+                  {t("exclusive-benefits.box-four-title")}
+                </h2>
+                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                  {t("exclusive-benefits.box-four-description")}
+                </p>
+              </div>
             </div>
           </div>
           <div
             className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="p-[18px] flex items-center flex-col text-center border-[1.56px] border-[#38DCC866] rounded-md">
-              <img src={StackingRewards} alt="launchpad" />
-              <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
-              {t("exclusive-benefits.box-five-title")}
-              </h2>
-              <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
-              {t("exclusive-benefits.box-five-description")}
-              </p>
+            <div className="card-border w-full h-full p-[2px]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+                <img src={StackingRewards} alt="launchpad" />
+                <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
+                  {t("exclusive-benefits.box-five-title")}
+                </h2>
+                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                  {t("exclusive-benefits.box-five-description")}
+                </p>
+              </div>
             </div>
           </div>
         </div>
