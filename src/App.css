@@ -251,10 +251,10 @@
     rgba(56, 220, 200, 0) 89.18%
   );
   z-index: -2; /* Ensure it's behind the card-border-faq content */
-  animation: border 8s linear infinite; /* Gradient animation */
+  animation: borderfaq 8s linear infinite; /* Gradient animation */
 }
 
-@keyframes border {
+@keyframes borderfaq {
   0% {
     transform: rotateZ(0deg);
     animation-timing-function: ease-in; /* Speed up at the start */
@@ -316,10 +316,10 @@
     rgba(56, 220, 200, 0) 89.18%
   );
   z-index: -2; /* Ensure it's behind the border-tabs content */
-  animation: border 8s linear infinite; /* Gradient animation */
+  animation: bordertabs 8s linear infinite; /* Gradient animation */
 }
 
-@keyframes border {
+@keyframes bordertabs {
   0% {
     transform: rotateZ(0deg);
     animation-timing-function: ease-in; /* Speed up at the start */
