@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const languages = [
+const languages = [  
   { code: "en", name: "English", flag: "https://flagcdn.com/w320/us.png" },
   { code: "ar", name: "Arabic", flag: "https://flagcdn.com/w320/sa.png" },
   { code: "de", name: "German", flag: "https://flagcdn.com/w320/de.png" },
