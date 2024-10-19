@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "أيقونة الرمز",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "ابدأ",
+    "summary": "ملخص",
+    "ponder": "تأمل"
+  },
+  "form": {
+    "want_to": "أريد أن",
+    "from": "من",
+    "chain_my": "السلسلة، الخاصة بي",
+    "to": "إلى",
+    "chain": "السلسلة",
+    "tokens": "الرموز"
+  },
+  "swap_bridge": "تبديل/جسر",
+  "ethereum": "الإيثيريوم",
+  "eth_token": "إيث",
+  "bcs_chain": "بي سي إس",
+  "bnb_token": "بي إن بي",
+  "submit_button": "لنذهب"
+}

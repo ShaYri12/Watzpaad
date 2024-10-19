@@ -1,23 +1,23 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "Icona del token",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "Inizio",
+    "summary": "Riepilogo",
+    "ponder": "Riflettere"
   },
   "form": {
-    "want_to": "I want to",
-    "from": "from",
-    "chain_my": "Chain, my",
-    "to": "to",
-    "chain": "chain",
-    "tokens": "tokens"
+    "want_to": "Voglio",
+    "from": "da",
+    "chain_my": "catena, mia",
+    "to": "a",
+    "chain": "catena",
+    "tokens": "token"
   },
-  "swap_bridge": "SWAP/BRIDGE",
+  "swap_bridge": "SCAMBIARE/PONTE",
   "ethereum": "Ethereum",
   "eth_token": "Eth",
   "bcs_chain": "BCS",
   "bnb_token": "BNB",
-  "submit_button": "Let’s Go"
+  "submit_button": "Andiamo"
 }

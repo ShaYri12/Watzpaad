@@ -1,23 +1,23 @@
 {
-  "token_icon_alt": "Token Icon",
+  "token_icon_alt": "トークンアイコン",
   "balance_placeholder": "000000000000",
   "progress": {
-    "start": "Start",
-    "summary": "Summary",
-    "ponder": "Ponder"
+    "start": "開始",
+    "summary": "概要",
+    "ponder": "考える"
   },
   "form": {
-    "want_to": "I want to",
-    "from": "from",
-    "chain_my": "Chain, my",
-    "to": "to",
-    "chain": "chain",
-    "tokens": "tokens"
+    "want_to": "私はしたい",
+    "from": "から",
+    "chain_my": "チェーン、私の",
+    "to": "へ",
+    "chain": "チェーン",
+    "tokens": "トークン"
   },
-  "swap_bridge": "SWAP/BRIDGE",
-  "ethereum": "Ethereum",
+  "swap_bridge": "スワップ/ブリッジ",
+  "ethereum": "イーサリアム",
   "eth_token": "Eth",
   "bcs_chain": "BCS",
   "bnb_token": "BNB",
-  "submit_button": "Let’s Go"
+  "submit_button": "行こう"
 }
