@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { BiSearch } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoNotifications } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const DashboardHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,11 +51,16 @@ const DashboardHeader = () => {
   return (
     <div className="lg:ps-[30px] lg:pe-[30px] md:ps-[15px] md:pe-[15px] ps-[19px] pe-[55px] md:py-[25px] py-[10px] md:bg-transparent bg-[#1B2430] md:relative fixed top-0 left-0 w-full md:block flex items-center justify-between shadow-lg z-[999]">
       <div className="md:hidden block">
-        <h3 className="text-[16.83px] leading-[19.35px] text-white">
-          LOREM
-          <br />
-          <span className="text-primaryColor">ISPUN</span>
-        </h3>
+        <Link to="/">
+          <img
+            src="/assets/icons/logo.png"
+            className="xl:max-w-full max-w-[170px] mx-auto sm:block hidden"
+          />
+          <img
+            src="/assets/icons/B-logo-white.png"
+            className="xl:max-w-full max-w-[170px] h-[37px] mx-auto sm:hidden block"
+          />
+        </Link>
       </div>
       <div className="flex items-center justify-end lg:space-x-[18px] space-x-[9px] md:max-w-[1280px] md:mx-auto">
         {/* Dropdown Section */}

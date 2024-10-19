@@ -11,7 +11,7 @@ const DashboardVault = () => {
           </h2>
           <p className="mt-[14.8px] text-[#798DA3] text-[12.11px] md:text-[18px] font-[300]">
             Stake Tokens to earn with Automatic Compounding. Users can stake Any
-            Token to earn MAP. Refer your friends to earn 5% on their extra
+            Token to earn BBT. Refer your friends to earn 5% on their extra
             rewards.
           </p>
         </div>
@@ -22,7 +22,7 @@ const DashboardVault = () => {
           <div className="md:order-2 order-1 md:py-[38.5px] py-[10px] md:px-[19.5px] px-[10px] rounded-[10.17px] md:rounded-[20px] bg-primaryColor flex md:items-center items-start gap-[9.66px] w-fit">
             <div>
               <p className="text-[12px] md:text-[18px] text-black">
-                MAP Bounty
+                BBT Bounty
               </p>
               <h4 className="text-[20.63px] md:text-[40.58px] md:leading-[46.67px] leading-[23.73px] text-black">
                 24.499

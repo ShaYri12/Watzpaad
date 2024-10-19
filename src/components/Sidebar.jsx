@@ -55,7 +55,7 @@ const Sidebar = () => {
 
       {/* Menu icon to toggle sidebar */}
       <div
-        className="menu-icon md:hidden flex fixed top-[12px] right-[14px] w-[34px] h-[34px] cursor-pointer z-[9998]"
+        className="menu-icon md:hidden flex fixed sm:top-[9px] top-[10.7px] right-[14px] w-[34px] h-[34px] cursor-pointer z-[9998]"
         onClick={() => setIsOpen(!isOpen)} // Toggle sidebar visibility
       >
         <img
@@ -93,7 +93,12 @@ const Sidebar = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            LOGO HERE
+            <Link to="/">
+              <img
+                src="/assets/icons/logo.png"
+                className="xl:max-w-full max-w-[170px] mx-auto"
+              />
+            </Link>
           </div>
           <span
             className={`w-full absolute md:top-[4.9rem] top-[5.6rem] left-0`}
@@ -169,7 +174,12 @@ const Sidebar = () => {
               marginBottom: "2rem",
             }}
           >
-            LOGO HERE
+            <Link to="/">
+              <img
+                src="/assets/icons/logo.png"
+                className="xl:max-w-full max-w-[170px] mx-auto"
+              />
+            </Link>
           </div>
           <span
             style={{
