@@ -282,3 +282,68 @@
   /* inset: 2px; */
   border-radius: 13.34px;
 }
+
+/* Animated border */
+.border-tabs {
+  position: relative;
+  width: 100%;
+  border-radius: 37.1px;
+  isolation: isolate;
+  background-color: #1f2835cc;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  overflow: hidden;
+}
+
+.border-tabs::before,
+.border-tabs::after {
+  content: "";
+  position: absolute;
+}
+
+.border-tabs::before {
+  content: ""; /* Create content for the pseudo-element */
+  position: absolute;
+  width: 150%;
+  height: 130%;
+  background: linear-gradient(
+    0deg,
+    rgba(56, 220, 200, 0) 13.7%,
+    rgba(56, 220, 200, 0.4) 27.55%,
+    #02695d 36.4%,
+    #38dcc8 53.88%,
+    rgba(56, 220, 200, 0) 89.18%
+  );
+  z-index: -2; /* Ensure it's behind the border-tabs content */
+  animation: border 8s linear infinite; /* Gradient animation */
+}
+
+@keyframes border {
+  0% {
+    transform: rotateZ(0deg);
+    animation-timing-function: ease-in; /* Speed up at the start */
+  }
+  10% {
+    transform: rotateZ(-36deg); /* First 10% faster */
+    animation-timing-function: ease-out; /* Slow down after */
+  }
+  30% {
+    transform: rotateZ(-180deg); /* Reach halfway */
+    animation-timing-function: ease-in-out; /* Slow, then increase speed for the next 10% */
+  }
+  60% {
+    transform: rotateZ(-216deg); /* Increase speed for this 10% */
+    animation-timing-function: ease-in-out; /* Then slow down */
+  }
+  100% {
+    transform: rotateZ(-360deg); /* Complete the rotation */
+    animation-timing-function: ease-in-out; /* Slow down at the end */
+  }
+}
+
+.border-tabs::after {
+  background-color: #1f2835;
+  /* inset: 2px; */
+  border-radius: 37.1px;
+}
