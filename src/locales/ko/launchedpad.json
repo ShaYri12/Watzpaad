@@ -1,0 +1,72 @@
+{
+    "hero": {
+        "title": "가장 안전한 런치패드. 멀티 체인.",
+        "description": "BlockBoost는 프로젝트가 자금을 모집하고 초기 투자자에게 안전성을 약속할 수 있도록 하는 분산형 멀티 체인 펀드레이징 플랫폼입니다. BlockBoost 토큰을 스테이킹하여 유망한 프로젝트에 우선적으로 접근하세요."
+    },
+
+    "key-features": {
+        "title": "BlockBoost 주요 기능",
+        "description": "블록체인에서 엄선된 고품질 프로젝트 출시",
+        "box-one-title": "공정하고 투명함",
+        "box-one-description": "모든 BlockBoost 토큰 보유자는 다가오는 유망한 프로젝트에 참여할 동등한 기회를 가지고 있으며 초기 투자자가 되어 성공 스토리의 일부가 될 수 있습니다.",
+        "box-two-title": "Rug-Proof 메커니즘",
+        "box-two-description": "어떤 프로젝트가 우리 플랫폼에 올라오기 전에 엄격한 스마트 계약 감사 과정을 거칩니다. 스마트 계약 감사를 수행하면 배포 전에 취약점을 식별하고 수정하는 데 도움이 됩니다.",
+        "box-three-title": "보장된 할당",
+        "box-three-description": "스테이킹을 한 후, 우리는 모든 IDO에 등록해야 하므로 보장된 할당을 계산할 수 있습니다. 등록이 완료되면, 귀하의 토큰은 잠기지만 다른 IDO에도 여전히 참여할 수 있습니다.",
+        "box-four-title": "고품질 프로젝트",
+        "box-four-description": "BlockBoost는 우리 팀이 철저히 검토한 초기 투자 기회의 관문입니다."
+    },
+
+    "ido-staking": {
+        "title": "IDO 참여를 위한 스테이킹",
+        "description": "스테이킹 후에는 모든 IDO에 등록해야 하므로 보장된 할당을 계산할 수 있습니다. 등록이 완료되면 귀하의 토큰은 잠기지만 다른 IDO에도 여전히 참여할 수 있습니다.",
+        "level": "레벨: 없음",
+        "stack": "스테이킹: 0 BBT",
+        "tokens": "귀하의 토큰이 해제되었습니다.",
+        "balance": "잔고:",
+        "max": "최대",
+        "approve": "승인",
+        "unstake": "언스테이킹",
+        "levels": "$BBT 레벨",
+        "desc": "어떤 티어에 해당하기 위해서는 다음과 같이 스테이킹해야 합니다:",
+        "bbtof": "BBT Of",
+        "forchances": "기회 (10% 로또) 5일 동안",
+        "forprospect": "전망 (25% 로또) 5일 동안",
+        "foraffiliate": "제휴 (50% 로또) 5일 동안",
+        "formember": "회원 5일 동안",
+        "forclub": "클럽 5일 동안",
+        "forassociate": "어소시에이트 5일 동안",
+        "description-one": "스테이킹 후 IDO에 등록해야 합니다.",
+        "description-two": "IDO 등록 기간이 시작되면(보통 IDO 시작 24시간 전), 풀 페이지를 열고 풀 카드의 '등록' 버튼을 클릭해야 합니다.",
+        "description-three": "IDO에 등록하면 귀하의 레벨이 기록됩니다(이 특정 IDO에 대해). 등록 후에는 더 높은 레벨로 변경할 수 없습니다. 따라서 등록하기 전에 원하는 레벨에 있는지 확인하세요. 더 높은 레벨로 더 많이 스테이킹하고 다른 IDO에 등록할 수 있습니다."
+    },
+
+    "ido-projects": {
+        "upcoming": "예정된",
+        "title": "BlockBoost 세일",
+        "description": "독특한 WEB3 크라우드펀딩 생태계",
+        "swap-rate": "스왑 비율:",
+        "per": "당",
+        "start": "시작:",
+        "total-raise": "총 모금액"
+    },
+
+    "levels": {
+        "title": "BlockBoost 계층 시스템",
+        "description": "BlockBoost는 스테이킹된 토큰 수에 따라 고정된 계층 시스템을 선보입니다. 로또 계층은 총 모금액의 20%를 공유하며 나머지 80%는 할당 풀 가중치에 따라 보장된 할당 계층에 배분됩니다.",
+        "staking-requirements": "스테이킹 요구 사항",
+        "staking-length-required": "할당 라운드 오픈 3시간 전",
+        "whitelist-requirement": "화이트리스트 요구 사항 트위터",
+        "lottery-tickets": "로또 티켓",
+        "guaranteed-allocation": "보장된 할당",
+        "pool-weight": "풀 가중치",
+        "private-allocations": "개인 할당",
+        "yes": "예",
+        "bronze": "브론즈",
+        "silver": "실버",
+        "gold": "골드",
+        "platinum": "플래티넘",
+        "diamond": "다이아몬드",
+        "blue-diamond": "블루 다이아몬드"
+    }
+}
