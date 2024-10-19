@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Parrainage de Prévente",
+      "titleWhite": "Prévente",
       "titleColor": "Récompenses",
       "description": "Participez à la phase initiale de la prévente pour obtenir des $BBT à un prix plus bas, car le prix augmente à chaque étape de la prévente. De plus, vous pouvez recommander vos amis et gagner 5 % en récompense sur le montant qu'ils investissent pendant la prévente. Il n'y a aucune limite au nombre de parrainages pour gagner des récompenses passives sur leurs investissements."
     },
     "trading": {
-      "titleWhite": "Parrainage de Trading",
+      "titleWhite": "Commerce",
       "titleColor": "Récompenses",
       "description": "Après le lancement du token $BBT, vous pouvez toujours parrainer et gagner grâce à votre lien de parrainage unique via notre application de tableau de bord et obtenir 2 % de récompenses de trading sur les activités de trading de vos filleuls à vie, chaque fois qu'ils achètent ou vendent des tokens $BBT."
     },
@@ -25,7 +25,7 @@
       "description": "Faites du staking avec des $BBT pour gagner des récompenses et obtenir une allocation garantie pour la plateforme de lancement. Les récompenses proviendront de l'offre de staking de notre écosystème. Même après cela, vous resterez éligible pour recevoir des récompenses de détention qui sont distribuées à partir des volumes de trading des tokens $BBT."
     },
     "vault": {
-      "titleWhite": "Staking en Coffre-Fort",
+      "titleWhite": "Coffre",
       "titleColor": "Récompenses",
       "description": "Faites du staking avec n'importe quel token pour gagner avec un système de capitalisation automatique. Vous pouvez staker n'importe quel token pour gagner des $BBT en tant que récompenses de capitalisation automatique. Les récompenses seront issues de l'offre de coffre-fort de notre écosystème. Vous pouvez débloquer vos tokens à tout moment avec vos récompenses composées en tokens $BBT."
     }

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { MarketData } from "../assets/MarketData";
 
 export default function TradingMarket({ dashboard = false }) {
+  const navigate = useNavigate();
   const { id } = useParams(); // Get the ID from the URL
   const [item, setItem] = useState(null);
   const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
@@ -54,9 +55,9 @@ export default function TradingMarket({ dashboard = false }) {
     >
       <img
         src="/assets/trading-market-bg-shade.png"
-        className={`w-full h-full absolute top-0 left-0 z-[1]${
+        className={`w-full h-full absolute top-0 left-0 z-[1] ${
           dashboard && "hidden"
-        }]`}
+        }`}
       />
       <div className="relative z-20 max-w-[1280px] mx-auto">
         <div
@@ -225,21 +226,8 @@ export default function TradingMarket({ dashboard = false }) {
           </div>
         </div>
 
-        <button
-          className={`${
-            dashboard && "hidden"
-          } mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]`}
-          style={{
-            boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
-          }}
-        >
-          Back
-        </button>
-
         <div
-          className={`border-[3px] border-[#303945] flex flex-col md:gap-[34px] gap-[31px] md:py-[50px] py-[24.47px] md:px-[46px] px-[27px] md:mt-[66px] ${
-            dashboard ? "md:mt-[31px] mt-[33px]" : "mt-[71px]"
-          } rounded-[26.71px]`}
+          className="border-[3px] border-[#303945] flex flex-col md:gap-[34px] gap-[31px] md:py-[50px] py-[24.47px] md:px-[46px] px-[27px] md:mt-[66px] md:mt-[31px] mt-[33px] rounded-[26.71px]"
           style={{ backdropFilter: "blur(29.689451217651367px)" }}
         >
           <h4 className="text-white text-[27.82px] md:text-[30px] font-[700]">
@@ -259,12 +247,11 @@ export default function TradingMarket({ dashboard = false }) {
         </div>
 
         <button
-          className={`${
-            !dashboard && "hidden"
-          } mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]`}
+          className="mt-[37px] bg-primaryColor text-black text-[14.35px] md:text-[18px] font-[400] md:py-[15px] py-[12px] px-[28px] rounded-full md:w-[153px] w-[122px]"
           style={{
             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
           }}
+          onClick={() => navigate(-1)} // Go back to the previous page
         >
           Back
         </button>

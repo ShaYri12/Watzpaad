@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Giới thiệu Bán Trước",
+      "titleWhite": "Bán trước",
       "titleColor": "Thưởng",
       "description": "Tham gia vào giai đoạn đầu của bán trước để nhận $BBT với giá thấp hơn vì giá ở mỗi giai đoạn bán trước đều tăng lên. Ngoài ra, bạn có thể giới thiệu bạn bè để nhận 5% như là phần thưởng từ số tiền họ đã đầu tư trong suốt thời gian bán trước. Không có giới hạn nào cho việc giới thiệu để kiếm thưởng thụ động từ các khoản đầu tư của họ."
     },
     "trading": {
-      "titleWhite": "Giới thiệu Giao Dịch",
+      "titleWhite": "Giao dịch",
       "titleColor": "Thưởng",
       "description": "Sau khi ra mắt token $BBT, bạn vẫn có thể giới thiệu và kiếm tiền thông qua liên kết giới thiệu duy nhất của bạn từ ứng dụng bảng điều khiển của chúng tôi và nhận 2% thưởng giao dịch từ hoạt động giao dịch của những người bạn giới thiệu trong suốt cuộc đời của họ mỗi khi họ mua hoặc bán token $BBT."
     },
@@ -25,7 +25,7 @@
       "description": "Stake $BBT để nhận thưởng và có được phân bổ đảm bảo cho nền tảng khởi chạy. Nó sẽ được thưởng từ nguồn cung staking của hệ sinh thái của chúng tôi. Ngay cả khi bạn đủ điều kiện nhận phần thưởng giữ được phân phối từ khối lượng giao dịch của các token $BBT."
     },
     "vault": {
-      "titleWhite": "Staking Kho",
+      "titleWhite": "Hầm",
       "titleColor": "Thưởng",
       "description": "Stake bất kỳ token nào để kiếm với hệ thống tự động cộng dồn. Bạn có thể stake bất kỳ token nào để nhận $BBT như là phần thưởng tự động cộng dồn. Nó sẽ được thưởng từ nguồn cung kho của hệ sinh thái của chúng tôi. Bạn có thể mở khóa token của mình bất kỳ lúc nào với phần thưởng đã cộng dồn của bạn trong các token $BBT."
     }

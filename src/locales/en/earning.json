@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Presale Referral",
+      "titleWhite": "Presale",
       "titleColor": "Rewards",
       "description": "Participate in early stage of presale to get $BBT at lower price because each stages of presales price are getting increased. Also, you can refer your friends to earn both 5% as an rewards of their invested amount during presale. There are no limits of referring to earn passive reward of their investments. "
     },
     "trading": {
-      "titleWhite": "Trading Referral",
+      "titleWhite": "Trading",
       "titleColor": "Rewards",
       "description": "After launch of $BBT token still you can refer and earn through your unique referral link from our dashboard app and earn the 2% trading rewards of your referrals trading activities lifetime whenever they buy or sell the $BBT tokens."
     },
@@ -25,7 +25,7 @@
       "description": "Stake $BBT to earn reward and get guaranteed allocation for the launchpad. It will be rewarded from staking supply of our ecosystem. Even after you are eligible for getting the holding rewards which are distributed from trading volumes of $BBT tokens."
     },
     "vault": {
-      "titleWhite": "Vault Staking",
+      "titleWhite": "Vault",
       "titleColor": "Rewards",
       "description": "Stake any tokens to earn with automatic compounding system. You can stake any token to earn $BBT as an auto compounding rewards. It will be rewarded from vault supply of our ecosystem. You can unlock the your tokens anytime with your compounded rewards in $BBT tokens."
     }

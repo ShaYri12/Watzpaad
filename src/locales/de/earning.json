@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Presale-Empfehlung",
+      "titleWhite": "Vorverkauf",
       "titleColor": "Belohnungen",
       "description": "Nehmen Sie an der frühen Phase des Presales teil, um $BBT zu einem niedrigeren Preis zu erhalten, da der Preis in jeder Phase des Presales steigt. Außerdem können Sie Ihre Freunde werben und 5 % der von ihnen während des Presales investierten Summe als Belohnung erhalten. Es gibt keine Grenzen für Empfehlungen, um passive Belohnungen aus ihren Investitionen zu verdienen."
     },
     "trading": {
-      "titleWhite": "Handelsempfehlung",
+      "titleWhite": "Handel",
       "titleColor": "Belohnungen",
       "description": "Auch nach dem Start des $BBT-Tokens können Sie weiterhin über Ihren einzigartigen Empfehlungslink in unserer Dashboard-App werben und 2 % Handelsbelohnungen auf die Handelsaktivitäten Ihrer Empfehlungen verdienen, wenn sie $BBT-Token kaufen oder verkaufen."
     },
@@ -25,7 +25,7 @@
       "description": "Staken Sie $BBT, um Belohnungen zu verdienen und eine garantierte Zuteilung für die Launchpad zu erhalten. Die Belohnungen werden aus dem Staking-Angebot unseres Ökosystems vergeben. Selbst danach sind Sie weiterhin berechtigt, die Haltebelohnungen zu erhalten, die aus dem Handelsvolumen der $BBT-Token verteilt werden."
     },
     "vault": {
-      "titleWhite": "Vault-Staking",
+      "titleWhite": "Tresor",
       "titleColor": "Belohnungen",
       "description": "Staken Sie beliebige Tokens, um mit einem automatischen Zinseszins-System zu verdienen. Sie können jedes Token staken, um $BBT als automatisch zusammengestellte Belohnung zu erhalten. Die Belohnungen werden aus dem Vault-Angebot unseres Ökosystems vergeben. Sie können Ihre Tokens jederzeit freischalten, zusammen mit den zusammengestellten Belohnungen in $BBT-Token."
     }

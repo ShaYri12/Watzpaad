@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Program poleceń przedsprzedaży",
+      "titleWhite": "Przedsprzedaż",
       "titleColor": "Nagrody",
       "description": "Weź udział w wczesnej fazie przedsprzedaży, aby uzyskać $BBT po niższej cenie, ponieważ każda faza przedsprzedaży ma wyższą cenę. Możesz również polecać swoich znajomych, aby zarabiać 5% nagrody od ich zainwestowanej kwoty podczas przedsprzedaży. Nie ma ograniczeń co do liczby poleceń, aby zarabiać pasywne nagrody z ich inwestycji."
     },
     "trading": {
-      "titleWhite": "Program poleceń handlu",
+      "titleWhite": "Handel",
       "titleColor": "Nagrody",
       "description": "Po uruchomieniu tokena $BBT możesz nadal polecać i zarabiać dzięki unikalnemu linkowi polecającemu w naszej aplikacji panelu oraz otrzymywać 2% nagród handlowych od aktywności handlowych swoich poleconych przez całe życie, za każdym razem, gdy kupują lub sprzedają tokeny $BBT."
     },
@@ -25,7 +25,7 @@
       "description": "Stakuj $BBT, aby zdobyć nagrody i otrzymać gwarantowaną alokację na launchpad. Nagrody będą pochodziły z podaży stakowanej w naszym ekosystemie. Nawet po uzyskaniu uprawnień do otrzymania nagród za trzymanie, które są dystrybuowane z wolumenu handlowego tokenów $BBT."
     },
     "vault": {
-      "titleWhite": "Stakowanie w skarbcu",
+      "titleWhite": "Sejf",
       "titleColor": "Nagrody",
       "description": "Stakuj dowolne tokeny, aby zarabiać w systemie automatycznego kapitalizowania. Możesz stakować dowolny token, aby zarabiać $BBT jako automatyczne nagrody z kapitalizacji. Nagrody będą pochodziły z podaży w skarbcu naszego ekosystemu. Możesz odblokować swoje tokeny w dowolnym momencie wraz z nagrodami z kapitalizacji w tokenach $BBT."
     }

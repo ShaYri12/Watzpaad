@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Ön Satış Referansı",
+      "titleWhite": "Ön Satış",
       "titleColor": "Ödüller",
       "description": "Ön satışın erken aşamasına katılarak $BBT'yi daha düşük bir fiyattan alın, çünkü ön satışların her aşamasında fiyat artmaktadır. Ayrıca, arkadaşlarınızı davet ederek, ön satış sırasında yatırdıkları tutarın %5'i kadar ödül kazanabilirsiniz. Yatırımlarından elde edilen pasif ödülleri kazanmak için davet etme konusunda bir sınır yoktur."
     },
     "trading": {
-      "titleWhite": "Ticaret Referansı",
+      "titleWhite": "Ticaret",
       "titleColor": "Ödüller",
       "description": "BBT tokeni piyasaya sürüldükten sonra, özel referans bağlantınız aracılığıyla bizim panel uygulamamızdan arkadaşlarınızı davet edip, onların ticaret faaliyetlerinden ömür boyu %2 ticaret ödülü kazanabilirsiniz. $BBT tokenlerini aldıklarında veya sattıklarında kazanabilirsiniz."
     },
@@ -25,7 +25,7 @@
       "description": "Ödül kazanmak ve launchpad için garantili tahsis almak için $BBT'yi stake edin. Bu, ekosistemimizin staking arzından ödüllendirilecektir. Ayrıca, $BBT tokenlerinin ticaret hacminden dağıtılan tutma ödüllerini alma hakkına sahip olursunuz."
     },
     "vault": {
-      "titleWhite": "Vault Staking",
+      "titleWhite": "Kasa",
       "titleColor": "Ödüller",
       "description": "Herhangi bir tokeni otomatik bileşim sistemi ile kazanç sağlamak için stake edin. Herhangi bir tokeni stake ederek $BBT'yi otomatik bileşim ödülleri olarak kazanabilirsiniz. Bu, ekosistemimizin vault arzından ödüllendirilecektir. Biriken ödüllerle birlikte tokenlerinizi istediğiniz zaman açabilirsiniz."
     }

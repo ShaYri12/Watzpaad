@@ -8,8 +8,10 @@ import {
 } from "react-icons/fa";
 import { BsUnlock } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function MetaAltPad() {
+  const { t } = useTranslation("homepage");
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo({
@@ -24,13 +26,10 @@ export default function MetaAltPad() {
           {/* Left Section */}
           <div className="bg-[#1F2835CC] rounded-[13.09px] border-[3.27px] border-[#303945] lg:px-[18px] px-[15.46px] lg:py-[30px] py-[25.76px] lg:w-[33%] md:w-[45%]">
             <div className="flex items-center md:mb-[41px] mb-[35.23px] md:gap-[26px] gap-[22.32px]">
-              <div
-                className="md:h-[89.75px] md:w-[89.75px] md:min-h-[89.75px] md:min-w-[89.75px] h-[77.05px] w-[77.05px] min-h-[77.05px] min-w-[77.05px]  bg-[#E7D9FF] rounded-full flex items-center justify-center"
-                style={{ boxShadow: "0px 3.9px 48.78px 0px #9C37FD80" }}
-              >
+              <div className="md:min-h-[89.75px] md:min-w-[89.75px] min-h-[77.05px] min-w-[77.05px] rounded-full flex items-center justify-center">
                 <img
-                  src="/assets/icons/integeration-logo-3.png"
-                  className="md:w-[55px] w-[50px] md:h-[55px] w-[50px]"
+                  src="/assets/icons/B-logo.png"
+                  className="md:w-[89.75px] w-[77.05px] md:h-[89.75px] h-[77.05px]"
                 />
               </div>
               <div className="flex flex-col justify-center gap-[4px] h-full my-auto">
@@ -38,7 +37,7 @@ export default function MetaAltPad() {
                   MetaAltPad
                 </h2>
                 <p className="text-[13.74px] md:text-[16px] text-primaryColor">
-                  MAP / BUSD
+                  BBT / BUSD
                 </p>
                 <div className="flex gap-[10px] flex-wrap">
                   <span className="flex items-center justify-center gap-1 bg-[#6C757D] text-[9.7px] sm:text-[11.3px] px-[6.57px] sm:px-[7.6px] py-[3.43px] sm:py-[4px] rounded-full text-white">
@@ -72,14 +71,14 @@ export default function MetaAltPad() {
                   />
                   <div className="flex items-center gap-[4.29px] md:gap-[5px]">
                     <img
-                      src="/assets/icons/bnb.png"
+                      src="/assets/icons/eth.png"
                       alt=""
                       className="md:w-[24px] w-[20.61px] md:h-[24px] h-[20.61px] rounded-full"
                       width={24}
                       height={24}
                     />
                     <span className="text-white text-[12.88px] md:text-[15px]">
-                      BNB
+                      ETH
                     </span>
                   </div>
                 </div>
@@ -101,7 +100,7 @@ export default function MetaAltPad() {
                       Max
                     </span>
                     <img
-                      src="/assets/icons/alpha-sig.png"
+                      src="/assets/icons/B-logo.png"
                       alt=""
                       className="md:w-[24px] w-[20.61px] md:h-[24px] h-[20.61px] rounded-full"
                       width={24}
@@ -122,7 +121,7 @@ export default function MetaAltPad() {
               </button>
             </div>
             <p className="md:mb-[3px] mb-[2.58px] text-white text-[15.45px] md:text-[18px]">
-              1 BNB = 452000000 MAP
+              1 ETH = 452000000 BBT
             </p>
             <div className="mb-[18.57px]">
               <div className="slider-container w-full">
@@ -140,8 +139,8 @@ export default function MetaAltPad() {
                   <div className="absolute -top-[4px] left-[23%] w-[14.49px] h-[14.49px] bg-primaryColor rounded-full border-[1.6px] border-[#1F2835] pointer-events-none"></div>
                 </div>
                 <div className="flex justify-between text-[#798DA3] text-[13.03px] mt-[3.26px] md:mt-1">
-                  <span>0 BNB</span>
-                  <span>0 / 0122231252134555 MAP</span>
+                  <span>0 ETH</span>
+                  <span>0 / 0122231252134555 BBT</span>
                 </div>
               </div>
             </div>
@@ -158,32 +157,19 @@ export default function MetaAltPad() {
             <div className="flex flex-col md:gap-[24px] gap-[19.84px]">
               <div className="flex justify-between items-center">
                 <div className="flex items-center md:gap-[16px] gap-[13px]">
-                  <div
-                    className="md:h-[46.25px] md:w-[46.25px] md:min-h-[46.25px] md:min-w-[46.25px] h-[38.24px] w-[38.24px] min-h-[38.24px] min-w-[38.24px] bg-[#E7D9FF] rounded-full flex items-center justify-center"
-                    style={{ boxShadow: "0px 2.01px 25.14px 0px #9C37FD80" }}
-                  >
+                  <div className="md:min-h-[46.25px] md:min-w-[46.25px] min-h-[38.24px] min-w-[38.24px] rounded-full flex items-center justify-center">
                     <img
-                      src="/assets/icons/integeration-logo-3.png"
-                      className="md:w-[30px] w-[25px] md:h-[28px] h-[23px]"
+                      src="/assets/icons/B-logo.png"
+                      className="md:h-[46.25px] md:w-[46.25px] h-[38.24px] w-[38.24px]"
                     />
                   </div>
                   <h1 className="md:text-[30px] text-[20px] font-[700]">
                     MetaAltPad Private Sale
                   </h1>
                 </div>
-                <div className="md:min-h-[24px] min-h-[19.84px] md:min-w-[99.69px] min-w-[82.42px]">
-                  <img
-                    src="/assets/icons/binance.png" // example of Binance logo
-                    alt="Binance Smart Chain"
-                    className="md:w-[99.69px] w-[82.42px] md:h-[24px] h-[19.84px]"
-                  />
-                </div>
               </div>
               <p className="text-[#798DA3] md:text-[17.19px] text-[14.21px] w-full">
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
+                {t("hero.description1")}
               </p>
 
               {/* Social Icons */}
@@ -208,10 +194,10 @@ export default function MetaAltPad() {
                     </div>
                     <div className="flex flex-col gap-[6px] font-[400] text-[12.4px] md:text-[15px] text-[#798DA3]">
                       <span className="">Whitelist</span>
-                      <span className="">100 BNB</span>
+                      <span className="">100 ETH</span>
                       <span className="text-primaryColor">
-                        452000000 MAP{" "}
-                        <span className="text-[#798DA3]">per</span> 1 BNB
+                        452000000 BBT{" "}
+                        <span className="text-[#798DA3]">per</span> 1 ETH
                       </span>
                     </div>
                   </div>
@@ -238,7 +224,7 @@ export default function MetaAltPad() {
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
                   <span className="font-[700] text-white">Token:</span>
                   <span className="text-primaryColor font-[400]">
-                    MetaAltPad (MAP)
+                    MetaAltPad (BBT)
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
@@ -248,7 +234,7 @@ export default function MetaAltPad() {
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
                   <span className="font-[700] text-white">Total Supply:</span>{" "}
                   <span className="text-[#798DA3] font-[400]">
-                    1,000,000,000,000 MAP
+                    1,000,000,000,000 BBT
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">

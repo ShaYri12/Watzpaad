@@ -51,14 +51,13 @@ export default function Earnings() {
 
   return (
     <div className="bg-[#09121D] relative">
-      <img
-        src="/assets/earning-bg-shade.png"
-        className="w-full h-full absolute top-0 left-0 z-[1]"
-      />
-
       {/* Earnings Section */}
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
+        <img
+          src="/assets/bg-stars-shades.png"
+          className="w-full h-full object-cover absolute top-0 left-0 z-[1]"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px] z-[3]">
           <h1 className="text-center text-primaryColor text-[39.52px] md:text-[65px] font-[700]">
             {t("earnings.title")}
           </h1>
@@ -67,44 +66,52 @@ export default function Earnings() {
             {t("earnings.description")}
           </p>
         </div>
+        <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b  to-[rgba(9, 18, 29, 0)] from-[#09121D] z-[2]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)] z-[2]"></div>
       </div>
 
       {/* Reward Sections */}
-      <div className="md:px-[22px] px-[18px]">
-        <div className="max-w-[1280px] mx-auto">
-          <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
-            <RewardSection
-              titleWhite={t("rewards.presale.titleWhite")}
-              titleColor={t("rewards.presale.titleColor")}
-              description={t("rewards.presale.description")}
-              imageUrl="/assets/presale-rewards.png"
-            />
-            <RewardSection
-              titleWhite={t("rewards.trading.titleWhite")}
-              titleColor={t("rewards.trading.titleColor")}
-              description={t("rewards.trading.description")}
-              imageUrl="/assets/trading-rewards.png"
-              reverse
-            />
-            <RewardSection
-              titleWhite={t("rewards.holding.titleWhite")}
-              titleColor={t("rewards.holding.titleColor")}
-              description={t("rewards.holding.description")}
-              imageUrl="/assets/vault-stacking-rewards.png"
-            />
-            <RewardSection
-              titleWhite={t("rewards.staking.titleWhite")}
-              titleColor={t("rewards.staking.titleColor")}
-              description={t("rewards.staking.description")}
-              imageUrl="/assets/stacking-rewards.png"
-              reverse
-            />
-            <RewardSection
-              titleWhite={t("rewards.vault.titleWhite")}
-              titleColor={t("rewards.vault.titleColor")}
-              description={t("rewards.vault.description")}
-              imageUrl="/assets/referral-rewards.png"
-            />
+      <div className="relative">
+        <img
+          src="/assets/earning-bg-shade.png"
+          className="w-full h-full absolute top-0 left-0 z-[1]"
+        />
+        <div className="md:px-[22px] px-[18px]">
+          <div className="max-w-[1280px] mx-auto">
+            <div className="flex flex-col gap-[44px] md:py-[80px] py-[57px]">
+              <RewardSection
+                titleWhite={t("rewards.presale.titleWhite")}
+                titleColor={t("rewards.presale.titleColor")}
+                description={t("rewards.presale.description")}
+                imageUrl="/assets/presale-rewards.png"
+              />
+              <RewardSection
+                titleWhite={t("rewards.trading.titleWhite")}
+                titleColor={t("rewards.trading.titleColor")}
+                description={t("rewards.trading.description")}
+                imageUrl="/assets/trading-rewards.png"
+                reverse
+              />
+              <RewardSection
+                titleWhite={t("rewards.holding.titleWhite")}
+                titleColor={t("rewards.holding.titleColor")}
+                description={t("rewards.holding.description")}
+                imageUrl="/assets/vault-stacking-rewards.png"
+              />
+              <RewardSection
+                titleWhite={t("rewards.staking.titleWhite")}
+                titleColor={t("rewards.staking.titleColor")}
+                description={t("rewards.staking.description")}
+                imageUrl="/assets/stacking-rewards.png"
+                reverse
+              />
+              <RewardSection
+                titleWhite={t("rewards.vault.titleWhite")}
+                titleColor={t("rewards.vault.titleColor")}
+                description={t("rewards.vault.description")}
+                imageUrl="/assets/referral-rewards.png"
+              />
+            </div>
           </div>
         </div>
       </div>

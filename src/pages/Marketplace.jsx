@@ -12,10 +12,14 @@ export default function Marketplace() {
 
   return (
     <div className="bg-[#09121D]">
-      <div className="relative w-full md:pb-[90px] md:pt-[200px] pt-[140px] pb-[50px] md:min-h-[380px] min-h-[270px]">
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
+      <div className="relative w-full md:pb-[70px] md:pt-[240px] pt-[140px] pb-[50px] md:min-h-fit min-h-[270px]">
+        <img
+          src="/assets/bg-stars-shades.png"
+          className="w-full h-full object-cover absolute top-0 left-0 z-[1]"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px] z-[3]">
           <h1 className="text-primaryColor text-[35px] text-center md:text-[65px] md:leading-[74.74px] leading-[40.25px] font-[700] relative z-[3] mx-auto">
-          BlcokBoost Marketplace
+            BlcokBoost Marketplace
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[10px] mx-auto"></div>
           <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] text-white max-w-[801px] mx-auto text-center">
@@ -32,6 +36,8 @@ export default function Marketplace() {
             </button>
           </div>
         </div>
+        <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b  to-[rgba(9, 18, 29, 0)] from-[#09121D] z-[2]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)] z-[2]"></div>
       </div>
       <div className="px-[20px] md:py-[83px] py-[57px] relative">
         <img

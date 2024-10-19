@@ -51,8 +51,8 @@ const VaultCards = ({ dashboard = false }) => {
     },
     {
       id: 4,
-      currency: "BUSD",
-      compounded: "0.000 BUSD",
+      currency: "ADA",
+      compounded: "0.000 ADA",
       compoundedUSD: "$0.000",
       apy: "253%",
       pendingEarnings: "0.000",
@@ -60,7 +60,7 @@ const VaultCards = ({ dashboard = false }) => {
       autoCompoundIn: "00:00",
       staked: "-----",
       stakedUSD: "$0.000",
-      imgSrc: "/assets/icons/bnb.png",
+      imgSrc: "/assets/icons/ada.png",
     },
     {
       id: 5,
@@ -77,16 +77,16 @@ const VaultCards = ({ dashboard = false }) => {
     },
     {
       id: 6,
-      currency: "BUSD",
-      compounded: "0.000 BUSD",
-      compoundedUSD: "$0.000",
-      apy: "187%",
+      currency: "DOGE",
+      compounded: "0.000 DOGE",
+      compoundedUSD: "0.000",
+      apy: "150%",
       pendingEarnings: "0.000",
       pendingEarningsUSD: "$0.000",
       autoCompoundIn: "00:00",
-      staked: "-----",
+      staked: "0.000",
       stakedUSD: "$0.000",
-      imgSrc: "/assets/icons/busd.png",
+      imgSrc: "/assets/icons/doge.png",
     },
   ];
 
@@ -161,7 +161,7 @@ const VaultCards = ({ dashboard = false }) => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap">
-                    <span className="text-primaryColor">BNB Staked</span>
+                    <span className="text-primaryColor">{card.currency}</span>
                     <span className="flex flex-col text-white font-[700]">
                       {card.staked}
                       <span className="text-[#798DA3] font-[400]">

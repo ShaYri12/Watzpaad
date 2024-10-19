@@ -5,12 +5,12 @@
   },
   "rewards": {
     "presale": {
-      "titleWhite": "Referral di Prevendita",
+      "titleWhite": "Prevendita",
       "titleColor": "Ricompense",
       "description": "Partecipa alla fase iniziale della prevendita per ottenere $BBT a un prezzo inferiore poiché il prezzo aumenta a ogni fase della prevendita. Inoltre, puoi invitare i tuoi amici e guadagnare il 5% come ricompensa sull'importo che investono durante la prevendita. Non ci sono limiti al numero di referral per guadagnare ricompense passive sui loro investimenti."
     },
     "trading": {
-      "titleWhite": "Referral di Trading",
+      "titleWhite": "Commercio",
       "titleColor": "Ricompense",
       "description": "Dopo il lancio del token $BBT, puoi continuare a fare referral e guadagnare tramite il tuo link di referral unico dall'app della dashboard e ottenere il 2% di ricompense di trading dalle attività di trading dei tuoi referral per tutta la vita ogni volta che acquistano o vendono i token $BBT."
     },
@@ -25,7 +25,7 @@
       "description": "Metti in staking $BBT per guadagnare ricompense e ottenere un'allocazione garantita per la piattaforma di lancio. Le ricompense saranno fornite dalla riserva di staking del nostro ecosistema. Anche dopo, sarai idoneo a ricevere le ricompense di holding distribuite dai volumi di trading dei token $BBT."
     },
     "vault": {
-      "titleWhite": "Staking in Vault",
+      "titleWhite": "Caveau",
       "titleColor": "Ricompense",
       "description": "Metti in staking qualsiasi token per guadagnare con un sistema di compounding automatico. Puoi mettere in staking qualsiasi token per guadagnare $BBT come ricompense di compounding automatico. Le ricompense saranno fornite dalla riserva del vault del nostro ecosistema. Puoi sbloccare i tuoi token in qualsiasi momento insieme alle tue ricompense composte in token $BBT."
     }

@@ -11,7 +11,7 @@ const Stacking = () => {
       behavior: "smooth",
     });
   }, []);
-  const [renQ, setRenQ] = useState(0);
+  const [BBT, setBBT] = useState(0);
   const cardData = [
     {
       id: 1,
@@ -51,24 +51,30 @@ const Stacking = () => {
     },
   ];
 
-  const handleRenQMinus = () => {
-    if (renQ > 0) {
-      setRenQ(renQ - 1);
+  const handleBBTMinus = () => {
+    if (BBT > 0) {
+      setBBT(BBT - 1);
     }
   };
 
   return (
     <div className="bg-[#09121D]">
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">
+        <img
+          src="/assets/bg-stars-shades.png"
+          className="w-full h-full object-cover absolute top-0 left-0 z-[1]"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px] z-[3]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
             {t("title")}
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
-          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
+          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center text-white">
             {t("subtitle")}
           </p>
         </div>
+        <div className="absolute top-0 left-0 w-full h-[100px] bg-gradient-to-b  to-[rgba(9, 18, 29, 0)] from-[#09121D] z-[2]"></div>
+        <div className="absolute bottom-0 left-0 w-full h-[100px] bg-gradient-to-t from-[#09121D] to-[rgba(9, 18, 29, 0)] z-[2]"></div>
       </div>
 
       <div className="md:px-[22px] px-[12px] relative">
@@ -85,20 +91,20 @@ const Stacking = () => {
               >
                 <div className="card-border p-[1.96px] w-full">
                   <div className="rounded-[6.55px] flex flex-col sm:gap-[28px] md:px-[12px] px-[10.12px] gap-[23.62px] relative z-[2] w-full">
-                    <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px]">
+                    <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px] gap-3">
                       <div className="md:min-w-[90px] min-w-[75.91px] md:min-h-[90px] min-h-[75.91px]">
                         <img
-                          src="/assets/icons/r-logo.png"
+                          src="/assets/icons/B-logo.png"
                           alt=""
                           className="md:w-[90px] w-[75.91px] md:h-[90px] h-[75.91px]"
                         />
                       </div>
                       <div>
                         <h2 className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
-                          Stake RenQ
+                          Stake BBT
                         </h2>
                         <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
-                          Stake RenQ - {card.time}
+                          BBT - {card.time}
                         </p>
                       </div>
                     </div>
@@ -125,23 +131,23 @@ const Stacking = () => {
                       <div className="flex gap-1 justify-between items-center">
                         <div className="">
                           <p className="text-[#798DA3] text-[15.18px] md:text-[18px] md:leading-[20.7px]">
-                            {t("stakedRenQ")}
+                            {t("stakedBBT")}
                           </p>
                           <p className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
-                            {renQ} RenQ
+                            {BBT} BBT
                           </p>
                         </div>
 
                         <div className="flex flex-col items-center gap-[12.65px] md:gap-[15px] md:w-[109px] w-[91.93px]">
                           <div className="flex gap-2 w-full justify-between items-center">
                             <button
-                              onClick={() => setRenQ(renQ + 1)}
+                              onClick={() => setBBT(BBT + 1)}
                               className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px]  max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
                             >
                               <GoPlus className="text-black text-[20px]" />
                             </button>
                             <button
-                              onClick={handleRenQMinus}
+                              onClick={handleBBTMinus}
                               className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
                             >
                               <LuMinus className="text-white text-[18px]" />
