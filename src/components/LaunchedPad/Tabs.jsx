@@ -20,33 +20,44 @@ const Tabs = () => {
         <ul className="max-w-[1280px] mx-auto flex justify-center items-center gap-[23px] flex-wrap">
           {["About", "IDO Projects", "Levels", "IDO Stacking", "FAQs"].map(
             (tab) => (
-              <li
-                key={tab}
-                className={`px-4 md:py-[9.73px] py-[5.31px] md:w-[181.8px] w-[105px] rounded-full cursor-pointer flex items-center justify-center transition md:text-[19.79px] text-[11.45px] border-primaryColor border ${
-                  activeTab === tab
-                    ? "bg-primaryColor text-black"
-                    : "hover:bg-teal-600 hover:text-black text-primaryColor "
-                }`}
-                onClick={() => handleTabClick(tab)}
-              >
-                {tab}
+              <li key={tab} className="relative rounded-full">
+                <div className="border-tabs w-full p-[1.24px]">
+                  <div
+                    className={`px-4 md:py-[9.73px] py-[5.31px] bg-[#1F2835] md:w-[181.8px] w-[105px] rounded-full cursor-pointer flex items-center justify-center transition md:text-[19.79px] text-[11.45px] relative z-[2] ${
+                      activeTab === tab
+                        ? "bg-primaryColor text-black"
+                        : "hover:bg-teal-600 hover:text-black text-primaryColor "
+                    }`}
+                    onClick={() => handleTabClick(tab)}
+                  >
+                    {tab}
+                  </div>
+                </div>
               </li>
             )
           )}
         </ul>
       </div>
 
-      {/* Tab Content */}
-      <div className="md:py-[84px] py-[40px] lg:px-[22px]">
-        {activeTab === "About" && (
-          <>
-            <KeyFeatures />
-            <CrossChainIntegration />
-          </>
-        )}
-      </div>
-      {activeTab !== "About" && (
-        <div className="md:py-[84px] py-[40px] px-[22px]">
+      <div className="relative">
+        <img
+          src="/assets/about-bg-shade.png"
+          className={`w-full h-full absolute top-0 left-0 z-[1] ${
+            activeTab !== "About" && "hidden"
+          }`}
+        />
+        {/* Tab Content */}
+        <div
+          className={`md:py-[84px] py-[40px] ${
+            activeTab !== "About" ? "px-[22px]" : "lg:px-[22px]"
+          }`}
+        >
+          {activeTab === "About" && (
+            <>
+              <KeyFeatures />
+              <CrossChainIntegration />
+            </>
+          )}
           {activeTab === "IDO Projects" && <IDOProjects />}
 
           {activeTab === "Levels" && <Levels />}
@@ -55,7 +66,7 @@ const Tabs = () => {
 
           {activeTab === "FAQs" && <FAQSection />}
         </div>
-      )}
+      </div>
     </div>
   );
 };

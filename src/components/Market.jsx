@@ -92,51 +92,54 @@ export default function Market({ dashboard = false }) {
             key={index}
             className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
           >
-            <div className="md:p-[14px] p-[8px] rounded-[10.39px] border border-primaryColor flex flex-col sm:gap-[5.54px] gap-[7px]">
-              <div className="rounded-[10.39px] mb-[7.27px] md:mb-[13.34px] flex items-center justify-center h-[137px] md:h-[249.34px] overflow-hidden border-[2.6px] border-primaryColor">
-                <img
-                  src="/assets/marketplace-card.png"
-                  alt="Pixel Cat"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex w-full justify-between items-center gap-1 flex-wrap">
-                <p className="text-[12px] md:text-[18.7px] text-white">
-                  #{card.id}
-                </p>
-                <p className="text-[#798DA3] text-[10.28px] md:text-[14.03px] leading-[8.86px] md:leading-[16.13px]">
-                  Unlock in{" "}
-                  <span className="text-white text-[12px] md:text-[18.7px] leading-[11.82px] md:leading-[21.5px]">
-                    {card.unlock}
-                  </span>
-                </p>
-              </div>
-              <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
-                <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                  Sale Price
-                </p>
-                <div className="flex flex-col gap-[5.54px] text-right flex-grow">
-                  <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
-                    {/* <img
+            <div className="card-border w-full p-[1.56px]">
+              <div className="md:p-[14px] p-[8px] rounded-[10.39px] flex flex-col sm:gap-[5.54px] gap-[7px] relative z-[2]">
+                <div className="rounded-[10.39px] mb-[7.27px] md:mb-[13.34px] flex items-center justify-center h-[137px] md:h-[249.34px] overflow-hidden border-[2.6px] border-primaryColor">
+                  <img
+                    src="/assets/marketplace-card.png"
+                    alt="Pixel Cat"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex w-full justify-between items-center gap-1 flex-wrap">
+                  <p className="text-[12px] md:text-[18.7px] text-white">
+                    #{card.id}
+                  </p>
+                  <p className="text-[#798DA3] text-[10.28px] md:text-[14.03px] leading-[8.86px] md:leading-[16.13px]">
+                    Unlock in{" "}
+                    <span className="text-white text-[12px] md:text-[18.7px] leading-[11.82px] md:leading-[21.5px]">
+                      {card.unlock}
+                    </span>
+                  </p>
+                </div>
+                <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
+                  <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
+                    Sale Price
+                  </p>
+                  <div className="flex flex-col gap-[5.54px] text-right flex-grow">
+                    <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
+                      {/* <img
                       src="/assets/icons/integeration-logo-3.png"
                       className="w-[14.2px] md:w-[20px]"
                     />{" "} */}
-                    <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
-                      {card.price} BNB
+                      <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
+                        {card.price} BNB
+                      </p>
+                    </div>
+                    <p className="w-full text-right text-[#798DA3] text-[10.28px] md:text-[14.03px]">
+                      ${card.salePrice}
                     </p>
                   </div>
-                  <p className="w-full text-right text-[#798DA3] text-[10.28px] md:text-[14.03px]">
-                    ${card.salePrice}
+                </div>
+                <div className="flex w-full justify-between items-center gap-1 mt-auto flex-wrap">
+                  <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
+                    Par Value
+                  </p>
+                  <p className="text-white text-[12px] md:text-[17.14px] w-max">
+                    {card.parValue}{" "}
+                    <span className="text-primaryColor">BBT</span>
                   </p>
                 </div>
-              </div>
-              <div className="flex w-full justify-between items-center gap-1 mt-auto flex-wrap">
-                <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                  Par Value
-                </p>
-                <p className="text-white text-[12px] md:text-[17.14px] w-max">
-                  {card.parValue} <span className="text-primaryColor">BBT</span>
-                </p>
               </div>
             </div>
           </Link>

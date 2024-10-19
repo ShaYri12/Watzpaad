@@ -9,29 +9,31 @@ const RewardSection = ({
   reverse = false,
 }) => {
   return (
-    <div
-      className={`flex flex-col md:flex-row items-center justify-between bg-[#D9D9D90F] relative z-10 rounded-[10px] border border-primaryColor py-[22.9px] px-4 md:px-[40px] md:gap-[20px] gap-[33px] ${
-        reverse ? "md:flex-row-reverse" : ""
-      }`}
-    >
-      <div className="mb-8 md:mb-0 md:w-1/2">
-        <h1 className="font-[700] text-[33px] md:text-[50px] mb-[14px] md:mb-[22px] md:leading-[57.5px] leading-[38.44px]">
-          <span className="text-white">{titleWhite} </span>
-          <span className="text-primaryColor">{titleColor}</span>
-        </h1>
-        <p className="text-[#798DA3] font-[300] text-[12.03px] sm:text-[18px]">
-          {description}
-        </p>
-      </div>
+    <div className="card-border-wide bg-[#D9D9D90F]">
       <div
-        className={`w-full md:w-1/2 flex ${
-          reverse ? "md:justify-start" : "md:justify-end"
-        } justify-center`}
+        className={`flex flex-col md:flex-row items-center justify-between rounded-[10px] py-[22.9px] px-[11px] md:gap-[20px] gap-[33px] relative z-[2] ${
+          reverse ? "md:flex-row-reverse" : ""
+        }`}
       >
-        <img
-          src={imageUrl}
-          className="md:max-w-[533.66px] md:w-full w-[299.1px] md:max-h-[507.07px] max-h-[284.2px]"
-        />
+        <div className="mb-8 md:mb-0 md:w-1/2">
+          <h1 className="font-[700] text-[33px] md:text-[50px] mb-[14px] md:mb-[22px] md:leading-[57.5px] leading-[38.44px]">
+            <span className="text-white">{titleWhite} </span>
+            <span className="text-primaryColor">{titleColor}</span>
+          </h1>
+          <p className="text-[#798DA3] font-[300] text-[12.03px] sm:text-[18px]">
+            {description}
+          </p>
+        </div>
+        <div
+          className={`w-full md:w-1/2 flex ${
+            reverse ? "md:justify-start" : "md:justify-end"
+          } justify-center`}
+        >
+          <img
+            src={imageUrl}
+            className="md:max-w-[533.66px] md:w-full w-[299.1px] md:max-h-[507.07px] max-h-[284.2px]"
+          />
+        </div>
       </div>
     </div>
   );
@@ -48,7 +50,12 @@ export default function Earnings() {
   }, []);
 
   return (
-    <div className="bg-[#09121D]">
+    <div className="bg-[#09121D] relative">
+      <img
+        src="/assets/earning-bg-shade.png"
+        className="w-full h-full absolute top-0 left-0 z-[1]"
+      />
+
       {/* Earnings Section */}
       <div className="relative w-full md:pb-[90px] md:pt-[160px] pt-[120px] pb-[50px] block">
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px]">

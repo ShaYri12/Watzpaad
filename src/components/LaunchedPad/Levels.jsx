@@ -60,58 +60,68 @@ const tiers = [
 
 const TierCard = ({ tier }) => (
   <div
-    className={`border-[3px] border-[#303945] bg-[#1F2835CC] px-[13px] py-[15px] flex flex-col h-full rounded-[13.34px]`}
+    className={`card-border bg-[#1F2835CC] px-[13px] py-[15px] rounded-[13.34px]`}
   >
-    <h2
-      className={`text-[26px] md:text-[36px] font-[700] mb-[13px] text-center ${
-        tier.color === "bg-primaryColor" ? "text-black" : "text-white"
-      } ${tier.color} px-[20px] py-[8px] rounded-[7px]`}
-    >
-      {tier.name}
-    </h2>
-    <div className="flex flex-col gap-[39px] flex-grow max-w-[287px] mx-auto">
-      <div className="text-center">
-        <p className="text-[15px] text-[#798DA3]">Staking Requirements</p>
-        <p className="text-[34px] leading-[39px] text-white font-[400]">
-          {tier.stakingRequirement}
-        </p>
-      </div>
-      <div className="text-center">
-        <p className="text-[15px] text-[#798DA3]">Staking Length Required</p>
-        <p className="text-[23px] leading-[34px] text-white font-[400]">
-          {tier.stakingLength}
-        </p>
-      </div>
-      <div className="text-center">
-        <p className="text-[15px] text-[#798DA3]">Whitelist Requirement Twitter</p>
-        <p className="text-[23px] leading-[34px] text-white font-[400]">
-          {tier.whitelistRequirement}
-        </p>
-      </div>
-      <div className="text-center">
-        <p className="text-[15px] text-[#798DA3]">Lottery Tickets</p>
-        <p className="text-[23px] leading-[34px] text-white font-[400]">
-          {tier.lotteryTickets}
-        </p>
-      </div>
-      {tier.guaranteedAllocation && (
+    <div className="flex flex-col h-full w-full relative z-[2]">
+      <h2
+        className={`text-[26px] md:text-[36px] font-[700] mb-[13px] text-center ${
+          tier.color === "bg-primaryColor" ? "text-black" : "text-white"
+        } ${tier.color} px-[20px] py-[8px] rounded-[7px]`}
+      >
+        {tier.name}
+      </h2>
+      <div className="flex flex-col gap-[39px] flex-grow max-w-[287px] mx-auto">
         <div className="text-center">
-          <p className="text-[15px] text-[#798DA3]">Guaranteed Allocation</p>
-          <p className="text-[23px] leading-[34px] text-white font-[400]">Yes</p>
+          <p className="text-[15px] text-[#798DA3]">Staking Requirements</p>
+          <p className="text-[34px] leading-[39px] text-white font-[400]">
+            {tier.stakingRequirement}
+          </p>
         </div>
-      )}
-      {tier.poolWeight && (
         <div className="text-center">
-          <p className="text-[15px] text-[#798DA3]">Pool Weight</p>
-          <p className="text-[23px] leading-[34px] text-white font-[400]">{tier.poolWeight}</p>
+          <p className="text-[15px] text-[#798DA3]">Staking Length Required</p>
+          <p className="text-[23px] leading-[34px] text-white font-[400]">
+            {tier.stakingLength}
+          </p>
         </div>
-      )}
-      {tier.privateAllocations && (
         <div className="text-center">
-          <p className="text-[15px] text-[#798DA3]">Private Allocations</p>
-          <p className="text-[23px] leading-[34px] text-white font-[400]">Yes</p>
+          <p className="text-[15px] text-[#798DA3]">
+            Whitelist Requirement Twitter
+          </p>
+          <p className="text-[23px] leading-[34px] text-white font-[400]">
+            {tier.whitelistRequirement}
+          </p>
         </div>
-      )}
+        <div className="text-center">
+          <p className="text-[15px] text-[#798DA3]">Lottery Tickets</p>
+          <p className="text-[23px] leading-[34px] text-white font-[400]">
+            {tier.lotteryTickets}
+          </p>
+        </div>
+        {tier.guaranteedAllocation && (
+          <div className="text-center">
+            <p className="text-[15px] text-[#798DA3]">Guaranteed Allocation</p>
+            <p className="text-[23px] leading-[34px] text-white font-[400]">
+              Yes
+            </p>
+          </div>
+        )}
+        {tier.poolWeight && (
+          <div className="text-center">
+            <p className="text-[15px] text-[#798DA3]">Pool Weight</p>
+            <p className="text-[23px] leading-[34px] text-white font-[400]">
+              {tier.poolWeight}
+            </p>
+          </div>
+        )}
+        {tier.privateAllocations && (
+          <div className="text-center">
+            <p className="text-[15px] text-[#798DA3]">Private Allocations</p>
+            <p className="text-[23px] leading-[34px] text-white font-[400]">
+              Yes
+            </p>
+          </div>
+        )}
+      </div>
     </div>
   </div>
 );
@@ -124,7 +134,10 @@ export default function Levels() {
           The Blockboost Tiered system
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
-          Blockboost will showcase a fixed tier system based on the number of tokens staked. Lottery Tiers will share 20% of total raise and rest 80% of the raise is assigned for guaranteed allocation tiers based on the pool weights assigned.
+          Blockboost will showcase a fixed tier system based on the number of
+          tokens staked. Lottery Tiers will share 20% of total raise and rest
+          80% of the raise is assigned for guaranteed allocation tiers based on
+          the pool weights assigned.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[28px] mt-[53px]">
