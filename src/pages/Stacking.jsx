@@ -4,7 +4,7 @@ import { LuMinus } from "react-icons/lu";
 import { useTranslation } from "react-i18next";
 
 const Stacking = () => {
-  const { t } = useTranslation(); // Hook for translations
+  const { t } = useTranslation("stacking"); // Hook for translations
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -15,37 +15,37 @@ const Stacking = () => {
   const cardData = [
     {
       id: 1,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "12%",
       totalStacked: "45,614,253.41",
     },
     {
       id: 2,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "75%",
       totalStacked: "85,000,000.01",
     },
     {
       id: 3,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "150%",
       totalStacked: "120,000,000",
     },
     {
       id: 4,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "150%",
       totalStacked: "96,000,000.23",
     },
     {
       id: 5,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "30%",
       totalStacked: "55,000,000",
     },
     {
       id: 6,
-      time: "Flexible",
+      time: t("flexible"),
       apy: "75%",
       totalStacked: "68,000,000.82",
     },
