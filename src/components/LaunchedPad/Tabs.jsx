@@ -36,17 +36,25 @@ const Tabs = () => {
         </ul>
       </div>
 
-      {/* Tab Content */}
-      <div className="md:py-[84px] py-[40px] lg:px-[22px]">
-        {activeTab === "About" && (
-          <>
-            <KeyFeatures />
-            <CrossChainIntegration />
-          </>
-        )}
-      </div>
-      {activeTab !== "About" && (
-        <div className="md:py-[84px] py-[40px] px-[22px]">
+      <div className="relative">
+        <img
+          src="/assets/about-bg-shade.png"
+          className={`w-full h-full absolute top-0 left-0 z-[1] ${
+            activeTab !== "About" && "hidden"
+          }`}
+        />
+        {/* Tab Content */}
+        <div
+          className={`md:py-[84px] py-[40px] ${
+            activeTab !== "About" ? "px-[22px]" : "lg:px-[22px]"
+          }`}
+        >
+          {activeTab === "About" && (
+            <>
+              <KeyFeatures />
+              <CrossChainIntegration />
+            </>
+          )}
           {activeTab === "IDO Projects" && <IDOProjects />}
 
           {activeTab === "Levels" && <Levels />}
@@ -55,7 +63,7 @@ const Tabs = () => {
 
           {activeTab === "FAQs" && <FAQSection />}
         </div>
-      )}
+      </div>
     </div>
   );
 };
