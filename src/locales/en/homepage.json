@@ -2,13 +2,151 @@
   "hero": {
     "title": "BLOCKBOOST",
     "subtitle": "Unique WEB3 Crowdfunding Ecosystem",
-    "description1": "Are you ready to access some of the most exclusive and promising crypto startups? Blockboost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted.",
+    "description1": "Are you ready to access some of the most exclusive and promising crypto startups? block boost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted.",
     "description2": "There are many other advantages of being a part of the Blockboost Crowdfunding Ecosystem with unique features like Launchpad, Bridge & Swap AI, Earning system, Vault, Marketplace, and Staking.",
     "usdtRaised": "USDT Raised: $361,590.14 / $605,467",
     "target": "TARGET: $250000",
     "listingPrice": "Listing Price",
+    "receive": "Receive",
     "nextPrice": "Next Price",
     "availablePaymentMethods": "AVAILABLE PAYMENT METHOD",
-    "connectWallet": "Connect Wallet"
+    "connectWallet": "Connect Wallet",
+    "audit": "Audit",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost Ecosystems",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Decide your tier, stake $BBT, and participate in all the token launches we bring to you in a guaranteed way.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "By connecting with different blockchains you can swap your tokens to different blockchain networks with few clicks.",
+    "box-three-title": "Earning system",
+    "box-three-description": "Earn passive income through various features like Referral rewards , Staking rewards, Vaulting rewards, NFT sells.",
+    "box-four-title": "Vault",
+    "box-four-description": "You can earn the high yield APY through staking your crypto assets by selecting the various Vaults."
+  },
+
+  "join-idos": {
+    "title": "Easy To Join IDOs With 3 Steps",
+    "box-one-title": "Connect Wallet",
+    "box-one-description": "Buy $BBT tokens and connect your wallet with launchpad ecosystem to participate.",
+    "box-two-title": "Stake $BBT Tokens",
+    "box-two-description": " Block Boost will showcase a fixed tier system based on the number of tokens staked.",
+    "box-three-title": "Participate in a Sale",
+    "box-three-description": "Win confirmed lottery tickets to participate in IDOs through our staking tier system."
+  },
+
+  "exclusive-benefits": {
+    "title": "Exclusive Benefits Of Buying $WZP In The Presale",
+    "box-one-title": " Presale Referral Rewards",
+    "box-one-description": "Participate in early stage of presale to get more valuation of your investment compare to the launch price. Also, you can refer your friends and earn both 5% bonus during presale.",
+    "box-two-title": "Trading Referral Rewards",
+    "box-two-description": " After successful launch still you can refer through your unique referral link from our dashboard app and earn the 2% trading rewards of your referrals trading activities.",
+    "box-three-title": "Holding Rewards",
+    "box-three-description": "Hold the $BBT and earn passive income. Just seat and relax to get share of your holding rewards from traded volume of $BBT and claim it through our dapp every hour.",
+    "box-four-title": "Staking Rewards",
+    "box-four-description": "Stake $BBT to earn reward and get guaranteed allocation for the launchpad. It will be rewarded from staking supply of our ecosystem.",
+    "box-five-title": "Vault Staking Rewards",
+    "box-five-description": " Stake any tokens to earn with automatic compounding. you can stake any token to earn $BBT as an compounding reward. It will be rewarded from vault supply of our ecosystem."
+  },
+
+  "buy-presale": {
+    "title": "How to buy in Presale?",
+    "timeline": {
+      "connectWallet": {
+        "title": "CONNECT WALLET",
+        "description": "Use Metamask or Trust Wallet to connect your wallet in seconds."
+      },
+      "confirmTransaction": {
+        "title": "CONFIRM TRANSACTION",
+        "description": "You can buy $BBT with USDT, ETH, and BNB."
+      },
+      "claimToken": {
+        "title": "CLAIM TOKEN",
+        "description": "Congratulations! You can claim your $BBT after the pre-sale ends."
+      }
+    }
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "phases": {
+      "phase1": {
+        "title": "PHASE 1",
+        "descriptionOne": "Project Initiation",
+        "descriptionTwo": "Smart Contract Development",
+        "descriptionThree": "Website Launch",
+        "descriptionFour": "Release Whitepaper",
+        "descriptionFive": "Contract audit with Coinsult"
+      },
+      "phase2": {
+        "title": "PHASE 2",
+        "descriptionOne": "Presale Launch",
+        "descriptionTwo": "Huge Marketing Campaign",
+        "descriptionThree": "Presale Stages 1-5 on blockboost.io",
+        "descriptionFour": "Beta Testing of launchpad"
+      },
+      "phase3": {
+        "title": "PHASE 3",
+        "descriptionOne": "Security Audits for Launchpad",
+        "descriptionTwo": "Launchpad to Launch Legit Projects",
+        "descriptionThree": "Presale stages 6-10",
+        "descriptionFour": "Partnership with Dapps for Vault"
+      },
+      "phase4": {
+        "title": "PHASE 4",
+        "descriptionOne": "NFT Marketplace Launch",
+        "descriptionTwo": "Launch of $BBT",
+        "descriptionThree": "Listing on Top Tier exchanges",
+        "descriptionFour": "Updated Roadmap"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Token Details",
+    "title-two": "Tokenomics",
+    "description": "Distribution of Token will take place after Presale ends. You will be able to claim the purchased $BBT Tokens from our presale page.",
+    "name": "Name",
+    "boost-token": "Block boost token",
+    "symbol": "Symbol",
+    "supply": "Supply",
+    "billion": "billion",
+    "tax": "Tax",
+    "buy-sell": "Buy/Sell",
+    "type": "Type",
+    "token-contract-address": "Token Contract Address",
+    "empty": "empty",
+    "decimal": "Decimal",
+    "presale-details": "Presale Details",
+    "live": "The presale is live",
+    "current-price": "Current $BBT Price",
+    "listing-price": "Exchange Listing Price",
+    "total-supply": "Total Supply"
+  },
+
+  "powered-by": {
+    "title": "Powered by"
+  },
+
+  "faq": {
+    "title" : "FAQ",
+    "question-one": "What is Blockboost?",
+    "answer-one": "Blockboost is a unique crowdfunding ecosystem for crypto startups.",
+    "question-two": "Where can I purchase the Blockboost Token and when I will receive it?",
+    "answer-two": "During the presale, you can purchase $BBT tokens from our official website www.blockboost.io; you can claim your tokens from the presale page after the presale ends.",
+    "question-three": "Will my rewards always be paid hourly?",
+    "answer-three": "Yes, you have to claim the reward from our official dapp via connecting your wallet.",
+    "question-four": "How can I become eligible for the presale rewards?",
+    "answer-four": "You can get your referral link from the presale page and purchases made through it will be auto-credited to your account on the presale page. You can check it by connecting your wallet to the presale page.",
+    "question-five": "How many stages are there in the presale?",
+    "answer-five": "There are 10 stages in the presale, and the price of $BBT will increase at each stage.",
+    "question-six": "Is there staking on $BBT and when will it be available to stake?",
+    "answer-six": "Yes, please see the staking page for complete information on staking pools and rewards."
   }
+  
 }

@@ -21,21 +21,17 @@ const Hero = () => {
       <div className="max-w-[1400px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
           <h1 className="text-[#38DCC8] text-[50px] md:text-[75px] font-bold">
-            BLOCKBOOST
+            {t("hero.title")}
           </h1>
           <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3 mb-6"></div>
           <h3 className="text-white font-bold sm:leading-[48px] text-[22px] sm:text-[40px]">
-            Unique WEB3 Crowdfunding Ecosystem
+            {t("hero.subtitle")}
           </h3>
           <p className="text-[14px] sm:text-[18px] font-normal font-space mt-5 sm:mt-[27px]">
-            Are you ready to access some of the most exclusive and promising
-            crypto startups? block boost is your gateway to early-stage
-            investment opportunities, which our team has thoroughly vetted.
+            {t("hero.description1")}
           </p>
           <p className="text-[14px] sm:text-[18px] font-normal font-space mt-5 sm:mt-[27px]">
-            There are many other advantages of being a part of Block boost
-            Crowdfunding Ecosystem with the unique features like Launchpad,
-            Bridge & Swap AI, Earning system, Vault, Marketplace and Staking.
+            {t("hero.description2")}
           </p>
           <div className="mt-[29px] flex items-center gap-4 sm:gap-[29px]">
             <button
@@ -49,7 +45,7 @@ const Hero = () => {
                 height={35}
                 className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"
               />{" "}
-              Audit
+              {t("hero.audit")}
             </button>
             <button className=" text-white font-normal bg-[#111B28] text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5">
               <img
@@ -59,7 +55,7 @@ const Hero = () => {
                 height={35}
                 className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"
               />{" "}
-              Audit
+              {t("hero.audit")}
             </button>
           </div>
         </div>
@@ -77,7 +73,8 @@ const Hero = () => {
                     00
                   </span>
                   <div className="text-[#798DA3] text-[15px] leading-[17px] font-normal">
-                    DAYS
+                    
+                    {t("hero.days")}
                   </div>
                 </div>
                 <div className="flex items-center flex-col">
@@ -85,7 +82,7 @@ const Hero = () => {
                     00
                   </span>
                   <div className="text-[#798DA3] text-[15px] leading-[17px] font-normal uppercase">
-                    Hours
+                  {t("hero.hours")}
                   </div>
                 </div>
                 <div className="flex items-center flex-col">
@@ -93,7 +90,8 @@ const Hero = () => {
                     00
                   </span>
                   <div className="text-[#798DA3] text-[15px] leading-[17px] font-normal uppercase">
-                    Minutes
+                  {t("hero.minutes")}
+                    
                   </div>
                 </div>
                 <div className="flex items-center flex-col">
@@ -101,19 +99,20 @@ const Hero = () => {
                     00
                   </span>
                   <div className="text-[#798DA3] text-[15px] leading-[17px] font-normal uppercase">
-                    Seconds
+                  {t("hero.seconds")}
+                    
                   </div>
                 </div>
               </div>
             </div>
 
             <p className="text-[14px] leading-[16px] font-normal text-center mt-[15px]">
-              USDT Raised: $361,590.14 / $605,467
+              {t("hero.usdtRaised")}
             </p>
             <Slider />
 
             <h2 className="mt-6 text-center text-[#798DA3] text-[17px] leading-[20px] font-bold">
-              TARGET: $250000
+              {t("hero.target")}
             </h2>
             <div className="flex items-center justify-center mt-3 gap-2">
               <img src={Bitcoin} alt="bitcoin" width={24} height={24} />
@@ -126,7 +125,7 @@ const Hero = () => {
             <div className="mt-4 max-w-[350px] mx-auto flex items-center gap-2 sm:gap-4">
               <div className="border border-[#38DCC800] flex-col flex items-center gap-2.5 w-full bg-[#101A27] custom-shadow px-5 py-4 rounded-xl">
                 <h2 className="text-[#798DA3] text-[14px] leading-[12px] font-normal">
-                  Listing Price
+                  {t("hero.listingPrice")}
                 </h2>
                 <p className="text-[12px] sm:text-[15px] font-bold leading-[15px]">
                   $0.005 <span className="text-[#38DCC8]">(+400%)</span>
@@ -134,7 +133,7 @@ const Hero = () => {
               </div>
               <div className="border border-[#38DCC800] flex-col flex items-center gap-2.5 w-full bg-[#101A27] custom-shadow px-5 py-4 rounded-xl">
                 <h2 className="text-[#798DA3] text-[14px] leading-[12px] font-normal">
-                  Next Price
+                  {t("hero.nextPrice")}
                 </h2>
                 <p className="text-[12px] sm:text-[15px] font-bold leading-[15px]">
                   $0.005 <span className="text-[#38DCC8]">(+400%)</span>
@@ -170,7 +169,7 @@ const Hero = () => {
             <div className="mt-2 max-w-[350px] mx-auto rounded-[14px] bg-[#161F2C] w-full py-3 px-4 flex items-center justify-between">
               <div>
                 <h4 className="text-[#FFFFFF4D] text-[14px] leading-[16px] font-normal">
-                  Receive
+                  {t("hero.receive")}
                 </h4>
                 <div className="flex items-center gap-2 mt-2">
                   <img
@@ -193,7 +192,7 @@ const Hero = () => {
             </div>
 
             <p className="text-[#798DA3] text-[14px] leading-[14px] font-normal text-center py-5">
-              AVAILABLE PAYMENT METHOD
+              {t("hero.availablePaymentMethods")}
             </p>
 
             <div className="mb-5 flex items-center gap-2">
@@ -212,7 +211,7 @@ const Hero = () => {
             </div>
 
             <button className="bg-[#38DCC8] text-black w-full text-[14px] leading-[16px] min-h-[40px] rounded-[20.69px] border-[0.69px] border-[#FFFFFF]">
-              Connect Wallet
+              {t("hero.connectWallet")}
             </button>
           </div>
         </div>

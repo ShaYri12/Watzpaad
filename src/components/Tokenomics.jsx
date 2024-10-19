@@ -1,7 +1,9 @@
 import React from "react";
 import TokenomicsChart from "../assets/tokenoms-hart.svg";
+import { useTranslation } from "react-i18next";
 
 const Tokenomics = () => {
+  const { t } = useTranslation("homepage");
   return (
     <div className="w-full">
       {/* Token Details */}
@@ -13,25 +15,26 @@ const Tokenomics = () => {
         <div className="relative z-[2]">
           <div className="text-center text-white w-full max-w-[769px] mx-auto ">
             <h2 className="text-[50px] leading-[57px] font-bold mb-4">
-              Token Details
+              {t("tokenomics.title")}
             </h2>
             <p className="text-[18px] leading-[24px] font-light font-space">
-              Distribution of Token will take place after Presale ends. You will
-              be able to claim the purchased $BBT Tokens from our presale page.
+              {t("tokenomics.description")}
             </p>
           </div>
           <div className=" h-full max-w-[1240px] mx-auto w-full mt-12 flex lg:flex-row flex-col gap-5 items-center">
             <div className="h-full text-white flex flex-col gap-4 w-full bg-custom-one border border-[#38DCC8] rounded-[22.77px] px-5 sm:px-8 py-6 sm:py-7 max-w-[816px] mx-auto">
               <div className="grid grid-cols-2 sm:flex justify-between flex-wrap gap-4">
                 <div className="flex flex-col gap-1">
-                  <h2 className="text-[16px] sm:text-[24px] font-bold">Name</h2>
+                  <h2 className="text-[16px] sm:text-[24px] font-bold">
+                    {t("tokenomics.name")}
+                  </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
-                    Block boost token
+                    {t("tokenomics.boost-token")}
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h2 className="text-[16px] sm:text-[24px] font-bold">
-                    Symbol
+                    {t("tokenomics.symbol")}
                   </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
                     $BBT
@@ -39,37 +42,41 @@ const Tokenomics = () => {
                 </div>
                 <div className="flex flex-col gap-1">
                   <h2 className="text-[16px] sm:text-[24px] font-bold">
-                    Supply
+                    {t("tokenomics.supply")}
                   </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
-                    1 billion
+                    1 {t("tokenomics.billion")}
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
-                  <h2 className="text-[16px] sm:text-[24px] font-bold">Tax</h2>
+                  <h2 className="text-[16px] sm:text-[24px] font-bold">
+                    {t("tokenomics.tax")}
+                  </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
-                    2% Buy/Sell
+                    2% {t("tokenomics.buy-sell")}
                   </h4>
                 </div>
               </div>
               <div className="sm:mt-4 grid grid-cols-2 sm:flex justify-between gap-4">
                 <div className="flex flex-col gap-1">
-                  <h2 className="text-[16px] sm:text-[24px] font-bold">Type</h2>
+                  <h2 className="text-[16px] sm:text-[24px] font-bold">
+                    {t("tokenomics.type")}
+                  </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
                     ERC20
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h2 className="text-[16px] sm:text-[24px] font-bold">
-                    Token Contract Address
+                    {t("tokenomics.token-contract-address")}
                   </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
-                    empty
+                    {t("tokenomics.empty")}
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h2 className="text-[16px] sm:text-[24px] font-bold">
-                    Decimal
+                    {t("tokenomics.decimal")}
                   </h2>
                   <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
                     18
@@ -80,15 +87,15 @@ const Tokenomics = () => {
             <div className="text-white h-full w-full flex flex-col justify-between gap-[25px] bg-custom-one border border-[#38DCC8] rounded-[22.77px] px-5 sm:px-8 py-6 sm:py-7 max-w-[400px] mx-auto">
               <div className="flex flex-col gap-0.5">
                 <h2 className="text-[16px] leading-[19px] font-bold">
-                  Presale Details
+                  {t("tokenomics.presale-details")}
                 </h2>
                 <h4 className="text-[#FFFFFF70] text-[12px] leading-[17px] font-normal">
-                  The presale is live
+                  {t("tokenomics.live")}
                 </h4>
               </div>
               <div className="flex flex-col gap-0.5">
                 <h2 className="text-[16px] leading-[19px] font-bold">
-                  Current $BBT Price
+                  {t("tokenomics.current-price")}
                 </h2>
                 <h4 className="text-[#FFFFFF70] text-[12px] leading-[17px] font-normal">
                   1 $BBT = $0.001
@@ -96,7 +103,7 @@ const Tokenomics = () => {
               </div>
               <div className="flex flex-col gap-0.5">
                 <h2 className="text-[16px] leading-[19px] font-bold">
-                  Exchange Listing Price
+                  {t("tokenomics.listing-price")}
                 </h2>
                 <h4 className="text-[#FFFFFF70] text-[12px] leading-[17px] font-normal">
                   1 $BBT = $0.02
@@ -115,7 +122,7 @@ const Tokenomics = () => {
         />
         <div className="relative z-[2]">
           <h1 className="pt-10 sm:pt-20 text-[35px] sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[735px] mx-auto text-center">
-            Tokenomics
+            {t("tokenomics.title-two")}
           </h1>
 
           <div className="py-5 md:py-20 w-full max-w-[888px] mx-auto">
@@ -124,7 +131,7 @@ const Tokenomics = () => {
 
           <div className="flex flex-col items-center">
             <h2 className="text-[#798DA3] font-space text-[20px] sm:text-[30px]">
-              Total Supply
+              {t("tokenomics.total-supply")}
             </h2>
             <h1 className="text-[#38DCC8] text-[35px] sm:text-[50px] font-bold">
               1,000,000,000

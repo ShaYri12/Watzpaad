@@ -58,7 +58,10 @@ const Header = () => {
             </NavLink>
           ))}
         </nav>
-        <div className="hidden lg:block">
+        <div className="hidden lg:flex items-center gap-4">
+          <div>
+            <LanguageDropdown />
+          </div>
           <button
             className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
