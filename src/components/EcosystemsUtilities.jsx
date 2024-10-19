@@ -18,7 +18,7 @@ const EcosystemsUtilities = () => {
             className="h-full p-[10px] bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="card-border w-full h-full p-[1.56px]">
+            <div className="card-border-wide w-full h-full p-[1.56px]">
               <div className="h-full pb-10 p-[18px] rounded-[5.2px] relative z-[2]">
                 <img src={Launchpad} alt="launchpad" />
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
@@ -34,7 +34,7 @@ const EcosystemsUtilities = () => {
             className="h-full p-[10px] bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="card-border w-full h-full p-[1.56px]">
+            <div className="card-border-wide w-full h-full p-[1.56px]">
               <div className="h-full pb-10 p-[18px] rounded-[5.2px] relative z-[2]">
                 <img src={BridgeSwapAi} alt="launchpad" />
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
@@ -50,7 +50,7 @@ const EcosystemsUtilities = () => {
             className="h-full p-[10px] bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="card-border w-full h-full p-[1.56px]">
+            <div className="card-border-wide w-full h-full p-[1.56px]">
               <div className="h-full pb-10 p-[18px] rounded-[5.2px] relative z-[2]">
                 <img src={EarningSystem} alt="launchpad" />
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
@@ -66,7 +66,7 @@ const EcosystemsUtilities = () => {
             className="h-full p-[10px] bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
-            <div className="card-border w-full h-full p-[1.56px]">
+            <div className="card-border-wide w-full h-full p-[1.56px]">
               <div className="h-full pb-10 p-[18px] rounded-[5.2px] relative z-[2]">
                 <img src={Vault} alt="launchpad" />
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
