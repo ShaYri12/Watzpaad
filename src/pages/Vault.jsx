@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import VaultCards from "../components/VaultCards";
 
 const Vault = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("vaults");
 
   useEffect(() => {
     window.scrollTo({
