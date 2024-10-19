@@ -40,7 +40,7 @@ const RewardSection = ({
 };
 
 export default function Earnings() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("earning");
 
   useEffect(() => {
     window.scrollTo({

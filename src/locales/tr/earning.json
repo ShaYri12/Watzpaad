@@ -1,0 +1,33 @@
+{
+  "earnings": {
+    "title": "Kazanç",
+    "description": "BlockBoost Ekosistemi, ön satış ödülleri, ticaret ödülleri, tutma ödülleri, staking ödülleri ve vault staking ödülleri gibi birçok yolla pasif gelir elde etmeyi sağlar."
+  },
+  "rewards": {
+    "presale": {
+      "titleWhite": "Ön Satış Referansı",
+      "titleColor": "Ödüller",
+      "description": "Ön satışın erken aşamasına katılarak $BBT'yi daha düşük bir fiyattan alın, çünkü ön satışların her aşamasında fiyat artmaktadır. Ayrıca, arkadaşlarınızı davet ederek, ön satış sırasında yatırdıkları tutarın %5'i kadar ödül kazanabilirsiniz. Yatırımlarından elde edilen pasif ödülleri kazanmak için davet etme konusunda bir sınır yoktur."
+    },
+    "trading": {
+      "titleWhite": "Ticaret Referansı",
+      "titleColor": "Ödüller",
+      "description": "BBT tokeni piyasaya sürüldükten sonra, özel referans bağlantınız aracılığıyla bizim panel uygulamamızdan arkadaşlarınızı davet edip, onların ticaret faaliyetlerinden ömür boyu %2 ticaret ödülü kazanabilirsiniz. $BBT tokenlerini aldıklarında veya sattıklarında kazanabilirsiniz."
+    },
+    "holding": {
+      "titleWhite": "Tutma",
+      "titleColor": "Ödüller",
+      "description": "BBT'yi tutarak pasif gelir elde edin. Sadece oturun ve rahatlayın, ticaret hacminden elde edilen tutma ödüllerinizin payını almak için her saat panel uygulamamızdan talep edin. Talep etmeyi unutursanız, cüzdan adresinizde kalan tüm ödülleri talep etmek için her zaman geri alabilirsiniz."
+    },
+    "staking": {
+      "titleWhite": "Staking",
+      "titleColor": "Ödüller",
+      "description": "Ödül kazanmak ve launchpad için garantili tahsis almak için $BBT'yi stake edin. Bu, ekosistemimizin staking arzından ödüllendirilecektir. Ayrıca, $BBT tokenlerinin ticaret hacminden dağıtılan tutma ödüllerini alma hakkına sahip olursunuz."
+    },
+    "vault": {
+      "titleWhite": "Vault Staking",
+      "titleColor": "Ödüller",
+      "description": "Herhangi bir tokeni otomatik bileşim sistemi ile kazanç sağlamak için stake edin. Herhangi bir tokeni stake ederek $BBT'yi otomatik bileşim ödülleri olarak kazanabilirsiniz. Bu, ekosistemimizin vault arzından ödüllendirilecektir. Biriken ödüllerle birlikte tokenlerinizi istediğiniz zaman açabilirsiniz."
+    }
+  }
+}
