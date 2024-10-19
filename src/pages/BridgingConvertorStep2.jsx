@@ -127,7 +127,7 @@ const BridgingConverter2 = () => {
               </p>
 
               {/* Step and Fees Section */}
-              <div className="mb-6">
+              <div className="md:mb-6 mb-[20px]">
                 <div className="card-border-wide h-full p-[1px]">
                   <div className="flex flex-col lg:flex-row justify-between items-center xl:gap-[96px] md:gap-[30px] gap-[12px] bg-[#161F2C] p-6 rounded-[20px] relative z-[2]">
                     <div>
@@ -170,7 +170,7 @@ const BridgingConverter2 = () => {
             </div>
 
             {/* No Funds Message */}
-            <div>
+            <div className="md:pb-0 pb-2">
               <p className="bg-[#38DCC8] w-fit mx-auto text-center text-black text-[11px] leading-[14px] lg:text-[18px] lg:leading-[23px] py-[10px] px-[20px] rounded-lg font-[400]">
                 You do not have funds to complete the transaction
               </p>
