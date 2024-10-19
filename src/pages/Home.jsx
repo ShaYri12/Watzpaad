@@ -12,7 +12,7 @@ import RoadMap from "../components/RoadMap";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
-  const { t } = useTranslation("faq");
+  const { t } = useTranslation("homepage");
   return (
     <div>
       <Hero />
@@ -42,7 +42,7 @@ const Home = () => {
       {/* FAQ */}
       <div className="max-w-[1280px] mx-auto md:py-[83px] py-[57px]">
         <h2 className="mb-[62px] md:text-[50px] text-[35px] font-[700] md:leading-[57.5px] leading-[40.25px] text-white text-center px-[22px]">
-          {t("faq_title")}
+        {t("faq.title")}
         </h2>
         <FAQSection />
       </div>

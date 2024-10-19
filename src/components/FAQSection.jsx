@@ -1,47 +1,10 @@
 import React, { useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
-
-const faqData = [
-  {
-    question:
-      "What is blockboost token?",
-    answer:
-      "Unique WEB3 Crowdfunding Ecosystem with unique rewards systems.",
-  },
-  {
-    question:
-      "Where can I purchase the Blockboost Token and when I will receive it?",
-    answer:
-      "During the presale you can purchase $BBT tokens from our official website www.blockboost.io you can claim your tokens from presale page after presale ends.",
-  },
-  {
-    question:
-      "Will my rewards always paid hourly?",
-    answer:
-      "Yes, you have to claim the reward from our official dapp via connecting your wallet.",
-  },
-  {
-    question:
-      "How can I eligible for the presale rewards?",
-    answer:
-      "You can get your referral link from presale page and purchase made through it will be auto credited to your account on presale page. You can check it via connecting wallet to presale page.",
-  },
-  {
-    question:
-      "How many stage are there in presale?",
-    answer:
-      "There are 10 stages in presale and the price of $BBT will increase at each stage.",
-  },
-  {
-    question:
-      "Is there staking on $BBT and when it will be available to stake?",
-    answer:
-      "Yes, please see the staking page for complete information on staking pools and rewards.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const FAQItem = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation("homepage");
 
   return (
     <div className="mb-[19px]">
@@ -53,7 +16,7 @@ const FAQItem = ({ item }) => {
         }}
       >
         <span className="text-[#798DA3] md:text-[18px] text-[14.04px]">
-          {item.question}
+          {t(item.question)}  {/* Using translation */}
         </span>
         <div
           className={`md:w-[40.95px] md:h-[40.95px] md:min-w-[40.95px] md:min-h-[40.95px] w-[24.07px] h-[24.07px] min-w-[24.07px] min-h-[24.07px] flex items-center justify-center text-[#1D1D23] rounded-[6.02px] md:rounded-[10.24px] ${
@@ -76,7 +39,7 @@ const FAQItem = ({ item }) => {
         }`}
       >
         <div className="mt-2 px-[50px] py-4 bg-[#1f2c40] rounded-lg text-gray-300 md:text-[16px] text-[14.04px]">
-          {item.answer}
+          {t(item.answer)}  {/* Using translation */}
         </div>
       </div>
     </div>
@@ -84,6 +47,36 @@ const FAQItem = ({ item }) => {
 };
 
 export default function FAQSection() {
+  const { t } = useTranslation("homepage");
+
+  // Create an array of FAQs using the translation keys
+  const faqData = [
+    {
+      question: "faq.question-one",
+      answer: "faq.answer-one",
+    },
+    {
+      question: "faq.question-two",
+      answer: "faq.answer-two",
+    },
+    {
+      question: "faq.question-three",
+      answer: "faq.answer-three",
+    },
+    {
+      question: "faq.question-four",
+      answer: "faq.answer-four",
+    },
+    {
+      question: "faq.question-five",
+      answer: "faq.answer-five",
+    },
+    {
+      question: "faq.question-six",
+      answer: "faq.answer-six",
+    },
+  ];
+
   return (
     <div className="w-full flex items-center justify-center px-4">
       <div className="w-full max-w-[1150px] mx-auto">
