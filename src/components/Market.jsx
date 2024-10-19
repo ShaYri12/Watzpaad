@@ -93,7 +93,7 @@ export default function Market({ dashboard = false }) {
             className="bg-[#1F2835CC] rounded-[10.39px] border-[2.6px] border-[#303945] flex flex-col md:p-[7.79px] p-[4.28px]"
           >
             <div className="card-border w-full p-[1.56px]">
-              <div className="md:p-[14px] p-[8px] rounded-[10.39px] flex flex-col sm:gap-[5.54px] gap-[7px] relative z-[2]">
+              <div className="md:p-[14px] p-[8px] rounded-[10.39px] flex flex-col sm:gap-[5.54px] gap-[7px] relative z-[2] w-full">
                 <div className="rounded-[10.39px] mb-[7.27px] md:mb-[13.34px] flex items-center justify-center h-[137px] md:h-[249.34px] overflow-hidden border-[2.6px] border-primaryColor">
                   <img
                     src="/assets/marketplace-card.png"
