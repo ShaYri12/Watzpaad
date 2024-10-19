@@ -17,7 +17,7 @@ const CrossChainIntegration = () => {
   return (
     <div className="text-white pt-[55px] max-w-[1280px] mx-auto">
       <div className="max-w-[769px] text-center mx-auto lg:px-0 px-[22px]">
-        <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
+        <h2 className="text-[25px] md:text-[32px] lg:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
           Cross-Chain Integration
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
@@ -33,7 +33,7 @@ const CrossChainIntegration = () => {
               <div className="max-h-[182.25px] max-w-[182.25px] h-full w-full">
                 <img
                   src={`/assets/icons/${logo}`}
-                  className="h-[182.25px] w-[182.25px] h-full w-full"
+                  className="min-h-[182.25px] min-w-[182.25px] h-full w-full"
                 />
               </div>
             </div>

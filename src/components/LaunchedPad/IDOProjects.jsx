@@ -3,8 +3,10 @@ import { BsTwitter } from "react-icons/bs";
 import { FaGlobe, FaTelegramPlane } from "react-icons/fa";
 import { IoMdMegaphone } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function IDOProjects() {
+  const { t } = useTranslation("launchedpad");
   const [activeTab, setActiveTab] = useState("Upcoming");
   const tabs = ["Upcoming", "Ongoing", "Ended"];
   return (
@@ -43,7 +45,8 @@ export default function IDOProjects() {
                   src="/assets/icons/integeration-logo-3.png"
                   className="w-[16px] h-[16px]"
                 />{" "}
-                Upcoming
+                
+                {t("ido-projects.upcoming")}
               </span>
               <div className="flex flex-col justify-center items-center">
                 <div
@@ -57,13 +60,15 @@ export default function IDOProjects() {
                 </div>
 
                 <h2 className="md:text-[21.01px] font-[700] md:leading-[20px] mt-[24px]">
-                Blockboost sale
+                
+                {t("ido-projects.title")}
                 </h2>
                 <p className="text-primaryColor md:text-[18.89px] md:leading-[28.34px]">
                 BBT/ETH
                 </p>
                 <p className="text-[#798DA3] text-center mt-[8px]">
-                Unique WEB3 Crowdfunding Ecosystem
+               
+                {t("ido-projects.description")}
 
                 </p>
                 <div className="flex space-x-2 mt-[20px]">
@@ -82,11 +87,11 @@ export default function IDOProjects() {
                 </div>
               </div>
               <div className="mt-[18px]">
-                <p className="text-primaryColor text-[15.28px]">Swap Rate:</p>
-                <p className="text-[17.19px] font-[400]">452000000 $BBT per 1 ETH</p>
+                <p className="text-primaryColor text-[15.28px]">{t("ido-projects.swap-rate")}</p>
+                <p className="text-[17.19px] font-[400]">452000000 $BBT {t("ido-projects.per")} 1 ETH</p>
               </div>
               <div className="mt-[8.5px]">
-                <p className="text-primaryColor text-[15.28px]">Start:</p>
+                <p className="text-primaryColor text-[15.28px]">{t("ido-projects.start")}</p>
                 <p className="text-[17.19px] font-[400]">17th Oct 2024</p>
               </div>
               <div className="slider-container w-full mt-10">
@@ -107,7 +112,8 @@ export default function IDOProjects() {
               </div>
               <div className="mt-[26px]">
                 <p className="text-[#798DA3] text-[15.28px] leading-[20.05px]">
-                  Total Raise
+                  
+                  {t("ido-projects.total-raise")}
                 </p>
                 <p className="text-[28.64px] font-[500] leading-[22.92px] text-primaryColor">
                   $25000
@@ -152,7 +158,7 @@ const Skeleton = () => {
           <h2 className="mb-[25px] text-[21.01px] font-[700] mt-[25px]">
             Coming Soon
           </h2>
-          <div className="flex items-center justify-center mx-auto flex-wrap gap-[10px] w-full mx-auto">
+          <div className="flex items-center justify-center mx-auto flex-wrap gap-[10px] w-full">
             <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[79px]" />
             <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[45px]" />
             <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[57px]" />
@@ -195,7 +201,7 @@ const Skeleton = () => {
           <div className="text-[17.19px] font-[400] bg-[#305B56] rounded-full h-[18px] w-[113px] mt-[7px]" />
         </div>
         <div className="slider-container w-full mt-[15px]">
-          <div className="flex w-full ms-auto justify-end text-primaryColor text-[28.43px] bg-[#305B56] rounded-full h-[18px] w-[47px] mb-[8.5px]" />
+          <div className="flex w-full ms-auto justify-end text-primaryColor text-[28.43px] bg-[#305B56] rounded-full h-[18px]  mb-[8.5px]" />
           <div className="mt-[8.6pxpx] h-[6.68px] w-full bg-[#305B56] rounded-full"></div>
           <div className="flex justify-between text-[9.55px] text-[#798DA3] mt-[6px]">
             <div className="bg-[#305B56] rounded-full h-[5px] w-[47px]" />

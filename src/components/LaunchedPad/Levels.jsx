@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const tiers = [
   {
@@ -127,17 +128,15 @@ const TierCard = ({ tier }) => (
 );
 
 export default function Levels() {
+  const { t } = useTranslation("launchedpad");
   return (
     <div className="text-white max-w-[1280px] mx-auto">
       <div className="max-w-[769px] text-center mx-auto">
-        <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
-          The Blockboost Tiered system
+        <h2 className="text-[25px] md:text-[32px] lg:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
+          {t("levels.title")}
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
-          Blockboost will showcase a fixed tier system based on the number of
-          tokens staked. Lottery Tiers will share 20% of total raise and rest
-          80% of the raise is assigned for guaranteed allocation tiers based on
-          the pool weights assigned.
+          {t("levels.description")}
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[28px] mt-[53px]">

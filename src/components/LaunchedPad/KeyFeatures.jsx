@@ -1,39 +1,43 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+
+
 const KeyFeatures = () => {
+  const { t } = useTranslation("launchedpad");
   const features = [
     {
-      title: "Fair and Transparent",
+      title: t("key-features.box-one-title"),
       imageUrl: "feature-1.svg",
-      description:
-        "Every holders of blockboost tokens have equal chances of participating in upcoming promising projects to be an early stage investor and be part of their success story.",
+      description: t("key-features.box-one-description"),
     },
     {
-      title: "Rug-Proof Mechanisms",
+      title:  t("key-features.box-two-title"),
       imageUrl: "feature-2.svg",
       description:
-        "Before any project makes its way to our platform, it undergoes rigorous smart contract audits. Conducting smart contract audits helps identify and fix vulnerabilities before deployment. ",
+      t("key-features.box-two-description"),
     },
     {
-      title: "Guaranteed Allocations",
+      title: t("key-features.box-three-title"),
       imageUrl: "feature-3.svg",
       description:
-        "Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.",
+      t("key-features.box-three-description"),
     },
     {
-      title: "High-Quality Projects",
+      title: t("key-features.box-four-title"),
       imageUrl: "feature-4.svg",
       description:
-        "Block boost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted.",
+      t("key-features.box-four-description"),
     },
   ];
 
   return (
     <div className="text-white pb-[55px] max-w-[1280px] mx-auto lg:px-0 px-[22px]">
       <div className="max-w-[769px] text-center mx-auto">
-        <h2 className="text-[25px] md:text-[32px] md:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
-          BlockBoost Key Features
+        <h2 className="text-[25px] md:text-[32px] lg:text-[50px] md:leading-[57.5px] font-[700] text-white text-center">
+          {t("key-features.title")}
         </h2>
         <p className="text-center text-white text-[12px] md:text-[17px] md:mt-[22px] mt-[13px] font-[300]">
-          Launching hand-picked high-quality projects on the Blockchain
+          {t("key-features.description")}
         </p>
       </div>
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function IDOStaking() {
   const [stakeAmount, setStakeAmount] = useState("");
@@ -14,30 +15,29 @@ export default function IDOStaking() {
     setUnstakeAmount("50");
   };
 
+  const { t } = useTranslation("launchedpad");
+
   return (
     <div className="flex flex-col md:flex-row gap-[31px] text-white mx-auto max-w-[1280px]">
       <div className="card-border md:w-1/2 w-full bg-[#1F2835CC]">
         <div className="rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px] relative z-[2]">
           <h2 className=" capitalize text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
-            Stake for IDO Participation
+            {t("ido-staking.title")}
           </h2>
           <p className="text-[13.52px] md:text-[16px] mb-[18px]">
-            Once staked, you need to register for every IDO, so we can calculate
-            the guaranteed allocation. Once registered, we lock your tokens, but
-            you still can participate in other IDOs.
+            {t("ido-staking.description")}
           </p>
           <p className="text-[13.52px] md:text-[16px] mb-[25px] md:mb-[32px] flex flex-col">
-            <span>Level: none</span>
-            <span>Staked:</span>
-            <span>0 BBT </span>
-            <span>Your tokens are unlocked</span>
+            <span>{t("ido-staking.level")}</span>
+            <span>{t("ido-staking.stack")}</span>
+            <span>{t("ido-staking.tokens")}</span>
           </p>
           {/* Input sections */}
           <div className="flex justify-between gap-[13px] flex-wrap">
             {/* Stake Input */}
             <div className="relative flex-1 bg-[#121C29] px-[14px] md:px-[16px] py-[12px] rounded-lg flex items-center border border-primaryColor text-[11.83px] md:text-[14px] justify-between">
               <div className="flex gap-[4px] md:gap-[6px] items-center">
-                Balance:
+                {t("ido-staking.balance")}
                 <input
                   type="number"
                   className="bg-transparent text-right text-white w-[35px] md:w-[40px] outline-none"
@@ -52,7 +52,7 @@ export default function IDOStaking() {
                   className="bg-primaryColor px-[16px] py-[5px] rounded-[5px] text-black"
                   onClick={handleMaxStake}
                 >
-                  Max
+                  {t("ido-staking.max")}
                 </button>
                 <span className="text-white">BBT </span>
               </div>
@@ -61,7 +61,7 @@ export default function IDOStaking() {
             {/* Unstake Input */}
             <div className="relative flex-1 bg-[#121C29] px-[14px] md:px-[16px] py-[12px] rounded-lg flex items-center border border-primaryColor text-[11.83px] md:text-[14px] justify-between">
               <div className="flex gap-[4px] md:gap-[6px] items-center">
-                Balance:
+                {t("ido-staking.balance")}
                 <input
                   type="number"
                   className="bg-transparent text-right text-white w-[35px] md:w-[40px] outline-none"
@@ -76,7 +76,7 @@ export default function IDOStaking() {
                   className="bg-primaryColor px-[16px] py-[5px] rounded-[5px] text-black"
                   onClick={handleMaxUnstake}
                 >
-                  Max
+                  {t("ido-staking.max")}
                 </button>
                 <span className="text-white">BBT </span>
               </div>
@@ -86,10 +86,10 @@ export default function IDOStaking() {
           {/* Action Buttons */}
           <div className="flex gap-[13px] mt-[15px] flex-wrap">
             <button className="flex-grow bg-primaryColor hover:bg-teal-300 min-w-[235px] text-[19px] md:text-[24px] transition text-black py-[11px] px-4 rounded-full">
-              Approve
+              {t("ido-staking.approve")}
             </button>
             <button className="flex-grow bg-transparent hover:bg-gray-700 text-white min-w-[235px] text-[19px] md:text-[24px] transition py-[11px] px-4 rounded-full border border-white">
-              Unstake
+              {t("ido-staking.unstake")}
             </button>
           </div>
         </div>
@@ -97,54 +97,57 @@ export default function IDOStaking() {
       <div className="card-border md:w-1/2 w-full bg-[#1F2835CC]">
         <div className="rounded-[13.34px] overflow-hidden md:px-[29px] px-[9px] py-[24px] relative z-[2]">
           <h2 className="text-[20.28px] md:text-[24px] font-[700] md:mb-[14px] mb-[22px]">
-            $BBT Levels
+            {t("ido-staking.levels")}
           </h2>
           <p className="text-[13.68px] md:text-[16px] mb-[25px]">
-            To be eligible for any of the tiers you are required to stake the
-            following:
+            {t("ido-staking.desc")}
           </p>
           <ul className="text-[13.68px] md:text-[16px] mb-[25px]">
             <li>
-              <span className="text-primaryColor font-[700]">BBT Of $200</span>{" "}
-              for chance (10% lottery) 5 days
-            </li>
-            <li>
-              <span className="text-primaryColor font-[700]">BBT Of $500</span>{" "}
-              for prospect (25% lottery) 5 days
-            </li>
-            <li>
-              <span className="text-primaryColor font-[700]">BBT Of $1000</span>{" "}
-              for affiliate (50% lottery) 5 days
-            </li>
-            <li>
-              <span className="text-primaryColor font-[700]">BBT Of $2000</span>{" "}
-              for member 5 days
-            </li>
-            <li>
-              <span className="text-primaryColor font-[700]">BBT Of $5000</span>{" "}
-              for club 5 days
+              <span className="text-primaryColor font-[700]">
+                {t("ido-staking.bbtof")} $200{" "}
+              </span>
+              {t("ido-staking.forchances")}
             </li>
             <li>
               <span className="text-primaryColor font-[700]">
-                BBT Of $10000
+                {t("ido-staking.bbtof")} $500
               </span>{" "}
-              for associate 5 days
+              {t("ido-staking.forprospect")}
+            </li>
+            <li>
+              <span className="text-primaryColor font-[700]">
+                {t("ido-staking.bbtof")} $1000
+              </span>{" "}
+              {t("ido-staking.foraffiliate")}
+            </li>
+            <li>
+              <span className="text-primaryColor font-[700]">
+                {t("ido-staking.bbtof")} $2000
+              </span>{" "}
+              {t("ido-staking.formember")}
+            </li>
+            <li>
+              <span className="text-primaryColor font-[700]">
+                {t("ido-staking.bbtof")} $5000
+              </span>{" "}
+              {t("ido-staking.forclub")}
+            </li>
+            <li>
+              <span className="text-primaryColor font-[700]">
+                {t("ido-staking.bbtof")} $10000
+              </span>{" "}
+              {t("ido-staking.forassociate")}
             </li>
           </ul>
           <p className="text-primaryColor text-[13.68px] md:text-[16px] font-[700] mb-[5px]">
-            You need to register for an IDO after you staked.
+            {t("ido-staking.description-one")}
           </p>
           <p className="text-[11.97px] md:text-[14px] mb-4">
-            When IDO registration period starts (usually 24h before the IDO
-            start), you need to open the Pools page and click the "Register"
-            button in the pool card.
+            {t("ido-staking.description-two")}
           </p>
           <p className="text-[11.97px] md:text-[14px]">
-            When you register for an IDO, your level is recorded (for this
-            specific IDO). There's no way to change it to a higher level after
-            registration. So make sure you are on the level you want before
-            registering. You will be able to stake more and register for other
-            IDOs with a higher level though.
+            {t("ido-staking.description-three")}
           </p>
         </div>
       </div>
