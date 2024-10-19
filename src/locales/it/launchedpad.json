@@ -1,0 +1,72 @@
+{
+    "hero": {
+      "title": "Il launchpad più sicuro. Multi-chain.",
+      "description": "BlockBoost è una piattaforma decentralizzata di raccolta fondi multi-chain che consente ai progetti di raccogliere capitale e promettere sicurezza agli investitori in fase iniziale. Metti in staking i token BlockBoost per avere accesso prioritario a progetti promettenti."
+    },
+
+    "key-features": {
+      "title": "Caratteristiche Principali di BlockBoost",
+      "description": "Lancio di progetti di alta qualità selezionati sulla Blockchain",
+      "box-one-title": "Giusto e Trasparente",
+      "box-one-description": "Ogni detentore di token BlockBoost ha pari opportunità di partecipare a progetti promettenti futuri come investitore in fase iniziale e di far parte della loro storia di successo.",
+      "box-two-title": "Meccanismi Anti-Truffa",
+      "box-two-description": "Prima che qualsiasi progetto arrivi sulla nostra piattaforma, subisce rigorosi audit dei contratti intelligenti. Condurre audit dei contratti intelligenti aiuta a identificare e correggere vulnerabilità prima del deploy.",
+      "box-three-title": "Allocazioni Garantite",
+      "box-three-description": "Una volta messi in staking, è necessario registrarsi per ogni IDO, così possiamo calcolare l'allocazione garantita. Una volta registrati, blocchiamo i tuoi token, ma puoi comunque partecipare ad altri IDO.",
+      "box-four-title": "Progetti di Alta Qualità",
+      "box-four-description": "BlockBoost è la tua porta d'accesso a opportunità di investimento in fase iniziale, che il nostro team ha accuratamente esaminato."
+    },
+
+    "ido-staking": {
+      "title": "Staking per Partecipazione all'IDO",
+      "description": "Una volta messi in staking, è necessario registrarsi per ogni IDO, così possiamo calcolare l'allocazione garantita. Una volta registrati, blocchiamo i tuoi token, ma puoi comunque partecipare ad altri IDO.",
+      "level": "Livello: nessuno",
+      "stack": "Messi in staking: 0 BBT",
+      "tokens": "I tuoi token sono sbloccati",
+      "balance": "Saldo:",
+      "max": "Max",
+      "approve": "Approva",
+      "unstake": "Sblocca",
+      "levels": "Livelli $BBT",
+      "desc": "Per essere idoneo a uno dei livelli, è necessario mettere in staking quanto segue:",
+      "bbtof": "BBT Di",
+      "forchances": "per chance (lotteria 10%) 5 giorni",
+      "forprospect": "per prospect (lotteria 25%) 5 giorni",
+      "foraffiliate": "per affiliate (lotteria 50%) 5 giorni",
+      "formember": "per member 5 giorni",
+      "forclub": "per club 5 giorni",
+      "forassociate": "per associate 5 giorni",
+      "description-one": "Devi registrarti per un IDO dopo aver messo in staking.",
+      "description-two": "Quando inizia il periodo di registrazione per l'IDO (di solito 24 ore prima dell'inizio dell'IDO), devi aprire la pagina Pools e cliccare sul pulsante 'Registrati' nella scheda pool.",
+      "description-three": "Quando ti registri per un IDO, il tuo livello viene registrato (per questo specifico IDO). Non è possibile cambiarlo a un livello superiore dopo la registrazione. Assicurati quindi di essere sul livello desiderato prima di registrarti. Potrai comunque mettere in staking di più e registrarti per altri IDO con un livello superiore."
+    },
+
+    "ido-projects": {
+        "upcoming": "In arrivo",
+        "title": "Vendita Blockboost",
+        "description": "Ecosistema di Crowdfunding WEB3 Unico",
+        "swap-rate": "Tasso di Scambio:",
+        "per": "Per",
+        "start": "Inizio:",
+        "total-raise": "Raccolta Totale"
+    },
+
+    "levels": {
+        "title": "Il Sistema a Livelli di Blockboost",
+        "description": "Blockboost presenterà un sistema a livelli fisso basato sul numero di token messi in staking. I livelli della lotteria condivideranno il 20% della raccolta totale e l'80% restante della raccolta è assegnato per i livelli di allocazione garantita basati sui pesi del pool assegnati.",
+        "staking-requirements": "Requisiti di Staking",
+        "staking-length-required": "3 ore prima dell'apertura del Turno di Allocazione",
+        "whitelist-requirement": "Requisito di Whitelist Twitter",
+        "lottery-tickets": "Biglietti della Lotteria",
+        "guaranteed-allocation": "Allocazione Garantita",
+        "pool-weight": "Peso del Pool",
+        "private-allocations": "Allocazioni Private",
+        "yes": "Sì",
+        "bronze": "Bronzo",
+        "silver": "Argento",
+        "gold": "Oro",
+        "platinum": "Platino",
+        "diamond": "Diamante",
+        "blue-diamond": "Diamante Blu"
+    }    
+}

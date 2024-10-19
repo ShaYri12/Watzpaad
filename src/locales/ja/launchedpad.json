@@ -1,0 +1,72 @@
+{
+    "hero": {
+        "title": "最も安全なローンチパッド。マルチチェーン。",
+        "description": "BlockBoostは、プロジェクトが資金を調達し、初期段階の投資家に安全を約束する分散型マルチチェーン資金調達プラットフォームです。BlockBoostトークンをステークして、有望なプロジェクトへの優先アクセスを取得します。"
+    },
+
+    "key-features": {
+        "title": "BlockBoostの主要機能",
+        "description": "ブロックチェーン上で厳選された高品質プロジェクトを立ち上げます。",
+        "box-one-title": "公正で透明",
+        "box-one-description": "BlockBoostトークンのすべての保有者には、今後の有望なプロジェクトに参加する平等なチャンスがあり、初期段階の投資家として成功のストーリーの一部となることができます。",
+        "box-two-title": "ラグプル防止メカニズム",
+        "box-two-description": "プロジェクトが当社のプラットフォームに上陸する前に、厳格なスマートコントラクト監査を受けます。スマートコントラクト監査を行うことで、デプロイメント前に脆弱性を特定して修正するのに役立ちます。",
+        "box-three-title": "保証された配分",
+        "box-three-description": "一度ステークすると、各IDOに登録する必要があります。そうすることで、保証された配分を計算できます。登録後、トークンはロックされますが、他のIDOには引き続き参加できます。",
+        "box-four-title": "高品質プロジェクト",
+        "box-four-description": "BlockBoostは、当社チームが徹底的に審査した初期段階の投資機会への入り口です。"
+    },
+
+    "ido-staking": {
+        "title": "IDO参加のためにステーク",
+        "description": "一度ステークすると、各IDOに登録する必要があります。そうすることで、保証された配分を計算できます。登録後、トークンはロックされますが、他のIDOには引き続き参加できます。",
+        "level": "レベル：なし",
+        "stack": "ステーク済み：0 BBT",
+        "tokens": "トークンは解除されています",
+        "balance": "残高：",
+        "max": "最大",
+        "approve": "承認",
+        "unstake": "アンステーク",
+        "levels": "$BBTレベル",
+        "desc": "いずれかのティアに参加するには、以下をステークする必要があります：",
+        "bbtof": " BBTの",
+        "forchances": "チャンスのために（10％の宝くじ） 5日間",
+        "forprospect": "見込みのために（25％の宝くじ） 5日間",
+        "foraffiliate": "アフィリエイトのために（50％の宝くじ） 5日間",
+        "formember": "メンバーのために 5日間",
+        "forclub": "クラブのために 5日間",
+        "forassociate": "アソシエイトのために 5日間",
+        "description-one": "ステーク後にIDOに登録する必要があります。",
+        "description-two": "IDO登録期間が始まると（通常、IDO開始の24時間前）、プールページを開いてプールカードの「登録」ボタンをクリックする必要があります。",
+        "description-three": "IDOに登録すると、その特定のIDOのためにあなたのレベルが記録されます。登録後により高いレベルに変更することはできません。したがって、登録する前に望むレベルであることを確認してください。ただし、より高いレベルで他のIDOに登録するために、より多くステークすることができます。"
+    },
+
+    "ido-projects": {
+        "upcoming": "今後の",
+        "title": "Blockboostセール",
+        "description": "ユニークなWEB3クラウドファンディングエコシステム",
+        "swap-rate": "スワップレート：",
+        "per": "あたり",
+        "start": "開始：",
+        "total-raise": "合計調達額"
+    },
+
+    "levels": {
+        "title": "Blockboostティア制システム",
+        "description": "Blockboostは、ステークされたトークン数に基づいて固定のティアシステムを表示します。宝くじティアは合計調達額の20％を共有し、残りの80％はプールの重み付けに基づく保証された配分ティアに割り当てられます。",
+        "staking-requirements": "ステーク要件",
+        "staking-length-required": "配分ラウンドが開く3時間前",
+        "whitelist-requirement": "ホワイトリスト要件Twitter",
+        "lottery-tickets": "宝くじチケット",
+        "guaranteed-allocation": "保証された配分",
+        "pool-weight": "プール重み",
+        "private-allocations": "プライベート配分",
+        "yes": "はい",
+        "bronze": "ブロンズ",
+        "silver": "シルバー",
+        "gold": "ゴールド",
+        "platinum": "プラチナ",
+        "diamond": "ダイヤモンド",
+        "blue-diamond": "ブルーダイヤモンド"
+    }
+}
