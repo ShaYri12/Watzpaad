@@ -32,7 +32,7 @@ const Header = () => {
           </button>
         </div>
         {/* Nav links */}
-        <nav className="hidden lg:flex xl:gap-[7px] gap-[4px] py-[19px]">
+        <nav className="hidden lg:flex xl:gap-[7px] md:gap-0 gap-[4px] py-[19px]">
           {[
             { name: "Home", path: "/" },
             { name: "Launchpad", path: "/launchpad" },
@@ -47,7 +47,7 @@ const Header = () => {
               key={index}
               to={item.path}
               className={({ isActive }) =>
-                `px-[10px] py-[6px] transition xl:text-[16px] text-[14px] ${
+                `px-[10px] py-[6px] transition xl:text-[16px] text-[14px] w-max ${
                   isActive
                     ? "text-primaryColor font-[700] "
                     : "text-white font-[400]"
