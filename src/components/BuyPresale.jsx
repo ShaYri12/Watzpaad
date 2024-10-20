@@ -1,5 +1,5 @@
 import React from "react";
-import Presale from "../assets/Group 1707486245 1.png";
+import Presale from "../assets/card.png";
 import { useTranslation } from "react-i18next";
 
 const TimelineItem = ({ title, description, id }) => {
@@ -61,7 +61,7 @@ const BuyPresale = () => {
             ))}
           </div>
           <div className="w-full flex items-center justify-center lg:items-end lg:justify-end mt-10">
-            <img src={Presale} alt="Presale" className="" />
+            <img src={Presale} alt="Presale" className="rounded-[13.50px]" />
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function MetaAltPad() {
               </div>
               <div className="flex flex-col justify-center gap-[4px] h-full my-auto">
                 <h2 className="text-[25.76px] md:text-[30px] text-white leading-[26px] p-0 m-0 font-[700]">
-                  MetaAltPad
+                  BlockBoost
                 </h2>
                 <p className="text-[13.74px] md:text-[16px] text-primaryColor">
                   BBT / BUSD
@@ -164,7 +164,7 @@ export default function MetaAltPad() {
                     />
                   </div>
                   <h1 className="md:text-[30px] text-[20px] font-[700]">
-                    MetaAltPad Private Sale
+                    BlockBoost Private Sale
                   </h1>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function MetaAltPad() {
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
                   <span className="font-[700] text-white">Token:</span>
                   <span className="text-primaryColor font-[400]">
-                    MetaAltPad (BBT)
+                    BlockBoost (BBT)
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">

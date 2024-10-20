@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="z-50 sticky top-0 px-4 py-2.5 sm:px-[22px] bg-[#09121D] ">
-      <div className="max-w-[1280px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 shadow-lg">
+      <div className="max-w-[1320px] mx-auto flex justify-between items-center lg:py-0 md:py-4 py-2 shadow-lg">
         <Link to="/" className="flex items-center my-auto">
           <img
             src={Logo}
@@ -32,7 +32,7 @@ const Header = () => {
           </button>
         </div>
         {/* Nav links */}
-        <nav className="hidden lg:flex xl:gap-[7px] gap-[4px] py-[19px]">
+        <nav className="hidden lg:flex xl:gap-[7px] md:gap-0 gap-[4px] py-[19px]">
           {[
             { name: "Home", path: "/" },
             { name: "Launchpad", path: "/launchpad" },
@@ -47,7 +47,7 @@ const Header = () => {
               key={index}
               to={item.path}
               className={({ isActive }) =>
-                `px-[10px] py-[6px] transition xl:text-[16px] text-[14px] ${
+                `px-[10px] py-[6px] transition xl:text-[16px] text-[14px] w-max ${
                   isActive
                     ? "text-primaryColor font-[700] "
                     : "text-white font-[400]"
@@ -62,7 +62,8 @@ const Header = () => {
           <div>
             <LanguageDropdown />
           </div>
-          <button
+          <Link
+            to="/dashboard"
             className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
@@ -70,7 +71,7 @@ const Header = () => {
             }}
           >
             Go to App
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -112,7 +113,8 @@ const Header = () => {
                   {item.name}
                 </NavLink>
               ))}
-              <button
+              <Link
+                to="/dashboard"
                 className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
                 style={{
                   background:
@@ -121,7 +123,7 @@ const Header = () => {
                 }}
               >
                 Go to App
-              </button>
+              </Link>
             </nav>
           </>
         )}

@@ -7,10 +7,10 @@ const FAQItem = ({ item }) => {
   const { t } = useTranslation("homepage");
 
   return (
-    <div className="mb-[19px]">
+    <div className="mb-[19px] max-w-[900px]">
       <button className="card-border-faq w-full p-[2px]">
         <div
-          className="w-full text-left px-[18.22px] md:px-[48px] py-[16.5px] bg-[#121C29] rounded-[13.34px] flex justify-between items-center focus:outline-none focus:ring-1 focus:ring-teal-500 gap-1"
+          className="w-full text-left px-[18.22px] md:px-[30px] py-[16.5px] bg-[#121C29] rounded-[13.34px] flex justify-between items-center focus:outline-none focus:ring-1 focus:ring-teal-500 gap-1"
           onClick={() => setIsOpen(!isOpen)}
           style={{
             backdropFilter: "blur(33.34968948364258px)",

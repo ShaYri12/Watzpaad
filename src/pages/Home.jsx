@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../components/Hero";
 import FAQSection from "../components/FAQSection";
 import MarqueeSlider from "../components/MarqueeSlider";
@@ -13,6 +13,12 @@ import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation("homepage");
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div>
       <Hero />
@@ -42,7 +48,7 @@ const Home = () => {
       {/* FAQ */}
       <div className="max-w-[1280px] mx-auto md:py-[83px] py-[57px]">
         <h2 className="mb-[62px] md:text-[50px] text-[35px] font-[700] md:leading-[57.5px] leading-[40.25px] text-white text-center px-[22px]">
-        {t("faq.title")}
+          {t("faq.title")}
         </h2>
         <FAQSection />
       </div>
