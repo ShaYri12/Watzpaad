@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] bgimage-one">
-      <div className=" mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between items-center">
+      <div className=" max-w-full  mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between w-full items-center">
         <div className="lg:max-w-[590px] w-full mx-auto sm:px-0 px-[19px]">
           <h1 className="text-[#38DCC8] text-[40px] sm:text-[50px] md:text-[75px] font-bold">
             {t("hero.title")}
@@ -60,7 +60,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="sm:px-0 px-[8px] overflow-x-hidden w-full h-full">
+        <div className="sm:px-0 px-[8px] overflow-x-hidden max-w-[500px] mx-auto h-full">
           <div
             className=" lg:max-w-[428px] bg-[#1F2835CC] w-full mx-auto border border-[#303945] rounded-[13.79px] sm:p-3 p-2"
             style={{ backdropFilter: " blur(34.47999954223633px)" }}
