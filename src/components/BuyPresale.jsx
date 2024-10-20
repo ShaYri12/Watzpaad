@@ -1,14 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Presale from "../assets/card.png";
 import { useTranslation } from "react-i18next";
 
 const TimelineItem = ({ title, description, id }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null); // Reference to the div
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting); // Set state to true if the element is visible
+      },
+      {
+        threshold: 0.1, // Trigger when 10% of the div is visible
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="flex items-start mb-20 relative">
+    <div ref={ref} className="flex items-start mb-20 relative">
       <div className="flex flex-col items-center z-10 mr-6 mt-16">
         <div className="w-4 h-4 bg-[#38DCC8] rounded-full"></div>
       </div>
-      <div className="absolute left-[30px] sm:left-[50px] text-custom opacity-10 text-[80px] sm:text-[96px] font-bold">
+      <div
+        className={`absolute left-[30px] sm:left-[50px] text-custom text-[80px] sm:text-[96px] font-bold transition-opacity duration-500 ${
+          isVisible ? "opacity-100" : "opacity-10"
+        }`}
+      >
         {`0${id}`}
       </div>
       <div className="flex-grow ml-[100px] sm:ml-[140px] mt-4">
