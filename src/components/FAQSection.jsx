@@ -82,7 +82,7 @@ export default function FAQSection() {
 
   return (
     <div className="w-full flex items-center justify-center px-4">
-      <div className="w-full max-w-[1150px] mx-auto">
+      <div className="w-full max-w-[900px] mx-auto">
         {faqData.map((item, index) => (
           <FAQItem key={index} item={item} />
         ))}

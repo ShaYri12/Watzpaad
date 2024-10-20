@@ -9,6 +9,7 @@ import VISA from "../assets/visa.svg";
 import Slider from "./Slider";
 import HomeDropdown from "./HomeDropdown";
 import { useTranslation } from "react-i18next";
+import { FaCaretDown } from 'react-icons/fa';
 
 const Hero = () => {
   const dropdownOptions1 = ["USDT", "USDT", "USDT"];
@@ -18,9 +19,9 @@ const Hero = () => {
 
   return (
     <section className="w-full text-white py-[50px] px-6 bgimage-one">
-      <div className="max-w-[1400px] mx-auto flex flex-col gap-8 lg:gap-4 lg:flex-row justify-between items-center">
+      <div className="max-w-[1400px] mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between items-center">
         <div className="lg:max-w-[590px] w-full mx-auto">
-          <h1 className="text-[#38DCC8] text-[50px] md:text-[75px] font-bold">
+          <h1 className="text-[#38DCC8] text-[40px] sm:text-[50px] md:text-[75px] font-bold">
             {t("hero.title")}
           </h1>
           <div className="bg-[#38DCC8] w-[250px] h-[6px] rounded-[20px] my-3 mb-6"></div>
@@ -115,7 +116,7 @@ const Hero = () => {
               <div className="flex items-center justify-center mt-3 gap-2">
                 <img src={Bitcoin} alt="bitcoin" width={24} height={24} />
                 <h2 className="text-[14px] leading-[16px] font-bold">
-                  1 LHUNT
+                  1 BBT
                 </h2>
                 <h2 className="text-[#798DA3] text-[14px] leading-[16px] font-bold">
                   $0.001
@@ -184,11 +185,18 @@ const Hero = () => {
                     />
                   </div>
                 </div>
-                <HomeDropdown
-                  label="USDT"
-                  options={dropdownOptions2}
-                  image={Bitcoin}
-                />
+
+                <div>
+                <button
+                    className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white  border border-[#798DA3] rounded-lg "
+                >
+                    <span className="flex items-center">
+                        <img src={Bitcoin} alt="audit" width={20} height={20} />
+                        <span className="ml-2">BBT</span> 
+                    </span>
+                    <FaCaretDown className="text-[#38DCC8] text-[20px]"/>
+                </button>
+            </div>
               </div>
 
               <p className="text-[#798DA3] text-[14px] leading-[14px] font-normal text-center py-5">
