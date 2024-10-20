@@ -31,13 +31,13 @@ const ExclusiveBenefits = () => {
         <h1 className="text-[35px] capitalize sm:text-[50px] sm:leading-[57.5px] text-white font-bold max-w-[675px] mx-auto text-center">
           {t("exclusive-benefits.title")}
         </h1>
-        <div className="mt-[30px] flex-wrap flex items-center h-full justify-center gap-12">
+        <div className="mt-[30px] flex-wrap flex justify-center gap-12">
           <div
-            className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
+            className="md:h-[405px] w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
                 <img src={PresaleRewards} alt="launchpad" />
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-one-title")}
@@ -49,11 +49,11 @@ const ExclusiveBenefits = () => {
             </div>
           </div>
           <div
-            className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
+            className="md:h-[405px] w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
                 <img src={ReferralRewards} alt="launchpad" />
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-two-title")}
@@ -65,11 +65,11 @@ const ExclusiveBenefits = () => {
             </div>
           </div>
           <div
-            className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
+            className="md:h-[405px] w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
                 <img src={TradingRewards} alt="launchpad" />
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-three-title")}
@@ -81,11 +81,11 @@ const ExclusiveBenefits = () => {
             </div>
           </div>
           <div
-            className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
+            className="md:h-[405px] w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
                 <img
                   src={VaultStackingRewards}
                   alt="launchpad"
@@ -101,11 +101,11 @@ const ExclusiveBenefits = () => {
             </div>
           </div>
           <div
-            className="h-full w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
+            className="md:h-[405px] w-[378px] p-3 bg-[#1F2835CC] rounded-[10px] border-[2.6px] border-[#303945]"
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2]">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
                 <img src={StackingRewards} alt="launchpad" />
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-five-title")}
