@@ -62,7 +62,8 @@ const Header = () => {
           <div>
             <LanguageDropdown />
           </div>
-          <button
+          <Link
+            to="/dashboard"
             className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
@@ -70,7 +71,7 @@ const Header = () => {
             }}
           >
             Go to App
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -112,7 +113,8 @@ const Header = () => {
                   {item.name}
                 </NavLink>
               ))}
-              <button
+              <Link
+                to="/dashboard"
                 className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
                 style={{
                   background:
@@ -121,7 +123,7 @@ const Header = () => {
                 }}
               >
                 Go to App
-              </button>
+              </Link>
             </nav>
           </>
         )}

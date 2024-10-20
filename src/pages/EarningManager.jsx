@@ -16,6 +16,13 @@ const EarningsManager = () => {
     };
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
   return (
     <div className="w-full flex-1 min-h-screen px-[30px] pt-[100px] pb-[61px] relative">
       <img
