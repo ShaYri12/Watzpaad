@@ -12,7 +12,7 @@ const TimelineItem = ({ title, description, id }) => {
         setIsVisible(entry.isIntersecting); // Set state to true if the element is visible
       },
       {
-        threshold: 0.1, // Trigger when 10% of the div is visible
+        threshold: 0.7, // Trigger when 10% of the div is visible
       }
     );
 
