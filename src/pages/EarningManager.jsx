@@ -176,7 +176,7 @@ const EarningsManager = () => {
         <div className="grid w-full md:grid-cols-2 gap-5 py-5">
           <div className="lg:p-[17px] p-[8px] shadow-lg rounded-[13.76px] mx-auto relative bg-gray-800 w-full">
             <div className="card-border w-full h-full p-[1.93px]">
-              <div className="flex flex-col w-full items-center px-6 pb-6 text-white relative z-[2]">
+              <div className="flex flex-col w-full items-center sm:px-6 px-3 pb-6 text-white relative z-[2]">
                 <div className="">
                   {/* Image placeholder */}
                   <img
@@ -205,7 +205,7 @@ const EarningsManager = () => {
           </div>
           <div className="lg:p-[17px] p-[8px] shadow-lg rounded-[13.76px] mx-auto relative bg-gray-800 w-full">
             <div className="card-border w-full h-full p-[1.93px]">
-              <div className="flex flex-col w-full items-center px-6 pb-6 text-white relative z-[2]">
+              <div className="flex flex-col w-full items-center sm:px-6 px-3 pb-6 text-white relative z-[2]">
                 <div className="">
                   {/* Image placeholder */}
                   <img
