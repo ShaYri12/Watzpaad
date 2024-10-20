@@ -64,7 +64,7 @@ const Header = () => {
           </div>
           <Link
             to="/dashboard"
-            className="text-black xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
+            className="text-black flex items-center justify-center xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
@@ -115,7 +115,7 @@ const Header = () => {
               ))}
               <Link
                 to="/dashboard"
-                className="text-black text-[18px] py-[15px] px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
+                className="text-black text-[18px] py-[15px] flex items-center justify-center px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
                 style={{
                   background:
                     "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
