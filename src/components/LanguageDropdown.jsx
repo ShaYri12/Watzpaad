@@ -20,10 +20,6 @@ const languages = [
   { code: "uk", name: "Ukrainian", flag: "https://flagcdn.com/w320/ua.png" },
   { code: "vi", name: "Vietnamese", flag: "https://flagcdn.com/w320/vn.png" },
   { code: "zh", name: "Chinese", flag: "https://flagcdn.com/w320/cn.png" },
-  // { code: "bn", name: "Bengali", flag: "https://flagcdn.com/w320/bd.png" },
-  // { code: "pa", name: "Punjabi", flag: "https://flagcdn.com/w320/pk.png" },
-  // { code: "jv", name: "Javanese", flag: "https://flagcdn.com/w320/id.png" },
-  // { code: "ta", name: "Tamil", flag: "https://flagcdn.com/w320/in.png" },
 ];  
 
 const LanguageDropdown = () => {
