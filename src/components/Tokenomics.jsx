@@ -70,9 +70,7 @@ const Tokenomics = () => {
                   <h2 className="text-[16px] sm:text-[24px] font-bold">
                     {t("tokenomics.token-contract-address")}
                   </h2>
-                  <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space">
-                    {t("tokenomics.empty")}
-                  </h4>
+                  <h4 className="text-[14px] sm:text-[16px] leading-[26px] font-normal font-space"></h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h2 className="text-[16px] sm:text-[24px] font-bold">

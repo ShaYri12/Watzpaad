@@ -40,7 +40,7 @@ const Layout = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-[30px] md:right-[30px] right-[20px] z-[99999] w-[45px] h-[45px] flex items-center justify-center rounded-full border-2 border-white"
+          className="fixed md:bottom-[30px] bottom-[20px] md:right-[30px] right-[15px] z-[99999] w-[45px] h-[45px] flex items-center justify-center rounded-full border-2 border-white"
         >
           <IoIosArrowUp size={25} className="text-white" />
         </button>
