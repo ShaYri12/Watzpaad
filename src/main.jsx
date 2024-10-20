@@ -181,53 +181,60 @@ import cookie_uk from "./locales/uk/cookie.json";
 import cookie_vi from "./locales/vi/cookie.json";
 import cookie_zh from "./locales/zh/cookie.json";
 
-
-
-
+// Bridging
 import bridging_en from "./locales/en/bridging.json";
-import convertor_en from "./locales/en/convertor.json";
-import convertor2_en from "./locales/en/convertor2.json";
-import bridging_de from "./locales/de/bridging.json";
-import convertor_de from "./locales/de/convertor.json";
-import convertor2_de from "./locales/de/convertor2.json";
-import bridging_es from "./locales/es/bridging.json";
-import convertor_es from "./locales/es/convertor.json";
-import convertor2_es from "./locales/es/convertor2.json";
-import bridging_fr from "./locales/fr/bridging.json";
-import convertor_fr from "./locales/fr/convertor.json";
-import convertor2_fr from "./locales/fr/convertor2.json";
-import bridging_it from "./locales/it/bridging.json";
-import convertor_it from "./locales/it/convertor.json";
-import convertor2_it from "./locales/it/convertor2.json";
-import bridging_ja from "./locales/ja/bridging.json";
-import convertor_ja from "./locales/ja/convertor.json";
-import convertor2_ja from "./locales/ja/convertor2.json";
-import bridging_ru from "./locales/ru/bridging.json";
-import convertor_ru from "./locales/ru/convertor.json";
-import convertor2_ru from "./locales/ru/convertor2.json";
-import bridging_uk from "./locales/uk/bridging.json";
-import convertor_uk from "./locales/uk/convertor.json";
-import convertor2_uk from "./locales/uk/convertor2.json";
-import bridging_zh from "./locales/zh/bridging.json";
-import convertor_zh from "./locales/zh/convertor.json";
-import convertor2_zh from "./locales/zh/convertor2.json";
 import bridging_ar from "./locales/ar/bridging.json";
-import convertor_ar from "./locales/ar/convertor.json";
-import convertor2_ar from "./locales/ar/convertor2.json";
+import bridging_de from "./locales/de/bridging.json";
+import bridging_es from "./locales/es/bridging.json";
+import bridging_fr from "./locales/fr/bridging.json";
 import bridging_hi from "./locales/hi/bridging.json";
-import convertor_hi from "./locales/hi/convertor.json";
-import convertor2_hi from "./locales/hi/convertor2.json";
+import bridging_it from "./locales/it/bridging.json";
+import bridging_ja from "./locales/ja/bridging.json";
 import bridging_ko from "./locales/ko/bridging.json";
-import convertor_ko from "./locales/ko/convertor.json";
-import convertor2_ko from "./locales/ko/convertor2.json";
 import bridging_pl from "./locales/pl/bridging.json";
-import convertor_pl from "./locales/pl/convertor.json";
-import convertor2_pl from "./locales/pl/convertor2.json";
 import bridging_pt from "./locales/pt/bridging.json";
-import convertor_pt from "./locales/pt/convertor.json";
-import convertor2_pt from "./locales/pt/convertor2.json";
+import bridging_ru from "./locales/ru/bridging.json";
 import bridging_th from "./locales/th/bridging.json";
+import bridging_tr from "./locales/tr/bridging.json";
+import bridging_uk from "./locales/uk/bridging.json";
+import bridging_vi from "./locales/vi/bridging.json";
+import bridging_zh from "./locales/zh/bridging.json";
+
+
+// Convertor
+import convertor_en from "./locales/en/convertor.json";
+import convertor_ar from "./locales/ar/convertor.json";
+import convertor_de from "./locales/de/convertor.json";
+import convertor_es from "./locales/es/convertor.json";
+import convertor_fr from "./locales/fr/convertor.json";
+import convertor_hi from "./locales/hi/convertor.json";
+import convertor_it from "./locales/it/convertor.json";
+import convertor_ja from "./locales/ja/convertor.json";
+import convertor_ko from "./locales/ko/convertor.json";
+import convertor_pl from "./locales/pl/convertor.json";
+import convertor_pt from "./locales/pt/convertor.json";
+import convertor_ru from "./locales/ru/convertor.json";
 import convertor_th from "./locales/th/convertor.json";
+import convertor_tr from "./locales/tr/convertor.json";
+import convertor_uk from "./locales/uk/convertor.json";
+import convertor_vi from "./locales/vi/convertor.json";
+import convertor_zh from "./locales/zh/convertor.json";
+
+// Convertor 2
+import convertor2_en from "./locales/en/convertor2.json";
+import convertor2_de from "./locales/de/convertor2.json";
+import convertor2_es from "./locales/es/convertor2.json";
+import convertor2_fr from "./locales/fr/convertor2.json";
+import convertor2_it from "./locales/it/convertor2.json";
+import convertor2_ja from "./locales/ja/convertor2.json";
+import convertor2_ru from "./locales/ru/convertor2.json";
+import convertor2_uk from "./locales/uk/convertor2.json";
+import convertor2_zh from "./locales/zh/convertor2.json";
+import convertor2_ar from "./locales/ar/convertor2.json";
+import convertor2_hi from "./locales/hi/convertor2.json";
+import convertor2_ko from "./locales/ko/convertor2.json";
+import convertor2_pl from "./locales/pl/convertor2.json";
+import convertor2_pt from "./locales/pt/convertor2.json";
 import convertor2_th from "./locales/th/convertor2.json";
 
 i18n.init({
@@ -454,6 +461,8 @@ i18n.init({
       terms: terms_vi,
       privacy: privacy_vi,
       cookie: cookie_vi,
+      bridging: bridging_vi,
+      convertor: convertor_vi,
     },
     tr: {
       homepage: homepage_tr,
@@ -465,6 +474,8 @@ i18n.init({
       terms: terms_tr,
       privacy: privacy_tr,
       cookie: cookie_tr,
+      bridging: bridging_tr,
+      convertor: convertor_tr,
     },
   },
 
