@@ -18,7 +18,7 @@ const Hero = () => {
   const { t } = useTranslation("homepage");
 
   return (
-    <section className="w-full h-full text-white py-[50px] md:px-6 sm:px-[19px] relative z-[1] overflow-hidden">
+    <section className="w-full h-full text-white py-[50px] md:px-6 sm:px-[19px] relative z-[1] xl:overflow-visible overflow-hidden">
       <img
         src="/assets/hero-bg-particles.png"
         className="w-full h-full absolute left-0 top-0 object-cover z-[1] md:block hidden"
