@@ -18,8 +18,22 @@ const Hero = () => {
   const { t } = useTranslation("homepage");
 
   return (
-    <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] bgimage-one">
-      <div className=" max-w-full  mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between w-full items-center">
+    <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] relative">
+      {/* Orbit Path */}
+      <div className="absolute w-full h-full left-[-12%] z-[1] top-[-14%]">
+        {/* Orbit Path */}
+        <img src="/assets/circles.svg" className="absolute" />
+        <img
+          src="/assets/icons/star1.png"
+          className="star"
+          style={{
+            width: "50px", // Adjust size as needed
+            height: "50px", // Adjust size as needed
+          }}
+        />
+      </div>
+
+      <div className=" max-w-full  mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between w-full items-center relative z-[2]">
         <div className="lg:max-w-[590px] w-full mx-auto sm:px-0 px-[19px]">
           <h1 className="text-[#38DCC8] text-[40px] sm:text-[50px] md:text-[75px] font-bold">
             {t("hero.title")}

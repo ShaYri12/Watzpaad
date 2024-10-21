@@ -347,3 +347,33 @@
   /* inset: 2px; */
   border-radius: 37.1px;
 }
+
+/* stars orbit animation */
+@keyframes orbit {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.orbit-path {
+  position: absolute; /* Positioning the orbit path absolutely */
+  top: 0; /* Aligns it with the top of the relative parent */
+  left: 0; /* Aligns it with the left of the relative parent */
+  display: block; /* Ensure SVG behaves like a block element */
+  pointer-events: none; /* Prevent interaction */
+}
+
+.star {
+  position: absolute;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  top: 0;
+  animation: orbit 12s linear infinite; /* Speed of orbit */
+  offset-path: path(
+    "M1270.61 639.076C1260.76 678 1233.17 710.522 1191.64 735.99C1150.1 761.459 1094.65 779.851 1029.13 790.512C898.089 811.834 726.917 802.214 546.682 756.573C366.447 710.931 211.328 637.923 106.232 556.805C53.6831 516.245 13.6631 473.674 -10.7454 431.505C-35.1519 389.339 -43.9317 347.609 -34.0749 308.685C-24.218 269.761 3.36484 237.239 44.8985 211.772C86.4353 186.302 141.893 167.91 207.413 157.249C338.45 135.927 509.622 145.547 689.856 191.188C870.091 236.83 1025.21 309.838 1130.31 390.957C1182.86 431.516 1222.88 474.087 1247.28 516.256C1271.69 558.422 1280.47 600.152 1270.61 639.076Z"
+  );
+  offset-distance: 0%; /* Starting position */
+}
