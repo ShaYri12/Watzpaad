@@ -279,22 +279,22 @@ import footer_vi from "./locales/vi/footer.json";
 
 // tradingmarket
 import tradingmarket_en from "./locales/en/tradingmarket.json";
-// import tradingMarket_ar from "./locales/ar/tradingMarket.json";
-// import tradingMarket_de from "./locales/de/tradingMarket.json";
-// import tradingMarket_es from "./locales/es/tradingMarket.json";
-// import tradingMarket_fr from "./locales/fr/tradingMarket.json";
-// import tradingMarket_hi from "./locales/hi/tradingMarket.json";
-// import tradingMarket_it from "./locales/it/tradingMarket.json";
-// import tradingMarket_ja from "./locales/ja/tradingMarket.json";
-// import tradingMarket_ko from "./locales/ko/tradingMarket.json";
-// import tradingMarket_pl from "./locales/pl/tradingMarket.json";
-// import tradingMarket_pt from "./locales/pt/tradingMarket.json";
-// import tradingMarket_ru from "./locales/ru/tradingMarket.json";
-// import tradingMarket_th from "./locales/th/tradingMarket.json";
-// import tradingMarket_tr from "./locales/tr/tradingMarket.json";
-// import tradingMarket_uk from "./locales/uk/tradingMarket.json";
-// import tradingMarket_vi from "./locales/vi/tradingMarket.json";
-// import tradingMarket_zh from "./locales/zh/tradingMarket.json";
+import tradingmarket_ar from "./locales/ar/tradingmarket.json";
+import tradingmarket_de from "./locales/de/tradingmarket.json";
+import tradingmarket_es from "./locales/es/tradingmarket.json";
+import tradingmarket_fr from "./locales/fr/tradingmarket.json";
+import tradingmarket_hi from "./locales/hi/tradingmarket.json";
+import tradingmarket_it from "./locales/it/tradingmarket.json";
+import tradingmarket_ja from "./locales/ja/tradingmarket.json";
+import tradingmarket_ko from "./locales/ko/tradingmarket.json";
+import tradingmarket_pl from "./locales/pl/tradingmarket.json";
+import tradingmarket_pt from "./locales/pt/tradingmarket.json";
+import tradingmarket_ru from "./locales/ru/tradingmarket.json";
+import tradingmarket_th from "./locales/th/tradingmarket.json";
+import tradingmarket_tr from "./locales/tr/tradingmarket.json";
+import tradingmarket_uk from "./locales/uk/tradingmarket.json";
+import tradingmarket_vi from "./locales/vi/tradingmarket.json";
+import tradingmarket_zh from "./locales/zh/tradingmarket.json";
 
 i18n.init({
   resources: {
@@ -313,7 +313,7 @@ i18n.init({
       footer: footer_ar,
       cookie: cookie_ar,
       marketplace: marketplace_ar,
-      // tradingMarket: tradingMarket_ar,
+      tradingmarket: tradingmarket_ar,
     },
 
     de: {
@@ -331,7 +331,7 @@ i18n.init({
       stacking: stacking_de,
       footer: footer_de,
       marketplace: marketplace_de,
-      // tradingMarket: tradingMarket_de,
+      tradingmarket: tradingmarket_de,
     },
     en: {
       homepage: homepage_en,
@@ -348,7 +348,7 @@ i18n.init({
       stacking: stacking_en,
       footer: footer_en,
       marketplace: marketplace_en,
-      tradingMarket: tradingmarket_en,
+      tradingmarket: tradingmarket_en,
       
     },
     es: {
@@ -366,7 +366,7 @@ i18n.init({
       stacking: stacking_es,
       footer: footer_es,
       marketplace: marketplace_es,
-      // tradingMarket: tradingMarket_es,
+      tradingmarket: tradingmarket_es,
     },
     fr: {
       homepage: homepage_fr,
@@ -383,7 +383,7 @@ i18n.init({
       stacking: stacking_fr,
       footer: footer_fr,
       marketplace: marketplace_fr,
-      // tradingMarket: tradingMarket_fr,
+      tradingmarket: tradingmarket_fr,
     },
     hi: {
       homepage: homepage_hi,
@@ -400,7 +400,7 @@ i18n.init({
       cookie: cookie_hi,
       footer: footer_hi,
       marketplace: marketplace_hi, 
-      // tradingMarket: tradingMarket_hi,
+      tradingmarket: tradingmarket_hi,
     },
     it: {
       homepage: homepage_it,
@@ -417,7 +417,7 @@ i18n.init({
       stacking: stacking_it,
       footer: footer_it,
       marketplace: marketplace_it,
-      // tradingMarket: tradingMarket_it,
+      tradingmarket: tradingmarket_it,
     },
     ja: {
       homepage: homepage_ja,
@@ -433,7 +433,7 @@ i18n.init({
       vaults: vaults_ja,
       stacking: stacking_ja,
       footer: footer_ja,
-      // tradingMarket: tradingMarket_ja,
+      tradingmarket: tradingmarket_ja,
       marketplace: marketplace_ja,
     },
     ko: {
@@ -451,7 +451,7 @@ i18n.init({
       cookie: cookie_ko,
       marketplace: marketplace_ko,
       footer: footer_ko,
-      // tradingMarket: tradingMarket_ko,
+      tradingmarket: tradingmarket_ko,
     },
     pl: {
       homepage: homepage_pl,
@@ -468,7 +468,7 @@ i18n.init({
       footer: footer_pl,
       cookie: cookie_pl,
       marketplace: marketplace_pl,
-      // tradingMarket: tradingMarket_pl,
+      tradingmarket: tradingmarket_pl,
     },
     pt: {
       homepage: homepage_pt,
@@ -485,7 +485,7 @@ i18n.init({
       cookie: cookie_pt,
       marketplace: marketplace_pt,
       footer: footer_pt,
-      // tradingMarket: tradingMarket_pt,
+      tradingmarket: tradingmarket_pt,
     },
     th: {
       homepage: homepage_th,
@@ -502,7 +502,7 @@ i18n.init({
       cookie: cookie_th,
       footer: footer_th,
       marketplace: marketplace_th,
-      // tradingMarket: tradingMarket_th,
+      tradingmarket: tradingmarket_th,
     },
     ru: {
       homepage: homepage_ru,
@@ -519,7 +519,7 @@ i18n.init({
       stacking: stacking_ru,
       marketplace: marketplace_ru,
       footer: footer_ru,
-      // tradingMarket: tradingMarket_ru,
+      tradingmarket: tradingmarket_ru,
     },
     uk: {
       homepage: homepage_uk,
@@ -536,7 +536,7 @@ i18n.init({
       stacking: stacking_uk,
       footer: footer_uk,
       marketplace: marketplace_uk,
-      // tradingMarket: tradingMarket_uk,
+      tradingmarket: tradingmarket_uk,
     },
 
     zh: {
@@ -554,7 +554,7 @@ i18n.init({
       footer: footer_zh,
       stacking: stacking_zh,
       marketplace: marketplace_zh,
-      // tradingMarket: tradingMarket_zh, 
+      tradingmarket: tradingmarket_zh, 
     },
     vi: {
       homepage: homepage_vi,
@@ -570,7 +570,7 @@ i18n.init({
       convertor: convertor_vi,
       footer: footer_vi,
       marketplace: marketplace_vi,
-      // tradingMarket: tradingMarket_vi,
+      tradingmarket: tradingmarket_vi,
     },
     tr: {
       homepage: homepage_tr,
@@ -586,7 +586,7 @@ i18n.init({
       footer: footer_tr,
       convertor: convertor_tr,
       marketplace: marketplace_tr,
-      // tradingMarket: tradingMarket_tr,
+      tradingmarket: tradingmarket_tr,
     },
   },
 
