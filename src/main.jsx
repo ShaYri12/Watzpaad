@@ -278,7 +278,7 @@ import footer_tr from "./locales/tr/footer.json";
 import footer_vi from "./locales/vi/footer.json";
 
 // tradingmarket
-import tradingMarket_en from "./locales/en/tradingMarket.json";
+import tradingmarket_en from "./locales/en/tradingmarket.json";
 // import tradingMarket_ar from "./locales/ar/tradingMarket.json";
 // import tradingMarket_de from "./locales/de/tradingMarket.json";
 // import tradingMarket_es from "./locales/es/tradingMarket.json";
@@ -348,7 +348,7 @@ i18n.init({
       stacking: stacking_en,
       footer: footer_en,
       marketplace: marketplace_en,
-      tradingMarket: tradingMarket_en,
+      tradingMarket: tradingmarket_en,
       
     },
     es: {
