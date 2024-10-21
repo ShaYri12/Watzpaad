@@ -12,17 +12,17 @@ export default function Win() {
   }, []);
   return (
     <div className="bg-[#09121D]">
-      <div className=" z-20 w-full md:pb-[90px] md:pt-[160px] pt-[155px] pb-[50px] block relative">
+      <div className=" z-20 w-full md:pb-[90px] md:pt-[160px] pt-[160px] pb-[56px] block relative">
         <img
           src="/assets/bg-stars-shades.png"
           className="w-full h-full object-cover absolute top-0 left-0 z-[1]"
         />
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px] z-[2]">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center px-[22px] z-[4]">
           <h1 className="text-center text-primaryColor text-[35px] md:text-[65px] md:leading-[74.74px] leading-[45.44px] font-[700]">
             {t("title")}
           </h1>
           <div className="h-[3.65px] min-h-[3.65px] md:h-[6px] md:min-h-[6px] w-[127px] md:w-[251px] bg-primaryColor rounded-[20px] mt-[9px] md:mt-[15px] mx-auto"></div>
-          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center md:text-[#798DA3] text-white">
+          <p className="md:mt-[14px] mt-[11.55px] text-[10.94px] md:text-[18px] max-w-[801px] mx-auto text-center text-white">
             {t("descr")}
           </p>
         </div>

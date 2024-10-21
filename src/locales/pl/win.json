@@ -1,18 +1,17 @@
 {
-    "title": "Giveaway BlockBoost",
-    "descr": "Zainwestuj tokeny, aby zarabiać dzięki automatycznemu kapitalizowaniu. Użytkownicy mogą zainwestować dowolny token, aby zarobić MAP. Poleć swoich przyjaciół, aby zarobić 5% na ich dodatkowych nagrodach.",
-    "blockboost-giveaway": " 🎉 Giveaway BlockBoost o wartości 1 000 000 $ 🎁",
-    "descr-two": "Z radością ogłaszamy uruchomienie Block Boost z niesamowitą szansą dla 20 szczęśliwych zwycięzców na wygranie 5000 USDT każdy! 🌟",
-    "descr-three": " ✨ Dołącz teraz i podziel się z przyjaciółmi, aby mieć szansę na wygraną! ✨",
-    "note": " Uwaga: Wymagana jest minimalna inwestycja w wysokości 100 $ w przedsprzedaży BlockBoost, aby być uprawnionym.",
-    "join-now": " 👉 Dołącz teraz i zabezpiecz swoje miejsce wśród zwycięzców! 🚀",
-    "step": "Krok",
-    "submit-wallet-address": "Prześlij swój adres portfela ERC20",
-    "provide-wallet-desc": "Podaj swój adres portfela ERC20, aby zakwalifikować się do giveaway.",
-    "complete-quests": "Ukończ wszystkie zadania",
-    "maximize-chance": "Uważnie wykonuj wszystkie kroki, aby zmaksymalizować swoje szanse na wygraną.",
-    "refer-friends": "Poleć przyjaciół i zwiększ swoje zgłoszenia",
-    "earn-entries": "Zdobądź +50 zgłoszeń za każdego poleconego przyjaciela.",
-    "follow-steps": "Postępuj zgodnie z tymi krokami, aby mieć szansę na wygranie 50 000 $. Powodzenia! 🌟"
-  }
-  
+  "title": "Giveaway BlockBoost",
+  "descr": "Zainwestuj tokeny, aby zarabiać dzięki automatycznemu kapitalizowaniu. Użytkownicy mogą zainwestować dowolny token, aby zarobić BBT. Poleć swoich przyjaciół, aby zarobić 5% na ich dodatkowych nagrodach.",
+  "blockboost-giveaway": " 🎉 Giveaway BlockBoost o wartości 1 000 000 $ 🎁",
+  "descr-two": "Z radością ogłaszamy uruchomienie Block Boost z niesamowitą szansą dla 20 szczęśliwych zwycięzców na wygranie 5000 USDT każdy! 🌟",
+  "descr-three": " ✨ Dołącz teraz i podziel się z przyjaciółmi, aby mieć szansę na wygraną! ✨",
+  "note": " Uwaga: Wymagana jest minimalna inwestycja w wysokości 100 $ w przedsprzedaży BlockBoost, aby być uprawnionym.",
+  "join-now": " 👉 Dołącz teraz i zabezpiecz swoje miejsce wśród zwycięzców! 🚀",
+  "step": "Krok",
+  "submit-wallet-address": "Prześlij swój adres portfela ERC20",
+  "provide-wallet-desc": "Podaj swój adres portfela ERC20, aby zakwalifikować się do giveaway.",
+  "complete-quests": "Ukończ wszystkie zadania",
+  "maximize-chance": "Uważnie wykonuj wszystkie kroki, aby zmaksymalizować swoje szanse na wygraną.",
+  "refer-friends": "Poleć przyjaciół i zwiększ swoje zgłoszenia",
+  "earn-entries": "Zdobądź +50 zgłoszeń za każdego poleconego przyjaciela.",
+  "follow-steps": "Postępuj zgodnie z tymi krokami, aby mieć szansę na wygranie 50 000 $. Powodzenia! 🌟"
+}

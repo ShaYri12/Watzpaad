@@ -1,18 +1,17 @@
 {
-    "title": "BlockBoost 抽奖活动",
-    "descr": "质押代币以通过自动复利赚取收益。用户可以质押任何代币以赚取 MAP。推荐您的朋友以获得他们额外奖励的 5%。",
-    "blockboost-giveaway": " 🎉 BlockBoost 100 万美元抽奖活动 🎁",
-    "descr-two": "我们很高兴地宣布 Block Boost 的启动，20 位幸运获奖者将有机会赢得每人 5000 USDT！🌟",
-    "descr-three": " ✨ 立即加入并与朋友分享，赢取机会！ ✨",
-    "note": " 注意：参加 BlockBoost 预售需最低 100 美元的参与。",
-    "join-now": " 👉 立即加入，确保您在获奖者中的位置！ 🚀",
-    "step": "步骤",
-    "submit-wallet-address": "提交您的 ERC20 钱包地址",
-    "provide-wallet-desc": "提供您的 ERC20 钱包地址以符合抽奖资格。",
-    "complete-quests": "完成所有任务",
-    "maximize-chance": "仔细遵循所有步骤以最大化您的获胜机会。",
-    "refer-friends": "推荐朋友并提升您的参与次数",
-    "earn-entries": "每推荐一位朋友即可获得 +50 次参与机会。",
-    "follow-steps": "按照这些步骤获取赢取 50,000 美元的机会。祝你好运！🌟"
-  }
-  
+  "title": "BlockBoost 抽奖活动",
+  "descr": "质押代币以通过自动复利赚取收益。用户可以质押任何代币以赚取 BBT。推荐您的朋友以获得他们额外奖励的 5%。",
+  "blockboost-giveaway": " 🎉 BlockBoost 100 万美元抽奖活动 🎁",
+  "descr-two": "我们很高兴地宣布 Block Boost 的启动，20 位幸运获奖者将有机会赢得每人 5000 USDT！🌟",
+  "descr-three": " ✨ 立即加入并与朋友分享，赢取机会！ ✨",
+  "note": " 注意：参加 BlockBoost 预售需最低 100 美元的参与。",
+  "join-now": " 👉 立即加入，确保您在获奖者中的位置！ 🚀",
+  "step": "步骤",
+  "submit-wallet-address": "提交您的 ERC20 钱包地址",
+  "provide-wallet-desc": "提供您的 ERC20 钱包地址以符合抽奖资格。",
+  "complete-quests": "完成所有任务",
+  "maximize-chance": "仔细遵循所有步骤以最大化您的获胜机会。",
+  "refer-friends": "推荐朋友并提升您的参与次数",
+  "earn-entries": "每推荐一位朋友即可获得 +50 次参与机会。",
+  "follow-steps": "按照这些步骤获取赢取 50,000 美元的机会。祝你好运！🌟"
+}

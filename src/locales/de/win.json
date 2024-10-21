@@ -1,18 +1,17 @@
 {
-    "title": "BlockBoost Verlosung",
-    "descr": "Setze Tokens ein, um mit automatischer Zinseszinsbildung zu verdienen. Benutzer können jeden Token einsetzen, um MAP zu verdienen. Empfehle deine Freunde, um 5 % auf ihre zusätzlichen Belohnungen zu verdienen.",
-    "blockboost-giveaway": " 🎉 BlockBoost Verlosung im Wert von 1.000.000 $ 🎁",
-    "descr-two": "Wir freuen uns, die Einführung von Block Boost mit einer erstaunlichen Chance für 20 glückliche Gewinner, jeweils 5000 USDT zu gewinnen, bekannt zu geben! 🌟",
-    "descr-three": " ✨ Mach jetzt mit und teile es mit deinen Freunden, um eine Chance zu gewinnen! ✨",
-    "note": " Hinweis: Eine Mindestbeteiligung von 100 $ am BlockBoost Vorverkauf ist erforderlich, um teilnahmeberechtigt zu sein.",
-    "join-now": " 👉 Mach jetzt mit und sichere dir deinen Platz unter den Gewinnern! 🚀",
-    "step": "Schritt",
-    "submit-wallet-address": "Gib deine ERC20 Wallet-Adresse ein",
-    "provide-wallet-desc": "Gib deine ERC20 Wallet-Adresse an, um für die Verlosung qualifiziert zu sein.",
-    "complete-quests": "Vollende alle Quests",
-    "maximize-chance": "Befolge alle Schritte sorgfältig, um deine Gewinnchance zu maximieren.",
-    "refer-friends": "Empfehle Freunde und erhöhe deine Einträge",
-    "earn-entries": "Verdiene +50 Einträge für jeden Freund, den du empfiehlst.",
-    "follow-steps": "Befolge diese Schritte für deine Chance, 50.000 $ zu gewinnen. Viel Glück! 🌟"
-  }
-  
+  "title": "BlockBoost Verlosung",
+  "descr": "Setze Tokens ein, um mit automatischer Zinseszinsbildung zu verdienen. Benutzer können jeden Token einsetzen, um BBT zu verdienen. Empfehle deine Freunde, um 5 % auf ihre zusätzlichen Belohnungen zu verdienen.",
+  "blockboost-giveaway": " 🎉 BlockBoost Verlosung im Wert von 1.000.000 $ 🎁",
+  "descr-two": "Wir freuen uns, die Einführung von Block Boost mit einer erstaunlichen Chance für 20 glückliche Gewinner, jeweils 5000 USDT zu gewinnen, bekannt zu geben! 🌟",
+  "descr-three": " ✨ Mach jetzt mit und teile es mit deinen Freunden, um eine Chance zu gewinnen! ✨",
+  "note": " Hinweis: Eine Mindestbeteiligung von 100 $ am BlockBoost Vorverkauf ist erforderlich, um teilnahmeberechtigt zu sein.",
+  "join-now": " 👉 Mach jetzt mit und sichere dir deinen Platz unter den Gewinnern! 🚀",
+  "step": "Schritt",
+  "submit-wallet-address": "Gib deine ERC20 Wallet-Adresse ein",
+  "provide-wallet-desc": "Gib deine ERC20 Wallet-Adresse an, um für die Verlosung qualifiziert zu sein.",
+  "complete-quests": "Vollende alle Quests",
+  "maximize-chance": "Befolge alle Schritte sorgfältig, um deine Gewinnchance zu maximieren.",
+  "refer-friends": "Empfehle Freunde und erhöhe deine Einträge",
+  "earn-entries": "Verdiene +50 Einträge für jeden Freund, den du empfiehlst.",
+  "follow-steps": "Befolge diese Schritte für deine Chance, 50.000 $ zu gewinnen. Viel Glück! 🌟"
+}
