@@ -18,7 +18,7 @@ const Hero = () => {
   const { t } = useTranslation("homepage");
 
   return (
-    <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] relative">
+    <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] relative z-[1]">
       {/* Orbit Path */}
       <div className="absolute w-full h-[90%] left-[-12%] z-[1] top-[-14%]">
         {/* Orbit Path */}
