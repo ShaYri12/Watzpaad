@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "Thị Trường Giao Dịch",
+        "shibadev": " Shiba Dev",
+        "salePrice": "Giá Bán",
+        "itemNotFound": "Không tìm thấy mặt hàng",
+        "connectWallet": "Kết nối Ví",
+        "onChainData": "Dữ liệu Trên Chuỗi",
+        "marketRules": "Quy Tắc Thị Trường",
+        "rule-one": "1. NFTs có thể được mua bằng $BBT hoặc bất kỳ đồng xu nào khác theo tiêu chí danh sách của người dùng.",
+        "rule-two": "2. Sau khi NFT được niêm yết trên thị trường giao dịch, các hoạt động như chuyển nhượng, đấu giá và staking không được phép.",
+        "rule-three": "3. Thị trường sẽ tính phí 15% doanh thu của người bán như phí dịch vụ, trong đó 5% sẽ được gửi đến người tạo ra ban đầu. 5% sẽ chuyển vào phần thưởng cho tất cả các chủ sở hữu NFT, và 5% vào Ví Marketing.",
+        "ownerAddress": "Địa chỉ Chủ sở hữu",
+        "contractAddress": "Địa chỉ Hợp đồng",
+        "miningPower": "Công suất Khai thác",
+        "decomposeStatus": "Trạng thái Phân hủy",
+        "decomposableIn": "Có thể phân hủy trong",
+        "locked": "Đã khóa",
+        "backButton": "Quay lại"
+    },
+    "grade": "Hạng"
+}

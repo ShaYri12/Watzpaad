@@ -3,8 +3,10 @@ import { FaStar } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { useNavigate, useParams } from "react-router-dom";
 import { MarketData } from "../assets/MarketData";
+import { useTranslation } from "react-i18next";
 
 export default function TradingMarket({ dashboard = false }) {
+  const { t } = useTranslation("tradingMarket");
   const navigate = useNavigate();
   const { id } = useParams(); // Get the ID from the URL
   const [item, setItem] = useState(null);
@@ -64,7 +66,8 @@ export default function TradingMarket({ dashboard = false }) {
           className={` ${dashboard ? "mb:mb-[43px] mb-[39px]" : "mb-[43px]"}`}
         >
           <h1 className="text-[20.11px] md:text-[30px] text-[#798DA3] flex items-center md:gap-[18px] gap-[12px]">
-            Trading Market{" "}
+            {/* Trading Market */}
+            {t("tradingMarket.title")}
             <MdKeyboardArrowRight
               className="md:text-[24px] text-[18px]"
               color="#798DA3"
@@ -107,11 +110,12 @@ export default function TradingMarket({ dashboard = false }) {
                     #{item.id}
                   </h2>
                   <p className="text-[15.9px] md:text-[20px] md:leading-[23px] leading-[18.28px] text-[#798DA3]">
-                    Shiba Dev
+                    {t("tradingMarket.shibadev")}
                   </p>
                   <div className="mb-[15px] mt-[15px] pb-[15px] border-b border-white">
                     <p className="text-[14px] md:text-[18px] text-[#798DA3] md:mb-[8px] gap-[6.36px]">
-                      Grade
+                      {/* Grade */}
+                      {t("grade")}
                     </p>
                     <div className="flex md:gap-[3.40px] gap-[2.76px]">
                       {[...Array(5)].map((_, i) => (
@@ -125,7 +129,7 @@ export default function TradingMarket({ dashboard = false }) {
                   <div className="flex justify-between w-full items-center gap-2">
                     <div className="flex flex-col items-start">
                       <p className="text-[14.31px] md:text-[18px] text-[#798DA3] md:leading-[20.7px] leading-[16.45px]">
-                        Sale Price
+                        {t("tradingMarket.salePrice")}
                       </p>
                       <p className="flex items-center text-[23.84px] md:text-[30px] md:leading-[34.5px] leading-[27.42px] font-[700]">
                         <span className="text-white">
@@ -155,7 +159,7 @@ export default function TradingMarket({ dashboard = false }) {
                     }`}
                   >
                     <button className="px-[16.93px] md:px-[35.5px] py-[11.92px] md:py-[15px] md:text-[18px] text-[14.31px] font-[400] rounded-full border border-primaryColor text-primaryColor w-full">
-                      Connect Wallet
+                      {t("tradingMarket.connectWallet")}
                     </button>
                   </div>
                 </div>
@@ -177,12 +181,12 @@ export default function TradingMarket({ dashboard = false }) {
             >
               <div className="md:px-[18px] md:py-[32px] py-[40px] px-[14px] md:rounded-[10.39px] rounded-[13.35px] flex flex-col flex-1 w-full h-full md:gap-[31px] gap-[24.55px] relative z-[2]">
                 <h2 className="text-[24.36px] md:text-[30px] font-[700] text-white">
-                  On-Chain Data
+                  {t("tradingMarket.onChainData")}
                 </h2>
                 <div className="flex flex-col md:gap-[20px] gap-[16.24px]">
                   <div className="flex justify-between w-full flex-wrap gap-1">
                     <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
-                      Owner Address
+                      {t("tradingMarket.ownerAddress")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
                       0x9F496...2D570eE
@@ -190,7 +194,7 @@ export default function TradingMarket({ dashboard = false }) {
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
                     <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
-                      Contract Address
+                      {t("tradingMarket.contractAddress")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
                       0x9F496...2D570eE
@@ -198,7 +202,7 @@ export default function TradingMarket({ dashboard = false }) {
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
                     <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
-                      Mining Power
+                      {t("tradingMarket.miningPower")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
                       1.0 BNB
@@ -206,15 +210,15 @@ export default function TradingMarket({ dashboard = false }) {
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
                     <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
-                      Decompose Status
+                      {t("tradingMarket.decomposeStatus")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
-                      Locked
+                      {t("tradingMarket.locked")}
                     </p>
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
                     <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
-                      Decomposable In
+                      {t("tradingMarket.decomposableIn")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
                       26:14:34:41
@@ -231,18 +235,16 @@ export default function TradingMarket({ dashboard = false }) {
           style={{ backdropFilter: "blur(29.689451217651367px)" }}
         >
           <h4 className="text-white text-[27.82px] md:text-[30px] font-[700]">
-            Market Rules
+            {t("tradingMarket.marketRules")}
           </h4>{" "}
           <p className="text-[16.69px] md:text-[18px] font-[400] text-[#798DA3]">
-            1.NFTs can be purchased with $BBT or Any other Choice of Coins as
-            per users listing criteria.
+            {t("tradingMarket.rule-one")}
+
             <br />
-            2.After NFT is listed in the trading market, operations such as
-            transfer, auction, and staking are not allowed.
+            {t("tradingMarket.rule-two")}
+
             <br />
-            3.The market will charge 15% of the seller's revenue as a service
-            fee, of which 5% is send to original Minter. 5% Will transfer to the
-            Reward to all NFT holders 5% to the Marketing Wallet.
+            {t("tradingMarket.rule-three")}
           </p>
         </div>
 
@@ -253,7 +255,7 @@ export default function TradingMarket({ dashboard = false }) {
           }}
           onClick={() => navigate(-1)} // Go back to the previous page
         >
-          Back
+          {t("tradingMarket.backButton")}
         </button>
       </div>
     </div>

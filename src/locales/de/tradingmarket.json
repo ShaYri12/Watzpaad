@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "Handelsmarkt",
+        "shibadev": "Shiba Dev",
+        "salePrice": "Verkaufspreis",
+        "itemNotFound": "Artikel nicht gefunden",
+        "connectWallet": "Wallet verbinden",
+        "onChainData": "On-Chain-Daten",
+        "marketRules": "Marktregeln",
+        "rule-one": "1. NFTs können mit $BBT oder einer anderen Wahl von Münzen gemäß den Listen Kriterien des Nutzers gekauft werden.",
+        "rule-two": "2. Nachdem das NFT im Handelsmarkt gelistet wurde, sind Vorgänge wie Übertragung, Auktion und Staking nicht erlaubt.",
+        "rule-three": "3. Der Markt erhebt 15 % des Umsatzes des Verkäufers als Servicegebühr, von denen 5 % an den ursprünglichen Präger gesendet werden. 5 % werden an die Belohnung aller NFT-Inhaber überwiesen und 5 % an die Marketing-Wallet.",
+        "ownerAddress": "Besitzeradresse",
+        "contractAddress": "Vertragsadresse",
+        "miningPower": "Mining-Power",
+        "decomposeStatus": "Zersetzungsstatus",
+        "decomposableIn": "Zersetzbar in",
+        "locked": "Gesperrt",
+        "backButton": "Zurück"
+    },
+    "grade": "Note"
+}

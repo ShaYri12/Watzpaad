@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "Mercado de Comercio",
+        "shibadev": "Shiba Dev",
+        "salePrice": "Precio de Venta",
+        "itemNotFound": "Artículo no encontrado",
+        "connectWallet": "Conectar Billetera",
+        "onChainData": "Datos en la Cadena",
+        "marketRules": "Reglas del Mercado",
+        "rule-one": "1. Los NFTs se pueden comprar con $BBT o cualquier otra moneda según los criterios de listado de los usuarios.",
+        "rule-two": "2. Después de que el NFT esté listado en el mercado de comercio, no se permiten operaciones como transferencia, subasta y staking.",
+        "rule-three": "3. El mercado cobrará el 15% de los ingresos del vendedor como tarifa de servicio, de los cuales el 5% se enviará al minter original. El 5% se transferirá a la recompensa para todos los titulares de NFTs, y el 5% a la billetera de marketing.",
+        "ownerAddress": "Dirección del Propietario",
+        "contractAddress": "Dirección del Contrato",
+        "miningPower": "Poder de Minería",
+        "decomposeStatus": "Estado de Descomposición",
+        "decomposableIn": "Descomponible en",
+        "locked": "Bloqueado",
+        "backButton": "Regresar"
+    },
+    "grade": "Grado"
+}

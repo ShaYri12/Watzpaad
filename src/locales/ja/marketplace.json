@@ -1,0 +1,11 @@
+{
+    "title": "BlockBoost マーケットプレイス",
+    "description": "BlockBoostは独自のNFTマーケットプレイス機能を持ち、デジタルアーティストが任意の暗号通貨でアートを販売できるだけでなく、オークション、取引、他の多くの方法で収益を得ることも可能です。",
+    "createNFT": "NFTを作成",
+    "sellNFT": "NFTを販売",
+    "marketHeader": "マーケット",
+    "searchPlaceholder": "検索",
+    "salePrice": "販売価格",
+    "parValue": "額面価値",
+    "unlockIn": "解除まで"
+}

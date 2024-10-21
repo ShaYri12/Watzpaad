@@ -1,0 +1,11 @@
+{
+    "title": "BlockBoost Marketplace",
+    "description": "BlockBoost มีฟีเจอร์ NFT Marketplace ที่ไม่เหมือนใครช่วยให้ศิลปินดิจิทัลสามารถขายงานศิลปะของตนในสกุลเงินดิจิทัลใดก็ได้ ยังช่วยให้สามารถจัดประมูล ซื้อขาย และวิธีอื่นๆ ในการหารายได้",
+    "createNFT": "สร้าง NFT",
+    "sellNFT": "ขาย NFT",
+    "marketHeader": "ตลาด",
+    "searchPlaceholder": "ค้นหา",
+    "salePrice": "ราคาขาย",
+    "parValue": "มูลค่าที่ตราไว้",
+    "unlockIn": "ปลดล็อคใน"
+}

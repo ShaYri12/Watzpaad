@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "Rynek Handlowy",
+        "shibadev": "Shiba Dev",
+        "salePrice": "Cena Sprzedaży",
+        "itemNotFound": "Przedmiot nie znaleziony",
+        "connectWallet": "Podłącz Portfel",
+        "onChainData": "Dane On-Chain",
+        "marketRules": "Zasady Rynku",
+        "rule-one": "1. NFT można kupić za $BBT lub dowolny inny wybór monet zgodnie z kryteriami listingu użytkowników.",
+        "rule-two": "2. Po umieszczeniu NFT na rynku handlowym, operacje takie jak transfer, aukcja i stakowanie nie są dozwolone.",
+        "rule-three": "3. Rynek pobiera 15% przychodu sprzedawcy jako opłatę serwisową, z czego 5% trafia do pierwotnego Mintera. 5% zostanie przekazane jako nagroda dla wszystkich posiadaczy NFT, a 5% do Portfela Marketingowego.",
+        "ownerAddress": "Adres Właściciela",
+        "contractAddress": "Adres Kontraktu",
+        "miningPower": "Moc Kopania",
+        "decomposeStatus": "Status Rozkładu",
+        "decomposableIn": "Rozkładalny W",
+        "locked": "Zablokowane",
+        "backButton": "Wróć"
+    },
+    "grade": "Ocena"
+}

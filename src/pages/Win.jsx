@@ -55,7 +55,7 @@ export default function Win() {
                     {t("descr-three")}
                   </p>
                   <p className="text-center text-primaryColor md:text-[20px] text-[14.14px] font-[700]">
-                    {t("descr-note")}
+                    {t("note")}
                   </p>
                   <p className="text-center text-white md:text-[24.65px] text-[17.43px] md:leading-[32.86px] leading-[23.24px] font-[700]">
                     {t("join-now")}

@@ -1,18 +1,21 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { MarketData } from "../assets/MarketData";
+import { useTranslation } from 'react-i18next';
 
 export default function Market({ dashboard = false }) {
+  const { t } = useTranslation("marketplace");
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   }, []);
+
   const [search, setSearch] = useState("");
   const [stage, setStage] = useState("Stage");
   const [round, setRound] = useState("Round");
@@ -33,43 +36,13 @@ export default function Market({ dashboard = false }) {
         } flex-wrap gap-[18px]`}
       >
         <h1 className="md:text-[50px] text-[30px] font-[700] md:leading-[57.5px] text-white">
-          Market
+          {t('marketHeader')}
         </h1>
         <div className="flex flex-wrap gap-[13px] md:gap-[25px]">
-          {/* <div className="relative">
-            <select
-              value={stage}
-              onChange={(e) => setStage(e.target.value)}
-              className="appearance-none bg-[#1F2835] text-primaryColor text-[12px] leading-[13.8px] font-[400] w-[92.11px] md:w-[168px] cursor-pointer rounded-full py-[15.4px] px-[15.23px] focus:outline-none focus:ring-1 focus:ring-primaryColor"
-            >
-              <option>All NFTs</option>
-              <option>Option 1</option>
-              <option>Option 2</option>
-            </select>
-            <IoMdArrowDropdown
-              size={19}
-              className="absolute right-[15.23px] top-1/2 transform -translate-y-1/2 text-primaryColor"
-            />
-          </div>
-          <div className="relative">
-            <select
-              value={round}
-              onChange={(e) => setRound(e.target.value)}
-              className="appearance-none bg-[#1F2835] text-primaryColor text-[12px] leading-[13.8px] font-[400] w-[92.11px] md:w-[168px] cursor-pointer rounded-full py-[15.4px] px-[15.23px] focus:outline-none focus:ring-2 focus:ring-primaryColor"
-            >
-              <option>Smart Filter</option>
-              <option>Option 1</option>
-              <option>Option 2</option>
-            </select>
-            <IoMdArrowDropdown
-              size={19}
-              className="absolute right-[15.23px] top-1/2 transform -translate-y-1/2 text-primaryColor"
-            />
-          </div> */}
           <div className="relative">
             <input
               type="text"
-              placeholder="Search"
+              placeholder={t('searchPlaceholder')}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="bg-primaryColor text-black rounded-full py-[11px] pl-[45px] pr-4 w-[200px] md:w-[224px] focus:outline-none focus:ring-2 focus:ring-teal-600 placeholder:text-black"
@@ -106,7 +79,7 @@ export default function Market({ dashboard = false }) {
                     #{card.id}
                   </p>
                   <p className="text-[#798DA3] text-[10.28px] md:text-[14.03px] leading-[8.86px] md:leading-[16.13px]">
-                    Unlock in{" "}
+                    {t('unlockIn')}{" "}
                     <span className="text-white text-[12px] md:text-[18.7px] leading-[11.82px] md:leading-[21.5px]">
                       {card.unlock}
                     </span>
@@ -114,31 +87,27 @@ export default function Market({ dashboard = false }) {
                 </div>
                 <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
                   <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                    Sale Price
+                    {t('salePrice')}
                   </p>
                   <div className="flex flex-col gap-[5.54px] text-right flex-grow">
                     <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
-                      {/* <img
-                      src="/assets/icons/integeration-logo-3.png"
-                      className="w-[14.2px] md:w-[20px]"
-                    />{" "} */}
                       <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
                         {card.price} BNB
                       </p>
                     </div>
-                    <p className="w-full text-right text-[#798DA3] text-[10.28px] md:text-[14.03px]">
-                      ${card.salePrice}
-                    </p>
                   </div>
                 </div>
-                <div className="flex w-full justify-between items-center gap-1 mt-auto flex-wrap">
+                <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
                   <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                    Par Value
+                    {t('parValue')}
                   </p>
-                  <p className="text-white text-[12px] md:text-[17.14px] w-max">
-                    {card.parValue}{" "}
-                    <span className="text-primaryColor">BBT</span>
-                  </p>
+                  <div className="flex flex-col gap-[5.54px] text-right flex-grow">
+                    <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
+                      <p className="text-primaryColor text-[12px] md:text-[18.7px] ">
+                        {card.salePrice} BNB
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
