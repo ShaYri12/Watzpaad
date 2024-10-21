@@ -1,18 +1,17 @@
 {
-    "title": "Tirage au sort BlockBoost",
-    "descr": "Mettez en jeu des tokens pour gagner avec un capitalisation automatique. Les utilisateurs peuvent mettre en jeu n'importe quel token pour gagner des MAP. Parrainez vos amis pour gagner 5 % sur leurs récompenses supplémentaires.",
-    "blockboost-giveaway": " 🎉 Tirage au sort BlockBoost de 1 000 000 $ 🎁",
-    "descr-two": "Nous sommes ravis d'annoncer le lancement de Block Boost avec une incroyable chance pour 20 gagnants chanceux de remporter 5000 USDT chacun ! 🌟",
-    "descr-three": " ✨ Rejoignez-nous maintenant et partagez avec vos amis pour avoir une chance de gagner ! ✨",
-    "note": " Remarque : une participation minimale de 100 $ à la prévente BlockBoost est requise pour être éligible.",
-    "join-now": " 👉 Rejoignez maintenant et sécurisez votre place parmi les gagnants ! 🚀",
-    "step": "Étape",
-    "submit-wallet-address": "Soumettez votre adresse de portefeuille ERC20",
-    "provide-wallet-desc": "Fournissez votre adresse de portefeuille ERC20 pour vous qualifier pour le tirage au sort.",
-    "complete-quests": "Complétez toutes les quêtes",
-    "maximize-chance": "Suivez toutes les étapes attentivement pour maximiser vos chances de gagner.",
-    "refer-friends": "Parrainez des amis et augmentez vos participations",
-    "earn-entries": "Gagnez +50 participations pour chaque ami que vous parrainez.",
-    "follow-steps": "Suivez ces étapes pour avoir une chance de gagner 50 000 $. Bonne chance ! 🌟"
-  }
-  
+  "title": "Tirage au sort BlockBoost",
+  "descr": "Mettez en jeu des tokens pour gagner avec un capitalisation automatique. Les utilisateurs peuvent mettre en jeu n'importe quel token pour gagner des BBT. Parrainez vos amis pour gagner 5 % sur leurs récompenses supplémentaires.",
+  "blockboost-giveaway": " 🎉 Tirage au sort BlockBoost de 1 000 000 $ 🎁",
+  "descr-two": "Nous sommes ravis d'annoncer le lancement de Block Boost avec une incroyable chance pour 20 gagnants chanceux de remporter 5000 USDT chacun ! 🌟",
+  "descr-three": " ✨ Rejoignez-nous maintenant et partagez avec vos amis pour avoir une chance de gagner ! ✨",
+  "note": " Remarque : une participation minimale de 100 $ à la prévente BlockBoost est requise pour être éligible.",
+  "join-now": " 👉 Rejoignez maintenant et sécurisez votre place parmi les gagnants ! 🚀",
+  "step": "Étape",
+  "submit-wallet-address": "Soumettez votre adresse de portefeuille ERC20",
+  "provide-wallet-desc": "Fournissez votre adresse de portefeuille ERC20 pour vous qualifier pour le tirage au sort.",
+  "complete-quests": "Complétez toutes les quêtes",
+  "maximize-chance": "Suivez toutes les étapes attentivement pour maximiser vos chances de gagner.",
+  "refer-friends": "Parrainez des amis et augmentez vos participations",
+  "earn-entries": "Gagnez +50 participations pour chaque ami que vous parrainez.",
+  "follow-steps": "Suivez ces étapes pour avoir une chance de gagner 50 000 $. Bonne chance ! 🌟"
+}

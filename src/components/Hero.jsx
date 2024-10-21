@@ -9,6 +9,7 @@ import VISA from "../assets/visa.svg";
 import Slider from "./Slider";
 import HomeDropdown from "./HomeDropdown";
 import { useTranslation } from "react-i18next";
+import { FaCaretDown } from "react-icons/fa";
 
 const Hero = () => {
   const dropdownOptions1 = ["USDT", "ETH", "USD"];
@@ -187,11 +188,13 @@ const Hero = () => {
                   </div>
 
                   <div>
-                    <HomeDropdown
-                      label="BBT"
-                      options={dropdownOptions2}
-                      image={Tether}
-                    />
+                    <button className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white  border border-[#798DA3] rounded-lg ">
+                      <span className="flex items-center">
+                        <img src={Bitcoin} alt="audit" width={20} height={20} />
+                        <span className="ml-2">BBT</span>
+                      </span>
+                      <FaCaretDown className="text-[#38DCC8] text-[20px]" />
+                    </button>
                   </div>
                 </div>
 
