@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className="w-full text-white py-[50px] md:px-6 sm:px-[19px] relative">
       {/* Orbit Path */}
-      <div className="absolute w-full h-full left-[-12%] z-[1] top-[-14%]">
+      <div className="absolute w-full h-[90%] left-[-12%] z-[1] top-[-14%]">
         {/* Orbit Path */}
         <img src="/assets/circles.svg" className="absolute" />
         <img
@@ -29,6 +29,14 @@ const Hero = () => {
           style={{
             width: "50px", // Adjust size as needed
             height: "50px", // Adjust size as needed
+          }}
+        />
+        <img
+          src="/assets/icons/star2.png"
+          className="star-big"
+          style={{
+            width: "69.22px", // Adjust size as needed
+            height: "68.08px", // Adjust size as needed
           }}
         />
       </div>
