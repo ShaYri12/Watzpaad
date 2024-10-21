@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "交易市场",
+        "shibadev": " Shiba Dev",
+        "salePrice": "销售价格",
+        "itemNotFound": "未找到物品",
+        "connectWallet": "连接钱包",
+        "onChainData": "链上数据",
+        "marketRules": "市场规则",
+        "rule-one": "1. NFT 可以使用 $BBT 或用户列出标准中的任何其他币购买。",
+        "rule-two": "2. NFT 上架后，不允许进行转让、拍卖和质押等操作。",
+        "rule-three": "3. 市场将收取卖方收入的 15% 作为服务费，其中 5% 将发送给原始铸造者。5% 将转入所有 NFT 持有者的奖励，5% 用于营销钱包。",
+        "ownerAddress": "拥有者地址",
+        "contractAddress": "合约地址",
+        "miningPower": "挖矿能力",
+        "decomposeStatus": "分解状态",
+        "decomposableIn": "可分解于",
+        "locked": "已锁定",
+        "backButton": "返回"
+    },
+    "grade": "等级"
+}

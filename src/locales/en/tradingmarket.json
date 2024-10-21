@@ -1,0 +1,23 @@
+{
+    "tradingMarket": {
+      "title": "Trading Market",
+      "shibadev": " Shiba Dev",
+      "salePrice": "Sale Price",
+      "itemNotFound": "Item not found",
+      "connectWallet": "Connect Wallet",
+      "onChainData": "On-Chain Data",
+      "marketRules": "Market Rules",
+      "rule-one": "1.NFTs can be purchased with $BBT or Any other Choice of Coins as per users listing criteria.",
+      "rule-two": "2.After NFT is listed in the trading market, operations such as transfer, auction, and staking are not allowed.",
+      "rule-three": "3.The market will charge 15% of the seller's revenue as a service fee, of which 5% is sent to the original Minter. 5% will transfer to the Reward to all NFT holders, and 5% to the Marketing Wallet.",
+      "ownerAddress": "Owner Address",
+      "contractAddress": "Contract Address",
+      "miningPower": "Mining Power",
+      "decomposeStatus": "Decompose Status",
+      "decomposableIn": "Decomposable In",
+      "locked": "Locked",
+      "backButton": "Go Back"
+    },
+    "grade": "Grade"
+  }
+  

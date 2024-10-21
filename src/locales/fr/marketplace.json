@@ -1,0 +1,11 @@
+{
+    "title": "Marché BlockBoost",
+    "description": "BlockBoost avec ses fonctionnalités uniques de marché NFT permet aux artistes numériques de vendre leur art dans n'importe quelle cryptomonnaie, il permet également de passer des enchères, des échanges et de nombreuses autres façons de gagner.",
+    "createNFT": "Créer NFT",
+    "sellNFT": "Vendre NFT",
+    "marketHeader": "Marché",
+    "searchPlaceholder": "Recherche",
+    "salePrice": "Prix de vente",
+    "parValue": "Valeur nominale",
+    "unlockIn": "Déverrouiller dans"
+}

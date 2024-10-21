@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "トレーディングマーケット",
+        "shibadev": " Shiba Dev",
+        "salePrice": "販売価格",
+        "itemNotFound": "アイテムが見つかりません",
+        "connectWallet": "ウォレットを接続",
+        "onChainData": "オンチェーンデータ",
+        "marketRules": "マーケットルール",
+        "rule-one": "1.NFTは、ユーザーのリスト基準に従って、$BBTまたは他のコインで購入できます。",
+        "rule-two": "2.NFTがトレーディングマーケットにリストされた後、移転、オークション、ステーキングなどの操作は許可されません。",
+        "rule-three": "3.マーケットは、売り手の収益の15％をサービス料として請求し、そのうち5％は元のミンターに送られます。5％はすべてのNFTホルダーへの報酬として転送され、5％はマーケティングウォレットに送られます。",
+        "ownerAddress": "所有者のアドレス",
+        "contractAddress": "契約アドレス",
+        "miningPower": "マイニングパワー",
+        "decomposeStatus": "分解状況",
+        "decomposableIn": "分解可能な場合",
+        "locked": "ロックされています",
+        "backButton": "戻る"
+    },
+    "grade": "グレード"
+}

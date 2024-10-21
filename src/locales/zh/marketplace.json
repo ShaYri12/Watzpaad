@@ -1,0 +1,11 @@
+{
+    "title": "BlockBoost 市场",
+    "description": "BlockBoost 拥有独特的 NFT 市场功能，允许数字艺术家以任何加密货币出售他们的艺术品，并允许进行拍卖、交易以及许多其他赚取收入的方式。",
+    "createNFT": "创建 NFT",
+    "sellNFT": "出售 NFT",
+    "marketHeader": "市场",
+    "searchPlaceholder": "搜索",
+    "salePrice": "售价",
+    "parValue": "面值",
+    "unlockIn": "在...内解锁"
+}

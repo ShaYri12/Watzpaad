@@ -1,0 +1,22 @@
+{
+    "tradingMarket": {
+        "title": "Ticaret Pazar",
+        "shibadev": "Shiba Dev",
+        "salePrice": "Satış Fiyatı",
+        "itemNotFound": "Öğe bulunamadı",
+        "connectWallet": "Cüzdanı Bağla",
+        "onChainData": "On-Chain Verileri",
+        "marketRules": "Pazar Kuralları",
+        "rule-one": "1. NFT'ler, kullanıcıların listeleme kriterlerine göre $BBT veya herhangi bir başka tercih edilen coin ile satın alınabilir.",
+        "rule-two": "2. NFT ticaret pazarında listelendikten sonra, transfer, açık artırma ve staking gibi işlemlere izin verilmez.",
+        "rule-three": "3. Pazar, satıcının gelirinin %15'ini hizmet ücreti olarak alacak, bunun %5'i orijinal Minter'a, %5'i tüm NFT sahiplerine ödül olarak, %5'i ise Pazarlama Cüzdanına aktarılacaktır.",
+        "ownerAddress": "Sahip Adresi",
+        "contractAddress": "Sözleşme Adresi",
+        "miningPower": "Madencilik Gücü",
+        "decomposeStatus": "Parçalama Durumu",
+        "decomposableIn": "Parçalanabilir",
+        "locked": "Kilitlendi",
+        "backButton": "Geri Dön"
+    },
+    "grade": "Not"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Rynek BlockBoost",
+    "description": "BlockBoost, posiadając unikalne funkcje rynku NFT, umożliwia cyfrowym artystom sprzedaż swojej sztuki w dowolnej kryptowalucie, a także organizowanie aukcji, transakcji i wielu innych sposobów na zarabianie.",
+    "createNFT": "Stwórz NFT",
+    "sellNFT": "Sprzedaj NFT",
+    "marketHeader": "Rynek",
+    "searchPlaceholder": "Szukaj",
+    "salePrice": "Cena sprzedaży",
+    "parValue": "Wartość nominalna",
+    "unlockIn": "Odblokuj za"
+}
