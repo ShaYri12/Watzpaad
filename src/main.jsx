@@ -591,10 +591,10 @@ i18n.init({
   },
 
 
-  lng: "en", // default language
-  fallbackLng: "en", // fallback language
+  lng: "en",  
+  fallbackLng: "en",  
   interpolation: {
-    escapeValue: false, // React already escapes values
+    escapeValue: false,  
   },
 });
 
