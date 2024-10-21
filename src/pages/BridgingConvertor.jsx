@@ -66,7 +66,7 @@ const BridgingConvertor = () => {
             isNarrow ? "card-border" : "card-border-wide"
           } p-[1.96px] w-full h-full`}
         >
-          <div className="md:py-[48px] py-[12px] md:px-6 px-[11px] relative z-[2] md:w-fit w-full">
+          <div className="md:py-[48px] py-[12px] md:px-6 px-[11px] relative z-[2] md:w-fit w-full overflow-y-auto">
             <div className="flex md:flex-row flex-col items-center flex-wrap justify-center gap-x-[9px] md:gap-y-[30px] gap-y-[10px]">
               {/* Swap/Bridge Dropdown */}
               <div className="flex items-center md:gap-[9px] gap-[5px] md:flex-wrap flex-nowrap md:w-fit w-full">

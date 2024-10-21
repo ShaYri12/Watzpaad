@@ -1,10 +1,11 @@
-import { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Dropdown = ({ options, defaultOption, onSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(defaultOption);
+  const dropdownRef = useRef(null); // Ref for the dropdown element
 
-  const toggleDropdown = () => setIsOpen(!isOpen);
+  const toggleDropdown = () => setIsOpen((prev) => !prev);
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
@@ -12,8 +13,25 @@ const Dropdown = ({ options, defaultOption, onSelect }) => {
     onSelect(option); // Pass selected option to the parent component
   };
 
+  const handleClickOutside = (event) => {
+    // Close dropdown if the click is outside the dropdown element
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    // Add event listener to handle clicks outside the dropdown
+    document.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="relative inline-block md:w-fit w-full">
+    <div className="relative inline-block md:w-fit w-full" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
         className="bg-transparent border-2 border-primaryColor text-primaryColor md:px-[18.83px] px-[14px] md:py-[11.65px] py-[5.5px] rounded-full focus:outline-none cursor-pointer flex items-center justify-between w-full md:text-[13.98px] text-[10px]"
@@ -43,7 +61,7 @@ const Dropdown = ({ options, defaultOption, onSelect }) => {
             <li
               key={index}
               onClick={() => handleOptionClick(option)}
-              className="px-4 py-2 hover:bg-gray-700 cursor-pointer"
+              className="px-4 py-2 hover:bg-gray-700 cursor-pointer md:text-[16px]  text-[14px]"
             >
               {option}
             </li>
