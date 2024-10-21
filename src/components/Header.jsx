@@ -77,7 +77,7 @@ const Header = () => {
 
       {/* Drawer Menu */}
       <div
-        className={`fixed inset-y-0 right-0 bg-gray-800 h-full md:w-[320px] w-[220px] p-4 transition-transform transform z-30 ${
+        className={`fixed inset-y-0 right-0 bg-[#09121D] h-full md:w-[320px] w-[220px] p-4 transition-transform transform z-30 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
         style={{ transition: "transform 0.3s ease-in-out" }}
