@@ -59,7 +59,7 @@ export default function MetaAltPad() {
             <div className="relative">
               {/* From Section */}
               <div className="bg-[#0B1725] px-[21.46px] md:px-[25px] md:py-[9.75px] py-[8.37px] md:rounded-[16px] rounded-[13.74px] md:mb-[30px] mb-[25.78px] relative border border-[#DEE2E6]">
-                <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px] mb-[4.75px] text-[#798DA3] text-[13.74px] md:text-[16px]">
+                <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px]  text-[13.74px] md:text-[16px]">
                   <span>From</span>
                   <span>Max. 0 Balance: 0</span>
                 </div>
@@ -86,7 +86,7 @@ export default function MetaAltPad() {
 
               {/* To Section */}
               <div className="bg-[#0B1725] px-[21.46px] md:px-[25px] md:py-[9.75px] py-[8.37px] md:rounded-[16px] rounded-[13.74px] relative border border-[#DEE2E6]">
-                <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px] mb-[4.75px] text-[#798DA3] text-[13.74px] md:text-[16px]">
+                <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px] text-[13.74px] md:text-[16px]">
                   <span>To</span>
                 </div>
                 <div className="flex justify-between items-center">
@@ -145,7 +145,7 @@ export default function MetaAltPad() {
               </div>
             </div>
             <p className="text-[11.5px] sm:text-[12.02px] md:text-[14px] text-white flex items-center ">
-              <span className="text-primaryColor md:min-w-[16px] min-h-[12.02px] md:min-h-[16px] min-h-[12.02px] md:w-[16px] w-[12.02px] md:h-[16px] h-[12.02px] md:mr-[10px] mr-[8.58px]">
+              <span className="text-primaryColor md:min-w-[16px] min-h-[12.02px] md:min-h-[16px] md:w-[16px] w-[12.02px] md:h-[16px] h-[12.02px] md:mr-[10px] mr-[8.58px]">
                 <FaCalendar className="md:text-[16px] text-[12.02px]" />
               </span>
               Sale ** Nov, 12:00 UTC - ** Nov, 18:00 UTC
