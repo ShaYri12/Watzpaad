@@ -6,7 +6,7 @@ import { MarketData } from "../assets/MarketData";
 import { useTranslation } from "react-i18next";
 
 export default function TradingMarket({ dashboard = false }) {
-  const { t } = useTranslation("tradingMarket");
+  const { t } = useTranslation("tradingmarket");
   const navigate = useNavigate();
   const { id } = useParams(); // Get the ID from the URL
   const [item, setItem] = useState(null);
