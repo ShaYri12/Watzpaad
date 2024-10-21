@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { GoPlus } from "react-icons/go";
 import { LuMinus } from "react-icons/lu";
 import { useTranslation } from "react-i18next";
@@ -21,41 +21,77 @@ const Stacking = () => {
     },
     {
       id: 2,
-      time: t("flexible"),
-      apy: "75%",
+      time: "7 days",
+      apy: "20%",
       totalStacked: "85,000,000.01",
     },
     {
       id: 3,
-      time: t("flexible"),
-      apy: "150%",
+      time: "14 days",
+      apy: "25%",
       totalStacked: "120,000,000",
     },
     {
       id: 4,
-      time: t("flexible"),
-      apy: "150%",
+      time: "30 days",
+      apy: "30%",
       totalStacked: "96,000,000.23",
     },
     {
       id: 5,
-      time: t("flexible"),
-      apy: "30%",
+      time: "180 days",
+      apy: "75%",
       totalStacked: "55,000,000",
     },
     {
       id: 6,
-      time: t("flexible"),
-      apy: "75%",
+      time: "365 days",
+      apy: "100%",
       totalStacked: "68,000,000.82",
     },
   ];
 
-  const handleBBTMinus = () => {
-    if (BBT > 0) {
-      setBBT(BBT - 1);
+  const [isModalOpenOne, setIsModalOpenOne] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const modalRefOne = useRef(null);
+  const modalRefTwo = useRef(null);
+
+  const openModalOne = () => setIsModalOpenOne(true);
+  const closeModalOne = () => setIsModalOpenOne(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRefOne.current && !modalRefOne.current.contains(event.target)) {
+        closeModalOne();
+      }
+    };
+    if (isModalOpenOne) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
     }
-  };
+
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isModalOpenOne]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRefTwo.current && !modalRefTwo.current.contains(event.target)) {
+        closeModal();
+      }
+    };
+    if (isModalOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isModalOpen]);
 
   return (
     <div className="bg-[#09121D]">
@@ -91,7 +127,7 @@ const Stacking = () => {
               >
                 <div className="card-border p-[1.96px] w-full">
                   <div className="rounded-[6.55px] flex flex-col sm:gap-[28px] md:px-[12px] px-[10.12px] gap-[23.62px] relative z-[2] w-full">
-                    <div className="flex items-center justify-center pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px] gap-3">
+                    <div className="w-full flex items-center justify-between pb-[28px] border-b border-b-[#676767] md:pt-[39px] pt-[33.73px] xl:px-[28px] px-[8px] gap-3">
                       <div className="md:min-w-[90px] min-w-[75.91px] md:min-h-[90px] min-h-[75.91px]">
                         <img
                           src="/assets/icons/B-logo.png"
@@ -99,7 +135,7 @@ const Stacking = () => {
                           className="md:w-[90px] w-[75.91px] md:h-[90px] h-[75.91px]"
                         />
                       </div>
-                      <div>
+                      <div className="flex flex-col gap-2">
                         <h2 className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
                           Stake BBT
                         </h2>
@@ -140,18 +176,122 @@ const Stacking = () => {
 
                         <div className="flex flex-col items-center gap-[12.65px] md:gap-[15px] md:w-[109px] w-[91.93px]">
                           <div className="flex gap-2 w-full justify-between items-center">
-                            <button
-                              onClick={() => setBBT(BBT + 1)}
-                              className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px]  max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-primaryColor rounded-full flex items-center justify-center"
-                            >
-                              <GoPlus className="text-black text-[20px]" />
-                            </button>
-                            <button
-                              onClick={handleBBTMinus}
-                              className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
-                            >
-                              <LuMinus className="text-white text-[18px]" />
-                            </button>
+                            <div className="">
+                              <button
+                                onClick={openModalOne}
+                                className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                              >
+                                <GoPlus className="text-white text-[20px]" />
+                              </button>
+
+                              {isModalOpenOne && (
+                                <div
+                                  ref={modalRefOne}
+                                  className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                                >
+                                  <div className="bg-white p-6 rounded-lg shadow-lg w-[500px] max-w-full">
+                                    {/* Modal header */}
+                                    <div className="flex justify-between items-center mb-4">
+                                      <h2 className="text-xl font-bold">
+                                        Stake BBT Tokens
+                                      </h2>
+                                      <button
+                                        onClick={closeModalOne}
+                                        className="text-gray-400 text-xl"
+                                      >
+                                        ×
+                                      </button>
+                                    </div>
+
+                                    {/* Input and APY display */}
+                                    <div className="mb-4">
+                                      <div className="flex justify-between items-center mb-2">
+                                        <span className="text-gray-500">
+                                          0 BBT Available
+                                        </span>
+                                        <button className="text-primaryColor font-bold">
+                                          Max BlockBoost
+                                        </button>
+                                      </div>
+                                      <input
+                                        type="text"
+                                        placeholder="0"
+                                        className="w-full px-3 py-2 border border-gray-300 rounded outline-none"
+                                      />
+                                      <div className="mt-2 text-gray-500">
+                                        APY: 12%
+                                      </div>
+                                    </div>
+
+                                    {/* Action buttons */}
+                                    <div className="flex justify-between w-full gap-5">
+                                      <button
+                                        onClick={closeModalOne}
+                                        className="w-full px-4 py-2 border border-gray-300 rounded text-gray-600 hover:bg-gray-100"
+                                      >
+                                        Cancel
+                                      </button>
+                                      <button className="w-full px-4 py-2 bg-primaryColor text-white rounded ">
+                                        Confirm
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                            <div>
+                              <button
+                                onClick={openModal}
+                                className="md:w-[37.7px] md:min-w-[37.7px] w-[31.79px] max-h-[37.7px] md:min-h-[37.7px] min-h-[31.79px] h-[31.79px] bg-[#878787] rounded-full flex items-center justify-center"
+                              >
+                                <LuMinus className="text-white text-[18px]" />
+                              </button>
+
+                              {isModalOpen && (
+                                <div
+                                  ref={modalRefTwo}
+                                  className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                                >
+                                  <div className="bg-white p-6 rounded-lg shadow-lg w-[500px] max-w-full">
+                                    {/* Modal Header */}
+                                    <div className="flex justify-between items-center mb-4">
+                                      <h2 className="text-xl font-bold">
+                                        Withdraw BBT Tokens
+                                      </h2>
+                                      <button
+                                        onClick={closeModal}
+                                        className="text-gray-400 hover:text-gray-600 text-3xl"
+                                      >
+                                        &times;
+                                      </button>
+                                    </div>
+
+                                    {/* Modal Content */}
+                                    <div className="mb-4 text-right">
+                                      <p className="text-gray-700 text-lg">
+                                        0 RenQ Available
+                                      </p>
+                                      <p className="text-gray-400 text-lg">
+                                        20% early withdraw fee
+                                      </p>
+                                    </div>
+
+                                    {/* Modal Buttons */}
+                                    <div className="flex justify-between w-full gap-5">
+                                      <button
+                                        onClick={closeModal}
+                                        className="w-full px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded"
+                                      >
+                                        Cancel
+                                      </button>
+                                      <button className="w-full px-4 py-2 bg-primaryColor text-white rounded">
+                                        Confirm
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              )}
+                            </div>
                           </div>
                           <button
                             className="bg-primaryColor text-black text-[12px] md:text-[14px] font-[400] py-3 px-[28px] w-full rounded-full"

@@ -68,7 +68,7 @@ const Sidebar = () => {
       {/* Mobile Sidebar with transition */}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto z-[9999] ${
+        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto  ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ backdropFilter: "blur(120px)" }}
@@ -159,7 +159,7 @@ const Sidebar = () => {
 
       {/* Static sidebar for larger screens */}
       <div
-        className="hidden md:block bg-[#1F2835CC] border-r-[3px] border-[#303945] fixed top-0 left-0 text-white h-screen xl:w-[264px] md:flex flex-col items-center lg:px-[22px] px-[15px]"
+        className="hidden  bg-[#1F2835CC] border-r-[3px] border-[#303945] fixed top-0 left-0 text-white h-screen xl:w-[264px] md:flex flex-col items-center lg:px-[22px] px-[15px]"
         style={{ backdropFilter: "blur(120px)" }}
       >
         <div className="relative w-full py-6 text-center">
