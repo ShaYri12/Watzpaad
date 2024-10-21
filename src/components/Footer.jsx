@@ -1,21 +1,26 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
+import Logo from "../../public/assets/logo.svg";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-[#161F2C]">
       <div className="py-20 max-w-[1280px] w-full mx-auto flex items-start justify-between px-22px sm:px-5 gap-10 xl:gap-20 md:flex-row flex-col p-4">
         <div className="flex flex-col gap-[17px] md:max-w-[300px]">
-          <h1 className="text-white text-[32px] font-[700]">Logo</h1>
+        <Link to="/" className="flex items-center my-auto">
+          <img
+            src={Logo}
+            alt="logo"
+            className="xl:w-[233px] lg:w-[200px] md:w-[233px] w-[170px] lg:mb-2"
+          />
+        </Link>
+          {/* <h1 className="text-white text-[32px] font-[700]">Logo</h1> */}
           <h3 className="text-[18.92px] font-[700] text-white">
-            Join the Winning Team
+          Join The Winning Team
           </h3>
           <p className="text-[#798DA3]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vitae
-            amet tenetur natus eos totam libero nulla deserunt odio minus eius
-            consequatur quidem ea voluptate sunt, obcaecati officiis soluta
-            delectus.
+          Blockboost is a leading Web3 incubator and Launchpad for Web3 projects focusing on innovative technologies such as DeFi, AI, Big Data, NFTs and Web3 Gaming. By staking $BBT, you gain the advantage of early access to purchase project tokens, enhancing your position within the Web3 landscape.
           </p>
         </div>
 
@@ -113,9 +118,8 @@ const Footer = () => {
               </span>
             </Link>
           </div>
-          <p className="text-[#798DA3]">
-            Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um
-            sempeLorem
+          <p className="text-[#798DA3] mt-2 text-sm">
+          Disclaimer: Not financial advice. Always DYOR before buying. Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may go down as well as up. Profits may be subject to capital gains or other taxes applicable in your region.
           </p>
         </ul>
       </div>

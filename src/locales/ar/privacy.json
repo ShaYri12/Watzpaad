@@ -1,92 +1,92 @@
 {
-  "privacy_policy_title": "Privacy Policy",
-  "privacy_policy_description": "This privacy policy (\"Policy\") informs you of your choices and our practices in relation to your Information (as defined below). For the purposes of this Policy, \"we\", \"us\", and \"our\" refer to \"BlockBoost\".",
+  "privacy_policy_title": "سياسة الخصوصية",
+  "privacy_policy_description": "تخبرك سياسة الخصوصية هذه (\"السياسة\") بخياراتك وممارساتنا المتعلقة بمعلوماتك (كما هو معرف أدناه). لأغراض هذه السياسة، تشير \"نحن\" و\"لنا\" و\"خاصتنا\" إلى \"BlockBoost\".",
 
-  "children_title": "Children",
+  "children_title": "الأطفال",
   "children_description": [
-    "Our services are not available for use by children and are intended for persons over the age of 18 years old, and 21 years old in some jurisdictions. Please refer to your country laws for age-appropriate guidance.",
-    "To comply with the current 'UK Data Protection Act' for Children, specifically the Age Appropriate Design Code (also known as the Children's Act), risks have been assessed. More information can be found at ICO Children's Code Hub.",
-    "This policy will explain areas of our app or website that may affect your privacy and personal details, how we process, collect, manage and store those details, and your rights in relation to your data."
+    "خدماتنا غير متاحة للاستخدام من قبل الأطفال ومخصصة للأشخاص الذين تزيد أعمارهم عن 18 عامًا، و21 عامًا في بعض الولايات القضائية. يرجى الرجوع إلى قوانين بلدك للحصول على إرشادات مناسبة للعمر.",
+    "للامتثال لقانون حماية البيانات في المملكة المتحدة للأطفال، وبالتحديد قانون التصميم المناسب للعمر (المعروف أيضًا باسم قانون الأطفال)، تم تقييم المخاطر. يمكن العثور على مزيد من المعلومات في مركز كود الأطفال الخاص بـ ICO.",
+    "ستشرح هذه السياسة مجالات تطبيقنا أو موقعنا الإلكتروني التي قد تؤثر على خصوصيتك وتفاصيلك الشخصية، وكيفية معالجة هذه التفاصيل وجمعها وإدارتها وتخزينها، وحقوقك المتعلقة ببياناتك."
   ],
 
-  "personal_info_title": "Personal Information We Collect",
+  "personal_info_title": "المعلومات الشخصية التي نجمعها",
   "personal_info_description": [
-    "We may collect and use the following Information about you:",
-    "• Information you provide to us, such as your name, mailing address, phone number, email address, and payment information.",
-    "• Information you provide via customer support channels, such as when contacting us via email.",
-    "• Information collected when you use our app or website, including cookies and location-based data.",
-    "• Information from third parties, including social media and analytics services like Google Analytics."
+    "قد نجمع ونستخدم المعلومات التالية عنك:",
+    "• المعلومات التي تقدمها لنا، مثل اسمك، وعنوان البريد، ورقم الهاتف، وعنوان البريد الإلكتروني، ومعلومات الدفع.",
+    "• المعلومات التي تقدمها عبر قنوات دعم العملاء، مثل عندما تتواصل معنا عبر البريد الإلكتروني.",
+    "• المعلومات التي تم جمعها عندما تستخدم تطبيقنا أو موقعنا الإلكتروني، بما في ذلك ملفات تعريف الارتباط والبيانات المعتمدة على الموقع.",
+    "• المعلومات من أطراف ثالثة، بما في ذلك وسائل التواصل الاجتماعي وخدمات التحليلات مثل Google Analytics."
   ],
 
-  "how_we_use_title": "How We Use Your Personal Information",
+  "how_we_use_title": "كيف نستخدم معلوماتك الشخصية",
   "how_we_use_description": [
-    "We will only use your personal data when the law allows us to. Common reasons include:",
-    "• To provide you with our service, including access to our app via a virtual wallet.",
-    "• To improve and monitor the use of our services.",
-    "• To provide customer support and respond to your queries or complaints.",
-    "• To prevent fraud, defend legal claims, and comply with legal obligations.",
-    "• To conduct analytics and provide targeted advertising (with your consent)."
+    "سوف نستخدم بياناتك الشخصية فقط عندما يسمح لنا القانون بذلك. تشمل الأسباب الشائعة:",
+    "• لتزويدك بخدماتنا، بما في ذلك الوصول إلى تطبيقنا عبر محفظة افتراضية.",
+    "• لتحسين ومراقبة استخدام خدماتنا.",
+    "• لتقديم دعم العملاء والرد على استفساراتك أو شكاواك.",
+    "• لمنع الاحتيال والدفاع عن المطالبات القانونية والامتثال للالتزامات القانونية.",
+    "• لإجراء التحليلات وتقديم الإعلانات المستهدفة (بموافقتك)."
   ],
 
-  "choices_title": "Your Choices About How Information is Used",
+  "choices_title": "خياراتك بشأن كيفية استخدام المعلومات",
   "choices_description": [
-    "You have the following choices regarding how we use your information:",
-    "• Marketing Emails: You can opt-out of receiving promotional emails by using the \"unsubscribe\" feature in our marketing emails.",
-    "• Financial Incentives: We may run promotions that ask you to share personal information. Participation is voluntary."
+    "لديك الخيارات التالية بشأن كيفية استخدامنا لمعلوماتك:",
+    "• رسائل التسويق: يمكنك إلغاء الاشتراك من تلقي الرسائل الترويجية باستخدام ميزة \"إلغاء الاشتراك\" في رسائلنا التسويقية.",
+    "• الحوافز المالية: قد نقوم بتنفيذ ترويجيات تطلب منك مشاركة معلومات شخصية. المشاركة طوعية."
   ],
 
-  "who_we_share_title": "Who We Share Your Personal Information With",
+  "who_we_share_title": "مع من نشارك معلوماتك الشخصية",
   "who_we_share_description": [
-    "We may share your information with the following entities:",
-    "• Vendors and service providers (e.g., cloud services like AWS).",
-    "• Analytics providers (e.g., Google, Apple, AWS).",
-    "• Advertising partners (for ad-supported services).",
-    "• Law enforcement agencies or public authorities if required by law.",
-    "• Entities involved in mergers, acquisitions, or corporate reorganizations."
+    "قد نشارك معلوماتك مع الكيانات التالية:",
+    "• البائعون ومقدمو الخدمة (مثل خدمات السحابة مثل AWS).",
+    "• مقدمو التحليلات (مثل Google وApple وAWS).",
+    "• الشركاء الإعلانيون (لخدمات المدعومة بالإعلانات).",
+    "• وكالات إنفاذ القانون أو السلطات العامة إذا طلب القانون ذلك.",
+    "• الكيانات المشاركة في الاندماجات أو الاستحواذات أو إعادة الهيكلة المؤسسية."
   ],
 
-  "security_title": "Security",
+  "security_title": "الأمان",
   "security_description": [
-    "We have security measures in place to protect your information, but transmission over the internet is not completely secure.",
-    "We recommend using appropriate security measures when using our services."
+    "لدينا تدابير أمان لحماية معلوماتك، ولكن النقل عبر الإنترنت ليس آمنًا تمامًا.",
+    "نوصي باستخدام تدابير أمان مناسبة عند استخدام خدماتنا."
   ],
 
-  "where_we_process_title": "Where We Process Your Information",
+  "where_we_process_title": "أين نقوم بمعالجة معلوماتك",
   "where_we_process_description": [
-    "Your information will be processed by our employees and service providers (Apple, Google, AWS, Mailchimp).",
-    "If necessary, we ensure that your data is transferred to countries that provide adequate protection for personal data."
+    "سيتم معالجة معلوماتك من قبل موظفينا ومقدمي الخدمة لدينا (Apple وGoogle وAWS وMailchimp).",
+    "إذا لزم الأمر، نضمن نقل بياناتك إلى دول توفر حماية كافية للبيانات الشخصية."
   ],
 
-  "how_long_we_store_title": "How Long We Store Your Information",
+  "how_long_we_store_title": "مدة تخزين معلوماتك",
   "how_long_we_store_description": [
-    "We store your information for up to 6 years.",
-    "When deleting information, we take measures to make it irrecoverable or irreproducible."
+    "نقوم بتخزين معلوماتك لمدة تصل إلى 6 سنوات.",
+    "عند حذف المعلومات، نتخذ تدابير لجعلها غير قابلة للاسترجاع أو الإعادة."
   ],
 
-  "your_rights_title": "Your Rights",
+  "your_rights_title": "حقوقك",
   "your_rights_description": [
-    "You have the following rights under data protection laws:",
-    "• The right to request access to your personal data.",
-    "• The right to request correction of your personal data.",
-    "• The right to request erasure of your personal data.",
-    "• The right to object to processing of your personal data.",
-    "• The right to request restriction of processing of your personal data.",
-    "• The right to request transfer of your personal data.",
-    "• The right to withdraw consent at any time."
+    "لديك الحقوق التالية بموجب قوانين حماية البيانات:",
+    "• الحق في طلب الوصول إلى بياناتك الشخصية.",
+    "• الحق في طلب تصحيح بياناتك الشخصية.",
+    "• الحق في طلب حذف بياناتك الشخصية.",
+    "• الحق في الاعتراض على معالجة بياناتك الشخصية.",
+    "• الحق في طلب تقييد معالجة بياناتك الشخصية.",
+    "• الحق في طلب نقل بياناتك الشخصية.",
+    "• الحق في سحب الموافقة في أي وقت."
   ],
 
-  "california_privacy_rights_title": "California Privacy Rights (Addendum 1)",
-  "california_privacy_rights_description": "The terms of this addendum apply to residents of California under the California Consumer Privacy Act (CCPA). For the purposes of this addendum, Personal Information means information that identifies or is linked to a particular consumer or household.",
+  "california_privacy_rights_title": "حقوق الخصوصية في كاليفورنيا (الملحق 1)",
+  "california_privacy_rights_description": "تنطبق شروط هذا الملحق على سكان كاليفورنيا بموجب قانون الخصوصية للمستهلكين في كاليفورنيا (CCPA). لأغراض هذا الملحق، تعني المعلومات الشخصية المعلومات التي تحدد أو ترتبط بمستهلك معين أو أسرة.",
 
-  "brazil_privacy_rights_title": "Brazil Privacy Rights (Addendum 2)",
-  "brazil_privacy_rights_description": "The terms of this addendum apply to residents of Brazil under the Lei Geral de Proteção de Dados (LGPD). You have the right to ask whether we hold your personal information and request its deletion, restriction, or correction.",
+  "brazil_privacy_rights_title": "حقوق الخصوصية في البرازيل (الملحق 2)",
+  "brazil_privacy_rights_description": "تنطبق شروط هذا الملحق على سكان البرازيل بموجب Lei Geral de Proteção de Dados (LGPD). لديك الحق في السؤال عما إذا كنا نحتفظ بمعلوماتك الشخصية وطلب حذفها أو تقييدها أو تصحيحها.",
 
-  "contact_title": "Contact & Complaints",
+  "contact_title": "الاتصال والشكاوى",
   "contact_description": [
-    "If you have any questions or complaints regarding this policy, please contact us at inq@BlockBoost.io.",
-    "If you wish to make a complaint about how we process your information, we will aim to respond within 30 days."
+    "إذا كانت لديك أي أسئلة أو شكاوى بشأن هذه السياسة، يرجى الاتصال بنا على inq@BlockBoost.io.",
+    "إذا كنت ترغب في تقديم شكوى حول كيفية معالجة معلوماتك، سنهدف إلى الرد في غضون 30 يومًا."
   ],
 
-  "changes_title": "Changes to this Policy",
-  "changes_description": "Any updates or changes to this policy will be published here."
+  "changes_title": "التغييرات على هذه السياسة",
+  "changes_description": "سيتم نشر أي تحديثات أو تغييرات على هذه السياسة هنا."
 }

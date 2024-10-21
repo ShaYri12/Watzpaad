@@ -1,16 +1,62 @@
 {
   "cookie_policy_title": "Cookie-Richtlinie",
-  "cookie_policy_description": "Für die Zwecke dieser Cookie-Richtlinie beziehen sich \"wir\", \"uns\" und \"unser\" auf \"Rexas\". Diese Cookie-Richtlinie gilt für die folgenden \"Dienste\": rexas.com und alle anderen dedizierten Websites, Apps, Produkte, Foren und Dienste, die wir über die App oder Website oder eine andere dedizierte Website anbieten, die wir möglicherweise von Zeit zu Zeit anbieten oder anderweitig bereitstellen.\n\nSie können Ihre Cookie-Einstellungen ändern oder Ihre Einwilligung jederzeit über die Datenschutzeinstellungen widerrufen.",
+  "cookie_policy_description": "Für die Zwecke dieser Cookie-Richtlinie beziehen sich \"wir\", \"uns\" und \"unser\" auf \"BlockBoost\". Diese Cookie-Richtlinie gilt für die folgenden \"Dienste\": BlockBoost.com und alle anderen dedizierten Websites, Apps, Produkte, Foren und Dienste, die wir über die App oder Website oder andere dedizierte Websites anbieten, die von uns von Zeit zu Zeit angeboten werden oder anderweitig von uns bereitgestellt werden. Sie können Ihre Cookie-Präferenzen jederzeit ändern oder Ihre Einwilligung über die Datenschutzeinstellungen widerrufen.",
 
   "what_is_cookie_title": "1. Was ist ein Cookie?",
-  "what_is_cookie_description": "Cookies sind Textdateien, die kleine Informationsmengen enthalten und auf Ihr Gerät geladen werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites zum Funktionieren zu bringen oder sie effizienter zu machen, sowie um den Website-Betreibern Informationen zur Verbesserung der Benutzererfahrung bereitzustellen, zum Beispiel durch das Erinnern Ihrer Präferenzen oder durch das Anbieten personalisierter Inhalte und Werbung.\n\nFunktionen, die normalerweise von einem Cookie ausgeführt werden, können auch durch andere ähnliche Technologien wie Protokolldateien, Pixel-Tags, Web Beacons, Clear GIFs und Geräte-IDs erreicht werden. In dieser Cookie-Richtlinie werden wir sie zusammenfassend als \"Cookies\" bezeichnen.",
+  "what_is_cookie_description": "Cookies sind Textdateien, die kleine Mengen an Informationen enthalten und auf Ihr Gerät gesetzt werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites funktionsfähig zu machen oder effizienter zu arbeiten sowie um Informationen an die Eigentümer der Website bereitzustellen, um die Benutzererfahrung allgemein zu verbessern, indem sie beispielsweise Ihre Präferenzen speichern oder Ihnen personalisierte Inhalte und Werbung anbieten. Funktionen, die normalerweise von einem Cookie durchgeführt werden, können auch durch andere ähnliche Technologien wie Protokolldateien, Pixel-Tags, Web-Beacons, klare GIFs und Geräte-IDs erreicht werden. In dieser Cookie-Richtlinie beziehen wir uns gemeinsam auf sie als \"Cookies\".",
 
   "how_we_use_cookie_title": "2. Wie verwenden wir Cookies?",
-  "how_we_use_cookie_description": "Wir können Cookies verwenden, um:\n- Anmeldeinformationen zu überprüfen und Benutzern zu ermöglichen, Freunde zu finden, die einen Dienst nutzen;\n- Den Datenverkehr und Reisemuster im Zusammenhang mit einem Dienst zu verfolgen;\n- Die Gesamtzahl der Benutzer eines Dienstes fortlaufend zu verstehen und die Arten von Geräten zu identifizieren;\n- Die Leistung eines Dienstes zu überwachen, um ihn kontinuierlich zu verbessern;\n- Ihr Online-Erlebnis zu personalisieren und zu verbessern;\n- Ihnen Kundendienst zu bieten;\n- und Anzeigen Dritter innerhalb unserer Dienste bereitzustellen.",
+  "how_we_use_cookie_description": "Wir können Cookies verwenden, um:",
+  "how_we_use_cookie_items": [
+    "Anmeldedaten zu überprüfen und Benutzern zu ermöglichen, Freunde zu finden, die einen Dienst nutzen.",
+    "Den Verkehr und die Reisemuster im Zusammenhang mit einem Dienst zu verfolgen.",
+    "Die Gesamtzahl der Benutzer eines Dienstes kontinuierlich zu verstehen und die Arten von Geräten zu identifizieren.",
+    "Die Leistung eines Dienstes zu überwachen, um ihn kontinuierlich zu verbessern.",
+    "Ihr Online-Erlebnis anzupassen und zu verbessern.",
+    "Ihnen Kundenservice anzubieten.",
+    "Werbung Dritter innerhalb unserer Dienste anzuzeigen."
+  ],
 
   "types_of_cookie_title": "3. Welche Arten von Cookies verwenden wir?",
-  "types_of_cookie_description": "Die von uns und unseren Partnern in Verbindung mit einem Dienst verwendeten Cookie-Typen können in die folgenden Kategorien eingeteilt werden: 'Notwendige Cookies', 'Funktions-Cookies', 'Analyse-Cookies' und 'Werbe- und Tracking-Cookies'. Nachfolgend haben wir einige weitere Informationen zu jeder Kategorie, dem Zweck und der Dauer der von uns und Dritten gesetzten Cookies aufgeführt. Sie können Cookies jederzeit über die Datenschutzeinstellungen deaktivieren, dies kann jedoch die Funktionsweise des Dienstes beeinträchtigen.\n- Notwendige Cookies: Aktivieren Sie Kernfunktionen wie Sicherheit, Netzwerkverwaltung und Barrierefreiheit.\n- Funktions-Cookies: Speichern Sie Informationen über Ihre getroffenen Entscheidungen und ermöglichen es uns, einen Dienst auf Sie zuzuschneiden.\n- Analyse-Cookies: Analysieren Sie, wie unser Dienst genutzt wird oder funktioniert, um Ihnen eine bessere Benutzererfahrung zu bieten und einen Dienst zu pflegen, zu betreiben und kontinuierlich zu verbessern.\n- Werbe- und Tracking-Cookies: Diese können durch unsere Dienste von unseren Werbepartnern gesetzt werden, um Ihnen relevante Anzeigen auf anderen Websites anzuzeigen.",
+  "types_of_cookie_description": "Die von uns und unseren Partnern in Verbindung mit einem Dienst verwendeten Cookies können in die folgenden Kategorien eingeteilt werden: 'Notwendige Cookies', 'Funktionscookies', 'Analytische Cookies' und 'Werbe- und Tracking-Cookies'. Nachfolgend haben wir einige weitere Informationen zu jeder Kategorie, dem Zweck und der Dauer der Cookies, die wir und Dritte setzen, zusammengestellt. Sie können Cookies jederzeit über die Datenschutzeinstellungen deaktivieren, dies kann jedoch die Funktionsweise des Dienstes beeinflussen.",
+  "types_of_cookie_items": [
+    {
+      "title": "Notwendige Cookies",
+      "description": "Aktivieren Sie grundlegende Funktionen wie Sicherheit, Netzwerkmanagement und Barrierefreiheit."
+    },
+    {
+      "title": "Funktionscookies",
+      "description": "Speichern Sie Informationen über Ihre getroffenen Entscheidungen und ermöglichen Sie es uns, einen Dienst für Sie anzupassen."
+    },
+    {
+      "title": "Analytische Cookies",
+      "description": "Analysieren Sie, wie unser Dienst aufgerufen, genutzt oder performt wird, um Ihnen eine bessere Benutzererfahrung zu bieten und einen Dienst zu pflegen, zu betreiben und kontinuierlich zu verbessern."
+    },
+    {
+      "title": "Werbe- und Tracking-Cookies",
+      "description": "Können über unsere Dienste von unseren Werbepartnern gesetzt werden, um Ihnen relevante Werbung auf anderen Seiten anzuzeigen."
+    }
+  ],
 
-  "control_or_delete_cookie_title": "4. Wie steuert oder löscht man Cookies?",
-  "control_or_delete_cookie_description": "Sie haben die folgenden Optionen, wie wir Ihre Informationen verwenden:\nSie haben das Recht, unsere Verwendung von Cookies und anderen ähnlichen Technologien jederzeit über die Datenschutzeinstellungen oder durch Anpassen der In-App-Einstellungen zu steuern. Bitte beachten Sie jedoch, dass Sie möglicherweise nicht die volle Funktionalität der Dienste nutzen können, wenn Sie Cookies ablehnen.\nDarüber hinaus ermöglichen es die meisten Browser, Ihre Einstellungen für Cookies über ihre Einstellungen zu ändern. Diese Einstellungen befinden sich in der Regel im Menü \"Optionen\" oder \"Einstellungen\". Um diese Einstellungen zu verstehen, können die folgenden Links hilfreich sein:\n- Cookie-Einstellungen in Chrome\n- Cookie-Einstellungen in Safari\n- Cookie-Einstellungen in Firefox\n- Cookie-Einstellungen in Internet Explorer\nUm das Tracking durch Google Analytics auf allen Websites zu deaktivieren, besuchen Sie den folgenden Link:\n- Google Analytics Opt-Out"
+  "control_or_delete_cookie_title": "4. So steuern oder löschen Sie Cookies",
+  "control_or_delete_cookie_description": "Sie haben das Recht, unsere Verwendung von Cookies und anderen ähnlichen Technologien jederzeit über die Datenschutzeinstellungen zu steuern oder die Einstellungen in der App anzupassen. Bitte beachten Sie jedoch, dass Sie möglicherweise nicht auf die volle Funktionalität der Dienste zugreifen können, wenn Sie Cookies ablehnen. Neben dem oben Genannten ermöglichen die meisten Browser Ihnen, Ihre Cookie-Präferenzen über ihre Einstellungen zu ändern. Diese Einstellungen finden Sie normalerweise im Menü \"Optionen\" oder \"Präferenzen\". Um diese Einstellungen zu verstehen, könnten die folgenden Links hilfreich sein:",
+  "control_or_delete_cookie_links": [
+    "Cookie-Einstellungen in Chrome",
+    "Cookie-Einstellungen in Safari",
+    "Cookie-Einstellungen in Firefox",
+    "Cookie-Einstellungen in Internet Explorer",
+    "Google Analytics Opt-Out"
+  ],
+
+  "changes_to_cookie_policy_title": "5. Änderungen an dieser Cookie-Richtlinie",
+  "changes_to_cookie_policy_description": "Wir werden diese Cookie-Richtlinie aktualisieren, um Änderungen in unseren Praktiken und Diensten zu berücksichtigen. Wenn wir Änderungen an dieser Cookie-Richtlinie veröffentlichen, werden wir das \"Zuletzt aktualisiert\"-Datum oben in dieser Cookie-Richtlinie überarbeiten.",
+
+  "need_more_info_title": "6. Brauchen Sie weitere Informationen?",
+  "need_more_info_description": "Wenn Sie mehr über Cookies und deren Verwendung im Internet erfahren möchten, finden Sie möglicherweise weitere nützliche Informationen auf AboutCookies, All About Cookies und Your Online Choices.",
+
+  "cookies_set_in_the_past_title": "7. Cookies, die in der Vergangenheit gesetzt wurden",
+  "cookies_set_in_the_past_description": "Wenn Sie ein oder mehrere Cookies deaktiviert haben, können wir möglicherweise weiterhin Informationen verwenden, die aus Cookies vor der Festlegung Ihrer deaktivierten Präferenz gesammelt wurden, jedoch werden wir aufhören, das deaktivierte Cookie zu verwenden, um weitere Informationen zu sammeln.",
+
+  "contact_us_title": "8. Kontaktieren Sie uns",
+  "contact_us_description": "Wenn Sie uns bezüglich dieser Cookie-Richtlinie und der Verwendung von Cookies in den Diensten kontaktieren möchten, wenden Sie sich bitte über unseren sozialen Kanal oder per E-Mail an uns: inq@BlockBoost.io."
 }

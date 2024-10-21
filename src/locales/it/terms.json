@@ -1,13 +1,87 @@
 {
   "terms_and_conditions_title": "Termini e Condizioni",
-  "terms_and_conditions_description": "Dovresti leggere questi Termini perché contengono i nostri impegni legali nei tuoi confronti e una serie di comportamenti da tenere o evitare durante l'utilizzo dei nostri Servizi. Ti preghiamo di leggere attentamente questi Termini per assicurarti di comprenderli. Utilizzando i nostri Servizi, accetti automaticamente e legalmente di essere vincolato a questi Termini. Per evitare equivoci, se non sei d'accordo con i Termini, non dovresti procedere nell'accesso o utilizzo dei nostri Servizi.\n\nDovresti anche leggere la nostra Informativa sulla Privacy. L'Informativa sulla Privacy spiega come utilizziamo i tuoi dati personali. Se ritieni che ci sia un errore nei termini o hai delle domande, contattaci per discuterne. Se dovessimo contattarti, lo faremo scrivendoti all'indirizzo email che ci hai fornito. È quindi molto importante confermare di aver fornito un indirizzo email valido e di uso personale, e procedendo con l'uso dei nostri Servizi dichiari di averlo fatto. Ti contatteremo solo se ci hai dato il tuo esplicito consenso per farlo. L'unico altro momento in cui riceverai email è se ti sei iscritto alla nostra newsletter e agli aggiornamenti.\n\nQuando usiamo i termini 'per iscritto' o 'scritto' in questi Termini, ciò include le email.",
+  "terms_and_conditions_description": "Leggi attentamente questi termini, poiché includono i nostri impegni legali nei tuoi confronti e alcune cose che devi e non devi fare mentre utilizzi i nostri servizi. Ti invitiamo a leggere attentamente questi termini per assicurarti di comprenderli. Utilizzando i nostri servizi, sarai considerato automaticamente accettare questi termini e vincolato legalmente ad essi. Per chiarezza, se non sei d'accordo con i termini, non sei autorizzato a utilizzare i nostri servizi o ad accedervi. \n\nDovresti anche leggere la nostra informativa sulla privacy. L'informativa sulla privacy spiega come utilizziamo i tuoi dati personali. Se noti errori in questi termini o hai domande, ti preghiamo di contattarci. Se abbiamo bisogno di contattarti, ti scriveremo all'indirizzo email che ci hai fornito. Pertanto, è molto importante che tu confermi di aver fornito un indirizzo email valido che utilizzerai personalmente e che continuando a utilizzare i nostri servizi, ti assicuri di farlo. Ti contatteremo solo se ci hai dato esplicitamente il permesso di farlo. L'unico altro momento in cui riceverai un'email sarà quando ti iscrivi alla nostra newsletter e aggiornamenti. Quando utilizziamo le parole \"scrivere\" o \"scritto\" in questi termini, ci riferiamo anche alle email.",
 
-  "buying_coins_title": "Utilizzo del nostro Servizio / Acquisto di Monete",
-  "buying_coins_description": "Per utilizzare il nostro servizio, avrai bisogno di un portafoglio virtuale. Facciamo presente che i portafogli sono servizi di terze parti e ti consigliamo di leggere i loro termini di utilizzo.",
+  "changes_to_terms_title": "Modifiche ai Termini",
+  "changes_to_terms_description": "Possiamo aggiornare e modificare questi termini di volta in volta e la versione più recente dei termini sarà pubblicata sul sito web e sull'app correlata. Ti potrebbe essere richiesto di rivedere e accettare i termini modificati per continuare a utilizzare i servizi. Ti consigliamo vivamente di controllare regolarmente il sito web e l'app per verificare eventuali modifiche, dove verranno pubblicate. Puoi stampare e salvare una copia di questi termini per fare riferimento in futuro. Potremmo anche richiedere di aggiornare il software per utilizzare i servizi, a condizione che i servizi continuino a corrispondere alla descrizione fornita in precedenza. Il software correlato può essere aggiornato per riflettere le modifiche a un sistema operativo. Continuando a utilizzare i servizi, sarai considerato accettare i termini modificati di volta in volta.",
+
+  "buying_coins_title": "Utilizzo del Nostro Servizio / Acquisto di Monete",
+  "buying_coins_description": "Per utilizzare il nostro servizio, è necessario avere un portafoglio virtuale. Ti informiamo che il portafoglio è un servizio di terze parti e ti consigliamo di leggere i termini di utilizzo.",
 
   "security_title": "Sicurezza",
-  "security_description": "La sicurezza è importante per Rexas, e pertanto accetti di non condividere l'accesso al tuo portafoglio con altri utenti o terze parti, né di compiere consapevolmente azioni che consentano a terzi di accedere o utilizzare il tuo account. Se riteniamo, a nostra discrezione, che il tuo account sia utilizzato in modo inappropriato, ci riserviamo il diritto di sospendere, terminare o cessare di supportare il tuo account senza responsabilità.\n\nNon possiamo verificare le identità delle persone che utilizzano i nostri Servizi e non saremo responsabili se la tua connessione al portafoglio o il tuo account viene utilizzato da qualcun altro. Se vieni a conoscenza di un utilizzo non autorizzato del tuo accesso, dovresti notificarcelo immediatamente contattandoci all'indirizzo admin@rexas.com, utilizzando 'Violazione della sicurezza' come oggetto. Si noti che potremmo dover verificare la tua identità e validare la proprietà dell'account. Fai attenzione ad altri siti web e servizi che potrebbero fingersi noi o essere associati a noi.",
+  "security_description": "La sicurezza è fondamentale per BlockBoost, quindi accetti di non condividere l'accesso al tuo portafoglio o di non consentire ad altri utenti o terzi di farlo, e di non impegnarti consapevolmente in attività che consentano a un terzo di accedere o utilizzare il tuo account. Ci riserviamo il diritto, a nostra esclusiva discrezione, di sospendere o chiudere il tuo account o di interrompere il supporto se riteniamo che il tuo account venga utilizzato in modo inappropriato.\n\nNon possiamo verificare l'identità delle persone che utilizzano i nostri servizi e non saremo responsabili se il tuo portafoglio o account è stato utilizzato da altri. Se sei a conoscenza di un uso non autorizzato della tua ID, ti preghiamo di contattarci immediatamente all'indirizzo inq@BlockBoost.io, utilizzando come oggetto Violazione della Sicurezza. Tieni presente che potrebbe essere necessario confermare la tua identità e convalidare la proprietà dell'account. Fai attenzione e rimani vigile nei confronti delle persone nei tuoi confronti e riguardo all'uso del sito web e dei servizi in relazione ad altri siti e servizi.",
 
   "removing_data_title": "Rimozione dei Dati",
-  "removing_data_description": "Se desideri che cancelliamo qualsiasi dato in nostro possesso che ti riguarda, contattaci inviando un'email a admin@rexas.com. Sebbene non richiediamo informazioni personali o identificabili durante la registrazione ai nostri servizi, potremmo comunque avere dettagli su di te se ci hai fornito un indirizzo email o ci hai dato il permesso di contattarti. Se desideri che i tuoi dati vengano eliminati, devi specificarlo nella tua email. Se non richiedi la cancellazione, manterremo queste informazioni come descritto nella nostra Informativa sulla Privacy."
+  "removing_data_description": "Se desideri che rimuoviamo i dati in nostro possesso su di te, ti preghiamo di contattarci via email all'indirizzo inq@BlockBoost.io. Tuttavia, non abbiamo bisogno di raccogliere informazioni personali o identificabili durante l'utilizzo del nostro servizio, anche se se ci hai fornito un indirizzo email o ci hai dato il permesso di contattarti, potremmo comunque conservare alcuni dettagli. Se desideri che i tuoi dati vengano rimossi, dovresti specificarlo chiaramente nella tua email. Se non richiedi la rimozione, conserveremo tali informazioni secondo la nostra informativa sulla privacy.",
+
+  "rules_of_use_title": "Regole di Utilizzo",
+  "rules_of_use_description": "Accetti di conformarti e di rispettare le seguenti regole:",
+  "rules_of_use_list": [
+    "Non impegnarti in attacchi personali contro altri.",
+    "Non molestare, intimidire o seguire altri utenti.",
+    "Non pubblicare linguaggio o immagini oscene, oscene o sessualmente esplicite.",
+    "Non promuovere attività illegali o discutere con l'intenzione di compierle.",
+    "Non violare i diritti di proprietà intellettuale o di privacy di terzi.",
+    "Non introdurre virus o altri elementi dannosi.",
+    "Non utilizzare l'identità di altri o travisare la tua identità.",
+    "Non impegnarti in spam, trolling o altri comportamenti antisociali.",
+    "Non generare o promuovere entrate per te stesso o per terzi senza autorizzazione."
+  ],
+
+  "violation_of_rules_title": "Violazione delle Regole",
+  "violation_of_rules_description": "Se ritieni che un altro utente stia violando queste regole, ti preghiamo di informarci inviando un'email a inq@BlockBoost.io. Non possiamo garantire che gli altri utenti seguiranno queste regole e non saremo responsabili per le violazioni di altri utenti. Sei responsabile delle tue azioni, così come gli altri utenti.",
+
+  "service_interruption_title": "Interruzione del Servizio",
+  "service_interruption_description": "BlockBoost non garantisce che i servizi saranno sempre disponibili, ininterrotti, puntuali, sicuri o privi di bug o virus. Potrebbero verificarsi situazioni in cui i servizi non sono disponibili a causa di problemi tecnici o manutenzione. Ci riserviamo inoltre il diritto di modificare, sospendere o interrompere alcuni servizi senza preavviso. Faremo del nostro meglio per garantire che i nostri servizi siano privi di virus e altri malware, ma ti consigliamo di utilizzare il software antivirus appropriato quando necessario.",
+
+  "prohibited_person_title": "Persone Proibite",
+  "prohibited_person_description": "\"Persona Proibita\" si riferisce a persone fisiche o giuridiche soggette a specifiche restrizioni ai sensi delle leggi degli Stati Uniti, delle Nazioni Unite, dell'Unione Europea o di altre autorità competenti. Non ci impegneremo in transazioni con persone proibite.",
+
+  "third_parties_title": "Terze Parti",
+  "third_parties_description": "Alcune pagine possono contenere link a siti o servizi di terze parti. Questi link sono forniti per comodità e BlockBoost non è responsabile per il contenuto di alcuna terza parte. Se visiti un sito di terzi, ti preghiamo di notare che potrebbe avere i propri termini di utilizzo e politica sulla privacy.",
+
+  "agreeing_to_terms_title": "Accettazione dei Termini",
+  "agreeing_to_terms_description": "Utilizzando i nostri servizi, accetti di essere vincolato legalmente da questi termini. Se non accetti, non sei autorizzato a utilizzare i nostri servizi o ad accedervi.",
+
+  "children_title": "Bambini",
+  "children_description": "I nostri servizi non sono destinati all'uso da parte di bambini di età inferiore ai 18 anni o come previsto dalle leggi applicabili in alcune giurisdizioni. Non raccogliamo consapevolmente informazioni personali da bambini di età inferiore ai 18 anni. Se scopriamo di aver raccolto informazioni personali da un bambino, rimuoveremo tali informazioni senza indugi. Se hai informazioni che ci indicano che abbiamo raccolto informazioni personali da un bambino, ti preghiamo di contattarci all'indirizzo inq@BlockBoost.io.",
+
+  "limitation_of_liability_title": "Limitazione di Responsabilità",
+  "limitation_of_liability_description": "BlockBoost non sarà responsabile per danni diretti, indiretti, incidentali, speciali, consequenziali o punitivi, sia in base a contratto che in altro modo, in particolare per qualsiasi danno derivante dall'uso dei servizi o da essi derivante.",
+
+  "indemnity_title": "Indennità",
+  "indemnity_description": "Accetti di indennizzare e tenere indenne BlockBoost, i suoi direttori, funzionari, dipendenti e agenti da qualsiasi reclamo, causa, danno, costo, responsabilità ed spesa (incluse le spese legali) derivanti da una violazione di questi termini o dall'uso dei servizi.",
+
+  "intellectual_property_title": "Proprietà Intellettuale",
+  "intellectual_property_description": "Accetti che tutti i diritti di proprietà intellettuale sui nostri servizi e sul materiale e contenuti ad essi associati appartengano a BlockBoost. Non hai il diritto di riprodurre, distribuire o modificare alcun materiale.",
+
+  "changes_to_services_title": "Modifiche ai Servizi",
+  "changes_to_services_description": "Ci riserviamo il diritto di modificare i nostri servizi in qualsiasi momento, inclusa l'aggiunta, la rimozione o la modifica delle funzionalità.",
+
+  "account_security_title": "Sicurezza dell'Account",
+  "account_security_description": "Accetti di essere responsabile della sicurezza del tuo account, incluso mantenere sicura la tua password e notificare immediatamente eventuali usi non autorizzati.",
+
+  "disclaimer_of_warranty_title": "Esclusione di Garanzia",
+  "disclaimer_of_warranty_description": "I nostri servizi vengono forniti 'così come sono' e 'nella misura disponibile', e BlockBoost non fornisce alcuna garanzia o condizione, sia esplicita che implicita.",
+
+  "severability_title": "Separabilità",
+  "severability_description": "Se una qualsiasi disposizione di questi termini è ritenuta illegale, invalida o inapplicabile, tale disposizione sarà separata e le restanti disposizioni rimarranno in pieno vigore.",
+
+  "waiver_title": "Rinuncia",
+  "waiver_description": "La rinuncia all'applicazione di una disposizione di questi termini non sarà considerata una rinuncia ad alcuna altra disposizione.",
+
+  "entire_agreement_title": "Intero Accordo",
+  "entire_agreement_description": "Questi termini costituiscono l'intero accordo tra te e BlockBoost riguardo all'uso di questi servizi e annullano qualsiasi accordo o discussione precedente.",
+
+  "contact_information_title": "Informazioni di Contatto",
+  "contact_information_description": "Se hai domande o preoccupazioni riguardo a questi termini, ti preghiamo di contattarci all'indirizzo inq@BlockBoost.io.",
+
+  "prohibited_use_title": "Uso Proibito",
+  "prohibited_use_description": "Non puoi utilizzare il nostro sito o app o i servizi, inclusa l'introduzione di virus o altro software dannoso.",
+
+  "governing_law_title": "Legge Applicabile",
+  "governing_law_description": "Questi termini saranno regolati e interpretati secondo le leggi dello Stato della California, USA, senza tener conto dei principi di conflitto di leggi.",
+
+  "termination_title": "Terminazione",
+  "termination_description": "Ci riserviamo il diritto di terminare l'uso dei servizi o sospendere il tuo account senza preavviso, per qualsiasi motivo."
 }

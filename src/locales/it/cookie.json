@@ -1,16 +1,62 @@
 {
-  "cookie_policy_title": "Politica sui Cookie",
-  "cookie_policy_description": "Ai fini della presente Politica sui Cookie, \"noi\", \"nostro\" e \"ci\" indicano \"Rexas\". Questa Politica sui Cookie si applica ai seguenti \"Servizi\": rexas.com e qualsiasi altro sito web, applicazione, prodotto, forum o servizio che forniamo tramite l'applicazione o il sito web, o qualsiasi altro sito web dedicato che potremmo fornire di tanto in tanto.\n\nPuoi modificare le tue preferenze sui cookie o revocare il consenso in qualsiasi momento tramite le Impostazioni sulla Privacy.",
+  "cookie_policy_title": "Politica sui cookie",
+  "cookie_policy_description": "Ai fini della presente Politica sui cookie, “noi”, “ci” e “nostro” si riferiscono a \"BlockBoost\". Questa Politica sui cookie si applica ai seguenti “Servizi”: BlockBoost.com e a qualsiasi altro sito web, app, prodotto, forum e servizio dedicati che offriamo tramite l'app o il sito Web o altri siti web dedicati che potremmo offrire di volta in volta, o forniti in altro modo da noi. Puoi modificare le tue preferenze sui cookie o ritirare il consenso in qualsiasi momento utilizzando le Impostazioni sulla privacy.",
 
-  "what_is_cookie_title": "1. Cosa sono i cookie?",
-  "what_is_cookie_description": "I cookie sono file di testo contenenti piccole quantità di informazioni che vengono posizionati sul tuo dispositivo quando visiti un sito web. Sono ampiamente utilizzati per consentire il funzionamento dei siti web o per renderli più efficienti, nonché per fornire informazioni ai proprietari del sito per migliorare l'esperienza dell'utente, ad esempio ricordando le tue preferenze o mostrandoti contenuti e annunci personalizzati.\n\nLe funzioni solitamente svolte da un cookie possono essere realizzate anche da altre tecnologie simili, come file di log, tag pixel, web beacon, GIF trasparenti e ID dispositivo. In questa Politica sui Cookie, ci riferiamo collettivamente a questi come \"Cookie\".",
+  "what_is_cookie_title": "1. Che cos'è un cookie?",
+  "what_is_cookie_description": "I cookie sono file di testo che contengono piccole quantità di informazioni che vengono posizionate sul tuo dispositivo quando visiti un sito web. Vengono ampiamente utilizzati per far funzionare i siti web, o per farli funzionare in modo più efficiente, nonché per fornire informazioni ai proprietari del sito web per migliorare generalmente l'esperienza dell'utente, ad esempio, ricordando le tue preferenze o offrendoti contenuti e pubblicità personalizzati. Le funzioni normalmente svolte da un cookie possono essere raggiunte anche da altre tecnologie simili, come file di registro, tag pixel, beacon web, GIF trasparenti e ID dispositivo. In questa Politica sui cookie, ci riferiremo a loro collettivamente come “Cookie”.",
 
   "how_we_use_cookie_title": "2. Come utilizziamo i cookie?",
-  "how_we_use_cookie_description": "Possiamo utilizzare i cookie per:\n- Verificare le informazioni di accesso e consentire agli utenti di trovare amici che utilizzano il Servizio;\n- Tracciare il traffico e i modelli di viaggio relativi al Servizio;\n- Capire costantemente il numero totale di utenti di un Servizio e i tipi di dispositivi;\n- Monitorare le prestazioni di un Servizio per migliorarlo continuamente;\n- Personalizzare e migliorare la tua esperienza online;\n- Fornirti assistenza clienti;\n- E fornire pubblicità di terze parti nei nostri servizi.",
+  "how_we_use_cookie_description": "Possiamo utilizzare i cookie per:",
+  "how_we_use_cookie_items": [
+    "Verificare le informazioni di accesso e consentire agli utenti di trovare amici che utilizzano un servizio.",
+    "Tracciare il flusso del traffico e i modelli di viaggio in relazione a un servizio.",
+    "Comprendere il numero totale di utenti di un servizio su base continuativa e i tipi di dispositivi.",
+    "Monitorare le prestazioni di un servizio per migliorarlo continuamente.",
+    "Personalizzare e migliorare la tua esperienza online.",
+    "Fornire assistenza clienti a te.",
+    "Mostrare annunci di terzi all'interno dei nostri servizi."
+  ],
 
   "types_of_cookie_title": "3. Quali tipi di cookie utilizziamo?",
-  "types_of_cookie_description": "I tipi di cookie utilizzati da noi e dai nostri partner nell'ambito di un Servizio possono essere classificati nelle seguenti categorie: \"Cookie necessari\", \"Cookie di funzionalità\", \"Cookie analitici\" e \"Cookie pubblicitari e di tracciamento\". Abbiamo fornito ulteriori informazioni su ciascuna categoria, sullo scopo e sulla durata dei cookie che noi o terze parti abbiamo impostato. Puoi disabilitare i cookie in qualsiasi momento tramite le impostazioni sulla privacy, ma ciò potrebbe influire sulla funzionalità del Servizio.\n- Cookie necessari: Abilitano funzionalità di base come la sicurezza, la gestione della rete e l'accessibilità.\n- Cookie di funzionalità: Registrano le scelte che hai fatto e ci permettono di personalizzare un Servizio per te.\n- Cookie analitici: Analizzano come viene utilizzato o funziona il nostro Servizio per offrirti una migliore esperienza utente e per mantenere, operare e migliorare continuamente il Servizio.\n- Cookie pubblicitari e di tracciamento: Questi possono essere impostati dai nostri partner pubblicitari attraverso i nostri servizi per mostrarti annunci pertinenti su altri siti web.",
+  "types_of_cookie_description": "I tipi di cookie utilizzati da noi e dai nostri partner in relazione a un servizio possono essere classificati in queste categorie: 'Cookie necessari', 'Cookie funzionali', 'Cookie analitici' e 'Cookie pubblicitari e di tracciamento'. Abbiamo fornito ulteriori informazioni su ciascuna categoria, scopo e durata dei cookie che impostiamo noi e le terze parti. Puoi disabilitare i cookie in qualsiasi momento utilizzando le Impostazioni sulla privacy, ma ciò potrebbe influire su come funziona il servizio.",
+  "types_of_cookie_items": [
+    {
+      "title": "Cookie necessari",
+      "description": "Abilitano le funzionalità di base come la sicurezza, la gestione della rete e l'accessibilità."
+    },
+    {
+      "title": "Cookie funzionali",
+      "description": "Registrano informazioni sulle scelte che hai effettuato e ci consentono di personalizzare un servizio per te."
+    },
+    {
+      "title": "Cookie analitici",
+      "description": "Analizzano come il nostro servizio viene accesso, utilizzato o performato per fornirti un'esperienza utente migliore e per mantenere, gestire e migliorare continuamente un servizio."
+    },
+    {
+      "title": "Cookie pubblicitari e di tracciamento",
+      "description": "Possono essere impostati tramite i nostri servizi dai nostri partner pubblicitari per mostrarti annunci pertinenti su altri siti."
+    }
+  ],
 
   "control_or_delete_cookie_title": "4. Come controllare o eliminare i cookie",
-  "control_or_delete_cookie_description": "Hai le seguenti opzioni su come utilizziamo le tue informazioni:\nHai il diritto di controllare l'uso dei cookie e di altre tecnologie simili da parte nostra in qualsiasi momento utilizzando le Impostazioni sulla Privacy o regolando le impostazioni nell'applicazione. Tuttavia, ti preghiamo di notare che, se scegli di rifiutare i cookie, potresti non essere in grado di utilizzare tutte le funzionalità dei Servizi.\nInoltre, la maggior parte dei browser consente di modificare le preferenze sui cookie tramite le loro impostazioni. Queste impostazioni si trovano generalmente nel menu \"opzioni\" o \"preferenze\". I seguenti collegamenti potrebbero essere utili per comprendere queste impostazioni:\n- Impostazioni cookie in Chrome\n- Impostazioni cookie in Safari\n- Impostazioni cookie in Firefox\n- Impostazioni cookie in Internet Explorer\nPer rinunciare al tracciamento tramite Google Analytics su tutti i siti web, visita il seguente link:\n- Disattivazione di Google Analytics"
+  "control_or_delete_cookie_description": "Hai il diritto di controllare il nostro utilizzo dei cookie e di altre tecnologie simili in qualsiasi momento utilizzando le Impostazioni sulla privacy o regolando le impostazioni nell'app. Tuttavia, si prega di notare che se si sceglie di rifiutare i cookie, potrebbe non essere possibile utilizzare la piena funzionalità dei servizi. Oltre a quanto sopra, la maggior parte dei browser consente di modificare le proprie preferenze per i cookie tramite le loro impostazioni. Queste impostazioni si trovano tipicamente nel menu \"opzioni\" o \"preferenze\". Per comprendere queste impostazioni, i seguenti collegamenti potrebbero essere utili:",
+  "control_or_delete_cookie_links": [
+    "Impostazione dei cookie in Chrome",
+    "Impostazione dei cookie in Safari",
+    "Impostazione dei cookie in Firefox",
+    "Impostazione dei cookie in Internet Explorer",
+    "Opt-Out di Google Analytics"
+  ],
+
+  "changes_to_cookie_policy_title": "5. Modifiche a questa Politica sui cookie",
+  "changes_to_cookie_policy_description": "Aggiorneremo questa Politica sui cookie per riflettere le modifiche alle nostre pratiche e servizi. Quando pubblichiamo modifiche a questa Politica sui cookie, modificheremo la data \"Ultimo aggiornamento\" in cima a questa Politica sui cookie.",
+
+  "need_more_info_title": "6. Hai bisogno di ulteriori informazioni?",
+  "need_more_info_description": "Se desideri scoprire di più sui cookie e sul loro utilizzo su Internet, puoi trovare ulteriori informazioni utili su AboutCookies, All About Cookies e Your Online Choices.",
+
+  "cookies_set_in_the_past_title": "7. Cookie impostati in passato",
+  "cookies_set_in_the_past_description": "Se hai disabilitato uno o più cookie, potremmo comunque utilizzare le informazioni raccolte dai cookie prima che la tua preferenza disabilitata fosse impostata, tuttavia smetteremo di utilizzare il cookie disabilitato per raccogliere ulteriori informazioni.",
+
+  "contact_us_title": "8. Contattaci",
+  "contact_us_description": "Se desideri contattarci riguardo a questa Politica sui cookie e all'uso dei cookie nei servizi, ti preghiamo di contattarci sui nostri canali social o inviarci un'email a: inq@BlockBoost.io."
 }

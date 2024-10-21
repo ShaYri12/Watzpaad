@@ -1,16 +1,62 @@
 {
   "cookie_policy_title": "Cookie 政策",
-  "cookie_policy_description": "根据本 Cookie 政策，\"我们\"、\"我们的\"指的是 \"Rexas\"。本 Cookie 政策适用于以下 \"服务\": rexas.com 以及我们通过应用程序或网站提供的其他专用网站、应用程序、产品、论坛和服务，或我们不时提供的其他专用网站或服务。\n\n您可以随时通过隐私设置更改您的 Cookie 偏好或撤回同意。",
+  "cookie_policy_description": "在本 Cookie 政策中，“我们”、“我们的”指的是 \"BlockBoost\"。本 Cookie 政策适用于以下“服务”：BlockBoost.com 以及我们通过应用程序或网站或其他专门网站不时提供的其他网站、应用程序、产品、论坛和服务。您可以随时通过隐私设置更改您的 Cookie 偏好或撤回同意。",
 
-  "what_is_cookie_title": "1. 什么是 cookie？",
-  "what_is_cookie_description": "Cookies 是包含少量信息的文本文件，当您访问网站时，这些信息会存储在您的设备上。它们广泛用于使网站工作或更高效地工作，同时向网站所有者提供信息，以改进用户体验，例如记住您的偏好或向您提供个性化内容和广告。\n\nCookie 通常执行的功能还可以通过其他类似技术实现，例如日志文件、像素标签、Web 信标、透明 GIF 和设备 ID。在本 Cookie 政策中，我们将统称这些为 \"Cookies\"。",
+  "what_is_cookie_title": "1. 什么是 Cookie？",
+  "what_is_cookie_description": "Cookie 是包含少量信息的文本文件，当您访问网站时，它们会放置到您的设备上。它们广泛用于使网站正常运行或提高网站的工作效率，同时为网站所有者提供信息，从而一般改善用户体验，例如记住您的偏好，或为您提供个性化的内容和广告。通过其他类似技术（如日志文件、像素标签、网络信标、清晰的 GIF 和设备 ID）也可以实现通常由 Cookie 执行的功能。在本 Cookie 政策中，我们将统称它们为 “Cookies”。",
 
   "how_we_use_cookie_title": "2. 我们如何使用 Cookies？",
-  "how_we_use_cookie_description": "我们可能会使用 Cookies 来：\n- 验证登录信息并允许用户查找使用服务的朋友；\n- 跟踪与服务相关的流量和旅行模式；\n- 持续了解服务的用户总数和设备类型；\n- 监控服务的性能以不断改进；\n- 定制和增强您的在线体验；\n- 向您提供客户服务；\n- 以及在我们的服务中提供第三方广告。",
+  "how_we_use_cookie_description": "我们可能使用 Cookies 来：",
+  "how_we_use_cookie_items": [
+    "验证登录信息并允许用户找到使用服务的朋友。",
+    "跟踪服务相关的流量流动和旅行模式。",
+    "持续了解服务的总用户数和设备类型。",
+    "监控服务的性能以不断改进。",
+    "定制并增强您的在线体验。",
+    "为您提供客户服务。",
+    "在我们的服务中提供第三方广告。"
+  ],
 
-  "types_of_cookie_title": "3. 我们使用的 cookie 类型是什么？",
-  "types_of_cookie_description": "我们及其合作伙伴在服务中使用的 Cookie 类型可分为以下类别：\"必要 Cookies\"、\"功能 Cookies\"、\"分析 Cookies\" 和 \"广告及跟踪 Cookies\"。我们在下面提供了有关每个类别、目的和持续时间的进一步信息。您可以随时通过隐私设置禁用 Cookies，但这可能会影响服务的功能。\n- 必要 Cookies：启用核心功能，如安全性、网络管理和可访问性。\n- 功能 Cookies：记录您做出的选择，并允许我们根据您的需求调整服务。\n- 分析 Cookies：分析我们服务的访问、使用或表现，以提供更好的用户体验，并维护、运营和持续改进服务。\n- 广告和跟踪 Cookies：可能由我们的广告合作伙伴通过我们的服务设置，以在其他网站上向您显示相关广告。",
+  "types_of_cookie_title": "3. 我们使用哪些类型的 Cookie？",
+  "types_of_cookie_description": "我们和我们的合作伙伴在与服务相关的过程中使用的 Cookie 类型可以分为以下几类：'必要 Cookie'、'功能性 Cookie'、'分析 Cookie' 和 '广告及跟踪 Cookie'。我们在下文中进一步列出有关每个类别、用途和持续时间的更多信息，您可以随时使用隐私设置禁用 Cookies，但这可能会影响服务的功能。",
+  "types_of_cookie_items": [
+    {
+      "title": "必要 Cookie",
+      "description": "启用核心功能，如安全性、网络管理和可访问性。"
+    },
+    {
+      "title": "功能性 Cookie",
+      "description": "记录您做出的选择信息，并允许我们为您量身定制服务。"
+    },
+    {
+      "title": "分析 Cookie",
+      "description": "分析我们服务的访问、使用或性能，以便为您提供更好的用户体验，并维持、运营和不断改进服务。"
+    },
+    {
+      "title": "广告及跟踪 Cookie",
+      "description": "可能通过我们的服务由广告合作伙伴设置，以便在其他网站上向您展示相关广告。"
+    }
+  ],
 
   "control_or_delete_cookie_title": "4. 如何控制或删除 Cookies",
-  "control_or_delete_cookie_description": "您可以通过以下方式控制我们如何使用您的信息：\n您有权随时通过隐私设置或调整应用程序设置控制我们对 Cookies 和其他类似技术的使用。但是，请注意，如果您拒绝 Cookies，您可能无法使用服务的全部功能。\n此外，大多数浏览器允许您通过其设置更改对 Cookies 的偏好。您通常可以在 \"选项\" 或 \"偏好\" 菜单中找到这些设置。以下链接可能对您理解这些设置有帮助：\n- Chrome 中的 Cookie 设置\n- Safari 中的 Cookie 设置\n- Firefox 中的 Cookie 设置\n- Internet Explorer 中的 Cookie 设置\n要选择退出 Google Analytics 的跨站点跟踪，请访问以下链接：\n- Google Analytics 退出"
+  "control_or_delete_cookie_description": "您有权随时通过使用隐私设置或调整应用内设置控制我们使用 Cookies 和其他类似技术。但是，请注意，如果您选择拒绝 Cookies，您可能无法使用服务的全部功能。除此之外，大多数浏览器允许您通过其设置更改 Cookie 偏好。通常，这些设置位于“选项”或“偏好”菜单中。为了解这些设置，以下链接可能会对您有所帮助：",
+  "control_or_delete_cookie_links": [
+    "Chrome 中的 Cookie 设置",
+    "Safari 中的 Cookie 设置",
+    "Firefox 中的 Cookie 设置",
+    "Internet Explorer 中的 Cookie 设置",
+    "Google Analytics 退出选项"
+  ],
+
+  "changes_to_cookie_policy_title": "5. Cookie 政策的变更",
+  "changes_to_cookie_policy_description": "我们将更新此 Cookie 政策，以反映我们的实践和服务的变化。当我们发布此 Cookie 政策的变更时，我们将修订 Cookie 政策顶部的“上次更新”日期。",
+
+  "need_more_info_title": "6. 需要更多信息？",
+  "need_more_info_description": "如果您想了解更多关于 Cookie 及其在互联网中的使用信息，您可以在 AboutCookies、All About Cookies 和 Your Online Choices 上找到进一步的有用信息。",
+
+  "cookies_set_in_the_past_title": "7. 过去设置的 Cookies",
+  "cookies_set_in_the_past_description": "如果您已禁用一个或多个 Cookies，我们仍可能使用在您禁用 Cookie 偏好设置之前从 Cookies 收集的信息，但我们将停止使用禁用的 Cookie 来收集任何进一步的信息。",
+
+  "contact_us_title": "8. 联系我们",
+  "contact_us_description": "如果您希望就本 Cookie 政策和服务中使用 Cookie 事宜与我们联系，请通过我们的社交渠道或发送电子邮件至：inq@BlockBoost.io 与我们联系。"
 }

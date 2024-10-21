@@ -1,13 +1,78 @@
 {
-  "terms_and_conditions_title": "Allgemeine Geschäftsbedingungen",
-  "terms_and_conditions_description": "Sie sollten diese Bedingungen lesen, da sie unsere rechtlichen Verpflichtungen Ihnen gegenüber sowie eine Reihe von Dingen, die Sie tun und nicht tun sollten, enthalten, wenn Sie unsere Dienste nutzen. Bitte lesen Sie diese Bedingungen sorgfältig durch, um sicherzustellen, dass Sie sie verstehen. Durch die Nutzung unserer Dienste erklären Sie sich automatisch damit einverstanden und sind rechtlich an diese Bedingungen gebunden. Zur Vermeidung von Missverständnissen: Wenn Sie mit den Bedingungen nicht einverstanden sind, sollten Sie unsere Dienste nicht weiter nutzen.\n\nSie sollten auch unsere Datenschutzerklärung lesen. Die Datenschutzerklärung erklärt, wie wir Ihre persönlichen Daten verwenden. Wenn Sie der Meinung sind, dass in diesen Bedingungen ein Fehler vorliegt oder Sie Fragen haben, kontaktieren Sie uns bitte. Wenn wir Sie kontaktieren müssen, tun wir dies schriftlich an die E-Mail-Adresse, die Sie uns angegeben haben. Es ist daher sehr wichtig, dass Sie bestätigen, dass Sie eine legitime E-Mail-Adresse angegeben haben, die Sie persönlich nutzen, und durch die weitere Nutzung unserer Dienste garantieren Sie, dass Sie dies getan haben. Wir werden Sie nur kontaktieren, wenn Sie ausdrücklich zugestimmt haben, von uns kontaktiert zu werden. Die einzige andere Zeit, in der Sie E-Mails erhalten, ist, wenn Sie sich für unseren Newsletter und Updates angemeldet haben.\n\nWenn wir in diesen Bedingungen 'schriftlich' oder 'geschrieben' verwenden, schließt dies E-Mails ein.",
+  "terms_and_conditions_title": "이용 약관",
+  "terms_and_conditions_description": "이 약관을 주의 깊게 읽어주세요. 이 약관에는 귀하에 대한 우리의 법적 의무와 서비스 사용 시 귀하가 해야 할 일과 하지 말아야 할 일이 포함되어 있습니다. 이 약관을 신중히 읽고 이해했는지 확인하십시오. 우리의 서비스를 이용함으로써 귀하는 이 약관에 자동으로 동의하고 법적 구속력을 받는 것으로 간주됩니다. 명확히 하기 위해, 이 약관에 동의하지 않으면 우리의 서비스를 이용하거나 접근할 수 없습니다. \n\n우리의 개인정보 처리방침도 읽어보셔야 합니다. 개인정보 처리방침에는 우리가 귀하의 개인 데이터를 어떻게 사용하는지 설명되어 있습니다. 이 약관에 오류가 있거나 질문이 있는 경우 저희에게 연락해 주십시오. 우리가 귀하에게 연락해야 할 경우, 귀하가 제공한 이메일 주소로 발송합니다. 따라서 개인적으로 이용할 유효한 이메일 주소를 제공했는지 확인하는 것이 매우 중요합니다. 서비스를 지속적으로 이용함으로써 이를 확인해 주십시오. 우리는 귀하가 명시적으로 허가한 경우에만 연락을 드립니다. 추가 이메일은 오직 우리 뉴스레터나 업데이트에 가입했을 때만 받을 수 있습니다. 이 약관에서 '서면' 또는 '작성된'이라는 단어를 사용할 때, 우리는 이메일을 포함합니다.",
 
-  "buying_coins_title": "Nutzung unseres Dienstes / Kauf von Coins",
-  "buying_coins_description": "Um unseren Dienst nutzen zu können, benötigen Sie ein virtuelles Wallet. Wir weisen darauf hin, dass Wallets Drittanbieterdienste sind, und empfehlen Ihnen, deren Nutzungsbedingungen zu lesen.",
+  "changes_to_terms_title": "이용 약관의 변경",
+  "changes_to_terms_description": "우리는 이 약관을 수시로 업데이트 및 수정할 수 있습니다. 약관의 최신 버전은 관련 웹사이트 및 앱에 게시됩니다. 서비스를 계속 이용하기 위해서는 변경된 약관을 재확인하고 동의해야 할 수 있습니다. 정기적으로 웹사이트와 앱을 확인하여 변경 사항이 있는지 확인하는 것이 좋습니다. 향후 참조를 위해 이 약관의 사본을 인쇄하고 저장할 수 있습니다. 또한, 서비스 이용을 위해 소프트웨어 업데이트가 필요할 수 있지만, 이는 이전에 제공된 설명에 따라 서비스가 지속되는 경우에만 해당됩니다. 관련 소프트웨어는 운영 체제의 변경을 반영하기 위해 업데이트될 수 있습니다. 서비스를 계속 이용함으로써 이 약관의 수시 변경을 수용한 것으로 간주됩니다.",
 
-  "security_title": "Sicherheit",
-  "security_description": "Sicherheit ist Rexas wichtig, und daher erklären Sie sich damit einverstanden, Ihren Wallet-Zugang nicht mit einem anderen Nutzer oder Drittanbieter zu teilen oder wissentlich eine Handlung vorzunehmen, die es einem Dritten ermöglicht, auf Ihr Konto zuzugreifen oder es zu nutzen. Sollten wir nach eigenem Ermessen der Meinung sein, dass Ihr Konto unangemessen genutzt wird, behalten wir uns das Recht vor, Ihr Konto ohne Haftung zu sperren, zu kündigen oder nicht weiter zu unterstützen.\n\nWir können die Identitäten der Personen, die unsere Dienste nutzen, nicht überprüfen und übernehmen keine Haftung, wenn jemand anderes Ihre Wallet-Verbindung oder Ihr Konto nutzt. Wenn Sie eine unautorisierte Nutzung Ihres Logins bemerken, sollten Sie uns sofort unter admin@rexas.com benachrichtigen und 'Sicherheitsverletzung' als Betreffzeile verwenden. Bitte beachten Sie, dass wir möglicherweise Ihre Identität überprüfen und den Besitz des Kontos validieren müssen. Seien Sie vorsichtig bei anderen Websites und Diensten, die vorgeben, wir zu sein oder mit uns in Verbindung zu stehen.",
+  "buying_coins_title": "서비스 이용 / 코인 구매",
+  "buying_coins_description": "서비스를 이용하려면 가상 지갑을 보유해야 합니다. 지갑은 제3자 서비스임을 알려드리며, 이용 약관을 읽어보시기 바랍니다.",
 
-  "removing_data_title": "Daten entfernen",
-  "removing_data_description": "Wenn Sie möchten, dass wir alle Daten, die wir über Sie haben, löschen, kontaktieren Sie uns bitte per E-Mail an admin@rexas.com. Auch wenn wir bei der Anmeldung zur Nutzung unseres Dienstes keine persönlichen oder identifizierbaren Informationen benötigen, können wir dennoch Ihre Daten speichern, wenn Sie uns eine E-Mail-Adresse mitgeteilt oder uns die Erlaubnis erteilt haben, Sie zu kontaktieren. Wenn Sie möchten, dass Ihre Daten gelöscht werden, müssen Sie dies in Ihrer E-Mail angeben. Wenn Sie keine Löschung verlangen, werden wir diese Informationen gemäß unserer Datenschutzrichtlinie aufbewahren."
+  "security_title": "보안",
+  "security_description": "보안은 BlockBoost에 중요하므로 지갑에 대한 접근을 공유하지 않으며, 다른 사용자나 제3자가 귀하의 계정에 접근하거나 사용하는 것을 의도적으로 조장하는 행동을 하지 않을 것에 동의합니다. 우리는 귀하의 계정이 부적절하게 사용되고 있다고 판단할 경우, 독자적인 재량으로 계정을 일시 정지하거나 폐쇄할 권리를 보유합니다.\n\n우리는 우리의 서비스를 이용하는 사람들의 신원을 확인할 수 없으며, 귀하의 지갑이나 계정이 다른 사람에 의해 사용된 경우에는 책임을 지지 않습니다. 귀하의 ID가 무단으로 사용되었다고 느끼는 경우, 즉시 inq@BlockBoost.io로 연락해 주십시오. 이때 제목에 '보안 위반'이라고 명기해 주십시오. 신원 확인이나 계정 소유권을 검증할 필요가 있을 수 있습니다. 사이트나 서비스 사용과 관련하여 사람들 및 다른 웹사이트에 주의하고 경계를 소홀히 하지 마십시오.",
+
+  "removing_data_title": "데이터 삭제",
+  "removing_data_description": "저희가 보유하고 있는 귀하에 대한 데이터를 삭제하고 싶다면 inq@BlockBoost.io로 이메일로 연락해 주십시오. 하지만 우리는 서비스를 이용할 때 개인 정보나 식별 정보를 수집할 필요는 없으며, 귀하가 이메일 주소를 제공했거나 저희에게 연락하는 것을 허가한 경우에도 일부 세부 정보를 보유할 수 있습니다. 데이터 삭제를 요청하는 경우 이메일에 명확히 그 내용을 기재해 주십시오. 삭제를 요청하지 않는 한, 우리는 개인정보 처리방침에 따라 해당 정보를 보유합니다.",
+
+  "rules_of_use_title": "이용 규칙",
+  "rules_of_use_description": "귀하는 다음 규칙을 준수하고 따를 것에 동의합니다:",
+  "rules_of_use_list": [
+    "다른 사람에 대한 개인 공격을 하지 않기.",
+    "다른 사용자를 괴롭히거나 위협하거나 스토킹하지 않기.",
+    "음란하거나 외설적이거나 성적으로 노골적인 언어 및 이미지를 공개하지 않기.",
+    "불법 행위를 촉진하거나 그 실행을 의도하여 논의하지 않기.",
+    "제3자의 지적 재산권이나 개인정보권을 침해하지 않기.",
+    "바이러스나 기타 유해한 요소를 유입하지 않기.",
+    "다른 사람의 신원을 사용하거나 자신의 신원을 가장하지 않기.",
+    "스팸, 트롤링 또는 기타 반사회적 행동을 하지 않기.",
+    "다른 사람이나 제3자에게 무단으로 수익을 생성하거나 촉진하지 않기."
+  ],
+
+  "violation_of_rules_title": "규칙 위반",
+  "violation_of_rules_description": "다른 사용자가 이 규칙을 위반하고 있다고 생각되면, inq@BlockBoost.io로 이메일로 알려 주십시오. 다른 사용자가 이러한 규칙을 준수하도록 보장할 수 없으며, 다른 사용자의 위반에 대해 우리는 책임을 지지 않습니다. 귀하의 행동에 대한 책임은 귀하에게 있으며, 다른 사용자도 마찬가지입니다.",
+
+  "service_interruption_title": "서비스 중단",
+  "service_interruption_description": "BlockBoost는 서비스가 항상 이용 가능하고, 지속적이며, 적시적이고, 안전하거나 버그나 바이러스가 없음을 보장하지 않습니다. 기술적 문제나 유지 보수로 인해 서비스 이용 불가능한 상황이 발생할 수 있습니다. 또한, 사전 통보 없이 특정 서비스를 변경, 중지 또는 중단할 권리를 보유합니다. 우리는 우리의 서비스에 바이러스나 기타 악성 소프트웨어가 없도록 최선을 다하지만, 필요 시 적절한 바이러스 방지 소프트웨어를 사용하는 것을 권장합니다.",
+
+  "prohibited_person_title": "금지된 인물",
+  "prohibited_person_description": "\"금지된 인물\"은 미국, 유엔, 유럽연합 또는 기타 권한에 의해 특정 제한을 받는 자연인 또는 법인을 의미합니다. 우리는 금지된 인물과 거래하지 않습니다.",
+
+  "third_parties_title": "제3자",
+  "third_parties_description": "일부 페이지에는 제3자의 웹사이트나 서비스로 연결되는 링크가 포함되어 있을 수 있습니다. 이러한 링크는 편의상 제공되며, BlockBoost는 제3자의 콘텐츠에 대해 책임을 지지 않습니다. 제3자의 웹사이트를 방문할 경우 독자적인 이용 약관이나 개인정보 처리방침을 확인하십시오. 우리는 제3자와의 거래로 인한 손실이나 피해에 대해 책임을 지지 않습니다.",
+
+  "limitation_of_liability_title": "책임의 한계",
+  "limitation_of_liability_description": "BlockBoost는 이 약관에 따라 어떠한 경우에도 계약, 과실 또는 기타 법 이론에 따라 특정, 우발적 또는 결과적인 손해에 대해 책임을 지지 않으며, 이익, 수익, 비즈니스 손실, 데이터 손실, 비용, 책임 및 경비(법적 비용 포함)에 대해서도 책임을 지지 않습니다. 이 약관의 위반, 서비스 사용 또는 서비스 사용에 관한 손해에 대해서도 책임을 지지 않습니다.",
+
+  "intellectual_property_title": "지적 재산",
+  "intellectual_property_description": "귀하는 우리의 서비스와 그에 관련된 모든 자료 및 콘텐츠에 대한 지적 재산권이 BlockBoost에 귀속된다는 데 동의합니다. 자료를 복제, 배포 또는 수정할 권리가 없습니다.",
+
+  "changes_to_services_title": "서비스 변경",
+  "changes_to_services_description": "우리는 기능 추가, 삭제 또는 변경을 포함하여 언제든지 서비스를 변경할 권리를 보유합니다.",
+
+  "account_security_title": "계정 보안",
+  "account_security_description": "귀하는 비밀번호를 안전하게 유지하고 무단으로 사용된 경우 즉시 알리는 책임이 있음을 동의합니다.",
+
+  "disclaimer_of_warranty_title": "보증 면책",
+  "disclaimer_of_warranty_description": "우리의 서비스는 \"있는 그대로\" 및 \"이용 가능한 범위 내\"로 제공되며, BlockBoost는 명시적 또는 묵시적인 보증이나 조건을 일절 제공하지 않습니다.",
+
+  "severability_title": "분리 가능성",
+  "severability_description": "이 약관의 어떤 조항이 불법, 무효 또는 시행 불가능하다고 간주되는 경우, 해당 조항은 분리되며 나머지 조항은 여전히 유효합니다.",
+
+  "waiver_title": "포기",
+  "waiver_description": "이 약관의 조항 적용 포기는 다른 조항의 포기로 간주되지 않습니다.",
+
+  "entire_agreement_title": "전체 합의",
+  "entire_agreement_description": "이 약관은 귀하와 BlockBoost 간의 서비스 사용에 관한 전체 합의를 구성하며, 이전의 합의나 논의를 무효화합니다.",
+
+  "contact_information_title": "연락처 정보",
+  "contact_information_description": "이 약관에 대한 질문이나 우려 사항이 있는 경우, inq@BlockBoost.io로 문의해 주십시오.",
+
+  "prohibited_use_title": "금지된 사용",
+  "prohibited_use_description": "바이러스나 기타 유해한 소프트웨어를 도입하는 등, 우리의 사이트나 앱 또는 서비스를 사용할 수 없습니다.",
+
+  "governing_law_title": "준거법",
+  "governing_law_description": "이 약관은 캘리포니아 주의 법률에 따라 규율되고 해석됩니다. 법의 충돌 원칙은 고려되지 않습니다.",
+
+  "termination_title": "종료",
+  "termination_description": "우리는 사전 통보 없이 언제든지 어떤 이유로든 서비스 이용을 종료하거나 계정을 일시 중지할 권리를 보유합니다."
 }

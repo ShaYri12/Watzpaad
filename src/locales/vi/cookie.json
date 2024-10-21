@@ -1,62 +1,62 @@
 {
-  "cookie_policy_title": "Cookie Policy",
-  "cookie_policy_description": "For the purposes of this Cookie Policy, “we”, “us” and “our” refer to \"BlockBoost\". This Cookie Policy applies to the following “Services”: BlockBoost.com and any other dedicated websites, apps, products, forums, and services we offer through the app or Website or other dedicated website which may be offered by us from time to time, or otherwise provided by us. You can change your Cookie preferences or withdraw consent at any time using the Privacy Settings.",
+  "cookie_policy_title": "Chính Sách Cookie",
+  "cookie_policy_description": "Trong Chính Sách Cookie này, 'chúng tôi', 'của chúng tôi' và 'chúng ta' đề cập đến \"BlockBoost\". Chính Sách Cookie này áp dụng cho các \"Dịch vụ\" sau đây: BlockBoost.com và bất kỳ trang web, ứng dụng, sản phẩm, diễn đàn, và dịch vụ nào khác mà chúng tôi cung cấp thông qua ứng dụng hoặc Trang web hoặc các trang web khác có thể được chúng tôi cung cấp theo thời gian, hoặc được cung cấp bởi chúng tôi. Bạn có thể thay đổi tùy chọn Cookie hoặc rút lại sự đồng ý của mình bất kỳ lúc nào bằng cách sử dụng Cài đặt Quyền Riêng Tư.",
 
-  "what_is_cookie_title": "1. What is a cookie?",
-  "what_is_cookie_description": "Cookies are text files containing small amounts of information which are placed onto your device when you visit a website. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the website as to generally improve the user experience, for example, by remembering your preferences, or by offering you personalized content and advertisements. Functions usually performed by a cookie can also be achieved by other similar technologies, such as log files, pixel tags, web beacons, clear GIFs, and device IDs. In this Cookie Policy, we will be referring to them collectively as “Cookies”.",
+  "what_is_cookie_title": "1. Cookie là gì?",
+  "what_is_cookie_description": "Cookies là các tệp văn bản chứa một lượng nhỏ thông tin được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho các trang web hoạt động hoặc hoạt động hiệu quả hơn, cũng như cung cấp thông tin cho chủ sở hữu trang web nhằm cải thiện trải nghiệm người dùng, ví dụ, bằng cách ghi nhớ các tùy chọn của bạn hoặc cung cấp cho bạn nội dung và quảng cáo được cá nhân hóa. Các chức năng thường được thực hiện bởi cookie cũng có thể đạt được thông qua các công nghệ tương tự khác, chẳng hạn như tệp nhật ký, thẻ pixel, web beacon, GIF trong suốt và ID thiết bị. Trong Chính Sách Cookie này, chúng tôi sẽ đề cập đến chúng chung là 'Cookie'.",
 
-  "how_we_use_cookie_title": "2. How do we use Cookies?",
-  "how_we_use_cookie_description": "We may use Cookies to:",
+  "how_we_use_cookie_title": "2. Chúng tôi sử dụng Cookie như thế nào?",
+  "how_we_use_cookie_description": "Chúng tôi có thể sử dụng Cookie để:",
   "how_we_use_cookie_items": [
-    "Verify log-in information and allow users to find friends who use a Service.",
-    "Track traffic flow and patterns of travel in connection with a Service.",
-    "Understand the total number of users of a Service on an ongoing basis and the types of devices.",
-    "Monitor the performance of a Service to continually improve it.",
-    "Customize and enhance your online experience.",
-    "Provide customer service to you.",
-    "Serve third parties’ adverts within our services."
+    "Xác minh thông tin đăng nhập và cho phép người dùng tìm bạn bè sử dụng Dịch vụ.",
+    "Theo dõi lưu lượng truy cập và các mô hình di chuyển liên quan đến Dịch vụ.",
+    "Hiểu tổng số người dùng của Dịch vụ trên cơ sở liên tục và các loại thiết bị.",
+    "Giám sát hiệu suất của Dịch vụ để không ngừng cải tiến nó.",
+    "Tùy chỉnh và nâng cao trải nghiệm trực tuyến của bạn.",
+    "Cung cấp dịch vụ khách hàng cho bạn.",
+    "Hiển thị quảng cáo của bên thứ ba trong các dịch vụ của chúng tôi."
   ],
 
-  "types_of_cookie_title": "3. What types of cookies do we use?",
-  "types_of_cookie_description": "The types of Cookies used by us and our partners in connection with a Service can be classified into these categories: 'Necessary Cookies', 'Functionality Cookies', 'Analytics Cookies', and 'Advertising and Tracking Cookies'. We have set out below some further information about each category, purpose, and duration of the Cookies we and third parties set. You may disable Cookies at any time by using the Privacy Settings, but this may affect how the Service functions.",
+  "types_of_cookie_title": "3. Chúng tôi sử dụng những loại cookie nào?",
+  "types_of_cookie_description": "Các loại Cookie mà chúng tôi và các đối tác của chúng tôi sử dụng liên quan đến Dịch vụ có thể được phân loại thành các danh mục sau: 'Cookie cần thiết', 'Cookie Chức năng', 'Cookie Phân tích', và 'Cookie Quảng cáo và Theo dõi'. Chúng tôi đã liệt kê thêm một số thông tin về từng danh mục, mục đích và thời gian của Cookie do chúng tôi và bên thứ ba thiết lập. Bạn có thể vô hiệu hóa Cookie bất cứ lúc nào bằng cách sử dụng Cài đặt Quyền Riêng Tư, nhưng điều này có thể ảnh hưởng đến cách Dịch vụ hoạt động.",
   "types_of_cookie_items": [
     {
-      "title": "Necessary Cookies",
-      "description": "Enable core functionality such as security, network management, and accessibility."
+      "title": "Cookie cần thiết",
+      "description": "Kích hoạt chức năng cốt lõi như bảo mật, quản lý mạng và khả năng truy cập."
     },
     {
-      "title": "Functionality Cookies",
-      "description": "Record information about choices you have made and allow us to tailor a Service to you."
+      "title": "Cookie Chức năng",
+      "description": "Ghi lại thông tin về các lựa chọn bạn đã thực hiện và cho phép chúng tôi điều chỉnh Dịch vụ theo ý bạn."
     },
     {
-      "title": "Analytics Cookies",
-      "description": "Analyse how our Service is accessed, used, or is performing in order to provide you with a better user experience and to maintain, operate, and continually improve a Service."
+      "title": "Cookie Phân tích",
+      "description": "Phân tích cách Dịch vụ của chúng tôi được truy cập, sử dụng hoặc đang hoạt động nhằm mang đến cho bạn trải nghiệm người dùng tốt hơn và duy trì, vận hành và liên tục cải thiện Dịch vụ."
     },
     {
-      "title": "Advertising and Tracking Cookies",
-      "description": "May be set through our Services by our advertising partners to show you relevant adverts on other sites."
+      "title": "Cookie Quảng cáo và Theo dõi",
+      "description": "Có thể được đặt thông qua Dịch vụ của chúng tôi bởi các đối tác quảng cáo của chúng tôi để hiển thị cho bạn các quảng cáo liên quan trên các trang web khác."
     }
   ],
 
-  "control_or_delete_cookie_title": "4. How to control or delete cookies",
-  "control_or_delete_cookie_description": "You have the right to control our use of cookies and other similar technologies at any time by using the Privacy Settings or adjusting the in-app settings. However, please note that if you choose to refuse Cookies, you may not be able to use the full functionality of the Services. In addition to the above, most browsers allow you to change your preferences for Cookies through their settings. These settings are typically found in the \"options\" or \"preferences\" menu. In order to understand these settings, the following links may be helpful:",
+  "control_or_delete_cookie_title": "4. Cách kiểm soát hoặc xóa cookie",
+  "control_or_delete_cookie_description": "Bạn có quyền kiểm soát việc chúng tôi sử dụng cookie và các công nghệ tương tự khác bất cứ lúc nào bằng cách sử dụng Cài đặt Quyền Riêng Tư hoặc điều chỉnh cài đặt trong ứng dụng. Tuy nhiên, xin lưu ý rằng nếu bạn chọn từ chối Cookie, bạn có thể không sử dụng được toàn bộ chức năng của Dịch vụ. Ngoài ra, hầu hết các trình duyệt cho phép bạn thay đổi tùy chọn Cookie thông qua cài đặt của chúng. Các cài đặt này thường nằm trong menu \"tùy chọn\" hoặc \"tùy chỉnh\". Để hiểu các cài đặt này, các liên kết sau đây có thể hữu ích:",
   "control_or_delete_cookie_links": [
-    "Cookie setting in Chrome",
-    "Cookie setting in Safari",
-    "Cookie setting in Firefox",
-    "Cookie setting in Internet Explorer",
+    "Cài đặt cookie trong Chrome",
+    "Cài đặt cookie trong Safari",
+    "Cài đặt cookie trong Firefox",
+    "Cài đặt cookie trong Internet Explorer",
     "Google Analytics Opt-Out"
   ],
 
-  "changes_to_cookie_policy_title": "5. Changes to this Cookie Policy",
-  "changes_to_cookie_policy_description": "We will update this Cookie Policy to reflect changes in our practices and services. When we post changes to this Cookie Policy, we will revise the \"Last Updated\" date at the top of this Cookie Policy.",
+  "changes_to_cookie_policy_title": "5. Thay đổi Chính Sách Cookie này",
+  "changes_to_cookie_policy_description": "Chúng tôi sẽ cập nhật Chính Sách Cookie này để phản ánh các thay đổi trong thực hành và dịch vụ của chúng tôi. Khi chúng tôi đăng tải các thay đổi đối với Chính Sách Cookie này, chúng tôi sẽ sửa đổi ngày 'Cập nhật lần cuối' ở đầu Chính Sách Cookie này.",
 
-  "need_more_info_title": "6. Need More Information?",
-  "need_more_info_description": "If you would like to find out more about cookies and their use on the Internet, you may find further useful information on AboutCookies, All About Cookies, and Your Online Choices.",
+  "need_more_info_title": "6. Cần thêm thông tin?",
+  "need_more_info_description": "Nếu bạn muốn tìm hiểu thêm về cookie và cách sử dụng của chúng trên Internet, bạn có thể tìm thêm thông tin hữu ích trên AboutCookies, All About Cookies, và Your Online Choices.",
 
-  "cookies_set_in_the_past_title": "7. Cookies that have been set in the past",
-  "cookies_set_in_the_past_description": "If you have disabled one or more Cookies, we may still use information collected from cookies prior to your disabled preference being set, however, we will stop using the disabled cookie to collect any further information.",
+  "cookies_set_in_the_past_title": "7. Cookie đã được thiết lập trước đây",
+  "cookies_set_in_the_past_description": "Nếu bạn đã tắt một hoặc nhiều Cookie, chúng tôi vẫn có thể sử dụng thông tin được thu thập từ cookie trước khi sở thích của bạn bị vô hiệu hóa, tuy nhiên, chúng tôi sẽ ngừng sử dụng cookie đã bị vô hiệu hóa để thu thập thêm bất kỳ thông tin nào.",
 
-  "contact_us_title": "8. Contact us",
-  "contact_us_description": "If you wish to contact us about this Cookies Policy and the use of cookies in the Services, please contact us at our social channel or email us at: inq@BlockBoost.io."
+  "contact_us_title": "8. Liên hệ với chúng tôi",
+  "contact_us_description": "Nếu bạn muốn liên hệ với chúng tôi về Chính Sách Cookie này và việc sử dụng cookie trong Dịch vụ, vui lòng liên hệ với chúng tôi qua kênh xã hội của chúng tôi hoặc gửi email cho chúng tôi tại: inq@BlockBoost.io."
 }

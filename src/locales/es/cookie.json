@@ -1,16 +1,62 @@
 {
   "cookie_policy_title": "Política de Cookies",
-  "cookie_policy_description": "A efectos de esta Política de Cookies, \"nosotros\", \"nos\" y \"nuestro\" se refieren a \"Rexas\". Esta Política de Cookies se aplica a los siguientes \"Servicios\": rexas.com y cualquier otro sitio web, aplicación, producto, foro o servicio dedicado que ofrezcamos a través de la aplicación o el sitio web, o cualquier otro sitio web dedicado que podamos ofrecer de vez en cuando, o que proporcionemos de otra manera.\n\nPuede cambiar sus preferencias de Cookies o retirar su consentimiento en cualquier momento utilizando la Configuración de Privacidad.",
+  "cookie_policy_description": "A los efectos de esta Política de Cookies, \"nosotros\", \"nos\" y \"nuestro\" se refieren a \"BlockBoost\". Esta Política de Cookies se aplica a los siguientes “Servicios”: BlockBoost.com y cualquier otro sitio web, aplicación, producto, foro y servicio dedicado que ofrecemos a través de la aplicación o el sitio web o cualquier otro sitio web dedicado que podamos ofrecer de vez en cuando, o que de otro modo proporcionemos. Puede cambiar sus preferencias de cookies o retirar su consentimiento en cualquier momento utilizando la Configuración de Privacidad.",
 
   "what_is_cookie_title": "1. ¿Qué es una cookie?",
-  "what_is_cookie_description": "Las cookies son archivos de texto que contienen pequeñas cantidades de información que se colocan en su dispositivo cuando visita un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio web para mejorar la experiencia del usuario, por ejemplo, recordando sus preferencias o mostrándole contenido y anuncios personalizados.\n\nLas funciones generalmente realizadas por una cookie también pueden lograrse mediante otras tecnologías similares, como archivos de registro, etiquetas de píxeles, balizas web, GIF transparentes e identificadores de dispositivos. En esta Política de Cookies, nos referiremos a ellas colectivamente como \"Cookies\".",
+  "what_is_cookie_description": "Las cookies son archivos de texto que contienen pequeñas cantidades de información que se colocan en su dispositivo cuando visita un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen, o funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio web para mejorar la experiencia del usuario, por ejemplo, recordando sus preferencias o ofreciéndole contenido y anuncios personalizados. Las funciones que normalmente realiza una cookie también pueden lograrse mediante otras tecnologías similares, como archivos de registro, etiquetas de píxel, balizas web, GIF claros e ID de dispositivos. En esta Política de Cookies, nos referiremos a ellas colectivamente como “Cookies”.",
 
-  "how_we_use_cookie_title": "2. ¿Cómo usamos las Cookies?",
-  "how_we_use_cookie_description": "Podemos usar Cookies para:\n- Verificar la información de inicio de sesión y permitir a los usuarios encontrar amigos que usen un Servicio;\n- Rastrear el flujo de tráfico y los patrones de viaje en relación con un Servicio;\n- Comprender el número total de usuarios de un Servicio de forma continua y los tipos de dispositivos;\n- Monitorear el rendimiento de un Servicio para mejorarlo continuamente;\n- Personalizar y mejorar su experiencia en línea;\n- Proporcionar servicio al cliente;\n- y Servir anuncios de terceros dentro de nuestros servicios.",
+  "how_we_use_cookie_title": "2. ¿Cómo utilizamos las Cookies?",
+  "how_we_use_cookie_description": "Podemos utilizar cookies para:",
+  "how_we_use_cookie_items": [
+    "Verificar la información de inicio de sesión y permitir que los usuarios encuentren amigos que usan un Servicio.",
+    "Rastrear el flujo de tráfico y los patrones de viaje en relación con un Servicio.",
+    "Entender el número total de usuarios de un Servicio de manera continua y los tipos de dispositivos.",
+    "Monitorear el rendimiento de un Servicio para mejorarlo continuamente.",
+    "Personalizar y mejorar su experiencia en línea.",
+    "Proporcionarle servicio al cliente.",
+    "Servir anuncios de terceros dentro de nuestros servicios."
+  ],
 
-  "types_of_cookie_title": "3. ¿Qué tipos de cookies usamos?",
-  "types_of_cookie_description": "Los tipos de Cookies utilizadas por nosotros y nuestros socios en relación con un Servicio pueden clasificarse en las siguientes categorías: 'Cookies Necesarias', 'Cookies de Funcionalidad', 'Cookies de Análisis' y 'Cookies de Publicidad y Seguimiento'. A continuación, proporcionamos información adicional sobre cada categoría, propósito y duración de las Cookies que nosotros y terceros establecemos. Puede desactivar las Cookies en cualquier momento utilizando la Configuración de Privacidad, pero esto puede afectar el funcionamiento del Servicio.\n- Cookies Necesarias: Habilitan funciones básicas como seguridad, gestión de red y accesibilidad.\n- Cookies de Funcionalidad: Registran información sobre las elecciones que ha hecho y nos permiten adaptar un Servicio a usted.\n- Cookies de Análisis: Analizan cómo se accede a nuestro Servicio, se utiliza o está funcionando para brindarle una mejor experiencia de usuario y para mantener, operar y mejorar continuamente un Servicio.\n- Cookies de Publicidad y Seguimiento: Pueden ser establecidas a través de nuestros Servicios por nuestros socios publicitarios para mostrarle anuncios relevantes en otros sitios.",
+  "types_of_cookie_title": "3. ¿Qué tipos de cookies utilizamos?",
+  "types_of_cookie_description": "Los tipos de cookies utilizadas por nosotros y nuestros socios en relación con un Servicio pueden clasificarse en las siguientes categorías: 'Cookies Necesarias', 'Cookies de Funcionalidad', 'Cookies de Análisis' y 'Cookies de Publicidad y Seguimiento'. A continuación, hemos proporcionado más información sobre cada categoría, propósito y duración de las cookies que establecemos nosotros y terceros. Puede desactivar las cookies en cualquier momento utilizando la Configuración de Privacidad, pero esto puede afectar cómo funciona el Servicio.",
+  "types_of_cookie_items": [
+    {
+      "title": "Cookies Necesarias",
+      "description": "Habilitar funciones básicas como seguridad, gestión de redes y accesibilidad."
+    },
+    {
+      "title": "Cookies de Funcionalidad",
+      "description": "Registrar información sobre las elecciones que ha realizado y permitirnos personalizar un Servicio para usted."
+    },
+    {
+      "title": "Cookies de Análisis",
+      "description": "Analizar cómo se accede, utiliza o se desempeña nuestro Servicio para proporcionarle una mejor experiencia de usuario y para mantener, operar y mejorar continuamente un Servicio."
+    },
+    {
+      "title": "Cookies de Publicidad y Seguimiento",
+      "description": "Pueden ser establecidas a través de nuestros Servicios por nuestros socios publicitarios para mostrarle anuncios relevantes en otros sitios."
+    }
+  ],
 
-  "control_or_delete_cookie_title": "4. ¿Cómo controlar o eliminar cookies?",
-  "control_or_delete_cookie_description": "Tiene las siguientes opciones sobre cómo utilizamos su información:\nTiene derecho a controlar nuestro uso de cookies y otras tecnologías similares en cualquier momento utilizando la Configuración de Privacidad o ajustando la configuración en la aplicación. Sin embargo, tenga en cuenta que si elige rechazar las Cookies, es posible que no pueda utilizar todas las funcionalidades de los Servicios.\nAdemás de lo anterior, la mayoría de los navegadores le permiten cambiar sus preferencias para las Cookies a través de sus configuraciones. Estas configuraciones generalmente se encuentran en el menú de \"opciones\" o \"preferencias\". Para comprender estas configuraciones, los siguientes enlaces pueden ser útiles:\n- Configuración de Cookies en Chrome\n- Configuración de Cookies en Safari\n- Configuración de Cookies en Firefox\n- Configuración de Cookies en Internet Explorer\nPara optar por no ser rastreado por Google Analytics en todos los sitios web, visite el siguiente enlace:\n- Inhabilitación de Google Analytics"
+  "control_or_delete_cookie_title": "4. Cómo controlar o eliminar cookies",
+  "control_or_delete_cookie_description": "Tiene el derecho de controlar nuestro uso de cookies y otras tecnologías similares en cualquier momento utilizando la Configuración de Privacidad o ajustando la configuración en la aplicación. Sin embargo, tenga en cuenta que si decide rechazar las cookies, es posible que no pueda utilizar todas las funcionalidades de los Servicios. Además de lo anterior, la mayoría de los navegadores le permiten cambiar sus preferencias de cookies a través de sus configuraciones. Estas configuraciones generalmente se encuentran en el menú \"opciones\" o \"preferencias\". Para entender estas configuraciones, los siguientes enlaces pueden ser útiles:",
+  "control_or_delete_cookie_links": [
+    "Configuración de cookies en Chrome",
+    "Configuración de cookies en Safari",
+    "Configuración de cookies en Firefox",
+    "Configuración de cookies en Internet Explorer",
+    "Optar por no participar en Google Analytics"
+  ],
+
+  "changes_to_cookie_policy_title": "5. Cambios a esta Política de Cookies",
+  "changes_to_cookie_policy_description": "Actualizaremos esta Política de Cookies para reflejar cambios en nuestras prácticas y servicios. Cuando publiquemos cambios a esta Política de Cookies, revisaremos la fecha de \"Última Actualización\" en la parte superior de esta Política de Cookies.",
+
+  "need_more_info_title": "6. ¿Necesita más información?",
+  "need_more_info_description": "Si desea obtener más información sobre las cookies y su uso en Internet, puede encontrar más información útil en AboutCookies, All About Cookies y Your Online Choices.",
+
+  "cookies_set_in_the_past_title": "7. Cookies que se han establecido en el pasado",
+  "cookies_set_in_the_past_description": "Si ha desactivado una o más cookies, es posible que aún utilicemos información recopilada de cookies antes de que se establecieran sus preferencias desactivadas, sin embargo, dejaremos de usar la cookie desactivada para recopilar más información.",
+
+  "contact_us_title": "8. Contáctenos",
+  "contact_us_description": "Si desea comunicarse con nosotros sobre esta Política de Cookies y el uso de cookies en los Servicios, comuníquese con nosotros a través de nuestro canal social o envíenos un correo electrónico a: inq@BlockBoost.io."
 }

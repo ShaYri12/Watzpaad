@@ -1,16 +1,92 @@
 {
-  "privacy_policy_title": "Politique de Confidentialité",
-  "privacy_policy_description": "Cette politique de confidentialité (\"Politique\") vous informe de vos choix et de nos pratiques en relation avec vos Informations (telles que définies ci-dessous). Aux fins de cette Politique, \"nous\", \"notre\" et \"nos\" font référence à \"Rexas\".",
+  "privacy_policy_title": "Politique de confidentialité",
+  "privacy_policy_description": "Cette politique de confidentialité (\"Politique\") vous informe de vos choix et de nos pratiques en matière d'information (comme défini ci-dessous). Aux fins de cette Politique, \"nous\", \"notre\" et \"nos\" se réfèrent à \"BlockBoost\".",
 
   "children_title": "Enfants",
-  "children_description": "Nos services ne sont pas disponibles pour les enfants et sont destinés aux personnes de plus de 18 ans, et 21 ans dans certaines juridictions. Veuillez vous référer aux lois de votre pays pour obtenir des conseils adaptés à l'âge.\n\nPour se conformer à la 'Loi britannique sur la protection des données' actuelle pour les enfants, en particulier le Code de conception approprié à l'âge (également connu sous le nom de Loi sur les enfants), des risques ont été évalués. Plus d'informations peuvent être trouvées sur le Hub du Code des enfants de l'ICO. Cette politique expliquera les parties de notre application ou site Web susceptibles d'affecter votre vie privée et vos informations personnelles, comment nous traitons, collectons, gérons et stockons ces informations, et vos droits en relation avec vos données.",
+  "children_description": [
+    "Nos services ne sont pas disponibles pour les enfants et sont destinés aux personnes âgées de plus de 18 ans, et de 21 ans dans certaines juridictions. Veuillez vous référer aux lois de votre pays pour des conseils appropriés en matière d'âge.",
+    "Pour se conformer à la 'Loi sur la protection des données au Royaume-Uni' pour les enfants, en particulier le Code de conception approprié pour l'âge (également connu sous le nom de Loi sur les enfants), les risques ont été évalués. Plus d'informations peuvent être trouvées sur le Hub du Code des enfants de l'ICO.",
+    "Cette politique expliquera les domaines de notre application ou de notre site Web qui peuvent affecter votre vie privée et vos détails personnels, comment nous traitons, collectons, gérons et stockons ces détails, et vos droits concernant vos données."
+  ],
 
-  "personal_info_title": "Informations Personnelles que Nous Collectons",
-  "personal_info_description": "Nous pouvons collecter et utiliser les informations suivantes à votre sujet :\nLes informations que vous nous fournissez, telles que votre nom, adresse postale, numéro de téléphone, adresse e-mail et informations de paiement.\nLes informations que vous fournissez via les canaux de support client, comme lorsque vous nous contactez par e-mail.\nLes informations collectées lorsque vous utilisez notre application ou site Web, y compris les cookies et les données basées sur la localisation.\nLes informations provenant de tiers, y compris les réseaux sociaux et les services d'analyse tels que Google Analytics.",
+  "personal_info_title": "Informations personnelles que nous collectons",
+  "personal_info_description": [
+    "Nous pouvons collecter et utiliser les informations suivantes vous concernant :",
+    "• Informations que vous nous fournissez, telles que votre nom, adresse postale, numéro de téléphone, adresse e-mail et informations de paiement.",
+    "• Informations que vous fournissez via les canaux de support client, comme lorsque vous nous contactez par e-mail.",
+    "• Informations collectées lorsque vous utilisez notre application ou notre site Web, y compris les cookies et les données basées sur la localisation.",
+    "• Informations provenant de tiers, y compris des services de médias sociaux et d'analytique comme Google Analytics."
+  ],
 
-  "how_we_use_title": "Comment Nous Utilisons Vos Informations Personnelles",
-  "how_we_use_description": "Nous utiliserons vos données personnelles uniquement lorsque la loi nous le permet. Les raisons courantes incluent :\nPour vous fournir notre service, y compris l'accès à notre application via un portefeuille virtuel.\nPour améliorer et surveiller l'utilisation de nos services.\nPour fournir un support client et répondre à vos questions ou plaintes.\nPour prévenir la fraude, défendre des réclamations légales et respecter les obligations légales.\nPour effectuer des analyses et fournir des publicités ciblées (avec votre consentement).",
+  "how_we_use_title": "Comment nous utilisons vos informations personnelles",
+  "how_we_use_description": [
+    "Nous n'utiliserons vos données personnelles que lorsque la loi nous le permet. Les raisons courantes incluent :",
+    "• Pour vous fournir notre service, y compris l'accès à notre application via un portefeuille virtuel.",
+    "• Pour améliorer et surveiller l'utilisation de nos services.",
+    "• Pour fournir un support client et répondre à vos questions ou plaintes.",
+    "• Pour prévenir la fraude, défendre des réclamations légales et se conformer aux obligations légales.",
+    "• Pour effectuer des analyses et fournir de la publicité ciblée (avec votre consentement)."
+  ],
 
-  "choices_title": "Vos Choix sur l'Utilisation des Informations",
-  "choices_description": "Vous avez les choix suivants concernant l'utilisation de vos informations :\nEmails Marketing : Vous pouvez vous désinscrire de la réception des emails promotionnels en utilisant la fonctionnalité \"se désabonner\" dans nos emails marketing.\nIncitations Financières : Nous pouvons organiser des promotions qui vous demandent de partager des informations personnelles. La participation est volontaire."
+  "choices_title": "Vos choix concernant l'utilisation des informations",
+  "choices_description": [
+    "Vous avez les choix suivants concernant l'utilisation de vos informations :",
+    "• E-mails marketing : Vous pouvez vous désinscrire de la réception d'e-mails promotionnels en utilisant la fonctionnalité \"se désinscrire\" dans nos e-mails marketing.",
+    "• Incitations financières : Nous pouvons organiser des promotions qui vous demandent de partager des informations personnelles. La participation est volontaire."
+  ],
+
+  "who_we_share_title": "Avec qui nous partageons vos informations personnelles",
+  "who_we_share_description": [
+    "Nous pouvons partager vos informations avec les entités suivantes :",
+    "• Fournisseurs et prestataires de services (par ex., services cloud comme AWS).",
+    "• Fournisseurs d'analytique (par ex., Google, Apple, AWS).",
+    "• Partenaires publicitaires (pour les services financés par la publicité).",
+    "• Agences d'application de la loi ou autorités publiques si requis par la loi.",
+    "• Entités impliquées dans des fusions, acquisitions ou réorganisations d'entreprises."
+  ],
+
+  "security_title": "Sécurité",
+  "security_description": [
+    "Nous avons des mesures de sécurité en place pour protéger vos informations, mais la transmission sur Internet n'est pas complètement sécurisée.",
+    "Nous vous recommandons d'utiliser des mesures de sécurité appropriées lors de l'utilisation de nos services."
+  ],
+
+  "where_we_process_title": "Où nous traitons vos informations",
+  "where_we_process_description": [
+    "Vos informations seront traitées par nos employés et prestataires de services (Apple, Google, AWS, Mailchimp).",
+    "Si nécessaire, nous veillons à ce que vos données soient transférées vers des pays qui offrent une protection adéquate des données personnelles."
+  ],
+
+  "how_long_we_store_title": "Combien de temps nous conservons vos informations",
+  "how_long_we_store_description": [
+    "Nous conservons vos informations pendant une durée allant jusqu'à 6 ans.",
+    "Lorsque nous supprimons des informations, nous prenons des mesures pour les rendre irrécupérables ou irréprochables."
+  ],
+
+  "your_rights_title": "Vos droits",
+  "your_rights_description": [
+    "Vous avez les droits suivants en vertu des lois sur la protection des données :",
+    "• Le droit de demander l'accès à vos données personnelles.",
+    "• Le droit de demander la correction de vos données personnelles.",
+    "• Le droit de demander la suppression de vos données personnelles.",
+    "• Le droit de s'opposer au traitement de vos données personnelles.",
+    "• Le droit de demander la restriction du traitement de vos données personnelles.",
+    "• Le droit de demander le transfert de vos données personnelles.",
+    "• Le droit de retirer votre consentement à tout moment."
+  ],
+
+  "california_privacy_rights_title": "Droits à la vie privée en Californie (Addendum 1)",
+  "california_privacy_rights_description": "Les termes de cet addendum s'appliquent aux résidents de Californie en vertu de la California Consumer Privacy Act (CCPA). Aux fins de cet addendum, les Informations Personnelles désignent les informations qui identifient ou sont liées à un consommateur ou à un ménage particulier.",
+
+  "brazil_privacy_rights_title": "Droits à la vie privée au Brésil (Addendum 2)",
+  "brazil_privacy_rights_description": "Les termes de cet addendum s'appliquent aux résidents du Brésil en vertu de la Lei Geral de Proteção de Dados (LGPD). Vous avez le droit de demander si nous détenons vos informations personnelles et de demander leur suppression, restriction ou correction.",
+
+  "contact_title": "Contact & Plaintes",
+  "contact_description": [
+    "Si vous avez des questions ou des plaintes concernant cette politique, veuillez nous contacter à inq@BlockBoost.io.",
+    "Si vous souhaitez déposer une plainte concernant la manière dont nous traitons vos informations, nous nous efforcerons de répondre dans un délai de 30 jours."
+  ],
+
+  "changes_title": "Modifications de cette politique",
+  "changes_description": "Toute mise à jour ou modification de cette politique sera publiée ici."
 }

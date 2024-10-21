@@ -8,7 +8,7 @@ import { I18nextProvider } from "react-i18next";
 
 // Import translation files
 
-// HomePage
+// HomePage Complete
 import homepage_en from "./locales/en/homepage.json";
 import homepage_ar from "./locales/ar/homepage.json";
 import homepage_de from "./locales/de/homepage.json";
@@ -27,7 +27,7 @@ import homepage_uk from "./locales/uk/homepage.json";
 import homepage_vi from "./locales/vi/homepage.json";
 import homepage_zh from "./locales/zh/homepage.json";
 
-// Launchedpad
+// Launchedpad Complete
 import launchedpad_en from "./locales/en/launchedpad.json";
 import launchedpad_ar from "./locales/ar/launchedpad.json";
 import launchedpad_de from "./locales/de/launchedpad.json";
@@ -46,7 +46,7 @@ import launchedpad_uk from "./locales/uk/launchedpad.json";
 import launchedpad_vi from "./locales/vi/launchedpad.json";
 import launchedpad_zh from "./locales/zh/launchedpad.json";
 
-// Earning
+// Earning Complete
 import earning_en from "./locales/en/earning.json";
 import earning_ar from "./locales/ar/earning.json";
 import earning_de from "./locales/de/earning.json";
@@ -124,7 +124,7 @@ import win_uk from "./locales/uk/win.json";
 import win_vi from "./locales/vi/win.json";
 import win_zh from "./locales/zh/win.json";
 
-// Terms And Conditions
+// Terms And Conditions Complete
 import terms_en from "./locales/en/terms.json";
 import terms_ar from "./locales/ar/terms.json";
 import terms_de from "./locales/de/terms.json";
@@ -143,7 +143,7 @@ import terms_uk from "./locales/uk/terms.json";
 import terms_vi from "./locales/vi/terms.json";
 import terms_zh from "./locales/zh/terms.json";
 
-// Privacy Policy
+// Privacy Policy Complete
 import privacy_en from "./locales/en/privacy.json";
 import privacy_ar from "./locales/ar/privacy.json";
 import privacy_de from "./locales/de/privacy.json";
@@ -162,7 +162,7 @@ import privacy_uk from "./locales/uk/privacy.json";
 import privacy_vi from "./locales/vi/privacy.json";
 import privacy_zh from "./locales/zh/privacy.json";
 
-// Cookie Policy
+// Cookie Policy Complete
 import cookie_en from "./locales/en/cookie.json";
 import cookie_ar from "./locales/ar/cookie.json";
 import cookie_de from "./locales/de/cookie.json";
@@ -180,6 +180,9 @@ import cookie_tr from "./locales/tr/cookie.json";
 import cookie_uk from "./locales/uk/cookie.json";
 import cookie_vi from "./locales/vi/cookie.json";
 import cookie_zh from "./locales/zh/cookie.json";
+
+// Dashboard Home Page
+// import bridging_en from "./locales/en/bridging.json";
 
 // Bridging
 import bridging_en from "./locales/en/bridging.json";

@@ -1,62 +1,62 @@
 {
-  "cookie_policy_title": "Cookie Policy",
-  "cookie_policy_description": "For the purposes of this Cookie Policy, “we”, “us” and “our” refer to \"BlockBoost\". This Cookie Policy applies to the following “Services”: BlockBoost.com and any other dedicated websites, apps, products, forums, and services we offer through the app or Website or other dedicated website which may be offered by us from time to time, or otherwise provided by us. You can change your Cookie preferences or withdraw consent at any time using the Privacy Settings.",
+  "cookie_policy_title": "कुकी नीति",
+  "cookie_policy_description": "इस कुकी नीति के उद्देश्यों के लिए, \"हम\", \"हमारे\" और \"हमारी\" का तात्पर्य \"BlockBoost\" से है। यह कुकी नीति निम्नलिखित “सेवाओं” पर लागू होती है: BlockBoost.com और कोई अन्य समर्पित वेबसाइटें, ऐप्स, उत्पाद, फोरम, और सेवाएँ जो हम ऐप या वेबसाइट के माध्यम से या किसी अन्य समर्पित वेबसाइट के माध्यम से समय-समय पर पेश कर सकते हैं, या अन्यथा प्रदान कर सकते हैं। आप किसी भी समय अपनी कुकी प्राथमिकताओं को बदल सकते हैं या गोपनीयता सेटिंग्स का उपयोग करके सहमति वापस ले सकते हैं।",
 
-  "what_is_cookie_title": "1. What is a cookie?",
-  "what_is_cookie_description": "Cookies are text files containing small amounts of information which are placed onto your device when you visit a website. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the website as to generally improve the user experience, for example, by remembering your preferences, or by offering you personalized content and advertisements. Functions usually performed by a cookie can also be achieved by other similar technologies, such as log files, pixel tags, web beacons, clear GIFs, and device IDs. In this Cookie Policy, we will be referring to them collectively as “Cookies”.",
+  "what_is_cookie_title": "1. कुकी क्या है?",
+  "what_is_cookie_description": "कुकीज़ टेक्स्ट फ़ाइलें होती हैं जिनमें छोटी मात्रा में जानकारी होती है जो आपकी डिवाइस पर तब रखी जाती है जब आप एक वेबसाइट पर जाते हैं। इन्हें व्यापक रूप से वेबसाइटों को कार्य करने या अधिक कुशलता से काम करने के लिए, साथ ही वेबसाइट के मालिकों को उपयोगकर्ता अनुभव को सामान्य रूप से बेहतर बनाने के लिए जानकारी प्रदान करने के लिए उपयोग किया जाता है, उदाहरण के लिए, आपकी प्राथमिकताओं को याद रखने के लिए, या आपको व्यक्तिगत सामग्री और विज्ञापन प्रदान करने के लिए। कुकी द्वारा आमतौर पर किए गए कार्यों को अन्य समान तकनीकों जैसे लॉग फ़ाइलें, पिक्सेल टैग, वेब बीकन, क्लियर GIFs, और डिवाइस आईडी द्वारा भी प्राप्त किया जा सकता है। इस कुकी नीति में, हम उन्हें सामूहिक रूप से \"कुकीज़\" के रूप में संदर्भित करेंगे।",
 
-  "how_we_use_cookie_title": "2. How do we use Cookies?",
-  "how_we_use_cookie_description": "We may use Cookies to:",
+  "how_we_use_cookie_title": "2. हम कुकीज़ का उपयोग कैसे करते हैं?",
+  "how_we_use_cookie_description": "हम कुकीज़ का उपयोग कर सकते हैं:",
   "how_we_use_cookie_items": [
-    "Verify log-in information and allow users to find friends who use a Service.",
-    "Track traffic flow and patterns of travel in connection with a Service.",
-    "Understand the total number of users of a Service on an ongoing basis and the types of devices.",
-    "Monitor the performance of a Service to continually improve it.",
-    "Customize and enhance your online experience.",
-    "Provide customer service to you.",
-    "Serve third parties’ adverts within our services."
+    "लॉग-इन जानकारी की पुष्टि करें और उपयोगकर्ताओं को उस सेवा का उपयोग करने वाले दोस्तों को खोजने की अनुमति दें।",
+    "सेवा के संबंध में यातायात प्रवाह और यात्रा पैटर्न को ट्रैक करें।",
+    "सेवा के कुल उपयोगकर्ताओं की संख्या को लगातार समझें और उपकरणों के प्रकार।",
+    "सेवा के प्रदर्शन की निगरानी करें ताकि इसे निरंतर बेहतर किया जा सके।",
+    "आपके ऑनलाइन अनुभव को अनुकूलित और बढ़ाना।",
+    "आपको ग्राहक सेवा प्रदान करें।",
+    "हमारी सेवाओं में तीसरे पक्ष के विज्ञापन प्रदर्शित करें।"
   ],
 
-  "types_of_cookie_title": "3. What types of cookies do we use?",
-  "types_of_cookie_description": "The types of Cookies used by us and our partners in connection with a Service can be classified into these categories: 'Necessary Cookies', 'Functionality Cookies', 'Analytics Cookies', and 'Advertising and Tracking Cookies'. We have set out below some further information about each category, purpose, and duration of the Cookies we and third parties set. You may disable Cookies at any time by using the Privacy Settings, but this may affect how the Service functions.",
+  "types_of_cookie_title": "3. हम किस प्रकार की कुकीज़ का उपयोग करते हैं?",
+  "types_of_cookie_description": "हम और हमारे साझेदार एक सेवा के संबंध में उपयोग की जाने वाली कुकीज़ को इन श्रेणियों में वर्गीकृत किया जा सकता है: 'आवश्यक कुकीज़', 'कार्यात्मक कुकीज़', 'विश्लेषणात्मक कुकीज़', और 'विज्ञापन और ट्रैकिंग कुकीज़'। हमने नीचे प्रत्येक श्रेणी, उद्देश्य, और कुकीज़ की अवधि के बारे में कुछ और जानकारी दी है जो हम और तीसरे पक्ष सेट करते हैं। आप किसी भी समय गोपनीयता सेटिंग्स का उपयोग करके कुकीज़ को अक्षम कर सकते हैं, लेकिन यह सेवा के कार्यों को प्रभावित कर सकता है।",
   "types_of_cookie_items": [
     {
-      "title": "Necessary Cookies",
-      "description": "Enable core functionality such as security, network management, and accessibility."
+      "title": "आवश्यक कुकीज़",
+      "description": "सुरक्षा, नेटवर्क प्रबंधन, और पहुंच जैसे मुख्य कार्यों को सक्षम करें।"
     },
     {
-      "title": "Functionality Cookies",
-      "description": "Record information about choices you have made and allow us to tailor a Service to you."
+      "title": "कार्यात्मक कुकीज़",
+      "description": "आपके द्वारा की गई पसंदों के बारे में जानकारी रिकॉर्ड करें और हमें सेवा को आपके अनुसार अनुकूलित करने की अनुमति दें।"
     },
     {
-      "title": "Analytics Cookies",
-      "description": "Analyse how our Service is accessed, used, or is performing in order to provide you with a better user experience and to maintain, operate, and continually improve a Service."
+      "title": "विश्लेषणात्मक कुकीज़",
+      "description": "यह विश्लेषण करें कि हमारी सेवा तक कैसे पहुंचा गया, उपयोग किया गया, या प्रदर्शन कर रहा है ताकि आपको बेहतर उपयोगकर्ता अनुभव प्रदान किया जा सके और एक सेवा को बनाए रखने, संचालन करने और निरंतर सुधारने के लिए।"
     },
     {
-      "title": "Advertising and Tracking Cookies",
-      "description": "May be set through our Services by our advertising partners to show you relevant adverts on other sites."
+      "title": "विज्ञापन और ट्रैकिंग कुकीज़",
+      "description": "हमें अन्य साइटों पर आपके लिए प्रासंगिक विज्ञापन दिखाने के लिए हमारे विज्ञापन भागीदारों द्वारा हमारी सेवाओं के माध्यम से सेट किया जा सकता है।"
     }
   ],
 
-  "control_or_delete_cookie_title": "4. How to control or delete cookies",
-  "control_or_delete_cookie_description": "You have the right to control our use of cookies and other similar technologies at any time by using the Privacy Settings or adjusting the in-app settings. However, please note that if you choose to refuse Cookies, you may not be able to use the full functionality of the Services. In addition to the above, most browsers allow you to change your preferences for Cookies through their settings. These settings are typically found in the \"options\" or \"preferences\" menu. In order to understand these settings, the following links may be helpful:",
+  "control_or_delete_cookie_title": "4. कुकीज़ को नियंत्रित या हटाने का तरीका",
+  "control_or_delete_cookie_description": "आपके पास किसी भी समय गोपनीयता सेटिंग्स का उपयोग करके कुकीज़ और अन्य समान तकनीकों के हमारे उपयोग को नियंत्रित करने का अधिकार है या ऐप के सेटिंग्स को समायोजित करें। हालांकि, कृपया ध्यान दें कि यदि आप कुकीज़ को अस्वीकार करने का विकल्प चुनते हैं, तो आप सेवाओं की पूरी कार्यक्षमता का उपयोग करने में असमर्थ हो सकते हैं। ऊपर के अलावा, अधिकांश ब्राउज़र आपको उनके सेटिंग्स के माध्यम से कुकीज़ के लिए अपने विकल्प बदलने की अनुमति देते हैं। ये सेटिंग्स आमतौर पर \"विकल्प\" या \"पसंद\" मेनू में पाई जाती हैं। इन सेटिंग्स को समझने के लिए, निम्नलिखित लिंक सहायक हो सकते हैं:",
   "control_or_delete_cookie_links": [
-    "Cookie setting in Chrome",
-    "Cookie setting in Safari",
-    "Cookie setting in Firefox",
-    "Cookie setting in Internet Explorer",
+    "Chrome में कुकी सेटिंग",
+    "Safari में कुकी सेटिंग",
+    "Firefox में कुकी सेटिंग",
+    "Internet Explorer में कुकी सेटिंग",
     "Google Analytics Opt-Out"
   ],
 
-  "changes_to_cookie_policy_title": "5. Changes to this Cookie Policy",
-  "changes_to_cookie_policy_description": "We will update this Cookie Policy to reflect changes in our practices and services. When we post changes to this Cookie Policy, we will revise the \"Last Updated\" date at the top of this Cookie Policy.",
+  "changes_to_cookie_policy_title": "5. इस कुकी नीति में बदलाव",
+  "changes_to_cookie_policy_description": "हम इस कुकी नीति को अपने प्रथाओं और सेवाओं में बदलाव को प्रतिबिंबित करने के लिए अपडेट करेंगे। जब हम इस कुकी नीति में बदलाव करते हैं, तो हम इस कुकी नीति के शीर्ष पर \"अंतिम अपडेट\" की तारीख को संशोधित करेंगे।",
 
-  "need_more_info_title": "6. Need More Information?",
-  "need_more_info_description": "If you would like to find out more about cookies and their use on the Internet, you may find further useful information on AboutCookies, All About Cookies, and Your Online Choices.",
+  "need_more_info_title": "6. अधिक जानकारी चाहिए?",
+  "need_more_info_description": "यदि आप कुकीज़ और इंटरनेट पर उनके उपयोग के बारे में अधिक जानना चाहते हैं, तो आप AboutCookies, All About Cookies, और Your Online Choices पर और उपयोगी जानकारी प्राप्त कर सकते हैं।",
 
-  "cookies_set_in_the_past_title": "7. Cookies that have been set in the past",
-  "cookies_set_in_the_past_description": "If you have disabled one or more Cookies, we may still use information collected from cookies prior to your disabled preference being set, however, we will stop using the disabled cookie to collect any further information.",
+  "cookies_set_in_the_past_title": "7. अतीत में सेट की गई कुकीज़",
+  "cookies_set_in_the_past_description": "यदि आपने एक या एक से अधिक कुकीज़ को निष्क्रिय कर दिया है, तो हम आपकी निष्क्रिय प्राथमिकता सेट करने से पहले कुकीज़ से एकत्र की गई जानकारी का उपयोग कर सकते हैं, हालाँकि, हम आगे की जानकारी एकत्र करने के लिए निष्क्रिय कुकी का उपयोग करना बंद कर देंगे।",
 
-  "contact_us_title": "8. Contact us",
-  "contact_us_description": "If you wish to contact us about this Cookies Policy and the use of cookies in the Services, please contact us at our social channel or email us at: inq@BlockBoost.io."
+  "contact_us_title": "8. हमसे संपर्क करें",
+  "contact_us_description": "यदि आप इस कुकी नीति और सेवाओं में कुकीज़ के उपयोग के बारे में हमसे संपर्क करना चाहते हैं, तो कृपया हमारे सोशल चैनल पर हमसे संपर्क करें या हमें ईमेल करें: inq@BlockBoost.io।"
 }

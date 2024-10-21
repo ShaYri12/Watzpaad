@@ -1,92 +1,92 @@
 {
-  "privacy_policy_title": "Privacy Policy",
-  "privacy_policy_description": "This privacy policy (\"Policy\") informs you of your choices and our practices in relation to your Information (as defined below). For the purposes of this Policy, \"we\", \"us\", and \"our\" refer to \"BlockBoost\".",
+  "privacy_policy_title": "Gizlilik Politikası",
+  "privacy_policy_description": "Bu gizlilik politikası (\"Politika\"), sizin seçimleriniz ve bizim uygulamalarımız hakkında sizi bilgilendirir (aşağıda tanımlandığı gibi). Bu Politika bağlamında \"biz\", \"bize\" ve \"bizim\" terimleri \"BlockBoost\"'u ifade eder.",
 
-  "children_title": "Children",
+  "children_title": "Çocuklar",
   "children_description": [
-    "Our services are not available for use by children and are intended for persons over the age of 18 years old, and 21 years old in some jurisdictions. Please refer to your country laws for age-appropriate guidance.",
-    "To comply with the current 'UK Data Protection Act' for Children, specifically the Age Appropriate Design Code (also known as the Children's Act), risks have been assessed. More information can be found at ICO Children's Code Hub.",
-    "This policy will explain areas of our app or website that may affect your privacy and personal details, how we process, collect, manage and store those details, and your rights in relation to your data."
+    "Hizmetlerimiz, 18 yaş ve üstü kişilere yöneliktir ve bazı yargı bölgelerinde 21 yaş ve üzeri kişiler için tasarlanmıştır. Ülkenizin yasasında yaş sınırlamalarını kontrol edin.",
+    "Çocuklar için geçerli olan 'Birleşik Krallık Veri Koruma Yasası'na uymak amacıyla, özellikle Uygun Yaş için Tasarım Kodu (aynı zamanda 'Çocuk Yasası' olarak bilinir) ile ilgili riskler değerlendirilmiştir. Ek bilgiye ICO Children's Code Hub'dan ulaşabilirsiniz.",
+    "Bu politika, uygulamamızın veya web sitemizin, gizliliğinize ve kişisel verilerinize etkileyebilecek alanlarını açıklayacak, verilerinizi nasıl işlediğimizi, topladığımızı, yönettiğimizi ve sakladığımızı, ayrıca verilerinizle ilgili haklarınızı açıklayacaktır."
   ],
 
-  "personal_info_title": "Personal Information We Collect",
+  "personal_info_title": "Topladığımız Kişisel Bilgiler",
   "personal_info_description": [
-    "We may collect and use the following Information about you:",
-    "• Information you provide to us, such as your name, mailing address, phone number, email address, and payment information.",
-    "• Information you provide via customer support channels, such as when contacting us via email.",
-    "• Information collected when you use our app or website, including cookies and location-based data.",
-    "• Information from third parties, including social media and analytics services like Google Analytics."
+    "Sizden aşağıdaki bilgileri toplayabilir ve kullanabiliriz:",
+    "• Adınız, adresiniz, telefon numaranız, e-posta adresiniz ve ödeme bilgilerinizi içeren bilgileri.",
+    "• Bize e-posta ile ulaştığınızda müşteri destek kanalları aracılığıyla sağladığınız bilgiler.",
+    "• Uygulamamız veya web sitemizi kullanırken topladığımız bilgiler, çerezler ve konum tabanlı veriler dahil.",
+    "• Sosyal medya ve Google Analytics gibi üçüncü taraflardan gelen bilgiler."
   ],
 
-  "how_we_use_title": "How We Use Your Personal Information",
+  "how_we_use_title": "Kişisel Bilgilerinizi Nasıl Kullanıyoruz",
   "how_we_use_description": [
-    "We will only use your personal data when the law allows us to. Common reasons include:",
-    "• To provide you with our service, including access to our app via a virtual wallet.",
-    "• To improve and monitor the use of our services.",
-    "• To provide customer support and respond to your queries or complaints.",
-    "• To prevent fraud, defend legal claims, and comply with legal obligations.",
-    "• To conduct analytics and provide targeted advertising (with your consent)."
+    "Yasaların izin verdiği durumlarda kişisel verilerinizi kullanacağız. Genel nedenler şunları içerir:",
+    "• Hizmetlerimizi sağlamak, uygulamamıza sanal cüzdan aracılığıyla erişim sağlamak.",
+    "• Hizmetlerimizin kullanımını geliştirmek ve izlemek.",
+    "• Müşteri desteği sağlamak ve taleplerinize veya şikayetlerinize yanıt vermek.",
+    "• Dolandırıcılığı önlemek, hukuki talepleri korumak ve yasal yükümlülüklere uymak.",
+    "• Analitik yapmak ve hedefli reklam sağlamak (izin vermeniz durumunda)."
   ],
 
-  "choices_title": "Your Choices About How Information is Used",
+  "choices_title": "Verilerinizin Kullanımına İlişkin Seçenekleriniz",
   "choices_description": [
-    "You have the following choices regarding how we use your information:",
-    "• Marketing Emails: You can opt-out of receiving promotional emails by using the \"unsubscribe\" feature in our marketing emails.",
-    "• Financial Incentives: We may run promotions that ask you to share personal information. Participation is voluntary."
+    "Verilerinizin kullanımı ile ilgili aşağıdaki seçeneklere sahipsiniz:",
+    "• Pazarlama e-postaları: Pazarlama e-postalarımızda 'abonelikten çık' seçeneğini kullanarak bu e-postaları almak istemediğinizi belirtebilirsiniz.",
+    "• Finansal teşvikler: Kişisel bilgilerinizi paylaşmanızı isteyebileceğimiz promosyonlar düzenleyebiliriz. Katılım isteğe bağlıdır."
   ],
 
-  "who_we_share_title": "Who We Share Your Personal Information With",
+  "who_we_share_title": "Kişisel Bilgilerinizi Kiminle Paylaşıyoruz",
   "who_we_share_description": [
-    "We may share your information with the following entities:",
-    "• Vendors and service providers (e.g., cloud services like AWS).",
-    "• Analytics providers (e.g., Google, Apple, AWS).",
-    "• Advertising partners (for ad-supported services).",
-    "• Law enforcement agencies or public authorities if required by law.",
-    "• Entities involved in mergers, acquisitions, or corporate reorganizations."
+    "Verilerinizi aşağıdaki kuruluşlarla paylaşabiliriz:",
+    "• Hizmet sağlayıcıları (örneğin, AWS gibi bulut hizmetleri).",
+    "• Analiz sağlayıcıları (örneğin, Google, Apple, AWS).",
+    "• Reklam ortakları (reklam destekli hizmetler için).",
+    "• Yasal gereklilikler doğrultusunda hukuki otoriteler veya devlet kurumları.",
+    "• Birleşme, satın alma veya kurumsal yeniden yapılandırma ile ilgili kuruluşlar."
   ],
 
-  "security_title": "Security",
+  "security_title": "Güvenlik",
   "security_description": [
-    "We have security measures in place to protect your information, but transmission over the internet is not completely secure.",
-    "We recommend using appropriate security measures when using our services."
+    "Verilerinizi korumak için güvenlik önlemleri alıyoruz, ancak internet üzerinden veri iletimi tamamen güvenli değildir.",
+    "Hizmetlerimizi kullanırken uygun güvenlik önlemleri almanızı öneririz."
   ],
 
-  "where_we_process_title": "Where We Process Your Information",
+  "where_we_process_title": "Verilerinizi Nerede İşliyoruz",
   "where_we_process_description": [
-    "Your information will be processed by our employees and service providers (Apple, Google, AWS, Mailchimp).",
-    "If necessary, we ensure that your data is transferred to countries that provide adequate protection for personal data."
+    "Verileriniz, çalışanlarımız ve hizmet sağlayıcılarımız (Apple, Google, AWS, Mailchimp) tarafından işlenecektir.",
+    "Gerekirse, kişisel verilerinizin yeterli veri koruma yasalarına sahip ülkelere gönderilmesini sağlarız."
   ],
 
-  "how_long_we_store_title": "How Long We Store Your Information",
+  "how_long_we_store_title": "Verilerinizi Ne Kadar Süreyle Saklıyoruz",
   "how_long_we_store_description": [
-    "We store your information for up to 6 years.",
-    "When deleting information, we take measures to make it irrecoverable or irreproducible."
+    "Verilerinizi en fazla 6 yıl saklayacağız.",
+    "Verilerinizi sildiğimizde, bu bilgilerin geri kazanılamaz veya tekrar edilemez olmasını sağlamak için önlemler alacağız."
   ],
 
-  "your_rights_title": "Your Rights",
+  "your_rights_title": "Haklarınız",
   "your_rights_description": [
-    "You have the following rights under data protection laws:",
-    "• The right to request access to your personal data.",
-    "• The right to request correction of your personal data.",
-    "• The right to request erasure of your personal data.",
-    "• The right to object to processing of your personal data.",
-    "• The right to request restriction of processing of your personal data.",
-    "• The right to request transfer of your personal data.",
-    "• The right to withdraw consent at any time."
+    "Veri koruma yasalarına göre aşağıdaki haklara sahipsiniz:",
+    "• Kişisel verilerinize erişim talep etme hakkı.",
+    "• Kişisel verilerinizi düzeltme talep etme hakkı.",
+    "• Kişisel verilerinizi silme talep etme hakkı.",
+    "• Kişisel verilerinizin işlenmesine itiraz etme hakkı.",
+    "• Kişisel verilerinizin işlenmesini sınırlama talep etme hakkı.",
+    "• Kişisel verilerinizi aktarım talep etme hakkı.",
+    "• İzni istediğiniz zaman geri alma hakkı."
   ],
 
-  "california_privacy_rights_title": "California Privacy Rights (Addendum 1)",
-  "california_privacy_rights_description": "The terms of this addendum apply to residents of California under the California Consumer Privacy Act (CCPA). For the purposes of this addendum, Personal Information means information that identifies or is linked to a particular consumer or household.",
+  "california_privacy_rights_title": "Kaliforniya Gizlilik Hakları (Ek 1)",
+  "california_privacy_rights_description": "Bu ek, Kaliforniya Tüketici Gizliliği Yasası'na (CCPA) göre yaşayan bireyler için geçerlidir. Bu ek için kişisel veriler, belirli bir tüketiciye veya hane halkına atıfta bulunan veya bunlarla ilgili olan verileri ifade eder.",
 
-  "brazil_privacy_rights_title": "Brazil Privacy Rights (Addendum 2)",
-  "brazil_privacy_rights_description": "The terms of this addendum apply to residents of Brazil under the Lei Geral de Proteção de Dados (LGPD). You have the right to ask whether we hold your personal information and request its deletion, restriction, or correction.",
+  "brazil_privacy_rights_title": "Brezilya Gizlilik Hakları (Ek 2)",
+  "brazil_privacy_rights_description": "Bu ek, Brezilya Veri Koruma Yasası (LGPD) gereğince yaşayan bireyler için geçerlidir. Kişisel verilerinizin bizde bulunup bulunmadığını öğrenme ve bu verilerin silinmesi, kısıtlanması veya düzeltilmesi talebinde bulunma hakkına sahipsiniz.",
 
-  "contact_title": "Contact & Complaints",
+  "contact_title": "İletişim ve Şikayetler",
   "contact_description": [
-    "If you have any questions or complaints regarding this policy, please contact us at inq@BlockBoost.io.",
-    "If you wish to make a complaint about how we process your information, we will aim to respond within 30 days."
+    "Bu politikayla ilgili herhangi bir sorunuz veya şikayetiniz varsa, bizimle inq@BlockBoost.io adresinden iletişime geçin.",
+    "Veri işleme yöntemlerimiz hakkında bir şikayet sunmak istiyorsanız, 30 gün içinde yanıt vermeye çalışacağız."
   ],
 
-  "changes_title": "Changes to this Policy",
-  "changes_description": "Any updates or changes to this policy will be published here."
+  "changes_title": "Bu Politikadaki Değişiklikler",
+  "changes_description": "Bu politikanın güncellemeleri veya değişiklikleri burada yayınlanacaktır."
 }

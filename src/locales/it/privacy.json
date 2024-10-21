@@ -1,16 +1,92 @@
 {
   "privacy_policy_title": "Informativa sulla Privacy",
-  "privacy_policy_description": "Questa informativa sulla privacy (\"Informativa\") ti informa sulle tue scelte e sulle nostre pratiche in relazione alle tue informazioni (come definito di seguito). Ai fini di questa Informativa, \"noi\", \"ci\" e \"nostro\" si riferiscono a \"Rexas\".",
+  "privacy_policy_description": "Questa informativa sulla privacy (\"Politica\") ti informa sulle tue scelte e sulle nostre pratiche relative alle tue Informazioni (come definito di seguito). Ai fini di questa Politica, \"noi\", \"ci\" e \"nostro\" si riferiscono a \"BlockBoost\".",
 
-  "children_title": "Minori",
-  "children_description": "I nostri servizi non sono disponibili per l'uso da parte di bambini e sono destinati a persone di età superiore ai 18 anni, e in alcune giurisdizioni ai 21 anni. Fare riferimento alle leggi del proprio paese per ottenere indicazioni appropriate in base all'età.\n\nPer rispettare l'attuale 'Legge sulla protezione dei dati del Regno Unito' per i minori, in particolare il Codice di progettazione appropriata per l'età (noto anche come Legge sui minori), sono stati valutati i rischi. Maggiori informazioni sono disponibili presso l'ICO Children's Code Hub. Questa informativa spiegherà le aree della nostra app o sito web che possono influire sulla tua privacy e sui tuoi dati personali, come elaboriamo, raccogliamo, gestiamo e archiviamo tali dati, e i tuoi diritti relativi ai tuoi dati.",
+  "children_title": "Bambini",
+  "children_description": [
+    "I nostri servizi non sono disponibili per l'uso da parte dei bambini e sono destinati a persone di età superiore ai 18 anni, e 21 anni in alcune giurisdizioni. Si prega di fare riferimento alle leggi del proprio paese per indicazioni appropriate all'età.",
+    "Per conformarsi all'attuale 'UK Data Protection Act' per i bambini, in particolare al Codice di Design Appropriato per l'Età (noto anche come Children's Act), sono stati valutati i rischi. Maggiori informazioni possono essere trovate su ICO Children's Code Hub.",
+    "Questa politica spiegherà le aree della nostra app o sito web che possono influenzare la tua privacy e i tuoi dati personali, come trattiamo, raccogliamo, gestiamo e memorizziamo questi dettagli, e i tuoi diritti in relazione ai tuoi dati."
+  ],
 
   "personal_info_title": "Informazioni Personali che Raccogliamo",
-  "personal_info_description": "Potremmo raccogliere e utilizzare le seguenti informazioni su di te:\nInformazioni che ci fornisci, come il tuo nome, indirizzo postale, numero di telefono, indirizzo email e informazioni di pagamento.\nInformazioni che fornisci tramite i canali di supporto clienti, ad esempio quando ci contatti via email.\nInformazioni raccolte quando utilizzi la nostra app o sito web, inclusi cookie e dati basati sulla posizione.\nInformazioni di terze parti, inclusi social media e servizi di analisi come Google Analytics.",
+  "personal_info_description": [
+    "Possiamo raccogliere e utilizzare le seguenti informazioni su di te:",
+    "• Informazioni che ci fornisci, come nome, indirizzo postale, numero di telefono, indirizzo email e informazioni di pagamento.",
+    "• Informazioni che fornisci tramite i canali di assistenza clienti, ad esempio quando ci contatti via email.",
+    "• Informazioni raccolte quando utilizzi la nostra app o sito web, inclusi cookie e dati basati sulla posizione.",
+    "• Informazioni da terze parti, incluse piattaforme di social media e servizi di analisi come Google Analytics."
+  ],
 
   "how_we_use_title": "Come Utilizziamo le Tue Informazioni Personali",
-  "how_we_use_description": "Utilizzeremo i tuoi dati personali solo quando la legge ce lo consente. I motivi comuni includono:\nPer fornirti il nostro servizio, incluso l'accesso alla nostra app tramite un portafoglio virtuale.\nPer migliorare e monitorare l'utilizzo dei nostri servizi.\nPer fornire assistenza clienti e rispondere alle tue richieste o reclami.\nPer prevenire frodi, difendere reclami legali e rispettare obblighi legali.\nPer condurre analisi e fornire pubblicità mirata (con il tuo consenso).",
+  "how_we_use_description": [
+    "Utilizzeremo i tuoi dati personali solo quando la legge ce lo consente. Le ragioni comuni includono:",
+    "• Fornirti il nostro servizio, inclusa l'accesso alla nostra app tramite un wallet virtuale.",
+    "• Migliorare e monitorare l'uso dei nostri servizi.",
+    "• Fornire assistenza clienti e rispondere alle tue domande o reclami.",
+    "• Prevenire frodi, difendere le rivendicazioni legali e rispettare gli obblighi legali.",
+    "• Condurre analisi e fornire pubblicità mirata (con il tuo consenso)."
+  ],
 
-  "choices_title": "Le Tue Scelte su Come Utilizziamo le Informazioni",
-  "choices_description": "Hai le seguenti scelte su come utilizziamo le tue informazioni:\nEmail di Marketing: Puoi rinunciare a ricevere email promozionali utilizzando la funzione \"annulla iscrizione\" nelle nostre email di marketing.\nIncentivi Finanziari: Potremmo eseguire promozioni che ti chiedono di condividere informazioni personali. La partecipazione è volontaria."
+  "choices_title": "Le Tue Scelte su Come Vengono Utilizzate le Informazioni",
+  "choices_description": [
+    "Hai le seguenti scelte riguardo a come utilizziamo le tue informazioni:",
+    "• Email di Marketing: Puoi disiscriverti dalla ricezione di email promozionali utilizzando la funzione \"disiscriviti\" nelle nostre email di marketing.",
+    "• Incentivi Finanziari: Potremmo condurre promozioni che ti chiedono di condividere informazioni personali. La partecipazione è volontaria."
+  ],
+
+  "who_we_share_title": "Con Chi Condividiamo le Tue Informazioni Personali",
+  "who_we_share_description": [
+    "Possiamo condividere le tue informazioni con le seguenti entità:",
+    "• Fornitori e servizi (ad es., servizi cloud come AWS).",
+    "• Fornitori di analisi (ad es., Google, Apple, AWS).",
+    "• Partner pubblicitari (per servizi supportati da annunci).",
+    "• Agenzie di law enforcement o autorità pubbliche se richiesto dalla legge.",
+    "• Entità coinvolte in fusioni, acquisizioni o riorganizzazioni aziendali."
+  ],
+
+  "security_title": "Sicurezza",
+  "security_description": [
+    "Abbiamo misure di sicurezza in atto per proteggere le tue informazioni, ma la trasmissione su Internet non è completamente sicura.",
+    "Ti raccomandiamo di utilizzare misure di sicurezza appropriate quando utilizzi i nostri servizi."
+  ],
+
+  "where_we_process_title": "Dove Elaboriamo le Tue Informazioni",
+  "where_we_process_description": [
+    "Le tue informazioni saranno elaborate dai nostri dipendenti e fornitori di servizi (Apple, Google, AWS, Mailchimp).",
+    "Se necessario, ci assicuriamo che i tuoi dati vengano trasferiti in paesi che offrono adeguata protezione per i dati personali."
+  ],
+
+  "how_long_we_store_title": "Quanto Tempo Conserviamo le Tue Informazioni",
+  "how_long_we_store_description": [
+    "Conserviamo le tue informazioni per un massimo di 6 anni.",
+    "Quando eliminiamo le informazioni, adottiamo misure per renderle irrecuperabili o non riproducibili."
+  ],
+
+  "your_rights_title": "I Tuoi Diritti",
+  "your_rights_description": [
+    "Hai i seguenti diritti ai sensi delle leggi sulla protezione dei dati:",
+    "• Il diritto di richiedere l'accesso ai tuoi dati personali.",
+    "• Il diritto di richiedere la correzione dei tuoi dati personali.",
+    "• Il diritto di richiedere la cancellazione dei tuoi dati personali.",
+    "• Il diritto di opporsi al trattamento dei tuoi dati personali.",
+    "• Il diritto di richiedere la limitazione del trattamento dei tuoi dati personali.",
+    "• Il diritto di richiedere il trasferimento dei tuoi dati personali.",
+    "• Il diritto di revocare il consenso in qualsiasi momento."
+  ],
+
+  "california_privacy_rights_title": "Diritti sulla Privacy in California (Addendum 1)",
+  "california_privacy_rights_description": "I termini di questo addendum si applicano ai residenti della California ai sensi del California Consumer Privacy Act (CCPA). Ai fini di questo addendum, le Informazioni Personali significano informazioni che identificano o sono collegate a un particolare consumatore o nucleo familiare.",
+
+  "brazil_privacy_rights_title": "Diritti sulla Privacy in Brasile (Addendum 2)",
+  "brazil_privacy_rights_description": "I termini di questo addendum si applicano ai residenti del Brasile ai sensi della Lei Generale sulla Protezione dei Dati (LGPD). Hai il diritto di chiedere se trattiamo le tue informazioni personali e richiederne la cancellazione, la restrizione o la correzione.",
+
+  "contact_title": "Contatti & Reclami",
+  "contact_description": [
+    "Se hai domande o reclami riguardo a questa politica, ti preghiamo di contattarci all'indirizzo inq@BlockBoost.io.",
+    "Se desideri presentare un reclamo su come trattiamo le tue informazioni, cercheremo di rispondere entro 30 giorni."
+  ],
+
+  "changes_title": "Modifiche a Questa Politica",
+  "changes_description": "Eventuali aggiornamenti o modifiche a questa politica saranno pubblicati qui."
 }

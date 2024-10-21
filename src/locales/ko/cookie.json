@@ -1,62 +1,62 @@
 {
-  "cookie_policy_title": "Cookie Policy",
-  "cookie_policy_description": "For the purposes of this Cookie Policy, “we”, “us” and “our” refer to \"BlockBoost\". This Cookie Policy applies to the following “Services”: BlockBoost.com and any other dedicated websites, apps, products, forums, and services we offer through the app or Website or other dedicated website which may be offered by us from time to time, or otherwise provided by us. You can change your Cookie preferences or withdraw consent at any time using the Privacy Settings.",
+  "cookie_policy_title": "쿠키 정책",
+  "cookie_policy_description": "이 쿠키 정책의 목적을 위해 “우리는”, “우리” 및 “우리의”는 “BlockBoost”를 의미합니다. 이 쿠키 정책은 다음의 “서비스”에 적용됩니다: BlockBoost.com 및 앱이나 웹사이트를 통해 제공되는 기타 전용 웹사이트, 앱, 제품, 포럼 및 서비스. 프라이버시 설정을 사용하여 언제든지 쿠키 기본 설정을 변경하거나 동의를 철회할 수 있습니다.",
 
-  "what_is_cookie_title": "1. What is a cookie?",
-  "what_is_cookie_description": "Cookies are text files containing small amounts of information which are placed onto your device when you visit a website. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the website as to generally improve the user experience, for example, by remembering your preferences, or by offering you personalized content and advertisements. Functions usually performed by a cookie can also be achieved by other similar technologies, such as log files, pixel tags, web beacons, clear GIFs, and device IDs. In this Cookie Policy, we will be referring to them collectively as “Cookies”.",
+  "what_is_cookie_title": "1. 쿠키란 무엇인가요?",
+  "what_is_cookie_description": "쿠키는 웹사이트를 방문할 때 장치에 저장되는 소량의 정보를 포함하는 텍스트 파일입니다. 쿠키는 웹사이트가 작동하거나 보다 효율적으로 작동하도록 하기 위해 널리 사용되며, 웹사이트 소유자에게 사용자 경험을 개선하기 위한 정보를 제공하는 데 도움을 줍니다. 예를 들어, 사용자의 선호도를 기억하거나 개인화된 콘텐츠와 광고를 제공합니다. 쿠키가 수행하는 기능은 로그 파일, 픽셀 태그, 웹 비콘, 클리어 GIF 및 장치 ID와 같은 다른 유사 기술로도 달성할 수 있습니다. 이 쿠키 정책에서는 이들을 집합적으로 “쿠키”라고 부릅니다.",
 
-  "how_we_use_cookie_title": "2. How do we use Cookies?",
-  "how_we_use_cookie_description": "We may use Cookies to:",
+  "how_we_use_cookie_title": "2. 쿠키를 어떻게 사용하나요?",
+  "how_we_use_cookie_description": "우리는 쿠키를 사용하여 다음과 같은 작업을 수행할 수 있습니다:",
   "how_we_use_cookie_items": [
-    "Verify log-in information and allow users to find friends who use a Service.",
-    "Track traffic flow and patterns of travel in connection with a Service.",
-    "Understand the total number of users of a Service on an ongoing basis and the types of devices.",
-    "Monitor the performance of a Service to continually improve it.",
-    "Customize and enhance your online experience.",
-    "Provide customer service to you.",
-    "Serve third parties’ adverts within our services."
+    "로그인 정보를 확인하고 서비스를 사용하는 친구를 찾을 수 있도록 허용합니다.",
+    "서비스와 관련하여 트래픽 흐름과 이동 패턴을 추적합니다.",
+    "서비스의 총 사용자 수를 지속적으로 이해하고 장치 유형을 파악합니다.",
+    "서비스 성능을 모니터링하여 지속적으로 개선합니다.",
+    "온라인 경험을 사용자 맞춤형으로 개선합니다.",
+    "고객 서비스 제공.",
+    "우리의 서비스 내에서 제3자의 광고를 제공합니다."
   ],
 
-  "types_of_cookie_title": "3. What types of cookies do we use?",
-  "types_of_cookie_description": "The types of Cookies used by us and our partners in connection with a Service can be classified into these categories: 'Necessary Cookies', 'Functionality Cookies', 'Analytics Cookies', and 'Advertising and Tracking Cookies'. We have set out below some further information about each category, purpose, and duration of the Cookies we and third parties set. You may disable Cookies at any time by using the Privacy Settings, but this may affect how the Service functions.",
+  "types_of_cookie_title": "3. 어떤 유형의 쿠키를 사용하나요?",
+  "types_of_cookie_description": "우리와 우리 파트너가 서비스와 관련하여 사용하는 쿠키의 유형은 다음 카테고리로 분류할 수 있습니다: '필수 쿠키', '기능성 쿠키', '분석 쿠키' 및 '광고 및 추적 쿠키'. 우리는 아래에서 우리가 설정하는 쿠키 및 제3자가 설정하는 각 카테고리, 목적 및 기간에 대한 추가 정보를 제공했습니다. 프라이버시 설정을 사용하여 언제든지 쿠키를 비활성화할 수 있지만, 이는 서비스 기능에 영향을 줄 수 있습니다.",
   "types_of_cookie_items": [
     {
-      "title": "Necessary Cookies",
-      "description": "Enable core functionality such as security, network management, and accessibility."
+      "title": "필수 쿠키",
+      "description": "보안, 네트워크 관리 및 접근성과 같은 핵심 기능을 활성화합니다."
     },
     {
-      "title": "Functionality Cookies",
-      "description": "Record information about choices you have made and allow us to tailor a Service to you."
+      "title": "기능성 쿠키",
+      "description": "당신이 선택한 정보 기록하고 서비스를 개인화할 수 있도록 합니다."
     },
     {
-      "title": "Analytics Cookies",
-      "description": "Analyse how our Service is accessed, used, or is performing in order to provide you with a better user experience and to maintain, operate, and continually improve a Service."
+      "title": "분석 쿠키",
+      "description": "우리 서비스가 어떻게 접근되고, 사용되며, 수행되고 있는지 분석하여 더 나은 사용자 경험을 제공하고, 서비스를 유지하고 운영하며 지속적으로 개선합니다."
     },
     {
-      "title": "Advertising and Tracking Cookies",
-      "description": "May be set through our Services by our advertising partners to show you relevant adverts on other sites."
+      "title": "광고 및 추적 쿠키",
+      "description": "다른 사이트에서 관련 광고를 보여주기 위해 우리의 서비스 내에서 광고 파트너에 의해 설정될 수 있습니다."
     }
   ],
 
-  "control_or_delete_cookie_title": "4. How to control or delete cookies",
-  "control_or_delete_cookie_description": "You have the right to control our use of cookies and other similar technologies at any time by using the Privacy Settings or adjusting the in-app settings. However, please note that if you choose to refuse Cookies, you may not be able to use the full functionality of the Services. In addition to the above, most browsers allow you to change your preferences for Cookies through their settings. These settings are typically found in the \"options\" or \"preferences\" menu. In order to understand these settings, the following links may be helpful:",
+  "control_or_delete_cookie_title": "4. 쿠키를 제어하거나 삭제하는 방법",
+  "control_or_delete_cookie_description": "프라이버시 설정을 사용하거나 앱 내 설정을 조정하여 언제든지 쿠키 및 기타 유사 기술의 사용을 제어할 권리가 있습니다. 그러나 쿠키를 거부하기로 선택한 경우 서비스의 모든 기능을 사용할 수 없게 될 수 있습니다. 위의 내용 외에도 대부분의 브라우저는 설정을 통해 쿠키 기본 설정을 변경할 수 있습니다. 이러한 설정은 일반적으로 \"옵션\" 또는 \"설정\" 메뉴에 있습니다. 이러한 설정을 이해하기 위해 다음 링크가 도움이 될 수 있습니다:",
   "control_or_delete_cookie_links": [
-    "Cookie setting in Chrome",
-    "Cookie setting in Safari",
-    "Cookie setting in Firefox",
-    "Cookie setting in Internet Explorer",
-    "Google Analytics Opt-Out"
+    "Chrome의 쿠키 설정",
+    "Safari의 쿠키 설정",
+    "Firefox의 쿠키 설정",
+    "Internet Explorer의 쿠키 설정",
+    "Google Analytics 옵트아웃"
   ],
 
-  "changes_to_cookie_policy_title": "5. Changes to this Cookie Policy",
-  "changes_to_cookie_policy_description": "We will update this Cookie Policy to reflect changes in our practices and services. When we post changes to this Cookie Policy, we will revise the \"Last Updated\" date at the top of this Cookie Policy.",
+  "changes_to_cookie_policy_title": "5. 이 쿠키 정책의 변경",
+  "changes_to_cookie_policy_description": "우리는 우리의 관행과 서비스를 반영하기 위해 이 쿠키 정책을 업데이트할 것입니다. 이 쿠키 정책에 변경 사항을 게시할 때, 이 쿠키 정책 상단의 \"최종 업데이트\" 날짜를 수정할 것입니다.",
 
-  "need_more_info_title": "6. Need More Information?",
-  "need_more_info_description": "If you would like to find out more about cookies and their use on the Internet, you may find further useful information on AboutCookies, All About Cookies, and Your Online Choices.",
+  "need_more_info_title": "6. 추가 정보가 필요하신가요?",
+  "need_more_info_description": "쿠키 및 인터넷에서의 사용에 대해 더 알고 싶으시다면, AboutCookies, All About Cookies 및 Your Online Choices에서 더 유용한 정보를 찾을 수 있습니다.",
 
-  "cookies_set_in_the_past_title": "7. Cookies that have been set in the past",
-  "cookies_set_in_the_past_description": "If you have disabled one or more Cookies, we may still use information collected from cookies prior to your disabled preference being set, however, we will stop using the disabled cookie to collect any further information.",
+  "cookies_set_in_the_past_title": "7. 과거에 설정된 쿠키",
+  "cookies_set_in_the_past_description": "하나 이상의 쿠키를 비활성화한 경우, 비활성화된 기본 설정이 설정되기 전에 쿠키에서 수집된 정보를 여전히 사용할 수 있습니다. 그러나 추가 정보를 수집하기 위해 비활성화된 쿠키는 사용을 중단할 것입니다.",
 
-  "contact_us_title": "8. Contact us",
-  "contact_us_description": "If you wish to contact us about this Cookies Policy and the use of cookies in the Services, please contact us at our social channel or email us at: inq@BlockBoost.io."
+  "contact_us_title": "8. 문의하기",
+  "contact_us_description": "이 쿠키 정책 및 서비스 내 쿠키 사용에 대해 문의하려면, 소셜 채널에서 연락하거나 이메일(inq@BlockBoost.io)로 연락해 주세요."
 }

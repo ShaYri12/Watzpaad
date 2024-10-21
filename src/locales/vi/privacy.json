@@ -1,92 +1,92 @@
 {
-  "privacy_policy_title": "Privacy Policy",
-  "privacy_policy_description": "This privacy policy (\"Policy\") informs you of your choices and our practices in relation to your Information (as defined below). For the purposes of this Policy, \"we\", \"us\", and \"our\" refer to \"BlockBoost\".",
+  "privacy_policy_title": "Chính Sách Bảo Mật",
+  "privacy_policy_description": "Chính sách bảo mật này (\"Chính sách\") thông báo cho bạn về các lựa chọn của bạn và các thực hành của chúng tôi liên quan đến Thông tin của bạn (như được định nghĩa bên dưới). Đối với mục đích của Chính sách này, \"chúng tôi\", \"của chúng tôi\" và \"của bạn\" ám chỉ đến \"BlockBoost\".",
 
-  "children_title": "Children",
+  "children_title": "Trẻ Em",
   "children_description": [
-    "Our services are not available for use by children and are intended for persons over the age of 18 years old, and 21 years old in some jurisdictions. Please refer to your country laws for age-appropriate guidance.",
-    "To comply with the current 'UK Data Protection Act' for Children, specifically the Age Appropriate Design Code (also known as the Children's Act), risks have been assessed. More information can be found at ICO Children's Code Hub.",
-    "This policy will explain areas of our app or website that may affect your privacy and personal details, how we process, collect, manage and store those details, and your rights in relation to your data."
+    "Dịch vụ của chúng tôi không dành cho trẻ em và được thiết kế cho những người từ 18 tuổi trở lên, và ở một số khu vực pháp lý là từ 21 tuổi trở lên. Vui lòng kiểm tra luật pháp của quốc gia bạn về các giới hạn độ tuổi.",
+    "Để tuân thủ 'Luật bảo vệ dữ liệu Vương quốc Anh' cho trẻ em, đặc biệt là Bộ quy tắc thiết kế theo độ tuổi (còn được gọi là Luật trẻ em), các rủi ro đã được đánh giá. Thông tin bổ sung có thể được tìm thấy trên trang web ICO Children's Code Hub.",
+    "Chính sách này sẽ giải thích các lĩnh vực của ứng dụng hoặc trang web của chúng tôi có thể ảnh hưởng đến quyền riêng tư và dữ liệu cá nhân của bạn, cách chúng tôi xử lý, thu thập, quản lý và lưu trữ dữ liệu đó, cũng như quyền của bạn đối với dữ liệu của bạn."
   ],
 
-  "personal_info_title": "Personal Information We Collect",
+  "personal_info_title": "Thông tin cá nhân mà chúng tôi thu thập",
   "personal_info_description": [
-    "We may collect and use the following Information about you:",
-    "• Information you provide to us, such as your name, mailing address, phone number, email address, and payment information.",
-    "• Information you provide via customer support channels, such as when contacting us via email.",
-    "• Information collected when you use our app or website, including cookies and location-based data.",
-    "• Information from third parties, including social media and analytics services like Google Analytics."
+    "Chúng tôi có thể thu thập và sử dụng thông tin sau về bạn:",
+    "• Thông tin bạn cung cấp cho chúng tôi, chẳng hạn như tên, địa chỉ, số điện thoại, địa chỉ email và thông tin thanh toán của bạn.",
+    "• Thông tin bạn cung cấp qua các kênh hỗ trợ khách hàng, chẳng hạn như khi bạn liên hệ với chúng tôi qua email.",
+    "• Thông tin thu thập được trong quá trình sử dụng ứng dụng hoặc trang web của chúng tôi, bao gồm cookie và dữ liệu dựa trên vị trí.",
+    "• Thông tin từ các bên thứ ba, bao gồm mạng xã hội và dịch vụ phân tích như Google Analytics."
   ],
 
-  "how_we_use_title": "How We Use Your Personal Information",
+  "how_we_use_title": "Chúng tôi sử dụng thông tin cá nhân của bạn như thế nào",
   "how_we_use_description": [
-    "We will only use your personal data when the law allows us to. Common reasons include:",
-    "• To provide you with our service, including access to our app via a virtual wallet.",
-    "• To improve and monitor the use of our services.",
-    "• To provide customer support and respond to your queries or complaints.",
-    "• To prevent fraud, defend legal claims, and comply with legal obligations.",
-    "• To conduct analytics and provide targeted advertising (with your consent)."
+    "Chúng tôi sẽ sử dụng dữ liệu cá nhân của bạn chỉ khi luật pháp cho phép chúng tôi làm như vậy. Các lý do chung bao gồm:",
+    "• Để cung cấp dịch vụ của chúng tôi cho bạn, bao gồm cả quyền truy cập vào ứng dụng của chúng tôi thông qua ví điện tử.",
+    "• Để cải thiện và giám sát việc sử dụng dịch vụ của chúng tôi.",
+    "• Để cung cấp hỗ trợ khách hàng và trả lời các yêu cầu hoặc khiếu nại của bạn.",
+    "• Để ngăn chặn gian lận, bảo vệ các yêu cầu pháp lý và tuân thủ các nghĩa vụ pháp lý.",
+    "• Để tiến hành phân tích và cung cấp quảng cáo theo mục tiêu (với sự đồng ý của bạn)."
   ],
 
-  "choices_title": "Your Choices About How Information is Used",
+  "choices_title": "Lựa chọn của bạn đối với việc sử dụng thông tin",
   "choices_description": [
-    "You have the following choices regarding how we use your information:",
-    "• Marketing Emails: You can opt-out of receiving promotional emails by using the \"unsubscribe\" feature in our marketing emails.",
-    "• Financial Incentives: We may run promotions that ask you to share personal information. Participation is voluntary."
+    "Bạn có những lựa chọn sau đây đối với cách chúng tôi sử dụng thông tin của bạn:",
+    "• Email tiếp thị: Bạn có thể từ chối nhận email tiếp thị bằng cách sử dụng tính năng \"hủy đăng ký\" trong các email tiếp thị của chúng tôi.",
+    "• Khuyến khích tài chính: Chúng tôi có thể tiến hành các chương trình khuyến mãi yêu cầu bạn chia sẻ thông tin cá nhân. Sự tham gia là tự nguyện."
   ],
 
-  "who_we_share_title": "Who We Share Your Personal Information With",
+  "who_we_share_title": "Chúng tôi chia sẻ thông tin cá nhân của bạn với ai",
   "who_we_share_description": [
-    "We may share your information with the following entities:",
-    "• Vendors and service providers (e.g., cloud services like AWS).",
-    "• Analytics providers (e.g., Google, Apple, AWS).",
-    "• Advertising partners (for ad-supported services).",
-    "• Law enforcement agencies or public authorities if required by law.",
-    "• Entities involved in mergers, acquisitions, or corporate reorganizations."
+    "Chúng tôi có thể chia sẻ thông tin của bạn với các đối tượng sau:",
+    "• Các nhà cung cấp và dịch vụ (chẳng hạn như dịch vụ đám mây như AWS).",
+    "• Các nhà cung cấp phân tích (chẳng hạn như Google, Apple, AWS).",
+    "• Các đối tác quảng cáo (đối với dịch vụ quảng cáo).",
+    "• Cơ quan thực thi pháp luật hoặc cơ quan chính phủ nếu pháp luật yêu cầu.",
+    "• Các đối tượng liên quan đến việc sáp nhập, mua lại hoặc tái tổ chức doanh nghiệp."
   ],
 
-  "security_title": "Security",
+  "security_title": "Bảo Mật",
   "security_description": [
-    "We have security measures in place to protect your information, but transmission over the internet is not completely secure.",
-    "We recommend using appropriate security measures when using our services."
+    "Chúng tôi có các biện pháp bảo mật để bảo vệ thông tin của bạn, nhưng việc truyền tải qua Internet không hoàn toàn an toàn.",
+    "Chúng tôi khuyên bạn nên sử dụng các biện pháp bảo mật thích hợp khi sử dụng dịch vụ của chúng tôi."
   ],
 
-  "where_we_process_title": "Where We Process Your Information",
+  "where_we_process_title": "Nơi chúng tôi xử lý thông tin của bạn",
   "where_we_process_description": [
-    "Your information will be processed by our employees and service providers (Apple, Google, AWS, Mailchimp).",
-    "If necessary, we ensure that your data is transferred to countries that provide adequate protection for personal data."
+    "Thông tin của bạn sẽ được xử lý bởi nhân viên và dịch vụ của chúng tôi (Apple, Google, AWS, Mailchimp).",
+    "Nếu cần, chúng tôi sẽ đảm bảo rằng dữ liệu của bạn được chuyển đến các quốc gia có bảo vệ đầy đủ cho dữ liệu cá nhân."
   ],
 
-  "how_long_we_store_title": "How Long We Store Your Information",
+  "how_long_we_store_title": "Chúng tôi lưu trữ thông tin của bạn trong bao lâu",
   "how_long_we_store_description": [
-    "We store your information for up to 6 years.",
-    "When deleting information, we take measures to make it irrecoverable or irreproducible."
+    "Chúng tôi lưu trữ thông tin của bạn trong vòng 6 năm.",
+    "Khi xóa thông tin, chúng tôi thực hiện các biện pháp để làm cho nó không thể phục hồi hoặc không thể tái lập."
   ],
 
-  "your_rights_title": "Your Rights",
+  "your_rights_title": "Quyền của bạn",
   "your_rights_description": [
-    "You have the following rights under data protection laws:",
-    "• The right to request access to your personal data.",
-    "• The right to request correction of your personal data.",
-    "• The right to request erasure of your personal data.",
-    "• The right to object to processing of your personal data.",
-    "• The right to request restriction of processing of your personal data.",
-    "• The right to request transfer of your personal data.",
-    "• The right to withdraw consent at any time."
+    "Bạn có các quyền sau đây theo luật bảo vệ dữ liệu:",
+    "• Quyền yêu cầu truy cập vào thông tin cá nhân của bạn.",
+    "• Quyền yêu cầu sửa đổi thông tin cá nhân của bạn.",
+    "• Quyền yêu cầu xóa thông tin cá nhân của bạn.",
+    "• Quyền phản đối việc xử lý thông tin cá nhân của bạn.",
+    "• Quyền yêu cầu hạn chế việc xử lý thông tin cá nhân của bạn.",
+    "• Quyền yêu cầu chuyển giao thông tin cá nhân của bạn.",
+    "• Quyền rút lại sự đồng ý bất cứ lúc nào."
   ],
 
-  "california_privacy_rights_title": "California Privacy Rights (Addendum 1)",
-  "california_privacy_rights_description": "The terms of this addendum apply to residents of California under the California Consumer Privacy Act (CCPA). For the purposes of this addendum, Personal Information means information that identifies or is linked to a particular consumer or household.",
+  "california_privacy_rights_title": "Quyền bảo mật ở California (Phụ lục 1)",
+  "california_privacy_rights_description": "Điều khoản của phụ lục này áp dụng cho cư dân California theo Đạo luật bảo mật thông tin người tiêu dùng California (CCPA). Đối với mục đích của phụ lục này, thông tin cá nhân có nghĩa là thông tin xác định hoặc liên quan đến một người tiêu dùng hoặc hộ gia đình cụ thể.",
 
-  "brazil_privacy_rights_title": "Brazil Privacy Rights (Addendum 2)",
-  "brazil_privacy_rights_description": "The terms of this addendum apply to residents of Brazil under the Lei Geral de Proteção de Dados (LGPD). You have the right to ask whether we hold your personal information and request its deletion, restriction, or correction.",
+  "brazil_privacy_rights_title": "Quyền bảo mật ở Brazil (Phụ lục 2)",
+  "brazil_privacy_rights_description": "Điều khoản của phụ lục này áp dụng cho cư dân Brazil theo Đạo luật bảo vệ dữ liệu chung (LGPD). Bạn có quyền yêu cầu biết chúng tôi có lưu giữ thông tin cá nhân của bạn hay không, và yêu cầu xóa, hạn chế hoặc sửa đổi thông tin đó.",
 
-  "contact_title": "Contact & Complaints",
+  "contact_title": "Liên hệ và khiếu nại",
   "contact_description": [
-    "If you have any questions or complaints regarding this policy, please contact us at inq@BlockBoost.io.",
-    "If you wish to make a complaint about how we process your information, we will aim to respond within 30 days."
+    "Nếu bạn có câu hỏi hoặc khiếu nại liên quan đến chính sách này, vui lòng liên hệ với chúng tôi qua địa chỉ inq@BlockBoost.io.",
+    "Nếu bạn muốn gửi khiếu nại về cách chúng tôi xử lý thông tin của bạn, chúng tôi sẽ cố gắng trả lời trong vòng 30 ngày."
   ],
 
-  "changes_title": "Changes to this Policy",
-  "changes_description": "Any updates or changes to this policy will be published here."
+  "changes_title": "Thay đổi đối với chính sách này",
+  "changes_description": "Bất kỳ bản cập nhật hoặc thay đổi nào đối với chính sách này sẽ được công bố tại đây."
 }

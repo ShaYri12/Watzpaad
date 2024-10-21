@@ -1,92 +1,92 @@
 {
-  "privacy_policy_title": "Privacy Policy",
-  "privacy_policy_description": "This privacy policy (\"Policy\") informs you of your choices and our practices in relation to your Information (as defined below). For the purposes of this Policy, \"we\", \"us\", and \"our\" refer to \"BlockBoost\".",
+  "privacy_policy_title": "Política de Privacidade",
+  "privacy_policy_description": "Esta política de privacidade (\"Política\") informa você sobre suas escolhas e nossas práticas em relação às suas Informações (como definido abaixo). Para os fins desta Política, \"nós\", \"nos\" e \"nosso\" referem-se a \"BlockBoost\".",
 
-  "children_title": "Children",
+  "children_title": "Crianças",
   "children_description": [
-    "Our services are not available for use by children and are intended for persons over the age of 18 years old, and 21 years old in some jurisdictions. Please refer to your country laws for age-appropriate guidance.",
-    "To comply with the current 'UK Data Protection Act' for Children, specifically the Age Appropriate Design Code (also known as the Children's Act), risks have been assessed. More information can be found at ICO Children's Code Hub.",
-    "This policy will explain areas of our app or website that may affect your privacy and personal details, how we process, collect, manage and store those details, and your rights in relation to your data."
+    "Nossos serviços não estão disponíveis para uso por crianças e são destinados a pessoas com mais de 18 anos, e 21 anos em algumas jurisdições. Consulte as leis do seu país para orientações adequadas à idade.",
+    "Para cumprir a atual 'Lei de Proteção de Dados do Reino Unido' para crianças, especificamente o Código de Design Apropriado à Idade (também conhecido como a Lei das Crianças), os riscos foram avaliados. Mais informações podem ser encontradas no Hub do Código das Crianças da ICO.",
+    "Esta política explicará áreas de nosso aplicativo ou site que podem afetar sua privacidade e detalhes pessoais, como processamos, coletamos, gerenciamos e armazenamos esses detalhes, e seus direitos em relação a seus dados."
   ],
 
-  "personal_info_title": "Personal Information We Collect",
+  "personal_info_title": "Informações Pessoais que Coletamos",
   "personal_info_description": [
-    "We may collect and use the following Information about you:",
-    "• Information you provide to us, such as your name, mailing address, phone number, email address, and payment information.",
-    "• Information you provide via customer support channels, such as when contacting us via email.",
-    "• Information collected when you use our app or website, including cookies and location-based data.",
-    "• Information from third parties, including social media and analytics services like Google Analytics."
+    "Podemos coletar e usar as seguintes informações sobre você:",
+    "• Informações que você nos fornece, como nome, endereço, número de telefone, endereço de e-mail e informações de pagamento.",
+    "• Informações que você fornece por meio de canais de suporte ao cliente, como quando nos contata por e-mail.",
+    "• Informações coletadas quando você usa nosso aplicativo ou site, incluindo cookies e dados de localização.",
+    "• Informações de terceiros, incluindo redes sociais e serviços de análise, como o Google Analytics."
   ],
 
-  "how_we_use_title": "How We Use Your Personal Information",
+  "how_we_use_title": "Como Usamos Suas Informações Pessoais",
   "how_we_use_description": [
-    "We will only use your personal data when the law allows us to. Common reasons include:",
-    "• To provide you with our service, including access to our app via a virtual wallet.",
-    "• To improve and monitor the use of our services.",
-    "• To provide customer support and respond to your queries or complaints.",
-    "• To prevent fraud, defend legal claims, and comply with legal obligations.",
-    "• To conduct analytics and provide targeted advertising (with your consent)."
+    "Usaremos seus dados pessoais apenas quando a lei nos permitir. Os motivos típicos incluem:",
+    "• Para fornecer nossos serviços, incluindo acesso ao nosso aplicativo através de uma carteira virtual.",
+    "• Para melhorar e monitorar o uso de nossos serviços.",
+    "• Para fornecer suporte ao cliente e responder a suas perguntas ou reclamações.",
+    "• Para prevenir fraudes, defender reivindicações legais e cumprir obrigações legais.",
+    "• Para realizar análises e fornecer publicidade direcionada (com seu consentimento)."
   ],
 
-  "choices_title": "Your Choices About How Information is Used",
+  "choices_title": "Suas Opções sobre o Uso de Informações",
   "choices_description": [
-    "You have the following choices regarding how we use your information:",
-    "• Marketing Emails: You can opt-out of receiving promotional emails by using the \"unsubscribe\" feature in our marketing emails.",
-    "• Financial Incentives: We may run promotions that ask you to share personal information. Participation is voluntary."
+    "Você tem as seguintes opções sobre como usamos suas informações:",
+    "• E-mails de marketing: Você pode optar por não receber e-mails promocionais usando a função \"cancelar inscrição\" em nossos e-mails de marketing.",
+    "• Incentivos financeiros: Podemos realizar promoções que solicitam que você forneça informações pessoais. A participação é voluntária."
   ],
 
-  "who_we_share_title": "Who We Share Your Personal Information With",
+  "who_we_share_title": "Com Quem Compartilhamos Suas Informações Pessoais",
   "who_we_share_description": [
-    "We may share your information with the following entities:",
-    "• Vendors and service providers (e.g., cloud services like AWS).",
-    "• Analytics providers (e.g., Google, Apple, AWS).",
-    "• Advertising partners (for ad-supported services).",
-    "• Law enforcement agencies or public authorities if required by law.",
-    "• Entities involved in mergers, acquisitions, or corporate reorganizations."
+    "Podemos compartilhar suas informações com as seguintes partes:",
+    "• Fornecedores de serviços (por exemplo, serviços de nuvem, como AWS).",
+    "• Fornecedores de análises (por exemplo, Google, Apple, AWS).",
+    "• Parceiros de publicidade (para serviços suportados por anúncios).",
+    "• Autoridades policiais ou públicas, se exigido por lei.",
+    "• Entidades envolvidas em fusões, aquisições ou reorganizações corporativas."
   ],
 
-  "security_title": "Security",
+  "security_title": "Segurança",
   "security_description": [
-    "We have security measures in place to protect your information, but transmission over the internet is not completely secure.",
-    "We recommend using appropriate security measures when using our services."
+    "Implementamos medidas de segurança para proteger suas informações, mas o envio pela internet não é totalmente seguro.",
+    "Recomendamos que você tome as devidas precauções de segurança ao usar nossos serviços."
   ],
 
-  "where_we_process_title": "Where We Process Your Information",
+  "where_we_process_title": "Onde Processamos Suas Informações",
   "where_we_process_description": [
-    "Your information will be processed by our employees and service providers (Apple, Google, AWS, Mailchimp).",
-    "If necessary, we ensure that your data is transferred to countries that provide adequate protection for personal data."
+    "Suas informações serão processadas por nossos funcionários e prestadores de serviços (Apple, Google, AWS, Mailchimp).",
+    "Quando necessário, garantimos que seus dados sejam transferidos para países que oferecem proteção adequada de dados pessoais."
   ],
 
-  "how_long_we_store_title": "How Long We Store Your Information",
+  "how_long_we_store_title": "Por Quanto Tempo Armazenamos Suas Informações",
   "how_long_we_store_description": [
-    "We store your information for up to 6 years.",
-    "When deleting information, we take measures to make it irrecoverable or irreproducible."
+    "Armazenamos suas informações por um período máximo de 6 anos.",
+    "Ao excluir informações, tomamos medidas para que elas se tornem irrecuperáveis ou não possam ser restauradas."
   ],
 
-  "your_rights_title": "Your Rights",
+  "your_rights_title": "Seus Direitos",
   "your_rights_description": [
-    "You have the following rights under data protection laws:",
-    "• The right to request access to your personal data.",
-    "• The right to request correction of your personal data.",
-    "• The right to request erasure of your personal data.",
-    "• The right to object to processing of your personal data.",
-    "• The right to request restriction of processing of your personal data.",
-    "• The right to request transfer of your personal data.",
-    "• The right to withdraw consent at any time."
+    "Você tem os seguintes direitos sob as leis de proteção de dados:",
+    "• Direito de solicitar acesso aos seus dados pessoais.",
+    "• Direito de solicitar correção de seus dados pessoais.",
+    "• Direito de solicitar exclusão de seus dados pessoais.",
+    "• Direito de se opor ao processamento de seus dados pessoais.",
+    "• Direito de solicitar restrição ao processamento de seus dados pessoais.",
+    "• Direito de solicitar a transferência de seus dados pessoais.",
+    "• Direito de retirar seu consentimento a qualquer momento."
   ],
 
-  "california_privacy_rights_title": "California Privacy Rights (Addendum 1)",
-  "california_privacy_rights_description": "The terms of this addendum apply to residents of California under the California Consumer Privacy Act (CCPA). For the purposes of this addendum, Personal Information means information that identifies or is linked to a particular consumer or household.",
+  "california_privacy_rights_title": "Direitos de Privacidade na Califórnia (Anexo 1)",
+  "california_privacy_rights_description": "Os termos deste anexo se aplicam aos residentes da Califórnia sob a Lei de Privacidade do Consumidor da Califórnia (CCPA). Para fins deste anexo, Informações Pessoais significam informações que identificam ou estão relacionadas a um consumidor ou domicílio específico.",
 
-  "brazil_privacy_rights_title": "Brazil Privacy Rights (Addendum 2)",
-  "brazil_privacy_rights_description": "The terms of this addendum apply to residents of Brazil under the Lei Geral de Proteção de Dados (LGPD). You have the right to ask whether we hold your personal information and request its deletion, restriction, or correction.",
+  "brazil_privacy_rights_title": "Direitos de Privacidade no Brasil (Anexo 2)",
+  "brazil_privacy_rights_description": "Os termos deste anexo se aplicam aos residentes do Brasil sob a Lei Geral de Proteção de Dados (LGPD). Você tem o direito de perguntar se possuímos seus dados pessoais e solicitar sua exclusão, restrição ou correção.",
 
-  "contact_title": "Contact & Complaints",
+  "contact_title": "Contato e Reclamações",
   "contact_description": [
-    "If you have any questions or complaints regarding this policy, please contact us at inq@BlockBoost.io.",
-    "If you wish to make a complaint about how we process your information, we will aim to respond within 30 days."
+    "Se você tiver dúvidas ou reclamações sobre esta política, entre em contato conosco em inq@BlockBoost.io.",
+    "Se você quiser fazer uma reclamação sobre como processamos suas informações, faremos o nosso melhor para responder dentro de 30 dias."
   ],
 
-  "changes_title": "Changes to this Policy",
-  "changes_description": "Any updates or changes to this policy will be published here."
+  "changes_title": "Mudanças nesta Política",
+  "changes_description": "Quaisquer atualizações ou alterações nesta política serão publicadas aqui."
 }

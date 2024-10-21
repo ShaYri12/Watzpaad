@@ -1,92 +1,92 @@
 {
-  "privacy_policy_title": "Privacy Policy",
-  "privacy_policy_description": "This privacy policy (\"Policy\") informs you of your choices and our practices in relation to your Information (as defined below). For the purposes of this Policy, \"we\", \"us\", and \"our\" refer to \"BlockBoost\".",
+  "privacy_policy_title": "นโยบายความเป็นส่วนตัว",
+  "privacy_policy_description": "นโยบายความเป็นส่วนตัวนี้ (\"นโยบาย\") จะแจ้งให้คุณทราบเกี่ยวกับทางเลือกและวิธีการปฏิบัติของเราที่เกี่ยวข้องกับข้อมูลของคุณ (ตามที่กำหนดไว้ด้านล่าง) สำหรับวัตถุประสงค์ของนโยบายนี้ \"เรา\", \"ของเรา\" หมายถึง \"BlockBoost\".",
 
-  "children_title": "Children",
+  "children_title": "เด็ก",
   "children_description": [
-    "Our services are not available for use by children and are intended for persons over the age of 18 years old, and 21 years old in some jurisdictions. Please refer to your country laws for age-appropriate guidance.",
-    "To comply with the current 'UK Data Protection Act' for Children, specifically the Age Appropriate Design Code (also known as the Children's Act), risks have been assessed. More information can be found at ICO Children's Code Hub.",
-    "This policy will explain areas of our app or website that may affect your privacy and personal details, how we process, collect, manage and store those details, and your rights in relation to your data."
+    "บริการของเราไม่สามารถใช้ได้สำหรับเด็กและตั้งใจให้บุคคลที่มีอายุ 18 ปีขึ้นไป และ 21 ปีในบางเขตอำนาจศาล โปรดดูข้อมูลตามอายุในกฎหมายของประเทศของคุณ",
+    "เพื่อปฏิบัติตาม 'พระราชบัญญัติคุ้มครองข้อมูลของสหราชอาณาจักร' สำหรับเด็ก โดยเฉพาะรหัสการออกแบบที่เหมาะสมตามอายุ (หรือที่รู้จักกันในชื่อพระราชบัญญัติเด็ก) ได้มีการประเมินความเสี่ยง ข้อมูลเพิ่มเติมสามารถพบได้ที่ ICO Children's Code Hub",
+    "นโยบายนี้จะอธิบายถึงพื้นที่ของแอปหรือเว็บไซต์ของเราที่อาจมีผลกระทบต่อความเป็นส่วนตัวและข้อมูลส่วนบุคคลของคุณ วิธีที่เราประมวลผล รวบรวม จัดการ และจัดเก็บข้อมูลเหล่านั้น และสิทธิ์ของคุณที่เกี่ยวข้องกับข้อมูลของคุณ"
   ],
 
-  "personal_info_title": "Personal Information We Collect",
+  "personal_info_title": "ข้อมูลส่วนบุคคลที่เรารวบรวม",
   "personal_info_description": [
-    "We may collect and use the following Information about you:",
-    "• Information you provide to us, such as your name, mailing address, phone number, email address, and payment information.",
-    "• Information you provide via customer support channels, such as when contacting us via email.",
-    "• Information collected when you use our app or website, including cookies and location-based data.",
-    "• Information from third parties, including social media and analytics services like Google Analytics."
+    "เราสามารถรวบรวมและใช้ข้อมูลต่อไปนี้เกี่ยวกับคุณ:",
+    "• ข้อมูลที่คุณให้กับเรา เช่น ชื่อ ที่อยู่ หมายเลขโทรศัพท์ ที่อยู่อีเมล และข้อมูลการชำระเงิน",
+    "• ข้อมูลที่คุณให้ผ่านช่องทางบริการลูกค้า เช่น เมื่อคุณติดต่อเราทางอีเมล",
+    "• ข้อมูลที่รวบรวมเมื่อคุณใช้แอปหรือเว็บไซต์ของเรา รวมถึงคุกกี้และข้อมูลตามตำแหน่ง",
+    "• ข้อมูลจากบุคคลที่สาม รวมถึงโซเชียลมีเดียและบริการวิเคราะห์ เช่น Google Analytics"
   ],
 
-  "how_we_use_title": "How We Use Your Personal Information",
+  "how_we_use_title": "เราใช้ข้อมูลส่วนบุคคลของคุณอย่างไร",
   "how_we_use_description": [
-    "We will only use your personal data when the law allows us to. Common reasons include:",
-    "• To provide you with our service, including access to our app via a virtual wallet.",
-    "• To improve and monitor the use of our services.",
-    "• To provide customer support and respond to your queries or complaints.",
-    "• To prevent fraud, defend legal claims, and comply with legal obligations.",
-    "• To conduct analytics and provide targeted advertising (with your consent)."
+    "เราจะใช้ข้อมูลส่วนบุคคลของคุณเฉพาะในกรณีที่กฎหมายอนุญาต สาเหตุทั่วไปได้แก่:",
+    "• การให้บริการของเรา รวมถึงการเข้าถึงแอปของเราผ่านกระเป๋าเงินดิจิทัล",
+    "• การปรับปรุงและติดตามการใช้บริการของเรา",
+    "• การให้บริการลูกค้าและการตอบสนองต่อคำถามหรือข้อร้องเรียนของคุณ",
+    "• การป้องกันการฉ้อโกง การปกป้องข้อเรียกร้องทางกฎหมาย และการปฏิบัติตามข้อกำหนดทางกฎหมาย",
+    "• การดำเนินการวิเคราะห์และการให้โฆษณาที่ตรงเป้าหมาย (ด้วยความยินยอมของคุณ)"
   ],
 
-  "choices_title": "Your Choices About How Information is Used",
+  "choices_title": "ทางเลือกของคุณเกี่ยวกับการใช้ข้อมูล",
   "choices_description": [
-    "You have the following choices regarding how we use your information:",
-    "• Marketing Emails: You can opt-out of receiving promotional emails by using the \"unsubscribe\" feature in our marketing emails.",
-    "• Financial Incentives: We may run promotions that ask you to share personal information. Participation is voluntary."
+    "คุณมีตัวเลือกดังต่อไปนี้เกี่ยวกับการที่เราจะใช้ข้อมูลของคุณ:",
+    "• อีเมลการตลาด: คุณสามารถเลือกไม่รับอีเมลประชาสัมพันธ์โดยใช้ฟังก์ชัน \"ยกเลิกการสมัคร\" ในอีเมลการตลาดของเรา",
+    "• แรงจูงใจทางการเงิน: เราอาจจัดโปรโมชั่นที่ขอให้คุณแบ่งปันข้อมูลส่วนบุคคล การเข้าร่วมเป็นไปโดยสมัครใจ"
   ],
 
-  "who_we_share_title": "Who We Share Your Personal Information With",
+  "who_we_share_title": "เราจะแบ่งปันข้อมูลส่วนบุคคลของคุณกับใคร",
   "who_we_share_description": [
-    "We may share your information with the following entities:",
-    "• Vendors and service providers (e.g., cloud services like AWS).",
-    "• Analytics providers (e.g., Google, Apple, AWS).",
-    "• Advertising partners (for ad-supported services).",
-    "• Law enforcement agencies or public authorities if required by law.",
-    "• Entities involved in mergers, acquisitions, or corporate reorganizations."
+    "เราอาจแบ่งปันข้อมูลของคุณกับองค์กรต่อไปนี้:",
+    "• ผู้ให้บริการ (เช่น บริการคลาวด์ เช่น AWS)",
+    "• ผู้ให้บริการวิเคราะห์ (เช่น Google, Apple, AWS)",
+    "• พันธมิตรโฆษณา (สำหรับบริการที่ได้รับการสนับสนุนโดยโฆษณา)",
+    "• หน่วยงานบังคับใช้กฎหมายหรือหน่วยงานรัฐบาลตามที่กฎหมายกำหนด",
+    "• องค์กรที่เกี่ยวข้องในธุรกรรมการควบรวมกิจการ การเข้าซื้อกิจการ หรือการจัดระเบียบองค์กร"
   ],
 
-  "security_title": "Security",
+  "security_title": "ความปลอดภัย",
   "security_description": [
-    "We have security measures in place to protect your information, but transmission over the internet is not completely secure.",
-    "We recommend using appropriate security measures when using our services."
+    "เรามีมาตรการรักษาความปลอดภัยเพื่อปกป้องข้อมูลของคุณ แต่การส่งข้อมูลทางอินเทอร์เน็ตไม่สามารถมั่นใจได้อย่างสมบูรณ์",
+    "เราขอแนะนำให้คุณใช้มาตรการรักษาความปลอดภัยที่เหมาะสมเมื่อใช้บริการของเรา"
   ],
 
-  "where_we_process_title": "Where We Process Your Information",
+  "where_we_process_title": "ที่ที่เราประมวลผลข้อมูลของคุณ",
   "where_we_process_description": [
-    "Your information will be processed by our employees and service providers (Apple, Google, AWS, Mailchimp).",
-    "If necessary, we ensure that your data is transferred to countries that provide adequate protection for personal data."
+    "ข้อมูลของคุณจะถูกประมวลผลโดยพนักงานและผู้ให้บริการของเรา (Apple, Google, AWS, Mailchimp)",
+    "ถ้าจำเป็นเราจะรับรองว่าข้อมูลของคุณถูกส่งไปยังประเทศที่มีการคุ้มครองข้อมูลส่วนบุคคลที่เพียงพอ"
   ],
 
-  "how_long_we_store_title": "How Long We Store Your Information",
+  "how_long_we_store_title": "เราจะเก็บข้อมูลของคุณนานแค่ไหน",
   "how_long_we_store_description": [
-    "We store your information for up to 6 years.",
-    "When deleting information, we take measures to make it irrecoverable or irreproducible."
+    "เราจะเก็บข้อมูลของคุณนานถึง 6 ปี",
+    "เมื่อเราลบข้อมูล เราจะใช้มาตรการเพื่อทำให้ข้อมูลนั้นไม่สามารถกู้คืนได้หรือทำซ้ำได้"
   ],
 
-  "your_rights_title": "Your Rights",
+  "your_rights_title": "สิทธิของคุณ",
   "your_rights_description": [
-    "You have the following rights under data protection laws:",
-    "• The right to request access to your personal data.",
-    "• The right to request correction of your personal data.",
-    "• The right to request erasure of your personal data.",
-    "• The right to object to processing of your personal data.",
-    "• The right to request restriction of processing of your personal data.",
-    "• The right to request transfer of your personal data.",
-    "• The right to withdraw consent at any time."
+    "คุณมีสิทธิ์ดังต่อไปนี้ตามกฎหมายคุ้มครองข้อมูล:",
+    "• สิทธิในการขอเข้าถึงข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการขอให้แก้ไขข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการขอให้ลบข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการคัดค้านการประมวลผลข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการขอให้จำกัดการประมวลผลข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการขอการถ่ายโอนข้อมูลส่วนบุคคลของคุณ",
+    "• สิทธิในการเพิกถอนความยินยอมได้ตลอดเวลา"
   ],
 
-  "california_privacy_rights_title": "California Privacy Rights (Addendum 1)",
-  "california_privacy_rights_description": "The terms of this addendum apply to residents of California under the California Consumer Privacy Act (CCPA). For the purposes of this addendum, Personal Information means information that identifies or is linked to a particular consumer or household.",
+  "california_privacy_rights_title": "สิทธิความเป็นส่วนตัวในแคลิฟอร์เนีย (ภาคผนวก 1)",
+  "california_privacy_rights_description": "เงื่อนไขในภาคผนวกนี้ใช้กับผู้ที่อาศัยอยู่ในแคลิฟอร์เนียตามกฎหมายคุ้มครองผู้บริโภคในแคลิฟอร์เนีย (CCPA) สำหรับภาคผนวกนี้ ข้อมูลส่วนบุคคลหมายถึงข้อมูลที่ระบุหรือเกี่ยวข้องกับผู้บริโภคหรือครัวเรือนเฉพาะ",
 
-  "brazil_privacy_rights_title": "Brazil Privacy Rights (Addendum 2)",
-  "brazil_privacy_rights_description": "The terms of this addendum apply to residents of Brazil under the Lei Geral de Proteção de Dados (LGPD). You have the right to ask whether we hold your personal information and request its deletion, restriction, or correction.",
+  "brazil_privacy_rights_title": "สิทธิความเป็นส่วนตัวในบราซิล (ภาคผนวก 2)",
+  "brazil_privacy_rights_description": "เงื่อนไขในภาคผนวกนี้ใช้กับผู้ที่อาศัยอยู่ในบราซิลตามกฎหมายคุ้มครองข้อมูล (LGPD) คุณมีสิทธิ์ในการขอทราบว่าเรามีข้อมูลส่วนบุคคลของคุณหรือไม่ และเรียกร้องการลบ ข้อจำกัด หรือการแก้ไขข้อมูลนั้น",
 
-  "contact_title": "Contact & Complaints",
+  "contact_title": "การติดต่อและข้อร้องเรียน",
   "contact_description": [
-    "If you have any questions or complaints regarding this policy, please contact us at inq@BlockBoost.io.",
-    "If you wish to make a complaint about how we process your information, we will aim to respond within 30 days."
+    "หากคุณมีคำถามหรือข้อร้องเรียนใด ๆ เกี่ยวกับนโยบายนี้ โปรดติดต่อเราที่ inq@BlockBoost.io",
+    "หากคุณต้องการยื่นเรื่องร้องเรียนเกี่ยวกับวิธีการประมวลผลข้อมูลของเรา เราจะพยายามตอบกลับในระยะเวลา 30 วัน"
   ],
 
-  "changes_title": "Changes to this Policy",
-  "changes_description": "Any updates or changes to this policy will be published here."
+  "changes_title": "การเปลี่ยนแปลงในนโยบายนี้",
+  "changes_description": "การอัปเดตหรือการเปลี่ยนแปลงใด ๆ ในบรรทัดฐานนี้จะถูกเผยแพร่ที่นี่"
 }

@@ -1,13 +1,63 @@
 {
-  "terms_and_conditions_title": "Allgemeine Geschäftsbedingungen",
-  "terms_and_conditions_description": "Sie sollten diese Bedingungen lesen, da sie unsere rechtlichen Verpflichtungen Ihnen gegenüber sowie eine Reihe von Dingen, die Sie tun und nicht tun sollten, enthalten, wenn Sie unsere Dienste nutzen. Bitte lesen Sie diese Bedingungen sorgfältig durch, um sicherzustellen, dass Sie sie verstehen. Durch die Nutzung unserer Dienste erklären Sie sich automatisch damit einverstanden und sind rechtlich an diese Bedingungen gebunden. Zur Vermeidung von Missverständnissen: Wenn Sie mit den Bedingungen nicht einverstanden sind, sollten Sie unsere Dienste nicht weiter nutzen.\n\nSie sollten auch unsere Datenschutzerklärung lesen. Die Datenschutzerklärung erklärt, wie wir Ihre persönlichen Daten verwenden. Wenn Sie der Meinung sind, dass in diesen Bedingungen ein Fehler vorliegt oder Sie Fragen haben, kontaktieren Sie uns bitte. Wenn wir Sie kontaktieren müssen, tun wir dies schriftlich an die E-Mail-Adresse, die Sie uns angegeben haben. Es ist daher sehr wichtig, dass Sie bestätigen, dass Sie eine legitime E-Mail-Adresse angegeben haben, die Sie persönlich nutzen, und durch die weitere Nutzung unserer Dienste garantieren Sie, dass Sie dies getan haben. Wir werden Sie nur kontaktieren, wenn Sie ausdrücklich zugestimmt haben, von uns kontaktiert zu werden. Die einzige andere Zeit, in der Sie E-Mails erhalten, ist, wenn Sie sich für unseren Newsletter und Updates angemeldet haben.\n\nWenn wir in diesen Bedingungen 'schriftlich' oder 'geschrieben' verwenden, schließt dies E-Mails ein.",
+  "terms_and_conditions_title": "Termos e Condições",
+  "terms_and_conditions_description": "Por favor, leia atentamente estes termos. Eles contêm nossas obrigações legais para com você, bem como o que você pode ou deve fazer, e o que você não deve fazer ao usar nossos serviços. Certifique-se de ler e entender completamente estes termos. Ao usar nossos serviços, você automaticamente concorda com estes termos e reconhece que eles são legalmente vinculativos para você. Para maior clareza, se você não concorda com estes termos, não pode usar ou acessar nossos serviços. \n\nVocê também deve ler nossa política de privacidade. A política de privacidade explica como usamos seus dados pessoais. Se você tiver quaisquer erros nesses termos ou tiver perguntas, entre em contato conosco. Quando precisarmos nos comunicar com você, faremos isso através do e-mail que você forneceu. Portanto, é muito importante garantir que o endereço de e-mail fornecido esteja atualizado. Peço que você use nossos serviços regularmente para confirmar isso. Entraremos em contato com você apenas se você nos permitir explicitamente. E-mails adicionais só serão enviados se você se inscrever em nosso boletim informativo ou atualizações. Quando usamos as palavras “por escrito” ou “escrito”, também nos referimos a e-mails.",
 
-  "buying_coins_title": "Nutzung unseres Dienstes / Kauf von Coins",
-  "buying_coins_description": "Um unseren Dienst nutzen zu können, benötigen Sie ein virtuelles Wallet. Wir weisen darauf hin, dass Wallets Drittanbieterdienste sind, und empfehlen Ihnen, deren Nutzungsbedingungen zu lesen.",
+  "changes_to_terms_title": "Mudanças nos Termos",
+  "changes_to_terms_description": "Podemos atualizar e modificar estes termos de tempos em tempos. A versão mais recente dos termos será publicada nas páginas da web e aplicativos apropriados. Para continuar usando o serviço, pode ser necessário confirmar novamente e aceitar os termos alterados. Sempre é recomendável verificar regularmente nosso site e aplicativo para identificar quaisquer alterações. Você também pode imprimir e manter uma cópia destes termos para referência futura. O serviço pode exigir atualizações de software, mas apenas quando o serviço continuar conforme a descrição fornecida anteriormente. O software relevante pode ser atualizado para refletir uma mudança de sistema operacional. Ao continuar usando o serviço, consideramos que você aceita quaisquer futuras alterações a estes termos.",
 
-  "security_title": "Sicherheit",
-  "security_description": "Sicherheit ist Rexas wichtig, und daher erklären Sie sich damit einverstanden, Ihren Wallet-Zugang nicht mit einem anderen Nutzer oder Drittanbieter zu teilen oder wissentlich eine Handlung vorzunehmen, die es einem Dritten ermöglicht, auf Ihr Konto zuzugreifen oder es zu nutzen. Sollten wir nach eigenem Ermessen der Meinung sein, dass Ihr Konto unangemessen genutzt wird, behalten wir uns das Recht vor, Ihr Konto ohne Haftung zu sperren, zu kündigen oder nicht weiter zu unterstützen.\n\nWir können die Identitäten der Personen, die unsere Dienste nutzen, nicht überprüfen und übernehmen keine Haftung, wenn jemand anderes Ihre Wallet-Verbindung oder Ihr Konto nutzt. Wenn Sie eine unautorisierte Nutzung Ihres Logins bemerken, sollten Sie uns sofort unter admin@rexas.com benachrichtigen und 'Sicherheitsverletzung' als Betreffzeile verwenden. Bitte beachten Sie, dass wir möglicherweise Ihre Identität überprüfen und den Besitz des Kontos validieren müssen. Seien Sie vorsichtig bei anderen Websites und Diensten, die vorgeben, wir zu sein oder mit uns in Verbindung zu stehen.",
+  "buying_coins_title": "Uso do Serviço / Compra de Moedas",
+  "buying_coins_description": "Para usar o serviço, você deve ter uma carteira virtual. A carteira é um serviço de terceiros, por favor, revise os termos de uso.",
 
-  "removing_data_title": "Daten entfernen",
-  "removing_data_description": "Wenn Sie möchten, dass wir alle Daten, die wir über Sie haben, löschen, kontaktieren Sie uns bitte per E-Mail an admin@rexas.com. Auch wenn wir bei der Anmeldung zur Nutzung unseres Dienstes keine persönlichen oder identifizierbaren Informationen benötigen, können wir dennoch Ihre Daten speichern, wenn Sie uns eine E-Mail-Adresse mitgeteilt oder uns die Erlaubnis erteilt haben, Sie zu kontaktieren. Wenn Sie möchten, dass Ihre Daten gelöscht werden, müssen Sie dies in Ihrer E-Mail angeben. Wenn Sie keine Löschung verlangen, werden wir diese Informationen gemäß unserer Datenschutzrichtlinie aufbewahren."
+  "security_title": "Segurança",
+  "security_description": "A segurança é importante para nós, portanto, você concorda em não compartilhar o acesso à sua carteira e não tomar medidas que possam intencionalmente encorajar outros usuários ou terceiros a acessar ou usar sua conta. Reservamo-nos o direito de suspender ou encerrar a conta a nosso critério, se considerarmos que sua conta foi utilizada inadequadamente.\n\nNão podemos verificar a identidade das pessoas que usam nossos serviços e não nos responsabilizamos pelo uso de sua carteira ou conta por outras pessoas. Se você acredita que suas informações de identificação foram usadas sem o seu consentimento, entre em contato imediatamente conosco pelo e-mail inq@BlockBoost.io. No assunto da mensagem, escreva “Violação de Segurança”. Pode ser necessário confirmar a identidade ou verificar os direitos à conta. Fique atento a indivíduos e outros sites relacionados ao uso dos sites ou serviços.",
+
+  "removing_data_title": "Remoção de Dados",
+  "removing_data_description": "Se você deseja remover os dados que temos sobre você, envie um e-mail para inq@BlockBoost.io. No entanto, não coletamos dados pessoais ou identificáveis ao usar o serviço, mas podemos armazenar alguns detalhes se você forneceu seu endereço de e-mail ou concordou em nos contatar. Ao solicitar a remoção de dados, indique isso claramente no e-mail. Até que você solicite a remoção, manteremos essas informações de acordo com nossa política de privacidade.",
+
+  "rules_of_use_title": "Regras de Uso",
+  "rules_of_use_description": "Você concorda em seguir e cumprir as regras abaixo:",
+  "rules_of_use_list": [
+    "Não atacar outras pessoas pessoalmente.",
+    "Não assediar ou ameaçar outros usuários.",
+    "Não publicar conteúdo e imagens obscenos, pornográficos ou sexualmente sugestivos.",
+    "Não promover ou discutir atividades ilegais.",
+    "Não infringir os direitos de propriedade intelectual ou privacidade de terceiros.",
+    "Não introduzir vírus ou outros elementos prejudiciais.",
+    "Não usar a identidade de outras pessoas ou se passar por outra pessoa.",
+    "Não se envolver em spam, trolling ou outros comportamentos antissociais.",
+    "Não obter ou promover benefícios não autorizados para si mesmo ou terceiros."
+  ],
+
+  "violation_of_rules_title": "Violação das Regras",
+  "violation_of_rules_description": "Se você acredita que outro usuário está violando essas regras, informe-nos por e-mail em inq@BlockBoost.io. Não podemos garantir que outros usuários cumprirão essas regras e não somos responsáveis por violações por parte de outros usuários. Você é responsável por suas ações, assim como os outros usuários.",
+
+  "service_interruption_title": "Interrupção do Serviço",
+  "service_interruption_description": "A BlockBoost não garante que o serviço estará sempre disponível, contínuo, oportuno, seguro ou livre de erros e vírus. Pode haver interrupção na disponibilidade do serviço devido a problemas técnicos ou manutenção. Reservamo-nos o direito de modificar, suspender ou interromper a prestação de serviços específicos sem aviso prévio. Fazemos todos os esforços para garantir que nossos serviços não contenham vírus ou outros softwares maliciosos, no entanto, recomendamos que você use o software antivírus apropriado, se necessário.",
+
+  "prohibited_person_title": "Pessoa Proibida",
+  "prohibited_person_description": "\"Pessoa Proibida\" refere-se a uma pessoa natural ou jurídica que está sujeita a restrições específicas sob a lei dos Estados Unidos, da ONU, da UE ou de outras autoridades. Não faremos negócios com pessoas proibidas.",
+
+  "third_parties_title": "Terceiros",
+  "third_parties_description": "Algumas páginas podem conter links para sites ou serviços de terceiros. Esses links são fornecidos para sua conveniência, e a BlockBoost não se responsabiliza pelo conteúdo de terceiros. Por favor, revise os termos e a política de privacidade dos sites de terceiros antes de visitá-los. Não somos responsáveis por perdas ou danos resultantes de transações com terceiros.",
+
+  "limitation_of_liability_title": "Limitação de Responsabilidade",
+  "limitation_of_liability_description": "A BlockBoost não se responsabiliza por quaisquer danos especiais, acidentais ou consequenciais, independentemente da teoria de responsabilidade (contratual, delitual ou outra), incluindo perda de lucros, perda de receitas, perda de negócios, perda de dados, custos, responsabilidades e despesas (incluindo honorários advocatícios) de qualquer forma relacionados ao uso dos serviços. Você concorda que a totalidade da responsabilidade da BlockBoost em relação ao uso dos serviços é limitada ao montante máximo que você pagou à BlockBoost por esses serviços.",
+
+  "waiver_title": "Renúncia",
+  "waiver_description": "A não aplicação de qualquer disposição destes termos não será considerada uma renúncia a essa disposição ou a qualquer outra disposição.",
+
+  "entire_agreement_title": "Acordo Completo",
+  "entire_agreement_description": "Estes termos constituem o acordo completo entre você e a BlockBoost em relação ao uso dos serviços e anulam quaisquer acordos ou entendimentos anteriores.",
+
+  "contact_information_title": "Informações de Contato",
+  "contact_information_description": "Se você tiver quaisquer perguntas ou preocupações sobre estes termos, entre em contato pelo e-mail inq@BlockBoost.io.",
+
+  "prohibited_use_title": "Uso Proibido",
+  "prohibited_use_description": "Você não pode usar nosso site, aplicativo ou serviços de forma que introduza vírus ou outros softwares prejudiciais.",
+
+  "governing_law_title": "Lei Aplicável",
+  "governing_law_description": "Estes termos serão regidos e interpretados de acordo com a lei do estado da Califórnia, sem considerar os princípios de conflitos de leis.",
+
+  "termination_title": "Rescisão",
+  "termination_description": "Reservamo-nos o direito de encerrar o uso do serviço ou suspender a conta a qualquer momento, sem aviso prévio e por qualquer motivo."
 }

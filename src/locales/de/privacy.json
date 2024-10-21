@@ -1,16 +1,92 @@
 {
   "privacy_policy_title": "Datenschutzrichtlinie",
-  "privacy_policy_description": "Diese Datenschutzrichtlinie (\"Richtlinie\") informiert Sie über Ihre Auswahlmöglichkeiten und unsere Praktiken im Zusammenhang mit Ihren Informationen (wie nachstehend definiert). Für die Zwecke dieser Richtlinie beziehen sich \"wir\", \"uns\" und \"unser\" auf \"Rexas\".",
+  "privacy_policy_description": "Diese Datenschutzrichtlinie (\"Richtlinie\") informiert Sie über Ihre Wahlmöglichkeiten und unsere Praktiken im Zusammenhang mit Ihren Informationen (wie unten definiert). Im Rahmen dieser Richtlinie beziehen sich \"wir\", \"uns\" und \"unser\" auf \"BlockBoost\".",
 
   "children_title": "Kinder",
-  "children_description": "Unsere Dienste stehen nicht für Kinder zur Verfügung und sind für Personen ab 18 Jahren und in einigen Gerichtsbarkeiten ab 21 Jahren vorgesehen. Bitte beachten Sie die Gesetze Ihres Landes für altersgerechte Hinweise.\n\nUm das derzeitige britische \"Datenschutzgesetz\" für Kinder, insbesondere den Age Appropriate Design Code (auch bekannt als Children's Act), einzuhalten, wurden Risiken bewertet. Weitere Informationen finden Sie im ICO Children's Code Hub. Diese Richtlinie erklärt die Bereiche unserer App oder Website, die Ihre Privatsphäre und persönlichen Daten betreffen könnten, wie wir diese Daten verarbeiten, sammeln, verwalten und speichern, sowie Ihre Rechte in Bezug auf Ihre Daten.",
+  "children_description": [
+    "Unsere Dienste sind nicht für die Nutzung durch Kinder verfügbar und richten sich an Personen über 18 Jahre und in einigen Rechtsordnungen über 21 Jahre. Bitte beachten Sie die Gesetze Ihres Landes für altersgerechte Hinweise.",
+    "Um dem aktuellen 'UK Data Protection Act' für Kinder zu entsprechen, insbesondere dem Age Appropriate Design Code (auch bekannt als das Kinderrecht), wurden Risiken bewertet. Weitere Informationen finden Sie im ICO Children's Code Hub.",
+    "Diese Richtlinie erklärt Bereiche unserer App oder Website, die Ihre Privatsphäre und persönlichen Daten betreffen können, wie wir diese Details verarbeiten, sammeln, verwalten und speichern sowie Ihre Rechte in Bezug auf Ihre Daten."
+  ],
 
-  "personal_info_title": "Persönliche Daten, die Wir Sammeln",
-  "personal_info_description": "Wir können die folgenden Informationen über Sie sammeln und verwenden:\nInformationen, die Sie uns zur Verfügung stellen, wie Ihren Namen, Ihre Postanschrift, Telefonnummer, E-Mail-Adresse und Zahlungsinformationen.\nInformationen, die Sie über unsere Kundensupport-Kanäle bereitstellen, z. B. wenn Sie uns per E-Mail kontaktieren.\nInformationen, die wir sammeln, wenn Sie unsere App oder Website verwenden, einschließlich Cookies und standortbezogener Daten.\nInformationen von Dritten, einschließlich sozialer Netzwerke und Analysedienste wie Google Analytics.",
+  "personal_info_title": "Persönliche Informationen, die wir sammeln",
+  "personal_info_description": [
+    "Wir können die folgenden Informationen über Sie sammeln und verwenden:",
+    "• Informationen, die Sie uns bereitstellen, wie Ihren Namen, Ihre Adresse, Ihre Telefonnummer, Ihre E-Mail-Adresse und Zahlungsinformationen.",
+    "• Informationen, die Sie über Kundenservice-Kanäle bereitstellen, wie z. B. bei der Kontaktaufnahme mit uns per E-Mail.",
+    "• Informationen, die gesammelt werden, wenn Sie unsere App oder Website verwenden, einschließlich Cookies und standortbasierter Daten.",
+    "• Informationen von Dritten, einschließlich sozialer Medien und Analysediensten wie Google Analytics."
+  ],
 
-  "how_we_use_title": "Wie Wir Ihre Persönlichen Daten Verwenden",
-  "how_we_use_description": "Wir verwenden Ihre persönlichen Daten nur, wenn das Gesetz es uns erlaubt. Häufige Gründe sind:\nUm Ihnen unseren Service bereitzustellen, einschließlich des Zugangs zu unserer App über eine virtuelle Brieftasche.\nUm die Nutzung unserer Dienste zu verbessern und zu überwachen.\nUm Kundensupport bereitzustellen und auf Ihre Anfragen oder Beschwerden zu reagieren.\nUm Betrug zu verhindern, Rechtsansprüche abzuwehren und rechtlichen Verpflichtungen nachzukommen.\nUm Analysen durchzuführen und gezielte Werbung zu schalten (mit Ihrer Zustimmung).",
+  "how_we_use_title": "Wie wir Ihre persönlichen Informationen verwenden",
+  "how_we_use_description": [
+    "Wir werden Ihre persönlichen Daten nur verwenden, wenn das Gesetz es uns erlaubt. Häufige Gründe sind:",
+    "• Um Ihnen unseren Dienst anzubieten, einschließlich des Zugriffs auf unsere App über eine virtuelle Brieftasche.",
+    "• Um die Nutzung unserer Dienste zu verbessern und zu überwachen.",
+    "• Um Kundensupport bereitzustellen und auf Ihre Anfragen oder Beschwerden zu reagieren.",
+    "• Um Betrug zu verhindern, rechtliche Ansprüche abzuwehren und gesetzlichen Verpflichtungen nachzukommen.",
+    "• Um Analysen durchzuführen und gezielte Werbung bereitzustellen (mit Ihrer Zustimmung)."
+  ],
 
-  "choices_title": "Ihre Wahlmöglichkeiten bezüglich der Nutzung von Informationen",
-  "choices_description": "Sie haben die folgenden Wahlmöglichkeiten, wie wir Ihre Informationen verwenden:\nMarketing-E-Mails: Sie können den Erhalt von Werbe-E-Mails ablehnen, indem Sie die Funktion \"Abmelden\" in unseren Marketing-E-Mails verwenden.\nFinanzielle Anreize: Wir können Werbeaktionen durchführen, die Sie bitten, persönliche Informationen zu teilen. Die Teilnahme ist freiwillig."
+  "choices_title": "Ihre Wahlmöglichkeiten, wie Informationen verwendet werden",
+  "choices_description": [
+    "Sie haben die folgenden Wahlmöglichkeiten, wie wir Ihre Informationen verwenden:",
+    "• Marketing-E-Mails: Sie können den Erhalt von Werbe-E-Mails abbestellen, indem Sie die Abmeldemöglichkeit in unseren Marketingnachrichten nutzen.",
+    "• Finanzielle Anreize: Wir können Promotions durchführen, die von Ihnen verlangen, persönliche Informationen zu teilen. Die Teilnahme ist freiwillig."
+  ],
+
+  "who_we_share_title": "Mit wem wir Ihre persönlichen Informationen teilen",
+  "who_we_share_description": [
+    "Wir können Ihre Informationen mit folgenden Stellen teilen:",
+    "• Anbietern und Dienstleistern (wie Cloud-Diensten wie AWS).",
+    "• Analyseteen (wie Google, Apple, AWS).",
+    "• Werbepartnern (für werbefinanzierte Dienste).",
+    "• Strafverfolgungsbehörden oder öffentlichen Behörden, wenn dies gesetzlich erforderlich ist.",
+    "• Stellen, die an Fusionen, Übernahmen oder Unternehmensumstrukturierungen beteiligt sind."
+  ],
+
+  "security_title": "Sicherheit",
+  "security_description": [
+    "Wir haben Sicherheitsmaßnahmen zum Schutz Ihrer Informationen, aber die Übertragung über das Internet ist nicht völlig sicher.",
+    "Wir empfehlen, geeignete Sicherheitsmaßnahmen zu ergreifen, wenn Sie unsere Dienste nutzen."
+  ],
+
+  "where_we_process_title": "Wo wir Ihre Informationen verarbeiten",
+  "where_we_process_description": [
+    "Ihre Informationen werden von unseren Mitarbeitern und Dienstleistern (Apple, Google, AWS, Mailchimp) verarbeitet.",
+    "Falls erforderlich, stellen wir sicher, dass Ihre Daten in Länder übertragen werden, die einen angemessenen Schutz personenbezogener Daten bieten."
+  ],
+
+  "how_long_we_store_title": "Wie lange wir Ihre Informationen speichern",
+  "how_long_we_store_description": [
+    "Wir speichern Ihre Informationen bis zu 6 Jahre.",
+    "Wenn Informationen gelöscht werden, ergreifen wir Maßnahmen, um sie unwiderruflich oder unverfügbar zu machen."
+  ],
+
+  "your_rights_title": "Ihre Rechte",
+  "your_rights_description": [
+    "Sie haben die folgenden Rechte nach Datenschutzgesetzen:",
+    "• Das Recht, auf Ihre persönlichen Daten zuzugreifen.",
+    "• Das Recht, Ihre persönlichen Daten zu berichtigen.",
+    "• Das Recht, Ihre persönlichen Daten zu löschen.",
+    "• Das Recht, der Verarbeitung Ihrer persönlichen Daten zu widersprechen.",
+    "• Das Recht, die Verarbeitung Ihrer persönlichen Daten einzuschränken.",
+    "• Das Recht, Ihre persönlichen Daten zu übertragen.",
+    "• Das Recht, Ihre Einwilligung jederzeit zu widerrufen."
+  ],
+
+  "california_privacy_rights_title": "California Privacy Rights (Anhang 1)",
+  "california_privacy_rights_description": "Die Bedingungen dieses Anhangs gelten für kalifornische Einwohner gemäß dem California Consumer Privacy Act (CCPA). Für die Zwecke dieses Anhangs bedeutet \"persönliche Informationen\" Informationen, die sich auf einen bestimmten Verbraucher oder Haushalt beziehen oder diesen identifizieren.",
+
+  "brazil_privacy_rights_title": "Brazil Privacy Rights (Anhang 2)",
+  "brazil_privacy_rights_description": "Die Bedingungen dieses Anhangs gelten für Einwohner Brasiliens gemäß Lei Geral de Proteção de Dados (LGPD). Sie haben das Recht zu fragen, ob wir Ihre persönlichen Informationen aufbewahren und zu verlangen, dass diese gelöscht, eingeschränkt oder berichtigt werden.",
+
+  "contact_title": "Kontakt und Beschwerden",
+  "contact_description": [
+    "Wenn Sie Fragen oder Beschwerden zu dieser Richtlinie haben, kontaktieren Sie uns bitte unter inq@BlockBoost.io.",
+    "Wenn Sie eine Beschwerde über die Verarbeitung Ihrer Informationen einreichen möchten, zielen wir darauf ab, innerhalb von 30 Tagen zu antworten."
+  ],
+
+  "changes_title": "Änderungen an dieser Richtlinie",
+  "changes_description": "Änderungen oder Aktualisierungen dieser Richtlinie werden hier veröffentlicht."
 }
