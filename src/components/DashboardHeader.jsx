@@ -10,6 +10,7 @@ const DashboardHeader = () => {
   const [selectedToken, setSelectedToken] = useState("BNB");
   const [searchValue, setSearchValue] = useState("");
 
+  const dropdownRef = useRef(null); // Reference for the dropdown
   const searchRef = useRef(null); // Reference for the search input and button
 
   const tokens = [
@@ -34,11 +35,14 @@ const DashboardHeader = () => {
     setIsOpen(false); // Close dropdown after selection
   };
 
-  // Close search input when clicking outside
+  // Close dropdown and search input when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false); // Close dropdown if click is outside
+      }
       if (searchRef.current && !searchRef.current.contains(event.target)) {
-        setIsSearchVisible(false);
+        setIsSearchVisible(false); // Close search if click is outside
       }
     };
 
@@ -46,7 +50,7 @@ const DashboardHeader = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [searchRef]);
+  }, [dropdownRef, searchRef]);
 
   return (
     <div className="lg:ps-[30px] lg:pe-[30px] md:ps-[15px] md:pe-[15px] ps-[19px] pe-[55px] md:py-[25px] py-[10px] md:bg-transparent bg-[#1B2430] md:relative fixed top-0 left-0 w-full md:block flex items-center justify-between shadow-lg z-[999]">
@@ -64,7 +68,7 @@ const DashboardHeader = () => {
       </div>
       <div className="flex items-center justify-end lg:space-x-[18px] space-x-[9px] md:max-w-[1280px] md:mx-auto">
         {/* Dropdown Section */}
-        <div className="relative">
+        <div className="relative" ref={dropdownRef}>
           <button
             onClick={toggleDropdown}
             className="flex items-center justify-between md:px-[13.75px] px-[5.5px] md:py-[4.5px] py-[4px] bg-[#38DCC8] rounded-full focus:outline-none md:w-[140px] w-[98px]"

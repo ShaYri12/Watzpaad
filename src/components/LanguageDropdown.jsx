@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
-const languages = [  
+const languages = [
   { code: "en", name: "English", flag: "https://flagcdn.com/w320/us.png" },
   { code: "ar", name: "Arabic", flag: "https://flagcdn.com/w320/sa.png" },
   { code: "de", name: "German", flag: "https://flagcdn.com/w320/de.png" },
@@ -19,12 +19,13 @@ const languages = [
   { code: "uk", name: "Ukrainian", flag: "https://flagcdn.com/w320/ua.png" },
   { code: "vi", name: "Vietnamese", flag: "https://flagcdn.com/w320/vn.png" },
   { code: "zh", name: "Chinese", flag: "https://flagcdn.com/w320/cn.png" },
-];  
+];
 
 const LanguageDropdown = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(languages[0]);
+  const dropdownRef = useRef(null); // Reference for the dropdown
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -33,8 +34,22 @@ const LanguageDropdown = () => {
     setIsOpen(false); // Close the dropdown after selecting a language
   };
 
+  // Handle click outside to close the dropdown
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false); // Close dropdown if click is outside
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
+
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-left" ref={dropdownRef}>
       <div>
         <button
           type="button"
