@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaCaretDown } from "react-icons/fa"; // Icon for the dropdown arrow
 
 const HomeDropdown = ({ label, options, image }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(label); // Initialize with the passed `label`
+  const dropdownRef = useRef(null); // Create a ref to reference the dropdown
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -14,8 +15,25 @@ const HomeDropdown = ({ label, options, image }) => {
     setIsOpen(false); // Close the dropdown after selection
   };
 
+  // Handle click outside to close the dropdown
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false); // Close the dropdown if clicked outside
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
+
   return (
-    <div className="relative inline-block text-left outline-none">
+    <div
+      className="relative inline-block text-left outline-none"
+      ref={dropdownRef}
+    >
       <div>
         <button
           onClick={toggleDropdown}
