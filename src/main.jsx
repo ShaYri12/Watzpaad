@@ -240,6 +240,26 @@ import convertor2_pl from "./locales/pl/convertor2.json";
 import convertor2_pt from "./locales/pt/convertor2.json";
 import convertor2_th from "./locales/th/convertor2.json";
 
+
+// Footer
+import footer_en from "./locales/en/footer.json";
+import footer_de from "./locales/de/footer.json";
+import footer_es from "./locales/es/footer.json";
+import footer_fr from "./locales/fr/footer.json";
+import footer_it from "./locales/it/footer.json";
+import footer_ja from "./locales/ja/footer.json";
+import footer_ru from "./locales/ru/footer.json";
+import footer_uk from "./locales/uk/footer.json";
+import footer_zh from "./locales/zh/footer.json";
+import footer_ar from "./locales/ar/footer.json";
+import footer_hi from "./locales/hi/footer.json";
+import footer_ko from "./locales/ko/footer.json";
+import footer_pl from "./locales/pl/footer.json";
+import footer_pt from "./locales/pt/footer.json";
+import footer_th from "./locales/th/footer.json";
+import footer_tr from "./locales/tr/footer.json";
+import footer_vi from "./locales/vi/footer.json";
+
 i18n.init({
   resources: {
     ar: {
@@ -254,7 +274,10 @@ i18n.init({
       stacking: stacking_ar,
       win: win_ar,
       privacy: privacy_ar,
+      footer: footer_ar,
       cookie: cookie_ar,
+      
+     
     },
 
     de: {
@@ -270,6 +293,7 @@ i18n.init({
       earning: earning_de,
       vaults: vaults_de,
       stacking: stacking_de,
+      footer: footer_de,
     },
     en: {
       homepage: homepage_en,
@@ -284,6 +308,7 @@ i18n.init({
       vaults: vaults_en,
       win: win_en,
       stacking: stacking_en,
+      footer: footer_en,
     },
     es: {
       homepage: homepage_es,
@@ -298,6 +323,7 @@ i18n.init({
       earning: earning_es,
       vaults: vaults_es,
       stacking: stacking_es,
+      footer: footer_es,
     },
     fr: {
       homepage: homepage_fr,
@@ -312,6 +338,7 @@ i18n.init({
       earning: earning_fr,
       vaults: vaults_fr,
       stacking: stacking_fr,
+      footer: footer_fr,
     },
     hi: {
       homepage: homepage_hi,
@@ -326,6 +353,7 @@ i18n.init({
       stacking: stacking_hi,
       privacy: privacy_hi,
       cookie: cookie_hi,
+      footer: footer_hi,
     },
     it: {
       homepage: homepage_it,
@@ -340,6 +368,7 @@ i18n.init({
       earning: earning_it,
       vaults: vaults_it,
       stacking: stacking_it,
+      footer: footer_hi,
     },
     ja: {
       homepage: homepage_ja,
@@ -354,6 +383,7 @@ i18n.init({
       earning: earning_ja,
       vaults: vaults_ja,
       stacking: stacking_ja,
+      footer: footer_ja,
     },
     ko: {
       homepage: homepage_ko,
@@ -368,6 +398,7 @@ i18n.init({
       stacking: stacking_ko,
       privacy: privacy_ko,
       cookie: cookie_ko,
+      footer: footer_ko,
     },
     pl: {
       homepage: homepage_pl,
@@ -381,6 +412,7 @@ i18n.init({
       vaults: vaults_pl,
       stacking: stacking_pl,
       privacy: privacy_pl,
+      footer: footer_pl,
       cookie: cookie_pl,
     },
     pt: {
@@ -396,6 +428,7 @@ i18n.init({
       stacking: stacking_pt,
       privacy: privacy_pt,
       cookie: cookie_pt,
+      footer: footer_pt,
     },
     th: {
       homepage: homepage_th,
@@ -410,6 +443,7 @@ i18n.init({
       stacking: stacking_th,
       privacy: privacy_th,
       cookie: cookie_th,
+      footer: footer_th,
     },
     ru: {
       homepage: homepage_ru,
@@ -424,6 +458,7 @@ i18n.init({
       earning: earning_ru,
       vaults: vaults_ru,
       stacking: stacking_ru,
+      footer: footer_ru,
     },
     uk: {
       homepage: homepage_uk,
@@ -438,6 +473,7 @@ i18n.init({
       earning: earning_uk,
       vaults: vaults_uk,
       stacking: stacking_uk,
+      footer: footer_uk,
     },
 
     zh: {
@@ -452,6 +488,7 @@ i18n.init({
       convertor2: convertor2_zh,
       earning: earning_zh,
       vaults: vaults_zh,
+      footer: footer_zh,
       stacking: stacking_zh,
     },
     vi: {
@@ -466,6 +503,7 @@ i18n.init({
       cookie: cookie_vi,
       bridging: bridging_vi,
       convertor: convertor_vi,
+      footer: footer_vi,
     },
     tr: {
       homepage: homepage_tr,
@@ -478,6 +516,7 @@ i18n.init({
       privacy: privacy_tr,
       cookie: cookie_tr,
       bridging: bridging_tr,
+      footer: footer_tr,
       convertor: convertor_tr,
     },
   },

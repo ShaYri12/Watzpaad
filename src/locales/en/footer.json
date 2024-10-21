@@ -1,0 +1,24 @@
+{
+    "joinWinningTeam": "Join The Winning Team",
+    "description": "Blockboost is a leading Web3 incubator and Launchpad for Web3 projects focusing on innovative technologies such as DeFi, AI, Big Data, NFTs and Web3 Gaming. By staking $BBT, you gain the advantage of early access to purchase project tokens, enhancing your position within the Web3 landscape.",
+    "links": {
+      "home": "Home",
+      "launchpad": "Launchpad",
+      "earnings": "Earnings",
+      "marketplace": "Marketplace",
+      "vault": "Vault"
+    },
+    "help": {
+      "stacking": "staking",
+      "win": "Win $1M",
+      "whitepaper": "Whitepaper",
+      "goToApp": "Go To App"
+    },
+    "social": "Social",
+    "disclaimer": "Disclaimer: Not financial advice. Always DYOR before buying. Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may go down as well as up. Profits may be subject to capital gains or other taxes applicable in your region.",
+    "terms": "Terms of service",
+    "privacy": "Privacy Policy",
+    "cookie": "Cancellation and Refund Policy",
+    "copyright": "© 2024, All rights reserved."
+  }
+  
