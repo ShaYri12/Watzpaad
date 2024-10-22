@@ -1,5 +1,11 @@
 {
   "title": "Cofres",
-  "subtitle": "Faça staking de quaisquer ativos criptográficos para ganhar com o sistema de juros compostos automáticos. Os usuários podem escolher qualquer ativo de vários pools listados para ganhar $BBT. Indique seus amigos e ganhe 5% sobre as recompensas extras deles.",
-  "dividerAria": "Divisor de Cofre"
+  "subtitle": "Stake qualquer ativo cripto para ganhar com capitalização automática. Os usuários podem escolher fazer stake de qualquer ativo de vários pools listados para ganhar $BBT. Referencie seus amigos para ganhar 5% em suas recompensas extras.",
+  "dividerAria": "Divisor de cofres",
+  "auto": "Automático",
+  "compounded": "Composto",
+  "apy": "APY",
+  "pending-earnings": "Ganhos Pendentes",
+  "auto-compound": "Composição automática em",
+  "connect-wallet": "Conectar carteira"
 }

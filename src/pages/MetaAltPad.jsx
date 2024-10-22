@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function MetaAltPad() {
-  const { t } = useTranslation("homepage");
+  const { t } = useTranslation("metaaltpad");
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo({
@@ -42,16 +42,16 @@ export default function MetaAltPad() {
                 <div className="flex gap-[10px] flex-wrap">
                   <span className="flex items-center justify-center gap-1 bg-[#6C757D] text-[9.7px] sm:text-[11.3px] px-[6.57px] sm:px-[7.6px] py-[3.43px] sm:py-[4px] rounded-full text-white">
                     <span className="sm:w-[8.44px] w-[7.25px] sm:h-[8.44px] h-[7.25px] rounded-full bg-white"></span>{" "}
-                    Register
+                    {t("register")}
                   </span>
                   <span className="flex items-center justify-center gap-1 bg-[#28A745] text-[9.7px] sm:text-[11.3px] px-[6.57px] sm:px-[7.6px] py-[3.43px] sm:py-[4px] rounded-full text-white">
                     <span className="sm:w-[8.44px] w-[7.25px] sm:h-[8.44px] h-[7.25px]">
                       <BsUnlock className="w-full h-full" />
-                    </span>{" "}
-                    Levels
+                    </span>
+                    {t("levels")}
                   </span>
                   <span className="flex items-center justify-center gap-1 bg-[#FFC107] text-[9.7px] sm:text-[11.3px] px-[6.57px] sm:px-[7.6px] py-[3.43px] sm:py-[4px] rounded-full text-black">
-                    KYC
+                    {t("kyc")}
                   </span>
                 </div>
               </div>
@@ -60,8 +60,8 @@ export default function MetaAltPad() {
               {/* From Section */}
               <div className="bg-[#0B1725] px-[21.46px] md:px-[25px] md:py-[9.75px] py-[8.37px] md:rounded-[16px] rounded-[13.74px] md:mb-[30px] mb-[25.78px] relative border border-[#DEE2E6]">
                 <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px]  text-[13.74px] md:text-[16px]">
-                  <span>From</span>
-                  <span>Max. 0 Balance: 0</span>
+                  <span>{t("from")}</span>
+                  <span>{t("max-balance")}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <input
@@ -87,7 +87,7 @@ export default function MetaAltPad() {
               {/* To Section */}
               <div className="bg-[#0B1725] px-[21.46px] md:px-[25px] md:py-[9.75px] py-[8.37px] md:rounded-[16px] rounded-[13.74px] relative border border-[#DEE2E6]">
                 <div className="flex justify-between items-center text-sm text-[#798DA3] mb-[4.08px] text-[13.74px] md:text-[16px]">
-                  <span>To</span>
+                  <span>{t("to")}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <input
@@ -97,7 +97,8 @@ export default function MetaAltPad() {
                   />
                   <div className="flex items-center md:gap-[8px] gap-[6px]">
                     <span className="bg-primaryColor md:text-[12px] text-[10.3px] text-black px-[6.87px] md:px-[8px] py-[3.43px] md:py-[4.5px] md:rounded-[4px] rounded-[3.43px]">
-                      Max
+                      
+                      {t("max")}
                     </span>
                     <img
                       src="/assets/icons/B-logo.png"
@@ -112,12 +113,13 @@ export default function MetaAltPad() {
 
               {/* Connect Wallet Button (Positioned Absolutely) */}
               <button className=" bg-primaryColor hover:bg-teal-300 text-[15.45px] md:text-[18px] w-max transition py-[12.68px] md:py-[15px] text-black md:px-[35.5px] px-[30px] rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2">
-                Connect Wallet
+                {t("connect-wallet")}
               </button>
             </div>
             <div className="flex items-center justify-center mt-[11.16px] md:mt-[13px] md:mb-[30px] mb-[26.19px]">
               <button className="bg-transparent hover:bg-gray-700 hover:bg-opacity-[0.3] text-primaryColor mx-auto text-[11.36px] md:text-[17px] transition py-[7.5px] px-[12.5px] rounded-full border border-primaryColor">
-                Not open yet
+                {t("not-open-yet")}
+                
               </button>
             </div>
             <p className="md:mb-[3px] mb-[2.58px] text-white text-[15.45px] md:text-[18px]">
@@ -126,7 +128,7 @@ export default function MetaAltPad() {
             <div className="mb-[18.57px]">
               <div className="slider-container w-full">
                 <div className="flex justify-between items-center text-[11.19px] md:text-[13.03px] mb-[3.26px]">
-                  <span className="text-[#798DA3]">IN PROGRESS</span>
+                  <span className="text-[#798DA3]">{t("in-progress")}</span>
                   <span className="text-primaryColor text-[26.5px] md:text-[30.87px]">
                     25%
                   </span>
@@ -148,7 +150,8 @@ export default function MetaAltPad() {
               <span className="text-primaryColor md:min-w-[16px] min-h-[12.02px] md:min-h-[16px] md:w-[16px] w-[12.02px] md:h-[16px] h-[12.02px] md:mr-[10px] mr-[8.58px]">
                 <FaCalendar className="md:text-[16px] text-[12.02px]" />
               </span>
-              Sale ** Nov, 12:00 UTC - ** Nov, 18:00 UTC
+              {t("sale")}
+              
             </p>
           </div>
 
@@ -164,12 +167,12 @@ export default function MetaAltPad() {
                     />
                   </div>
                   <h1 className="md:text-[30px] text-[20px] font-[700]">
-                    BlockBoost Private Sale
+                    {t("title")}
                   </h1>
                 </div>
               </div>
               <p className="text-[#798DA3] md:text-[17.19px] text-[14.21px] w-full">
-                {t("hero.description1")}
+                {t("description")}
               </p>
 
               {/* Social Icons */}
@@ -183,35 +186,36 @@ export default function MetaAltPad() {
               {/* Pool Details Section */}
               <div>
                 <h2 className="text-[19.84px] md:text-[24px] font-[700] text-primaryColor md:mb-[11px] mb-[9.09px]">
-                  Pool Details
+                  
+                  {t("pool-de")}
                 </h2>
                 <div className="flex md:flex-row flex-col flex-wrap gap-[30px] xl:gap-[54px] pb-[29.25px] md:border-b border-white">
                   <div className="flex md:gap-[16px] gap-[13.23px] flex-1 md:min-w-[297px]">
                     <div className="flex flex-col gap-[6px] font-[700] text-[12.4px] md:text-[15px] text-white">
-                      <span className="w-max">Access Type:</span>
-                      <span>Hard Cap:</span>
-                      <span>Swap Rate:</span>
+                      <span className="w-max">{t("access-type")}</span>
+                      <span>{t("hard-cap")}</span>
+                      <span>{t("swap-rate")}</span>
                     </div>
                     <div className="flex flex-col gap-[6px] font-[400] text-[12.4px] md:text-[15px] text-[#798DA3]">
-                      <span className="">Whitelist</span>
+                      <span className="">{t("whitelist")}</span>
                       <span className="">100 ETH</span>
                       <span className="text-primaryColor">
                         452000000 BBT{" "}
-                        <span className="text-[#798DA3]">per</span> 1 ETH
+                        <span className="text-[#798DA3]">{t("per")}</span> 1 ETH
                       </span>
                     </div>
                   </div>
 
                   <div className="flex md:gap-[16px] gap-[13.23px] flex-1 md:min-w-[100px]">
                     <div className="flex flex-col gap-[6px] font-[700] text-[12.4px] md:text-[15px] text-white">
-                      <span>Start:</span>
-                      <span>End:</span>
-                      <span>Opens:</span>
+                      <span>{t("start")}</span>
+                      <span>{t("end")}</span>
+                      <span>{t("open")}</span>
                     </div>
                     <div className="flex flex-col gap-[6px] font-[400] text-[12.4px] md:text-[15px] text-[#798DA3]">
-                      <span className="">** Nov, 12:00 pm UTC</span>
-                      <span className="">** Nov, 18:00 pm UTC</span>
-                      <span className="">** Nov, 17:00 pm UTC</span>
+                      <span className="">{t("date-one")}</span>
+                      <span className="">{t("date-two")}</span>
+                      <span className="">{t("date-three")}</span>
                     </div>
                   </div>
                 </div>
@@ -222,30 +226,30 @@ export default function MetaAltPad() {
             <div className="md:pt-[34px] pt-[20px]">
               <div className="flex md:flex-row flex-col flex-wrap md:items-center md:justify-center md:gap-[11.5px] gap-[2px]">
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">Token:</span>
+                  <span className="font-[700] text-white">{t("token")}</span>
                   <span className="text-primaryColor font-[400]">
                     BlockBoost (BBT)
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">Type:</span>{" "}
+                  <span className="font-[700] text-white">{t("type")}</span>{" "}
                   <span className="text-[#798DA3] font-[400]">BEP-20</span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">Total Supply:</span>{" "}
+                  <span className="font-[700] text-white">{t("total-supply")}</span>{" "}
                   <span className="text-[#798DA3] font-[400]">
                     1,000,000,000,000 BBT
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">Initial Supply:</span>{" "}
+                  <span className="font-[700] text-white">{t("initial-supply")}</span>{" "}
                   <div className="text-primaryColor font-[400]">
-                    TBA, <span className="text-[#798DA3]">Market cap</span> TBA
+                    TBA, <span className="text-[#798DA3]">{t("market-cap")}</span> TBA
                   </div>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">Distribution:</span>{" "}
-                  <span className="text-[#798DA3] font-[400]">Auto Claim</span>
+                  <span className="font-[700] text-white">{t("distribution")}</span>{" "}
+                  <span className="text-[#798DA3] font-[400]">{t("auto-claim")}</span>
                 </div>
               </div>
             </div>
@@ -256,9 +260,10 @@ export default function MetaAltPad() {
           style={{
             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
           }}
-          onClick={() => navigate(-1)} // Go back to the previous page
+          onClick={() => navigate(-1)}  
         >
-          Go Back
+          
+          {t("go-back")}
         </button>
       </div>
     </div>

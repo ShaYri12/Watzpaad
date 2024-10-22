@@ -1,0 +1,34 @@
+{
+    "earnings": {
+      "title": "Pendapatan",
+      "description": "Ekosistem BlockBoost membolehkan anda memperoleh pendapatan pasif melalui pelbagai cara seperti ganjaran Presale, ganjaran Perdagangan, ganjaran Pegangan, ganjaran Staking dan ganjaran Staking Vault."
+    },
+    "rewards": {
+      "presale": {
+        "titleWhite": "Presale",
+        "titleColor": "Ganjaran",
+        "description": "Sertai peringkat awal presale untuk mendapatkan $BBT pada harga lebih rendah kerana harga setiap peringkat presale semakin meningkat. Anda juga boleh merujuk rakan anda untuk memperoleh 5% sebagai ganjaran bagi jumlah pelaburan mereka semasa presale. Tiada had untuk merujuk bagi memperoleh ganjaran pasif daripada pelaburan mereka."
+      },
+      "trading": {
+        "titleWhite": "Perdagangan",
+        "titleColor": "Ganjaran",
+        "description": "Selepas pelancaran token $BBT, anda masih boleh merujuk dan memperoleh melalui pautan rujukan unik anda dari aplikasi papan pemuka kami dan memperoleh 2% ganjaran perdagangan dari aktiviti perdagangan rujukan anda selama-lamanya apabila mereka membeli atau menjual token $BBT."
+      },
+      "holding": {
+        "titleWhite": "Pegangan",
+        "titleColor": "Ganjaran",
+        "description": "Pegang $BBT dan dapatkan pendapatan pasif. Cukup duduk dan bersantai untuk mendapatkan bahagian ganjaran pegangan anda daripada jumlah dagangan $BBT dan tuntutnya melalui aplikasi papan pemuka kami setiap jam. Jika anda terlepas untuk menuntut, ia akan tersedia pada bila-bila masa untuk menuntut semua ganjaran yang tinggal daripada alamat dompet anda."
+      },
+      "staking": {
+        "titleWhite": "Staking",
+        "titleColor": "Ganjaran",
+        "description": "Staking $BBT untuk memperoleh ganjaran dan mendapatkan pengagihan yang dijamin untuk pelancaran. Ia akan diberikan daripada bekalan staking ekosistem kami. Bahkan selepas anda layak untuk mendapatkan ganjaran pegangan yang diagihkan daripada jumlah perdagangan token $BBT."
+      },
+      "vault": {
+        "titleWhite": "Vault",
+        "titleColor": "Ganjaran",
+        "description": "Staking mana-mana token untuk memperoleh dengan sistem pengkompaunan automatik. Anda boleh staking mana-mana token untuk memperoleh $BBT sebagai ganjaran pengkompaunan automatik. Ia akan diberikan daripada bekalan vault ekosistem kami. Anda boleh membuka kunci token anda pada bila-bila masa dengan ganjaran pengkompaunan anda dalam token $BBT."
+      }
+    }
+  }
+  

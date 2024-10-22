@@ -1,5 +1,11 @@
 {
   "title": "Vaults",
   "subtitle": "Stake any crypto assets to earn with auto compounding. Users can choose to stake any assets from various pools listed to earn $BBT. Refer your friends to earn 5% on their extra rewards.",
-  "dividerAria": "Vault divider"
+  "dividerAria": "Vault divider",
+  "auto": "Auto",
+  "compounded": "Compounded",
+  "apy": "APY",
+  "pending-earnings": "Pending Earnings",
+  "auto-compound": "Auto Compound In",
+  "connect-wallet": "Connect Wallet"
 }

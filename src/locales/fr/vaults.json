@@ -1,5 +1,11 @@
 {
   "title": "Coffres",
-  "subtitle": "Misez n'importe quel actif crypto pour gagner avec un intérêt composé automatique. Les utilisateurs peuvent choisir de miser des actifs de divers pools listés pour gagner des $BBT. Parrainez vos amis pour gagner 5% sur leurs récompenses supplémentaires.",
-  "dividerAria": "Séparateur de coffre"
+  "subtitle": "Misez n'importe quel actif crypto pour gagner avec un intérêt composé automatique. Les utilisateurs peuvent choisir de miser n'importe quel actif parmi les différents pools répertoriés pour gagner $BBT. Référez vos amis pour gagner 5 % sur leurs récompenses supplémentaires.",
+  "dividerAria": "Séparateur de coffres",
+  "auto": "Automatique",
+  "compounded": "Composé",
+  "apy": "APY",
+  "pending-earnings": "Gains en attente",
+  "auto-compound": "Composition automatique dans",
+  "connect-wallet": "Connecter le portefeuille"
 }

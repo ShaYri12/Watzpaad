@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { BsCalculatorFill } from "react-icons/bs";
 import { MdOutlineAutorenew } from "react-icons/md";
+import { useTranslation } from "react-i18next";
 
 const VaultCards = ({ dashboard = false }) => {
+  const { t } = useTranslation("vaults");
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -115,7 +117,8 @@ const VaultCards = ({ dashboard = false }) => {
                         className="rotate-[90deg]"
                       />
                     </span>
-                    Auto
+                    {t("auto")}
+                    
                   </div>
                 </div>
                 <div className="flex items-center gap-1 justify-between">
@@ -124,7 +127,8 @@ const VaultCards = ({ dashboard = false }) => {
                   </div>
                   <div className="flex flex-col gap-[2px]">
                     <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
-                      Compounded
+                      
+                      {t("compounded")}
                     </p>
                     <p className="text-primaryColor text-[23.29px] sm:text-[27.61px] font-[700]">
                       {card.compounded}
@@ -136,7 +140,7 @@ const VaultCards = ({ dashboard = false }) => {
                 </div>
                 <div className="flex flex-col md:gap-[12px] gap-[10.12px]">
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">APY</span>
+                    <span className="text-[#798DA3]">{t("apy")}</span>
                     <span className="flex items-center text-white font-[700]">
                       <BsCalculatorFill
                         size={20}
@@ -146,7 +150,7 @@ const VaultCards = ({ dashboard = false }) => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">Pending Earnings</span>
+                    <span className="text-[#798DA3]">{t("pending-earnings")}</span>
                     <span className="flex flex-col text-white font-[700]">
                       {card.pendingEarnings}
                       <span className="text-[#798DA3] font-[400]">
@@ -155,7 +159,7 @@ const VaultCards = ({ dashboard = false }) => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">Auto Compound In</span>
+                    <span className="text-[#798DA3]">{t("auto-compound")}</span>
                     <span className="text-white font-[700]">
                       {card.autoCompoundIn}
                     </span>
@@ -171,7 +175,7 @@ const VaultCards = ({ dashboard = false }) => {
                   </div>
                 </div>
                 <button className="w-full bg-transparent hover:bg-primaryColor text-primaryColor hover:text-black sm:p-[15px] p-[12.65px] border border-primaryColor hover:border-transparent rounded-full transition duration-300 sm:text-[18px] text-[15.18px]">
-                  Connect Wallet
+                  {t("connect-wallet")}
                 </button>
               </div>
             </div>

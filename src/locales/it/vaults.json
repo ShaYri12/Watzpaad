@@ -1,5 +1,11 @@
 {
-  "title": "Cassaforti",
-  "subtitle": "Metti in staking qualsiasi asset crittografico per guadagnare con l'interesse composto automatico. Gli utenti possono scegliere di mettere in staking qualsiasi asset da vari pool elencati per guadagnare $BBT. Consiglia i tuoi amici per guadagnare il 5% sui loro premi extra.",
-  "dividerAria": "Divisore della cassaforte"
+  "title": "Cofri",
+  "subtitle": "Metti in stake qualsiasi asset crittografico per guadagnare con capitalizzazione automatica. Gli utenti possono scegliere di mettere in stake qualsiasi asset di vari pool elencati per guadagnare $BBT. Riferisci i tuoi amici per guadagnare il 5% sulle loro ricompense extra.",
+  "dividerAria": "Divider di cofre",
+  "auto": "Automatico",
+  "compounded": "Composto",
+  "apy": "APY",
+  "pending-earnings": "Guadagni in sospeso",
+  "auto-compound": "Composto automaticamente in",
+  "connect-wallet": "Collega il portafoglio"
 }

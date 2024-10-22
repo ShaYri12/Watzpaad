@@ -1,0 +1,34 @@
+{
+    "earnings": {
+      "title": "Mapato",
+      "description": "Mfumo wa BlockBoost unaruhusu kupata mapato ya pasivu kupitia njia nyingi kama vile zawadi za Presale, zawadi za Biashara, zawadi za Kushikilia, zawadi za Staking na zawadi za Vault staking."
+    },
+    "rewards": {
+      "presale": {
+        "titleWhite": "Presale",
+        "titleColor": "Zawadi",
+        "description": "Shiriki katika hatua ya awali ya presale ili kupata $BBT kwa bei ya chini kwa sababu bei katika hatua mbalimbali za presales inazidi kuongezeka. Pia, unaweza kuwakaribisha marafiki zako ili kupata 5% kama zawadi ya kiasi chao walichowekeza wakati wa presale. Hakuna mipaka ya kurejelea ili kupata zawadi za pasivu za uwekezaji wao."
+      },
+      "trading": {
+        "titleWhite": "Biashara",
+        "titleColor": "Zawadi",
+        "description": "Baada ya uzinduzi wa tokeni ya $BBT, bado unaweza kurejelea na kupata kupitia kiungo chako cha kipekee cha rejeleo kutoka kwa programu yetu ya dashibodi na kupata 2% ya zawadi za biashara za shughuli za biashara za watu ulioyaruhusu kwa muda wote kila wakati wanaponunua au kuuza tokeni za $BBT."
+      },
+      "holding": {
+        "titleWhite": "Kushikilia",
+        "titleColor": "Zawadi",
+        "description": "Shikilia $BBT na upate mapato ya pasivu. Kaa tu na kupumzika ili kupata sehemu ya zawadi zako za kushikilia kutoka kwa kiasi cha biashara ya $BBT na kudai kupitia programu yetu ya dashibodi kila saa. Ikiwa umepuuzia kudai, itapatikana wakati wowote ili kudai zawadi zilizobaki za anwani yako ya pochi."
+      },
+      "staking": {
+        "titleWhite": "Kuweka",
+        "titleColor": "Zawadi",
+        "description": "Weka $BBT ili kupata zawadi na kupata ugawaji wa uhakika kwa uzinduzi wa jukwaa. Itakuwa ikitolewa kutoka kwa ugavi wa staking wa mfumo wetu. Hata baada ya kuwa na haki ya kupata zawadi za kushikilia ambazo zinagawanywa kutoka kwa kiasi cha biashara ya tokeni za $BBT."
+      },
+      "vault": {
+        "titleWhite": "Vault",
+        "titleColor": "Zawadi",
+        "description": "Weka tokeni zozote ili kupata kwa mfumo wa kiotomatiki wa kujumlisha. Unaweza kuweka tokeni yoyote ili kupata $BBT kama zawadi za kujumlisha kiotomatiki. Itakuwa ikitolewa kutoka kwa ugavi wa vault wa mfumo wetu. Unaweza kufungua tokeni zako wakati wowote pamoja na zawadi zako za kujumlisha katika tokeni za $BBT."
+      }
+    }
+  }
+  

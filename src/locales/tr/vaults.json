@@ -1,5 +1,11 @@
 {
-  "title": "Kasalar",
-  "subtitle": "Otomatik bileşik getiri ile kazanmak için herhangi bir kripto varlığı stake edin. Kullanıcılar, listelenen çeşitli havuzlardan istedikleri varlıkları seçerek $BBT kazanabilir. Arkadaşlarınıza tavsiye ederek onların ek ödüllerinden %5 kazanın.",
-  "dividerAria": "Kasa Ayırıcı"
+  "title": "Kasa",
+  "subtitle": "Otomatik bileşik faiz ile kazanmak için herhangi bir kripto varlık stake edin. Kullanıcılar, $BBT kazanmak için listelenen çeşitli havuzlardan herhangi bir varlığı stake etmeyi seçebilir. Arkadaşlarınızı referans gösterin, böylece ek ödüllerinin %5'ini kazanabilirsiniz.",
+  "dividerAria": "Kasa ayırıcı",
+  "auto": "Otomatik",
+  "compounded": "Bileşik",
+  "apy": "APY",
+  "pending-earnings": "Bekleyen Kazançlar",
+  "auto-compound": "Otomatik Bileşik Faiz",
+  "connect-wallet": "Cüzdanı Bağla"
 }

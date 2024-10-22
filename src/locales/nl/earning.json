@@ -1,0 +1,34 @@
+{
+    "earnings": {
+      "title": "Verdiensten",
+      "description": "Het BlockBoost-ecosysteem maakt het mogelijk om passief inkomen te verdienen op verschillende manieren, zoals presale-beloningen, handelsbeloningen, houdbeloningen, staking-beloningen en vault staking-beloningen."
+    },
+    "rewards": {
+      "presale": {
+        "titleWhite": "Presale",
+        "titleColor": "Beloningen",
+        "description": "Neem deel aan de vroege fase van de presale om $BBT tegen een lagere prijs te krijgen, omdat de prijzen in elke fase van de presales toenemen. Ook kun je je vrienden verwijzen om beide 5% te verdienen als beloning op hun geïnvesteerde bedrag tijdens de presale. Er zijn geen limieten voor verwijzingen om passieve beloningen te verdienen op hun investeringen."
+      },
+      "trading": {
+        "titleWhite": "Handel",
+        "titleColor": "Beloningen",
+        "description": "Na de lancering van de $BBT-token kun je nog steeds verwijzen en verdienen via je unieke verwijzingslink van onze dashboard-app en de 2% handelsbeloningen verdienen van de handelsactiviteiten van je verwijzingen voor altijd, telkens wanneer ze de $BBT-tokens kopen of verkopen."
+      },
+      "holding": {
+        "titleWhite": "Houden",
+        "titleColor": "Beloningen",
+        "description": "Houd de $BBT en verdien passief inkomen. Ga gewoon zitten en ontspan om een deel van je houdbeloningen te krijgen van het verhandelde volume van $BBT en claim het via onze dashboard-app elk uur. Als je het mist om te claimen, zal het op elk moment beschikbaar zijn om alle resterende beloningen van je walletadres opnieuw te claimen."
+      },
+      "staking": {
+        "titleWhite": "Staking",
+        "titleColor": "Beloningen",
+        "description": "Stake $BBT om beloningen te verdienen en krijg gegarandeerde allocatie voor de launchpad. Het zal worden beloond vanuit de staking-aanvoer van ons ecosysteem. Zelfs na deze ben je ook in aanmerking voor het ontvangen van de houdbeloningen die worden verdeeld vanuit de handelsvolumes van $BBT-tokens."
+      },
+      "vault": {
+        "titleWhite": "Vault",
+        "titleColor": "Beloningen",
+        "description": "Stake elke token om te verdienen met een automatisch samenstellingssysteem. Je kunt elke token staken om $BBT te verdienen als automatische samenstellingsbeloningen. Het zal worden beloond vanuit de vault-aanvoer van ons ecosysteem. Je kunt je tokens op elk moment ontgrendelen met je samengevoegde beloningen in $BBT-tokens."
+      }
+    }
+  }
+  

@@ -1,0 +1,72 @@
+{
+    "hero": {
+      "title": "jukwaa salama zaidi. multi-chain.",
+      "description": "BlockBoost ni jukwaa la kukusanya fedha la decentralized multi-chain linalowezesha miradi kupata mtaji na kutoa ahadi ya usalama kwa wawekezaji wa hatua za awali. Weka token za BlockBoost ili kupata ufikiaji wa kipaumbele kwa miradi yenye matumaini."
+    },
+
+    "key-features": {
+      "title": "Sifa Kuu za BlockBoost",
+      "description": "Kuzindua miradi ya hali ya juu iliyochaguliwa kwa makini kwenye Blockchain",
+      "box-one-title": "Haki na Uwazi",
+      "box-one-description": "Wamiliki wote wa token za BlockBoost wana nafasi sawa ya kushiriki katika miradi inayokuja yenye matumaini ili kuwa wawekezaji wa hatua za awali na kuwa sehemu ya hadithi yao ya mafanikio.",
+      "box-two-title": "Mekanizimu za Rug-Proof",
+      "box-two-description": "Kabla ya mradi wowote kuja kwenye jukwaa letu, hupitia ukaguzi mkali wa mkataba wa smart. Kufanya ukaguzi wa mkataba wa smart husaidia kubaini na kurekebisha udhaifu kabla ya kutolewa.",
+      "box-three-title": "Mikopo Iliyohakikishwa",
+      "box-three-description": "Mara tu unapoweka, unahitaji kujiandikisha kwa kila IDO, ili tuweze kuhesabu mkopo uliohakikishwa. Mara baada ya kujiandikisha, tunafunga token zako, lakini bado unaweza kushiriki katika IDOs zingine.",
+      "box-four-title": "Miradi ya Hali ya Juu",
+      "box-four-description": "BlockBoost ni mlango wako wa fursa za uwekezaji za hatua za awali, ambazo timu yetu imezichunguza kwa kina."
+    },
+
+    "ido-staking": {
+      "title": "Weka kwa Ushiriki wa IDO",
+      "description": "Mara tu unapoweka, unahitaji kujiandikisha kwa kila IDO, ili tuweze kuhesabu mkopo uliohakikishwa. Mara baada ya kujiandikisha, tunafunga token zako, lakini bado unaweza kushiriki katika IDOs zingine.",
+      "level": "Ngazi: hakuna",
+      "stack": "Ilipangwa: 0 BBT",
+      "tokens": "Token zako zimefunguliwa",
+      "balance": "Usawa:",
+      "max": "Max",
+      "approve": "Thibitisha",
+      "unstake": "Ondoa Kuweka",
+      "levels": "$BBT Ngazi",
+      "desc": "Ili kuwa na sifa kwa moja ya ngazi hizo unahitaji kuweka ifuatayo:",
+      "bbtof": "BBT Ya",
+      "forchances": "kwa nafasi (10% bahati nasibu) siku 5",
+      "forprospect": "kwa mtazamo (25% bahati nasibu) siku 5",
+      "foraffiliate": "kwa mshirika (50% bahati nasibu) siku 5",
+      "formember": "kwa mwanachama siku 5",
+      "forclub": "kwa klabu siku 5",
+      "forassociate": "kwa mshiriki siku 5",
+      "description-one": "Unahitaji kujiandikisha kwa IDO baada ya kuweka.",
+      "description-two": "Wakati kipindi cha kujiandikisha kwa IDO kinaanza (kawaida masaa 24 kabla ya kuanza kwa IDO), unahitaji kufungua ukurasa wa Mifereji na kubonyeza kitufe cha 'Register' katika kadi ya mfereji.",
+      "description-three": "Unapojisajili kwa IDO, ngazi yako inarekodiwa (kwa IDO hii maalum). Hakuna njia ya kubadilisha kuwa ngazi ya juu baada ya kujiandikisha. Kwa hivyo hakikisha uko kwenye ngazi unayotaka kabla ya kujiandikisha. Ingawa utaweza kuweka zaidi na kujiandikisha kwa IDOs zingine kwa ngazi ya juu."
+    },
+
+    "ido-projects": {
+        "upcoming": "Inakuja",
+        "title": "Mauzo ya Blockboost",
+        "description": "Mfumo wa Kukuza fedha wa kipekee wa WEB3",
+        "swap-rate": "Kiwango cha Kubadilisha:",
+        "per": "Kwa",
+        "start": "Anza:",
+        "total-raise": "Jumla ya Kukusanya"
+    },
+
+    "levels": {
+        "title": "Mfumo wa Ngazi za Blockboost",
+        "description": "Blockboost itatoa mfumo wa ngazi ulio na kiwango kulingana na idadi ya token zilizowekwa. Ngazi za bahati nasibu zitashiriki 20% ya jumla ya kukusanya na 80% iliyobaki ya kukusanya itapewa ngazi za mkopo zilizo hakikishwa kulingana na uzito wa mizinga iliyotolewa.",
+        "staking-requirements": "Mahitaji ya Kuweka",
+        "staking-length-required": "Saa 3 kabla ya Mzunguko wa Ugawaji Kufunguliwa",
+        "whitelist-requirement": "Mahitaji ya Orodha ya Nyeupe Twitter",
+        "lottery-tickets": "Tiketi za Bahati Nasibu",
+        "guaranteed-allocation": "Ugawaji Uliyohakikishwa",
+        "pool-weight": "Uzito wa Mfereji",
+        "private-allocations": "Ugawaji wa Kibinafsi",
+        "yes": "Ndio",
+        "bronze": "Shaba",
+        "silver": "Fedha",
+        "gold": "Dhahabu",
+        "platinum": "Platinamu",
+        "diamond": "Almasi",
+        "blue-diamond": "Almasi ya Bluu"
+    }
+}
