@@ -28,7 +28,7 @@ const Hero = () => {
         className="w-full sm:h-[50%] absolute left-0 top-[60%] object-cover z-[1] md:hidden"
       />
       {/* Orbit Path */}
-      <div className="absolute lg:w-full w-[60%] lg:h-full h-[60%] object-cover lg:left-[-16%] left-0 z-[0] lg:top-[-14%] top-[60%] ">
+      <div className="absolute lg:w-full w-[60%] lg:h-full h-[60%] object-cover lg:left-[-16%] left-0 z-[0] lg:top-[-14%] ">
         {/* Orbit Path */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className=" max-w-full  mx-auto flex flex-col-reverse gap-8 lg:gap-4 lg:flex-row justify-between w-full items-center relative z-[2]">
+      <div className=" max-w-full  mx-auto flex flex-col gap-10 lg:gap-4 lg:flex-row justify-between w-full items-center relative z-[2]">
         <div className="lg:max-w-[590px] w-full mx-auto sm:px-0 px-[19px]">
           <h1 className="text-[#38DCC8] text-[40px] sm:text-[50px] md:text-[75px] font-bold">
             {t("hero.title")}
