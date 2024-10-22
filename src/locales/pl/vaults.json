@@ -1,5 +1,11 @@
 {
-  "title": "Skarbce",
-  "subtitle": "Stakuj dowolne aktywa kryptograficzne, aby zarabiać z automatycznym procentem składanym. Użytkownicy mogą wybrać dowolne aktywa z różnych dostępnych pul, aby zarabiać $BBT. Poleć znajomym i zarabiaj 5% na ich dodatkowych nagrodach.",
-  "dividerAria": "Separator skarbca"
+  "title": "Skarbiec",
+  "subtitle": "Stakuj dowolne aktywa kryptograficzne, aby zarabiać dzięki automatycznemu kapitalizacji. Użytkownicy mogą wybierać dowolne aktywa z różnych wymienionych pul, aby zarobić $BBT. Poleć swoich znajomych, aby zarobić 5% na ich dodatkowych nagrodach.",
+  "dividerAria": "Podział skarbca",
+  "auto": "Automatyczne",
+  "compounded": "Skapitalizowane",
+  "apy": "APY",
+  "pending-earnings": "Oczekujące zarobki",
+  "auto-compound": "Automatyczna kapitalizacja",
+  "connect-wallet": "Połącz portfel"
 }

@@ -1,5 +1,11 @@
 {
   "title": "Tresore",
-  "subtitle": "Staken Sie beliebige Krypto-Assets, um mit automatischem Zinseszins zu verdienen. Nutzer können wählen, aus verschiedenen Pools beliebige Assets zu staken, um $BBT zu verdienen. Empfehlen Sie Ihre Freunde, um 5% auf deren zusätzliche Belohnungen zu verdienen.",
-  "dividerAria": "Tresor-Trenner"
+  "subtitle": "Setzen Sie beliebige Krypto-Assets ein, um mit automatischer Zinseszins zu verdienen. Die Benutzer können wählen, beliebige Vermögenswerte aus verschiedenen aufgeführten Pools zu setzen, um $BBT zu verdienen. Empfehlen Sie Ihre Freunde, um 5 % auf deren zusätzliche Belohnungen zu verdienen.",
+  "dividerAria": "Tresortrennlinie",
+  "auto": "Automatisch",
+  "compounded": "Zinseszins",
+  "apy": "APY",
+  "pending-earnings": "Ausstehende Einnahmen",
+  "auto-compound": "Automatisch zusammenfassen in",
+  "connect-wallet": "Wallet verbinden"
 }

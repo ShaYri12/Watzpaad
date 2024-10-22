@@ -1,0 +1,34 @@
+{
+    "earnings": {
+      "title": "Inkomster",
+      "description": "BlockBoost-ekosystemet gör det möjligt att tjäna passiv inkomst på många sätt, som förhandsförsäljningsbelöningar, handelsbelöningar, innehavbelöningar, staking-belöningar och vault-staking-belöningar."
+    },
+    "rewards": {
+      "presale": {
+        "titleWhite": "Försäljning",
+        "titleColor": "Belöningar",
+        "description": "Delta i den tidiga fasen av förhandsförsäljningen för att få $BBT till ett lägre pris eftersom priserna ökar för varje steg i förhandsförsäljningen. Du kan också hänvisa dina vänner för att tjäna både 5 % som belöning för deras investerade belopp under förhandsförsäljningen. Det finns inga begränsningar för att hänvisa och tjäna passiva belöningar från deras investeringar."
+      },
+      "trading": {
+        "titleWhite": "Handel",
+        "titleColor": "Belöningar",
+        "description": "Efter lanseringen av $BBT-token kan du fortfarande hänvisa och tjäna genom din unika hänvisningslänk från vår dashboard-app och tjäna 2 % handelsbelöningar av dina hänvisningars handelsaktiviteter under hela deras livstid när de köper eller säljer $BBT-tokens."
+      },
+      "holding": {
+        "titleWhite": "Innehav",
+        "titleColor": "Belöningar",
+        "description": "Håll $BBT och tjäna passiv inkomst. Sätt dig ner och koppla av för att få en del av dina innehavbelöningar från den handlade volymen av $BBT och gör anspråk på det genom vår dashboard-app varje timme. Om du missade att göra anspråk kommer det att finnas tillgängligt när som helst för att återkräva alla återstående belöningar från din plånboksadress."
+      },
+      "staking": {
+        "titleWhite": "Staking",
+        "titleColor": "Belöningar",
+        "description": "Sätt $BBT i staking för att tjäna belöningar och få garanterad tilldelning för launchpad. Det kommer att belönas från stakingutbudet i vårt ekosystem. Även efter att du är berättigad till att få innehavbelöningar som distribueras från handelsvolymerna av $BBT-tokens."
+      },
+      "vault": {
+        "titleWhite": "Vault",
+        "titleColor": "Belöningar",
+        "description": "Sätt staking av valfria tokens för att tjäna med ett automatiskt räntekompteringssystem. Du kan sätta staking av vilken token som helst för att tjäna $BBT som automatiska räntebelöningar. Det kommer att belönas från vault-utbudet i vårt ekosystem. Du kan låsa upp dina tokens när som helst med dina sammanslagna belöningar i $BBT-tokens."
+      }
+    }
+  }
+  

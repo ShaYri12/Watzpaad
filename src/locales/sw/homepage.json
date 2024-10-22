@@ -1,0 +1,150 @@
+{
+    "hero": {
+      "title": "BLOCKBOOST",
+      "subtitle": "Ecosystem ya Uwekezaji ya WEB3 ya Kipekee",
+      "description1": "Je, uko tayari kupata ufikiaji wa baadhi ya biashara za crypto za kipekee na zenye ahadi? block boost ni lango lako la fursa za uwekezaji za hatua za awali, ambazo timu yetu imezikagua kwa makini.",
+      "description2": "Kuna faida nyingi za kuwa sehemu ya Ecosystem ya Uwekezaji ya Blockboost yenye vipengele vya kipekee kama Launchpad, Bridge & Swap AI, Mfumo wa Kipato, Vault, Soko, na Staking.",
+      "usdtRaised": "USDT Iliyoinuliwa: $361,590.14 / $605,467",
+      "target": "LENGO: $250,000",
+      "listingPrice": "Bei ya Orodha",
+      "receive": "Pokea",
+      "nextPrice": "Bei inayofuata",
+      "availablePaymentMethods": "NJIA ZA MALIPO ZILIZOPO",
+      "connectWallet": "Unganisha Wallet",
+      "audit": "Ukaguzi",
+      "days": "Siku",
+      "hours": "Saa",
+      "minutes": "Dakika",
+      "seconds": "Sekunde"
+    },
+  
+    "ecosystems-utilities": {
+      "title": "Ecosystems za Block Boost",
+      "box-one-title": "Launchpad",
+      "box-one-description": "Amua kiwango chako, stake $BBT, na ushiriki katika uzinduzi wote wa token tunaoleta kwako kwa njia iliyohakikishwa.",
+      "box-two-title": "Bridge & Swap AI",
+      "box-two-description": "Kwa kuunganisha na blockchains tofauti unaweza kubadilisha token zako kwa mitandao tofauti ya blockchain kwa kubofya chache.",
+      "box-three-title": "Mfumo wa Kipato",
+      "box-three-description": "Pata mapato ya kupita kiasi kupitia vipengele mbalimbali kama vile zawadi za Referral, zawadi za Staking, zawadi za Vaulting, mauzo ya NFT.",
+      "box-four-title": "Vault",
+      "box-four-description": "Unaweza kupata APY ya juu kwa staking mali zako za crypto kwa kuchagua Vault mbalimbali."
+    },
+  
+    "join-idos": {
+      "title": "Rahisi Kujiunga na IDOs kwa Hatua 3",
+      "box-one-title": "Unganisha Wallet",
+      "box-one-description": "Nunua token za $BBT na ungana na wallet yako na mfumo wa launchpad ili kushiriki.",
+      "box-two-title": "Stake $BBT Tokens",
+      "box-two-description": "Block Boost itaonyesha mfumo wa kiwango thabiti kulingana na idadi ya token zilizostake.",
+      "box-three-title": "Shiriki katika Mauzo",
+      "box-three-description": "Pata tiketi za bahati nasibu zilizothibitishwa ili kushiriki katika IDOs kupitia mfumo wetu wa kiwango cha staking."
+    },
+  
+    "exclusive-benefits": {
+      "title": "Faida za Kipekee za Kununua $WZP Katika Presale",
+      "box-one-title": "Zawadi za Referral za Presale",
+      "box-one-description": "Shiriki katika hatua za awali za presale ili kupata thamani zaidi ya uwekezaji wako ikilinganishwa na bei ya uzinduzi. Pia, unaweza kuwajulisha marafiki zako na kupata bonasi ya 5% wakati wa presale.",
+      "box-two-title": "Zawadi za Referral za Biashara",
+      "box-two-description": "Baada ya uzinduzi kufanikiwa bado unaweza kuwajulisha kupitia kiungo chako cha kipekee cha referral kutoka kwenye programu yetu ya dashibodi na kupata zawadi ya 2% ya biashara za referrals zako.",
+      "box-three-title": "Zawadi za Kushikilia",
+      "box-three-description": "Shikilia $BBT na upate mapato ya kupita kiasi. Kaa tu na upumzike kupata sehemu ya zawadi zako za kushikilia kutoka kwenye kiasi kilichofanyiwa biashara cha $BBT na kudai kupitia dapp yetu kila saa.",
+      "box-four-title": "Zawadi za Staking",
+      "box-four-description": "Stake $BBT ili kupata zawadi na kupata ugawaji wa uhakika kwa launchpad. Itazawadiwa kutoka kwenye ugavi wa staking wa ecosystem yetu.",
+      "box-five-title": "Zawadi za Vault Staking",
+      "box-five-description": "Stake token yoyote ili kupata mapato kwa njia ya kuunganishwa kiotomatiki. Unaweza stake token yoyote ili kupata $BBT kama zawadi ya kuunganishwa. Itazawadiwa kutoka kwenye ugavi wa vault wa ecosystem yetu."
+    },
+  
+    "buy-presale": {
+      "title": "Jinsi ya kununua katika Presale?",
+      "timeline": {
+        "connectWallet": {
+          "title": "UNGANISHA WALLET",
+          "description": "Tumia Metamask au Trust Wallet kuunganisha wallet yako kwa sekunde."
+        },
+        "confirmTransaction": {
+          "title": "THibitisha MUAMALA",
+          "description": "Unaweza kununua $BBT kwa USDT, ETH, na BNB."
+        },
+        "claimToken": {
+          "title": "DAI TOKEN",
+          "description": "Hongera! Unaweza kudai $BBT yako baada ya presale kumalizika."
+        }
+      }
+    },
+  
+    "roadmap": {
+      "title": "Ramani ya Barabara",
+      "phases": {
+        "phase1": {
+          "title": "AWAMU YA 1",
+          "descriptionOne": "Kuanza Mradi",
+          "descriptionTwo": "Maendeleo ya Mkataba Mwelekezi",
+          "descriptionThree": "Uzinduzi wa Tovuti",
+          "descriptionFour": "Toa Karatasi Nyeupe",
+          "descriptionFive": "Ukaguzi wa mkataba na Coinsult"
+        },
+        "phase2": {
+          "title": "AWAMU YA 2",
+          "descriptionOne": "Uzinduzi wa Presale",
+          "descriptionTwo": "Kampeni Kubwa ya Masoko",
+          "descriptionThree": "Hatua za Presale 1-5 kwenye blockboost.io",
+          "descriptionFour": "Upimaji wa beta wa launchpad"
+        },
+        "phase3": {
+          "title": "AWAMU YA 3",
+          "descriptionOne": "Ukaguzi wa Usalama kwa Launchpad",
+          "descriptionTwo": "Launchpad kwa ajili ya Kuanzisha Miradi Halali",
+          "descriptionThree": "Hatua za presale 6-10",
+          "descriptionFour": "Ushirikiano na Dapps kwa ajili ya Vault"
+        },
+        "phase4": {
+          "title": "AWAMU YA 4",
+          "descriptionOne": "Uzinduzi wa Soko la NFT",
+          "descriptionTwo": "Uzinduzi wa $BBT",
+          "descriptionThree": "Orodha kwenye mabadiliko ya kiwango cha juu",
+          "descriptionFour": "Ramani ya Barabara Ilisasishwa"
+        }
+      }
+    },
+  
+    "tokenomics": {
+      "title": "Maelezo ya Token",
+      "title-two": "Tokenomics",
+      "description": "Ugawaji wa Token utafanyika baada ya Presale kumalizika. Utaweza kudai token za $BBT ulizonunua kutoka kwenye ukurasa wetu wa presale.",
+      "name": "Jina",
+      "boost-token": "Token ya Block boost",
+      "symbol": "Alama",
+      "supply": "Ugavi",
+      "billion": "bilioni",
+      "tax": "Kodi",
+      "buy-sell": "Nunua/auza",
+      "type": "Aina",
+      "token-contract-address": "Anwani ya Mkataba wa Token",
+      "empty": "tyupa",
+      "decimal": "Decimal",
+      "presale-details": "Maelezo ya Presale",
+      "live": "Presale inaendelea",
+      "current-price": "Bei ya Sasa ya $BBT",
+      "listing-price": "Bei ya Orodha ya Kubadilishana",
+      "total-supply": "Jumla ya Ugavi"
+    },
+  
+    "powered-by": {
+      "title": "Imepangwa na"
+    },
+  
+    "faq": {
+      "title": "Maswali Yanayoulizwa Mara kwa Mara",
+      "question-one": "Blockboost ni nini?",
+      "answer-one": "Blockboost ni ecosystem ya kipekee ya uwekezaji wa umma kwa biashara za crypto.",
+      "question-two": "Nitaweza wapi kununua Token ya Blockboost na nitaiweza lini?",
+      "answer-two": "Wakati wa presale, unaweza kununua token za $BBT kutoka kwenye tovuti yetu rasmi www.blockboost.io; unaweza kudai token zako kutoka kwenye ukurasa wa presale baada ya presale kumalizika.",
+      "question-three": "Je, zawadi zangu zitalipwa kila saa daima?",
+      "answer-three": "Ndio, lazima uhodhi zawadi kutoka kwenye dapp yetu rasmi kwa kuunganisha wallet yako.",
+      "question-four": "Je, ni bidhaa zipi za Blockboost?",
+      "answer-four": "Blockboost ina bidhaa kama vile launchpad, vaults, swap, staking, na huduma nyingi za kubadilisha na NFT.",
+      "question-five": "Je, nitapata wapi habari kuhusu Blockboost?",
+      "answer-five": "Tafadhali fuatilia akaunti zetu za mitandao ya kijamii kwa habari za kila siku na updates, tunapatikana kwenye Twitter, Telegram, Discord."
+    }
+  }
+  

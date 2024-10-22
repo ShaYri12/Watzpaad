@@ -1,0 +1,72 @@
+{
+    "hero": {
+        "title": "säkraste lanseringsplattformen. multi-chain.",
+        "description": "BlockBoost är en decentraliserad multi-chain finansieringsplattform som möjliggör för projekt att samla in kapital och lova säkerhet till tidiga investerare. Satsa BlockBoost-token för att få prioriterad tillgång till lovande projekt."
+    },
+
+    "key-features": {
+        "title": "BlockBoost Nyckelfunktioner",
+        "description": "Lanserar noggrant utvalda högkvalitativa projekt på Blockkedjan",
+        "box-one-title": "Rättvis och Transparent",
+        "box-one-description": "Varje innehavare av BlockBoost-token har lika stor chans att delta i kommande lovande projekt för att bli en tidig investerare och vara en del av deras framgångssaga.",
+        "box-two-title": "Rug-Proof Mekanismer",
+        "box-two-description": "Innan något projekt når vår plattform genomgår det rigorösa granskningar av smarta kontrakt. Genomförande av granskningar av smarta kontrakt hjälper till att identifiera och åtgärda sårbarheter innan distribution.",
+        "box-three-title": "Garanterade Allokeringar",
+        "box-three-description": "När du har satsat behöver du registrera dig för varje IDO, så vi kan beräkna den garanterade allokeringen. När du är registrerad låser vi dina tokens, men du kan fortfarande delta i andra IDO:er.",
+        "box-four-title": "Högkvalitativa Projekt",
+        "box-four-description": "BlockBoost är din ingång till tidiga investeringsmöjligheter som vårt team har noggrant granskats."
+    },
+
+    "ido-staking": {
+        "title": "Satsa för IDO Deltagande",
+        "description": "När du har satsat behöver du registrera dig för varje IDO, så vi kan beräkna den garanterade allokeringen. När du är registrerad låser vi dina tokens, men du kan fortfarande delta i andra IDO:er.",
+        "level": "Nivå: ingen",
+        "stack": "Satsade: 0 BBT",
+        "tokens": "Dina tokens är upplåsta",
+        "balance": "Balans:",
+        "max": "Max",
+        "approve": "Godkänn",
+        "unstake": "Avsatsa",
+        "levels": "$BBT Nivåer",
+        "desc": "För att vara berättigad till någon av nivåerna krävs att du satsar följande:",
+        "bbtof": "BBT Av",
+        "forchances": "för chans (10% lotteri) 5 dagar",
+        "forprospect": "för prospekt (25% lotteri) 5 dagar",
+        "foraffiliate": "för affiliate (50% lotteri) 5 dagar",
+        "formember": "för medlem 5 dagar",
+        "forclub": "för klubb 5 dagar",
+        "forassociate": "för associerad 5 dagar",
+        "description-one": "Du behöver registrera dig för en IDO efter att du har satsat.",
+        "description-two": "När IDO-registreringsperioden börjar (vanligtvis 24 timmar före IDO-start) måste du öppna Pools-sidan och klicka på 'Registrera'-knappen i poolkortet.",
+        "description-three": "När du registrerar dig för en IDO registreras din nivå (för denna specifika IDO). Det finns inget sätt att ändra det till en högre nivå efter registreringen. Så se till att du är på den nivå du vill ha innan du registrerar dig. Du kommer dock att kunna satsa mer och registrera dig för andra IDO:er med en högre nivå."
+    },
+
+    "ido-projects": {
+        "upcoming": "Kommande",
+        "title": "Blockboost Försäljning",
+        "description": "Unikt WEB3 Crowdfunding Ekosystem",
+        "swap-rate": "Bytarate:",
+        "per": "Per",
+        "start": "Start:",
+        "total-raise": "Total Insamling"
+    },
+
+    "levels": {
+        "title": "Blockboosts Tiered System",
+        "description": "Blockboost kommer att visa ett fast nivåsystem baserat på antalet satsade tokens. Lotterinivåer kommer att dela 20% av den totala insamlingen och resterande 80% av insamlingen tilldelas för garanterade allokeringar baserat på poolvikterna som tilldelas.",
+        "staking-requirements": "Satsningskrav",
+        "staking-length-required": "3 timmar före allokeringsrundans öppnande",
+        "whitelist-requirement": "Whitelist Krav Twitter",
+        "lottery-tickets": "Lotteribiljetter",
+        "guaranteed-allocation": "Garanterad Allokering",
+        "pool-weight": "Poolvikt",
+        "private-allocations": "Privata Allokeringar",
+        "yes": "Ja",
+        "bronze": "Brons",
+        "silver": "Silver",
+        "gold": "Guld",
+        "platinum": "Platina",
+        "diamond": "Diamant",
+        "blue-diamond": "Blå Diamant"
+    }    
+}

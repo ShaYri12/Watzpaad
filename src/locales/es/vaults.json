@@ -1,5 +1,11 @@
 {
-  "title": "Bóvedas",
-  "subtitle": "Apuesta cualquier activo criptográfico para ganar con interés compuesto automático. Los usuarios pueden elegir apostar cualquier activo de varios grupos listados para ganar $BBT. Refiere a tus amigos para ganar un 5% en sus recompensas adicionales.",
-  "dividerAria": "Divisor de bóveda"
+  "title": "Cofres",
+  "subtitle": "Aposte cualquier activo criptográfico para ganar con capitalización automática. Los usuarios pueden elegir apostar cualquier activo de varios grupos listados para ganar $BBT. Refiera a sus amigos para ganar un 5% sobre sus recompensas adicionales.",
+  "dividerAria": "Divisor de cofres",
+  "auto": "Automático",
+  "compounded": "Compuesto",
+  "apy": "APY",
+  "pending-earnings": "Ganancias Pendientes",
+  "auto-compound": "Composición automática en",
+  "connect-wallet": "Conectar billetera"
 }

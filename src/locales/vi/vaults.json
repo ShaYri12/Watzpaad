@@ -1,5 +1,11 @@
 {
-  "title": "Kho bạc",
-  "subtitle": "Đặt cược bất kỳ tài sản tiền điện tử nào để kiếm lợi nhuận với lãi suất kép tự động. Người dùng có thể chọn đặt cược bất kỳ tài sản nào từ các nhóm được liệt kê để kiếm $BBT. Giới thiệu bạn bè của bạn để kiếm 5% trên phần thưởng thêm của họ.",
-  "dividerAria": "Ngăn cách kho bạc"
+  "title": "Hầm",
+  "subtitle": "Đặt cược bất kỳ tài sản tiền điện tử nào để kiếm tiền với lãi suất tự động. Người dùng có thể chọn đặt cược bất kỳ tài sản nào từ nhiều pool được liệt kê để kiếm $BBT. Giới thiệu bạn bè của bạn để kiếm 5% từ phần thưởng bổ sung của họ.",
+  "dividerAria": "Phân cách hầm",
+  "auto": "Tự động",
+  "compounded": "Tích lũy",
+  "apy": "APY",
+  "pending-earnings": "Thu nhập đang chờ xử lý",
+  "auto-compound": "Tích lũy tự động trong",
+  "connect-wallet": "Kết nối ví"
 }

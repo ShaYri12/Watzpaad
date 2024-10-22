@@ -1,0 +1,72 @@
+{
+    "hero": {
+      "title": "Pelancaran paling selamat. Rantaian pelbagai.",
+      "description": "BlockBoost adalah platform pengumpulan dana berasaskan rantaian pelbagai yang terdesentralisasi yang membolehkan projek mengumpul modal dan menjanjikan keselamatan kepada pelabur peringkat awal. Stak token BlockBoost untuk mendapatkan akses keutamaan kepada projek yang menjanjikan."
+    },
+
+    "key-features": {
+      "title": "Ciri-Ciri Utama BlockBoost",
+      "description": "Melancarkan projek berkualiti tinggi yang dipilih dengan teliti di Blockchain",
+      "box-one-title": "Adil dan Telus",
+      "box-one-description": "Setiap pemegang token BlockBoost mempunyai peluang yang sama untuk menyertai projek yang menjanjikan akan datang sebagai pelabur peringkat awal dan menjadi sebahagian daripada kisah kejayaan mereka.",
+      "box-two-title": "Mekanisme Rug-Proof",
+      "box-two-description": "Sebelum sebarang projek memasuki platform kami, ia melalui audit kontrak pintar yang ketat. Melakukan audit kontrak pintar membantu mengenal pasti dan membetulkan kerentanan sebelum penyebaran.",
+      "box-three-title": "Peruntukan Dijamin",
+      "box-three-description": "Setelah distak, anda perlu mendaftar untuk setiap IDO, supaya kami dapat mengira peruntukan yang dijamin. Setelah mendaftar, kami mengunci token anda, tetapi anda masih boleh menyertai IDO lain.",
+      "box-four-title": "Projek Berkualiti Tinggi",
+      "box-four-description": "BlockBoost adalah pintu masuk anda kepada peluang pelaburan peringkat awal, yang telah disemak dengan teliti oleh pasukan kami."
+    },
+
+    "ido-staking": {
+      "title": "Stak untuk Penyertaan IDO",
+      "description": "Setelah distak, anda perlu mendaftar untuk setiap IDO, supaya kami dapat mengira peruntukan yang dijamin. Setelah mendaftar, kami mengunci token anda, tetapi anda masih boleh menyertai IDO lain.",
+      "level": "Tahap: tiada",
+      "stack": "Distak: 0 BBT",
+      "tokens": "Token anda telah dibuka kuncinya",
+      "balance": "Baki:",
+      "max": "Maks",
+      "approve": "Luluskan",
+      "unstake": "Buka Stak",
+      "levels": "$BBT Tahap",
+      "desc": "Untuk layak bagi mana-mana peringkat, anda dikehendaki untuk menstak yang berikut:",
+      "bbtof": "BBT Of",
+      "forchances": "untuk peluang (loteri 10%) 5 hari",
+      "forprospect": "untuk prospek (loteri 25%) 5 hari",
+      "foraffiliate": "untuk afiliasi (loteri 50%) 5 hari",
+      "formember": "untuk ahli 5 hari",
+      "forclub": "untuk kelab 5 hari",
+      "forassociate": "untuk rakan 5 hari",
+      "description-one": "Anda perlu mendaftar untuk IDO selepas anda distak.",
+      "description-two": "Apabila tempoh pendaftaran IDO bermula (biasanya 24 jam sebelum IDO bermula), anda perlu membuka halaman Pools dan mengklik butang 'Daftar' dalam kad kolam.",
+      "description-three": "Apabila anda mendaftar untuk IDO, tahap anda akan direkodkan (untuk IDO tertentu ini). Tiada cara untuk menukarnya ke tahap yang lebih tinggi selepas pendaftaran. Jadi pastikan anda berada pada tahap yang anda inginkan sebelum mendaftar. Anda masih boleh menstak lebih banyak dan mendaftar untuk IDO lain dengan tahap yang lebih tinggi."
+    },
+
+    "ido-projects": {
+        "upcoming": "Akan Datang",
+        "title": "Jualan Blockboost",
+        "description": "Ecosystem Crowdfunding WEB3 yang unik",
+        "swap-rate": "Kadar Tukar:",
+        "per": "Setiap",
+        "start": "Mula:",
+        "total-raise": "Jumlah Pengumpulan"
+    },
+
+    "levels": {
+        "title": "Sistem Tahap Blockboost",
+        "description": "Blockboost akan mempamerkan sistem tahap tetap berdasarkan jumlah token yang distak. Tahap Loteri akan berkongsi 20% daripada jumlah pengumpulan dan 80% selebihnya dari pengumpulan ditetapkan untuk tahap peruntukan yang dijamin berdasarkan berat kolam yang ditetapkan.",
+        "staking-requirements": "Keperluan Staking",
+        "staking-length-required": "3 jam sebelum Pusingan Peruntukan Dibuka",
+        "whitelist-requirement": "Keperluan Senarai Putih Twitter",
+        "lottery-tickets": "Tiket Loteri",
+        "guaranteed-allocation": "Peruntukan Dijamin",
+        "pool-weight": "Berat Kolam",
+        "private-allocations": "Peruntukan Persendirian",
+        "yes": "Ya",
+        "bronze": "Perunggu",
+        "silver": "Perak",
+        "gold": "Emas",
+        "platinum": "Platinum",
+        "diamond": "Berlian",
+        "blue-diamond": "Berlian Biru"
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "hero": {
+      "title": "BLOCKBOOST",
+      "subtitle": "Unik WEB3 Crowdfunding Ekosystem",
+      "description1": "Är du redo att få tillgång till några av de mest exklusiva och lovande kryptostartups? block boost är din ingång till tidiga investeringsmöjligheter som vårt team noggrant har granskat.",
+      "description2": "Det finns många andra fördelar med att vara en del av Blockboost Crowdfunding Ekosystem med unika funktioner som Launchpad, Bridge & Swap AI, Earning-system, Vault, Marketplace och Staking.",
+      "usdtRaised": "USDT Insamlat: $361,590.14 / $605,467",
+      "target": "MÅL: $250000",
+      "listingPrice": "Noteringspris",
+      "receive": "Ta emot",
+      "nextPrice": "Nästa pris",
+      "availablePaymentMethods": "TILLGÄNGLIGA BETALNINGSMETODER",
+      "connectWallet": "Anslut plånbok",
+      "audit": "Revision",
+      "days": "Dagar",
+      "hours": "Timmar",
+      "minutes": "Minuter",
+      "seconds": "Sekunder"
+    },
+  
+    "ecosystems-utilities": {
+      "title": "Block Boost Ekosystem",
+      "box-one-title": "Launchpad",
+      "box-one-description": "Bestäm din nivå, satsa $BBT, och delta i alla tokenlanseringar vi erbjuder på ett garanterat sätt.",
+      "box-two-title": "Bridge & Swap AI",
+      "box-two-description": "Genom att ansluta till olika blockkedjor kan du byta dina tokens till olika blockkedjenätverk med några få klick.",
+      "box-three-title": "Earning-system",
+      "box-three-description": "Tjäna passiv inkomst genom olika funktioner som hänvisningsbelöningar, stakingsbelöningar, vaulting-belöningar, NFT-försäljningar.",
+      "box-four-title": "Vault",
+      "box-four-description": "Du kan tjäna hög avkastning APY genom att satsa dina kryptovalutor genom att välja olika Vaults."
+    },
+  
+    "join-idos": {
+      "title": "Enkelt att gå med i IDOs med 3 steg",
+      "box-one-title": "Anslut plånbok",
+      "box-one-description": "Köp $BBT-tokens och anslut din plånbok med launchpad-ekosystemet för att delta.",
+      "box-two-title": "Satsa $BBT Tokens",
+      "box-two-description": "Block Boost kommer att visa ett fast nivåsystem baserat på antalet satsade tokens.",
+      "box-three-title": "Delta i en försäljning",
+      "box-three-description": "Vinn bekräftade lotteribiljetter för att delta i IDOs genom vårt stakingsnivåsystem."
+    },
+  
+    "exclusive-benefits": {
+      "title": "Exklusiva fördelar med att köpa $WZP i presale",
+      "box-one-title": "Presale Hänvisningsbelöningar",
+      "box-one-description": "Delta i tidigt skede av presale för att få mer värde för din investering jämfört med lanseringspriset. Dessutom kan du hänvisa dina vänner och tjäna både 5% bonus under presale.",
+      "box-two-title": "Handels Hänvisningsbelöningar",
+      "box-two-description": "Efter en framgångsrik lansering kan du fortfarande hänvisa genom din unika hänvisningslänk från vår dashboard-app och tjäna 2% handelsbelöningar av dina hänvisningars handelsaktiviteter.",
+      "box-three-title": "Hållningsbelöningar",
+      "box-three-description": "Håll $BBT och tjäna passiv inkomst. Sätt dig bara ner och slappna av för att få en del av dina hållningsbelöningar från den handelsvolym som $BBT och kräva det genom vår dapp varje timme.",
+      "box-four-title": "Stakingsbelöningar",
+      "box-four-description": "Satsa $BBT för att tjäna belöning och få garanterad allocation för launchpad. Det kommer att belönas från stakingsutbudet av vårt ekosystem.",
+      "box-five-title": "Vault Stakingsbelöningar",
+      "box-five-description": "Satsa valfria tokens för att tjäna med automatisk sammansättning. Du kan satsa vilken token som helst för att tjäna $BBT som en sammansättningsbelöning. Det kommer att belönas från vault-utbudet av vårt ekosystem."
+    },
+  
+    "buy-presale": {
+      "title": "Hur man köper i presale?",
+      "timeline": {
+        "connectWallet": {
+          "title": "ANSKUT PLÅNBOK",
+          "description": "Använd Metamask eller Trust Wallet för att ansluta din plånbok på några sekunder."
+        },
+        "confirmTransaction": {
+          "title": "BEKRÄFTA TRANSAKTION",
+          "description": "Du kan köpa $BBT med USDT, ETH och BNB."
+        },
+        "claimToken": {
+          "title": "Kräv token",
+          "description": "Grattis! Du kan kräva din $BBT efter att presale avslutats."
+        }
+      }
+    },
+  
+    "roadmap": {
+      "title": "Färdplan",
+      "phases": {
+        "phase1": {
+          "title": "FAS 1",
+          "descriptionOne": "Projektinitiering",
+          "descriptionTwo": "Utveckling av smarta kontrakt",
+          "descriptionThree": "Lansering av webbplats",
+          "descriptionFour": "Uppdatera vitbok",
+          "descriptionFive": "Kontraktsrevision med Coinsult"
+        },
+        "phase2": {
+          "title": "FAS 2",
+          "descriptionOne": "Presale-lansering",
+          "descriptionTwo": "Stort marknadsföringskampanj",
+          "descriptionThree": "Presale-steg 1-5 på blockboost.io",
+          "descriptionFour": "Beta-testning av launchpad"
+        },
+        "phase3": {
+          "title": "FAS 3",
+          "descriptionOne": "Säkerhetsrevisioner för Launchpad",
+          "descriptionTwo": "Launchpad för att lansera legitima projekt",
+          "descriptionThree": "Presale-steg 6-10",
+          "descriptionFour": "Partnerskap med Dapps för Vault"
+        },
+        "phase4": {
+          "title": "FAS 4",
+          "descriptionOne": "NFT Marketplace-lansering",
+          "descriptionTwo": "Lansering av $BBT",
+          "descriptionThree": "Notering på topp-tier börser",
+          "descriptionFour": "Uppdaterad färdplan"
+        }
+      }
+    },
+  
+    "tokenomics": {
+      "title": "Token Detaljer",
+      "title-two": "Tokenomics",
+      "description": "Distribution av Token kommer att äga rum efter att Presale avslutas. Du kommer att kunna kräva de köpta $BBT Tokens från vår presale-sida.",
+      "name": "Namn",
+      "boost-token": "Block boost token",
+      "symbol": "Symbol",
+      "supply": "Utbud",
+      "billion": "miljard",
+      "tax": "Skatt",
+      "buy-sell": "Köp/Försälj",
+      "type": "Typ",
+      "token-contract-address": "Token Kontraktadress",
+      "empty": "tom",
+      "decimal": "Decimal",
+      "presale-details": "Presale Detaljer",
+      "live": "Presalen är live",
+      "current-price": "Aktuellt $BBT-pris",
+      "listing-price": "Börsnoteringspris",
+      "total-supply": "Totalt utbud"
+    },
+  
+    "powered-by": {
+      "title": "Drivs av"
+    },
+  
+    "faq": {
+      "title": "FAQ",
+      "question-one": "Vad är Blockboost?",
+      "answer-one": "Blockboost är ett unikt crowdfunding-ekosystem för kryptostartups.",
+      "question-two": "Var kan jag köpa Blockboost-token och när får jag den?",
+      "answer-two": "Under presale kan du köpa $BBT-tokens från vår officiella webbplats www.blockboost.io; du kan kräva dina tokens från presale-sidan efter att presale avslutats.",
+      "question-three": "Kommer mina belöningar alltid att betalas ut varje timme?",
+      "answer-three": "Ja, du måste kräva belöningen från vår officiella dapp genom att ansluta din plånbok.",
+      "question-four": "Hur kan jag bli berättigad till presale-belöningarna?",
+      "answer-four": "Du kan få din hänvisningslänk från presale-sidan och köp som görs genom den kommer automatiskt att krediteras ditt konto på presale-sidan. Du kan kontrollera det genom att ansluta din plånbok till dappen.",
+      "question-five": "Vad är din minimi- och maximibetalning?",
+      "answer-five": "Minimi-betalningen är $10 och maximibetalningen är $10,000."
+    }
+  }
+  

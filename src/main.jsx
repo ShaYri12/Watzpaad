@@ -26,6 +26,13 @@ import homepage_tr from "./locales/tr/homepage.json";
 import homepage_uk from "./locales/uk/homepage.json";
 import homepage_vi from "./locales/vi/homepage.json";
 import homepage_zh from "./locales/zh/homepage.json";
+import homepage_bn from "./locales/bn/homepage.json";
+import homepage_ms from "./locales/ms/homepage.json";
+import homepage_fa from "./locales/fa/homepage.json";
+import homepage_he from "./locales/he/homepage.json";
+import homepage_sw from "./locales/sw/homepage.json";
+import homepage_nl from "./locales/nl/homepage.json";
+import homepage_sv from "./locales/sv/homepage.json";
 
 // Launchedpad Complete
 import launchedpad_en from "./locales/en/launchedpad.json";
@@ -45,6 +52,13 @@ import launchedpad_tr from "./locales/tr/launchedpad.json";
 import launchedpad_uk from "./locales/uk/launchedpad.json";
 import launchedpad_vi from "./locales/vi/launchedpad.json";
 import launchedpad_zh from "./locales/zh/launchedpad.json";
+import launchedpad_bn from "./locales/bn/launchedpad.json";
+import launchedpad_ms from "./locales/ms/launchedpad.json";
+import launchedpad_fa from "./locales/fa/launchedpad.json";
+import launchedpad_he from "./locales/he/launchedpad.json";
+import launchedpad_sw from "./locales/sw/launchedpad.json";
+import launchedpad_nl from "./locales/nl/launchedpad.json";
+import launchedpad_sv from "./locales/sv/launchedpad.json";
 
 // Earning Complete
 import earning_en from "./locales/en/earning.json";
@@ -64,6 +78,13 @@ import earning_tr from "./locales/tr/earning.json";
 import earning_uk from "./locales/uk/earning.json";
 import earning_vi from "./locales/vi/earning.json";
 import earning_zh from "./locales/zh/earning.json";
+import earning_bn from "./locales/bn/earning.json";
+import earning_ms from "./locales/ms/earning.json";
+import earning_fa from "./locales/fa/earning.json";
+import earning_he from "./locales/he/earning.json";
+import earning_sw from "./locales/sw/earning.json";
+import earning_nl from "./locales/nl/earning.json";
+import earning_sv from "./locales/sv/earning.json";
 
 // Marketplace
 import marketplace_en from "./locales/en/marketplace.json";
@@ -83,6 +104,13 @@ import marketplace_tr from "./locales/tr/marketplace.json";
 import marketplace_uk from "./locales/uk/marketplace.json";
 import marketplace_vi from "./locales/vi/marketplace.json";
 import marketplace_zh from "./locales/zh/marketplace.json";
+import marketplace_bn from "./locales/bn/marketplace.json";
+import marketplace_ms from "./locales/ms/marketplace.json";
+import marketplace_fa from "./locales/fa/marketplace.json";
+import marketplace_he from "./locales/he/marketplace.json";
+import marketplace_sw from "./locales/sw/marketplace.json";
+import marketplace_nl from "./locales/nl/marketplace.json";
+import marketplace_sv from "./locales/sv/marketplace.json";
 
 // Vaults
 import vaults_en from "./locales/en/vaults.json";
@@ -102,8 +130,15 @@ import vaults_tr from "./locales/tr/vaults.json";
 import vaults_uk from "./locales/uk/vaults.json";
 import vaults_vi from "./locales/vi/vaults.json";
 import vaults_zh from "./locales/zh/vaults.json";
+import vaults_bn from "./locales/bn/vaults.json";
+import vaults_ms from "./locales/ms/vaults.json";
+import vaults_fa from "./locales/fa/vaults.json";
+import vaults_he from "./locales/he/vaults.json";
+import vaults_sw from "./locales/sw/vaults.json";
+import vaults_nl from "./locales/nl/vaults.json";
+import vaults_sv from "./locales/sv/vaults.json";
 
-// Vaults
+// Staking
 import stacking_en from "./locales/en/stacking.json";
 import stacking_ar from "./locales/ar/stacking.json";
 import stacking_de from "./locales/de/stacking.json";
@@ -121,6 +156,14 @@ import stacking_tr from "./locales/tr/stacking.json";
 import stacking_uk from "./locales/uk/stacking.json";
 import stacking_vi from "./locales/vi/stacking.json";
 import stacking_zh from "./locales/zh/stacking.json";
+
+import stacking_bn from "./locales/bn/stacking.json";
+import stacking_ms from "./locales/ms/stacking.json";
+import stacking_fa from "./locales/fa/stacking.json";
+import stacking_he from "./locales/he/stacking.json";
+import stacking_sw from "./locales/sw/stacking.json";
+import stacking_nl from "./locales/nl/stacking.json";
+import stacking_sv from "./locales/sv/stacking.json";
 
 // Win
 import win_en from "./locales/en/win.json";
@@ -140,6 +183,14 @@ import win_tr from "./locales/tr/win.json";
 import win_uk from "./locales/uk/win.json";
 import win_vi from "./locales/vi/win.json";
 import win_zh from "./locales/zh/win.json";
+
+import win_bn from "./locales/bn/win.json";
+import win_ms from "./locales/ms/win.json";
+import win_fa from "./locales/fa/win.json";
+import win_he from "./locales/he/win.json";
+import win_sw from "./locales/sw/win.json";
+import win_nl from "./locales/nl/win.json";
+import win_sv from "./locales/sv/win.json";
 
 // Terms And Conditions Complete
 import terms_en from "./locales/en/terms.json";
@@ -276,6 +327,13 @@ import footer_pt from "./locales/pt/footer.json";
 import footer_th from "./locales/th/footer.json";
 import footer_tr from "./locales/tr/footer.json";
 import footer_vi from "./locales/vi/footer.json";
+import footer_bn from "./locales/bn/footer.json";
+import footer_ms from "./locales/ms/footer.json";
+import footer_fa from "./locales/fa/footer.json";
+import footer_he from "./locales/he/footer.json";
+import footer_sw from "./locales/sw/footer.json";
+import footer_nl from "./locales/nl/footer.json";
+import footer_sv from "./locales/sv/footer.json";
 
 // tradingmarket
 import tradingmarket_en from "./locales/en/tradingmarket.json";
@@ -296,8 +354,98 @@ import tradingmarket_uk from "./locales/uk/tradingmarket.json";
 import tradingmarket_vi from "./locales/vi/tradingmarket.json";
 import tradingmarket_zh from "./locales/zh/tradingmarket.json";
 
+// MetaAltPad
+import metaaltpad_en from "./locales/en/metaaltpad.json";
+import metaaltpad_ar from "./locales/ar/metaaltpad.json";
+import metaaltpad_de from "./locales/de/metaaltpad.json";
+import metaaltpad_es from "./locales/es/metaaltpad.json";
+import metaaltpad_fr from "./locales/fr/metaaltpad.json";
+import metaaltpad_hi from "./locales/hi/metaaltpad.json";
+import metaaltpad_it from "./locales/it/metaaltpad.json";
+import metaaltpad_ja from "./locales/ja/metaaltpad.json";
+import metaaltpad_ko from "./locales/ko/metaaltpad.json";
+import metaaltpad_pl from "./locales/pl/metaaltpad.json";
+import metaaltpad_pt from "./locales/pt/metaaltpad.json";
+import metaaltpad_ru from "./locales/ru/metaaltpad.json";
+import metaaltpad_th from "./locales/th/metaaltpad.json";
+import metaaltpad_tr from "./locales/tr/metaaltpad.json";
+import metaaltpad_uk from "./locales/uk/metaaltpad.json";
+import metaaltpad_vi from "./locales/vi/metaaltpad.json";
+import metaaltpad_zh from "./locales/zh/metaaltpad.json";
+
 i18n.init({
   resources: {
+    bn:{
+      homepage: homepage_bn,
+      footer: footer_bn,
+      launchedpad: launchedpad_bn,
+      earning: earning_bn,
+      marketplace: marketplace_bn,
+      vaults: vaults_bn,
+      stacking: stacking_bn,
+      win: win_bn,
+    },
+    ms:{
+      homepage: homepage_ms,
+      footer: footer_ms,
+      launchedpad: launchedpad_ms,
+      earning: earning_ms,
+      marketplace: marketplace_ms,
+      vaults: vaults_ms,
+      stacking: stacking_ms,
+      win: win_ms,
+    },
+    fa:{
+      homepage: homepage_fa,
+      footer: footer_fa,
+      launchedpad: launchedpad_fa,
+      earning: earning_fa,
+      marketplace: marketplace_fa,
+      vaults: vaults_fa,
+      stacking: stacking_fa,
+      win: win_fa,
+    },
+    he:{
+      homepage: homepage_he,
+      footer: footer_he,
+      launchedpad: launchedpad_he,
+      earning: earning_he,
+      marketplace: marketplace_he,
+      vaults: vaults_he,
+      stacking: stacking_he,
+      win: win_he,
+    },
+    sw:{
+      homepage: homepage_sw,
+      footer: footer_sw,
+      launchedpad: launchedpad_sw,
+      earning: earning_sw,
+      marketplace: marketplace_sw,
+      vaults: vaults_sw,
+      stacking: stacking_sw,
+      win: win_sw,
+    },
+    nl:{
+      homepage: homepage_nl,
+      footer: footer_nl,
+      launchedpad: launchedpad_nl,
+      earning: earning_nl,
+      marketplace: marketplace_nl,
+      vaults: vaults_nl,
+      stacking: stacking_nl,
+      win: win_nl,
+    },
+    sv:{
+      homepage: homepage_sv,
+      footer: footer_sv,
+      launchedpad: launchedpad_sv,
+      earning: earning_sv,
+      marketplace: marketplace_sv,
+      vaults: vaults_sv,
+      stacking: stacking_sv,
+      win: win_sv,
+    },
+
     ar: {
       homepage: homepage_ar,
       launchedpad: launchedpad_ar,
@@ -314,8 +462,8 @@ i18n.init({
       cookie: cookie_ar,
       marketplace: marketplace_ar,
       tradingmarket: tradingmarket_ar,
+      metaaltpad: metaaltpad_ar,
     },
-
     de: {
       homepage: homepage_de,
       launchedpad: launchedpad_de,
@@ -332,8 +480,10 @@ i18n.init({
       footer: footer_de,
       marketplace: marketplace_de,
       tradingmarket: tradingmarket_de,
+      metaaltpad: metaaltpad_de,
     },
     en: {
+      metaaltpad: metaaltpad_en,
       homepage: homepage_en,
       launchedpad: launchedpad_en,
       terms: terms_en,
@@ -349,7 +499,6 @@ i18n.init({
       footer: footer_en,
       marketplace: marketplace_en,
       tradingmarket: tradingmarket_en,
-      
     },
     es: {
       homepage: homepage_es,
@@ -367,6 +516,7 @@ i18n.init({
       footer: footer_es,
       marketplace: marketplace_es,
       tradingmarket: tradingmarket_es,
+      metaaltpad: metaaltpad_es,
     },
     fr: {
       homepage: homepage_fr,
@@ -384,6 +534,7 @@ i18n.init({
       footer: footer_fr,
       marketplace: marketplace_fr,
       tradingmarket: tradingmarket_fr,
+      metaaltpad: metaaltpad_fr,
     },
     hi: {
       homepage: homepage_hi,
@@ -401,6 +552,7 @@ i18n.init({
       footer: footer_hi,
       marketplace: marketplace_hi, 
       tradingmarket: tradingmarket_hi,
+      metaaltpad: metaaltpad_hi,
     },
     it: {
       homepage: homepage_it,
@@ -418,6 +570,7 @@ i18n.init({
       footer: footer_it,
       marketplace: marketplace_it,
       tradingmarket: tradingmarket_it,
+      metaaltpad: metaaltpad_it,
     },
     ja: {
       homepage: homepage_ja,
@@ -435,6 +588,7 @@ i18n.init({
       footer: footer_ja,
       tradingmarket: tradingmarket_ja,
       marketplace: marketplace_ja,
+      metaaltpad: metaaltpad_ja,
     },
     ko: {
       homepage: homepage_ko,
@@ -452,6 +606,7 @@ i18n.init({
       marketplace: marketplace_ko,
       footer: footer_ko,
       tradingmarket: tradingmarket_ko,
+      metaaltpad: metaaltpad_ko,
     },
     pl: {
       homepage: homepage_pl,
@@ -469,6 +624,7 @@ i18n.init({
       cookie: cookie_pl,
       marketplace: marketplace_pl,
       tradingmarket: tradingmarket_pl,
+      metaaltpad: metaaltpad_pl,
     },
     pt: {
       homepage: homepage_pt,
@@ -486,6 +642,7 @@ i18n.init({
       marketplace: marketplace_pt,
       footer: footer_pt,
       tradingmarket: tradingmarket_pt,
+      metaaltpad: metaaltpad_pt,
     },
     th: {
       homepage: homepage_th,
@@ -503,6 +660,7 @@ i18n.init({
       footer: footer_th,
       marketplace: marketplace_th,
       tradingmarket: tradingmarket_th,
+      metaaltpad: metaaltpad_th,
     },
     ru: {
       homepage: homepage_ru,
@@ -520,6 +678,7 @@ i18n.init({
       marketplace: marketplace_ru,
       footer: footer_ru,
       tradingmarket: tradingmarket_ru,
+      metaaltpad: metaaltpad_ru,
     },
     uk: {
       homepage: homepage_uk,
@@ -537,8 +696,8 @@ i18n.init({
       footer: footer_uk,
       marketplace: marketplace_uk,
       tradingmarket: tradingmarket_uk,
+      metaaltpad: metaaltpad_uk,
     },
-
     zh: {
       homepage: homepage_zh,
       launchedpad: launchedpad_zh,
@@ -555,6 +714,7 @@ i18n.init({
       stacking: stacking_zh,
       marketplace: marketplace_zh,
       tradingmarket: tradingmarket_zh, 
+      metaaltpad: metaaltpad_zh,
     },
     vi: {
       homepage: homepage_vi,
@@ -571,6 +731,7 @@ i18n.init({
       footer: footer_vi,
       marketplace: marketplace_vi,
       tradingmarket: tradingmarket_vi,
+      metaaltpad: metaaltpad_vi,
     },
     tr: {
       homepage: homepage_tr,
@@ -587,6 +748,7 @@ i18n.init({
       convertor: convertor_tr,
       marketplace: marketplace_tr,
       tradingmarket: tradingmarket_tr,
+      metaaltpad: metaaltpad_tr,
     },
   },
 

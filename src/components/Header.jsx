@@ -5,8 +5,10 @@ import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
 import Logo from "../../public/assets/logo.svg";
 import LanguageDropdown from "./LanguageDropdown";
+import { useTranslation } from 'react-i18next'; 
 
 const Header = () => {
+  const { t } = useTranslation("footer");
   const [isOpen, setIsOpen] = useState(false); // State for drawer visibility
 
   const toggleDrawer = () => {
@@ -34,14 +36,14 @@ const Header = () => {
         {/* Nav links */}
         <nav className="hidden lg:flex xl:gap-[7px] md:gap-0 gap-[4px] py-[19px]">
           {[
-            { name: "Home", path: "/" },
-            { name: "Launchpad", path: "/launchpad" },
-            { name: "Earnings", path: "/earnings" },
-            { name: "Marketplace", path: "/marketplace" },
-            { name: "Vault", path: "/vault" },
-            { name: "Staking", path: "/stacking" },
-            { name: "Win $1M", path: "/win" },
-            { name: "Whitepaper", path: "/whitepaper" },
+            { name: t('links.home'), path: "/" },
+            { name: t('links.launchpad'), path: "/launchpad" },
+            { name: t('links.earnings'), path: "/earnings" },
+            { name: t('links.marketplace'), path: "/marketplace" },
+            { name: t('links.vault'), path: "/vault" },
+            { name: t('help.stacking'), path: "/stacking" },
+            { name: t('help.win'), path: "/win" },
+            { name: t('help.whitepaper'), path: "/whitepaper" },
           ].map((item, index) => (
             <NavLink
               key={index}
@@ -64,13 +66,13 @@ const Header = () => {
           </div>
           <Link
             to="/dashboard"
-            className="text-black flex items-center justify-center xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
+            className="text-black flex items-center text-center justify-center xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
             }}
           >
-            Go to App
+            {t('help.goToApp')}
           </Link>
         </div>
       </div>

@@ -27,7 +27,6 @@ const languages = [
   { code: "he", name: "Hebrew", flag: "https://flagcdn.com/w320/il.png" },
   { code: "sw", name: "Swahili", flag: "https://flagcdn.com/w320/tz.png" },
   { code: "nl", name: "Dutch", flag: "https://flagcdn.com/w320/nl.png" },
-  { code: "no", name: "Norwegian", flag: "https://flagcdn.com/w320/no.png" },
   { code: "sv", name: "Swedish", flag: "https://flagcdn.com/w320/se.png" },
 ];
 
