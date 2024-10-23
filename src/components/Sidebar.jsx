@@ -16,12 +16,6 @@ const Sidebar = () => {
       link: "/dashboard",
     },
     {
-      name: "Bridge & Swap AI",
-      icon: "/assets/icons/bridge-black-icon.svg",
-      activeIcon: "/assets/icons/bridge.png",
-      link: "/bridging",
-    },
-    {
       name: "Marketplace",
       icon: "/assets/icons/marketplace-black-icon.svg",
       activeIcon: "/assets/icons/marketplace.png",
@@ -32,6 +26,12 @@ const Sidebar = () => {
       icon: "/assets/icons/vault-black-icon.svg",
       activeIcon: "/assets/icons/vault.svg",
       link: "/dashboard-vault",
+    },
+    {
+      name: "Bridge & Swap AI",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
+      link: "/bridging",
     },
   ];
 

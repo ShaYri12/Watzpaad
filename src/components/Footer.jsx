@@ -99,22 +99,22 @@ const Footer = () => {
                 <BsTwitterX />
               </span>
             </Link>
-            <Link to="#" className="relative min-h-[30px] min-w-[30px]">
+            {/* <Link to="#" className="relative min-h-[30px] min-w-[30px]">
               <img
                 src="/assets/icons/facebook.png"
                 alt="Facebook"
                 className="w-[30px] h-[30px] relative z-[1]"
               />
               <div className="absolute bottom-[1px] left-[1px] w-[25px] h-[25px] bg-white rounded-full z-[0]"></div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               to="#"
               className="rounded-full w-[30px] h-[30px] min-h-[30px] min-w-[30px] bg-[#D62F84] text-white flex items-center justify-center"
             >
               <span className="text-[16px]">
                 <AiFillInstagram size={20} />
               </span>
-            </Link>
+            </Link> */}
           </div>
           <p className="text-[#798DA3] mt-2 text-sm">
             {t('disclaimer')}

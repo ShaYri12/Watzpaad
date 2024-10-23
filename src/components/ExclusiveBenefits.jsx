@@ -42,7 +42,7 @@ const ExclusiveBenefits = () => {
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-one-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p style={{ color: 'rgba(202, 204, 207)' }}  className=" text-[14px] leading-[18px] font-normal font-space">
                   {t("exclusive-benefits.box-one-description")}
                 </p>
               </div>
@@ -58,7 +58,7 @@ const ExclusiveBenefits = () => {
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-two-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p style={{ color: 'rgba(202, 204, 207)' }}  className=" text-[14px] leading-[18px] font-normal font-space">
                   {t("exclusive-benefits.box-two-description")}
                 </p>
               </div>
@@ -74,7 +74,7 @@ const ExclusiveBenefits = () => {
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-three-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p style={{ color: 'rgba(202, 204, 207)' }}  className="  text-[14px] leading-[18px] font-normal font-space">
                   {t("exclusive-benefits.box-three-description")}
                 </p>
               </div>
@@ -94,7 +94,7 @@ const ExclusiveBenefits = () => {
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-four-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p style={{ color: 'rgba(202, 204, 207)' }}  className=" text-[14px] leading-[18px] font-normal font-space">
                   {t("exclusive-benefits.box-four-description")}
                 </p>
               </div>
@@ -105,12 +105,12 @@ const ExclusiveBenefits = () => {
             style={{ backdropFilter: "blur(25.997512817382812px)" }}
           >
             <div className="card-border w-full h-full p-[2px]">
-              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full">
+              <div className="p-[18px] flex items-center flex-col text-center rounded-md relative z-[2] w-full h-full"  >
                 <img src={StackingRewards} alt="launchpad" />
                 <h2 className="pb-2.5 pt-[31px] text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("exclusive-benefits.box-five-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p style={{ color: 'rgba(202, 204, 207)' }} className=" text-[14px] leading-[18px] font-normal font-space">
                   {t("exclusive-benefits.box-five-description")}
                 </p>
               </div>

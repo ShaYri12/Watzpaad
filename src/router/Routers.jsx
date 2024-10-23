@@ -16,7 +16,7 @@ import Win from "../pages/Win";
 import TradingMarket from "../pages/TradingMarket";
 import BridgingConverter2 from "../pages/BridgingConvertorStep2";
 import EarningsManager from "../pages/EarningManager";
-import MetaAltPad from "../pages/MetaAltPad";
+import BBTPrivateSale from "../pages/BBTPrivate-Sale";
 import SidebarLayout from "../layout/SidebarLayout";
 import DashboardMarketPlace from "../pages/DashboardMarketPlace";
 import DashboardTradingMarket from "../pages/DashboardTradingMarket";
@@ -37,7 +37,7 @@ const Routers = () => {
           <Route path="/vault" element={<Vault />} />
           <Route path="/stacking" element={<Stacking />} />
           <Route path="/win" element={<Win />} />
-          <Route path="/metaAltPad" element={<MetaAltPad />} />
+          <Route path="/bbtprivate-sale" element={<BBTPrivateSale/>} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}

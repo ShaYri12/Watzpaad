@@ -42,8 +42,8 @@ const Header = () => {
             { name: t('links.marketplace'), path: "/marketplace" },
             { name: t('links.vault'), path: "/vault" },
             { name: t('help.stacking'), path: "/stacking" },
-            { name: t('help.win'), path: "/win" },
             { name: t('help.whitepaper'), path: "/whitepaper" },
+            { name: t('help.win'), path: "/win" },
           ].map((item, index) => (
             <NavLink
               key={index}
