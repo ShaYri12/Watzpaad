@@ -19,8 +19,6 @@ const languages = [
   { code: "uk", name: "Ukrainian", flag: "https://flagcdn.com/w320/ua.png" },
   { code: "vi", name: "Vietnamese", flag: "https://flagcdn.com/w320/vn.png" },
   { code: "zh", name: "Chinese", flag: "https://flagcdn.com/w320/cn.png" },
-
-  // New Languages
   { code: "bn", name: "Bengali", flag: "https://flagcdn.com/w320/bd.png" },
   { code: "ms", name: "Malay", flag: "https://flagcdn.com/w320/my.png" },
   { code: "fa", name: "Persian", flag: "https://flagcdn.com/w320/ir.png" },
