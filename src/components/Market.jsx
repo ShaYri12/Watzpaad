@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { MarketData } from "../assets/MarketData";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 export default function Market({ dashboard = false }) {
   const { t } = useTranslation("marketplace");
@@ -36,13 +36,13 @@ export default function Market({ dashboard = false }) {
         } flex-wrap gap-[18px]`}
       >
         <h1 className="md:text-[50px] text-[30px] font-[700] md:leading-[57.5px] text-white">
-          {t('marketHeader')}
+          {t("marketHeader")}
         </h1>
         <div className="flex flex-wrap gap-[13px] md:gap-[25px]">
           <div className="relative">
             <input
               type="text"
-              placeholder={t('searchPlaceholder')}
+              placeholder={t("searchPlaceholder")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="bg-primaryColor text-black rounded-full py-[11px] pl-[45px] pr-4 w-[200px] md:w-[224px] focus:outline-none focus:ring-2 focus:ring-teal-600 placeholder:text-black"
@@ -78,16 +78,16 @@ export default function Market({ dashboard = false }) {
                   <p className="text-[12px] md:text-[18.7px] text-white">
                     #{card.id}
                   </p>
-                  <p className="text-[#798DA3] text-[10.28px] md:text-[14.03px] leading-[8.86px] md:leading-[16.13px]">
-                    {t('unlockIn')}{" "}
+                  <p className="text-grayish text-[10.28px] md:text-[14.03px] leading-[8.86px] md:leading-[16.13px]">
+                    {t("unlockIn")}{" "}
                     <span className="text-white text-[12px] md:text-[18.7px] leading-[11.82px] md:leading-[21.5px]">
                       {card.unlock}
                     </span>
                   </p>
                 </div>
                 <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
-                  <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                    {t('salePrice')}
+                  <p className="text-[10.28px] w-max md:text-[14.03px] text-grayish">
+                    {t("salePrice")}
                   </p>
                   <div className="flex flex-col gap-[5.54px] text-right flex-grow">
                     <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">
@@ -98,8 +98,8 @@ export default function Market({ dashboard = false }) {
                   </div>
                 </div>
                 <div className="flex w-full justify-between items-start gap-1 mt-auto flex-wrap">
-                  <p className="text-[10.28px] w-max md:text-[14.03px] text-[#798DA3]">
-                    {t('parValue')}
+                  <p className="text-[10.28px] w-max md:text-[14.03px] text-grayish">
+                    {t("parValue")}
                   </p>
                   <div className="flex flex-col gap-[5.54px] text-right flex-grow">
                     <div className="flex items-center justify-end gap-1 text-white md:text-[17.14px] w-full">

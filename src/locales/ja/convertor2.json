@@ -4,7 +4,7 @@
   "progress": {
     "start": "開始",
     "summary": "概要",
-    "ponder": "考える"
+    "letsGo": "行こう"
   },
   "suggested_route_title": "提案されたルート",
   "eth_to_bnb": {

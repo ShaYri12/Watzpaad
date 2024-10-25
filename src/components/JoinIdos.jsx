@@ -18,10 +18,10 @@ const JoinIdos = () => {
             <div className="flex flex-col items-center text-center text-white sm:max-w-[305.54px] max-w-[262.46px]">
               <img src={ConnectWallet} alt="connect-wallet" />
               <p className="lg:mt-[15px] mt-[12.89px] text-white lg:text-[27px] text-[23.19px] lg:leading-[31.05px] leading-[26.67px] font-[700]">
-              {t("join-idos.box-one-title")}
+                {t("join-idos.box-one-title")}
               </p>
-              <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
-              {t("join-idos.box-one-description")}
+              <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
+                {t("join-idos.box-one-description")}
               </p>
             </div>
 
@@ -34,10 +34,10 @@ const JoinIdos = () => {
             <div className="flex flex-col items-center text-center text-white sm:max-w-[305.54px] max-w-[262.46px]">
               <img src={StackTokens} alt="connect-wallet" />
               <p className="lg:mt-[15px] mt-[12.89px] text-white lg:text-[27px] text-[23.19px] lg:leading-[31.05px] leading-[26.67px] font-[700]">
-              {t("join-idos.box-two-title")}
+                {t("join-idos.box-two-title")}
               </p>
-              <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
-              {t("join-idos.box-two-description")}
+              <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
+                {t("join-idos.box-two-description")}
               </p>
             </div>
 
@@ -50,10 +50,10 @@ const JoinIdos = () => {
             <div className="flex flex-col items-center text-center text-white sm:max-w-[305.54px] max-w-[262.46px]">
               <img src={ParticipateSale} alt="connect-wallet" />
               <p className="lg:mt-[15px] mt-[12.89px] text-white lg:text-[27px] text-[23.19px] lg:leading-[31.05px] leading-[26.67px] font-[700]">
-              {t("join-idos.box-three-title")}
+                {t("join-idos.box-three-title")}
               </p>
-              <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
-              {t("join-idos.box-three-description")}
+              <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
+                {t("join-idos.box-three-description")}
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@
   "progress": {
     "start": "Start",
     "summary": "Summary",
-    "ponder": "Ponder"
+    "letsGo": "Let's Go"
   },
   "form": {
     "want_to": "I want to",

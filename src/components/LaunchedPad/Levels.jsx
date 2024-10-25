@@ -4,50 +4,67 @@ import { useTranslation } from "react-i18next";
 const TierCard = ({ tier }) => {
   const { t } = useTranslation("launchedpad"); // Place this inside curly braces
 
-  return ( // Use return to define the output
-    <div className={`card-border bg-[#1F2835CC] px-[13px] py-[15px] rounded-[13.34px]`}>
+  return (
+    // Use return to define the output
+    <div
+      className={`card-border bg-[#1F2835CC] px-[13px] py-[15px] rounded-[13.34px]`}
+    >
       <div className="flex flex-col h-full w-full relative z-[2]">
         <h2
-          className={`text-[26px] md:text-[36px] font-[700] mb-[13px] text-center ${tier.color === "bg-primaryColor" ? "text-black" : "text-white"} ${tier.color} px-[20px] py-[8px] rounded-[7px]`}
+          className={`text-[26px] md:text-[36px] font-[700] mb-[13px] text-center ${
+            tier.color === "bg-primaryColor" ? "text-black" : "text-white"
+          } ${tier.color} px-[20px] py-[8px] rounded-[7px]`}
         >
           {tier.name}
         </h2>
         <div className="flex flex-col gap-[39px] flex-grow max-w-[287px] mx-auto">
           <div className="text-center">
-            <p className="text-[15px] text-[#798DA3]">{t('levels.staking-requirements')}</p>
+            <p className="text-[15px] text-grayish">
+              {t("levels.staking-requirements")}
+            </p>
             <p className="text-[34px] leading-[39px] text-white font-[400]">
               {tier.stakingRequirement}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-[15px] text-[#798DA3]">{t('levels.staking-length-required')}</p>
+            <p className="text-[15px] text-grayish">
+              {t("levels.staking-length-required")}
+            </p>
             <p className="text-[23px] leading-[34px] text-white font-[400]">
               {tier.stakingLength}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-[15px] text-[#798DA3]">{t('levels.whitelist-requirement')}</p>
+            <p className="text-[15px] text-grayish">
+              {t("levels.whitelist-requirement")}
+            </p>
             <p className="text-[23px] leading-[34px] text-white font-[400]">
               {tier.whitelistRequirement}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-[15px] text-[#798DA3]">{t('levels.lottery-tickets')}</p>
+            <p className="text-[15px] text-grayish">
+              {t("levels.lottery-tickets")}
+            </p>
             <p className="text-[23px] leading-[34px] text-white font-[400]">
               {tier.lotteryTickets}
             </p>
           </div>
           {tier.guaranteedAllocation && (
             <div className="text-center">
-              <p className="text-[15px] text-[#798DA3]">{t('levels.guaranteed-allocation')} </p>
+              <p className="text-[15px] text-grayish">
+                {t("levels.guaranteed-allocation")}{" "}
+              </p>
               <p className="text-[23px] leading-[34px] text-white font-[400]">
-              {t('levels.yes')}
+                {t("levels.yes")}
               </p>
             </div>
           )}
           {tier.poolWeight && (
             <div className="text-center">
-              <p className="text-[15px] text-[#798DA3]">{t('levels.pool-weight')}</p>
+              <p className="text-[15px] text-grayish">
+                {t("levels.pool-weight")}
+              </p>
               <p className="text-[23px] leading-[34px] text-white font-[400]">
                 {tier.poolWeight}
               </p>
@@ -55,10 +72,11 @@ const TierCard = ({ tier }) => {
           )}
           {tier.privateAllocations && (
             <div className="text-center">
-              <p className="text-[15px] text-[#798DA3]">{t('levels.private-allocations')}</p>
+              <p className="text-[15px] text-grayish">
+                {t("levels.private-allocations")}
+              </p>
               <p className="text-[23px] leading-[34px] text-white font-[400]">
-                
-                {t('levels.yes')}
+                {t("levels.yes")}
               </p>
             </div>
           )}
@@ -73,55 +91,55 @@ export default function Levels() {
 
   const tiers = [
     {
-      name: t('levels.bronze'),
+      name: t("levels.bronze"),
       color: "bg-[#38DCC833]",
       stakingRequirement: "$BBT Of $200",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 1,
     },
     {
-      name: t('levels.silver'),
+      name: t("levels.silver"),
       color: "bg-[#38DCC833]",
       stakingRequirement: "$BBT Of $500",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 3,
     },
     {
-      name: t('levels.gold'),
+      name: t("levels.gold"),
       color: "bg-[#38DCC833]",
       stakingRequirement: "$BBT Of $1000",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 7,
     },
     {
-      name: t('levels.platinum'),
+      name: t("levels.platinum"),
       color: "bg-[#38DCC833]",
       stakingRequirement: "$BBT Of $2000",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 0,
       guaranteedAllocation: true,
       poolWeight: 10,
     },
     {
-      name: t('levels.diamond'),
+      name: t("levels.diamond"),
       color: "bg-primaryColor",
       stakingRequirement: "$BBT Of $5000",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 0,
       guaranteedAllocation: true,
       poolWeight: 30,
     },
     {
-      name: t('levels.blue-diamond'),
+      name: t("levels.blue-diamond"),
       color: "bg-[#38DCC833]",
       stakingRequirement: "$BBT Of $10000",
-      stakingLength: t('levels.staking-length-required'),
-      whitelistRequirement: t('levels.whitelist-requirement'),
+      stakingLength: t("levels.staking-length-required"),
+      whitelistRequirement: t("levels.whitelist-requirement"),
       lotteryTickets: 0,
       guaranteedAllocation: true,
       poolWeight: 60,

@@ -1,152 +1,154 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "독특한 WEB3 크라우드펀딩 생태계",
-      "description1": "가장 독점적이고 유망한 암호화 스타트업에 접근할 준비가 되셨나요? Blockboost는 우리 팀이 철저하게 검토한 초기 투자 기회의 관문입니다.",
-      "description2": "Launchpad, Bridge & Swap AI, 수익 시스템, Vault, Marketplace, Staking과 같은 독특한 기능을 갖춘 Blockboost 크라우드펀딩 생태계의 일원이 되는 것에는 많은 다른 이점이 있습니다.",
-      "usdtRaised": "모금된 USDT: $361,590.14 / $605,467",
-      "target": "목표: $250,000",
-      "listingPrice": "상장 가격",
-      "receive": "받기",
-      "nextPrice": "다음 가격",
-      "availablePaymentMethods": "사용 가능한 결제 방법",
-      "connectWallet": "지갑 연결",
-      "audit": "감사",
-      "days": "일",
-      "hours": "시간",
-      "minutes": "분",
-      "seconds": "초"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "Block Boost 생태계",
-      "box-one-title": "Launchpad",
-      "box-one-description": "$BBT를 스테이킹하고, 귀하의 티어를 결정하며, 저희가 제공하는 모든 토큰 출시를 보장된 방식으로 참여하세요.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "다양한 블록체인과 연결하여 몇 번의 클릭으로 토큰을 다른 블록체인 네트워크로 교환할 수 있습니다.",
-      "box-three-title": "수익 시스템",
-      "box-three-description": "추천 보상, 스테이킹 보상, Vault 보상, NFT 판매와 같은 다양한 기능을 통해 수동 소득을 얻으세요.",
-      "box-four-title": "Vault",
-      "box-four-description": "여러 Vault를 선택하여 암호화 자산을 스테이킹하여 높은 수익 APY를 얻을 수 있습니다."
-    },
-  
-    "join-idos": {
-      "title": "3단계로 IDOs에 쉽게 참여하기",
-      "box-one-title": "지갑 연결",
-      "box-one-description": "$BBT 토큰을 구매하고 Launchpad 생태계와 지갑을 연결하여 참여하세요.",
-      "box-two-title": "$BBT 토큰 스테이킹",
-      "box-two-description": "Block Boost는 스테이킹된 토큰 수에 기반한 고정 티어 시스템을 보여줄 것입니다.",
-      "box-three-title": "판매 참여",
-      "box-three-description": "우리의 스테이킹 티어 시스템을 통해 IDOs에 참여하기 위해 확인된 복권을 받으세요."
-    },
-  
-    "exclusive-benefits": {
-      "title": "프리세일에서 $WZP 구매의 독점 혜택",
-      "box-one-title": "프리세일 추천 보상",
-      "box-one-description": "프리세일의 초기 단계에 참여하여 투자 가치가 출시 가격에 비해 더 높아지도록 하세요. 또한, 친구를 추천하여 프리세일 동안 5% 보너스를 얻을 수 있습니다.",
-      "box-two-title": "거래 추천 보상",
-      "box-two-description": "성공적인 출시 후에도 대시보드 앱에서 고유 추천 링크를 통해 추천할 수 있으며, 추천인의 거래 활동에 대해 2%의 거래 보상을 받을 수 있습니다.",
-      "box-three-title": "보유 보상",
-      "box-three-description": "$BBT를 보유하고 수동 소득을 얻으세요. 앉아서 편안히 앉아 거래된 $BBT의 보유 보상에서 분배를 받고, 매시간 우리의 dapp을 통해 청구하세요.",
-      "box-four-title": "스테이킹 보상",
-      "box-four-description": "$BBT를 스테이킹하여 보상을 얻고 Launchpad에 대한 보장된 할당을 받으세요. 이는 우리 생태계의 스테이킹 공급에서 보상을 받을 것입니다.",
-      "box-five-title": "Vault 스테이킹 보상",
-      "box-five-description": "자동 복리로 수익을 얻기 위해 모든 토큰을 스테이킹하세요. 어떤 토큰이든 스테이킹하여 $BBT를 복리 보상으로 받을 수 있습니다. 이는 우리 생태계의 Vault 공급에서 보상을 받을 것입니다."
-    },
-  
-    "buy-presale": {
-      "title": "프리세일에서 구매하는 방법은?",
-      "timeline": {
-        "connectWallet": {
-          "title": "지갑 연결",
-          "description": "몇 초 안에 지갑을 연결하려면 Metamask 또는 Trust Wallet을 사용하세요."
-        },
-        "confirmTransaction": {
-          "title": "거래 확인",
-          "description": "USDT, ETH 및 BNB로 $BBT를 구매할 수 있습니다."
-        },
-        "claimToken": {
-          "title": "토큰 청구",
-          "description": "축하합니다! 프리세일이 끝난 후 $BBT를 청구할 수 있습니다."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "독특한 WEB3 크라우드펀딩 생태계",
+    "description1": "가장 독점적이고 유망한 암호화 스타트업에 접근할 준비가 되셨나요? Blockboost는 우리 팀이 철저하게 검토한 초기 투자 기회의 관문입니다.",
+    "description2": "Launchpad, Bridge & Swap AI, 수익 시스템, Vault, Marketplace, Staking과 같은 독특한 기능을 갖춘 Blockboost 크라우드펀딩 생태계의 일원이 되는 것에는 많은 다른 이점이 있습니다.",
+    "usdtRaised": "모금된 USDT: $361,590.14 / $605,467",
+    "purchased": "당신이 구매한",
+    "listingPrice": "상장 가격",
+    "receive": "받기",
+    "nextPrice": "다음 가격",
+    "availablePaymentMethods": "사용 가능한 결제 방법",
+    "connectWallet": "지갑 연결",
+    "transactionDashboard": "거래 대시보드",
+    "whitepaper": "백서",
+    "audit": "감사",
+    "days": "일",
+    "hours": "시간",
+    "minutes": "분",
+    "seconds": "초"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost 생태계",
+    "box-one-title": "Launchpad",
+    "box-one-description": "$BBT를 스테이킹하고, 귀하의 티어를 결정하며, 저희가 제공하는 모든 토큰 출시를 보장된 방식으로 참여하세요.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "다양한 블록체인과 연결하여 몇 번의 클릭으로 토큰을 다른 블록체인 네트워크로 교환할 수 있습니다.",
+    "box-three-title": "수익 시스템",
+    "box-three-description": "추천 보상, 스테이킹 보상, Vault 보상, NFT 판매와 같은 다양한 기능을 통해 수동 소득을 얻으세요.",
+    "box-four-title": "Vault",
+    "box-four-description": "여러 Vault를 선택하여 암호화 자산을 스테이킹하여 높은 수익 APY를 얻을 수 있습니다."
+  },
+
+  "join-idos": {
+    "title": "3단계로 IDOs에 쉽게 참여하기",
+    "box-one-title": "지갑 연결",
+    "box-one-description": "$BBT 토큰을 구매하고 Launchpad 생태계와 지갑을 연결하여 참여하세요.",
+    "box-two-title": "$BBT 토큰 스테이킹",
+    "box-two-description": "Block Boost는 스테이킹된 토큰 수에 기반한 고정 티어 시스템을 보여줄 것입니다.",
+    "box-three-title": "판매 참여",
+    "box-three-description": "우리의 스테이킹 티어 시스템을 통해 IDOs에 참여하기 위해 확인된 복권을 받으세요."
+  },
+
+  "exclusive-benefits": {
+    "title": "프리세일에서 $WZP 구매의 독점 혜택",
+    "box-one-title": "프리세일 추천 보상",
+    "box-one-description": "프리세일의 초기 단계에 참여하여 투자 가치가 출시 가격에 비해 더 높아지도록 하세요. 또한, 친구를 추천하여 프리세일 동안 5% 보너스를 얻을 수 있습니다.",
+    "box-two-title": "거래 추천 보상",
+    "box-two-description": "성공적인 출시 후에도 대시보드 앱에서 고유 추천 링크를 통해 추천할 수 있으며, 추천인의 거래 활동에 대해 2%의 거래 보상을 받을 수 있습니다.",
+    "box-three-title": "보유 보상",
+    "box-three-description": "$BBT를 보유하고 수동 소득을 얻으세요. 앉아서 편안히 앉아 거래된 $BBT의 보유 보상에서 분배를 받고, 매시간 우리의 dapp을 통해 청구하세요.",
+    "box-four-title": "스테이킹 보상",
+    "box-four-description": "$BBT를 스테이킹하여 보상을 얻고 Launchpad에 대한 보장된 할당을 받으세요. 이는 우리 생태계의 스테이킹 공급에서 보상을 받을 것입니다.",
+    "box-five-title": "Vault 스테이킹 보상",
+    "box-five-description": "자동 복리로 수익을 얻기 위해 모든 토큰을 스테이킹하세요. 어떤 토큰이든 스테이킹하여 $BBT를 복리 보상으로 받을 수 있습니다. 이는 우리 생태계의 Vault 공급에서 보상을 받을 것입니다."
+  },
+
+  "buy-presale": {
+    "title": "프리세일에서 구매하는 방법은?",
+    "timeline": {
+      "connectWallet": {
+        "title": "지갑 연결",
+        "description": "몇 초 안에 지갑을 연결하려면 Metamask 또는 Trust Wallet을 사용하세요."
+      },
+      "confirmTransaction": {
+        "title": "거래 확인",
+        "description": "$BBT를 ETH, BNB, MATIC, USDT 및 USDC로 구매할 수 있습니다"
+      },
+      "claimToken": {
+        "title": "토큰 청구",
+        "description": "축하합니다! 프리세일이 끝난 후 $BBT를 청구할 수 있습니다."
       }
-    },
-  
-    "roadmap": {
-      "title": "로드맵",
-      "phases": {
-        "phase1": {
-          "title": "1단계",
-          "descriptionOne": "프로젝트 시작",
-          "descriptionTwo": "스마트 계약 개발",
-          "descriptionThree": "웹사이트 출시",
-          "descriptionFour": "백서 공개",
-          "descriptionFive": "Coinsult와 계약 감사"
-        },
-        "phase2": {
-          "title": "2단계",
-          "descriptionOne": "프리세일 출시",
-          "descriptionTwo": "대규모 마케팅 캠페인",
-          "descriptionThree": "blockboost.io의 프리세일 1-5단계",
-          "descriptionFour": "Launchpad의 베타 테스트"
-        },
-        "phase3": {
-          "title": "3단계",
-          "descriptionOne": "Launchpad의 보안 감사",
-          "descriptionTwo": "합법적인 프로젝트를 시작하기 위한 Launchpad",
-          "descriptionThree": "프리세일 6-10단계",
-          "descriptionFour": "Vault를 위한 Dapps와의 파트너십"
-        },
-        "phase4": {
-          "title": "4단계",
-          "descriptionOne": "NFT 마켓플레이스 출시",
-          "descriptionTwo": "$BBT 출시",
-          "descriptionThree": "최고 수준의 거래소에 상장",
-          "descriptionFour": "업데이트된 로드맵"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "토큰 세부정보",
-      "title-two": "토큰 경제학",
-      "description": "토큰의 분배는 프리세일 종료 후 이루어집니다. 구매한 $BBT 토큰을 프리세일 페이지에서 청구할 수 있습니다.",
-      "name": "이름",
-      "boost-token": "Block Boost 토큰",
-      "symbol": "심볼",
-      "supply": "공급",
-      "billion": "십억",
-      "tax": "세금",
-      "buy-sell": "구매/판매",
-      "type": "유형",
-      "token-contract-address": "토큰 계약 주소",
-      "empty": "비어 있음",
-      "decimal": "소수",
-      "presale-details": "프리세일 세부정보",
-      "live": "프리세일이 진행 중입니다",
-      "current-price": "현재 $BBT 가격",
-      "listing-price": "거래소 상장 가격",
-      "total-supply": "총 공급량"
-    },
-  
-    "powered-by": {
-      "title": "제공"
-    },
-  
-    "faq": {
-      "title": "자주 묻는 질문",
-      "question-one": "Blockboost란 무엇인가요?",
-      "answer-one": "Blockboost는 암호화 스타트업을 위한 독특한 크라우드펀딩 생태계입니다.",
-      "question-two": "Blockboost 토큰을 어디서 구매할 수 있으며 언제 받을 수 있나요?",
-      "answer-two": "프리세일 동안 www.blockboost.io의 공식 웹사이트에서 $BBT 토큰을 구매할 수 있으며, 프리세일이 종료된 후 프리세일 페이지에서 토큰을 청구할 수 있습니다.",
-      "question-three": "내 보상은 항상 매시간 지급되나요?",
-      "answer-three": "네, 지갑을 연결하여 공식 dapp에서 보상을 청구해야 합니다.",
-      "question-four": "프리세일 보상을 받으려면 어떻게 해야 하나요?",
-      "answer-four": "프리세일 페이지에서 추천 링크를 얻을 수 있으며, 그 링크를 통해 이루어진 구매는 자동으로 프리세일 페이지의 계정에 적립됩니다. 지갑을 프리세일 페이지에 연결하여 확인할 수 있습니다.",
-      "question-five": "프리세일에는 몇 단계가 있나요?",
-      "answer-five": "프리세일에는 10단계가 있으며, 각 단계에서 $BBT 가격이 상승합니다.",
-      "question-six": "$BBT에 스테이킹이 있나요? 언제 스테이킹할 수 있나요?",
-      "answer-six": "네, 스테이킹 풀 및 보상에 대한 완전한 정보를 보려면 스테이킹 페이지를 참조하세요."
     }
+  },
+
+  "roadmap": {
+    "title": "로드맵",
+    "phases": {
+      "phase1": {
+        "title": "1단계",
+        "descriptionOne": "프로젝트 시작",
+        "descriptionTwo": "스마트 계약 개발",
+        "descriptionThree": "웹사이트 출시",
+        "descriptionFour": "백서 공개",
+        "descriptionFive": "Coinsult와 계약 감사"
+      },
+      "phase2": {
+        "title": "2단계",
+        "descriptionOne": "프리세일 출시",
+        "descriptionTwo": "대규모 마케팅 캠페인",
+        "descriptionThree": "blockboost.io의 프리세일 1-10단계",
+        "descriptionFour": "Launchpad의 베타 테스트"
+      },
+      "phase3": {
+        "title": "3단계",
+        "descriptionOne": "Launchpad의 보안 감사",
+        "descriptionTwo": "합법적인 프로젝트를 시작하기 위한 Launchpad",
+        "descriptionThree": "프리세일 11-20단계",
+        "descriptionFour": "Vault를 위한 Dapps와의 파트너십"
+      },
+      "phase4": {
+        "title": "4단계",
+        "descriptionOne": "NFT 마켓플레이스 출시",
+        "descriptionTwo": "$BBT 출시",
+        "descriptionThree": "최고 수준의 거래소에 상장",
+        "descriptionFour": "업데이트된 로드맵"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "토큰 세부정보",
+    "title-two": "토큰 경제학",
+    "description": "토큰의 분배는 프리세일 종료 후 이루어집니다. 구매한 $BBT 토큰을 프리세일 페이지에서 청구할 수 있습니다.",
+    "name": "이름",
+    "boost-token": "Block Boost 토큰",
+    "symbol": "심볼",
+    "supply": "공급",
+    "billion": "십억",
+    "tax": "세금",
+    "buy-sell": "구매/판매",
+    "type": "유형",
+    "token-contract-address": "토큰 계약 주소",
+    "empty": "비어 있음",
+    "decimal": "소수",
+    "presale-details": "프리세일 세부정보",
+    "live": "프리세일이 진행 중입니다",
+    "current-price": "현재 $BBT 가격",
+    "as-per": "프리세일 단계에 따라",
+    "listing-price": "거래소 상장 가격",
+    "total-supply": "총 공급량"
+  },
+
+  "powered-by": {
+    "title": "제공"
+  },
+
+  "faq": {
+    "title": "자주 묻는 질문",
+    "question-one": "Blockboost란 무엇인가요?",
+    "answer-one": "Blockboost는 암호화 스타트업을 위한 독특한 크라우드펀딩 생태계입니다.",
+    "question-two": "Blockboost 토큰을 어디서 구매할 수 있으며 언제 받을 수 있나요?",
+    "answer-two": "프리세일 동안 www.blockboost.io의 공식 웹사이트에서 $BBT 토큰을 구매할 수 있으며, 프리세일이 종료된 후 프리세일 페이지에서 토큰을 청구할 수 있습니다.",
+    "question-three": "내 보상은 항상 매시간 지급되나요?",
+    "answer-three": "네, 지갑을 연결하여 공식 dapp에서 보상을 청구해야 합니다.",
+    "question-four": "프리세일 보상을 받으려면 어떻게 해야 하나요?",
+    "answer-four": "프리세일 페이지에서 추천 링크를 얻을 수 있으며, 그 링크를 통해 이루어진 구매는 자동으로 프리세일 페이지의 계정에 적립됩니다. 지갑을 프리세일 페이지에 연결하여 확인할 수 있습니다.",
+    "question-five": "프리세일에는 몇 단계가 있나요?",
+    "answer-five": "프리세일에는 20단계가 있으며 각 단계에서 $BBT의 가격이 상승합니다.",
+    "question-six": "$BBT에 스테이킹이 있나요? 언제 스테이킹할 수 있나요?",
+    "answer-six": "네, 스테이킹 풀 및 보상에 대한 완전한 정보를 보려면 스테이킹 페이지를 참조하세요."
   }
-  
+}

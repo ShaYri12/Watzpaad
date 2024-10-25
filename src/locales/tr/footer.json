@@ -1,24 +1,23 @@
 {
-    "joinWinningTeam": "Kazanan Takıma Katılın",
-    "description": "Blockboost, DeFi, AI, Big Data, NFT'ler ve Web3 Oyunları gibi yenilikçi teknolojilere odaklanan Web3 projeleri için öncü bir Web3 kuluçka merkezi ve Launchpad'dir. $BBT stake ederek proje tokenlerine erken erişim avantajı elde edersiniz, bu da Web3 dünyasındaki konumunuzu güçlendirir.",
-    "links": {
-      "home": "Ana Sayfa",
-      "launchpad": "Launchpad",
-      "earnings": "Kazançlar",
-      "marketplace": "Pazar Yeri",
-      "vault": "Kasası"
-    },
-    "help": {
-      "stacking": "Stake",
-      "win": "Kazan",
-      "whitepaper": "Whitepaper",
-      "goToApp": "Uygulamaya Git"
-    },
-    "social": "Sosyal Medya",
-    "disclaimer": "Yasal Uyarı: Finansal tavsiye değildir. Satın almadan önce daima kendi araştırmanızı yapın. Kripto para birimleri yasal olarak düzenlenmemiş olabilir. Kripto paraların değeri düşebilir veya yükselebilir. Kârlar, bölgenizde geçerli sermaye kazancı veya diğer vergilere tabi olabilir.",
-    "terms": "Hizmet Şartları",
-    "privacy": "Gizlilik Politikası",
-    "cookie": "İptal ve İade Politikası",
-    "copyright": "© 2024, Tüm hakları saklıdır."
-  }
-  
+  "joinWinningTeam": "Kazanan Takıma Katılın",
+  "description": "Blockboost, DeFi, AI, Big Data, NFT'ler ve Web3 Oyunları gibi yenilikçi teknolojilere odaklanan Web3 projeleri için öncü bir Web3 kuluçka merkezi ve Launchpad'dir. $BBT stake ederek proje tokenlerine erken erişim avantajı elde edersiniz, bu da Web3 dünyasındaki konumunuzu güçlendirir.",
+  "links": {
+    "home": "Ana Sayfa",
+    "launchpad": "Launchpad",
+    "earnings": "Kazançlar",
+    "marketplace": "Pazar Yeri",
+    "vault": "Kasası"
+  },
+  "help": {
+    "stacking": "Stake",
+    "win": "Kazanmak",
+    "whitepaper": "Whitepaper",
+    "goToApp": "Uygulamaya Git"
+  },
+  "social": "Sosyal Medya",
+  "disclaimer": "Yasal Uyarı: Finansal tavsiye değildir. Satın almadan önce daima kendi araştırmanızı yapın. Kripto para birimleri yasal olarak düzenlenmemiş olabilir. Kripto paraların değeri düşebilir veya yükselebilir. Kârlar, bölgenizde geçerli sermaye kazancı veya diğer vergilere tabi olabilir.",
+  "terms": "Hizmet Şartları",
+  "privacy": "Gizlilik Politikası",
+  "cookie": "İptal ve İade Politikası",
+  "copyright": "© 2024, Tüm hakları saklıdır."
+}

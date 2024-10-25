@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Tokenikon",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Starta",
+    "summary": "Sammanfattning",
+    "letsGo": "Låt oss gå"
+  },
+  "suggested_route_title": "Ponders föreslagna rutt",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Ethereum-kedjan"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "BSC-kedjan"
+  },
+  "total_fees": "Totala avgifter: 00000000000000",
+  "step": "Steg 1",
+  "fees": "Avgifter",
+  "no_funds_message": "Du har inte tillräckligt med pengar för att slutföra transaktionen",
+  "back": "Tillbaka",
+  "more_results": "Fler resultat",
+  "accept": "Acceptera"
+}

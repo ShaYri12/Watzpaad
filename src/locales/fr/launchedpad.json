@@ -1,72 +1,72 @@
 {
-    "hero": {
-        "title": "la plateforme de lancement la plus sécurisée. multi-chaînes.",
-        "description": "BlockBoost est une plateforme de financement décentralisée multi-chaînes permettant aux projets de lever des fonds et de promettre la sécurité aux investisseurs en phase de démarrage. Stakez des tokens BlockBoost pour obtenir un accès prioritaire à des projets prometteurs."
-    },
+  "hero": {
+    "title": "la plateforme de lancement la plus sécurisée. multi-chaînes.",
+    "description": "BlockBoost est une plateforme de financement décentralisée multi-chaînes permettant aux projets de lever des fonds et de promettre la sécurité aux investisseurs en phase de démarrage. Stakez des tokens BlockBoost pour obtenir un accès prioritaire à des projets prometteurs."
+  },
 
-    "key-features": {
-        "title": "Caractéristiques clés de BlockBoost",
-        "description": "Lancement de projets de haute qualité soigneusement sélectionnés sur la Blockchain",
-        "box-one-title": "Équitable et Transparent",
-        "box-one-description": "Tous les détenteurs de tokens BlockBoost ont des chances égales de participer aux projets prometteurs à venir pour être un investisseur en phase de démarrage et faire partie de leur histoire de succès.",
-        "box-two-title": "Mécanismes Anti-Rug",
-        "box-two-description": "Avant qu'un projet n'atteigne notre plateforme, il subit des audits rigoureux de contrats intelligents. La réalisation d'audits de contrats intelligents aide à identifier et à corriger les vulnérabilités avant le déploiement.",
-        "box-three-title": "Allocations Garantis",
-        "box-three-description": "Une fois stakés, vous devez vous inscrire pour chaque IDO, afin que nous puissions calculer l'allocation garantie. Une fois inscrit, nous verrouillons vos tokens, mais vous pouvez toujours participer à d'autres IDOs.",
-        "box-four-title": "Projets de Haute Qualité",
-        "box-four-description": "BlockBoost est votre passerelle vers des opportunités d'investissement en phase de démarrage, que notre équipe a soigneusement vérifiées."
-    },
+  "key-features": {
+    "title": "Caractéristiques clés de BlockBoost",
+    "description": "Lancement de projets de haute qualité soigneusement sélectionnés sur la Blockchain",
+    "box-one-title": "Équitable et Transparent",
+    "box-one-description": "Tous les détenteurs de tokens BlockBoost ont des chances égales de participer aux projets prometteurs à venir pour être un investisseur en phase de démarrage et faire partie de leur histoire de succès.",
+    "box-two-title": "Mécanismes Anti-Rug",
+    "box-two-description": "Avant qu'un projet n'atteigne notre plateforme, il subit des audits rigoureux de contrats intelligents. La réalisation d'audits de contrats intelligents aide à identifier et à corriger les vulnérabilités avant le déploiement.",
+    "box-three-title": "Allocations Garantis",
+    "box-three-description": "Une fois stakés, vous devez vous inscrire pour chaque IDO, afin que nous puissions calculer l'allocation garantie. Une fois inscrit, nous verrouillons vos tokens, mais vous pouvez toujours participer à d'autres IDOs.",
+    "box-four-title": "Projets de Haute Qualité",
+    "box-four-description": "BlockBoost est votre passerelle vers des opportunités d'investissement en phase de démarrage, que notre équipe a soigneusement vérifiées."
+  },
 
-    "ido-staking": {
-        "title": "Stakez pour Participer à l'IDO",
-        "description": "Une fois stakés, vous devez vous inscrire pour chaque IDO, afin que nous puissions calculer l'allocation garantie. Une fois inscrit, nous verrouillons vos tokens, mais vous pouvez toujours participer à d'autres IDOs.",
-        "level": "Niveau : aucun",
-        "stack": "Stakés : 0 BBT",
-        "tokens": "Vos tokens sont déverrouillés",
-        "balance": "Solde :",
-        "max": "Max",
-        "approve": "Approuver",
-        "unstake": "Débloquer",
-        "levels": "$BBT Niveaux",
-        "desc": "Pour être éligible à l'un des niveaux, vous devez staker ce qui suit :",
-        "bbtof": "BBT de",
-        "forchances": "pour la chance (10% loterie) 5 jours",
-        "forprospect": "pour prospect (25% loterie) 5 jours",
-        "foraffiliate": "pour affilié (50% loterie) 5 jours",
-        "formember": "pour membre 5 jours",
-        "forclub": "pour club 5 jours",
-        "forassociate": "pour associé 5 jours",
-        "description-one": "Vous devez vous inscrire à un IDO après avoir staké.",
-        "description-two": "Lorsque la période d'inscription à l'IDO commence (généralement 24h avant le début de l'IDO), vous devez ouvrir la page des Pools et cliquer sur le bouton 'S'inscrire' dans la carte du pool.",
-        "description-three": "Lorsque vous vous inscrivez à un IDO, votre niveau est enregistré (pour cet IDO spécifique). Il n'est pas possible de le changer à un niveau supérieur après l'inscription. Assurez-vous donc d'être au niveau que vous souhaitez avant de vous inscrire. Vous pourrez cependant staker davantage et vous inscrire à d'autres IDOs avec un niveau supérieur."
-    },
+  "ido-staking": {
+    "title": "Stakez pour Participer à l'IDO",
+    "description": "Une fois stakés, vous devez vous inscrire pour chaque IDO, afin que nous puissions calculer l'allocation garantie. Une fois inscrit, nous verrouillons vos tokens, mais vous pouvez toujours participer à d'autres IDOs.",
+    "level": "Niveau : aucun",
+    "stack": "Stakés : 0 BBT",
+    "tokens": "Vos tokens sont déverrouillés",
+    "balance": "Solde :",
+    "max": "Max",
+    "approve": "Approuver",
+    "unstake": "Débloquer",
+    "levels": "$BBT Niveaux",
+    "desc": "Pour être éligible à l'un des niveaux, vous devez staker ce qui suit :",
+    "bbtof": "BBT de",
+    "forchances": "pour la chance (10% loterie) 5 jours",
+    "forprospect": "pour prospect (25% loterie) 5 jours",
+    "foraffiliate": "pour affilié (50% loterie) 5 jours",
+    "formember": "pour membre 5 jours",
+    "forclub": "pour club 5 jours",
+    "forassociate": "pour associé 5 jours",
+    "description-one": "Vous devez vous inscrire à un IDO après avoir staké.",
+    "description-two": "Lorsque la période d'inscription à l'IDO commence (généralement 24h avant le début de l'IDO), vous devez ouvrir la page des Pools et cliquer sur le bouton 'S'inscrire' dans la carte du pool.",
+    "description-three": "Lorsque vous vous inscrivez à un IDO, votre niveau est enregistré (pour cet IDO spécifique). Il n'est pas possible de le changer à un niveau supérieur après l'inscription. Assurez-vous donc d'être au niveau que vous souhaitez avant de vous inscrire. Vous pourrez cependant staker davantage et vous inscrire à d'autres IDOs avec un niveau supérieur."
+  },
 
-    "ido-projects": {
-        "upcoming": "À venir",
-        "title": "Vente Blockboost",
-        "description": "Écosystème de financement participatif WEB3 unique",
-        "swap-rate": "Taux d'Échange :",
-        "per": "Par",
-        "start": "Début :",
-        "total-raise": "Total Levé"
-    },
+  "ido-projects": {
+    "status": "Terminé",
+    "title": "Vente Blockboost",
+    "description": "Écosystème de financement participatif WEB3 unique",
+    "swap-rate": "Taux d'Échange :",
+    "per": "Par",
+    "start": "Début :",
+    "total-raise": "Total Levé"
+  },
 
-    "levels": {
-        "title": "Le système par niveaux de Blockboost",
-        "description": "Blockboost présentera un système de niveaux fixe basé sur le nombre de tokens stakés. Les niveaux de loterie partageront 20 % du total levé et les 80 % restants du montant levé seront attribués aux niveaux d'allocation garantie en fonction des poids des pools attribués.",
-        "staking-requirements": "Exigences de Staking",
-        "staking-length-required": "3 heures avant l'ouverture du tour d'allocation",
-        "whitelist-requirement": "Exigence de Liste Blanche Twitter",
-        "lottery-tickets": "Billets de Loterie",
-        "guaranteed-allocation": "Allocation Garantie",
-        "pool-weight": "Poids du Pool",
-        "private-allocations": "Allocations Privées",
-        "yes": "Oui",
-        "bronze": "Bronze",
-        "silver": "Argent",
-        "gold": "Or",
-        "platinum": "Platine",
-        "diamond": "Diamant",
-        "blue-diamond": "Diamant Bleu"
-    }
+  "levels": {
+    "title": "Le système par niveaux de Blockboost",
+    "description": "Blockboost présentera un système de niveaux fixe basé sur le nombre de tokens stakés. Les niveaux de loterie partageront 20 % du total levé et les 80 % restants du montant levé seront attribués aux niveaux d'allocation garantie en fonction des poids des pools attribués.",
+    "staking-requirements": "Exigences de Staking",
+    "staking-length-required": "3 heures avant l'ouverture du tour d'allocation",
+    "whitelist-requirement": "Exigence de Liste Blanche Twitter",
+    "lottery-tickets": "Billets de Loterie",
+    "guaranteed-allocation": "Allocation Garantie",
+    "pool-weight": "Poids du Pool",
+    "private-allocations": "Allocations Privées",
+    "yes": "Oui",
+    "bronze": "Bronze",
+    "silver": "Argent",
+    "gold": "Or",
+    "platinum": "Platine",
+    "diamond": "Diamant",
+    "blue-diamond": "Diamant Bleu"
+  }
 }

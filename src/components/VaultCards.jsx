@@ -118,7 +118,6 @@ const VaultCards = ({ dashboard = false }) => {
                       />
                     </span>
                     {t("auto")}
-                    
                   </div>
                 </div>
                 <div className="flex items-center gap-1 justify-between">
@@ -126,21 +125,20 @@ const VaultCards = ({ dashboard = false }) => {
                     <img src={card.imgSrc} alt={card.currency} />
                   </div>
                   <div className="flex flex-col gap-[2px]">
-                    <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
-                      
+                    <p className="text-grayish text-[15.18px] sm:text-[18px]">
                       {t("compounded")}
                     </p>
                     <p className="text-primaryColor text-[23.29px] sm:text-[27.61px] font-[700]">
                       {card.compounded}
                     </p>
-                    <p className="text-[#798DA3] text-[15.18px] sm:text-[18px]">
+                    <p className="text-grayish text-[15.18px] sm:text-[18px]">
                       ~{card.compoundedUSD}
                     </p>
                   </div>
                 </div>
                 <div className="flex flex-col md:gap-[12px] gap-[10.12px]">
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">{t("apy")}</span>
+                    <span className="text-grayish">{t("apy")}</span>
                     <span className="flex items-center text-white font-[700]">
                       <BsCalculatorFill
                         size={20}
@@ -150,16 +148,18 @@ const VaultCards = ({ dashboard = false }) => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">{t("pending-earnings")}</span>
+                    <span className="text-grayish">
+                      {t("pending-earnings")}
+                    </span>
                     <span className="flex flex-col text-white font-[700]">
                       {card.pendingEarnings}
-                      <span className="text-[#798DA3] font-[400]">
+                      <span className="text-grayish font-[400]">
                         ~{card.pendingEarningsUSD}
                       </span>
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-[15.18px] sm:text-[18px] gap-1 flex-wrap border-b border-b-white border-opacity-20 md:pb-[12px] pb-[10.12px]">
-                    <span className="text-[#798DA3]">{t("auto-compound")}</span>
+                    <span className="text-grayish">{t("auto-compound")}</span>
                     <span className="text-white font-[700]">
                       {card.autoCompoundIn}
                     </span>
@@ -168,7 +168,7 @@ const VaultCards = ({ dashboard = false }) => {
                     <span className="text-primaryColor">{card.currency}</span>
                     <span className="flex flex-col text-white font-[700]">
                       {card.staked}
-                      <span className="text-[#798DA3] font-[400]">
+                      <span className="text-grayish font-[400]">
                         ~{card.stakedUSD}
                       </span>
                     </span>

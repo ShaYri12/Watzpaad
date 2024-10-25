@@ -4,7 +4,7 @@
   "progress": {
     "start": "Start",
     "summary": "Zusammenfassung",
-    "ponder": "Überlegen"
+    "letsGo": "Loslegen"
   },
   "suggested_route_title": "Vorgeschlagene Route zum Überlegen",
   "eth_to_bnb": {

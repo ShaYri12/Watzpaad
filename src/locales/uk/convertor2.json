@@ -4,7 +4,7 @@
   "progress": {
     "start": "Почати",
     "summary": "Резюме",
-    "ponder": "Розмірковувати"
+    "letsGo": "Поїхали"
   },
   "suggested_route_title": "Запропонований маршрут для роздумів",
   "eth_to_bnb": {

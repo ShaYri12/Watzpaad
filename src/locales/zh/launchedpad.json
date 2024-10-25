@@ -1,72 +1,72 @@
 {
-    "hero": {
-        "title": "最安全的启动平台，多链。",
-        "description": "BlockBoost 是一个去中心化的多链筹资平台，旨在帮助项目筹集资金，并向早期投资者承诺安全。质押 BlockBoost 代币以获得对有前景项目的优先访问权。"
-    },
+  "hero": {
+    "title": "最安全的启动平台，多链。",
+    "description": "BlockBoost 是一个去中心化的多链筹资平台，旨在帮助项目筹集资金，并向早期投资者承诺安全。质押 BlockBoost 代币以获得对有前景项目的优先访问权。"
+  },
 
-    "key-features": {
-        "title": "BlockBoost 关键特性",
-        "description": "在区块链上启动精心挑选的高质量项目",
-        "box-one-title": "公平和透明",
-        "box-one-description": "每位 BlockBoost 代币持有者都有平等的机会参与即将到来的有前景项目，成为早期投资者，成为他们成功故事的一部分。",
-        "box-two-title": "防止欺诈机制",
-        "box-two-description": "在任何项目进入我们的平台之前，必须经过严格的智能合约审计。进行智能合约审计有助于在部署前识别和修复漏洞。",
-        "box-three-title": "保证分配",
-        "box-three-description": "一旦质押，您需要为每个 IDO 注册，以便我们可以计算保证分配。注册后，我们会锁定您的代币，但您仍然可以参与其他 IDO。",
-        "box-four-title": "高质量项目",
-        "box-four-description": "BlockBoost 是您进入早期投资机会的门户，我们的团队已对此进行了全面审查。"
-    },
+  "key-features": {
+    "title": "BlockBoost 关键特性",
+    "description": "在区块链上启动精心挑选的高质量项目",
+    "box-one-title": "公平和透明",
+    "box-one-description": "每位 BlockBoost 代币持有者都有平等的机会参与即将到来的有前景项目，成为早期投资者，成为他们成功故事的一部分。",
+    "box-two-title": "防止欺诈机制",
+    "box-two-description": "在任何项目进入我们的平台之前，必须经过严格的智能合约审计。进行智能合约审计有助于在部署前识别和修复漏洞。",
+    "box-three-title": "保证分配",
+    "box-three-description": "一旦质押，您需要为每个 IDO 注册，以便我们可以计算保证分配。注册后，我们会锁定您的代币，但您仍然可以参与其他 IDO。",
+    "box-four-title": "高质量项目",
+    "box-four-description": "BlockBoost 是您进入早期投资机会的门户，我们的团队已对此进行了全面审查。"
+  },
 
-    "ido-staking": {
-        "title": "质押以参与 IDO",
-        "description": "一旦质押，您需要为每个 IDO 注册，以便我们可以计算保证分配。注册后，我们会锁定您的代币，但您仍然可以参与其他 IDO。",
-        "level": "级别：无",
-        "stack": "质押：0 BBT",
-        "tokens": "您的代币已解锁",
-        "balance": "余额：",
-        "max": "最大",
-        "approve": "批准",
-        "unstake": "解除质押",
-        "levels": "$BBT 级别",
-        "desc": "要符合任何级别的资格，您需要质押以下内容：",
-        "bbtof": " BBT 的",
-        "forchances": "为了机会（10% 彩票）5 天",
-        "forprospect": "为了前景（25% 彩票）5 天",
-        "foraffiliate": "为了附属（50% 彩票）5 天",
-        "formember": "为了会员 5 天",
-        "forclub": "为了俱乐部 5 天",
-        "forassociate": "为了合作伙伴 5 天",
-        "description-one": "您需要在质押后注册 IDO。",
-        "description-two": "当 IDO 注册期开始时（通常在 IDO 开始前 24 小时），您需要打开池页面并点击池卡中的“注册”按钮。",
-        "description-three": "当您注册 IDO 时，您的级别会被记录（针对这个特定的 IDO）。注册后无法更改为更高的级别。所以在注册前确保您处于所需级别。您将能够质押更多并以更高的级别注册其他 IDO。"
-    },
+  "ido-staking": {
+    "title": "质押以参与 IDO",
+    "description": "一旦质押，您需要为每个 IDO 注册，以便我们可以计算保证分配。注册后，我们会锁定您的代币，但您仍然可以参与其他 IDO。",
+    "level": "级别：无",
+    "stack": "质押：0 BBT",
+    "tokens": "您的代币已解锁",
+    "balance": "余额：",
+    "max": "最大",
+    "approve": "批准",
+    "unstake": "解除质押",
+    "levels": "$BBT 级别",
+    "desc": "要符合任何级别的资格，您需要质押以下内容：",
+    "bbtof": " BBT 的",
+    "forchances": "为了机会（10% 彩票）5 天",
+    "forprospect": "为了前景（25% 彩票）5 天",
+    "foraffiliate": "为了附属（50% 彩票）5 天",
+    "formember": "为了会员 5 天",
+    "forclub": "为了俱乐部 5 天",
+    "forassociate": "为了合作伙伴 5 天",
+    "description-one": "您需要在质押后注册 IDO。",
+    "description-two": "当 IDO 注册期开始时（通常在 IDO 开始前 24 小时），您需要打开池页面并点击池卡中的“注册”按钮。",
+    "description-three": "当您注册 IDO 时，您的级别会被记录（针对这个特定的 IDO）。注册后无法更改为更高的级别。所以在注册前确保您处于所需级别。您将能够质押更多并以更高的级别注册其他 IDO。"
+  },
 
-    "ido-projects": {
-        "upcoming": "即将到来",
-        "title": "Blockboost 销售",
-        "description": "独特的 WEB3 众筹生态系统",
-        "swap-rate": "兑换率：",
-        "per": "每",
-        "start": "开始：",
-        "total-raise": "总筹资"
-    },
+  "ido-projects": {
+    "status": "已结束",
+    "title": "Blockboost 销售",
+    "description": "独特的 WEB3 众筹生态系统",
+    "swap-rate": "兑换率：",
+    "per": "每",
+    "start": "开始：",
+    "total-raise": "总筹资"
+  },
 
-    "levels": {
-        "title": "Blockboost 分级系统",
-        "description": "Blockboost 将展示一个基于质押代币数量的固定分级系统。彩票级别将分享总筹资的 20%，其余 80% 的筹资将根据分配的池权重分配给保证分配级别。",
-        "staking-requirements": "质押要求",
-        "staking-length-required": "在分配轮次开放前 3 小时",
-        "whitelist-requirement": "白名单要求 Twitter",
-        "lottery-tickets": "彩票票",
-        "guaranteed-allocation": "保证分配",
-        "pool-weight": "池权重",
-        "private-allocations": "私人分配",
-        "yes": "是",
-        "bronze": "铜",
-        "silver": "银",
-        "gold": "金",
-        "platinum": "铂金",
-        "diamond": "钻石",
-        "blue-diamond": "蓝钻"
-    }
+  "levels": {
+    "title": "Blockboost 分级系统",
+    "description": "Blockboost 将展示一个基于质押代币数量的固定分级系统。彩票级别将分享总筹资的 20%，其余 80% 的筹资将根据分配的池权重分配给保证分配级别。",
+    "staking-requirements": "质押要求",
+    "staking-length-required": "在分配轮次开放前 3 小时",
+    "whitelist-requirement": "白名单要求 Twitter",
+    "lottery-tickets": "彩票票",
+    "guaranteed-allocation": "保证分配",
+    "pool-weight": "池权重",
+    "private-allocations": "私人分配",
+    "yes": "是",
+    "bronze": "铜",
+    "silver": "银",
+    "gold": "金",
+    "platinum": "铂金",
+    "diamond": "钻石",
+    "blue-diamond": "蓝钻"
+  }
 }

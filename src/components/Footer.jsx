@@ -2,7 +2,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../public/assets/logo.svg";
-import { useTranslation } from 'react-i18next'; // Make sure to install and configure i18next
+import { useTranslation } from "react-i18next"; // Make sure to install and configure i18next
 
 const Footer = () => {
   const { t } = useTranslation("footer");
@@ -19,11 +19,9 @@ const Footer = () => {
             />
           </Link>
           <h3 className="text-[18.92px] font-[700] text-white">
-            {t('joinWinningTeam')}
+            {t("joinWinningTeam")}
           </h3>
-          <p className="text-[#798DA3]">
-            {t('description')}
-          </p>
+          <p className="text-grayish">{t("description")}</p>
         </div>
 
         <ul className="flex flex-col">
@@ -31,18 +29,20 @@ const Footer = () => {
             Links
           </h3>
           {[
-            { name: t('links.home'), path: "/" },
-            { name: t('links.launchpad'), path: "/launchpad" },
-            { name: t('links.earnings'), path: "/earnings" },
-            { name: t('links.marketplace'), path: "/marketplace" },
-            { name: t('links.vault'), path: "/vault" },
+            { name: t("links.home"), path: "/" },
+            { name: t("links.launchpad"), path: "/launchpad" },
+            { name: t("links.earnings"), path: "/earnings" },
+            { name: t("links.marketplace"), path: "/marketplace" },
+            { name: t("links.vault"), path: "/vault" },
           ].map((item, index) => (
             <NavLink
               key={index}
               to={item.path}
               className={({ isActive }) =>
                 `px-[2px] py-[6px] transition ${
-                  isActive ? "text-primaryColor font-[700]" : "text-white font-[400]"
+                  isActive
+                    ? "text-primaryColor font-[700]"
+                    : "text-white font-[400]"
                 } hover:text-primaryColor`
               }
             >
@@ -55,17 +55,19 @@ const Footer = () => {
             Help
           </h3>
           {[
-            { name: t('help.stacking'), path: "/stacking" },
-            { name: t('help.win'), path: "/win" },
-            { name: t('help.whitepaper'), path: "/whitepaper" },
-            { name: t('help.goToApp'), path: "/app" },
+            { name: t("help.stacking"), path: "/stacking" },
+            { name: `${t("help.win")} $100k`, path: "/win" },
+            { name: t("help.whitepaper"), path: "/whitepaper" },
+            { name: t("help.goToApp"), path: "/app" },
           ].map((item, index) => (
             <NavLink
               key={index}
               to={item.path}
               className={({ isActive }) =>
                 `px-[2px] py-[6px] transition ${
-                  isActive ? "text-primaryColor font-[700]" : "text-white font-[400]"
+                  isActive
+                    ? "text-primaryColor font-[700]"
+                    : "text-white font-[400]"
                 } hover:text-primaryColor`
               }
             >
@@ -75,7 +77,7 @@ const Footer = () => {
         </ul>
         <ul className="md:w-[30%]">
           <h3 className="text-[#F8F8F8] text-[14px] sm:text-[16px] leading-[24px] tracking-[-1%] font-bold mb-[15px]">
-            {t('social')}
+            {t("social")}
           </h3>
           <div className="flex items-center gap-[8px] mb-[15px]">
             <Link to="#" className="min-h-[30px] min-w-[30px]">
@@ -116,35 +118,33 @@ const Footer = () => {
               </span>
             </Link> */}
           </div>
-          <p className="text-[#798DA3] mt-2 text-sm">
-            {t('disclaimer')}
-          </p>
+          <p className="text-grayish mt-2 text-sm">{t("disclaimer")}</p>
         </ul>
       </div>
 
       <div className="py-[15px] px-4 bg-primaryColor">
         <div className="max-w-[1280px] w-full mx-auto flex items-center justify-between md:flex-row flex-col gap-5">
           <h3 className="md:order-1 order-2 text-black text-[18.04px] leading-[30px] font-medium">
-            {t('copyright')}
+            {t("copyright")}
           </h3>
           <div className="md:order-2 order-1 flex items-center gap-5 md:gap-10 flex-wrap md:justify-end justify-center">
             <Link
               to="/terms-and-conditions"
               className="hover:underline text-black text-[12.03px]"
             >
-              {t('terms')}
+              {t("terms")}
             </Link>
             <Link
               to="/privacy-policy"
               className="hover:underline text-black text-[12.03px]"
             >
-              {t('privacy')}
+              {t("privacy")}
             </Link>
             <Link
               to="/cookie-policy"
               className="hover:underline text-black text-[12.03px]"
             >
-              {t('cookie')}
+              {t("cookie")}
             </Link>
           </div>
         </div>

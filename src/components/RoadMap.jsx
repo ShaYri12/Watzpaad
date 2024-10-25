@@ -74,7 +74,7 @@ const RoadMap = () => {
                 key={index}
                 className="flex flex-col gap-2 relative md:bg-[#1F2835CC] py-6 lg:px-4 px-2 rounded-lg border border-[#38DCC8] shadow-2xl md:ml-0 ml-12"
               >
-                <ol className="list-decimal text-[#798DA3] xl:text-[18px] lg:text-[16px] text-[15px] font-space font-medium pl-5 xl:space-y-2 space-y-1">
+                <ol className="list-decimal text-grayish xl:text-[18px] lg:text-[16px] text-[15px] font-space font-medium pl-5 xl:space-y-2 space-y-1">
                   <li>{phase.descriptionOne}</li>
                   <li>{phase.descriptionTwo}</li>
                   <li>{phase.descriptionThree}</li>
@@ -101,7 +101,7 @@ const RoadMap = () => {
                   <div className="flex flex-col gap-2 ml-4 sm:ml-6 w-full md:w-[75%] px-4 sm:px-6 py-6 bg-[#1F2835CC] rounded-lg shadow-2xl border border-[#38DCC8] text-left">
                     <h3 className="font-normal text-lg mb-2">{phase.title}</h3>
 
-                    <ol className="list-decimal text-[#798DA3] sm:text-[16px] text-[14px] font-space font-medium pl-5 sm:space-y-2 space-y-1">
+                    <ol className="list-decimal text-grayish sm:text-[16px] text-[14px] font-space font-medium pl-5 sm:space-y-2 space-y-1">
                       <li>{phase.descriptionOne}</li>
                       <li>{phase.descriptionTwo}</li>
                       <li>{phase.descriptionThree}</li>

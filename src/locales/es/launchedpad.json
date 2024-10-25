@@ -1,73 +1,72 @@
 {
-    "hero": {
-      "title": "la plataforma de lanzamiento más segura. multi-cadena.",
-      "description": "BlockBoost es una plataforma descentralizada de recaudación de fondos multi-cadena que permite a los proyectos obtener capital y garantizar seguridad a los inversores en etapa temprana. Haz staking con tokens de BlockBoost para obtener acceso prioritario a proyectos prometedores."
-    },
-  
-    "key-features": {
-      "title": "Características Clave de BlockBoost",
-      "description": "Lanzamiento de proyectos seleccionados de alta calidad en la Blockchain",
-      "box-one-title": "Justo y Transparente",
-      "box-one-description": "Todos los poseedores de tokens de BlockBoost tienen las mismas oportunidades de participar en proyectos prometedores y ser inversores en etapa temprana para formar parte de su historia de éxito.",
-      "box-two-title": "Mecanismos Anti-Rug",
-      "box-two-description": "Antes de que cualquier proyecto llegue a nuestra plataforma, pasa por rigurosas auditorías de contratos inteligentes. Realizar auditorías de contratos inteligentes ayuda a identificar y corregir vulnerabilidades antes del despliegue.",
-      "box-three-title": "Asignaciones Garantizadas",
-      "box-three-description": "Una vez que haces staking, debes registrarte para cada IDO, de modo que podamos calcular la asignación garantizada. Una vez registrado, bloqueamos tus tokens, pero aún puedes participar en otros IDOs.",
-      "box-four-title": "Proyectos de Alta Calidad",
-      "box-four-description": "BlockBoost es tu puerta de entrada a oportunidades de inversión en etapa temprana, que nuestro equipo ha evaluado exhaustivamente."
-    },
-  
-    "ido-staking": {
-      "title": "Haz Staking para Participar en IDO",
-      "description": "Una vez que haces staking, debes registrarte para cada IDO, de modo que podamos calcular la asignación garantizada. Una vez registrado, bloqueamos tus tokens, pero aún puedes participar en otros IDOs.",
-      "level": "Nivel: ninguno",
-      "stack": "En staking: 0 BBT",
-      "tokens": "Tus tokens están desbloqueados",
-      "balance": "Balance:",
-      "max": "Máximo",
-      "approve": "Aprobar",
-      "unstake": "Retirar Staking",
-      "levels": "Niveles $BBT",
-      "desc": "Para ser elegible en cualquiera de los niveles, debes hacer staking con lo siguiente:",
-      "bbtof": "BBT de",
-      "forchances": "para chance (10% lotería) 5 días",
-      "forprospect": "para prospecto (25% lotería) 5 días",
-      "foraffiliate": "para afiliado (50% lotería) 5 días",
-      "formember": "para miembro 5 días",
-      "forclub": "para club 5 días",
-      "forassociate": "para asociado 5 días",
-      "description-one": "Necesitas registrarte para un IDO después de hacer staking.",
-      "description-two": "Cuando comienza el período de registro del IDO (generalmente 24 horas antes del inicio del IDO), debes abrir la página de Pools y hacer clic en el botón 'Registrar' en la tarjeta del pool.",
-      "description-three": "Cuando te registras para un IDO, se registra tu nivel (para este IDO específico). No hay forma de cambiar a un nivel superior después del registro. Así que asegúrate de estar en el nivel que deseas antes de registrarte. Aun así, podrás hacer más staking y registrarte para otros IDOs con un nivel superior."
-    },
-  
-    "ido-projects": {
-      "upcoming": "Próximamente",
-      "title": "Venta de BlockBoost",
-      "description": "Ecosistema de Crowdfunding WEB3 único",
-      "swap-rate": "Tasa de Intercambio:",
-      "per": "Por",
-      "start": "Inicio:",
-      "total-raise": "Recaudación Total"
-    },
-  
-    "levels": {
-      "title": "El Sistema de Niveles de BlockBoost",
-      "description": "BlockBoost mostrará un sistema de niveles fijo basado en la cantidad de tokens en staking. Los niveles de lotería compartirán el 20% de la recaudación total y el 80% restante está asignado a niveles de asignación garantizada según los pesos asignados a los pools.",
-      "staking-requirements": "Requisitos de Staking",
-      "staking-length-required": "3 horas antes de que abra la Ronda de Asignación",
-      "whitelist-requirement": "Requisito de Whitelist Twitter",
-      "lottery-tickets": "Boletos de Lotería",
-      "guaranteed-allocation": "Asignación Garantizada",
-      "pool-weight": "Peso del Pool",
-      "private-allocations": "Asignaciones Privadas",
-      "yes": "Sí",
-      "bronze": "Bronce",
-      "silver": "Plata",
-      "gold": "Oro",
-      "platinum": "Platino",
-      "diamond": "Diamante",
-      "blue-diamond": "Diamante Azul"
-    }
+  "hero": {
+    "title": "la plataforma de lanzamiento más segura. multi-cadena.",
+    "description": "BlockBoost es una plataforma descentralizada de recaudación de fondos multi-cadena que permite a los proyectos obtener capital y garantizar seguridad a los inversores en etapa temprana. Haz staking con tokens de BlockBoost para obtener acceso prioritario a proyectos prometedores."
+  },
+
+  "key-features": {
+    "title": "Características Clave de BlockBoost",
+    "description": "Lanzamiento de proyectos seleccionados de alta calidad en la Blockchain",
+    "box-one-title": "Justo y Transparente",
+    "box-one-description": "Todos los poseedores de tokens de BlockBoost tienen las mismas oportunidades de participar en proyectos prometedores y ser inversores en etapa temprana para formar parte de su historia de éxito.",
+    "box-two-title": "Mecanismos Anti-Rug",
+    "box-two-description": "Antes de que cualquier proyecto llegue a nuestra plataforma, pasa por rigurosas auditorías de contratos inteligentes. Realizar auditorías de contratos inteligentes ayuda a identificar y corregir vulnerabilidades antes del despliegue.",
+    "box-three-title": "Asignaciones Garantizadas",
+    "box-three-description": "Una vez que haces staking, debes registrarte para cada IDO, de modo que podamos calcular la asignación garantizada. Una vez registrado, bloqueamos tus tokens, pero aún puedes participar en otros IDOs.",
+    "box-four-title": "Proyectos de Alta Calidad",
+    "box-four-description": "BlockBoost es tu puerta de entrada a oportunidades de inversión en etapa temprana, que nuestro equipo ha evaluado exhaustivamente."
+  },
+
+  "ido-staking": {
+    "title": "Haz Staking para Participar en IDO",
+    "description": "Una vez que haces staking, debes registrarte para cada IDO, de modo que podamos calcular la asignación garantizada. Una vez registrado, bloqueamos tus tokens, pero aún puedes participar en otros IDOs.",
+    "level": "Nivel: ninguno",
+    "stack": "En staking: 0 BBT",
+    "tokens": "Tus tokens están desbloqueados",
+    "balance": "Balance:",
+    "max": "Máximo",
+    "approve": "Aprobar",
+    "unstake": "Retirar Staking",
+    "levels": "Niveles $BBT",
+    "desc": "Para ser elegible en cualquiera de los niveles, debes hacer staking con lo siguiente:",
+    "bbtof": "BBT de",
+    "forchances": "para chance (10% lotería) 5 días",
+    "forprospect": "para prospecto (25% lotería) 5 días",
+    "foraffiliate": "para afiliado (50% lotería) 5 días",
+    "formember": "para miembro 5 días",
+    "forclub": "para club 5 días",
+    "forassociate": "para asociado 5 días",
+    "description-one": "Necesitas registrarte para un IDO después de hacer staking.",
+    "description-two": "Cuando comienza el período de registro del IDO (generalmente 24 horas antes del inicio del IDO), debes abrir la página de Pools y hacer clic en el botón 'Registrar' en la tarjeta del pool.",
+    "description-three": "Cuando te registras para un IDO, se registra tu nivel (para este IDO específico). No hay forma de cambiar a un nivel superior después del registro. Así que asegúrate de estar en el nivel que deseas antes de registrarte. Aun así, podrás hacer más staking y registrarte para otros IDOs con un nivel superior."
+  },
+
+  "ido-projects": {
+    "status": "Finalizado",
+    "title": "Venta de BlockBoost",
+    "description": "Ecosistema de Crowdfunding WEB3 único",
+    "swap-rate": "Tasa de Intercambio:",
+    "per": "Por",
+    "start": "Inicio:",
+    "total-raise": "Recaudación Total"
+  },
+
+  "levels": {
+    "title": "El Sistema de Niveles de BlockBoost",
+    "description": "BlockBoost mostrará un sistema de niveles fijo basado en la cantidad de tokens en staking. Los niveles de lotería compartirán el 20% de la recaudación total y el 80% restante está asignado a niveles de asignación garantizada según los pesos asignados a los pools.",
+    "staking-requirements": "Requisitos de Staking",
+    "staking-length-required": "3 horas antes de que abra la Ronda de Asignación",
+    "whitelist-requirement": "Requisito de Whitelist Twitter",
+    "lottery-tickets": "Boletos de Lotería",
+    "guaranteed-allocation": "Asignación Garantizada",
+    "pool-weight": "Peso del Pool",
+    "private-allocations": "Asignaciones Privadas",
+    "yes": "Sí",
+    "bronze": "Bronce",
+    "silver": "Plata",
+    "gold": "Oro",
+    "platinum": "Platino",
+    "diamond": "Diamante",
+    "blue-diamond": "Diamante Azul"
   }
-  
+}

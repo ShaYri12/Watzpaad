@@ -1,23 +1,23 @@
 {
-    "joinWinningTeam": "Junte-se à Equipe Vencedora",
-    "description": "A Blockboost é uma incubadora e Launchpad Web3 líder para projetos Web3 focados em tecnologias inovadoras, como DeFi, IA, Big Data, NFTs e Jogos Web3. Ao fazer staking de $BBT, você ganha a vantagem de ter acesso antecipado para comprar tokens de projetos, melhorando sua posição no cenário Web3.",
-    "links": {
-      "home": "Início",
-      "launchpad": "Launchpad",
-      "earnings": "Ganhos",
-      "marketplace": "Marketplace",
-      "vault": "Cofre"
-    },
-    "help": {
-      "stacking": "Stacking",
-      "win": "Ganhe",
-      "whitepaper": "Whitepaper",
-      "goToApp": "Ir para o App"
-    },
-    "social": "Social",
-    "disclaimer": "Isenção de responsabilidade: Não é conselho financeiro. Sempre faça sua própria pesquisa antes de comprar. As criptomoedas podem não ser regulamentadas em sua jurisdição. O valor das criptomoedas pode cair assim como subir. Os lucros podem estar sujeitos a imposto sobre ganhos de capital ou outros impostos aplicáveis em sua região.",
-    "terms": "Termos de serviço",
-    "privacy": "Política de privacidade",
-    "cookie": "Política de cancelamento e reembolso",
-    "copyright": "© 2024, Todos os direitos reservados."
+  "joinWinningTeam": "Junte-se à Equipe Vencedora",
+  "description": "A Blockboost é uma incubadora e Launchpad Web3 líder para projetos Web3 focados em tecnologias inovadoras, como DeFi, IA, Big Data, NFTs e Jogos Web3. Ao fazer staking de $BBT, você ganha a vantagem de ter acesso antecipado para comprar tokens de projetos, melhorando sua posição no cenário Web3.",
+  "links": {
+    "home": "Início",
+    "launchpad": "Launchpad",
+    "earnings": "Ganhos",
+    "marketplace": "Marketplace",
+    "vault": "Cofre"
+  },
+  "help": {
+    "stacking": "Stacking",
+    "win": "Ganhar",
+    "whitepaper": "Whitepaper",
+    "goToApp": "Ir para o App"
+  },
+  "social": "Social",
+  "disclaimer": "Isenção de responsabilidade: Não é conselho financeiro. Sempre faça sua própria pesquisa antes de comprar. As criptomoedas podem não ser regulamentadas em sua jurisdição. O valor das criptomoedas pode cair assim como subir. Os lucros podem estar sujeitos a imposto sobre ganhos de capital ou outros impostos aplicáveis em sua região.",
+  "terms": "Termos de serviço",
+  "privacy": "Política de privacidade",
+  "cookie": "Política de cancelamento e reembolso",
+  "copyright": "© 2024, Todos os direitos reservados."
 }

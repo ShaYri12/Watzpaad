@@ -20,7 +20,7 @@ const RewardSection = ({
             <span className="text-white">{titleWhite} </span>
             <span className="text-primaryColor">{titleColor}</span>
           </h1>
-          <p className="text-[#798DA3] font-[300] text-[12.03px] sm:text-[18px]">
+          <p className="text-grayish font-[300] text-[12.03px] sm:text-[18px]">
             {description}
           </p>
         </div>

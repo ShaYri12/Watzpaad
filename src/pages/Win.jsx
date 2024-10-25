@@ -48,10 +48,10 @@ export default function Win() {
                   <h1 className="text-[17.43px] md:text-[24.65px] font-[400] md:leading-[32.86px] leading-[23.24px] text-center text-primaryColor">
                     {t("blockboost-giveaway")}
                   </h1>
-                  <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
+                  <p className="text-center text-grayish md:text-[20px] md:leading-[24px] font-[300]">
                     {t("descr-two")}
                   </p>
-                  <p className="text-center text-[#798DA3] md:text-[20px] md:leading-[24px] font-[300]">
+                  <p className="text-center text-grayish md:text-[20px] md:leading-[24px] font-[300]">
                     {t("descr-three")}
                   </p>
                   <p className="text-center text-primaryColor md:text-[20px] text-[14.14px] font-[700]">
@@ -87,7 +87,7 @@ export default function Win() {
                     {t("submit-wallet-address")}{" "}
                     {/* "Submit Your ERC20 Wallet Address" */}
                   </p>
-                  <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
+                  <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
                     {t("provide-wallet-desc")}{" "}
                     {/* "Provide your ERC20 Wallet address to qualify for the giveaway." */}
                   </p>
@@ -118,7 +118,7 @@ export default function Win() {
                   <p className="lg:mt-[15px] mt-[12.89px] text-white lg:text-[27px] text-[23.19px] lg:leading-[31.05px] leading-[26.67px] font-[700]">
                     {t("complete-quests")} {/* "Complete All the Quests" */}
                   </p>
-                  <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
+                  <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
                     {t("maximize-chance")}{" "}
                     {/* "Follow all the steps carefully to maximize your chance of winning." */}
                   </p>
@@ -150,7 +150,7 @@ export default function Win() {
                     {t("refer-friends")}{" "}
                     {/* "Refer Friends and Boost Your Entries" */}
                   </p>
-                  <p className="lg:text-[17.41px] text-[14.96px] text-[#798DA3] lg:mt-[12.83px] mt-[11px]">
+                  <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
                     {t("earn-entries")}{" "}
                     {/* "Earn +50 entries for every friend you refer." */}
                   </p>
@@ -173,7 +173,7 @@ export default function Win() {
                 </div>
                 <a
                   href="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
-                  className="text-[#798DA3] md:text-[30.62px] text-[24.02px]"
+                  className="text-grayish md:text-[30.62px] text-[24.02px]"
                 >
                   https://gleam.io/GmQLU/rexas-millionaire-giveaway
                 </a>

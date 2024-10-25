@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "টোকেন আইকন",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "শুরু করুন",
+    "summary": "সারসংক্ষেপ",
+    "letsGo": "চলুন"
+  },
+  "form": {
+    "want_to": "আমি করতে চাই",
+    "from": "থেকে",
+    "chain_my": "চেইন, আমার",
+    "to": "তে",
+    "chain": "চেইন",
+    "tokens": "টোকেন"
+  },
+  "swap_bridge": "সুইচ/ব্রীজ",
+  "ethereum": "এথেরিয়াম",
+  "eth_token": "ইথ",
+  "bcs_chain": "বিসিএস",
+  "bnb_token": "বিএনবি",
+  "submit_button": "চলুন"
+}

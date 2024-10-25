@@ -43,7 +43,7 @@ const TimelineItem = ({ title, description, id }) => {
         <h3 className="text-[20px] sm:text-[28px] mb-2 font-bold text-white">
           {title}
         </h3>
-        <p className="text-[#798DA3] text-[14px] sm:text-[16px] font-space font-normal">
+        <p className="text-grayish text-[14px] sm:text-[16px] font-space font-normal">
           {description}
         </p>
       </div>

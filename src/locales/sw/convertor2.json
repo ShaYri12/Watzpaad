@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Ikoni ya Tokeni",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Anza",
+    "summary": "Muhtasari",
+    "letsGo": "Twende"
+  },
+  "suggested_route_title": "Njia Inayopendekezwa ya Ponders",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Mnyororo wa Ethereum"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "Mnyororo wa BSC"
+  },
+  "total_fees": "Jumla ya Ada: 00000000000000",
+  "step": "Hatua 1",
+  "fees": "Ada",
+  "no_funds_message": "Huna fedha za kukamilisha muamala",
+  "back": "Rudi",
+  "more_results": "Matokeo Zaidi",
+  "accept": "Kubali"
+}

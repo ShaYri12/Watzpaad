@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "Ikon Token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Mulakan",
+    "summary": "Ringkasan",
+    "letsGo": "Mari Kita Mulakan"
+  },
+  "suggested_route_title": "Laluan Disyorkan Ponders",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Rantai Ethereum"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "Rantai BSC"
+  },
+  "total_fees": "Jumlah Yuran: 00000000000000",
+  "step": "Langkah 1",
+  "fees": "Yuran",
+  "no_funds_message": "Anda tidak mempunyai dana untuk menyelesaikan transaksi",
+  "back": "Kembali",
+  "more_results": "Lebih Banyak Hasil",
+  "accept": "Terima"
+}

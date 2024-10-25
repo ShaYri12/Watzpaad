@@ -18,7 +18,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("cookie_policy_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("cookie_policy_description")}
         </p>
       </div>
@@ -28,7 +28,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("what_is_cookie_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("what_is_cookie_description")}
         </p>
       </div>
@@ -38,10 +38,10 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("how_we_use_cookie_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("how_we_use_cookie_description")}
         </p>
-        <ul className="list-disc pl-5 text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3] space-y-2">
+        <ul className="list-disc pl-5 text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish space-y-2">
           {t("how_we_use_cookie_items", { returnObjects: true }).map(
             (item, index) => (
               <li key={index}>{item}</li>
@@ -55,7 +55,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("types_of_cookie_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("types_of_cookie_description")}
         </p>
         <ul className="space-y-4">
@@ -63,7 +63,7 @@ const CookiePolicy = () => {
             (cookie, index) => (
               <li
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 <strong className="font-[700]">{cookie.title}</strong>:{" "}
                 {cookie.description}
@@ -78,10 +78,10 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("control_or_delete_cookie_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("control_or_delete_cookie_description")}
         </p>
-        <ul className="list-disc pl-5 text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3] space-y-2">
+        <ul className="list-disc pl-5 text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish space-y-2">
           {t("control_or_delete_cookie_links", { returnObjects: true }).map(
             (link, index) => (
               <li key={index}>{link}</li>
@@ -95,7 +95,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("changes_to_cookie_policy_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("changes_to_cookie_policy_description")}
         </p>
       </div>
@@ -105,7 +105,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("need_more_info_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("need_more_info_description")}
         </p>
       </div>
@@ -115,7 +115,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("cookies_set_in_the_past_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("cookies_set_in_the_past_description")}
         </p>
       </div>
@@ -125,7 +125,7 @@ const CookiePolicy = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
           {t("contact_us_title")}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("contact_us_description")}
         </p>
       </div>

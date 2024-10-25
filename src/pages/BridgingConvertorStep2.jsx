@@ -1,8 +1,12 @@
 // BridgingConverter.jsx
 import React, { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const BridgingConverter2 = () => {
+  const { t } = useTranslation("convertor");
+  const navigate = useNavigate();
   const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
 
   const handleResize = () => {
@@ -49,9 +53,10 @@ const BridgingConverter2 = () => {
       {/* Progress Steps */}
       <div className="flex justify-center mb-8">
         <div className="flex items-center space-x-8">
-          <div className="text-green-400">Start</div>
-          <div className="text-gray-400">Summary</div>
-          <div className="text-gray-400">Ponder</div>
+          <div className="text-green-400">{t("progress.start")}</div>{" "}
+          {/* Translated steps */}
+          <div className="text-gray-400">{t("progress.summary")}</div>
+          <div className="text-gray-400">{t("progress.letsGo")}</div>
         </div>
       </div>
 
@@ -179,7 +184,10 @@ const BridgingConverter2 = () => {
         </div>
       </div>
       <div className="flex flex-wrap justify-center gap-[22px] mt-4 text-[14px] lg:text-[17px]">
-        <button className="border border-[#38DCC8] text-[#38DCC8]  duration-200 px-[45px] py-[10px] rounded-full">
+        <button
+          onClick={() => navigate(-1)}
+          className="border border-[#38DCC8] text-[#38DCC8] duration-200 px-[45px] py-[10px] rounded-full"
+        >
           Back
         </button>
         <button className="border border-[#38DCC8] text-[#38DCC8]  duration-200 px-[45px] py-[10px] rounded-full">

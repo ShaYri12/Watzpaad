@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
 import Logo from "../../public/assets/logo.svg";
 import LanguageDropdown from "./LanguageDropdown";
-import { useTranslation } from 'react-i18next'; 
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const { t } = useTranslation("footer");
@@ -36,14 +36,14 @@ const Header = () => {
         {/* Nav links */}
         <nav className="hidden lg:flex xl:gap-[7px] md:gap-0 gap-[4px] py-[19px]">
           {[
-            { name: t('links.home'), path: "/" },
-            { name: t('links.launchpad'), path: "/launchpad" },
-            { name: t('links.earnings'), path: "/earnings" },
-            { name: t('links.marketplace'), path: "/marketplace" },
-            { name: t('links.vault'), path: "/vault" },
-            { name: t('help.stacking'), path: "/stacking" },
-            { name: t('help.whitepaper'), path: "/whitepaper" },
-            { name: t('help.win'), path: "/win" },
+            { name: t("links.home"), path: "/" },
+            { name: t("links.launchpad"), path: "/launchpad" },
+            { name: t("links.earnings"), path: "/earnings" },
+            { name: t("links.marketplace"), path: "/marketplace" },
+            { name: t("links.vault"), path: "/vault" },
+            { name: t("help.stacking"), path: "/stacking" },
+            { name: t("help.whitepaper"), path: "/whitepaper" },
+            { name: `${t("help.win")} $100k`, path: "/win" },
           ].map((item, index) => (
             <NavLink
               key={index}
@@ -72,7 +72,7 @@ const Header = () => {
               boxShadow: "0px 4px 22.6px 0px #38DCC88C",
             }}
           >
-            {t('help.goToApp')}
+            {t("help.goToApp")}
           </Link>
         </div>
       </div>
@@ -91,14 +91,14 @@ const Header = () => {
             </button>
             <nav className="flex flex-col items-center justify-start overflow-y-auto h-full pb-[35px]">
               {[
-                { name: "Home", path: "/" },
-                { name: "Launchpad", path: "/launchpad" },
-                { name: "Earnings", path: "/earnings" },
-                { name: "Marketplace", path: "/marketplace" },
-                { name: "Vault", path: "/vault" },
-                { name: "Staking", path: "/stacking" },
-                { name: "Win $1M", path: "/win" },
-                { name: "Whitepaper", path: "/whitepaper" },
+                { name: t("links.home"), path: "/" },
+                { name: t("links.launchpad"), path: "/launchpad" },
+                { name: t("links.earnings"), path: "/earnings" },
+                { name: t("links.marketplace"), path: "/marketplace" },
+                { name: t("links.vault"), path: "/vault" },
+                { name: t("help.stacking"), path: "/stacking" },
+                { name: t("help.whitepaper"), path: "/whitepaper" },
+                { name: `${t("help.win")} $100k`, path: "/win" },
               ].map((item, index) => (
                 <NavLink
                   key={index}

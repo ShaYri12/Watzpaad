@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   const menuItems = [
     {
-      name: "Dashboard",
+      name: "Earning Manager",
       icon: "/assets/icons/dashboard.svg", // Default icon
       activeIcon: "/assets/icons/dashboard-white-icon.svg", // Icon when active
       link: "/dashboard",
@@ -68,7 +68,7 @@ const Sidebar = () => {
       {/* Mobile Sidebar with transition */}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto  ${
+        className={`fixed top-0 left-0 h-screen bg-[#1F2835CC] border-r-[3px] border-[#303945] text-white xl:w-[264px] w-[220px] md:hidden flex-col items-center lg:px-[22px] px-[15px] z-40 transition-transform duration-300 ease-in-out overflow-y-auto z-[9999] ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         style={{ backdropFilter: "blur(120px)" }}
@@ -154,6 +154,16 @@ const Sidebar = () => {
               </Link>
             </li>
           ))}
+          <li className="w-full">
+            <button className="sm:hidden flex w-full items-center justify-center bg-transparent hover:bg-gray-700 hover:bg-opacity-[0.3] text-primaryColor text-[11.36px] md:text-[15.9px] transition py-[8px] md:py-[9px] px-4 rounded-full border border-primaryColor">
+              Buy Presale
+            </button>
+          </li>
+          <li className="w-full pb-4">
+            <button className="sm:hidden flex w-full items-center justify-center bg-primaryColor hover:bg-teal-300 text-[11.36px] md:text-[15.9px] transition py-[8px] md:py-[9px] text-black px-4 rounded-full">
+              Connect Wallet
+            </button>
+          </li>
         </ul>
       </div>
 

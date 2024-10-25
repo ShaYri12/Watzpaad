@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "Ikon Token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Mula",
+    "summary": "Ringkasan",
+    "letsGo": "Mari Pergi"
+  },
+  "form": {
+    "want_to": "Saya mahu",
+    "from": "dari",
+    "chain_my": "Rantaian, saya",
+    "to": "ke",
+    "chain": "rantaian",
+    "tokens": "token"
+  },
+  "swap_bridge": "TUKAR/JEMBATAN",
+  "ethereum": "Ethereum",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "Mari Pergi"
+}

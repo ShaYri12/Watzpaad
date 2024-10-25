@@ -96,7 +96,7 @@ const Tokenomics = () => {
                   {t("tokenomics.current-price")}
                 </h2>
                 <h4 className="text-[#FFFFFF70] text-[12px] leading-[17px] font-normal">
-                  1 $BBT = $0.001
+                  {t("tokenomics.as-per")}
                 </h4>
               </div>
               <div className="flex flex-col gap-0.5">
@@ -104,7 +104,7 @@ const Tokenomics = () => {
                   {t("tokenomics.listing-price")}
                 </h2>
                 <h4 className="text-[#FFFFFF70] text-[12px] leading-[17px] font-normal">
-                  1 $BBT = $0.02
+                  1 $BBT = $0.05"
                 </h4>
               </div>
             </div>
@@ -128,11 +128,11 @@ const Tokenomics = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <h2 className="text-[#798DA3] font-space text-[20px] sm:text-[30px]">
+            <h2 className="text-grayish font-space text-[20px] sm:text-[30px]">
               {t("tokenomics.total-supply")}
             </h2>
             <h1 className="text-[#38DCC8] text-[35px] sm:text-[50px] font-bold">
-              1,000,000,000
+              10,000,000,000
             </h1>
           </div>
         </div>

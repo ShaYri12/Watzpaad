@@ -4,7 +4,7 @@
   "progress": {
     "start": "Zacznij",
     "summary": "Podsumowanie",
-    "ponder": "Zastanów się"
+    "letsGo": "Chodźmy"
   },
   "suggested_route_title": "Zasugerowana trasa do zastanowienia",
   "eth_to_bnb": {

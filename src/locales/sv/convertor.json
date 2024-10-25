@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "Tokenikon",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Start",
+    "summary": "Sammanfattning",
+    "letsGo": "Låt oss gå"
+  },
+  "form": {
+    "want_to": "Jag vill",
+    "from": "från",
+    "chain_my": "Kedja, min",
+    "to": "till",
+    "chain": "kedja",
+    "tokens": "tokens"
+  },
+  "swap_bridge": "BYT/BRIDGE",
+  "ethereum": "Ethereum",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "Låt oss gå"
+}

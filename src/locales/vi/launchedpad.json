@@ -1,72 +1,72 @@
 {
-    "hero": {
-      "title": "Nền tảng phát hành an toàn nhất. Đa chuỗi.",
-      "description": "BlockBoost là một nền tảng huy động vốn phi tập trung đa chuỗi, cho phép các dự án huy động vốn và hứa hẹn an toàn cho các nhà đầu tư giai đoạn đầu. Đặt cược token BlockBoost để được truy cập ưu tiên vào các dự án tiềm năng."
-    },
+  "hero": {
+    "title": "Nền tảng phát hành an toàn nhất. Đa chuỗi.",
+    "description": "BlockBoost là một nền tảng huy động vốn phi tập trung đa chuỗi, cho phép các dự án huy động vốn và hứa hẹn an toàn cho các nhà đầu tư giai đoạn đầu. Đặt cược token BlockBoost để được truy cập ưu tiên vào các dự án tiềm năng."
+  },
 
-    "key-features": {
-      "title": "Các Tính Năng Chính của BlockBoost",
-      "description": "Ra mắt các dự án chất lượng cao được chọn lọc trên Blockchain",
-      "box-one-title": "Công Bằng và Minh Bạch",
-      "box-one-description": "Mỗi người nắm giữ token BlockBoost đều có cơ hội bình đẳng tham gia vào các dự án tiềm năng sắp tới để trở thành nhà đầu tư giai đoạn đầu và trở thành một phần trong câu chuyện thành công của họ.",
-      "box-two-title": "Cơ Chế Chống Lừa Đảo",
-      "box-two-description": "Trước khi bất kỳ dự án nào đến với nền tảng của chúng tôi, nó sẽ trải qua các cuộc kiểm tra hợp đồng thông minh nghiêm ngặt. Việc tiến hành kiểm tra hợp đồng thông minh giúp xác định và khắc phục các lỗ hổng trước khi triển khai.",
-      "box-three-title": "Phân Bổ Được Đảm Bảo",
-      "box-three-description": "Khi đã đặt cược, bạn cần phải đăng ký cho mỗi IDO, để chúng tôi có thể tính toán phân bổ được đảm bảo. Khi đã đăng ký, chúng tôi sẽ khóa token của bạn, nhưng bạn vẫn có thể tham gia vào các IDO khác.",
-      "box-four-title": "Dự Án Chất Lượng Cao",
-      "box-four-description": "BlockBoost là cánh cửa của bạn đến các cơ hội đầu tư giai đoạn đầu, mà đội ngũ của chúng tôi đã thẩm định kỹ lưỡng."
-    },
+  "key-features": {
+    "title": "Các Tính Năng Chính của BlockBoost",
+    "description": "Ra mắt các dự án chất lượng cao được chọn lọc trên Blockchain",
+    "box-one-title": "Công Bằng và Minh Bạch",
+    "box-one-description": "Mỗi người nắm giữ token BlockBoost đều có cơ hội bình đẳng tham gia vào các dự án tiềm năng sắp tới để trở thành nhà đầu tư giai đoạn đầu và trở thành một phần trong câu chuyện thành công của họ.",
+    "box-two-title": "Cơ Chế Chống Lừa Đảo",
+    "box-two-description": "Trước khi bất kỳ dự án nào đến với nền tảng của chúng tôi, nó sẽ trải qua các cuộc kiểm tra hợp đồng thông minh nghiêm ngặt. Việc tiến hành kiểm tra hợp đồng thông minh giúp xác định và khắc phục các lỗ hổng trước khi triển khai.",
+    "box-three-title": "Phân Bổ Được Đảm Bảo",
+    "box-three-description": "Khi đã đặt cược, bạn cần phải đăng ký cho mỗi IDO, để chúng tôi có thể tính toán phân bổ được đảm bảo. Khi đã đăng ký, chúng tôi sẽ khóa token của bạn, nhưng bạn vẫn có thể tham gia vào các IDO khác.",
+    "box-four-title": "Dự Án Chất Lượng Cao",
+    "box-four-description": "BlockBoost là cánh cửa của bạn đến các cơ hội đầu tư giai đoạn đầu, mà đội ngũ của chúng tôi đã thẩm định kỹ lưỡng."
+  },
 
-    "ido-staking": {
-      "title": "Đặt Cược để Tham Gia IDO",
-      "description": "Khi đã đặt cược, bạn cần phải đăng ký cho mỗi IDO, để chúng tôi có thể tính toán phân bổ được đảm bảo. Khi đã đăng ký, chúng tôi sẽ khóa token của bạn, nhưng bạn vẫn có thể tham gia vào các IDO khác.",
-      "level": "Cấp độ: không có",
-      "stack": "Đã đặt cược: 0 BBT",
-      "tokens": "Token của bạn đã được mở khóa",
-      "balance": "Số dư:",
-      "max": "Tối đa",
-      "approve": "Chấp thuận",
-      "unstake": "Bỏ cược",
-      "levels": "$BBT Cấp độ",
-      "desc": "Để đủ điều kiện cho bất kỳ cấp độ nào, bạn cần đặt cược số lượng sau:",
-      "bbtof": "BBT của ",
-      "forchances": "cho cơ hội (10% xổ số) 5 ngày ",
-      "forprospect": "cho triển vọng (25% xổ số) 5 ngày",
-      "foraffiliate": "cho liên kết (50% xổ số) 5 ngày",
-      "formember": "cho thành viên 5 ngày",
-      "forclub": "cho câu lạc bộ 5 ngày",
-      "forassociate": "cho cộng tác viên 5 ngày",
-      "description-one": "Bạn cần phải đăng ký cho một IDO sau khi bạn đã đặt cược.",
-      "description-two": "Khi thời gian đăng ký IDO bắt đầu (thường là 24 giờ trước khi IDO bắt đầu), bạn cần mở trang Pools và nhấn nút 'Đăng ký' trong thẻ pool.",
-      "description-three": "Khi bạn đăng ký cho một IDO, cấp độ của bạn sẽ được ghi nhận (cho IDO cụ thể này). Không có cách nào để thay đổi thành cấp độ cao hơn sau khi đăng ký. Vì vậy, hãy chắc chắn rằng bạn đang ở cấp độ mà bạn muốn trước khi đăng ký. Tuy nhiên, bạn sẽ có thể đặt cược nhiều hơn và đăng ký cho các IDO khác với cấp độ cao hơn."
-    },
+  "ido-staking": {
+    "title": "Đặt Cược để Tham Gia IDO",
+    "description": "Khi đã đặt cược, bạn cần phải đăng ký cho mỗi IDO, để chúng tôi có thể tính toán phân bổ được đảm bảo. Khi đã đăng ký, chúng tôi sẽ khóa token của bạn, nhưng bạn vẫn có thể tham gia vào các IDO khác.",
+    "level": "Cấp độ: không có",
+    "stack": "Đã đặt cược: 0 BBT",
+    "tokens": "Token của bạn đã được mở khóa",
+    "balance": "Số dư:",
+    "max": "Tối đa",
+    "approve": "Chấp thuận",
+    "unstake": "Bỏ cược",
+    "levels": "$BBT Cấp độ",
+    "desc": "Để đủ điều kiện cho bất kỳ cấp độ nào, bạn cần đặt cược số lượng sau:",
+    "bbtof": "BBT của ",
+    "forchances": "cho cơ hội (10% xổ số) 5 ngày ",
+    "forprospect": "cho triển vọng (25% xổ số) 5 ngày",
+    "foraffiliate": "cho liên kết (50% xổ số) 5 ngày",
+    "formember": "cho thành viên 5 ngày",
+    "forclub": "cho câu lạc bộ 5 ngày",
+    "forassociate": "cho cộng tác viên 5 ngày",
+    "description-one": "Bạn cần phải đăng ký cho một IDO sau khi bạn đã đặt cược.",
+    "description-two": "Khi thời gian đăng ký IDO bắt đầu (thường là 24 giờ trước khi IDO bắt đầu), bạn cần mở trang Pools và nhấn nút 'Đăng ký' trong thẻ pool.",
+    "description-three": "Khi bạn đăng ký cho một IDO, cấp độ của bạn sẽ được ghi nhận (cho IDO cụ thể này). Không có cách nào để thay đổi thành cấp độ cao hơn sau khi đăng ký. Vì vậy, hãy chắc chắn rằng bạn đang ở cấp độ mà bạn muốn trước khi đăng ký. Tuy nhiên, bạn sẽ có thể đặt cược nhiều hơn và đăng ký cho các IDO khác với cấp độ cao hơn."
+  },
 
-    "ido-projects": {
-        "upcoming": "Sắp tới",
-        "title": "Bán Blockboost",
-        "description": "Hệ sinh thái gọi vốn WEB3 độc đáo",
-        "swap-rate": "Tỷ lệ hoán đổi:",
-        "per": "Mỗi",
-        "start": "Bắt đầu:",
-        "total-raise": "Tổng số huy động"
-    },
+  "ido-projects": {
+    "status": "Kết thúc",
+    "title": "Bán Blockboost",
+    "description": "Hệ sinh thái gọi vốn WEB3 độc đáo",
+    "swap-rate": "Tỷ lệ hoán đổi:",
+    "per": "Mỗi",
+    "start": "Bắt đầu:",
+    "total-raise": "Tổng số huy động"
+  },
 
-    "levels": {
-        "title": "Hệ thống cấp bậc của Blockboost",
-        "description": "Blockboost sẽ giới thiệu một hệ thống cấp bậc cố định dựa trên số lượng token đã đặt cược. Các Cấp Bậc Xổ Số sẽ chia sẻ 20% tổng số huy động và 80% còn lại sẽ được phân bổ cho các cấp bậc được đảm bảo dựa trên trọng số của pool được chỉ định.",
-        "staking-requirements": "Yêu cầu đặt cược",
-        "staking-length-required": "3 giờ trước khi vòng phân bổ mở",
-        "whitelist-requirement": "Yêu cầu danh sách trắng Twitter",
-        "lottery-tickets": "Giấy số xổ số",
-        "guaranteed-allocation": "Phân bổ được đảm bảo",
-        "pool-weight": "Trọng số pool",
-        "private-allocations": "Phân bổ riêng",
-        "yes": "Có",
-        "bronze": "Đồng",
-        "silver": "Bạc",
-        "gold": "Vàng",
-        "platinum": "Bạch kim",
-        "diamond": "Kim cương",
-        "blue-diamond": "Kim cương xanh"
-    }    
+  "levels": {
+    "title": "Hệ thống cấp bậc của Blockboost",
+    "description": "Blockboost sẽ giới thiệu một hệ thống cấp bậc cố định dựa trên số lượng token đã đặt cược. Các Cấp Bậc Xổ Số sẽ chia sẻ 20% tổng số huy động và 80% còn lại sẽ được phân bổ cho các cấp bậc được đảm bảo dựa trên trọng số của pool được chỉ định.",
+    "staking-requirements": "Yêu cầu đặt cược",
+    "staking-length-required": "3 giờ trước khi vòng phân bổ mở",
+    "whitelist-requirement": "Yêu cầu danh sách trắng Twitter",
+    "lottery-tickets": "Giấy số xổ số",
+    "guaranteed-allocation": "Phân bổ được đảm bảo",
+    "pool-weight": "Trọng số pool",
+    "private-allocations": "Phân bổ riêng",
+    "yes": "Có",
+    "bronze": "Đồng",
+    "silver": "Bạc",
+    "gold": "Vàng",
+    "platinum": "Bạch kim",
+    "diamond": "Kim cương",
+    "blue-diamond": "Kim cương xanh"
+  }
 }

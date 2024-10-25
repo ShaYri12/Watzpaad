@@ -1,155 +1,159 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "מערכת מימון המונים ייחודית WEB3",
-      "description1": "האם אתם מוכנים לגשת לכמה מהסטארטאפים הקריפטוגרפיים הבלעדיים והמבטיחים ביותר? block boost הוא שערכם להזדמנויות השקעה בשלב מוקדם, אשר הצוות שלנו בדק היטב.",
-      "description2": "ישנם יתרונות רבים נוספים להיות חלק ממערכת מימון ההמונים של Blockboost עם תכונות ייחודיות כמו Launchpad, Bridge & Swap AI, מערכת הרווחה, כספת, שוק, והפקדה.",
-      "usdtRaised": "USDT שנאסף: $361,590.14 / $605,467",
-      "target": "מטרה: $250000",
-      "listingPrice": "מחיר רישום",
-      "receive": "קבל",
-      "nextPrice": "מחיר הבא",
-      "availablePaymentMethods": "שיטת תשלום זמינה",
-      "connectWallet": "חבר ארנק",
-      "audit": "ביקורת",
-      "days": "ימים",
-      "hours": "שעות",
-      "minutes": "דקות",
-      "seconds": "שניות"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "מערכות Block Boost",
-      "box-one-title": "Launchpad",
-      "box-one-description": "בחר את הדרגה שלך, הפק $BBT, והשתתף בכל השקות המטבעות שאנחנו מביאים אליך בצורה מובטחת.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "על ידי חיבור עם בלוקצ'יינים שונים תוכל להמיר את המטבעות שלך לרשתות בלוקצ'יין שונות בכמה קליקים.",
-      "box-three-title": "מערכת רווחים",
-      "box-three-description": "הפק הכנסה פאסיבית דרך תכונות שונות כמו פרסים על הפניות, פרסים על הפקדה, פרסים על כספות, מכירות NFT.",
-      "box-four-title": "כספת",
-      "box-four-description": "תוכל להרוויח את תשואת APY הגבוהה דרך הפקדת נכסי הקריפטו שלך על ידי בחירת כספות שונות."
-    },
-  
-    "join-idos": {
-      "title": "קל להצטרף ל- IDOs ב-3 שלבים",
-      "box-one-title": "חבר ארנק",
-      "box-one-description": "קנה מטבעות $BBT וחבר את הארנק שלך למערכת האקוסיסטם של Launchpad כדי להשתתף.",
-      "box-two-title": "הפקת מטבעות $BBT",
-      "box-two-description": "Block Boost תציג מערכת דרגות קבועה המבוססת על מספר המטבעות המופקדים.",
-      "box-three-title": "השתתף במכירה",
-      "box-three-description": "זכה בכרטיסי לוטו מאושרים כדי להשתתף ב- IDOs דרך מערכת דרגות ההפקדה שלנו."
-    },
-  
-    "exclusive-benefits": {
-      "title": "יתרונות בלעדיים של רכישת $WZP במכירה המוקדמת",
-      "box-one-title": "פרסי הפניה במכירה מוקדמת",
-      "box-one-description": "השתתף בשלב מוקדם של המכירה המוקדמת כדי לקבל יותר הערכה על ההשקעה שלך בהשוואה למחיר ההשקה. בנוסף, תוכל להפנות את החברים שלך ולהרוויח גם 5% בונוס במהלך המכירה המוקדמת.",
-      "box-two-title": "פרסי הפניה למסחר",
-      "box-two-description": "לאחר השקה מוצלחת תוכל להפנות דרך הקישור הייחודי שלך מהאפליקציה שלנו ולהרוויח 2% פרסי מסחר על פעילויות המסחר של ההפניות שלך.",
-      "box-three-title": "פרסי אחזקה",
-      "box-three-description": "החזק את ה-$BBT והרוויח הכנסה פאסיבית. פשוט שב ורדוף כדי לקבל חלק מהפרסים שלך מהאחזקה מנפח המסחר של $BBT ודרוש אותו דרך הדפ הפועל שלנו כל שעה.",
-      "box-four-title": "פרסי הפקדה",
-      "box-four-description": "הפק $BBT כדי להרוויח פרס ולקבל הקצאה מובטחת עבור ה-Launchpad. זה יינתן מההפקה של האקוסיסטם שלנו.",
-      "box-five-title": "פרסי הפקדת כספות",
-      "box-five-description": "הפק כל מטבע כדי להרוויח עם צבירה אוטומטית. אתה יכול להפקיד כל מטבע כדי להרוויח $BBT כפרס מצטבר. זה יינתן מההפקה של האקוסיסטם שלנו."
-    },
-  
-    "buy-presale": {
-      "title": "איך לקנות במכירה מוקדמת?",
-      "timeline": {
-        "connectWallet": {
-          "title": "חבר ארנק",
-          "description": "השתמש ב-Metamask או Trust Wallet כדי לחבר את הארנק שלך בשניות."
-        },
-        "confirmTransaction": {
-          "title": "אשר עסקה",
-          "description": "תוכל לקנות $BBT עם USDT, ETH, ו-BNB."
-        },
-        "claimToken": {
-          "title": "דרוש מטבע",
-          "description": "מזל טוב! תוכל לדרוש את ה-$BBT שלך לאחר סיום המכירה המוקדמת."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "מערכת מימון המונים ייחודית WEB3",
+    "description1": "האם אתם מוכנים לגשת לכמה מהסטארטאפים הקריפטוגרפיים הבלעדיים והמבטיחים ביותר? block boost הוא שערכם להזדמנויות השקעה בשלב מוקדם, אשר הצוות שלנו בדק היטב.",
+    "description2": "ישנם יתרונות רבים נוספים להיות חלק ממערכת מימון ההמונים של Blockboost עם תכונות ייחודיות כמו Launchpad, Bridge & Swap AI, מערכת הרווחה, כספת, שוק, והפקדה.",
+    "usdtRaised": "USDT שנאסף: $361,590.14 / $605,467",
+    "purchased": "הקנייה שלך",
+    "listingPrice": "מחיר רישום",
+    "receive": "קבל",
+    "nextPrice": "מחיר הבא",
+    "availablePaymentMethods": "שיטת תשלום זמינה",
+    "connectWallet": "חבר ארנק",
+    "transactionDashboard": "לוח מחוונים של עסקאות",
+    "whitepaper": "מסמך לבן",
+    "audit": "ביקורת",
+    "days": "ימים",
+    "hours": "שעות",
+    "minutes": "דקות",
+    "seconds": "שניות"
+  },
+
+  "ecosystems-utilities": {
+    "title": "מערכות Block Boost",
+    "box-one-title": "Launchpad",
+    "box-one-description": "בחר את הדרגה שלך, הפק $BBT, והשתתף בכל השקות המטבעות שאנחנו מביאים אליך בצורה מובטחת.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "על ידי חיבור עם בלוקצ'יינים שונים תוכל להמיר את המטבעות שלך לרשתות בלוקצ'יין שונות בכמה קליקים.",
+    "box-three-title": "מערכת רווחים",
+    "box-three-description": "הפק הכנסה פאסיבית דרך תכונות שונות כמו פרסים על הפניות, פרסים על הפקדה, פרסים על כספות, מכירות NFT.",
+    "box-four-title": "כספת",
+    "box-four-description": "תוכל להרוויח את תשואת APY הגבוהה דרך הפקדת נכסי הקריפטו שלך על ידי בחירת כספות שונות."
+  },
+
+  "join-idos": {
+    "title": "קל להצטרף ל- IDOs ב-3 שלבים",
+    "box-one-title": "חבר ארנק",
+    "box-one-description": "קנה מטבעות $BBT וחבר את הארנק שלך למערכת האקוסיסטם של Launchpad כדי להשתתף.",
+    "box-two-title": "הפקת מטבעות $BBT",
+    "box-two-description": "Block Boost תציג מערכת דרגות קבועה המבוססת על מספר המטבעות המופקדים.",
+    "box-three-title": "השתתף במכירה",
+    "box-three-description": "זכה בכרטיסי לוטו מאושרים כדי להשתתף ב- IDOs דרך מערכת דרגות ההפקדה שלנו."
+  },
+
+  "exclusive-benefits": {
+    "title": "יתרונות בלעדיים של רכישת $WZP במכירה המוקדמת",
+    "box-one-title": "פרסי הפניה במכירה מוקדמת",
+    "box-one-description": "השתתף בשלב מוקדם של המכירה המוקדמת כדי לקבל יותר הערכה על ההשקעה שלך בהשוואה למחיר ההשקה. בנוסף, תוכל להפנות את החברים שלך ולהרוויח גם 5% בונוס במהלך המכירה המוקדמת.",
+    "box-two-title": "פרסי הפניה למסחר",
+    "box-two-description": "לאחר השקה מוצלחת תוכל להפנות דרך הקישור הייחודי שלך מהאפליקציה שלנו ולהרוויח 2% פרסי מסחר על פעילויות המסחר של ההפניות שלך.",
+    "box-three-title": "פרסי אחזקה",
+    "box-three-description": "החזק את ה-$BBT והרוויח הכנסה פאסיבית. פשוט שב ורדוף כדי לקבל חלק מהפרסים שלך מהאחזקה מנפח המסחר של $BBT ודרוש אותו דרך הדפ הפועל שלנו כל שעה.",
+    "box-four-title": "פרסי הפקדה",
+    "box-four-description": "הפק $BBT כדי להרוויח פרס ולקבל הקצאה מובטחת עבור ה-Launchpad. זה יינתן מההפקה של האקוסיסטם שלנו.",
+    "box-five-title": "פרסי הפקדת כספות",
+    "box-five-description": "הפק כל מטבע כדי להרוויח עם צבירה אוטומטית. אתה יכול להפקיד כל מטבע כדי להרוויח $BBT כפרס מצטבר. זה יינתן מההפקה של האקוסיסטם שלנו."
+  },
+
+  "buy-presale": {
+    "title": "איך לקנות במכירה מוקדמת?",
+    "timeline": {
+      "connectWallet": {
+        "title": "חבר ארנק",
+        "description": "השתמש ב-Metamask או Trust Wallet כדי לחבר את הארנק שלך בשניות."
+      },
+      "confirmTransaction": {
+        "title": "אשר עסקה",
+        "description": "אתה יכול לקנות $BBT עם ETH, BNB, MATIC, USDT ו-USDC"
+      },
+      "claimToken": {
+        "title": "דרוש מטבע",
+        "description": "מזל טוב! תוכל לדרוש את ה-$BBT שלך לאחר סיום המכירה המוקדמת."
       }
-    },
-  
-    "roadmap": {
-      "title": "מפת דרכים",
-      "phases": {
-        "phase1": {
-          "title": "שלב 1",
-          "descriptionOne": "יוזמת פרויקט",
-          "descriptionTwo": "פיתוח חכ smart",
-          "descriptionThree": "השקת אתר",
-          "descriptionFour": "שחרור מסמך לבן",
-          "descriptionFive": "ביקורת חוזה עם Coinsult"
-        },
-        "phase2": {
-          "title": "שלב 2",
-          "descriptionOne": "השקת מכירה מוקדמת",
-          "descriptionTwo": "קמפיין שיווקי ענק",
-          "descriptionThree": "שלבי מכירה מוקדמת 1-5 על blockboost.io",
-          "descriptionFour": "בדיקות בטא של ה-Launchpad"
-        },
-        "phase3": {
-          "title": "שלב 3",
-          "descriptionOne": "ביקורות אבטחה עבור ה-Launchpad",
-          "descriptionTwo": "ה-Launchpad להשקת פרויקטים חוקיים",
-          "descriptionThree": "שלבי מכירה מוקדמת 6-10",
-          "descriptionFour": "שותפות עם Dapps עבור כספות"
-        },
-        "phase4": {
-          "title": "שלב 4",
-          "descriptionOne": "השקת שוק NFT",
-          "descriptionTwo": "השקת $BBT",
-          "descriptionThree": "רישום בבורסות ברמה הגבוהה ביותר",
-          "descriptionFour": "מפת דרכים מעודכנת"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "פרטי מטבע",
-      "title-two": "כלכלה של מטבע",
-      "description": "הפצת המטבע תתרחש לאחר סיום המכירה המוקדמת. תוכל לדרוש את מטבעות ה-$BBT שנרכשו מעמוד המכירה המוקדמת שלנו.",
-      "name": "שם",
-      "boost-token": "מטבע boost",
-      "symbol": "סימול",
-      "supply": "אספקה",
-      "billion": "מיליארד",
-      "tax": "מס",
-      "buy-sell": "קנה/מכור",
-      "type": "סוג",
-      "token-contract-address": "כתובת החוזה של המטבע",
-      "empty": "ריק",
-      "decimal": "עשרוני",
-      "presale-details": "פרטי מכירה מוקדמת",
-      "live": "המכירה המוקדמת פעילה",
-      "current-price": "מחיר $BBT הנוכחי",
-      "listing-price": "מחיר רישום בבורסה",
-      "total-supply": "אספקה כוללת"
-    },
-  
-    "powered-by": {
-      "title": "מנוהל על ידי"
-    },
-  
-    "faq": {
-      "title": "שאלות נפוצות",
-      "question-one": "מה זה Blockboost?",
-      "answer-one": "Blockboost הוא מערכת מימון המונים ייחודית עבור סטארטאפים קריפטוגרפיים.",
-      "question-two": "איפה אני יכול לרכוש את מטבע Blockboost ומתי אני אקבל אותו?",
-      "answer-two": "במהלך המכירה המוקדמת, תוכל לרכוש מטבעות $BBT מהאתר הרשמי שלנו www.blockboost.io; תוכל לדרוש את המטבעות שלך מעמוד המכירה המוקדמת לאחר סיום המכירה המוקדמת.",
-      "question-three": "איזה סוג ארנק אני צריך לחבר?",
-      "answer-three": "תוכל לחבר את הארנק שלך על ידי שימוש ב-Metamask או Trust Wallet.",
-      "question-four": "מהו מחיר הרישום?",
-      "answer-four": "$BBT יניב מחיר רישום של 0.06$.",
-      "question-five": "כיצד אוכל לדרוש את המטבעות שלי לאחר המכירה המוקדמת?",
-      "answer-five": "לאחר סיום המכירה המוקדמת, תוכל לדרוש את המטבעות שלך מעמוד המכירה המוקדמת."
-    },
-  
-    "cta": {
-      "text": "התחל את ההשקעה שלך במכירה המוקדמת עכשיו!",
-      "button": "קנה $BBT"
     }
+  },
+
+  "roadmap": {
+    "title": "מפת דרכים",
+    "phases": {
+      "phase1": {
+        "title": "שלב 1",
+        "descriptionOne": "יוזמת פרויקט",
+        "descriptionTwo": "פיתוח חכ smart",
+        "descriptionThree": "השקת אתר",
+        "descriptionFour": "שחרור מסמך לבן",
+        "descriptionFive": "ביקורת חוזה עם Coinsult"
+      },
+      "phase2": {
+        "title": "שלב 2",
+        "descriptionOne": "השקת מכירה מוקדמת",
+        "descriptionTwo": "קמפיין שיווקי ענק",
+        "descriptionThree": "שלבי מכירה מוקדמת 1-10 על blockboost.io",
+        "descriptionFour": "בדיקות בטא של ה-Launchpad"
+      },
+      "phase3": {
+        "title": "שלב 3",
+        "descriptionOne": "ביקורות אבטחה עבור ה-Launchpad",
+        "descriptionTwo": "ה-Launchpad להשקת פרויקטים חוקיים",
+        "descriptionThree": "שלבי מכירה מוקדמת 11-20",
+        "descriptionFour": "שותפות עם Dapps עבור כספות"
+      },
+      "phase4": {
+        "title": "שלב 4",
+        "descriptionOne": "השקת שוק NFT",
+        "descriptionTwo": "השקת $BBT",
+        "descriptionThree": "רישום בבורסות ברמה הגבוהה ביותר",
+        "descriptionFour": "מפת דרכים מעודכנת"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "פרטי מטבע",
+    "title-two": "כלכלה של מטבע",
+    "description": "הפצת המטבע תתרחש לאחר סיום המכירה המוקדמת. תוכל לדרוש את מטבעות ה-$BBT שנרכשו מעמוד המכירה המוקדמת שלנו.",
+    "name": "שם",
+    "boost-token": "מטבע boost",
+    "symbol": "סימול",
+    "supply": "אספקה",
+    "billion": "מיליארד",
+    "tax": "מס",
+    "buy-sell": "קנה/מכור",
+    "type": "סוג",
+    "token-contract-address": "כתובת החוזה של המטבע",
+    "empty": "ריק",
+    "decimal": "עשרוני",
+    "presale-details": "פרטי מכירה מוקדמת",
+    "live": "המכירה המוקדמת פעילה",
+    "current-price": "מחיר $BBT הנוכחי",
+    "as-per": "על פי שלב מכירה מוקדמת",
+    "listing-price": "מחיר רישום בבורסה",
+    "total-supply": "אספקה כוללת"
+  },
+
+  "powered-by": {
+    "title": "מנוהל על ידי"
+  },
+
+  "faq": {
+    "title": "שאלות נפוצות",
+    "question-one": "מה זה Blockboost?",
+    "answer-one": "Blockboost הוא מערכת מימון המונים ייחודית עבור סטארטאפים קריפטוגרפיים.",
+    "question-two": "איפה אני יכול לרכוש את מטבע Blockboost ומתי אני אקבל אותו?",
+    "answer-two": "במהלך המכירה המוקדמת, תוכל לרכוש מטבעות $BBT מהאתר הרשמי שלנו www.blockboost.io; תוכל לדרוש את המטבעות שלך מעמוד המכירה המוקדמת לאחר סיום המכירה המוקדמת.",
+    "question-three": "איזה סוג ארנק אני צריך לחבר?",
+    "answer-three": "תוכל לחבר את הארנק שלך על ידי שימוש ב-Metamask או Trust Wallet.",
+    "question-four": "מהו מחיר הרישום?",
+    "answer-four": "$BBT יניב מחיר רישום של 0.06$.",
+    "question-five": "כמה שלבים יש במכירת המוקדמות?",
+    "answer-five": "יש 20 שלבים במכירת המוקדמות, והמחיר של $BBT יעלה בכל שלב.",
+    "question-six": "האם יש סטייקינג על $BBT ומתי הוא יהיה זמין לסטייקינג?",
+    "answer-six": "כן, אנא ראה את עמוד הסטייקינג למידע מלא על בריכות הסטייקינג והתגמולים."
+  },
+
+  "cta": {
+    "text": "התחל את ההשקעה שלך במכירה המוקדמת עכשיו!",
+    "button": "קנה $BBT"
   }
-  
+}

@@ -1,23 +1,23 @@
 {
-    "joinWinningTeam": "Jiunge na Timu Inayoshinda",
-    "description": "Blockboost ni incubator na Launchpad inayoongoza ya miradi ya Web3 ikilenga teknolojia bunifu kama DeFi, AI, Takwimu Kubwa, NFTs na Michezo ya Web3.",
-    "links": {
-      "home": "Nyumbani",
-      "launchpad": "Laundi",
-      "earnings": "Mizigo",
-      "marketplace": "Soko",
-      "vault": "Hazina"
-    },
-    "help": {
-      "stacking": "kuweka",
-      "win": "Shinda",
-      "whitepaper": "Karatasi Nyeupe",
-      "goToApp": "Nenda kwa Programu"
-    },
-    "social": "Kijamii",
-    "disclaimer": "Tahadhari: Si ushauri wa kifedha. Kila wakati fanya utafiti wako mwenyewe kabla ya kununua. Sarafu za kidijitali zinaweza kutokuwa na udhibiti katika eneo lako. Thamani ya sarafu za kidijitali inaweza kushuka kama ilivyo juu. Faida zinaweza kuwa chini ya kodi ya mapato ya mitaji au kodi nyingine zinazohusika katika eneo lako.",
-    "terms": "Masharti ya huduma",
-    "privacy": "Sera ya Faragha",
-    "cookie": "Sera ya Kufuta na Kurudisha",
-    "copyright": "© 2024, Haki zote zimahifadhiwa."
+  "joinWinningTeam": "Jiunge na Timu Inayoshinda",
+  "description": "Blockboost ni incubator na Launchpad inayoongoza ya miradi ya Web3 ikilenga teknolojia bunifu kama DeFi, AI, Takwimu Kubwa, NFTs na Michezo ya Web3.",
+  "links": {
+    "home": "Nyumbani",
+    "launchpad": "Laundi",
+    "earnings": "Mizigo",
+    "marketplace": "Soko",
+    "vault": "Hazina"
+  },
+  "help": {
+    "stacking": "kuweka",
+    "win": "Shinda",
+    "whitepaper": "Karatasi Nyeupe",
+    "goToApp": "Nenda kwa Programu"
+  },
+  "social": "Kijamii",
+  "disclaimer": "Tahadhari: Si ushauri wa kifedha. Kila wakati fanya utafiti wako mwenyewe kabla ya kununua. Sarafu za kidijitali zinaweza kutokuwa na udhibiti katika eneo lako. Thamani ya sarafu za kidijitali inaweza kushuka kama ilivyo juu. Faida zinaweza kuwa chini ya kodi ya mapato ya mitaji au kodi nyingine zinazohusika katika eneo lako.",
+  "terms": "Masharti ya huduma",
+  "privacy": "Sera ya Faragha",
+  "cookie": "Sera ya Kufuta na Kurudisha",
+  "copyright": "© 2024, Haki zote zimahifadhiwa."
 }

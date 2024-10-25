@@ -5,8 +5,38 @@ import IDOProjects from "./IDOProjects";
 import Levels from "./Levels";
 import FAQSection from "../FAQSection";
 import IDOStaking from "./IDOStaking";
+import { useTranslation } from "react-i18next";
 
 const Tabs = () => {
+  const { t } = useTranslation("launchedpad");
+
+  const faqData = [
+    {
+      question: t("faq.question-one"),
+      answer: t("faq.answer-one"), // This is fine since it's a string
+    },
+    {
+      question: t("faq.question-two"),
+      answer: t("faq.answer-two"), // This is fine since it's a string
+    },
+    {
+      question: t("faq.question-three"),
+      answer: [
+        t("faq.answer-three.0"),
+        t("faq.answer-three.1"),
+        t("faq.answer-three.2"),
+        t("faq.answer-three.3"),
+        t("faq.answer-three.4"),
+        t("faq.answer-three.5"),
+        t("faq.answer-three.6"),
+      ], // Explicitly translate each line of the answer
+    },
+    {
+      question: t("faq.question-four"),
+      answer: t("faq.answer-four"), // This is fine since it's a string
+    },
+  ];
+
   const [activeTab, setActiveTab] = useState("About");
 
   const handleTabClick = (tab) => {
@@ -64,7 +94,7 @@ const Tabs = () => {
 
           {activeTab === "IDO Stacking" && <IDOStaking />}
 
-          {activeTab === "FAQs" && <FAQSection />}
+          {activeTab === "FAQs" && <FAQSection faqData={faqData} />}
         </div>
       </div>
     </div>

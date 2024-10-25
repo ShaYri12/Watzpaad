@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "אייקון טוקן",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "התחל",
+    "summary": "סיכום",
+    "letsGo": "בוא נלך"
+  },
+  "form": {
+    "want_to": "אני רוצה",
+    "from": "מ",
+    "chain_my": "שרשרת, שלי",
+    "to": "אל",
+    "chain": "שרשרת",
+    "tokens": "טוקנים"
+  },
+  "swap_bridge": "החלפה/גשר",
+  "ethereum": "את'ריום",
+  "eth_token": "את'",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "בוא נלך"
+}

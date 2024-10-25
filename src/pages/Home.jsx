@@ -13,6 +13,35 @@ import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const { t } = useTranslation("homepage");
+
+  // Create an array of FAQs using the translation keys
+  const faqData = [
+    {
+      question: t("faq.question-one"),
+      answer: t("faq.answer-one"),
+    },
+    {
+      question: t("faq.question-two"),
+      answer: t("faq.answer-two"),
+    },
+    {
+      question: t("faq.question-three"),
+      answer: t("faq.answer-three"),
+    },
+    {
+      question: t("faq.question-four"),
+      answer: t("faq.answer-four"),
+    },
+    {
+      question: t("faq.question-five"),
+      answer: t("faq.answer-five"),
+    },
+    {
+      question: t("faq.question-six"),
+      answer: t("faq.answer-six"),
+    },
+  ];
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -50,7 +79,7 @@ const Home = () => {
         <h2 className="mb-[62px] md:text-[50px] text-[35px] font-[700] md:leading-[57.5px] leading-[40.25px] text-white text-center px-[22px]">
           {t("faq.title")}
         </h2>
-        <FAQSection />
+        <FAQSection faqData={faqData} />
       </div>
     </div>
   );

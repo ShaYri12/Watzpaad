@@ -18,7 +18,7 @@ const Bridging = () => {
         <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-white">
           {t("title")} {/* Translated title */}
         </h1>
-        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+        <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
           {t("description")} {/* Translated description */}
         </p>
       </div>

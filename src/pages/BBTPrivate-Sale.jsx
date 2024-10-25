@@ -37,7 +37,7 @@ export default function MetaAltPad() {
                   BlockBoost
                 </h2>
                 <p className="text-[13.74px] md:text-[16px] text-primaryColor">
-                  BBT / BUSD
+                  BBT / ETH
                 </p>
                 <div className="flex gap-[10px] flex-wrap">
                   <span className="flex items-center justify-center gap-1 bg-[#6C757D] text-[9.7px] sm:text-[11.3px] px-[6.57px] sm:px-[7.6px] py-[3.43px] sm:py-[4px] rounded-full text-white">
@@ -97,7 +97,6 @@ export default function MetaAltPad() {
                   />
                   <div className="flex items-center md:gap-[8px] gap-[6px]">
                     <span className="bg-primaryColor md:text-[12px] text-[10.3px] text-black px-[6.87px] md:px-[8px] py-[3.43px] md:py-[4.5px] md:rounded-[4px] rounded-[3.43px]">
-                      
                       {t("max")}
                     </span>
                     <img
@@ -118,30 +117,29 @@ export default function MetaAltPad() {
             </div>
             <div className="flex items-center justify-center mt-[11.16px] md:mt-[13px] md:mb-[30px] mb-[26.19px]">
               <button className="bg-transparent hover:bg-gray-700 hover:bg-opacity-[0.3] text-primaryColor mx-auto text-[11.36px] md:text-[17px] transition py-[7.5px] px-[12.5px] rounded-full border border-primaryColor">
-                {t("not-open-yet")}
-                
+                {t("status")}
               </button>
             </div>
             <p className="md:mb-[3px] mb-[2.58px] text-white text-[15.45px] md:text-[18px]">
-              1 ETH = 452000000 BBT
+              1 ETH = 25,00,000 BBT
             </p>
             <div className="mb-[18.57px]">
               <div className="slider-container w-full">
                 <div className="flex justify-between items-center text-[11.19px] md:text-[13.03px] mb-[3.26px]">
                   <span className="text-[#798DA3]">{t("in-progress")}</span>
                   <span className="text-primaryColor text-[26.5px] md:text-[30.87px]">
-                    25%
+                    100%
                   </span>
                 </div>
                 <div className="relative h-[6.68px] bg-[#161F2C] rounded-full">
                   <div
                     className="absolute top-0 left-0 h-[6.68px] bg-primaryColor rounded-full"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                   ></div>
-                  <div className="absolute -top-[4px] left-[23%] w-[14.49px] h-[14.49px] bg-primaryColor rounded-full border-[1.6px] border-[#1F2835] pointer-events-none"></div>
+                  <div className="absolute -top-[4px] left-[98.5%] w-[14.49px] h-[14.49px] bg-primaryColor rounded-full border-[1.6px] border-[#1F2835] pointer-events-none"></div>
                 </div>
                 <div className="flex justify-between text-[#798DA3] text-[13.03px] mt-[3.26px] md:mt-1">
-                  <span>0 ETH</span>
+                  <span>100 ETH</span>
                   <span>0 / 0122231252134555 BBT</span>
                 </div>
               </div>
@@ -151,7 +149,6 @@ export default function MetaAltPad() {
                 <FaCalendar className="md:text-[16px] text-[12.02px]" />
               </span>
               {t("sale")}
-              
             </p>
           </div>
 
@@ -186,7 +183,6 @@ export default function MetaAltPad() {
               {/* Pool Details Section */}
               <div>
                 <h2 className="text-[19.84px] md:text-[24px] font-[700] text-primaryColor md:mb-[11px] mb-[9.09px]">
-                  
                   {t("pool-de")}
                 </h2>
                 <div className="flex md:flex-row flex-col flex-wrap gap-[30px] xl:gap-[54px] pb-[29.25px] md:border-b border-white">
@@ -200,7 +196,7 @@ export default function MetaAltPad() {
                       <span className="">{t("whitelist")}</span>
                       <span className="">100 ETH</span>
                       <span className="text-primaryColor">
-                        452000000 BBT{" "}
+                        25,00,000 BBT{" "}
                         <span className="text-[#798DA3]">{t("per")}</span> 1 ETH
                       </span>
                     </div>
@@ -233,23 +229,33 @@ export default function MetaAltPad() {
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
                   <span className="font-[700] text-white">{t("type")}</span>{" "}
-                  <span className="text-[#798DA3] font-[400]">BEP-20</span>
+                  <span className="text-[#798DA3] font-[400]">ERC20</span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">{t("total-supply")}</span>{" "}
+                  <span className="font-[700] text-white">
+                    {t("total-supply")}
+                  </span>{" "}
                   <span className="text-[#798DA3] font-[400]">
-                    1,000,000,000,000 BBT
+                    10,000,000,000 BBT
                   </span>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">{t("initial-supply")}</span>{" "}
+                  <span className="font-[700] text-white">
+                    {t("initial-supply")}
+                  </span>{" "}
                   <div className="text-primaryColor font-[400]">
-                    TBA, <span className="text-[#798DA3]">{t("market-cap")}</span> TBA
+                    TBA,{" "}
+                    <span className="text-[#798DA3]">{t("market-cap")}</span>{" "}
+                    TBA
                   </div>
                 </div>
                 <div className="flex md:gap-[5.28px] gap-[13.23px] text-[12.4px] md:text-[15.85px]">
-                  <span className="font-[700] text-white">{t("distribution")}</span>{" "}
-                  <span className="text-[#798DA3] font-[400]">{t("auto-claim")}</span>
+                  <span className="font-[700] text-white">
+                    {t("distribution")}
+                  </span>{" "}
+                  <span className="text-[#798DA3] font-[400]">
+                    {t("auto-claim")}
+                  </span>
                 </div>
               </div>
             </div>
@@ -260,9 +266,8 @@ export default function MetaAltPad() {
           style={{
             boxShadow: "0px 2.85px 16.1px 0px #38DCC88C",
           }}
-          onClick={() => navigate(-1)}  
+          onClick={() => navigate(-1)}
         >
-          
           {t("go-back")}
         </button>
       </div>

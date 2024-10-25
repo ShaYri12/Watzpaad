@@ -9,7 +9,7 @@ const DashboardVault = () => {
           <h2 className="text-[33.63px] md:text-[50px] font-[700] text-white">
             Vaults
           </h2>
-          <p className="mt-[14.8px] text-[#798DA3] text-[12.11px] md:text-[18px] font-[300]">
+          <p className="mt-[14.8px] text-grayish text-[12.11px] md:text-[18px] font-[300]">
             Stake Tokens to earn with Automatic Compounding. Users can stake Any
             Token to earn BBT. Refer your friends to earn 5% on their extra
             rewards.

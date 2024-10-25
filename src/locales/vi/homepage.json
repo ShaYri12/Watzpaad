@@ -1,152 +1,154 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "Hệ sinh thái gọi vốn WEB3 độc đáo",
-      "description1": "Bạn đã sẵn sàng truy cập vào một số startup tiền điện tử độc quyền và đầy hứa hẹn nhất chưa? Blockboost là cánh cửa của bạn đến với các cơ hội đầu tư giai đoạn đầu, mà đội ngũ của chúng tôi đã kiểm tra kỹ lưỡng.",
-      "description2": "Có nhiều lợi ích khác khi là một phần của Hệ sinh thái Gọi vốn Blockboost với những tính năng độc đáo như Launchpad, Bridge & Swap AI, Hệ thống thu nhập, Vault, Thị trường và Staking.",
-      "usdtRaised": "USDT đã thu được: $361,590.14 / $605,467",
-      "target": "MỤC TIÊU: $250000",
-      "listingPrice": "Giá niêm yết",
-      "receive": "Nhận",
-      "nextPrice": "Giá tiếp theo",
-      "availablePaymentMethods": "PHƯƠNG THỨC THANH TOÁN CÓ SẴN",
-      "connectWallet": "Kết nối ví",
-      "audit": "Kiểm toán",
-      "days": "Ngày",
-      "hours": "Giờ",
-      "minutes": "Phút",
-      "seconds": "Giây"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "Hệ sinh thái Block Boost",
-      "box-one-title": "Launchpad",
-      "box-one-description": "Quyết định cấp độ của bạn, stake $BBT và tham gia vào tất cả các đợt phát hành token mà chúng tôi mang đến cho bạn một cách đảm bảo.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "Bằng cách kết nối với các blockchain khác nhau, bạn có thể hoán đổi token của mình sang các mạng blockchain khác chỉ với vài cú nhấp chuột.",
-      "box-three-title": "Hệ thống thu nhập",
-      "box-three-description": "Kiếm thu nhập thụ động thông qua các tính năng khác nhau như phần thưởng giới thiệu, phần thưởng staking, phần thưởng vault, và bán NFT.",
-      "box-four-title": "Vault",
-      "box-four-description": "Bạn có thể kiếm được APY cao thông qua việc staking tài sản tiền điện tử của bạn bằng cách chọn các Vault khác nhau."
-    },
-  
-    "join-idos": {
-      "title": "Dễ dàng tham gia IDOs với 3 bước",
-      "box-one-title": "Kết nối ví",
-      "box-one-description": "Mua token $BBT và kết nối ví của bạn với hệ sinh thái launchpad để tham gia.",
-      "box-two-title": "Stake token $BBT",
-      "box-two-description": "Block Boost sẽ trình bày một hệ thống cấp độ cố định dựa trên số lượng token đã stake.",
-      "box-three-title": "Tham gia vào một đợt bán",
-      "box-three-description": "Giành được vé xổ số đã xác nhận để tham gia vào IDOs thông qua hệ thống cấp độ staking của chúng tôi."
-    },
-  
-    "exclusive-benefits": {
-      "title": "Lợi ích độc quyền khi mua $WZP trong đợt bán trước",
-      "box-one-title": "Phần thưởng giới thiệu bán trước",
-      "box-one-description": "Tham gia vào giai đoạn đầu của đợt bán trước để có được giá trị cao hơn cho khoản đầu tư của bạn so với giá phát hành. Ngoài ra, bạn có thể giới thiệu bạn bè và kiếm được 5% tiền thưởng trong suốt đợt bán trước.",
-      "box-two-title": "Phần thưởng giới thiệu giao dịch",
-      "box-two-description": "Sau khi phát hành thành công, bạn vẫn có thể giới thiệu thông qua liên kết giới thiệu duy nhất của mình từ ứng dụng bảng điều khiển và kiếm 2% phần thưởng giao dịch từ các hoạt động giao dịch của người giới thiệu.",
-      "box-three-title": "Phần thưởng giữ",
-      "box-three-description": "Giữ $BBT và kiếm thu nhập thụ động. Chỉ cần ngồi và thư giãn để nhận phần thưởng giữ của bạn từ khối lượng giao dịch của $BBT và yêu cầu nó thông qua dapp của chúng tôi mỗi giờ.",
-      "box-four-title": "Phần thưởng staking",
-      "box-four-description": "Stake $BBT để kiếm phần thưởng và nhận phân bổ đảm bảo cho launchpad. Nó sẽ được thưởng từ nguồn staking của hệ sinh thái chúng tôi.",
-      "box-five-title": "Phần thưởng staking Vault",
-      "box-five-description": "Stake bất kỳ token nào để kiếm được với việc tự động tái đầu tư. Bạn có thể stake bất kỳ token nào để kiếm $BBT như một phần thưởng tái đầu tư. Nó sẽ được thưởng từ nguồn cung vault của hệ sinh thái chúng tôi."
-    },
-  
-    "buy-presale": {
-      "title": "Cách mua trong đợt bán trước?",
-      "timeline": {
-        "connectWallet": {
-          "title": "KẾT NỐI VÍ",
-          "description": "Sử dụng Metamask hoặc Trust Wallet để kết nối ví của bạn trong vài giây."
-        },
-        "confirmTransaction": {
-          "title": "XÁC NHẬN GIAO DỊCH",
-          "description": "Bạn có thể mua $BBT bằng USDT, ETH và BNB."
-        },
-        "claimToken": {
-          "title": "YÊU CẦU TOKEN",
-          "description": "Chúc mừng! Bạn có thể yêu cầu $BBT của mình sau khi đợt bán trước kết thúc."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Hệ sinh thái gọi vốn WEB3 độc đáo",
+    "description1": "Bạn đã sẵn sàng truy cập vào một số startup tiền điện tử độc quyền và đầy hứa hẹn nhất chưa? Blockboost là cánh cửa của bạn đến với các cơ hội đầu tư giai đoạn đầu, mà đội ngũ của chúng tôi đã kiểm tra kỹ lưỡng.",
+    "description2": "Có nhiều lợi ích khác khi là một phần của Hệ sinh thái Gọi vốn Blockboost với những tính năng độc đáo như Launchpad, Bridge & Swap AI, Hệ thống thu nhập, Vault, Thị trường và Staking.",
+    "usdtRaised": "USDT đã thu được: $361,590.14 / $605,467",
+    "purchased": "Mua của bạn",
+    "listingPrice": "Giá niêm yết",
+    "receive": "Nhận",
+    "nextPrice": "Giá tiếp theo",
+    "availablePaymentMethods": "PHƯƠNG THỨC THANH TOÁN CÓ SẴN",
+    "connectWallet": "Kết nối ví",
+    "transactionDashboard": "Bảng điều khiển giao dịch",
+    "whitepaper": "Whitepaper",
+    "audit": "Kiểm toán",
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Hệ sinh thái Block Boost",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Quyết định cấp độ của bạn, stake $BBT và tham gia vào tất cả các đợt phát hành token mà chúng tôi mang đến cho bạn một cách đảm bảo.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "Bằng cách kết nối với các blockchain khác nhau, bạn có thể hoán đổi token của mình sang các mạng blockchain khác chỉ với vài cú nhấp chuột.",
+    "box-three-title": "Hệ thống thu nhập",
+    "box-three-description": "Kiếm thu nhập thụ động thông qua các tính năng khác nhau như phần thưởng giới thiệu, phần thưởng staking, phần thưởng vault, và bán NFT.",
+    "box-four-title": "Vault",
+    "box-four-description": "Bạn có thể kiếm được APY cao thông qua việc staking tài sản tiền điện tử của bạn bằng cách chọn các Vault khác nhau."
+  },
+
+  "join-idos": {
+    "title": "Dễ dàng tham gia IDOs với 3 bước",
+    "box-one-title": "Kết nối ví",
+    "box-one-description": "Mua token $BBT và kết nối ví của bạn với hệ sinh thái launchpad để tham gia.",
+    "box-two-title": "Stake token $BBT",
+    "box-two-description": "Block Boost sẽ trình bày một hệ thống cấp độ cố định dựa trên số lượng token đã stake.",
+    "box-three-title": "Tham gia vào một đợt bán",
+    "box-three-description": "Giành được vé xổ số đã xác nhận để tham gia vào IDOs thông qua hệ thống cấp độ staking của chúng tôi."
+  },
+
+  "exclusive-benefits": {
+    "title": "Lợi ích độc quyền khi mua $WZP trong đợt bán trước",
+    "box-one-title": "Phần thưởng giới thiệu bán trước",
+    "box-one-description": "Tham gia vào giai đoạn đầu của đợt bán trước để có được giá trị cao hơn cho khoản đầu tư của bạn so với giá phát hành. Ngoài ra, bạn có thể giới thiệu bạn bè và kiếm được 5% tiền thưởng trong suốt đợt bán trước.",
+    "box-two-title": "Phần thưởng giới thiệu giao dịch",
+    "box-two-description": "Sau khi phát hành thành công, bạn vẫn có thể giới thiệu thông qua liên kết giới thiệu duy nhất của mình từ ứng dụng bảng điều khiển và kiếm 2% phần thưởng giao dịch từ các hoạt động giao dịch của người giới thiệu.",
+    "box-three-title": "Phần thưởng giữ",
+    "box-three-description": "Giữ $BBT và kiếm thu nhập thụ động. Chỉ cần ngồi và thư giãn để nhận phần thưởng giữ của bạn từ khối lượng giao dịch của $BBT và yêu cầu nó thông qua dapp của chúng tôi mỗi giờ.",
+    "box-four-title": "Phần thưởng staking",
+    "box-four-description": "Stake $BBT để kiếm phần thưởng và nhận phân bổ đảm bảo cho launchpad. Nó sẽ được thưởng từ nguồn staking của hệ sinh thái chúng tôi.",
+    "box-five-title": "Phần thưởng staking Vault",
+    "box-five-description": "Stake bất kỳ token nào để kiếm được với việc tự động tái đầu tư. Bạn có thể stake bất kỳ token nào để kiếm $BBT như một phần thưởng tái đầu tư. Nó sẽ được thưởng từ nguồn cung vault của hệ sinh thái chúng tôi."
+  },
+
+  "buy-presale": {
+    "title": "Cách mua trong đợt bán trước?",
+    "timeline": {
+      "connectWallet": {
+        "title": "KẾT NỐI VÍ",
+        "description": "Sử dụng Metamask hoặc Trust Wallet để kết nối ví của bạn trong vài giây."
+      },
+      "confirmTransaction": {
+        "title": "XÁC NHẬN GIAO DỊCH",
+        "description": "Bạn có thể mua $BBT bằng ETH, BNB, MATIC, USDT và USDC"
+      },
+      "claimToken": {
+        "title": "YÊU CẦU TOKEN",
+        "description": "Chúc mừng! Bạn có thể yêu cầu $BBT của mình sau khi đợt bán trước kết thúc."
       }
-    },
-  
-    "roadmap": {
-      "title": "Lộ trình",
-      "phases": {
-        "phase1": {
-          "title": "GIAI ĐOẠN 1",
-          "descriptionOne": "Khởi động dự án",
-          "descriptionTwo": "Phát triển hợp đồng thông minh",
-          "descriptionThree": "Ra mắt trang web",
-          "descriptionFour": "Phát hành whitepaper",
-          "descriptionFive": "Kiểm toán hợp đồng với Coinsult"
-        },
-        "phase2": {
-          "title": "GIAI ĐOẠN 2",
-          "descriptionOne": "Khởi động đợt bán trước",
-          "descriptionTwo": "Chiến dịch marketing lớn",
-          "descriptionThree": "Các giai đoạn bán trước 1-5 trên blockboost.io",
-          "descriptionFour": "Kiểm tra beta của launchpad"
-        },
-        "phase3": {
-          "title": "GIAI ĐOẠN 3",
-          "descriptionOne": "Kiểm toán an ninh cho Launchpad",
-          "descriptionTwo": "Launchpad để khởi động các dự án hợp pháp",
-          "descriptionThree": "Các giai đoạn bán trước 6-10",
-          "descriptionFour": "Hợp tác với Dapps cho Vault"
-        },
-        "phase4": {
-          "title": "GIAI ĐOẠN 4",
-          "descriptionOne": "Ra mắt thị trường NFT",
-          "descriptionTwo": "Ra mắt $BBT",
-          "descriptionThree": "Niêm yết trên các sàn giao dịch hàng đầu",
-          "descriptionFour": "Cập nhật lộ trình"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "Chi tiết token",
-      "title-two": "Tokenomics",
-      "description": "Việc phân phối token sẽ diễn ra sau khi đợt bán trước kết thúc. Bạn sẽ có thể yêu cầu các token $BBT đã mua từ trang bán trước của chúng tôi.",
-      "name": "Tên",
-      "boost-token": "Token Block Boost",
-      "symbol": "Biểu tượng",
-      "supply": "Cung cấp",
-      "billion": "tỷ",
-      "tax": "Thuế",
-      "buy-sell": "Mua/Bán",
-      "type": "Loại",
-      "token-contract-address": "Địa chỉ hợp đồng token",
-      "empty": "trống",
-      "decimal": "Thập phân",
-      "presale-details": "Chi tiết đợt bán trước",
-      "live": "Đợt bán trước đang diễn ra",
-      "current-price": "Giá $BBT hiện tại",
-      "listing-price": "Giá niêm yết trên sàn",
-      "total-supply": "Tổng cung"
-    },
-  
-    "powered-by": {
-      "title": "Được phát triển bởi"
-    },
-  
-    "faq": {
-      "title": "Câu hỏi thường gặp",
-      "question-one": "Blockboost là gì?",
-      "answer-one": "Blockboost là một hệ sinh thái gọi vốn độc đáo cho các startup tiền điện tử.",
-      "question-two": "Tôi có thể mua token Blockboost ở đâu và khi nào tôi sẽ nhận được nó?",
-      "answer-two": "Trong đợt bán trước, bạn có thể mua token $BBT từ trang web chính thức của chúng tôi www.blockboost.io; bạn có thể yêu cầu các token của mình từ trang bán trước sau khi đợt bán trước kết thúc.",
-      "question-three": "Phần thưởng của tôi có được trả hàng giờ không?",
-      "answer-three": "Có, bạn phải yêu cầu phần thưởng từ dapp chính thức của chúng tôi bằng cách kết nối ví của bạn.",
-      "question-four": "Tôi có thể trở thành đủ điều kiện nhận phần thưởng từ đợt bán trước như thế nào?",
-      "answer-four": "Bạn có thể nhận được liên kết giới thiệu của mình từ trang bán trước và các giao dịch được thực hiện thông qua liên kết đó sẽ được tự động ghi có vào tài khoản của bạn trên trang bán trước. Bạn có thể kiểm tra nó bằng cách kết nối ví của mình với trang bán trước.",
-      "question-five": "Có bao nhiêu giai đoạn trong đợt bán trước?",
-      "answer-five": "Có 10 giai đoạn trong đợt bán trước, và giá của $BBT sẽ tăng lên ở mỗi giai đoạn.",
-      "question-six": "Có staking trên $BBT không và khi nào sẽ có sẵn để staking?",
-      "answer-six": "Có, vui lòng xem trang staking để biết thông tin đầy đủ về các pool staking và phần thưởng."
     }
+  },
+
+  "roadmap": {
+    "title": "Lộ trình",
+    "phases": {
+      "phase1": {
+        "title": "GIAI ĐOẠN 1",
+        "descriptionOne": "Khởi động dự án",
+        "descriptionTwo": "Phát triển hợp đồng thông minh",
+        "descriptionThree": "Ra mắt trang web",
+        "descriptionFour": "Phát hành whitepaper",
+        "descriptionFive": "Kiểm toán hợp đồng với Coinsult"
+      },
+      "phase2": {
+        "title": "GIAI ĐOẠN 2",
+        "descriptionOne": "Khởi động đợt bán trước",
+        "descriptionTwo": "Chiến dịch marketing lớn",
+        "descriptionThree": "Các giai đoạn bán trước 1-10 trên blockboost.io",
+        "descriptionFour": "Kiểm tra beta của launchpad"
+      },
+      "phase3": {
+        "title": "GIAI ĐOẠN 3",
+        "descriptionOne": "Kiểm toán an ninh cho Launchpad",
+        "descriptionTwo": "Launchpad để khởi động các dự án hợp pháp",
+        "descriptionThree": "Các giai đoạn bán trước 11-20",
+        "descriptionFour": "Hợp tác với Dapps cho Vault"
+      },
+      "phase4": {
+        "title": "GIAI ĐOẠN 4",
+        "descriptionOne": "Ra mắt thị trường NFT",
+        "descriptionTwo": "Ra mắt $BBT",
+        "descriptionThree": "Niêm yết trên các sàn giao dịch hàng đầu",
+        "descriptionFour": "Cập nhật lộ trình"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Chi tiết token",
+    "title-two": "Tokenomics",
+    "description": "Việc phân phối token sẽ diễn ra sau khi đợt bán trước kết thúc. Bạn sẽ có thể yêu cầu các token $BBT đã mua từ trang bán trước của chúng tôi.",
+    "name": "Tên",
+    "boost-token": "Token Block Boost",
+    "symbol": "Biểu tượng",
+    "supply": "Cung cấp",
+    "billion": "tỷ",
+    "tax": "Thuế",
+    "buy-sell": "Mua/Bán",
+    "type": "Loại",
+    "token-contract-address": "Địa chỉ hợp đồng token",
+    "empty": "trống",
+    "decimal": "Thập phân",
+    "presale-details": "Chi tiết đợt bán trước",
+    "live": "Đợt bán trước đang diễn ra",
+    "current-price": "Giá $BBT hiện tại",
+    "as-per": "Theo giai đoạn bán trước",
+    "listing-price": "Giá niêm yết trên sàn",
+    "total-supply": "Tổng cung"
+  },
+
+  "powered-by": {
+    "title": "Được phát triển bởi"
+  },
+
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "question-one": "Blockboost là gì?",
+    "answer-one": "Blockboost là một hệ sinh thái gọi vốn độc đáo cho các startup tiền điện tử.",
+    "question-two": "Tôi có thể mua token Blockboost ở đâu và khi nào tôi sẽ nhận được nó?",
+    "answer-two": "Trong đợt bán trước, bạn có thể mua token $BBT từ trang web chính thức của chúng tôi www.blockboost.io; bạn có thể yêu cầu các token của mình từ trang bán trước sau khi đợt bán trước kết thúc.",
+    "question-three": "Phần thưởng của tôi có được trả hàng giờ không?",
+    "answer-three": "Có, bạn phải yêu cầu phần thưởng từ dapp chính thức của chúng tôi bằng cách kết nối ví của bạn.",
+    "question-four": "Tôi có thể trở thành đủ điều kiện nhận phần thưởng từ đợt bán trước như thế nào?",
+    "answer-four": "Bạn có thể nhận được liên kết giới thiệu của mình từ trang bán trước và các giao dịch được thực hiện thông qua liên kết đó sẽ được tự động ghi có vào tài khoản của bạn trên trang bán trước. Bạn có thể kiểm tra nó bằng cách kết nối ví của mình với trang bán trước.",
+    "question-five": "Có bao nhiêu giai đoạn trong đợt bán trước?",
+    "answer-five": "Có 20 giai đoạn trong đợt bán trước, và giá của $BBT sẽ tăng lên ở mỗi giai đoạn.",
+    "question-six": "Có staking trên $BBT không và khi nào sẽ có sẵn để staking?",
+    "answer-six": "Có, vui lòng xem trang staking để biết thông tin đầy đủ về các pool staking và phần thưởng."
   }
-  
+}

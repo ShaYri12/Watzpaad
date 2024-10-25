@@ -8,11 +8,12 @@ module.exports = {
       colors: {
         primaryColor: "#38DCC8",
         cyan: {
-          500: '#38DCC8', // Your primary color
+          500: "#38DCC8", // Your primary color
         },
+        grayish: "rgb(202 204 207)",
       },
       fontFamily: {
-        space: ['"Space Grotesk"', 'sans-serif'], // Add your custom font here
+        space: ['"Space Grotesk"', "sans-serif"], // Add your custom font here
       },
     },
   },

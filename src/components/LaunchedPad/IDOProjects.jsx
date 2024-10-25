@@ -40,36 +40,28 @@ export default function IDOProjects() {
               className="bg-[#1F2835] rounded-[13.09px] xl:px-[36px] lg:px-[25px] px-[20px] py-[26px] h-full"
               style={{ backdropFilter: "blur(32.728843688964844px)" }}
             >
-              <span className="flex gap-[7px] ms-auto w-fit bg-primaryColor text-black text-[11.45px] px-[14px] py-[5.3px] rounded-full">
-                <img
-                  src="/assets/icons/integeration-logo-3.png"
-                  className="w-[16px] h-[16px]"
-                />{" "}
-                
-                {t("ido-projects.upcoming")}
+              <span className="flex gap-[7px] ms-auto w-fit bg-primaryColor text-black text-[12px] px-[14px] py-[5.3px] rounded-full">
+                {t("ido-projects.status")}
               </span>
               <div className="flex flex-col justify-center items-center">
                 <div
-                  className="bg-white rounded-full min-w-[74.48px] min-h-[74.48px] flex items-center justify-center"
+                  className="bg-white rounded-full w-[74.48px] h-[74.48px] flex items-center justify-center"
                   style={{ boxShadow: "0px 3.24px 40.48px 0px #38DCC85E" }}
                 >
                   <img
-                    src="/assets/icons/rocket.png"
-                    className="w-[36px] h-[36px]"
+                    src="/assets/icons/B-logo.png"
+                    className="w-[74.48px] h-[74.48px]"
                   />
                 </div>
 
                 <h2 className="md:text-[21.01px] font-[700] md:leading-[20px] mt-[24px]">
-                
-                {t("ido-projects.title")}
+                  {t("ido-projects.title")}
                 </h2>
                 <p className="text-primaryColor md:text-[18.89px] md:leading-[28.34px]">
-                BBT/ETH
+                  BBT/ETH
                 </p>
-                <p className="text-[#798DA3] text-center mt-[8px]">
-               
-                {t("ido-projects.description")}
-
+                <p className="text-grayish text-center mt-[8px]">
+                  {t("ido-projects.description")}
                 </p>
                 <div className="flex space-x-2 mt-[20px]">
                   <button className="bg-[#38DCC840] w-[34px] h-[34px] flex items-center justify-center rounded-full">
@@ -87,36 +79,41 @@ export default function IDOProjects() {
                 </div>
               </div>
               <div className="mt-[18px]">
-                <p className="text-primaryColor text-[15.28px]">{t("ido-projects.swap-rate")}</p>
-                <p className="text-[17.19px] font-[400]">452000000 $BBT {t("ido-projects.per")} 1 ETH</p>
+                <p className="text-primaryColor text-[15.28px]">
+                  {t("ido-projects.swap-rate")}
+                </p>
+                <p className="text-[17.19px] font-[400]">
+                  25,00,000 $BBT {t("ido-projects.per")} 1 ETH
+                </p>
               </div>
               <div className="mt-[8.5px]">
-                <p className="text-primaryColor text-[15.28px]">{t("ido-projects.start")}</p>
+                <p className="text-primaryColor text-[15.28px]">
+                  {t("ido-projects.start")}
+                </p>
                 <p className="text-[17.19px] font-[400]">17th Oct 2024</p>
               </div>
               <div className="slider-container w-full mt-10">
                 <span className="flex w-full justify-end mb-[-2px] text-primaryColor text-[28.43px]">
-                  25%
+                  100%
                 </span>
-                <div className="relative h-[6.68px] bg-[#161F2C] rounded-full">
+                <div className="relative h-[6.68px] bg-[#161F2C] rounded-full w-full">
                   <div
                     className="absolute top-0 left-0 h-[6.68px] bg-primaryColor rounded-full"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                   ></div>
-                  <div className="absolute -top-[4px] left-[23%] w-[14.49px] h-[14.49px] bg-primaryColor rounded-full border-[1.6px] border-[#1F2835] pointer-events-none"></div>
+                  <div className="absolute -top-[4px] left-[98.5%] w-[14.49px] h-[14.49px] bg-primaryColor rounded-full border-[1.6px] border-[#1F2835] pointer-events-none"></div>
                 </div>
-                <div className="flex justify-between mt-[6px] text-[9.55px] text-[#798DA3]">
-                  <span>0 ETH</span>
+                <div className="flex justify-between mt-[6px] text-[9.55px] text-grayish">
+                  <span>100 ETH</span>
                   <span>0 / 0122231252134555 BBT</span>
                 </div>
               </div>
               <div className="mt-[26px]">
-                <p className="text-[#798DA3] text-[15.28px] leading-[20.05px]">
-                  
+                <p className="text-grayish text-[15.28px] leading-[20.05px]">
                   {t("ido-projects.total-raise")}
                 </p>
                 <p className="text-[28.64px] font-[500] leading-[22.92px] text-primaryColor">
-                  $25000
+                  $2,50,000
                 </p>
               </div>
               {/* <p className="text-[17.19px] text-white mt-[18px]">
@@ -159,23 +156,23 @@ const Skeleton = () => {
             Coming Soon
           </h2>
           <div className="flex items-center justify-center mx-auto flex-wrap gap-[10px] w-full">
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[79px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[45px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[57px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[24px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[56px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[71.79px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[40.9px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[21.81px]" />
-            <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[50.89px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[79px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[45px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[57px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[24px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[56px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[71.79px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[40.9px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[21.81px]" />
+            <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[50.89px]" />
             <div className="flex items-center justify-center gap-[10px]">
-              <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[40.9px]" />
-              <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
-              <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[21.81px]" />
+              <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[40.9px]" />
+              <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
+              <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[21.81px]" />
             </div>
             <div className="w-full flex itemsc-enter justify-center">
-              <span className="text-[#798DA3] text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
+              <span className="text-grayish text-center mt-[13px] bg-[#305B56] rounded-full h-[8px] w-[51.8px]" />
             </div>
           </div>
           <div className="flex gap-[10px] mt-[27px]">
@@ -203,13 +200,13 @@ const Skeleton = () => {
         <div className="slider-container w-full mt-[15px]">
           <div className="flex w-full ms-auto justify-end text-primaryColor text-[28.43px] bg-[#305B56] rounded-full h-[18px]  mb-[8.5px]" />
           <div className="mt-[8.6pxpx] h-[6.68px] w-full bg-[#305B56] rounded-full"></div>
-          <div className="flex justify-between text-[9.55px] text-[#798DA3] mt-[6px]">
+          <div className="flex justify-between text-[9.55px] text-grayish mt-[6px]">
             <div className="bg-[#305B56] rounded-full h-[5px] w-[47px]" />
             <div className="bg-[#305B56] rounded-full h-[5px] w-[47px]" />
           </div>
         </div>
         <div className="mt-[33px]">
-          <div className="text-[#798DA3] text-[15.28px] leading-[20.05px] bg-[#305B56] rounded-full h-[8px] w-[71.79px]" />
+          <div className="text-grayish text-[15.28px] leading-[20.05px] bg-[#305B56] rounded-full h-[8px] w-[71.79px]" />
           <div className="text-[28.64px] font-[500] leading-[22.92px] text-primaryColor bg-[#305B56] rounded-full h-[18px] w-[113px] mt-[7px]" />
         </div>
         <div className="bg-[#305B56] rounded-full h-[6.68px] w-full mt-[46px]" />

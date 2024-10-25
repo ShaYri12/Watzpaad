@@ -4,7 +4,7 @@
   "progress": {
     "start": "Start",
     "summary": "Summary",
-    "ponder": "Ponder"
+    "letsGo": "Let's Go"
   },
   "suggested_route_title": "Ponders Suggested Route",
   "eth_to_bnb": {

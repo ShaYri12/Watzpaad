@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "آیکون توکن",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "شروع",
+    "summary": "خلاصه",
+    "letsGo": "بریم"
+  },
+  "suggested_route_title": "مسیر پیشنهادی Ponders",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "زنجیره اتریوم"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "زنجیره BSC"
+  },
+  "total_fees": "هزینه‌های کل: 00000000000000",
+  "step": "مرحله 1",
+  "fees": "هزینه‌ها",
+  "no_funds_message": "شما برای تکمیل تراکنش پولی ندارید",
+  "back": "برگشت",
+  "more_results": "نتایج بیشتر",
+  "accept": "پذیرفتن"
+}

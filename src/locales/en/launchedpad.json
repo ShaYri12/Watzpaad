@@ -1,72 +1,92 @@
 {
-    "hero": {
-      "title": " safest launchpad. multi-chain.",
-      "description": "BlockBoost is a decentralized multi-chain fundraising platform enabling projects to raise capital and promise safety to early stage investors. Stake BlockBoost tokens to get priority-access to promising projects."
-    },
+  "hero": {
+    "title": " safest launchpad. multi-chain.",
+    "description": "BlockBoost is a decentralized multi-chain fundraising platform enabling projects to raise capital and promise safety to early stage investors. Stake BlockBoost tokens to get priority-access to promising projects."
+  },
 
-    "key-features": {
-      "title": "  BlockBoost Key Features",
-      "description": "Launching hand-picked high-quality projects on the Blockchain",
-      "box-one-title": "Fair and Transparent",
-      "box-one-description": "Every holders of blockboost tokens have equal chances of participating in upcoming promising projects to be an early stage investor and be part of their success story.",
-      "box-two-title": "Rug-Proof Mechanisms",
-      "box-two-description": "Before any project makes its way to our platform, it undergoes rigorous smart contract audits. Conducting smart contract audits helps identify and fix vulnerabilities before deployment. ",
-      "box-three-title": "Guaranteed Allocations",
-      "box-three-description": "Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.",
-      "box-four-title": "High-Quality Projects",
-      "box-four-description": "Block boost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted."
-    },
+  "key-features": {
+    "title": "  BlockBoost Key Features",
+    "description": "Launching hand-picked high-quality projects on the Blockchain",
+    "box-one-title": "Fair and Transparent",
+    "box-one-description": "Every holders of blockboost tokens have equal chances of participating in upcoming promising projects to be an early stage investor and be part of their success story.",
+    "box-two-title": "Rug-Proof Mechanisms",
+    "box-two-description": "Before any project makes its way to our platform, it undergoes rigorous smart contract audits. Conducting smart contract audits helps identify and fix vulnerabilities before deployment. ",
+    "box-three-title": "Guaranteed Allocations",
+    "box-three-description": "Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.",
+    "box-four-title": "High-Quality Projects",
+    "box-four-description": "Block boost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted."
+  },
 
-    "ido-staking": {
-      "title": " Stake for IDO Participation",
-      "description": "Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.",
-      "level": " Level: none",
-      "stack": "Staked: 0 BBT",
-      "tokens": "Your tokens are unlocked",
-      "balance": "Balance:",
-      "max": "Max",
-      "approve": "Approve",
-      "unstake": "Unstake",
-      "levels": "$BBT Levels",
-      "desc": " To be eligible for any of the tiers you are required to stake the following:",
-      "bbtof": " BBT Of ",
-      "forchances": "for chance (10% lottery) 5 days ",
-      "forprospect": "for prospect (25% lottery) 5 days",
-      "foraffiliate": "for affiliate (50% lottery) 5 days",
-      "formember": "for member 5 days",
-      "forclub": "for club 5 days",
-      "forassociate": "for associate 5 days",
-      "description-one": "You need to register for an IDO after you staked.",
-      "description-two": "When IDO registration period starts (usually 24h before the IDO start), you need to open the Pools page and click the 'Register' button in the pool card.",
-      "description-three": "When you register for an IDO, your level is recorded (for this specific IDO). There's no way to change it to a higher level after  registration. So make sure you are on the level you want before registering. You will be able to stake more and register for other IDOs with a higher level though."
-    },
+  "ido-staking": {
+    "title": " Stake for IDO Participation",
+    "description": "Once staked, you need to register for every IDO, so we can calculate the guaranteed allocation. Once registered, we lock your tokens, but you still can participate in other IDOs.",
+    "level": " Level: none",
+    "stack": "Staked: 0 BBT",
+    "tokens": "Your tokens are unlocked",
+    "balance": "Balance:",
+    "max": "Max",
+    "approve": "Approve",
+    "unstake": "Unstake",
+    "levels": "$BBT Levels",
+    "desc": " To be eligible for any of the tiers you are required to stake the following:",
+    "bbtof": " BBT Of ",
+    "forchances": "for chance (10% lottery) 5 days ",
+    "forprospect": "for prospect (25% lottery) 5 days",
+    "foraffiliate": "for affiliate (50% lottery) 5 days",
+    "formember": "for member 5 days",
+    "forclub": "for club 5 days",
+    "forassociate": "for associate 5 days",
+    "description-one": "You need to register for an IDO after you staked.",
+    "description-two": "When IDO registration period starts (usually 24h before the IDO start), you need to open the Pools page and click the 'Register' button in the pool card.",
+    "description-three": "When you register for an IDO, your level is recorded (for this specific IDO). There's no way to change it to a higher level after  registration. So make sure you are on the level you want before registering. You will be able to stake more and register for other IDOs with a higher level though."
+  },
 
-    "ido-projects": {
-        "upcoming": "Upcoming",
-        "title": "Blockboost Sale",
-        "description": "Unique WEB3 Crowdfunding Ecosystem",
-        "swap-rate": "Swap Rate:",
-        "per": "Per",
-        "start": "Start:",
-        "total-raise": "Total Raise"
-    },
+  "ido-projects": {
+    "status": "Ended",
+    "title": "Blockboost Sale",
+    "description": "Unique WEB3 Crowdfunding Ecosystem",
+    "swap-rate": "Swap Rate:",
+    "per": "Per",
+    "start": "Start:",
+    "total-raise": "Total Raise"
+  },
 
-    "levels": {
-        "title": "The Blockboost Tiered system",
-        "description": "Blockboost will showcase a fixed tier system based on the number of tokens staked. Lottery Tiers will share 20% of total raise and the rest 80% of the raise is assigned for guaranteed allocation tiers based on the pool weights assigned.",
-        "staking-requirements": "Staking Requirements",
-        "staking-length-required": "3 hours before Allocation Round Opens",
-        "whitelist-requirement": "Whitelist Requirement Twitter",
-        "lottery-tickets": "Lottery Tickets",
-        "guaranteed-allocation": "Guaranteed Allocation",
-        "pool-weight": "Pool Weight",
-        "private-allocations": "Private Allocations",
-        "yes": "Yes",
-        "bronze": "Bronze",
-        "silver": "Silver",
-        "gold": "Gold",
-        "platinum": "Platinum",
-        "diamond": "Diamond",
-        "blue-diamond": "Blue Diamond"
-    }    
+  "levels": {
+    "title": "The Blockboost Tiered system",
+    "description": "Blockboost will showcase a fixed tier system based on the number of tokens staked. Lottery Tiers will share 20% of total raise and the rest 80% of the raise is assigned for guaranteed allocation tiers based on the pool weights assigned.",
+    "staking-requirements": "Staking Requirements",
+    "staking-length-required": "3 hours before Allocation Round Opens",
+    "whitelist-requirement": "Whitelist Requirement Twitter",
+    "lottery-tickets": "Lottery Tickets",
+    "guaranteed-allocation": "Guaranteed Allocation",
+    "pool-weight": "Pool Weight",
+    "private-allocations": "Private Allocations",
+    "yes": "Yes",
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum",
+    "diamond": "Diamond",
+    "blue-diamond": "Blue Diamond"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "question-one": "Can I unstake after each IDO?",
+    "answer-one": "Once registered for an IDO, your account will be locked and cannot be unstaked for 5 days starting after the IDO start date. In total, it may be more than 5 days from the moment when you registered.",
+    "question-two": "Do I need to unstake/restake for each IDO?",
+    "answer-two": "No. You are eligible for any IDOs as long as your $BBT remain staked. The amount staked will be matched to the current level system.",
+    "question-three": "What are the steps of an IDO?",
+    "answer-three": [
+      "1. IDO registration opens 48 hours before the IDO sale start.",
+      "2. Registration closes 6 hours before the sale start.",
+      "3. Lottery levels winners and whitelist winners are announced.",
+      "4. Base allocation is calculated. It depends on the number of participants and ensures that there are enough tokens for guaranteed allocation.",
+      "5. IDO sale starts, registered participants with guaranteed allocation, lottery, and whitelist winners are allowed to fund their allocations in the pool.",
+      "6. FCFS round starts 1 hour before the IDO sale end.",
+      "7. Once sale is finished, we collect the funding data. The token distribution and listing information can be found on the MataAltPad Launchpad Announcements Telegram channel."
+    ],
+    "question-four": "What is the difference between guaranteed allocation and lottery levels?",
+    "answer-four": "Lottery levels — CHANCE, PROSPECT, AFFILIATE — only give you a chance to win in a lottery for each IDO. Once the registration period ends, you will be able to see if you're a winner on a pool page. Guaranteed levels guarantee you the allocation calculated based on the base allocation and your level multiplier."
+  }
 }

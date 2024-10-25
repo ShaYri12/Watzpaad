@@ -1,23 +1,23 @@
 {
-    "joinWinningTeam": "Gå Med i Vinnande Teamet",
-    "description": "Blockboost är en ledande Web3-inkubator och Launchpad för Web3-projekt som fokuserar på innovativa teknologier såsom DeFi, AI, Big Data, NFTs och Web3-spel.",
-    "links": {
-      "home": "Hem",
-      "launchpad": "Lanseringsplattform",
-      "earnings": "Intäkter",
-      "marketplace": "Marknadsplats",
-      "vault": "Valv"
-    },
-    "help": {
-      "stacking": "staking",
-      "win": "Vinn",
-      "whitepaper": "Vitbok",
-      "goToApp": "Gå Till App"
-    },
-    "social": "Social",
-    "disclaimer": "Ansvarsfriskrivning: Ingen finansiell rådgivning. Gör alltid din egen forskning innan du köper. Kryptovaluta kan vara oreglerad i din jurisdiktion. Värdet av kryptovalutor kan gå ner såväl som upp. Vinster kan vara föremål för kapitalvinstskatt eller andra skatter som gäller i din region.",
-    "terms": "Användarvillkor",
-    "privacy": "Integritetspolicy",
-    "cookie": "Avboknings- och Återbetalningspolicy",
-    "copyright": "© 2024, Alla rättigheter förbehållna."
+  "joinWinningTeam": "Gå Med i Vinnande Teamet",
+  "description": "Blockboost är en ledande Web3-inkubator och Launchpad för Web3-projekt som fokuserar på innovativa teknologier såsom DeFi, AI, Big Data, NFTs och Web3-spel.",
+  "links": {
+    "home": "Hem",
+    "launchpad": "Lanseringsplattform",
+    "earnings": "Intäkter",
+    "marketplace": "Marknadsplats",
+    "vault": "Valv"
+  },
+  "help": {
+    "stacking": "staking",
+    "win": "Vinna",
+    "whitepaper": "Vitbok",
+    "goToApp": "Gå Till App"
+  },
+  "social": "Social",
+  "disclaimer": "Ansvarsfriskrivning: Ingen finansiell rådgivning. Gör alltid din egen forskning innan du köper. Kryptovaluta kan vara oreglerad i din jurisdiktion. Värdet av kryptovalutor kan gå ner såväl som upp. Vinster kan vara föremål för kapitalvinstskatt eller andra skatter som gäller i din region.",
+  "terms": "Användarvillkor",
+  "privacy": "Integritetspolicy",
+  "cookie": "Avboknings- och Återbetalningspolicy",
+  "copyright": "© 2024, Alla rättigheter förbehållna."
 }

@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "آیکون توکن",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "شروع",
+    "summary": "خلاصه",
+    "letsGo": "برویم"
+  },
+  "form": {
+    "want_to": "می‌خواهم",
+    "from": "از",
+    "chain_my": "زنجیره، من",
+    "to": "به",
+    "chain": "زنجیره",
+    "tokens": "توکن‌ها"
+  },
+  "swap_bridge": "تعویض/پل",
+  "ethereum": "اتریوم",
+  "eth_token": "اتری",
+  "bcs_chain": "بی‌سی‌اس",
+  "bnb_token": "بی‌ان‌بی",
+  "submit_button": "برویم"
+}

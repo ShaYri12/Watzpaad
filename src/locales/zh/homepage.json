@@ -5,12 +5,14 @@
     "description1": "您准备好访问一些最独特和最有前景的加密创业公司了吗？Blockboost 是您进入早期投资机会的门户，我们的团队对此进行了彻底审查。",
     "description2": "成为 Blockboost 众筹生态系统的一部分还有许多其他优势，拥有独特的功能，如 Launchpad、Bridge & Swap AI、收益系统、Vault、Marketplace 和 Staking。",
     "usdtRaised": "已筹集 USDT: $361,590.14 / $605,467",
-    "target": "目标: $250,000",
+    "purchased": "您的购买",
     "listingPrice": "上市价格",
     "receive": "接收",
     "nextPrice": "下一个价格",
     "availablePaymentMethods": "可用支付方式",
     "connectWallet": "连接钱包",
+    "transactionDashboard": "交易仪表板",
+    "whitepaper": "白皮书",
     "audit": "审计",
     "days": "天",
     "hours": "小时",
@@ -63,7 +65,7 @@
       },
       "confirmTransaction": {
         "title": "确认交易",
-        "description": "您可以使用 USDT、ETH 和 BNB 购买 $BBT。"
+        "description": "您可以使用 ETH、BNB、MATIC、USDT 和 USDC 购买 $BBT"
       },
       "claimToken": {
         "title": "领取代币",
@@ -87,14 +89,14 @@
         "title": "阶段 2",
         "descriptionOne": "预售启动",
         "descriptionTwo": "大型营销活动",
-        "descriptionThree": "blockboost.io 上的预售阶段 1-5",
+        "descriptionThree": "blockboost.io 上的预售阶段 1-10",
         "descriptionFour": "Launchpad 的 Beta 测试"
       },
       "phase3": {
         "title": "阶段 3",
         "descriptionOne": "Launchpad 的安全审计",
         "descriptionTwo": "Launchpad 启动合法项目",
-        "descriptionThree": "预售阶段 6-10",
+        "descriptionThree": "预售阶段 11-20",
         "descriptionFour": "与 Dapps 合作进行 Vault"
       },
       "phase4": {
@@ -125,6 +127,7 @@
     "presale-details": "预售详情",
     "live": "预售正在进行中",
     "current-price": "当前 $BBT 价格",
+    "as-per": "根据预售阶段",
     "listing-price": "交易所上市价格",
     "total-supply": "总供应量"
   },
@@ -144,7 +147,7 @@
     "question-four": "我如何才能有资格获得预售奖励？",
     "answer-four": "您可以从预售页面获取您的推荐链接，通过它进行的购买将自动记入您在预售页面上的帐户。您可以通过将钱包连接到预售页面进行检查。",
     "question-five": "预售有多少个阶段？",
-    "answer-five": "预售分为 10 个阶段，$BBT 的价格将在每个阶段上升。",
+    "answer-five": "预售分为 20 个阶段，$BBT 的价格将在每个阶段上升。",
     "question-six": "是否有 $BBT 的质押？何时可以质押？",
     "answer-six": "是的，请查看质押页面以获取有关质押池和奖励的完整信息。"
   }

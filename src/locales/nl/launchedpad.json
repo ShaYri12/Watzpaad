@@ -1,72 +1,72 @@
 {
-    "hero": {
-      "title": "veiligste launchpad. multi-chain.",
-      "description": "BlockBoost is een gedecentraliseerd multi-chain fondsenwervingsplatform dat projecten in staat stelt kapitaal te werven en veiligheid te beloven aan investeerders in een vroeg stadium. Stake BlockBoost-tokens om prioriteitstoegang te krijgen tot veelbelovende projecten."
-    },
+  "hero": {
+    "title": "veiligste launchpad. multi-chain.",
+    "description": "BlockBoost is een gedecentraliseerd multi-chain fondsenwervingsplatform dat projecten in staat stelt kapitaal te werven en veiligheid te beloven aan investeerders in een vroeg stadium. Stake BlockBoost-tokens om prioriteitstoegang te krijgen tot veelbelovende projecten."
+  },
 
-    "key-features": {
-      "title": "BlockBoost Sleutelkenmerken",
-      "description": "Het lanceren van zorgvuldig geselecteerde hoogwaardige projecten op de Blockchain",
-      "box-one-title": "Eerlijk en Transparant",
-      "box-one-description": "Elke houder van BlockBoost-tokens heeft gelijke kansen om deel te nemen aan opkomende veelbelovende projecten om een investeerder in een vroeg stadium te worden en deel uit te maken van hun succesverhaal.",
-      "box-two-title": "Rug-Proof Mechanismen",
-      "box-two-description": "Voordat een project op ons platform komt, ondergaat het rigoureuze audits van slimme contracten. Het uitvoeren van audits van slimme contracten helpt bij het identificeren en oplossen van kwetsbaarheden voordat de implementatie plaatsvindt.",
-      "box-three-title": "Gegarandeerde Toewijzingen",
-      "box-three-description": "Zodra je hebt gestaked, moet je je registreren voor elke IDO, zodat we de gegarandeerde toewijzing kunnen berekenen. Zodra je geregistreerd bent, vergrendelen we je tokens, maar je kunt nog steeds deelnemen aan andere IDO's.",
-      "box-four-title": "Hoogwaardige Projecten",
-      "box-four-description": "BlockBoost is jouw toegangspoort tot investeringsmogelijkheden in een vroeg stadium, die ons team grondig heeft beoordeeld."
-    },
+  "key-features": {
+    "title": "BlockBoost Sleutelkenmerken",
+    "description": "Het lanceren van zorgvuldig geselecteerde hoogwaardige projecten op de Blockchain",
+    "box-one-title": "Eerlijk en Transparant",
+    "box-one-description": "Elke houder van BlockBoost-tokens heeft gelijke kansen om deel te nemen aan opkomende veelbelovende projecten om een investeerder in een vroeg stadium te worden en deel uit te maken van hun succesverhaal.",
+    "box-two-title": "Rug-Proof Mechanismen",
+    "box-two-description": "Voordat een project op ons platform komt, ondergaat het rigoureuze audits van slimme contracten. Het uitvoeren van audits van slimme contracten helpt bij het identificeren en oplossen van kwetsbaarheden voordat de implementatie plaatsvindt.",
+    "box-three-title": "Gegarandeerde Toewijzingen",
+    "box-three-description": "Zodra je hebt gestaked, moet je je registreren voor elke IDO, zodat we de gegarandeerde toewijzing kunnen berekenen. Zodra je geregistreerd bent, vergrendelen we je tokens, maar je kunt nog steeds deelnemen aan andere IDO's.",
+    "box-four-title": "Hoogwaardige Projecten",
+    "box-four-description": "BlockBoost is jouw toegangspoort tot investeringsmogelijkheden in een vroeg stadium, die ons team grondig heeft beoordeeld."
+  },
 
-    "ido-staking": {
-      "title": "Stake voor IDO-deelname",
-      "description": "Zodra je hebt gestaked, moet je je registreren voor elke IDO, zodat we de gegarandeerde toewijzing kunnen berekenen. Zodra je geregistreerd bent, vergrendelen we je tokens, maar je kunt nog steeds deelnemen aan andere IDO's.",
-      "level": "Niveau: geen",
-      "stack": "Gestaked: 0 BBT",
-      "tokens": "Je tokens zijn ontgrendeld",
-      "balance": "Balans:",
-      "max": "Max",
-      "approve": "Goedkeuren",
-      "unstake": "Unstake",
-      "levels": "$BBT-niveaus",
-      "desc": "Om in aanmerking te komen voor een van de niveaus moet je het volgende staken:",
-      "bbtof": "BBT Van",
-      "forchances": "voor kans (10% loterij) 5 dagen",
-      "forprospect": "voor prospect (25% loterij) 5 dagen",
-      "foraffiliate": "voor affiliate (50% loterij) 5 dagen",
-      "formember": "voor lid 5 dagen",
-      "forclub": "voor club 5 dagen",
-      "forassociate": "voor associate 5 dagen",
-      "description-one": "Je moet je registreren voor een IDO nadat je hebt gestaked.",
-      "description-two": "Wanneer de registratieperiode voor de IDO begint (meestal 24 uur voor de start van de IDO), moet je de Pools-pagina openen en op de knop 'Registreren' in de poolkaart klikken.",
-      "description-three": "Wanneer je je registreert voor een IDO, wordt je niveau geregistreerd (voor deze specifieke IDO). Er is geen manier om dit naar een hoger niveau te veranderen na registratie. Zorg er dus voor dat je op het niveau bent dat je wilt voordat je je registreert. Je kunt echter meer staken en je registreren voor andere IDO's met een hoger niveau."
-    },
+  "ido-staking": {
+    "title": "Stake voor IDO-deelname",
+    "description": "Zodra je hebt gestaked, moet je je registreren voor elke IDO, zodat we de gegarandeerde toewijzing kunnen berekenen. Zodra je geregistreerd bent, vergrendelen we je tokens, maar je kunt nog steeds deelnemen aan andere IDO's.",
+    "level": "Niveau: geen",
+    "stack": "Gestaked: 0 BBT",
+    "tokens": "Je tokens zijn ontgrendeld",
+    "balance": "Balans:",
+    "max": "Max",
+    "approve": "Goedkeuren",
+    "unstake": "Unstake",
+    "levels": "$BBT-niveaus",
+    "desc": "Om in aanmerking te komen voor een van de niveaus moet je het volgende staken:",
+    "bbtof": "BBT Van",
+    "forchances": "voor kans (10% loterij) 5 dagen",
+    "forprospect": "voor prospect (25% loterij) 5 dagen",
+    "foraffiliate": "voor affiliate (50% loterij) 5 dagen",
+    "formember": "voor lid 5 dagen",
+    "forclub": "voor club 5 dagen",
+    "forassociate": "voor associate 5 dagen",
+    "description-one": "Je moet je registreren voor een IDO nadat je hebt gestaked.",
+    "description-two": "Wanneer de registratieperiode voor de IDO begint (meestal 24 uur voor de start van de IDO), moet je de Pools-pagina openen en op de knop 'Registreren' in de poolkaart klikken.",
+    "description-three": "Wanneer je je registreert voor een IDO, wordt je niveau geregistreerd (voor deze specifieke IDO). Er is geen manier om dit naar een hoger niveau te veranderen na registratie. Zorg er dus voor dat je op het niveau bent dat je wilt voordat je je registreert. Je kunt echter meer staken en je registreren voor andere IDO's met een hoger niveau."
+  },
 
-    "ido-projects": {
-        "upcoming": "Aanstaande",
-        "title": "Blockboost Verkoop",
-        "description": "Uniek WEB3 Crowdfunding Ecosysteem",
-        "swap-rate": "Wisselkoers:",
-        "per": "Per",
-        "start": "Start:",
-        "total-raise": "Totaal Verhoogd"
-    },
+  "ido-projects": {
+    "status": "Beëindigd",
+    "title": "Blockboost Verkoop",
+    "description": "Uniek WEB3 Crowdfunding Ecosysteem",
+    "swap-rate": "Wisselkoers:",
+    "per": "Per",
+    "start": "Start:",
+    "total-raise": "Totaal Verhoogd"
+  },
 
-    "levels": {
-        "title": "Het Blockboost Tiered systeem",
-        "description": "Blockboost zal een vast tier-systeem tonen op basis van het aantal gestakete tokens. Loterijniveaus delen 20% van de totale verhoging en de resterende 80% van de verhoging is toegewezen voor gegarandeerde toewijzingsniveaus op basis van de toegewezen poolgewichten.",
-        "staking-requirements": "Staking Vereisten",
-        "staking-length-required": "3 uur voordat Allocatie Ronde Opent",
-        "whitelist-requirement": "Whitelist Vereiste Twitter",
-        "lottery-tickets": "Loterij Tickets",
-        "guaranteed-allocation": "Gegarandeerde Toewijzing",
-        "pool-weight": "Pool Gewicht",
-        "private-allocations": "Private Toewijzingen",
-        "yes": "Ja",
-        "bronze": "Brons",
-        "silver": "Zilver",
-        "gold": "Goud",
-        "platinum": "Platina",
-        "diamond": "Diamant",
-        "blue-diamond": "Blauwe Diamant"
-    }    
+  "levels": {
+    "title": "Het Blockboost Tiered systeem",
+    "description": "Blockboost zal een vast tier-systeem tonen op basis van het aantal gestakete tokens. Loterijniveaus delen 20% van de totale verhoging en de resterende 80% van de verhoging is toegewezen voor gegarandeerde toewijzingsniveaus op basis van de toegewezen poolgewichten.",
+    "staking-requirements": "Staking Vereisten",
+    "staking-length-required": "3 uur voordat Allocatie Ronde Opent",
+    "whitelist-requirement": "Whitelist Vereiste Twitter",
+    "lottery-tickets": "Loterij Tickets",
+    "guaranteed-allocation": "Gegarandeerde Toewijzing",
+    "pool-weight": "Pool Gewicht",
+    "private-allocations": "Private Toewijzingen",
+    "yes": "Ja",
+    "bronze": "Brons",
+    "silver": "Zilver",
+    "gold": "Goud",
+    "platinum": "Platina",
+    "diamond": "Diamant",
+    "blue-diamond": "Blauwe Diamant"
+  }
 }

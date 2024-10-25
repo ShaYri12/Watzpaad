@@ -4,7 +4,7 @@
   "progress": {
     "start": "Начать",
     "summary": "Резюме",
-    "ponder": "Размышлять"
+    "letsGo": "Поехали"
   },
   "form": {
     "want_to": "Я хочу",

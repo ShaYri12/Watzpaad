@@ -4,7 +4,7 @@
   "progress": {
     "start": "Iniciar",
     "summary": "Resumo",
-    "ponder": "Refletir"
+    "letsGo": "Vamos lá"
   },
   "suggested_route_title": "Rota Sugerida para Refletir",
   "eth_to_bnb": {

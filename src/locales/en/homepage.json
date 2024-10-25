@@ -5,12 +5,14 @@
     "description1": "Are you ready to access some of the most exclusive and promising crypto startups? block boost is your gateway to early-stage investment opportunities, which our team has thoroughly vetted.",
     "description2": "There are many other advantages of being a part of the Blockboost Crowdfunding Ecosystem with unique features like Launchpad, Bridge & Swap AI, Earning system, Vault, Marketplace, and Staking.",
     "usdtRaised": "USDT Raised: $361,590.14 / $605,467",
-    "target": "TARGET: $250000",
+    "purchased": "Your purchased",
     "listingPrice": "Listing Price",
     "receive": "Receive",
     "nextPrice": "Next Price",
     "availablePaymentMethods": "AVAILABLE PAYMENT METHOD",
     "connectWallet": "Connect Wallet",
+    "transactionDashboard": "Transaction Dashboard",
+    "whitepaper": "Whitepaper",
     "audit": "Audit",
     "days": "Days",
     "hours": "Hours",
@@ -63,7 +65,7 @@
       },
       "confirmTransaction": {
         "title": "CONFIRM TRANSACTION",
-        "description": "You can buy $BBT with USDT, ETH, and BNB."
+        "description": "You can buy $BBT with ETH, BNB, MATIC, USDT and USDC"
       },
       "claimToken": {
         "title": "CLAIM TOKEN",
@@ -87,14 +89,14 @@
         "title": "PHASE 2",
         "descriptionOne": "Presale Launch",
         "descriptionTwo": "Huge Marketing Campaign",
-        "descriptionThree": "Presale Stages 1-5 on blockboost.io",
+        "descriptionThree": "Presale Stages 1-10 on blockboost.io",
         "descriptionFour": "Beta Testing of launchpad"
       },
       "phase3": {
         "title": "PHASE 3",
         "descriptionOne": "Security Audits for Launchpad",
         "descriptionTwo": "Launchpad to Launch Legit Projects",
-        "descriptionThree": "Presale stages 6-10",
+        "descriptionThree": "Presale stages 11-20",
         "descriptionFour": "Partnership with Dapps for Vault"
       },
       "phase4": {
@@ -125,6 +127,7 @@
     "presale-details": "Presale Details",
     "live": "The presale is live",
     "current-price": "Current $BBT Price",
+    "as-per": "As per presale stage",
     "listing-price": "Exchange Listing Price",
     "total-supply": "Total Supply"
   },
@@ -134,7 +137,7 @@
   },
 
   "faq": {
-    "title" : "FAQ",
+    "title": "FAQ",
     "question-one": "What is Blockboost?",
     "answer-one": "Blockboost is a unique crowdfunding ecosystem for crypto startups.",
     "question-two": "Where can I purchase the Blockboost Token and when I will receive it?",
@@ -144,9 +147,8 @@
     "question-four": "How can I become eligible for the presale rewards?",
     "answer-four": "You can get your referral link from the presale page and purchases made through it will be auto-credited to your account on the presale page. You can check it by connecting your wallet to the presale page.",
     "question-five": "How many stages are there in the presale?",
-    "answer-five": "There are 10 stages in the presale, and the price of $BBT will increase at each stage.",
+    "answer-five": "There are 20 stages in the presale, and the price of $BBT will increase at each stage.",
     "question-six": "Is there staking on $BBT and when will it be available to stake?",
     "answer-six": "Yes, please see the staking page for complete information on staking pools and rewards."
   }
-  
 }

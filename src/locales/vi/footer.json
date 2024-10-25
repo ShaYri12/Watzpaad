@@ -1,24 +1,23 @@
 {
-    "joinWinningTeam": "Tham gia Đội ngũ Chiến thắng",
-    "description": "Blockboost là vườn ươm Web3 và Launchpad hàng đầu cho các dự án Web3 tập trung vào các công nghệ tiên tiến như DeFi, AI, Dữ liệu lớn, NFT và Web3 Gaming. Bằng cách stake $BBT, bạn sẽ có lợi thế tiếp cận sớm để mua token của dự án, nâng cao vị thế của bạn trong hệ sinh thái Web3.",
-    "links": {
-      "home": "Trang chủ",
-      "launchpad": "Launchpad",
-      "earnings": "Thu nhập",
-      "marketplace": "Chợ",
-      "vault": "Kho"
-    },
-    "help": {
-      "stacking": "Stacking",
-      "win": "Thắng",
-      "whitepaper": "Whitepaper",
-      "goToApp": "Đi tới Ứng dụng"
-    },
-    "social": "Mạng xã hội",
-    "disclaimer": "Tuyên bố từ chối trách nhiệm: Không phải là lời khuyên tài chính. Luôn tự nghiên cứu trước khi mua. Tiền điện tử có thể không được quy định tại khu vực của bạn. Giá trị của tiền điện tử có thể giảm hoặc tăng. Lợi nhuận có thể phải chịu thuế thu nhập vốn hoặc các loại thuế khác tại khu vực của bạn.",
-    "terms": "Điều khoản dịch vụ",
-    "privacy": "Chính sách bảo mật",
-    "cookie": "Chính sách hủy bỏ và hoàn tiền",
-    "copyright": "© 2024, Bảo lưu mọi quyền."
-  }
-  
+  "joinWinningTeam": "Tham gia Đội ngũ Chiến thắng",
+  "description": "Blockboost là vườn ươm Web3 và Launchpad hàng đầu cho các dự án Web3 tập trung vào các công nghệ tiên tiến như DeFi, AI, Dữ liệu lớn, NFT và Web3 Gaming. Bằng cách stake $BBT, bạn sẽ có lợi thế tiếp cận sớm để mua token của dự án, nâng cao vị thế của bạn trong hệ sinh thái Web3.",
+  "links": {
+    "home": "Trang chủ",
+    "launchpad": "Launchpad",
+    "earnings": "Thu nhập",
+    "marketplace": "Chợ",
+    "vault": "Kho"
+  },
+  "help": {
+    "stacking": "Stacking",
+    "win": "Thắng",
+    "whitepaper": "Whitepaper",
+    "goToApp": "Đi tới Ứng dụng"
+  },
+  "social": "Mạng xã hội",
+  "disclaimer": "Tuyên bố từ chối trách nhiệm: Không phải là lời khuyên tài chính. Luôn tự nghiên cứu trước khi mua. Tiền điện tử có thể không được quy định tại khu vực của bạn. Giá trị của tiền điện tử có thể giảm hoặc tăng. Lợi nhuận có thể phải chịu thuế thu nhập vốn hoặc các loại thuế khác tại khu vực của bạn.",
+  "terms": "Điều khoản dịch vụ",
+  "privacy": "Chính sách bảo mật",
+  "cookie": "Chính sách hủy bỏ và hoàn tiền",
+  "copyright": "© 2024, Bảo lưu mọi quyền."
+}

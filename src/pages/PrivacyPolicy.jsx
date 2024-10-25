@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
             {t("privacy_policy_title")}
           </h1>
-          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
             {t("privacy_policy_description")}
           </p>
         </div>
@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -83,7 +83,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -99,7 +99,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -115,7 +115,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -131,7 +131,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -147,7 +147,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -163,7 +163,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -175,7 +175,7 @@ const PrivacyPolicy = () => {
           <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
             {t("california_privacy_rights_title")}
           </h1>
-          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
             {t("california_privacy_rights_description")}
           </p>
         </div>
@@ -184,7 +184,7 @@ const PrivacyPolicy = () => {
           <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
             {t("brazil_privacy_rights_title")}
           </h1>
-          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
             {t("brazil_privacy_rights_description")}
           </p>
         </div>
@@ -197,7 +197,7 @@ const PrivacyPolicy = () => {
             (item, index) => (
               <p
                 key={index}
-                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]"
+                className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish"
               >
                 {item}
               </p>
@@ -209,7 +209,7 @@ const PrivacyPolicy = () => {
           <h1 className="font-[700] text-[31px] md:text-[50px] leading-[37px] md:leading-[57px] text-[#38DCC8]">
             {t("changes_title")}
           </h1>
-          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-[#798DA3]">
+          <p className="text-[11px] md:text-[18px] font-[300] leading-[15px] md:leading-[24px] text-grayish">
             {t("changes_description")}
           </p>
         </div>

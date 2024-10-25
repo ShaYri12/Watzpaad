@@ -1,72 +1,72 @@
 {
-    "hero": {
-      "title": "Sicherste Launchpad. Multi-Chain.",
-      "description": "BlockBoost ist eine dezentrale Multi-Chain-Fundraising-Plattform, die es Projekten ermöglicht, Kapital zu beschaffen und frühen Investoren Sicherheit zu garantieren. Stake BlockBoost-Token, um vorrangigen Zugang zu vielversprechenden Projekten zu erhalten."
-    },
+  "hero": {
+    "title": "Sicherste Launchpad. Multi-Chain.",
+    "description": "BlockBoost ist eine dezentrale Multi-Chain-Fundraising-Plattform, die es Projekten ermöglicht, Kapital zu beschaffen und frühen Investoren Sicherheit zu garantieren. Stake BlockBoost-Token, um vorrangigen Zugang zu vielversprechenden Projekten zu erhalten."
+  },
 
-    "key-features": {
-      "title": "BlockBoost Hauptmerkmale",
-      "description": "Start handverlesener, qualitativ hochwertiger Projekte auf der Blockchain",
-      "box-one-title": "Fair und Transparent",
-      "box-one-description": "Jeder Inhaber von BlockBoost-Token hat die gleichen Chancen, an kommenden vielversprechenden Projekten teilzunehmen, um Frühphaseninvestor zu werden und Teil ihrer Erfolgsgeschichte zu sein.",
-      "box-two-title": "Rug-Proof-Mechanismen",
-      "box-two-description": "Bevor ein Projekt auf unsere Plattform gelangt, durchläuft es strenge Smart-Contract-Prüfungen. Diese Prüfungen helfen dabei, Schwachstellen zu identifizieren und zu beheben, bevor der Smart Contract bereitgestellt wird.",
-      "box-three-title": "Garantierte Zuteilungen",
-      "box-three-description": "Nach dem Staking musst du dich für jedes IDO registrieren, damit wir die garantierte Zuteilung berechnen können. Sobald du registriert bist, sperren wir deine Token, aber du kannst weiterhin an anderen IDOs teilnehmen.",
-      "box-four-title": "Hochwertige Projekte",
-      "box-four-description": "BlockBoost ist dein Tor zu Frühphasen-Investmentmöglichkeiten, die von unserem Team gründlich geprüft wurden."
-    },
+  "key-features": {
+    "title": "BlockBoost Hauptmerkmale",
+    "description": "Start handverlesener, qualitativ hochwertiger Projekte auf der Blockchain",
+    "box-one-title": "Fair und Transparent",
+    "box-one-description": "Jeder Inhaber von BlockBoost-Token hat die gleichen Chancen, an kommenden vielversprechenden Projekten teilzunehmen, um Frühphaseninvestor zu werden und Teil ihrer Erfolgsgeschichte zu sein.",
+    "box-two-title": "Rug-Proof-Mechanismen",
+    "box-two-description": "Bevor ein Projekt auf unsere Plattform gelangt, durchläuft es strenge Smart-Contract-Prüfungen. Diese Prüfungen helfen dabei, Schwachstellen zu identifizieren und zu beheben, bevor der Smart Contract bereitgestellt wird.",
+    "box-three-title": "Garantierte Zuteilungen",
+    "box-three-description": "Nach dem Staking musst du dich für jedes IDO registrieren, damit wir die garantierte Zuteilung berechnen können. Sobald du registriert bist, sperren wir deine Token, aber du kannst weiterhin an anderen IDOs teilnehmen.",
+    "box-four-title": "Hochwertige Projekte",
+    "box-four-description": "BlockBoost ist dein Tor zu Frühphasen-Investmentmöglichkeiten, die von unserem Team gründlich geprüft wurden."
+  },
 
-    "ido-staking": {
-      "title": "Stake für die IDO-Teilnahme",
-      "description": "Nach dem Staking musst du dich für jedes IDO registrieren, damit wir die garantierte Zuteilung berechnen können. Sobald du registriert bist, sperren wir deine Token, aber du kannst weiterhin an anderen IDOs teilnehmen.",
-      "level": "Level: keiner",
-      "stack": "Gestaked: 0 BBT",
-      "tokens": "Deine Token sind entsperrt",
-      "balance": "Kontostand:",
-      "max": "Max",
-      "approve": "Genehmigen",
-      "unstake": "Unstake",
-      "levels": "$BBT Levels",
-      "desc": "Um für eine der Stufen berechtigt zu sein, musst du folgendes staken:",
-      "bbtof": "BBT von",
-      "forchances": "für Chance (10% Lotterie) 5 Tage",
-      "forprospect": "für Aussicht (25% Lotterie) 5 Tage",
-      "foraffiliate": "für Affiliate (50% Lotterie) 5 Tage",
-      "formember": "für Mitglied 5 Tage",
-      "forclub": "für Club 5 Tage",
-      "forassociate": "für Associate 5 Tage",
-      "description-one": "Du musst dich nach dem Staking für ein IDO registrieren.",
-      "description-two": "Wenn die IDO-Registrierungsperiode beginnt (normalerweise 24 Stunden vor dem IDO-Start), musst du die Pools-Seite öffnen und auf den 'Registrieren'-Button in der Pool-Karte klicken.",
-      "description-three": "Wenn du dich für ein IDO registrierst, wird dein Level festgelegt (für dieses spezielle IDO). Es gibt keine Möglichkeit, es nach der Registrierung auf ein höheres Level zu ändern. Stelle also sicher, dass du auf dem gewünschten Level bist, bevor du dich registrierst. Du kannst jedoch mehr staken und dich für andere IDOs auf einem höheren Level registrieren."
-    },
+  "ido-staking": {
+    "title": "Stake für die IDO-Teilnahme",
+    "description": "Nach dem Staking musst du dich für jedes IDO registrieren, damit wir die garantierte Zuteilung berechnen können. Sobald du registriert bist, sperren wir deine Token, aber du kannst weiterhin an anderen IDOs teilnehmen.",
+    "level": "Level: keiner",
+    "stack": "Gestaked: 0 BBT",
+    "tokens": "Deine Token sind entsperrt",
+    "balance": "Kontostand:",
+    "max": "Max",
+    "approve": "Genehmigen",
+    "unstake": "Unstake",
+    "levels": "$BBT Levels",
+    "desc": "Um für eine der Stufen berechtigt zu sein, musst du folgendes staken:",
+    "bbtof": "BBT von",
+    "forchances": "für Chance (10% Lotterie) 5 Tage",
+    "forprospect": "für Aussicht (25% Lotterie) 5 Tage",
+    "foraffiliate": "für Affiliate (50% Lotterie) 5 Tage",
+    "formember": "für Mitglied 5 Tage",
+    "forclub": "für Club 5 Tage",
+    "forassociate": "für Associate 5 Tage",
+    "description-one": "Du musst dich nach dem Staking für ein IDO registrieren.",
+    "description-two": "Wenn die IDO-Registrierungsperiode beginnt (normalerweise 24 Stunden vor dem IDO-Start), musst du die Pools-Seite öffnen und auf den 'Registrieren'-Button in der Pool-Karte klicken.",
+    "description-three": "Wenn du dich für ein IDO registrierst, wird dein Level festgelegt (für dieses spezielle IDO). Es gibt keine Möglichkeit, es nach der Registrierung auf ein höheres Level zu ändern. Stelle also sicher, dass du auf dem gewünschten Level bist, bevor du dich registrierst. Du kannst jedoch mehr staken und dich für andere IDOs auf einem höheren Level registrieren."
+  },
 
-    "ido-projects": {
-        "upcoming": "Kommend",
-        "title": "BlockBoost-Verkauf",
-        "description": "Einzigartiges WEB3-Crowdfunding-Ökosystem",
-        "swap-rate": "Tauschrate:",
-        "per": "Pro",
-        "start": "Start:",
-        "total-raise": "Gesamtsumme"
-    },
+  "ido-projects": {
+    "status": "Beendet",
+    "title": "BlockBoost-Verkauf",
+    "description": "Einzigartiges WEB3-Crowdfunding-Ökosystem",
+    "swap-rate": "Tauschrate:",
+    "per": "Pro",
+    "start": "Start:",
+    "total-raise": "Gesamtsumme"
+  },
 
-    "levels": {
-        "title": "Das BlockBoost-Stufensystem",
-        "description": "BlockBoost wird ein festes Stufensystem basierend auf der Anzahl gestakter Token anzeigen. Lotterie-Stufen teilen sich 20 % der Gesamtsumme, während die restlichen 80 % der Summe für garantierte Zuteilungsstufen basierend auf den zugewiesenen Poolgewichten vorgesehen sind.",
-        "staking-requirements": "Staking-Anforderungen",
-        "staking-length-required": "3 Stunden bevor die Zuteilungsrunde beginnt",
-        "whitelist-requirement": "Whitelist-Anforderung Twitter",
-        "lottery-tickets": "Lotterie-Lose",
-        "guaranteed-allocation": "Garantierte Zuteilung",
-        "pool-weight": "Poolgewicht",
-        "private-allocations": "Private Zuteilungen",
-        "yes": "Ja",
-        "bronze": "Bronze",
-        "silver": "Silber",
-        "gold": "Gold",
-        "platinum": "Platin",
-        "diamond": "Diamant",
-        "blue-diamond": "Blauer Diamant"
-    }    
+  "levels": {
+    "title": "Das BlockBoost-Stufensystem",
+    "description": "BlockBoost wird ein festes Stufensystem basierend auf der Anzahl gestakter Token anzeigen. Lotterie-Stufen teilen sich 20 % der Gesamtsumme, während die restlichen 80 % der Summe für garantierte Zuteilungsstufen basierend auf den zugewiesenen Poolgewichten vorgesehen sind.",
+    "staking-requirements": "Staking-Anforderungen",
+    "staking-length-required": "3 Stunden bevor die Zuteilungsrunde beginnt",
+    "whitelist-requirement": "Whitelist-Anforderung Twitter",
+    "lottery-tickets": "Lotterie-Lose",
+    "guaranteed-allocation": "Garantierte Zuteilung",
+    "pool-weight": "Poolgewicht",
+    "private-allocations": "Private Zuteilungen",
+    "yes": "Ja",
+    "bronze": "Bronze",
+    "silver": "Silber",
+    "gold": "Gold",
+    "platinum": "Platin",
+    "diamond": "Diamant",
+    "blue-diamond": "Blauer Diamant"
+  }
 }

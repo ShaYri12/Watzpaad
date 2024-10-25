@@ -78,13 +78,6 @@ const EarningsManager = () => {
           ))}
         </div>
 
-        {/* Connect Wallet */}
-        <div className="text-center mb-8 md:flex hidden justify-center items-center">
-          <button className="bg-primaryColor hover:bg-teal-500 text-black font-semibold py-3 px-8 w-2/3 rounded-full">
-            Connect Wallet and Claim Manually
-          </button>
-        </div>
-
         {/* Ethereum Info Section */}
         <div className="bg-gray-800 p-[8px] lg:p-[17px] rounded-[12.84px] w-full">
           <div

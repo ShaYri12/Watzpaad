@@ -1,152 +1,154 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "Uniek WEB3 Crowdfunding Ecosysteem",
-      "description1": "Ben je klaar om toegang te krijgen tot enkele van de meest exclusieve en veelbelovende crypto-startups? Block Boost is jouw toegangspoort tot investeringsmogelijkheden in vroege stadia, die ons team grondig heeft beoordeeld.",
-      "description2": "Er zijn veel andere voordelen aan het deelnemen aan het Blockboost Crowdfunding Ecosysteem met unieke functies zoals Launchpad, Bridge & Swap AI, Verdien-systeem, Kluis, Marktplaats en Staking.",
-      "usdtRaised": "USDT Opgehaald: $361,590.14 / $605,467",
-      "target": "DOEL: $250000",
-      "listingPrice": "Noteringsprijs",
-      "receive": "Ontvangen",
-      "nextPrice": "Volgende prijs",
-      "availablePaymentMethods": "BESCHIKBARE BETALINGSWIJZEN",
-      "connectWallet": "Verbind Wallet",
-      "audit": "Audit",
-      "days": "Dagen",
-      "hours": "Uren",
-      "minutes": "Minuten",
-      "seconds": "Seconden"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "Block Boost Ecosystemen",
-      "box-one-title": "Launchpad",
-      "box-one-description": "Bepaal je niveau, stake $BBT en neem deel aan alle tokenlanceringen die we op een gegarandeerde manier aan je aanbieden.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "Door verbinding te maken met verschillende blockchains kun je je tokens met een paar klikken naar verschillende blockchain-netwerken wisselen.",
-      "box-three-title": "Verdien-systeem",
-      "box-three-description": "Verdien passief inkomen via verschillende functies zoals Verwijsbeloningen, Stakingbeloningen, Kluisbeloningen, NFT-verkopen.",
-      "box-four-title": "Kluis",
-      "box-four-description": "Je kunt een hoge APY verdienen door je crypto-activa te staken door verschillende Kluisopties te selecteren."
-    },
-  
-    "join-idos": {
-      "title": "Eenvoudig Deelnemen Aan IDO's In 3 Stappen",
-      "box-one-title": "Verbind Wallet",
-      "box-one-description": "Koop $BBT-tokens en verbind je wallet met het launchpad-ecosysteem om deel te nemen.",
-      "box-two-title": "Stake $BBT Tokens",
-      "box-two-description": "Block Boost zal een vast niveau-systeem tonen op basis van het aantal gestakete tokens.",
-      "box-three-title": "Neem Deel Aan Een Verkoop",
-      "box-three-description": "Win bevestigde loterijtickets om deel te nemen aan IDO's via ons staking niveau-systeem."
-    },
-  
-    "exclusive-benefits": {
-      "title": "Exclusieve Voordelen Van Het Kopen Van $WZP In De Presale",
-      "box-one-title": "Verwijsbeloningen Presale",
-      "box-one-description": "Neem deel aan de vroege fase van de presale om meer waarde te krijgen voor je investering in vergelijking met de lanceringprijs. Ook kun je je vrienden verwijzen en beide 5% bonus verdienen tijdens de presale.",
-      "box-two-title": "Verwijsbeloningen Handel",
-      "box-two-description": "Na een succesvolle lancering kun je nog steeds verwijzen via je unieke verwijzingslink vanuit onze dashboard-app en 2% handelsbeloningen verdienen van de handelsactiviteiten van je verwijzingen.",
-      "box-three-title": "Houdbeloningen",
-      "box-three-description": "Houd de $BBT en verdien passief inkomen. Ga gewoon zitten en ontspan om een deel van je houdbeloningen van het verhandelde volume van $BBT te krijgen en claim het elk uur via onze dapp.",
-      "box-four-title": "Stakingbeloningen",
-      "box-four-description": "Stake $BBT om beloningen te verdienen en krijg gegarandeerde allocatie voor het launchpad. Het zal worden beloond uit de stakingvoorraad van ons ecosysteem.",
-      "box-five-title": "Kluis Stakingbeloningen",
-      "box-five-description": "Stake alle tokens om te verdienen met automatische rente. Je kunt elke token staken om $BBT als een rente-beloning te verdienen. Dit zal worden beloond uit de kluisvoorraad van ons ecosysteem."
-    },
-  
-    "buy-presale": {
-      "title": "Hoe Te Kopen In De Presale?",
-      "timeline": {
-        "connectWallet": {
-          "title": "VERBIND WALLET",
-          "description": "Gebruik Metamask of Trust Wallet om je wallet in enkele seconden te verbinden."
-        },
-        "confirmTransaction": {
-          "title": "BEVESTIG TRANSACTIE",
-          "description": "Je kunt $BBT kopen met USDT, ETH en BNB."
-        },
-        "claimToken": {
-          "title": "CLAIM TOKEN",
-          "description": "Gefeliciteerd! Je kunt je $BBT claimen nadat de presale eindigt."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Uniek WEB3 Crowdfunding Ecosysteem",
+    "description1": "Ben je klaar om toegang te krijgen tot enkele van de meest exclusieve en veelbelovende crypto-startups? Block Boost is jouw toegangspoort tot investeringsmogelijkheden in vroege stadia, die ons team grondig heeft beoordeeld.",
+    "description2": "Er zijn veel andere voordelen aan het deelnemen aan het Blockboost Crowdfunding Ecosysteem met unieke functies zoals Launchpad, Bridge & Swap AI, Verdien-systeem, Kluis, Marktplaats en Staking.",
+    "usdtRaised": "USDT Opgehaald: $361,590.14 / $605,467",
+    "purchased": "Je aankoop",
+    "listingPrice": "Noteringsprijs",
+    "receive": "Ontvangen",
+    "nextPrice": "Volgende prijs",
+    "availablePaymentMethods": "BESCHIKBARE BETALINGSWIJZEN",
+    "connectWallet": "Verbind Wallet",
+    "transactionDashboard": "Transactiedashboard",
+    "whitepaper": "Whitepaper",
+    "audit": "Audit",
+    "days": "Dagen",
+    "hours": "Uren",
+    "minutes": "Minuten",
+    "seconds": "Seconden"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost Ecosystemen",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Bepaal je niveau, stake $BBT en neem deel aan alle tokenlanceringen die we op een gegarandeerde manier aan je aanbieden.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "Door verbinding te maken met verschillende blockchains kun je je tokens met een paar klikken naar verschillende blockchain-netwerken wisselen.",
+    "box-three-title": "Verdien-systeem",
+    "box-three-description": "Verdien passief inkomen via verschillende functies zoals Verwijsbeloningen, Stakingbeloningen, Kluisbeloningen, NFT-verkopen.",
+    "box-four-title": "Kluis",
+    "box-four-description": "Je kunt een hoge APY verdienen door je crypto-activa te staken door verschillende Kluisopties te selecteren."
+  },
+
+  "join-idos": {
+    "title": "Eenvoudig Deelnemen Aan IDO's In 3 Stappen",
+    "box-one-title": "Verbind Wallet",
+    "box-one-description": "Koop $BBT-tokens en verbind je wallet met het launchpad-ecosysteem om deel te nemen.",
+    "box-two-title": "Stake $BBT Tokens",
+    "box-two-description": "Block Boost zal een vast niveau-systeem tonen op basis van het aantal gestakete tokens.",
+    "box-three-title": "Neem Deel Aan Een Verkoop",
+    "box-three-description": "Win bevestigde loterijtickets om deel te nemen aan IDO's via ons staking niveau-systeem."
+  },
+
+  "exclusive-benefits": {
+    "title": "Exclusieve Voordelen Van Het Kopen Van $WZP In De Presale",
+    "box-one-title": "Verwijsbeloningen Presale",
+    "box-one-description": "Neem deel aan de vroege fase van de presale om meer waarde te krijgen voor je investering in vergelijking met de lanceringprijs. Ook kun je je vrienden verwijzen en beide 5% bonus verdienen tijdens de presale.",
+    "box-two-title": "Verwijsbeloningen Handel",
+    "box-two-description": "Na een succesvolle lancering kun je nog steeds verwijzen via je unieke verwijzingslink vanuit onze dashboard-app en 2% handelsbeloningen verdienen van de handelsactiviteiten van je verwijzingen.",
+    "box-three-title": "Houdbeloningen",
+    "box-three-description": "Houd de $BBT en verdien passief inkomen. Ga gewoon zitten en ontspan om een deel van je houdbeloningen van het verhandelde volume van $BBT te krijgen en claim het elk uur via onze dapp.",
+    "box-four-title": "Stakingbeloningen",
+    "box-four-description": "Stake $BBT om beloningen te verdienen en krijg gegarandeerde allocatie voor het launchpad. Het zal worden beloond uit de stakingvoorraad van ons ecosysteem.",
+    "box-five-title": "Kluis Stakingbeloningen",
+    "box-five-description": "Stake alle tokens om te verdienen met automatische rente. Je kunt elke token staken om $BBT als een rente-beloning te verdienen. Dit zal worden beloond uit de kluisvoorraad van ons ecosysteem."
+  },
+
+  "buy-presale": {
+    "title": "Hoe Te Kopen In De Presale?",
+    "timeline": {
+      "connectWallet": {
+        "title": "VERBIND WALLET",
+        "description": "Gebruik Metamask of Trust Wallet om je wallet in enkele seconden te verbinden."
+      },
+      "confirmTransaction": {
+        "title": "BEVESTIG TRANSACTIE",
+        "description": "Je kunt $BBT kopen met ETH, BNB, MATIC, USDT en USDC"
+      },
+      "claimToken": {
+        "title": "CLAIM TOKEN",
+        "description": "Gefeliciteerd! Je kunt je $BBT claimen nadat de presale eindigt."
       }
-    },
-  
-    "roadmap": {
-      "title": "Roadmap",
-      "phases": {
-        "phase1": {
-          "title": "FASE 1",
-          "descriptionOne": "Project Initiatie",
-          "descriptionTwo": "Ontwikkeling Smart Contract",
-          "descriptionThree": "Website Lancering",
-          "descriptionFour": "Publicatie Whitepaper",
-          "descriptionFive": "Contractaudit met Coinsult"
-        },
-        "phase2": {
-          "title": "FASE 2",
-          "descriptionOne": "Lancering Presale",
-          "descriptionTwo": "Grote Marketingcampagne",
-          "descriptionThree": "Presale Fasen 1-5 op blockboost.io",
-          "descriptionFour": "Bèta-testen van launchpad"
-        },
-        "phase3": {
-          "title": "FASE 3",
-          "descriptionOne": "Beveiligingsaudits voor Launchpad",
-          "descriptionTwo": "Launchpad voor Legitieme Projecten",
-          "descriptionThree": "Presale-fasen 6-10",
-          "descriptionFour": "Partnerschap met Dapps voor Kluis"
-        },
-        "phase4": {
-          "title": "FASE 4",
-          "descriptionOne": "Lancering NFT-marktplaats",
-          "descriptionTwo": "Lancering van $BBT",
-          "descriptionThree": "Notering op Top Tier exchanges",
-          "descriptionFour": "Bijgewerkte Roadmap"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "Token Details",
-      "title-two": "Tokenomics",
-      "description": "De distributie van tokens zal plaatsvinden nadat de presale eindigt. Je kunt de aangeschafte $BBT-tokens vanaf onze presale-pagina claimen.",
-      "name": "Naam",
-      "boost-token": "Block boost token",
-      "symbol": "Symbool",
-      "supply": "Aanbod",
-      "billion": "miljard",
-      "tax": "Belasting",
-      "buy-sell": "Koop/Verkoop",
-      "type": "Type",
-      "token-contract-address": "Token Contractadres",
-      "empty": "leeg",
-      "decimal": "Decimaal",
-      "presale-details": "Details Presale",
-      "live": "De presale is live",
-      "current-price": "Huidige $BBT Prijs",
-      "listing-price": "Noteringprijs Exchange",
-      "total-supply": "Totaal Aanbod"
-    },
-  
-    "powered-by": {
-      "title": "Aangedreven door"
-    },
-  
-    "faq": {
-      "title": "FAQ",
-      "question-one": "Wat is Blockboost?",
-      "answer-one": "Blockboost is een uniek crowdfunding ecosysteem voor crypto-startups.",
-      "question-two": "Waar kan ik de Blockboost Token kopen en wanneer ontvang ik deze?",
-      "answer-two": "Tijdens de presale kun je $BBT-tokens kopen via onze officiële website www.blockboost.io; je kunt je tokens vanaf de presale-pagina claimen nadat de presale eindigt.",
-      "question-three": "Worden mijn beloningen altijd per uur betaald?",
-      "answer-three": "Ja, je moet de beloning claimen via onze officiële dapp door je wallet te verbinden.",
-      "question-four": "Hoe kan ik in aanmerking komen voor de presale beloningen?",
-      "answer-four": "Je kunt je verwijzingslink van de presale-pagina halen en aankopen die via deze link zijn gedaan worden automatisch aan je account op de presale-pagina toegevoegd. Je kunt dit controleren door je wallet met de presale-pagina te verbinden.",
-      "question-five": "Hoeveel fasen zijn er in de presale?",
-      "answer-five": "Er zijn 10 fasen in de presale, en de prijs van $BBT zal in elke fase stijgen.",
-      "question-six": "Is er staking op $BBT en wanneer zal het beschikbaar zijn om te staken?",
-      "answer-six": "Ja, zie de staking-pagina voor volledige informatie over staking-pools en beloningen."
     }
+  },
+
+  "roadmap": {
+    "title": "Roadmap",
+    "phases": {
+      "phase1": {
+        "title": "FASE 1",
+        "descriptionOne": "Project Initiatie",
+        "descriptionTwo": "Ontwikkeling Smart Contract",
+        "descriptionThree": "Website Lancering",
+        "descriptionFour": "Publicatie Whitepaper",
+        "descriptionFive": "Contractaudit met Coinsult"
+      },
+      "phase2": {
+        "title": "FASE 2",
+        "descriptionOne": "Lancering Presale",
+        "descriptionTwo": "Grote Marketingcampagne",
+        "descriptionThree": "Presale Fasen 1-10 op blockboost.io",
+        "descriptionFour": "Bèta-testen van launchpad"
+      },
+      "phase3": {
+        "title": "FASE 3",
+        "descriptionOne": "Beveiligingsaudits voor Launchpad",
+        "descriptionTwo": "Launchpad voor Legitieme Projecten",
+        "descriptionThree": "Presale-fasen 11-20",
+        "descriptionFour": "Partnerschap met Dapps voor Kluis"
+      },
+      "phase4": {
+        "title": "FASE 4",
+        "descriptionOne": "Lancering NFT-marktplaats",
+        "descriptionTwo": "Lancering van $BBT",
+        "descriptionThree": "Notering op Top Tier exchanges",
+        "descriptionFour": "Bijgewerkte Roadmap"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Token Details",
+    "title-two": "Tokenomics",
+    "description": "De distributie van tokens zal plaatsvinden nadat de presale eindigt. Je kunt de aangeschafte $BBT-tokens vanaf onze presale-pagina claimen.",
+    "name": "Naam",
+    "boost-token": "Block boost token",
+    "symbol": "Symbool",
+    "supply": "Aanbod",
+    "billion": "miljard",
+    "tax": "Belasting",
+    "buy-sell": "Koop/Verkoop",
+    "type": "Type",
+    "token-contract-address": "Token Contractadres",
+    "empty": "leeg",
+    "decimal": "Decimaal",
+    "presale-details": "Details Presale",
+    "live": "De presale is live",
+    "current-price": "Huidige $BBT Prijs",
+    "as-per": "Volgens de voorverkoopfase",
+    "listing-price": "Noteringprijs Exchange",
+    "total-supply": "Totaal Aanbod"
+  },
+
+  "powered-by": {
+    "title": "Aangedreven door"
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "question-one": "Wat is Blockboost?",
+    "answer-one": "Blockboost is een uniek crowdfunding ecosysteem voor crypto-startups.",
+    "question-two": "Waar kan ik de Blockboost Token kopen en wanneer ontvang ik deze?",
+    "answer-two": "Tijdens de presale kun je $BBT-tokens kopen via onze officiële website www.blockboost.io; je kunt je tokens vanaf de presale-pagina claimen nadat de presale eindigt.",
+    "question-three": "Worden mijn beloningen altijd per uur betaald?",
+    "answer-three": "Ja, je moet de beloning claimen via onze officiële dapp door je wallet te verbinden.",
+    "question-four": "Hoe kan ik in aanmerking komen voor de presale beloningen?",
+    "answer-four": "Je kunt je verwijzingslink van de presale-pagina halen en aankopen die via deze link zijn gedaan worden automatisch aan je account op de presale-pagina toegevoegd. Je kunt dit controleren door je wallet met de presale-pagina te verbinden.",
+    "question-five": "Hoeveel fasen zijn er in de presale?",
+    "answer-five": "Er zijn 20 fasen in de presale, en de prijs van $BBT zal in elke fase stijgen.",
+    "question-six": "Is er staking op $BBT en wanneer zal het beschikbaar zijn om te staken?",
+    "answer-six": "Ja, zie de staking-pagina voor volledige informatie over staking-pools en beloningen."
   }
-  
+}

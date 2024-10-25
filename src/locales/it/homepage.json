@@ -5,12 +5,14 @@
     "description1": "Sei pronto per accedere ad alcune delle startup di criptovalute più esclusive e promettenti? Blockboost è la tua porta d'ingresso alle opportunità di investimento in fase iniziale, che il nostro team ha accuratamente valutato.",
     "description2": "Ci sono molti altri vantaggi di far parte dell'Ecosistema di Crowdfunding Blockboost con caratteristiche uniche come Launchpad, Bridge & Swap AI, sistema di guadagni, Vault, Marketplace e Staking.",
     "usdtRaised": "USDT Raccolti: $361,590.14 / $605,467",
-    "target": "OBIETTIVO: $250,000",
+    "purchased": "Il tuo acquisto",
     "listingPrice": "Prezzo di Listino",
     "receive": "Ricevi",
     "nextPrice": "Prossimo Prezzo",
     "availablePaymentMethods": "METODO DI PAGAMENTO DISPONIBILE",
     "connectWallet": "Collega Wallet",
+    "transactionDashboard": "Dashboard delle Transazioni",
+    "whitepaper": "Whitepaper",
     "audit": "Audit",
     "days": "Giorni",
     "hours": "Ore",
@@ -63,7 +65,7 @@
       },
       "confirmTransaction": {
         "title": "CONFERMA TRANSAZIONE",
-        "description": "Puoi acquistare $BBT con USDT, ETH e BNB."
+        "description": "Puoi acquistare $BBT con ETH, BNB, MATIC, USDT e USDC"
       },
       "claimToken": {
         "title": "RICHIEDI TOKEN",
@@ -87,14 +89,14 @@
         "title": "FASE 2",
         "descriptionOne": "Lancio del Presale",
         "descriptionTwo": "Grande Campagna di Marketing",
-        "descriptionThree": "Fasi del Presale 1-5 su blockboost.io",
+        "descriptionThree": "Fasi del Presale 1-10 su blockboost.io",
         "descriptionFour": "Test Beta del launchpad"
       },
       "phase3": {
         "title": "FASE 3",
         "descriptionOne": "Audit di Sicurezza per il Launchpad",
         "descriptionTwo": "Launchpad per Lanciare Progetti Legittimi",
-        "descriptionThree": "Fasi del Presale 6-10",
+        "descriptionThree": "Fasi del Presale 11-20",
         "descriptionFour": "Partnership con Dapps per Vault"
       },
       "phase4": {
@@ -125,6 +127,7 @@
     "presale-details": "Dettagli del Presale",
     "live": "Il presale è attivo",
     "current-price": "Prezzo Attuale di $BBT",
+    "as-per": "In base alla fase di prevendita",
     "listing-price": "Prezzo di Listino sul Mercato",
     "total-supply": "Offerta Totale"
   },
@@ -144,7 +147,7 @@
     "question-four": "Come posso diventare idoneo alle ricompense del presale?",
     "answer-four": "Puoi ottenere il tuo link di referral dalla pagina del presale e gli acquisti effettuati attraverso di esso verranno accreditati automaticamente sul tuo account nella pagina del presale. Puoi controllarlo collegando il tuo wallet alla pagina del presale.",
     "question-five": "Quante fasi ci sono nel presale?",
-    "answer-five": "Ci sono 10 fasi nel presale, e il prezzo di $BBT aumenterà in ogni fase.",
+    "answer-five": "Ci sono 20 fasi nel presale, e il prezzo di $BBT aumenterà in ogni fase.",
     "question-six": "C'è staking su $BBT e quando sarà disponibile per lo staking?",
     "answer-six": "Sì, consulta la pagina di staking per informazioni complete sui pool di staking e le ricompense."
   }

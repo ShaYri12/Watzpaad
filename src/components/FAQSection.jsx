@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
-import { useTranslation } from "react-i18next";
 
 const FAQItem = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const { t } = useTranslation("homepage");
+
+  // State to store the answer as an array
+  const [answer, setAnswer] = useState([]);
+
+  useEffect(() => {
+    // Check if the answer is an array or a string and set the state accordingly
+    if (Array.isArray(item.answer)) {
+      setAnswer(item.answer);
+    } else {
+      setAnswer([item.answer]); // If it's a string, wrap it in an array
+    }
+  }, [item.answer]);
 
   return (
     <div className="mb-[19px] max-w-[900px]">
@@ -16,8 +26,8 @@ const FAQItem = ({ item }) => {
             backdropFilter: "blur(33.34968948364258px)",
           }}
         >
-          <span className="text-[#798DA3] md:text-[18px] text-[14.04px]">
-            {t(item.question)} {/* Using translation */}
+          <span className="text-grayish md:text-[18px] text-[14.04px]">
+            {item.question} {/* Use translation for question */}
           </span>
 
           <div
@@ -42,44 +52,18 @@ const FAQItem = ({ item }) => {
         }`}
       >
         <div className="mt-2 px-[50px] py-4 bg-[#1f2c40] rounded-lg text-gray-300 md:text-[16px] text-[14.04px]">
-          {t(item.answer)} {/* Using translation */}
+          {answer.map((ans, index) => (
+            <div key={index} className="mt-1">
+              {ans} {/* Render answer directly */}
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default function FAQSection() {
-  const { t } = useTranslation("homepage");
-
-  // Create an array of FAQs using the translation keys
-  const faqData = [
-    {
-      question: "faq.question-one",
-      answer: "faq.answer-one",
-    },
-    {
-      question: "faq.question-two",
-      answer: "faq.answer-two",
-    },
-    {
-      question: "faq.question-three",
-      answer: "faq.answer-three",
-    },
-    {
-      question: "faq.question-four",
-      answer: "faq.answer-four",
-    },
-    {
-      question: "faq.question-five",
-      answer: "faq.answer-five",
-    },
-    {
-      question: "faq.question-six",
-      answer: "faq.answer-six",
-    },
-  ];
-
+export default function FAQSection({ faqData }) {
   return (
     <div className="w-full flex items-center justify-center px-4">
       <div className="w-full max-w-[900px] mx-auto">

@@ -1,152 +1,154 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "Eşsiz WEB3 Crowdfunding Ekosistemi",
-      "description1": "En özel ve umut verici kripto girişimlerine erişmeye hazır mısınız? Blockboost, ekibimizin titizlikle incelemiş olduğu erken aşama yatırım fırsatlarına açılan kapınızdır.",
-      "description2": "Launchpad, Bridge & Swap AI, Kazanç sistemi, Vault, Marketplace ve Staking gibi benzersiz özelliklere sahip Blockboost Crowdfunding Ekosisteminin bir parçası olmanın birçok avantajı bulunmaktadır.",
-      "usdtRaised": "Toplanan USDT: $361,590.14 / $605,467",
-      "target": "HEDEF: $250,000",
-      "listingPrice": "Liste Fiyatı",
-      "receive": "Al",
-      "nextPrice": "Sonraki Fiyat",
-      "availablePaymentMethods": "MEVCUT ÖDEME YÖNTEMİ",
-      "connectWallet": "Cüzdanı Bağla",
-      "audit": "Denetim",
-      "days": "Gün",
-      "hours": "Saat",
-      "minutes": "Dakika",
-      "seconds": "Saniye"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "Block Boost Ekosistemleri",
-      "box-one-title": "Launchpad",
-      "box-one-description": "Seviyenizi belirleyin, $BBT yatırın ve size garantili bir şekilde sunduğumuz tüm token lansmanlarına katılın.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "Farklı blok zincirleriyle bağlanarak, tokenlarınızı birkaç tıklama ile farklı blok zincir ağlarına değiştirebilirsiniz.",
-      "box-three-title": "Kazanç Sistemi",
-      "box-three-description": "Referans ödülleri, Staking ödülleri, Vault ödülleri, NFT satışları gibi çeşitli özellikler aracılığıyla pasif gelir kazanın.",
-      "box-four-title": "Vault",
-      "box-four-description": "Çeşitli Vault'ları seçerek kripto varlıklarınızı stake ederek yüksek getirili APY kazanabilirsiniz."
-    },
-  
-    "join-idos": {
-      "title": "3 Adımda IDO'lara Kolay Katılın",
-      "box-one-title": "Cüzdanı Bağla",
-      "box-one-description": "$BBT tokenları satın alın ve katılmak için cüzdanınızı launchpad ekosistemi ile bağlayın.",
-      "box-two-title": "$BBT Tokenlarını Stake Edin",
-      "box-two-description": "Block Boost, stake edilen token sayısına dayanan sabit bir seviye sistemi sunacaktır.",
-      "box-three-title": "Bir Satışa Katılın",
-      "box-three-description": "Staking seviye sistemimiz aracılığıyla IDO'lara katılmak için onaylanmış piyango biletleri kazanın."
-    },
-  
-    "exclusive-benefits": {
-      "title": "$WZP'yi Ön Satışta Almanın Eşsiz Faydaları",
-      "box-one-title": "Ön Satış Referans Ödülleri",
-      "box-one-description": "Ön satışın erken aşamasına katılarak yatırımınızın değerinin lansman fiyatına göre daha fazla olmasını sağlayın. Ayrıca, arkadaşlarınızı referans gösterebilir ve ön satış süresince her ikisinden de %5 bonus kazanabilirsiniz.",
-      "box-two-title": "Ticaret Referans Ödülleri",
-      "box-two-description": "Başarılı bir lansmandan sonra, hala kontrol paneli uygulamamızdan benzersiz referans bağlantınız aracılığıyla referans verebilir ve referanslarınızın ticaret faaliyetlerinden %2 ticaret ödülü kazanabilirsiniz.",
-      "box-three-title": "Tutma Ödülleri",
-      "box-three-description": "$BBT'yi tutun ve pasif gelir kazanın. Sadece oturun ve dinlenin, $BBT'nin işlem hacminden tutma ödüllerinizin payını almak için her saat dapp'miz üzerinden talep edin.",
-      "box-four-title": "Staking Ödülleri",
-      "box-four-description": "$BBT'yi stake ederek ödül kazanın ve launchpad için garantili tahsisat alın. Bu, ekosistemimizin staking kaynağından ödüllendirilecektir.",
-      "box-five-title": "Vault Staking Ödülleri",
-      "box-five-description": "Otomatik birikim ile kazanmak için herhangi bir tokenı stake edin. Herhangi bir tokenı stake ederek $BBT kazanabilirsiniz. Bu, ekosistemimizin vault kaynağından ödüllendirilecektir."
-    },
-  
-    "buy-presale": {
-      "title": "Ön Satışta Nasıl Alınır?",
-      "timeline": {
-        "connectWallet": {
-          "title": "CÜZDANI BAĞLA",
-          "description": "Cüzdanınızı saniyeler içinde bağlamak için Metamask veya Trust Wallet kullanın."
-        },
-        "confirmTransaction": {
-          "title": "İŞLEMİ ONAYLA",
-          "description": "$BBT'yi USDT, ETH ve BNB ile satın alabilirsiniz."
-        },
-        "claimToken": {
-          "title": "TOKEN TALEP ET",
-          "description": "Tebrikler! Ön satış sona erdikten sonra $BBT'nizi talep edebilirsiniz."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Eşsiz WEB3 Crowdfunding Ekosistemi",
+    "description1": "En özel ve umut verici kripto girişimlerine erişmeye hazır mısınız? Blockboost, ekibimizin titizlikle incelemiş olduğu erken aşama yatırım fırsatlarına açılan kapınızdır.",
+    "description2": "Launchpad, Bridge & Swap AI, Kazanç sistemi, Vault, Marketplace ve Staking gibi benzersiz özelliklere sahip Blockboost Crowdfunding Ekosisteminin bir parçası olmanın birçok avantajı bulunmaktadır.",
+    "usdtRaised": "Toplanan USDT: $361,590.14 / $605,467",
+    "purchased": "Sizin satın aldığınız",
+    "listingPrice": "Liste Fiyatı",
+    "receive": "Al",
+    "nextPrice": "Sonraki Fiyat",
+    "availablePaymentMethods": "MEVCUT ÖDEME YÖNTEMİ",
+    "connectWallet": "Cüzdanı Bağla",
+    "transactionDashboard": "İşlem Gösterge Paneli",
+    "whitepaper": "Whitepaper",
+    "audit": "Denetim",
+    "days": "Gün",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Block Boost Ekosistemleri",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Seviyenizi belirleyin, $BBT yatırın ve size garantili bir şekilde sunduğumuz tüm token lansmanlarına katılın.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "Farklı blok zincirleriyle bağlanarak, tokenlarınızı birkaç tıklama ile farklı blok zincir ağlarına değiştirebilirsiniz.",
+    "box-three-title": "Kazanç Sistemi",
+    "box-three-description": "Referans ödülleri, Staking ödülleri, Vault ödülleri, NFT satışları gibi çeşitli özellikler aracılığıyla pasif gelir kazanın.",
+    "box-four-title": "Vault",
+    "box-four-description": "Çeşitli Vault'ları seçerek kripto varlıklarınızı stake ederek yüksek getirili APY kazanabilirsiniz."
+  },
+
+  "join-idos": {
+    "title": "3 Adımda IDO'lara Kolay Katılın",
+    "box-one-title": "Cüzdanı Bağla",
+    "box-one-description": "$BBT tokenları satın alın ve katılmak için cüzdanınızı launchpad ekosistemi ile bağlayın.",
+    "box-two-title": "$BBT Tokenlarını Stake Edin",
+    "box-two-description": "Block Boost, stake edilen token sayısına dayanan sabit bir seviye sistemi sunacaktır.",
+    "box-three-title": "Bir Satışa Katılın",
+    "box-three-description": "Staking seviye sistemimiz aracılığıyla IDO'lara katılmak için onaylanmış piyango biletleri kazanın."
+  },
+
+  "exclusive-benefits": {
+    "title": "$WZP'yi Ön Satışta Almanın Eşsiz Faydaları",
+    "box-one-title": "Ön Satış Referans Ödülleri",
+    "box-one-description": "Ön satışın erken aşamasına katılarak yatırımınızın değerinin lansman fiyatına göre daha fazla olmasını sağlayın. Ayrıca, arkadaşlarınızı referans gösterebilir ve ön satış süresince her ikisinden de %5 bonus kazanabilirsiniz.",
+    "box-two-title": "Ticaret Referans Ödülleri",
+    "box-two-description": "Başarılı bir lansmandan sonra, hala kontrol paneli uygulamamızdan benzersiz referans bağlantınız aracılığıyla referans verebilir ve referanslarınızın ticaret faaliyetlerinden %2 ticaret ödülü kazanabilirsiniz.",
+    "box-three-title": "Tutma Ödülleri",
+    "box-three-description": "$BBT'yi tutun ve pasif gelir kazanın. Sadece oturun ve dinlenin, $BBT'nin işlem hacminden tutma ödüllerinizin payını almak için her saat dapp'miz üzerinden talep edin.",
+    "box-four-title": "Staking Ödülleri",
+    "box-four-description": "$BBT'yi stake ederek ödül kazanın ve launchpad için garantili tahsisat alın. Bu, ekosistemimizin staking kaynağından ödüllendirilecektir.",
+    "box-five-title": "Vault Staking Ödülleri",
+    "box-five-description": "Otomatik birikim ile kazanmak için herhangi bir tokenı stake edin. Herhangi bir tokenı stake ederek $BBT kazanabilirsiniz. Bu, ekosistemimizin vault kaynağından ödüllendirilecektir."
+  },
+
+  "buy-presale": {
+    "title": "Ön Satışta Nasıl Alınır?",
+    "timeline": {
+      "connectWallet": {
+        "title": "CÜZDANI BAĞLA",
+        "description": "Cüzdanınızı saniyeler içinde bağlamak için Metamask veya Trust Wallet kullanın."
+      },
+      "confirmTransaction": {
+        "title": "İŞLEMİ ONAYLA",
+        "description": "$BBT'yi ETH, BNB, MATIC, USDT ve USDC ile satın alabilirsiniz"
+      },
+      "claimToken": {
+        "title": "TOKEN TALEP ET",
+        "description": "Tebrikler! Ön satış sona erdikten sonra $BBT'nizi talep edebilirsiniz."
       }
-    },
-  
-    "roadmap": {
-      "title": "Yol Haritası",
-      "phases": {
-        "phase1": {
-          "title": "AŞAMA 1",
-          "descriptionOne": "Proje Başlatma",
-          "descriptionTwo": "Akıllı Sözleşme Geliştirme",
-          "descriptionThree": "Web Sitesi Lansmanı",
-          "descriptionFour": "Beyaz Kitap Yayınlama",
-          "descriptionFive": "Coinsult ile Sözleşme Denetimi"
-        },
-        "phase2": {
-          "title": "AŞAMA 2",
-          "descriptionOne": "Ön Satış Lansmanı",
-          "descriptionTwo": "Büyük Pazarlama Kampanyası",
-          "descriptionThree": "blockboost.io'daki Ön Satış Aşamaları 1-5",
-          "descriptionFour": "Launchpad'in Beta Testi"
-        },
-        "phase3": {
-          "title": "AŞAMA 3",
-          "descriptionOne": "Launchpad için Güvenlik Denetimleri",
-          "descriptionTwo": "Geçerli Projeleri Başlatmak için Launchpad",
-          "descriptionThree": "Ön satış aşamaları 6-10",
-          "descriptionFour": "Vault için Dapps ile Ortaklık"
-        },
-        "phase4": {
-          "title": "AŞAMA 4",
-          "descriptionOne": "NFT Pazar Yeri Lansmanı",
-          "descriptionTwo": "$BBT'nin Lansmanı",
-          "descriptionThree": "Üst Düzey Borsalarda Listeleme",
-          "descriptionFour": "Güncellenmiş Yol Haritası"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "Token Detayları",
-      "title-two": "Tokenomics",
-      "description": "Token'in dağıtımı ön satış sona erdikten sonra gerçekleşecektir. Satın alınan $BBT Token'ları ön satış sayfamızdan talep edebileceksiniz.",
-      "name": "İsim",
-      "boost-token": "Block Boost Token",
-      "symbol": "Sembol",
-      "supply": "Arz",
-      "billion": "milyar",
-      "tax": "Vergi",
-      "buy-sell": "Al/Sat",
-      "type": "Tür",
-      "token-contract-address": "Token Sözleşme Adresi",
-      "empty": "boş",
-      "decimal": "Ondalık",
-      "presale-details": "Ön Satış Detayları",
-      "live": "Ön satış canlı",
-      "current-price": "Güncel $BBT Fiyatı",
-      "listing-price": "Borsa Liste Fiyatı",
-      "total-supply": "Toplam Arz"
-    },
-  
-    "powered-by": {
-      "title": "Destekleyen"
-    },
-  
-    "faq": {
-      "title": "SSS",
-      "question-one": "Blockboost nedir?",
-      "answer-one": "Blockboost, kripto girişimleri için benzersiz bir crowdfunding ekosistemidir.",
-      "question-two": "Blockboost Token'ını nereden satın alabilirim ve ne zaman alırım?",
-      "answer-two": "Ön satış sırasında $BBT token'ları resmi web sitemiz www.blockboost.io'dan satın alabilirsiniz; ön satış sona erdikten sonra ön satış sayfasından token'larınızı talep edebilirsiniz.",
-      "question-three": "Ödüllerim her zaman saatlik olarak mı ödenecek?",
-      "answer-three": "Evet, cüzdanınızı bağlayarak resmi dapp'mizden ödülü talep etmelisiniz.",
-      "question-four": "Ön satış ödüllerine nasıl uygun hale gelebilirim?",
-      "answer-four": "Ön satış sayfasından referans linkinizi alabilir ve bu link üzerinden yapılan alışverişler otomatik olarak ön satış sayfanızdaki hesabınıza tanımlanır. Cüzdanınızı ön satış sayfasına bağlayarak kontrol edebilirsiniz.",
-      "question-five": "Ön satışta kaç aşama var?",
-      "answer-five": "Ön satışta 10 aşama vardır ve $BBT'nin fiyatı her aşamada artacaktır.",
-      "question-six": "$BBT üzerinde staking var mı ve ne zaman staking yapabilirim?",
-      "answer-six": "Evet, staking havuzları ve ödüller hakkında tam bilgi için lütfen staking sayfasına bakın."
     }
+  },
+
+  "roadmap": {
+    "title": "Yol Haritası",
+    "phases": {
+      "phase1": {
+        "title": "AŞAMA 1",
+        "descriptionOne": "Proje Başlatma",
+        "descriptionTwo": "Akıllı Sözleşme Geliştirme",
+        "descriptionThree": "Web Sitesi Lansmanı",
+        "descriptionFour": "Beyaz Kitap Yayınlama",
+        "descriptionFive": "Coinsult ile Sözleşme Denetimi"
+      },
+      "phase2": {
+        "title": "AŞAMA 2",
+        "descriptionOne": "Ön Satış Lansmanı",
+        "descriptionTwo": "Büyük Pazarlama Kampanyası",
+        "descriptionThree": "blockboost.io'daki Ön Satış Aşamaları 1-10",
+        "descriptionFour": "Launchpad'in Beta Testi"
+      },
+      "phase3": {
+        "title": "AŞAMA 3",
+        "descriptionOne": "Launchpad için Güvenlik Denetimleri",
+        "descriptionTwo": "Geçerli Projeleri Başlatmak için Launchpad",
+        "descriptionThree": "Ön satış aşamaları 11-20",
+        "descriptionFour": "Vault için Dapps ile Ortaklık"
+      },
+      "phase4": {
+        "title": "AŞAMA 4",
+        "descriptionOne": "NFT Pazar Yeri Lansmanı",
+        "descriptionTwo": "$BBT'nin Lansmanı",
+        "descriptionThree": "Üst Düzey Borsalarda Listeleme",
+        "descriptionFour": "Güncellenmiş Yol Haritası"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Token Detayları",
+    "title-two": "Tokenomics",
+    "description": "Token'in dağıtımı ön satış sona erdikten sonra gerçekleşecektir. Satın alınan $BBT Token'ları ön satış sayfamızdan talep edebileceksiniz.",
+    "name": "İsim",
+    "boost-token": "Block Boost Token",
+    "symbol": "Sembol",
+    "supply": "Arz",
+    "billion": "milyar",
+    "tax": "Vergi",
+    "buy-sell": "Al/Sat",
+    "type": "Tür",
+    "token-contract-address": "Token Sözleşme Adresi",
+    "empty": "boş",
+    "decimal": "Ondalık",
+    "presale-details": "Ön Satış Detayları",
+    "live": "Ön satış canlı",
+    "current-price": "Güncel $BBT Fiyatı",
+    "as-per": "Ön satış aşamasına göre",
+    "listing-price": "Borsa Liste Fiyatı",
+    "total-supply": "Toplam Arz"
+  },
+
+  "powered-by": {
+    "title": "Destekleyen"
+  },
+
+  "faq": {
+    "title": "SSS",
+    "question-one": "Blockboost nedir?",
+    "answer-one": "Blockboost, kripto girişimleri için benzersiz bir crowdfunding ekosistemidir.",
+    "question-two": "Blockboost Token'ını nereden satın alabilirim ve ne zaman alırım?",
+    "answer-two": "Ön satış sırasında $BBT token'ları resmi web sitemiz www.blockboost.io'dan satın alabilirsiniz; ön satış sona erdikten sonra ön satış sayfasından token'larınızı talep edebilirsiniz.",
+    "question-three": "Ödüllerim her zaman saatlik olarak mı ödenecek?",
+    "answer-three": "Evet, cüzdanınızı bağlayarak resmi dapp'mizden ödülü talep etmelisiniz.",
+    "question-four": "Ön satış ödüllerine nasıl uygun hale gelebilirim?",
+    "answer-four": "Ön satış sayfasından referans linkinizi alabilir ve bu link üzerinden yapılan alışverişler otomatik olarak ön satış sayfanızdaki hesabınıza tanımlanır. Cüzdanınızı ön satış sayfasına bağlayarak kontrol edebilirsiniz.",
+    "question-five": "Ön satışta kaç aşama var?",
+    "answer-five": "Ön satışta 20 aşama vardır ve $BBT'nin fiyatı her aşamada artacaktır.",
+    "question-six": "$BBT üzerinde staking var mı ve ne zaman staking yapabilirim?",
+    "answer-six": "Evet, staking havuzları ve ödüller hakkında tam bilgi için lütfen staking sayfasına bakın."
   }
-  
+}

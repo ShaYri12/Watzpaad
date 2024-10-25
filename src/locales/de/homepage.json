@@ -5,12 +5,14 @@
     "description1": "Sind Sie bereit, auf einige der exklusivsten und vielversprechendsten Krypto-Startups zuzugreifen? Blockboost ist Ihr Tor zu frühen Investitionsmöglichkeiten, die unser Team gründlich geprüft hat.",
     "description2": "Es gibt viele weitere Vorteile, Teil des Blockboost Crowdfunding-Ökosystems zu sein, mit einzigartigen Funktionen wie Launchpad, Bridge & Swap AI, Verdienstsystem, Vault, Marktplatz und Staking.",
     "usdtRaised": "USDT gesammelt: $361.590,14 / $605.467",
-    "target": "ZIEL: $250.000",
+    "purchased": "Ihr gekauftes",
     "listingPrice": "Listenpreis",
     "receive": "Erhalten",
     "nextPrice": "Nächster Preis",
     "availablePaymentMethods": "VERFÜGBARE ZAHLUNGSMETHODE",
     "connectWallet": "Wallet verbinden",
+    "transactionDashboard": "Transaktionsdashboard",
+    "whitepaper": "Whitepaper",
     "audit": "Prüfung",
     "days": "Tage",
     "hours": "Stunden",
@@ -63,7 +65,7 @@
       },
       "confirmTransaction": {
         "title": "TRANSAKTION BESTÄTIGEN",
-        "description": "Sie können $BBT mit USDT, ETH und BNB kaufen."
+        "description": "Sie können $BBT mit ETH, BNB, MATIC, USDT und USDC kaufen"
       },
       "claimToken": {
         "title": "TOKEN ANFORDERN",
@@ -87,14 +89,14 @@
         "title": "PHASE 2",
         "descriptionOne": "Start des Vorverkaufs",
         "descriptionTwo": "Große Marketingkampagne",
-        "descriptionThree": "Vorverkaufsphasen 1-5 auf blockboost.io",
+        "descriptionThree": "Vorverkaufsphasen 1-10 auf blockboost.io",
         "descriptionFour": "Beta-Test des Launchpads"
       },
       "phase3": {
         "title": "PHASE 3",
         "descriptionOne": "Sicherheitsaudits für das Launchpad",
         "descriptionTwo": "Launchpad zum Start legitimer Projekte",
-        "descriptionThree": "Vorverkaufsphasen 6-10",
+        "descriptionThree": "Vorverkaufsphasen 11-20",
         "descriptionFour": "Partnerschaft mit Dapps für Vault"
       },
       "phase4": {
@@ -125,6 +127,7 @@
     "presale-details": "Details zum Vorverkauf",
     "live": "Der Vorverkauf ist live",
     "current-price": "Aktueller $BBT-Preis",
+    "as-per": "Gemäß der Vorverkaufsphase",
     "listing-price": "Börsenlistenpreis",
     "total-supply": "Gesamtangebot"
   },
@@ -144,7 +147,7 @@
     "question-four": "Wie kann ich für die Vorverkaufsbelohnungen berechtigt werden?",
     "answer-four": "Sie können Ihren Empfehlungslink von der Vorverkaufsseite erhalten, und Einkäufe, die über diesen Link getätigt werden, werden automatisch Ihrem Konto auf der Vorverkaufsseite gutgeschrieben. Sie können dies überprüfen, indem Sie Ihre Wallet mit der Vorverkaufsseite verbinden.",
     "question-five": "Wie viele Phasen gibt es im Vorverkauf?",
-    "answer-five": "Es gibt 10 Phasen im Vorverkauf, und der Preis von $BBT wird in jeder Phase steigen.",
+    "answer-five": "Es gibt 20 Phasen im Vorverkauf, und der Preis von $BBT wird in jeder Phase steigen.",
     "question-six": "Gibt es Staking auf $BBT und wann wird es verfügbar sein?",
     "answer-six": "Ja, bitte sehen Sie sich die Staking-Seite für vollständige Informationen zu Staking-Pools und Belohnungen an."
   }

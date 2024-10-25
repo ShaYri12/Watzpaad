@@ -37,7 +37,7 @@ const HomeDropdown = ({ label, options, image }) => {
       <div>
         <button
           onClick={toggleDropdown}
-          className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white border border-[#798DA3] rounded-lg"
+          className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white border border-grayish rounded-lg"
         >
           <span className="flex items-center">
             <img src={image} alt="audit" width={20} height={20} />

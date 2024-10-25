@@ -1,5 +1,4 @@
 import React from "react";
-import Audit from "../assets/audit-icons.svg";
 import AuditOne from "../assets/audit.svg";
 import Tether from "../assets/tether.svg";
 import Bitcoin from "../assets/bitcoin.svg";
@@ -13,7 +12,7 @@ import { FaCaretDown } from "react-icons/fa";
 
 const Hero = () => {
   const dropdownOptions1 = ["USDT", "ETH", "USD"];
-  const dropdownOptions2 = ["BBT", "ETH", "DOGE"];
+  // const dropdownOptions2 = ["BBT", "ETH", "DOGE"];
 
   const { t } = useTranslation("homepage");
 
@@ -226,14 +225,7 @@ const Hero = () => {
               className="bg-[#38DCC8] text-black font-normal text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5"
               style={{ boxShadow: "0px 4px 22.6px 0px #38DCC88C" }}
             >
-              <img
-                src={Audit}
-                alt="audit"
-                width={35}
-                height={35}
-                className="w-[25px] h-[25px] sm:w-[35px] sm:h-[35px]"
-              />{" "}
-              {t("hero.audit")}
+              {t("hero.whitepaper")}
             </button>
             <button className=" text-white font-normal bg-[#111B28] text-[18px] leading-[24px] border border-[#38DCC8] rounded-[30px] w-[180px] h-[40px] sm:h-[55px] flex items-center justify-center gap-2.5">
               <img
@@ -262,7 +254,7 @@ const Hero = () => {
                       <span className="text-[#38DCC8] md:text-[29px] text-[23.41px] leading-[26.92px] md:leading-[34px] font-bold">
                         00
                       </span>
-                      <div className="text-[#798DA3] text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal">
+                      <div className="text-grayish text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal">
                         {t("hero.days")}
                       </div>
                     </div>
@@ -270,7 +262,7 @@ const Hero = () => {
                       <span className="text-[#38DCC8] md:text-[29px] text-[23.41px] leading-[26.92px] md:leading-[34px] font-bold">
                         00
                       </span>
-                      <div className="text-[#798DA3] text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
+                      <div className="text-grayish text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
                         {t("hero.hours")}
                       </div>
                     </div>
@@ -278,7 +270,7 @@ const Hero = () => {
                       <span className="text-[#38DCC8] md:text-[29px] text-[23.41px] leading-[26.92px] md:leading-[34px] font-bold">
                         00
                       </span>
-                      <div className="text-[#798DA3] text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
+                      <div className="text-grayish text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
                         {t("hero.minutes")}
                       </div>
                     </div>
@@ -286,7 +278,7 @@ const Hero = () => {
                       <span className="text-[#38DCC8] md:text-[29px] text-[23.41px] leading-[26.92px] md:leading-[34px] font-bold">
                         00
                       </span>
-                      <div className="text-[#798DA3] text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
+                      <div className="text-grayish text-[11.79px] md:text-[15px] leading-[13.56px] md:leading-[17px] font-normal uppercase">
                         {t("hero.seconds")}
                       </div>
                     </div>
@@ -298,22 +290,22 @@ const Hero = () => {
                 </p>
                 <Slider />
 
-                <h2 className="mt-6 text-center text-[#798DA3] text-[17px] leading-[20px] font-bold">
-                  {t("hero.target")}
+                <h2 className="mt-6 text-center text-grayish text-[17px] leading-[20px] font-bold">
+                  {t("hero.purchased")} $BBT= 0
                 </h2>
                 <div className="flex items-center justify-center mt-3 gap-2">
                   <img src={Bitcoin} alt="bitcoin" width={24} height={24} />
                   <h2 className="text-[14px] leading-[16px] font-bold">
                     1 BBT
                   </h2>
-                  <h2 className="text-[#798DA3] text-[14px] leading-[16px] font-bold">
+                  <h2 className="text-grayish text-[14px] leading-[16px] font-bold">
                     $0.001
                   </h2>
                 </div>
 
                 <div className="mt-4 max-w-[350px] mx-auto flex items-center gap-2 sm:gap-4">
                   <div className="border border-[#38DCC800] flex-col flex items-center gap-2.5 w-full bg-[#101A27] custom-shadow px-5 py-4 rounded-xl">
-                    <h2 className="text-[#798DA3] text-[14px] leading-[12px] font-normal">
+                    <h2 className="text-grayish text-[14px] leading-[12px] font-normal">
                       {t("hero.listingPrice")}
                     </h2>
                     <p className="text-[12px] sm:text-[15px] font-bold leading-[15px]">
@@ -321,7 +313,7 @@ const Hero = () => {
                     </p>
                   </div>
                   <div className="border border-[#38DCC800] flex-col flex items-center gap-2.5 w-full bg-[#101A27] custom-shadow px-5 py-4 rounded-xl">
-                    <h2 className="text-[#798DA3] text-[14px] leading-[12px] font-normal">
+                    <h2 className="text-grayish text-[14px] leading-[12px] font-normal">
                       {t("hero.nextPrice")}
                     </h2>
                     <p className="text-[12px] sm:text-[15px] font-bold leading-[15px]">
@@ -332,7 +324,7 @@ const Hero = () => {
 
                 <div className="mt-2 max-w-[350px] mx-auto rounded-[14px] bg-[#161F2C] w-full py-3 px-4 flex items-center justify-between">
                   <div>
-                    <h4 className="text-[#FFFFFF4D] text-[14px] leading-[16px] font-normal">
+                    <h4 className="text-grayish text-[14px] leading-[16px] font-normal">
                       USD : $ 0
                     </h4>
                     <div className="flex items-center gap-2 mt-2">
@@ -357,7 +349,7 @@ const Hero = () => {
 
                 <div className="mt-2 max-w-[350px] mx-auto rounded-[14px] bg-[#161F2C] w-full py-3 px-4 flex items-center justify-between">
                   <div>
-                    <h4 className="text-[#FFFFFF4D] text-[14px] leading-[16px] font-normal">
+                    <h4 className="text-grayish text-[14px] leading-[16px] font-normal">
                       {t("hero.receive")}
                     </h4>
                     <div className="flex items-center gap-2 mt-2">
@@ -375,7 +367,7 @@ const Hero = () => {
                   </div>
 
                   <div>
-                    <button className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white  border border-[#798DA3] rounded-lg ">
+                    <button className="flex items-center outline-none justify-between w-[130px] px-2 py-2 text-sm font-medium text-white  border border-grayish rounded-lg ">
                       <span className="flex items-center">
                         <img src={Bitcoin} alt="audit" width={20} height={20} />
                         <span className="ml-2">BBT</span>
@@ -385,7 +377,7 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <p className="text-[#798DA3] text-[14px] leading-[14px] font-normal text-center py-5">
+                <p className="text-grayish text-[14px] leading-[14px] font-normal text-center py-5">
                   {t("hero.availablePaymentMethods")}
                 </p>
 
@@ -410,9 +402,14 @@ const Hero = () => {
                   </button>
                 </div>
 
-                <button className="bg-[#38DCC8] text-black w-full text-[14px] leading-[16px] min-h-[40px] rounded-[20.69px] border-[0.69px] border-[#FFFFFF]">
-                  {t("hero.connectWallet")}
-                </button>
+                <div className="w-full flex flex-wrap gap-2">
+                  <button className="bg-[#38DCC8] text-black flex-grow text-[14px] leading-[18px] min-h-[40px] max-w-[150px] rounded-[20.69px] border-[0.69px] border-[#FFFFFF] whitespace-normal text-center px-2 py-1">
+                    {t("hero.connectWallet")}
+                  </button>
+                  <button className="bg-[#38DCC8] text-black flex-grow text-[14px] leading-[18px] min-h-[40px] max-w-[150px] rounded-[20.69px] border-[0.69px] border-[#FFFFFF] whitespace-normal text-center px-2 py-1">
+                    {t("hero.transactionDashboard")}
+                  </button>
+                </div>
               </div>
             </div>
           </div>

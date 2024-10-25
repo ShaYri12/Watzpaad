@@ -55,7 +55,7 @@ const BridgingConvertor = () => {
           <div className="text-green-400">{t("progress.start")}</div>{" "}
           {/* Translated steps */}
           <div className="text-gray-400">{t("progress.summary")}</div>
-          <div className="text-gray-400">{t("progress.ponder")}</div>
+          <div className="text-gray-400">{t("progress.letsGo")}</div>
         </div>
       </div>
 

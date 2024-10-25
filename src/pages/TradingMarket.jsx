@@ -65,7 +65,7 @@ export default function TradingMarket({ dashboard = false }) {
         <div
           className={` ${dashboard ? "mb:mb-[43px] mb-[39px]" : "mb-[43px]"}`}
         >
-          <h1 className="text-[20.11px] md:text-[30px] text-[#798DA3] flex items-center md:gap-[18px] gap-[12px]">
+          <h1 className="text-[20.11px] md:text-[30px] text-grayish flex items-center md:gap-[18px] gap-[12px]">
             {/* Trading Market */}
             {t("tradingMarket.title")}
             <MdKeyboardArrowRight
@@ -109,11 +109,11 @@ export default function TradingMarket({ dashboard = false }) {
                   <h2 className="text-[23.84px] md:text-[30px] md:leading-[34.5px] leading-[27.42px] text-white font-[700] mb-[4px]">
                     #{item.id}
                   </h2>
-                  <p className="text-[15.9px] md:text-[20px] md:leading-[23px] leading-[18.28px] text-[#798DA3]">
+                  <p className="text-[15.9px] md:text-[20px] md:leading-[23px] leading-[18.28px] text-grayish">
                     {t("tradingMarket.shibadev")}
                   </p>
                   <div className="mb-[15px] mt-[15px] pb-[15px] border-b border-white">
-                    <p className="text-[14px] md:text-[18px] text-[#798DA3] md:mb-[8px] gap-[6.36px]">
+                    <p className="text-[14px] md:text-[18px] text-grayish md:mb-[8px] gap-[6.36px]">
                       {/* Grade */}
                       {t("grade")}
                     </p>
@@ -128,7 +128,7 @@ export default function TradingMarket({ dashboard = false }) {
                   </div>
                   <div className="flex justify-between w-full items-center gap-2">
                     <div className="flex flex-col items-start">
-                      <p className="text-[14.31px] md:text-[18px] text-[#798DA3] md:leading-[20.7px] leading-[16.45px]">
+                      <p className="text-[14.31px] md:text-[18px] text-grayish md:leading-[20.7px] leading-[16.45px]">
                         {t("tradingMarket.salePrice")}
                       </p>
                       <p className="flex items-center text-[23.84px] md:text-[30px] md:leading-[34.5px] leading-[27.42px] font-[700]">
@@ -139,7 +139,7 @@ export default function TradingMarket({ dashboard = false }) {
                         </span>
                         <span className="text-primaryColor">BNB</span>
                       </p>
-                      <p className="text-[#798DA3] text-[14.31px] md:text-[18px] md:leading-[20.7px] leading-[16.45px]">
+                      <p className="text-grayish text-[14.31px] md:text-[18px] md:leading-[20.7px] leading-[16.45px]">
                         ≈${parseFloat(item.salePrice)}
                       </p>
                     </div>
@@ -185,7 +185,7 @@ export default function TradingMarket({ dashboard = false }) {
                 </h2>
                 <div className="flex flex-col md:gap-[20px] gap-[16.24px]">
                   <div className="flex justify-between w-full flex-wrap gap-1">
-                    <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
+                    <p className="text-[14.62px] md:text-[18px] text-grayish">
                       {t("tradingMarket.ownerAddress")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
@@ -193,7 +193,7 @@ export default function TradingMarket({ dashboard = false }) {
                     </p>
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
-                    <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
+                    <p className="text-[14.62px] md:text-[18px] text-grayish">
                       {t("tradingMarket.contractAddress")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
@@ -201,7 +201,7 @@ export default function TradingMarket({ dashboard = false }) {
                     </p>
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
-                    <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
+                    <p className="text-[14.62px] md:text-[18px] text-grayish">
                       {t("tradingMarket.miningPower")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
@@ -209,7 +209,7 @@ export default function TradingMarket({ dashboard = false }) {
                     </p>
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
-                    <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
+                    <p className="text-[14.62px] md:text-[18px] text-grayish">
                       {t("tradingMarket.decomposeStatus")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
@@ -217,7 +217,7 @@ export default function TradingMarket({ dashboard = false }) {
                     </p>
                   </div>
                   <div className="flex justify-between w-full flex-wrap gap-1">
-                    <p className="text-[14.62px] md:text-[18px] text-[#798DA3]">
+                    <p className="text-[14.62px] md:text-[18px] text-grayish">
                       {t("tradingMarket.decomposableIn")}
                     </p>
                     <p className="text-primaryColor text-[14.62px] md:text-[18px]">
@@ -237,7 +237,7 @@ export default function TradingMarket({ dashboard = false }) {
           <h4 className="text-white text-[27.82px] md:text-[30px] font-[700]">
             {t("tradingMarket.marketRules")}
           </h4>{" "}
-          <p className="text-[16.69px] md:text-[18px] font-[400] text-[#798DA3]">
+          <p className="text-[16.69px] md:text-[18px] font-[400] text-grayish">
             {t("tradingMarket.rule-one")}
 
             <br />

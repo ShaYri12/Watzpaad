@@ -1,152 +1,154 @@
 {
-    "hero": {
-      "title": "BLOCKBOOST",
-      "subtitle": "Ekosistem Crowdfunding WEB3 Unik",
-      "description1": "Adakah anda bersedia untuk mengakses beberapa startup kripto yang paling eksklusif dan menjanjikan? Block Boost adalah pintu masuk anda kepada peluang pelaburan peringkat awal, yang telah dinilai sepenuhnya oleh pasukan kami.",
-      "description2": "Terdapat banyak kelebihan lain menjadi sebahagian daripada Ekosistem Crowdfunding Blockboost dengan ciri-ciri unik seperti Launchpad, Bridge & Swap AI, Sistem Pendapatan, Vault, Marketplace, dan Staking.",
-      "usdtRaised": "USDT Dikumpul: $361,590.14 / $605,467",
-      "target": "SASARAN: $250000",
-      "listingPrice": "Harga Penyenaraian",
-      "receive": "Terima",
-      "nextPrice": "Harga Seterusnya",
-      "availablePaymentMethods": "KAEDAH PEMBAYARAN TERSEDIA",
-      "connectWallet": "Sambung Dompet",
-      "audit": "Audit",
-      "days": "Hari",
-      "hours": "Jam",
-      "minutes": "Minit",
-      "seconds": "Saat"
-    },
-  
-    "ecosystems-utilities": {
-      "title": "Ekosistem Block Boost",
-      "box-one-title": "Launchpad",
-      "box-one-description": "Tentukan tier anda, stake $BBT, dan sertai semua pelancaran token yang kami sediakan untuk anda dengan cara yang dijamin.",
-      "box-two-title": "Bridge & Swap AI",
-      "box-two-description": "Dengan menghubungkan dengan blockchain yang berbeza, anda boleh menukar token anda ke rangkaian blockchain lain dengan beberapa klik sahaja.",
-      "box-three-title": "Sistem Pendapatan",
-      "box-three-description": "Dapatkan pendapatan pasif melalui pelbagai ciri seperti ganjaran Referral, ganjaran Staking, ganjaran Vaulting, dan jualan NFT.",
-      "box-four-title": "Vault",
-      "box-four-description": "Anda boleh memperoleh hasil APY yang tinggi dengan staking aset kripto anda melalui pelbagai Vaults."
-    },
-  
-    "join-idos": {
-      "title": "Mudah Menyertai IDO Dengan 3 Langkah",
-      "box-one-title": "Sambung Dompet",
-      "box-one-description": "Beli token $BBT dan sambungkan dompet anda dengan ekosistem launchpad untuk menyertai.",
-      "box-two-title": "Stake Token $BBT",
-      "box-two-description": "Block Boost akan mempamerkan sistem tier tetap berdasarkan jumlah token yang di-stake.",
-      "box-three-title": "Sertai Jualan",
-      "box-three-description": "Menangi tiket loteri yang disahkan untuk menyertai IDO melalui sistem tier staking kami."
-    },
-  
-    "exclusive-benefits": {
-      "title": "Kelebihan Eksklusif Membeli $WZP Dalam Presale",
-      "box-one-title": "Ganjaran Referral Presale",
-      "box-one-description": "Sertai pada peringkat awal presale untuk mendapatkan nilai lebih tinggi berbanding harga pelancaran. Selain itu, anda boleh merujuk rakan dan memperoleh bonus 5% semasa presale.",
-      "box-two-title": "Ganjaran Referral Perdagangan",
-      "box-two-description": "Selepas pelancaran yang berjaya, anda masih boleh merujuk melalui pautan referral unik dari aplikasi dashboard kami dan memperoleh 2% ganjaran perdagangan daripada aktiviti perdagangan referral anda.",
-      "box-three-title": "Ganjaran Memegang",
-      "box-three-description": "Pegang $BBT dan dapatkan pendapatan pasif. Duduk dan berehat untuk menerima bahagian ganjaran memegang anda dari jumlah dagangan $BBT dan tuntut melalui dapp kami setiap jam.",
-      "box-four-title": "Ganjaran Staking",
-      "box-four-description": "Stake $BBT untuk mendapatkan ganjaran dan jaminan alokasi untuk launchpad. Ganjaran akan diberikan dari bekalan staking ekosistem kami.",
-      "box-five-title": "Ganjaran Vault Staking",
-      "box-five-description": "Stake sebarang token untuk memperoleh dengan penggandaan automatik. Anda boleh stake sebarang token untuk mendapatkan $BBT sebagai ganjaran penggandaan. Ganjaran akan diberikan dari bekalan vault ekosistem kami."
-    },
-  
-    "buy-presale": {
-      "title": "Bagaimana Membeli Dalam Presale?",
-      "timeline": {
-        "connectWallet": {
-          "title": "SAMBUNG DOMPET",
-          "description": "Gunakan Metamask atau Trust Wallet untuk menyambungkan dompet anda dalam beberapa saat."
-        },
-        "confirmTransaction": {
-          "title": "SAHKAN TRANSAKSI",
-          "description": "Anda boleh membeli $BBT dengan USDT, ETH, dan BNB."
-        },
-        "claimToken": {
-          "title": "TUNTUT TOKEN",
-          "description": "Tahniah! Anda boleh menuntut $BBT anda selepas presale berakhir."
-        }
+  "hero": {
+    "title": "BLOCKBOOST",
+    "subtitle": "Ekosistem Crowdfunding WEB3 Unik",
+    "description1": "Adakah anda bersedia untuk mengakses beberapa startup kripto yang paling eksklusif dan menjanjikan? Block Boost adalah pintu masuk anda kepada peluang pelaburan peringkat awal, yang telah dinilai sepenuhnya oleh pasukan kami.",
+    "description2": "Terdapat banyak kelebihan lain menjadi sebahagian daripada Ekosistem Crowdfunding Blockboost dengan ciri-ciri unik seperti Launchpad, Bridge & Swap AI, Sistem Pendapatan, Vault, Marketplace, dan Staking.",
+    "usdtRaised": "USDT Dikumpul: $361,590.14 / $605,467",
+    "purchased": "Pembelian anda",
+    "listingPrice": "Harga Penyenaraian",
+    "receive": "Terima",
+    "nextPrice": "Harga Seterusnya",
+    "availablePaymentMethods": "KAEDAH PEMBAYARAN TERSEDIA",
+    "connectWallet": "Sambung Dompet",
+    "transactionDashboard": "Papan Pemuka Transaksi",
+    "whitepaper": "Kertas Putih",
+    "audit": "Audit",
+    "days": "Hari",
+    "hours": "Jam",
+    "minutes": "Minit",
+    "seconds": "Saat"
+  },
+
+  "ecosystems-utilities": {
+    "title": "Ekosistem Block Boost",
+    "box-one-title": "Launchpad",
+    "box-one-description": "Tentukan tier anda, stake $BBT, dan sertai semua pelancaran token yang kami sediakan untuk anda dengan cara yang dijamin.",
+    "box-two-title": "Bridge & Swap AI",
+    "box-two-description": "Dengan menghubungkan dengan blockchain yang berbeza, anda boleh menukar token anda ke rangkaian blockchain lain dengan beberapa klik sahaja.",
+    "box-three-title": "Sistem Pendapatan",
+    "box-three-description": "Dapatkan pendapatan pasif melalui pelbagai ciri seperti ganjaran Referral, ganjaran Staking, ganjaran Vaulting, dan jualan NFT.",
+    "box-four-title": "Vault",
+    "box-four-description": "Anda boleh memperoleh hasil APY yang tinggi dengan staking aset kripto anda melalui pelbagai Vaults."
+  },
+
+  "join-idos": {
+    "title": "Mudah Menyertai IDO Dengan 3 Langkah",
+    "box-one-title": "Sambung Dompet",
+    "box-one-description": "Beli token $BBT dan sambungkan dompet anda dengan ekosistem launchpad untuk menyertai.",
+    "box-two-title": "Stake Token $BBT",
+    "box-two-description": "Block Boost akan mempamerkan sistem tier tetap berdasarkan jumlah token yang di-stake.",
+    "box-three-title": "Sertai Jualan",
+    "box-three-description": "Menangi tiket loteri yang disahkan untuk menyertai IDO melalui sistem tier staking kami."
+  },
+
+  "exclusive-benefits": {
+    "title": "Kelebihan Eksklusif Membeli $WZP Dalam Presale",
+    "box-one-title": "Ganjaran Referral Presale",
+    "box-one-description": "Sertai pada peringkat awal presale untuk mendapatkan nilai lebih tinggi berbanding harga pelancaran. Selain itu, anda boleh merujuk rakan dan memperoleh bonus 5% semasa presale.",
+    "box-two-title": "Ganjaran Referral Perdagangan",
+    "box-two-description": "Selepas pelancaran yang berjaya, anda masih boleh merujuk melalui pautan referral unik dari aplikasi dashboard kami dan memperoleh 2% ganjaran perdagangan daripada aktiviti perdagangan referral anda.",
+    "box-three-title": "Ganjaran Memegang",
+    "box-three-description": "Pegang $BBT dan dapatkan pendapatan pasif. Duduk dan berehat untuk menerima bahagian ganjaran memegang anda dari jumlah dagangan $BBT dan tuntut melalui dapp kami setiap jam.",
+    "box-four-title": "Ganjaran Staking",
+    "box-four-description": "Stake $BBT untuk mendapatkan ganjaran dan jaminan alokasi untuk launchpad. Ganjaran akan diberikan dari bekalan staking ekosistem kami.",
+    "box-five-title": "Ganjaran Vault Staking",
+    "box-five-description": "Stake sebarang token untuk memperoleh dengan penggandaan automatik. Anda boleh stake sebarang token untuk mendapatkan $BBT sebagai ganjaran penggandaan. Ganjaran akan diberikan dari bekalan vault ekosistem kami."
+  },
+
+  "buy-presale": {
+    "title": "Bagaimana Membeli Dalam Presale?",
+    "timeline": {
+      "connectWallet": {
+        "title": "SAMBUNG DOMPET",
+        "description": "Gunakan Metamask atau Trust Wallet untuk menyambungkan dompet anda dalam beberapa saat."
+      },
+      "confirmTransaction": {
+        "title": "SAHKAN TRANSAKSI",
+        "description": "Anda boleh membeli $BBT dengan ETH, BNB, MATIC, USDT dan USDC"
+      },
+      "claimToken": {
+        "title": "TUNTUT TOKEN",
+        "description": "Tahniah! Anda boleh menuntut $BBT anda selepas presale berakhir."
       }
-    },
-  
-    "roadmap": {
-      "title": "Peta Jalan",
-      "phases": {
-        "phase1": {
-          "title": "FASE 1",
-          "descriptionOne": "Permulaan Projek",
-          "descriptionTwo": "Pembangunan Smart Contract",
-          "descriptionThree": "Pelancaran Laman Web",
-          "descriptionFour": "Pengeluaran Whitepaper",
-          "descriptionFive": "Audit Kontrak dengan Coinsult"
-        },
-        "phase2": {
-          "title": "FASE 2",
-          "descriptionOne": "Pelancaran Presale",
-          "descriptionTwo": "Kempen Pemasaran Besar-besaran",
-          "descriptionThree": "Peringkat Presale 1-5 di blockboost.io",
-          "descriptionFour": "Ujian Beta launchpad"
-        },
-        "phase3": {
-          "title": "FASE 3",
-          "descriptionOne": "Audit Keselamatan untuk Launchpad",
-          "descriptionTwo": "Launchpad untuk Melancarkan Projek Sah",
-          "descriptionThree": "Peringkat presale 6-10",
-          "descriptionFour": "Kerjasama dengan Dapps untuk Vault"
-        },
-        "phase4": {
-          "title": "FASE 4",
-          "descriptionOne": "Pelancaran Marketplace NFT",
-          "descriptionTwo": "Pelancaran $BBT",
-          "descriptionThree": "Penyenaraian di Bursa Terbaik",
-          "descriptionFour": "Peta Jalan Dikemaskini"
-        }
-      }
-    },
-  
-    "tokenomics": {
-      "title": "Butiran Token",
-      "title-two": "Tokenomics",
-      "description": "Pengagihan Token akan berlaku selepas presale berakhir. Anda akan dapat menuntut token $BBT yang dibeli dari halaman presale kami.",
-      "name": "Nama",
-      "boost-token": "Block boost token",
-      "symbol": "Simbol",
-      "supply": "Bekalan",
-      "billion": "bilion",
-      "tax": "Cukai",
-      "buy-sell": "Beli/Jual",
-      "type": "Jenis",
-      "token-contract-address": "Alamat Kontrak Token",
-      "empty": "kosong",
-      "decimal": "Decimal",
-      "presale-details": "Butiran Presale",
-      "live": "Presale sedang berlangsung",
-      "current-price": "Harga $BBT Semasa",
-      "listing-price": "Harga Penyenaraian di Bursa",
-      "total-supply": "Jumlah Bekalan"
-    },
-  
-    "powered-by": {
-      "title": "Dikuasakan oleh"
-    },
-  
-    "faq": {
-      "title" : "Soalan Lazim",
-      "question-one": "Apakah Blockboost?",
-      "answer-one": "Blockboost adalah ekosistem crowdfunding unik untuk startup kripto.",
-      "question-two": "Di mana saya boleh membeli Token Blockboost dan bila saya akan menerimanya?",
-      "answer-two": "Semasa presale, anda boleh membeli token $BBT dari laman web rasmi kami www.blockboost.io; anda boleh menuntut token anda dari halaman presale selepas presale berakhir.",
-      "question-three": "Adakah ganjaran saya sentiasa dibayar setiap jam?",
-      "answer-three": "Ya, anda perlu menuntut ganjaran dari dapp rasmi kami melalui sambungan dompet anda.",
-      "question-four": "Bagaimana saya layak untuk ganjaran presale?",
-      "answer-four": "Anda boleh mendapatkan pautan referral dari halaman presale dan pembelian yang dilakukan melaluinya akan dikreditkan secara automatik ke akaun anda di halaman presale. Anda boleh menyemaknya dengan menyambungkan dompet anda ke halaman presale.",
-      "question-five": "Berapakah peringkat dalam presale?",
-      "answer-five": "Terdapat 10 peringkat dalam presale, dan harga $BBT akan meningkat pada setiap peringkat.",
-      "question-six": "Adakah terdapat staking pada $BBT dan bila ia akan tersedia untuk di-stake?",
-      "answer-six": "Ya, sila lihat halaman staking untuk maklumat lengkap tentang pool staking dan ganjaran."
     }
+  },
+
+  "roadmap": {
+    "title": "Peta Jalan",
+    "phases": {
+      "phase1": {
+        "title": "FASE 1",
+        "descriptionOne": "Permulaan Projek",
+        "descriptionTwo": "Pembangunan Smart Contract",
+        "descriptionThree": "Pelancaran Laman Web",
+        "descriptionFour": "Pengeluaran Whitepaper",
+        "descriptionFive": "Audit Kontrak dengan Coinsult"
+      },
+      "phase2": {
+        "title": "FASE 2",
+        "descriptionOne": "Pelancaran Presale",
+        "descriptionTwo": "Kempen Pemasaran Besar-besaran",
+        "descriptionThree": "Peringkat Presale 1-10 di blockboost.io",
+        "descriptionFour": "Ujian Beta launchpad"
+      },
+      "phase3": {
+        "title": "FASE 3",
+        "descriptionOne": "Audit Keselamatan untuk Launchpad",
+        "descriptionTwo": "Launchpad untuk Melancarkan Projek Sah",
+        "descriptionThree": "Peringkat presale 11-20",
+        "descriptionFour": "Kerjasama dengan Dapps untuk Vault"
+      },
+      "phase4": {
+        "title": "FASE 4",
+        "descriptionOne": "Pelancaran Marketplace NFT",
+        "descriptionTwo": "Pelancaran $BBT",
+        "descriptionThree": "Penyenaraian di Bursa Terbaik",
+        "descriptionFour": "Peta Jalan Dikemaskini"
+      }
+    }
+  },
+
+  "tokenomics": {
+    "title": "Butiran Token",
+    "title-two": "Tokenomics",
+    "description": "Pengagihan Token akan berlaku selepas presale berakhir. Anda akan dapat menuntut token $BBT yang dibeli dari halaman presale kami.",
+    "name": "Nama",
+    "boost-token": "Block boost token",
+    "symbol": "Simbol",
+    "supply": "Bekalan",
+    "billion": "bilion",
+    "tax": "Cukai",
+    "buy-sell": "Beli/Jual",
+    "type": "Jenis",
+    "token-contract-address": "Alamat Kontrak Token",
+    "empty": "kosong",
+    "decimal": "Decimal",
+    "presale-details": "Butiran Presale",
+    "live": "Presale sedang berlangsung",
+    "current-price": "Harga $BBT Semasa",
+    "as-per": "Mengikut peringkat prajual",
+    "listing-price": "Harga Penyenaraian di Bursa",
+    "total-supply": "Jumlah Bekalan"
+  },
+
+  "powered-by": {
+    "title": "Dikuasakan oleh"
+  },
+
+  "faq": {
+    "title": "Soalan Lazim",
+    "question-one": "Apakah Blockboost?",
+    "answer-one": "Blockboost adalah ekosistem crowdfunding unik untuk startup kripto.",
+    "question-two": "Di mana saya boleh membeli Token Blockboost dan bila saya akan menerimanya?",
+    "answer-two": "Semasa presale, anda boleh membeli token $BBT dari laman web rasmi kami www.blockboost.io; anda boleh menuntut token anda dari halaman presale selepas presale berakhir.",
+    "question-three": "Adakah ganjaran saya sentiasa dibayar setiap jam?",
+    "answer-three": "Ya, anda perlu menuntut ganjaran dari dapp rasmi kami melalui sambungan dompet anda.",
+    "question-four": "Bagaimana saya layak untuk ganjaran presale?",
+    "answer-four": "Anda boleh mendapatkan pautan referral dari halaman presale dan pembelian yang dilakukan melaluinya akan dikreditkan secara automatik ke akaun anda di halaman presale. Anda boleh menyemaknya dengan menyambungkan dompet anda ke halaman presale.",
+    "question-five": "Berapakah peringkat dalam presale?",
+    "answer-five": "Terdapat 20 peringkat dalam presale, dan harga $BBT akan meningkat pada setiap peringkat.",
+    "question-six": "Adakah terdapat staking pada $BBT dan bila ia akan tersedia untuk di-stake?",
+    "answer-six": "Ya, sila lihat halaman staking untuk maklumat lengkap tentang pool staking dan ganjaran."
   }
-  
+}

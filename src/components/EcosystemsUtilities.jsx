@@ -24,7 +24,7 @@ const EcosystemsUtilities = () => {
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("ecosystems-utilities.box-one-title")}{" "}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p className="text-grayish text-[14px] leading-[18px] font-normal font-space">
                   {t("ecosystems-utilities.box-one-description")}
                 </p>
               </div>
@@ -40,7 +40,7 @@ const EcosystemsUtilities = () => {
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("ecosystems-utilities.box-two-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p className="text-grayish text-[14px] leading-[18px] font-normal font-space">
                   {t("ecosystems-utilities.box-two-description")}
                 </p>
               </div>
@@ -56,7 +56,7 @@ const EcosystemsUtilities = () => {
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("ecosystems-utilities.box-three-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p className="text-grayish text-[14px] leading-[18px] font-normal font-space">
                   {t("ecosystems-utilities.box-three-description")}
                 </p>
               </div>
@@ -72,7 +72,7 @@ const EcosystemsUtilities = () => {
                 <h2 className="py-2.5 text-[#FFFFFF] text-[22px] leading-[26px] font-bold">
                   {t("ecosystems-utilities.box-four-title")}
                 </h2>
-                <p className="text-[#798DA3] text-[14px] leading-[18px] font-normal font-space">
+                <p className="text-grayish text-[14px] leading-[18px] font-normal font-space">
                   {t("ecosystems-utilities.box-four-description")}
                 </p>
               </div>

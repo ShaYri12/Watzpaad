@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
   }, []);
 
   const renderSection = (titleKey, descriptionKey, listKey) => (
-    <div className="space-y-[34px] text-[#798DA3]">
+    <div className="space-y-[34px] text-grayish">
       <h1 className="font-bold text-2xl md:text-4xl leading-snug text-[#38DCC8]">
         {t(titleKey)}
       </h1>

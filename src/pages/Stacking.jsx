@@ -139,7 +139,7 @@ const Stacking = () => {
                         <h2 className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
                           Stake BBT
                         </h2>
-                        <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
+                        <p className="text-grayish text-[15.18px] md:text-[18px]">
                           BBT - {card.time}
                         </p>
                       </div>
@@ -154,11 +154,11 @@ const Stacking = () => {
                           backdropFilter: "blur(82.17px)",
                         }}
                       >
-                        <div className="flex justify-between text-[#798DA3] md:text-[18px] md:leading-[20.7px] w-full font-[400]">
+                        <div className="flex justify-between text-grayish md:text-[18px] md:leading-[20.7px] w-full font-[400]">
                           <span>{t("apy")}</span>
                           <span>{card.apy}</span>
                         </div>
-                        <div className="flex justify-between text-[#798DA3] w-full font-[400]">
+                        <div className="flex justify-between text-grayish w-full font-[400]">
                           <span>{t("time")}</span>
                           <span>{card.time}</span>
                         </div>
@@ -166,7 +166,7 @@ const Stacking = () => {
 
                       <div className="flex gap-1 justify-between items-center">
                         <div className="">
-                          <p className="text-[#798DA3] text-[15.18px] md:text-[18px] md:leading-[20.7px]">
+                          <p className="text-grayish text-[15.18px] md:text-[18px] md:leading-[20.7px]">
                             {t("stakedBBT")}
                           </p>
                           <p className="text-primaryColor text-[23.29px] md:text-[27.61px] md:leading-[31.75px] font-[700]">
@@ -269,7 +269,7 @@ const Stacking = () => {
                                     {/* Modal Content */}
                                     <div className="mb-4 text-right">
                                       <p className="text-gray-700 text-lg">
-                                        0 RenQ Available
+                                        0 BBT Available
                                       </p>
                                       <p className="text-gray-400 text-lg">
                                         20% early withdraw fee
@@ -305,7 +305,7 @@ const Stacking = () => {
                       </div>
 
                       <div className="flex gap-1 justify-between items-center md:pb-[39px] pb-[33.73px]">
-                        <p className="text-[#798DA3] text-[15.18px] md:text-[18px]">
+                        <p className="text-grayish text-[15.18px] md:text-[18px]">
                           {t("totalStaked")}
                         </p>
                         <p className="text-primaryColor text-[15.18px] md:text-[18px]">

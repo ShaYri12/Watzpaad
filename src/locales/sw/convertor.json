@@ -1,0 +1,23 @@
+{
+  "token_icon_alt": "Ikon ya Token",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "Anza",
+    "summary": "Muhtasari",
+    "letsGo": "Twende"
+  },
+  "form": {
+    "want_to": "Nataka",
+    "from": "kutoka",
+    "chain_my": "Mnyororo, wangu",
+    "to": "kwenda",
+    "chain": "mnyororo",
+    "tokens": "tokeni"
+  },
+  "swap_bridge": "BADILI/DAARA",
+  "ethereum": "Ethereum",
+  "eth_token": "Eth",
+  "bcs_chain": "BCS",
+  "bnb_token": "BNB",
+  "submit_button": "Twende"
+}

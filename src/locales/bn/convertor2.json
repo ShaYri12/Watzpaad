@@ -1,0 +1,25 @@
+{
+  "token_icon_alt": "টোকেন আইকন",
+  "balance_placeholder": "000000000000",
+  "progress": {
+    "start": "শুরু",
+    "summary": "সারাংশ",
+    "letsGo": "চলুন"
+  },
+  "suggested_route_title": "Ponders-এর প্রস্তাবিত রুট",
+  "eth_to_bnb": {
+    "amount": "2.000 ETH",
+    "chain": "Ethereum চেইন"
+  },
+  "bnb": {
+    "amount": "8.6951 BNB",
+    "chain": "BSC চেইন"
+  },
+  "total_fees": "মোট ফি: 00000000000000",
+  "step": "ধাপ 1",
+  "fees": "ফি",
+  "no_funds_message": "লেনদেন সম্পন্ন করার জন্য আপনার কাছে তহবিল নেই",
+  "back": "ফিরে যান",
+  "more_results": "আরো ফলাফল",
+  "accept": "গ্রহণ করুন"
+}

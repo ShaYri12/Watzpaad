@@ -1,24 +1,23 @@
 {
-    "joinWinningTeam": "加入胜利团队",
-    "description": "Blockboost 是一个领先的 Web3 孵化器和 Launchpad，专注于创新技术的 Web3 项目，例如 DeFi、AI、大数据、NFT 和 Web3 游戏。通过质押 $BBT，您可以提前购买项目代币，从而增强您在 Web3 领域的地位。",
-    "links": {
-      "home": "主页",
-      "launchpad": "Launchpad",
-      "earnings": "收益",
-      "marketplace": "市场",
-      "vault": "保险库"
-    },
-    "help": {
-      "stacking": "质押",
-      "win": "赢取",
-      "whitepaper": "白皮书",
-      "goToApp": "进入应用"
-    },
-    "social": "社交",
-    "disclaimer": "免责声明：不是财务建议。购买前请务必自行调查。加密货币在您的管辖区可能不受监管。加密货币的价值可能下跌或上涨。利润可能需要缴纳资本利得税或其他适用于您所在地区的税款。",
-    "terms": "服务条款",
-    "privacy": "隐私政策",
-    "cookie": "取消和退款政策",
-    "copyright": "© 2024, 保留所有权利。"
-  }
-  
+  "joinWinningTeam": "加入胜利团队",
+  "description": "Blockboost 是一个领先的 Web3 孵化器和 Launchpad，专注于创新技术的 Web3 项目，例如 DeFi、AI、大数据、NFT 和 Web3 游戏。通过质押 $BBT，您可以提前购买项目代币，从而增强您在 Web3 领域的地位。",
+  "links": {
+    "home": "主页",
+    "launchpad": "Launchpad",
+    "earnings": "收益",
+    "marketplace": "市场",
+    "vault": "保险库"
+  },
+  "help": {
+    "stacking": "质押",
+    "win": "赢",
+    "whitepaper": "白皮书",
+    "goToApp": "进入应用"
+  },
+  "social": "社交",
+  "disclaimer": "免责声明：不是财务建议。购买前请务必自行调查。加密货币在您的管辖区可能不受监管。加密货币的价值可能下跌或上涨。利润可能需要缴纳资本利得税或其他适用于您所在地区的税款。",
+  "terms": "服务条款",
+  "privacy": "隐私政策",
+  "cookie": "取消和退款政策",
+  "copyright": "© 2024, 保留所有权利。"
+}
