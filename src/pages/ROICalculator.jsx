@@ -52,8 +52,8 @@ const ROICalculator = () => {
   };
 
   return (
-    <div className="mt-20 md:mt-14 w-full flex flex-col items-center justify-center text-white py-6 px-4">
-      <div className="w-full max-w-[1040px] mx-auto bg-gray-800 py-6 rounded-lg shadow-lg">
+    <div className="mt-20 md:mt-14 w-full flex flex-col items-center justify-center text-white py-6  max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px]">
+      <div className="w-full  bg-[#1F2835CC] py-6 rounded-lg shadow-lg">
         <h1 className="text-2xl font-bold mb-4 border-b-[0.5px] border-white/30 px-4 pb-5">
           Token Amount Calculator
         </h1>
@@ -94,7 +94,7 @@ const ROICalculator = () => {
           <div className="bg-gray-900 w-full rounded-lg p-4 border border-gray-600">
             <div className="flex items-center justify-between gap-4">
               <div
-                className="w-full sm:w-[200px] gap-1.5 flex items-center flex-col text-center bg-gray-800 border border-gray-600 rounded-lg  px-2 sm:px-4 py-4 text-white"
+                className="w-full sm:w-[200px] gap-1.5 flex items-center flex-col text-center bg-[#1F2835CC] border border-gray-600 rounded-lg  px-2 sm:px-4 py-4 text-white"
                 style={{ left: `${(sliderValue / 19) * 100}%` }}
               >
                 <div className="text-gray-300 text-xs sm:text-base">
@@ -105,7 +105,7 @@ const ROICalculator = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-1.5 w-full sm:w-[200px] text-center bg-gray-800 border border-gray-600 rounded-lg px-2 sm:px-4 py-4 text-white">
+              <div className="flex flex-col gap-1.5 w-full sm:w-[200px] text-center bg-[#1F2835CC] border border-gray-600 rounded-lg px-2 sm:px-4 py-4 text-white">
                 <span className="text-gray-300 text-xs sm:text-base">Launch Price: </span>
                 <span className="text-[#38DCC8] text-sm sm:text-base">$0.075</span>
               </div>
