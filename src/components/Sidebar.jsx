@@ -33,6 +33,18 @@ const Sidebar = () => {
       activeIcon: "/assets/icons/bridge.png",
       link: "/bridging",
     },
+    {
+      name: "ROI Calculator",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
+      link: "/rio-calculator",
+    },
+    {
+      name: "My Profile",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
+      link: "/my-profile",
+    },
   ];
 
   useEffect(() => {

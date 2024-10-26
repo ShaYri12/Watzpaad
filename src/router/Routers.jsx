@@ -21,6 +21,8 @@ import SidebarLayout from "../layout/SidebarLayout";
 import DashboardMarketPlace from "../pages/DashboardMarketPlace";
 import DashboardTradingMarket from "../pages/DashboardTradingMarket";
 import DashboardVault from "../pages/DashboardVault";
+import MyProfile from "../pages/MyProfile";
+import ROICalculator from "../pages/ROICalculator";
 
 const Routers = () => {
   return (
@@ -64,6 +66,8 @@ const Routers = () => {
             element={<DashboardTradingMarket />}
           />
           <Route path="/dashboard-vault" element={<DashboardVault />} />
+          <Route path="/rio-calculator" element={<ROICalculator />} />
+          <Route path="/my-profile" element={<MyProfile />} />
         </Route>
       </Routes>
     </BrowserRouter>
