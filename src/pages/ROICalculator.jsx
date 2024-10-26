@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const ROICalculator = () => {
   const phases = [
@@ -29,6 +29,20 @@ const ROICalculator = () => {
   const [usdAmount, setUsdAmount] = useState(0);
   const [sliderValue, setSliderValue] = useState(0); // Slider value from 0 to 19 (20 phases)
   const [tooltipVisible, setTooltipVisible] = useState(false); // Tooltip visibility
+  const [isNarrow, setIsNarrow] = useState(window.innerWidth < 500);
+
+  const handleResize = () => {
+    setIsNarrow(window.innerWidth < 399);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleOzChange = (e) => {
     const value = e.target.value;
@@ -52,104 +66,125 @@ const ROICalculator = () => {
   };
 
   return (
-    <div className="mt-20 md:mt-14 w-full flex flex-col items-center justify-center text-white py-6  max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px]">
-      <div className="w-full  bg-[#1F2835CC] py-6 rounded-lg shadow-lg">
-        <h1 className="text-2xl font-bold mb-4 border-b-[0.5px] border-white/30 px-4 pb-5">
-          Token Amount Calculator
-        </h1>
+    <div className="py-6  max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] w-full">
+      <div
+        className={`${
+          isNarrow ? "card-border" : "card-border-wide"
+        } w-full mt-20 md:mt-14 p-[2px]`}
+      >
+        <div className="w-full flex flex-col items-center justify-center text-white relative z-[2]">
+          <div className="w-full  bg-[#1F2835CC] py-6 rounded-lg shadow-lg">
+            <h1 className="text-2xl font-bold mb-4 border-b-[0.5px] border-white/30 px-4 pb-5">
+              Token Amount Calculator
+            </h1>
 
-        <div className="px-4">
-          <label className="block mb-2">
-            How much BlockBoost token you have:
-          </label>
-          <div className="flex items-center justify-between px-4 h-[50px] mb-4 w-full rounded-lg bg-gray-900 border border-gray-600 text-white">
-            <input
-              type="text"
-              value={ozAmount}
-              onChange={handleOzChange}
-              className="w-[60%] sm:w-[80%] outline-none bg-transparent appearance-none"
-              placeholder="0 BlockBoost"
-            />
-            <div className="flex items-center gap-2">
-              <img
-                src="/assets/icons/B-logo.png"
-                width={24}
-                height={24}
-                alt="BlockBoost Logo"
-              />
-              <h3 className="text-sm font-mono uppercase">BlockBoost</h3>
-            </div>
-          </div>
-
-          {/* USD Amount */}
-          <label className="block mb-2">USD Amount:</label>
-          <input
-            type="text"
-            value={`$${usdAmount.toFixed(2)}`}
-            readOnly
-            className="w-full outline-none flex items-center justify-between px-4 h-[50px] mb-4 rounded-lg bg-gray-900 border border-gray-600 text-white"
-          />
-
-          {/* Box for Price and Slider */}
-          <div className="bg-gray-900 w-full rounded-lg p-4 border border-gray-600">
-            <div className="flex items-center justify-between gap-4">
-              <div
-                className="w-full sm:w-[200px] gap-1.5 flex items-center flex-col text-center bg-[#1F2835CC] border border-gray-600 rounded-lg  px-2 sm:px-4 py-4 text-white"
-                style={{ left: `${(sliderValue / 19) * 100}%` }}
-              >
-                <div className="text-gray-300 text-xs sm:text-base">
-                  Presale Phase {sliderValue + 1}
-                </div>
-                <div className="text-[#38DCC8] text-sm sm:text-base">
-                  ${phases[sliderValue].toFixed(3)}
+            <div className="px-4">
+              <label className="block mb-2">
+                How much BlockBoost token you have:
+              </label>
+              <div className="flex items-center justify-between px-4 h-[50px] mb-4 w-full rounded-lg bg-gray-900 border border-gray-600 text-white">
+                <input
+                  type="text"
+                  value={ozAmount}
+                  onChange={handleOzChange}
+                  className="w-[60%] sm:w-[80%] outline-none bg-transparent appearance-none"
+                  placeholder="0 BlockBoost"
+                />
+                <div className="flex items-center gap-2">
+                  <img
+                    src="/assets/icons/B-logo.png"
+                    width={24}
+                    height={24}
+                    alt="BlockBoost Logo"
+                  />
+                  <h3 className="text-sm font-mono uppercase">BlockBoost</h3>
                 </div>
               </div>
 
-              <div className="flex flex-col gap-1.5 w-full sm:w-[200px] text-center bg-[#1F2835CC] border border-gray-600 rounded-lg px-2 sm:px-4 py-4 text-white">
-                <span className="text-gray-300 text-xs sm:text-base">Launch Price: </span>
-                <span className="text-[#38DCC8] text-sm sm:text-base">$0.075</span>
-              </div>
-            </div>
-
-            <div className="relative my-8">
+              {/* USD Amount */}
+              <label className="block mb-2">USD Amount:</label>
               <input
-                type="range"
-                min="0"
-                max="19" 
-                step="1"
-                value={sliderValue}
-                onChange={handleSliderChange}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                className="w-full rounded-lg appearance-none h-[14px] sm:h-[20px] slider"  
-                style={{
-                  background: `linear-gradient(to right, #38DCC8 ${
-                    (sliderValue / 19) * 100
-                  }%, #4a5568 ${(sliderValue / 19) * 100}%)`,
-                }}
+                type="text"
+                value={`$${usdAmount.toFixed(2)}`}
+                readOnly
+                className="w-full outline-none flex items-center justify-between px-4 h-[50px] mb-4 rounded-lg bg-gray-900 border border-gray-600 text-white"
               />
 
-              {tooltipVisible && (
-                <div
-                  className="absolute top-[30px] z-30 left-0 transform -translate-x-1/2 bg-gray-800 border border-gray-600 rounded-lg p-2 text-white"
-                  style={{ left: `${(sliderValue / 19) * 100}%` }}
-                >
-                  <div className="text-green-400 text-xs">
-                    ${phases[sliderValue].toFixed(3)}
+              {/* Box for Price and Slider */}
+              <div className="bg-gray-900 w-full rounded-lg p-4 border border-gray-600">
+                <div className="flex  justify-between gap-4">
+                  <div
+                    className="w-full sm:w-[200px] bg-[#1F2835CC] text-white rounded-lg"
+                    style={{ left: `${(sliderValue / 19) * 100}%` }}
+                  >
+                    <div className="card-border-wide w-full h-full p-[0.8px] rounded-lg">
+                      <div className="relative z-[2] px-2 sm:px-4 py-4 rounded-lg gap-1.5 flex items-center flex-col text-center">
+                        <div className="text-gray-300 text-xs sm:text-base">
+                          Presale Phase {sliderValue + 1}
+                        </div>
+                        <div className="text-[#38DCC8] text-sm sm:text-base">
+                          ${phases[sliderValue].toFixed(3)}
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="text-nowrap mt-1.5 text-gray-300 text-xs">
-                    Phase {sliderValue + 1}
+
+                  <div className="w-full sm:w-[200px] bg-[#1F2835CC] rounded-lg">
+                    <div className="card-border-wide w-full h-full p-[0.8px] rounded-lg">
+                      <div className="relative z-[2] px-2 sm:px-4 py-4 rounded-lg gap-1.5 flex items-center flex-col text-center">
+                        <div className="text-gray-300 text-xs sm:text-base"></div>
+                        <span className="text-gray-300 text-xs sm:text-base">
+                          Launch Price:{" "}
+                        </span>
+                        <span className="text-[#38DCC8] text-sm sm:text-base">
+                          $0.075
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              )}
-            </div>
 
-            <button
-              onClick={handleReset}
-              className="w-full bg-red-500 hover:bg-red-700 text-white py-2 rounded"
-            >
-              Reset
-            </button>
+                <div className="relative my-8">
+                  <input
+                    type="range"
+                    min="0"
+                    max="19"
+                    step="1"
+                    value={sliderValue}
+                    onChange={handleSliderChange}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    className="w-full rounded-lg appearance-none h-[10px] sm:h-[20px] slider"
+                    style={{
+                      background: `linear-gradient(to right, #38DCC8 ${
+                        (sliderValue / 19) * 100
+                      }%, #4a5568 ${(sliderValue / 19) * 100}%)`,
+                    }}
+                  />
+
+                  {tooltipVisible && (
+                    <div
+                      className="absolute top-[30px] z-30 left-0 transform -translate-x-1/2 bg-gray-800 border border-gray-600 rounded-lg p-2 text-white"
+                      style={{ left: `${(sliderValue / 19) * 100}%` }}
+                    >
+                      <div className="text-green-400 text-xs">
+                        ${phases[sliderValue].toFixed(3)}
+                      </div>
+                      <div className="text-nowrap mt-1.5 text-gray-300 text-xs">
+                        Phase {sliderValue + 1}
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  onClick={handleReset}
+                  className="w-full bg-red-500 hover:bg-red-700 text-white py-2 rounded-lg transition"
+                >
+                  Reset
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

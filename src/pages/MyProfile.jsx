@@ -22,61 +22,73 @@ export default function MyProfile() {
         </button>
       </header>
 
-      <div className="bg-[#1F2835CC] rounded-lg p-4 mb-6">
-        <div className="flex justify-between items-center mb-2">
-          <span className="text-gray-400">$BBT Holdings</span>
-          <span className="text-gray-400">Wallet Address</span>
-        </div>
-        <div className="flex justify-between items-center">
-          <span className="text-xl sm:text-2xl font-bold">0.00 BBT</span>
-          <div className="flex items-center">
-            <span className="text-blue-400 mr-2 text-sm text-ellipsis overflow-hidden w-[130px] sm:w-full">
-              0x757884044e6df94bab96aba972409317531bef82
+      <div className="card-border-wide p-[1px] w-full mb-6">
+        <div className="bg-[#1F2835CC] rounded-lg p-4 relative z-[2] w-full">
+          <div className="flex justify-between items-center w-full mb-2 sm:text-base text-[15px]">
+            <span className="text-gray-400">$BBT Holdings</span>
+            <span className="text-gray-400">Wallet Address</span>
+          </div>
+          <div className="flex justify-between items-center">
+            <span className="text-lg sm:text-xl md:text-2xl font-bold">
+              0.00 BBT
             </span>
-            <button
-              onClick={() => copyToClipboard(walletAddress)}
-              className="focus:outline-none"
-              aria-label="Copy wallet address"
-            >
-              {copiedText === walletAddress ? (
-                <FaCheck className="h-4 w-4 text-green-400" />
-              ) : (
-                <FaCopy className="h-4 w-4 text-gray-400 hover:text-white" />
-              )}
-            </button>
+            <div className="flex items-center">
+              <span className="text-blue-400 mr-2 text-sm text-ellipsis overflow-hidden w-[130px] sm:w-full">
+                0x757884044e6df94bab96aba972409317531bef82
+              </span>
+              <button
+                onClick={() => copyToClipboard(walletAddress)}
+                className="focus:outline-none"
+                aria-label="Copy wallet address"
+              >
+                {copiedText === walletAddress ? (
+                  <FaCheck className="h-4 w-4 text-green-400" />
+                ) : (
+                  <FaCopy className="h-4 w-4 text-gray-400 hover:text-white" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-        <div className="bg-[#1F2835CC] rounded-lg p-4">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-2">0</h2>
-          <p className="text-gray-400">Your Referral</p>
+        <div className="card-border-wide p-[1px] w-full">
+          <div className="bg-[#1F2835CC] rounded-lg p-4 relative z-[2] w-full">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-2">0</h2>
+            <p className="text-gray-400">Your Referral</p>
+          </div>
         </div>
-        <div className="bg-[#1F2835CC] rounded-lg p-4">
-          <h2 className="text-2xl sm:text-4xl font-bold mb-2">0 BlockBoost</h2>
-          <p className="text-gray-400">Referral Earning</p>
+        <div className="card-border-wide p-[1px] w-full">
+          <div className="bg-[#1F2835CC] rounded-lg p-4 w-full relative z-[2]">
+            <h2 className="text-2xl sm:text-4xl font-bold mb-2">
+              0 BlockBoost
+            </h2>
+            <p className="text-gray-400">Referral Earning</p>
+          </div>
         </div>
       </div>
 
-      <div className="bg-[#1F2835CC] rounded-lg p-4">
-        <h2 className="text-gray-400 mb-2">Referral Link</h2>
-        <div className="flex flex-col space-y-2">
-          <div className="flex justify-between items-center">
-            <span className="text-blue-400 text-sm">
-              https://blockboost.io/buyref=4ca5b4d094
-            </span>
-            <button
-              onClick={() => copyToClipboard(referralLink2)}
-              className="focus:outline-none"
-              aria-label="Copy second referral link"
-            >
-              {copiedText === referralLink2 ? (
-                <FaCheck className="h-4 w-4 text-green-400" />
-              ) : (
-                <FaCopy className="h-4 w-4 text-gray-400 hover:text-white" />
-              )}
-            </button>
+      <div className="card-border-wide p-[1px] w-full">
+        <div className="bg-[#1F2835CC] rounded-lg p-4 w-full relative z-[2]">
+          <h2 className="text-gray-400 mb-2">Referral Link</h2>
+          <div className="flex flex-col space-y-2">
+            <div className="flex justify-between items-center">
+              <span className="text-blue-400 text-sm text-ellipsis overflow-hidden w-[220px] sm:w-full">
+                https://blockboost.io/buyref=4ca5b4d094
+              </span>
+              <button
+                onClick={() => copyToClipboard(referralLink2)}
+                className="focus:outline-none"
+                aria-label="Copy second referral link"
+              >
+                {copiedText === referralLink2 ? (
+                  <FaCheck className="h-4 w-4 text-green-400" />
+                ) : (
+                  <FaCopy className="h-4 w-4 text-gray-400 hover:text-white" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </div>

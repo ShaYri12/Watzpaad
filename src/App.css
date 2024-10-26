@@ -412,46 +412,45 @@
 
 /* Slider CSS */
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;  
-  width: 30px;  
-  height: 30px;  
-  border-radius: 50%;  
-  background: #38DCC8; 
-  cursor: pointer; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);  
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #38dcc8;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .slider::-moz-range-thumb {
-  width: 30px; 
-  height: 30px;  
-  border-radius: 50%;  
-  background: #38DCC8; 
-  cursor: pointer; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);  
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #38dcc8;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .slider::-ms-thumb {
-  width: 30px;  
-  height: 30px; 
-  border-radius: 50%;  
-  background: #38DCC8;  
-  cursor: pointer; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #38dcc8;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .slider::-moz-range-track {
-  background: #4a5568;  
-  height: 4px;  
-  border-radius: 4px;  
+  background: #4a5568;
+  height: 4px;
+  border-radius: 4px;
 }
 
 .slider::-ms-track {
-  background: #4a5568;  
-  height: 4px;  
-  border: none;  
-  color: transparent;  
+  background: #4a5568;
+  height: 4px;
+  border: none;
+  color: transparent;
 }
-
 
 iframe.e-embed-frame {
   width: 100%;
@@ -461,4 +460,21 @@ iframe.e-embed-frame {
   display: block;
   float: none;
   background: white;
+}
+
+@media screen and (max-width: 768px) {
+  .slider::-webkit-slider-thumb {
+    width: 21px;
+    height: 21px;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 21px;
+    height: 21px;
+  }
+
+  .slider::-ms-thumb {
+    width: 21px;
+    height: 21px;
+  }
 }
