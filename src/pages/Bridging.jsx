@@ -6,12 +6,12 @@ const Bridging = () => {
   const { t } = useTranslation("bridging"); // Set up translations for 'bridging' namespace
 
   return (
-    <div className="mt-20 md:mt-0 w-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] pt-[100px] pb-[61px]">
-      <div className="h-[336px] md:h-[360px] lg:h-[400px] w-full overflow-hidden border-2 border-[#303945] rounded-[12px]">
+    <div className="mt-8 md:mt-0 w-full min-h-full flex-1 space-y-[45px] flex-grow md:space-y-[70px] lg:space-y-[100px] max-w-[1280px] mx-auto lg:px-[30px] md:px-[15px] px-[20px] pt-[100px] pb-[61px]">
+      <div className="h-full max-h-[250px] md:max-h-[360px] lg:max-h-[400px] w-full overflow-hidden border-2 border-[#303945] rounded-[12px]">
         <img
-          src="/assets/bridging-lg.png"
+          src="/assets/istockphoto.jpg"
           alt={t("image_alt_text")} // Translated alt text
-          className="h-full w-full object-cover"
+          className="h-full w-full"
         />
       </div>
       <div className="space-y-[30px] text-center md:w-[80%] mx-auto">

@@ -451,3 +451,14 @@
   border: none;  
   color: transparent;  
 }
+
+
+iframe.e-embed-frame {
+  width: 100%;
+  max-width: 840px;
+  min-width: 320px;
+  margin: 0 auto 20px;
+  display: block;
+  float: none;
+  background: white;
+}

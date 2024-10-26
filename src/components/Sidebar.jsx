@@ -10,6 +10,18 @@ const Sidebar = () => {
 
   const menuItems = [
     {
+      name: "My Profile",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
+      link: "/my-profile",
+    },
+    {
+      name: "ROI Calculator",
+      icon: "/assets/icons/bridge-black-icon.svg",
+      activeIcon: "/assets/icons/bridge.png",
+      link: "/rio-calculator",
+    },
+    {
       name: "Earning Manager",
       icon: "/assets/icons/dashboard.svg", // Default icon
       activeIcon: "/assets/icons/dashboard-white-icon.svg", // Icon when active
@@ -32,18 +44,6 @@ const Sidebar = () => {
       icon: "/assets/icons/bridge-black-icon.svg",
       activeIcon: "/assets/icons/bridge.png",
       link: "/bridging",
-    },
-    {
-      name: "ROI Calculator",
-      icon: "/assets/icons/bridge-black-icon.svg",
-      activeIcon: "/assets/icons/bridge.png",
-      link: "/rio-calculator",
-    },
-    {
-      name: "My Profile",
-      icon: "/assets/icons/bridge-black-icon.svg",
-      activeIcon: "/assets/icons/bridge.png",
-      link: "/my-profile",
     },
   ];
 

@@ -65,7 +65,7 @@ const Header = () => {
             <LanguageDropdown />
           </div>
           <Link
-            to="/dashboard"
+            to="/my-profile"
             className="text-black flex items-center text-center justify-center xl:text-[18px] text-[16px] xl:w-[153px] lg:w-[140px] w-[153px] h-[54px] rounded-full border border-primaryColor transition"
             style={{
               background: "linear-gradient(180deg, #3FF5DF 0%, #00DCC2 100%)",

@@ -1,15 +1,20 @@
-import React, { useEffect } from "react";
 import { BsGlobe2 } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
+import React, { useState } from "react";
 
 export default function Win() {
   const { t } = useTranslation("win");
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }, []);
+
+  const [iframeHeight, setIframeHeight] = useState("0px");
+
+  const handleLoad = (event) => {
+    const { contentDocument } = event.target;
+    if (contentDocument) {
+      const height = contentDocument.body.scrollHeight;
+      setIframeHeight(`${height}px`);
+    }
+  };
+
   return (
     <div className="bg-[#09121D]">
       <div className=" z-20 w-full md:pb-[90px] md:pt-[160px] pt-[160px] pb-[56px] block relative">
@@ -148,35 +153,56 @@ export default function Win() {
                   </div>
                   <p className="lg:mt-[15px] mt-[12.89px] text-white lg:text-[27px] text-[23.19px] lg:leading-[31.05px] leading-[26.67px] font-[700]">
                     {t("refer-friends")}{" "}
-                    {/* "Refer Friends and Boost Your Entries" */}
                   </p>
                   <p className="lg:text-[17.41px] text-[14.96px] text-grayish lg:mt-[12.83px] mt-[11px]">
                     {t("earn-entries")}{" "}
-                    {/* "Earn +50 entries for every friend you refer." */}
                   </p>
                 </div>
               </div>
 
               <p className="text-center text-white md:text-[24.65px] text-[19.33px] font-[700]">
                 {t("follow-steps")}{" "}
-                {/* "Follow these steps for your shot at winning $50,000. Good luck! 🌟" */}
               </p>
 
               <div className="flex items-center justify-center gap-[26.38px]">
-                <div
+                {/* <div
                   className="bg-[#1F2835CC] md:rounded-[5.28px] rounded-[4.14px] md:w-[72px] w-[57.94px] md:h-[67px] h-[53.8px] md:min-w-[72px] min-w-[57.94px] md:min-h-[67px] min-h-[53.8px] flex justify-center items-center text-white cursor-pointer transition duration-300 ease-in-out transform hover:scale-105"
-                  onClick={() => {
-                    // Handle onClick action
-                  }}
+                  onClick={() => {}}
                 >
                   <BsGlobe2 className="text-[30px]" />
-                </div>
-                <a
-                  href="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
-                  className="text-grayish md:text-[30.62px] text-[24.02px]"
-                >
-                  https://gleam.io/GmQLU/rexas-millionaire-giveaway
-                </a>
+                </div> */}
+
+                {/* Gleam section */}
+                {/* <div>
+                  <a
+                    href="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
+                    target="_blank"
+                    className="text-grayish md:text-[30.62px] text-[24.02px]"
+                  >
+                    https://gleam.io/GmQLU/rexas-millionaire-giveaway
+                  </a>
+                </div> */}
+              </div>
+              
+
+              <div className="h-[1000px] lg:h-[2000px] relative overflow-hidden">
+                <iframe
+                  id="GleamEmbedGmQLU"
+                  src="https://gleam.io/GmQLU/rexas-millionaire-giveaway"
+                  allow="storage-access *; attribution-reporting *; autoplay *; fullscreen *"
+                  title="Competition"
+                  frameBorder="0"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    position: "relative",
+                    zIndex: 1,
+                    visibility: "visible",
+                    transform: "scale(1)",
+                  }}
+                  className="GleamEmbedGmQLU e-embed-frame"
+                  data-loaded-widget="true"
+                ></iframe>
               </div>
             </div>
           </div>
