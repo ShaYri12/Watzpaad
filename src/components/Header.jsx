@@ -116,7 +116,7 @@ const Header = () => {
                 </NavLink>
               ))}
               <Link
-                to="/dashboard"
+                to="/my-profile"
                 className="text-black text-[18px] py-[15px] flex items-center justify-center px-[36px] rounded-full border border-primaryColor hover:text-white transition mt-2"
                 style={{
                   background:
