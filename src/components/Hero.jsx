@@ -247,7 +247,7 @@ const Hero = () => {
           >
             <div className="card-border w-full h-full p-[2.07px]">
               <div className="px-3.5 py-5 sm:p-5 h-full relative z-[2]">
-                <div className="px-1.5 flex items-center justify-between text-[16px] leading-[16px] font-normal text-center mt-[5px] mb-[15px]">
+                <div className="px-1.5 flex items-center justify-between text-[16px] sm:text-[18px] leading-[16px] font-normal text-center mt-[5px] mb-[15px]">
                   <p>{t("hero.buy-bbt-presale")}</p>
                   <p className="font-semibold">{t("hero.stage")} 1/20</p>
                 </div>
@@ -294,7 +294,7 @@ const Hero = () => {
                 </p>
                 <Slider />
 
-                <h2 className="mt-6 text-center text-grayish text-[17px] leading-[20px] font-bold">
+                <h2 className="mt-6 text-center text-grayish text-[15px] leading-[20px] font-bold">
                   {t("hero.purchased")} $BBT= 0
                 </h2>
                 <div className="flex items-center justify-center mt-3 gap-2">

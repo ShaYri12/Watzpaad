@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import Presale from "../assets/hero-section.png";
+import Presale from "../assets/card-one.png";
 import { useTranslation } from "react-i18next";
 
 const TimelineItem = ({ title, description, id }) => {
