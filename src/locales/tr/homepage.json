@@ -17,7 +17,9 @@
     "days": "Gün",
     "hours": "Saat",
     "minutes": "Dakika",
-    "seconds": "Saniye"
+    "seconds": "Saniye",
+     "buy-bbt-presale": "$BBT Ön Satışını Al",
+      "stage": "AŞAMA"
   },
 
   "ecosystems-utilities": {

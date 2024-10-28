@@ -17,7 +17,9 @@
     "days": "일",
     "hours": "시간",
     "minutes": "분",
-    "seconds": "초"
+    "seconds": "초",
+      "buy-bbt-presale": "$BBT 사전 판매 구매",
+      "stage": "단계"
   },
 
   "ecosystems-utilities": {

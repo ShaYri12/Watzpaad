@@ -17,7 +17,9 @@
     "days": "天",
     "hours": "小时",
     "minutes": "分钟",
-    "seconds": "秒"
+    "seconds": "秒",
+     "buy-bbt-presale": "购买 $BBT 预售",
+      "stage": "阶段"
   },
 
   "ecosystems-utilities": {

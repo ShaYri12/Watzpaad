@@ -247,6 +247,10 @@ const Hero = () => {
           >
             <div className="card-border w-full h-full p-[2.07px]">
               <div className="px-3.5 py-5 sm:p-5 h-full relative z-[2]">
+                <div className="px-1.5 flex items-center justify-between text-[16px] leading-[16px] font-normal text-center mt-[5px] mb-[15px]">
+                  <p>{t("hero.buy-bbt-presale")}</p>
+                  <p className="font-semibold">{t("hero.stage")} 1/20</p>
+                </div>
                 {/* Timer */}
                 <div className="w-full bg-[#111B28] rounded-[10px] md:px-4 px-[9.21px] md:py-4 py-[13.44px]">
                   <div className="flex items-center justify-between">

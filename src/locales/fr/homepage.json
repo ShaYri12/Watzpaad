@@ -17,7 +17,9 @@
     "days": "Jours",
     "hours": "Heures",
     "minutes": "Minutes",
-    "seconds": "Secondes"
+    "seconds": "Secondes",
+    "buy-bbt-presale": "Acheter $BBT Prévente",
+      "stage": "ÉTAPE"
   },
 
   "ecosystems-utilities": {

@@ -17,7 +17,9 @@
     "days": "Дні",
     "hours": "Години",
     "minutes": "Хвилини",
-    "seconds": "Секунди"
+    "seconds": "Секунди",
+    "buy-bbt-presale": "Купити передпродаж $BBT",
+      "stage": "ЕТАП"
   },
 
   "ecosystems-utilities": {

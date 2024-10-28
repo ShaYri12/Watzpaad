@@ -17,7 +17,9 @@
     "days": "วัน",
     "hours": "ชั่วโมง",
     "minutes": "นาที",
-    "seconds": "วินาที"
+    "seconds": "วินาที",
+     "buy-bbt-presale": "ซื้อ $BBT พรีเซล",
+      "stage": "ขั้นตอน"
   },
 
   "ecosystems-utilities": {

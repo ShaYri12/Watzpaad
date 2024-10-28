@@ -17,7 +17,9 @@
     "days": "Dagar",
     "hours": "Timmar",
     "minutes": "Minuter",
-    "seconds": "Sekunder"
+    "seconds": "Sekunder",
+     "buy-bbt-presale": "Köp $BBT Försäljning före lansering",
+      "stage": "STEG"
   },
 
   "ecosystems-utilities": {

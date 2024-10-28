@@ -17,7 +17,9 @@
     "days": "दिन",
     "hours": "घंटे",
     "minutes": "मिनट",
-    "seconds": "सेकंड"
+    "seconds": "सेकंड",
+     "buy-bbt-presale": "$BBT पूर्व-बिक्री खरीदें",
+      "stage": "चरण"
   },
 
   "ecosystems-utilities": {

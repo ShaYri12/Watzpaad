@@ -17,7 +17,9 @@
     "days": "Hari",
     "hours": "Jam",
     "minutes": "Minit",
-    "seconds": "Saat"
+    "seconds": "Saat",
+     "buy-bbt-presale": "Beli $BBT Pratempahan",
+      "stage": "TAHAP"
   },
 
   "ecosystems-utilities": {

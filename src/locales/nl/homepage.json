@@ -17,7 +17,9 @@
     "days": "Dagen",
     "hours": "Uren",
     "minutes": "Minuten",
-    "seconds": "Seconden"
+    "seconds": "Seconden",
+      "buy-bbt-presale": "Koop $BBT Voorverkoop",
+      "stage": "FASE"
   },
 
   "ecosystems-utilities": {

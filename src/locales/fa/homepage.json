@@ -17,7 +17,9 @@
     "days": "روزها",
     "hours": "ساعت‌ها",
     "minutes": "دقیقه‌ها",
-    "seconds": "ثانیه‌ها"
+    "seconds": "ثانیه‌ها",
+      "buy-bbt-presale": "خرید پیش‌فروش $BBT",
+      "stage": "مرحله"
   },
 
   "ecosystems-utilities": {

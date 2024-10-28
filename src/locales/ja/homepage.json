@@ -17,7 +17,9 @@
     "days": "日",
     "hours": "時間",
     "minutes": "分",
-    "seconds": "秒"
+    "seconds": "秒",
+    "buy-bbt-presale": "$BBT 先行販売を購入",
+      "stage": "ステージ"
   },
 
   "ecosystems-utilities": {

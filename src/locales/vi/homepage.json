@@ -17,7 +17,9 @@
     "days": "Ngày",
     "hours": "Giờ",
     "minutes": "Phút",
-    "seconds": "Giây"
+    "seconds": "Giây",
+      "buy-bbt-presale": "Mua $BBT Bán trước",
+      "stage": "GIAI ĐOẠN"
   },
 
   "ecosystems-utilities": {
