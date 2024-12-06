@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi"; // Import burger icon from react-icons
 import { IoMdClose } from "react-icons/io";
-import Logo from "../../public/assets/logo.svg";
+import Logo from "../../public/assets/new-logo-removebg-preview.png";
 import LanguageDropdown from "./LanguageDropdown";
 import { useTranslation } from "react-i18next";
 
@@ -22,7 +22,7 @@ const Header = () => {
           <img
             src={Logo}
             alt="logo"
-            className="xl:w-[233px] lg:w-[200px] md:w-[233px] w-[170px] lg:mb-2"
+            className="w-[130px] md:w-[150px]"
           />
         </Link>
 
